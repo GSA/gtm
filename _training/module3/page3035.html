@@ -33,7 +33,7 @@
 <script src="trivantis-strings.js"></script>
 <script>
 
-<!-- 
+<!--
 var trivPageScope = {};
 var pgID = 'page3035';
 trivWeb20Popups = true;
@@ -215,7 +215,7 @@ function loadActions(){
 }
 function postPageShowAction(){
   if ( trivPageTracking.GetRangeStatus(3035) == 'notstarted' ) trivPageTracking.SetRangeStatus(3035,2);
-}  
+}
 
 var trivGoToPage = null
 var trivCompleteCnt = 1;
@@ -226,8 +226,8 @@ var trivPageExited = false;
 var trivInTest = false;
 
 function finish() {
-   if (window.finishCalled) return; 
-    window.finishCalled = true; 
+   if (window.finishCalled) return;
+    window.finishCalled = true;
 }
 
 function trivOnFocus() {
@@ -296,7 +296,7 @@ function OnDeviceRotate() {
 }
 
 function action5991(fn){
-    trivExitPage('page3058.html',true); 
+    trivExitPage('page3058.html',true);
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -305,12 +305,26 @@ function button5990onUp() {
   action5991();
 }
 
+function action6029(fn){
+    if( text178162.eatOnUp==true ){
+        text178162.eatOnUp=false;
+        return;
+    }
+    trivExitPage('page118818.html',false);
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function text178162onUp() {
+  action6029();
+}
+
 function action5993(fn){
     if( text5992.eatOnUp==true ){
         text5992.eatOnUp=false;
         return;
     }
-    trivExitPage('page3058.html',true); 
+    trivExitPage('page3058.html',true);
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -437,9 +451,12 @@ text178162.initHasMargin(0)
 text178162.addIe8Attr(79, 555, 61, 22, 0, 0)
 text178162.addHeading(0)
 text178162.addOpacity(100)
+text178162.onUp = text178162onUp
+text178162.hasOnUp = true
+text178162.capture=4
 text178162.arrCSSStyles = new Array();
 text178162.arrCSSStyles.push('span.text178162Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text178162.addInnerText('<div id=\"text178162\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text178162Font1\"  >BACK\n</span ></p >\n</div>\n');
+text178162.addInnerText('<div id=\"text178162\" aria-hidden=\"true\" ><a id=\"text178162anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text178162Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text178162Font1\"  >BACK\n</span ></p >\n</div>\n');
 text178162.build()
 
 progress178094 = new ObjProgress('progress178094','',65,522,878,20,1,18,1,7,'#07648d','images/progress178094_bar.png','#ffffff','images/progress178094.png',1,41,0,0,0,1,VarProgressBar_0004.getValue(),'div',0 )

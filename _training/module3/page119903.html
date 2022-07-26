@@ -33,7 +33,7 @@
 <script src="trivantis-strings.js"></script>
 <script>
 
-<!-- 
+<!--
 var trivPageScope = {};
 var pgID = 'page119903';
 trivWeb20Popups = true;
@@ -215,7 +215,7 @@ function loadActions(){
 }
 function postPageShowAction(){
   if ( trivPageTracking.GetRangeStatus(119903) == 'notstarted' ) trivPageTracking.SetRangeStatus(119903,2);
-}  
+}
 
 var trivGoToPage = null
 var trivCompleteCnt = 1;
@@ -226,8 +226,8 @@ var trivPageExited = false;
 var trivInTest = false;
 
 function finish() {
-   if (window.finishCalled) return; 
-    window.finishCalled = true; 
+   if (window.finishCalled) return;
+    window.finishCalled = true;
 }
 
 function trivOnFocus() {
@@ -296,7 +296,7 @@ function OnDeviceRotate() {
 }
 
 function action5991(fn){
-    trivExitPage('page119924.html',true); 
+    trivExitPage('page119924.html',true);
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -310,7 +310,7 @@ function action5993(fn){
         text5992.eatOnUp=false;
         return;
     }
-    trivExitPage('page119924.html',true); 
+    trivExitPage('page119924.html',true);
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -320,7 +320,7 @@ function text5992onUp() {
 }
 
 function action160271(fn){
-    trivExitPage( 'history.back()' ); 
+    trivExitPage( 'history.back()' );
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -334,7 +334,7 @@ function action160273(fn){
         text160272.eatOnUp=false;
         return;
     }
-    trivExitPage( 'history.back()' ); 
+    trivExitPage('page1555.html',false);
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
