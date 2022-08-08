@@ -8,6 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="utf-8" />
 <title>Review Proposed Costs: Fringe Benefits Question</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:wght@200;300;400;500;600;700">
 
 <link rel="stylesheet" href="trivantis.css" type="text/css"/>
 <link rel="stylesheet" href="dialog.css" type="text/css"/>
@@ -152,6 +153,7 @@ VarLesson_3_Test_17_Score = new Variable( 'VarLesson_3_Test_17_Score', '0', 0, 0
 VarLesson_2_Section_3_Test_Score = new Variable( 'VarLesson_2_Section_3_Test_Score', '0', 0, 0, null, null, 'module3' )
 VarLession_2_Section_2_Test_Score = new Variable( 'VarLession_2_Section_2_Test_Score', '0', 0, 0, null, null, 'module3' )
 VarLesson_2_Section_1_Test_Score = new Variable( 'VarLesson_2_Section_1_Test_Score', '0', 0, 0, null, null, 'module3' )
+VarProgressBar_0027 = new Variable( 'VarProgressBar_0027', '24', 0, 0, null, null, 'module3', false )
 VarProgressBar_0032 = new Variable( 'VarProgressBar_0032', '29', 0, 0, null, null, 'module3', false )
 
 onload = init;
@@ -172,11 +174,12 @@ function init11() {
       }
     }
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text74510,image1612,progress179059,text118468,og101242,button101249,text101251,og101231,button101238,text101240,text71143,text69403,shape71141,shape71139,shape71137,shape71135,qu71110,text71111,text71112,radio71113,text71114,radio71115,qu71103,text71104,text71105,radio71106,text71107,radio71108,qu71096,text71097,text71098,radio71099,text71100,radio71101,button71093))
+    PreloadResources(new Array(text74510,image1612,progress179008,progress179059,text118468,og101242,button101249,text101251,og101231,button101238,text101240,text71143,text69403,shape71141,shape71139,shape71137,shape71135,qu71110,text71111,text71112,radio71113,text71114,radio71115,qu71103,text71104,text71105,radio71106,text71107,radio71108,qu71096,text71097,text71098,radio71099,text71100,radio71101,button71093))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text74510.init()
     image1612.init()
+    progress179008.init()
     progress179059.init()
     text118468.init()
     og101242.init()
@@ -212,6 +215,7 @@ function init11() {
     button71093.init()
     text74510.activate()
     image1612.activate()
+    progress179008.activate()
     progress179059.activate()
     text118468.activate()
     og101242.activate()
@@ -560,7 +564,7 @@ function button71093onUp() {
 }
 
 if( is.min ){
-text74510 = new ObjText('text74510',null,253,553,505,30,1,46,null,'div',null,0 )
+text74510 = new ObjText('text74510',null,253,553,505,30,1,48,null,'div',null,0 )
 text74510.initSLine(0)
 text74510.initHasBullet(0)
 text74510.initRotateAngle(0,0,0)
@@ -578,7 +582,7 @@ text74510.arrCSSStyles.push('span.text74510Font2 { font-size:12px; font-family:"
 text74510.addInnerText('<div id=\"text74510\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text74510Font1\"  >LESSON 3: THE COST PRINCIPLES IN PRACTICE</span ><span class=\"text74510Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text74510.build()
 
-image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,2,'div',null, 0 )
+image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,3,'div',null, 0 )
 image1612.initRotateAngle(0,0,0,0,0,0,0)
 image1612.initHasShadow(0)
 image1612.initHasReflection(0)
@@ -588,10 +592,13 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-progress179059 = new ObjProgress('progress179059','',65,522,878,20,1,18,1,3,'#07648d','images/progress179059_bar.png','#ffffff','images/progress179059.png',1,41,0,0,0,1,VarProgressBar_0032.getValue(),'div',0 )
+progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,4,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
+progress179008.build()
+
+progress179059 = new ObjProgress('progress179059','',65,522,878,20,1,18,1,5,'#07648d','images/progress179059_bar.png','#ffffff','images/progress179059.png',1,41,0,0,0,1,VarProgressBar_0032.getValue(),'div',0 )
 progress179059.build()
 
-text118468 = new ObjText('text118468',null,651,523,31,23,1,4,null,'div',null,0 )
+text118468 = new ObjText('text118468',null,651,523,31,23,1,6,null,'div',null,0 )
 text118468.initSLine(1)
 text118468.initHasBullet(0)
 text118468.initRotateAngle(0,0,0)
@@ -615,7 +622,7 @@ og101242.addChild('button101249')
 og101242.addChild('text101251')
 og101242.build()
 
-button101249 = new ObjButton('button101249', 'prev',884,567,65.000000,25.000000,1,5,'div','',1,0)
+button101249 = new ObjButton('button101249', 'Next Page',884,567,65.000000,25.000000,1,7,'div','',1,0)
 button101249.setUseSvgFile(1)
 button101249.setFillStyle(17)
 button101249.setUniqueFillID('page71044_button101249')
@@ -639,7 +646,7 @@ button101249.bOverEnabled = true;
 button101249.bDownEnabled = true;
 button101249.build()
 
-text101251 = new ObjText('text101251',null,878,555,51,18,1,6,null,'div',null,0 )
+text101251 = new ObjText('text101251',null,878,555,51,18,1,8,null,'div',null,0 )
 text101251.initSLine(1)
 text101251.initHasBullet(0)
 text101251.initRotateAngle(0,0,0)
@@ -665,7 +672,7 @@ og101231.addChild('button101238')
 og101231.addChild('text101240')
 og101231.build()
 
-button101238 = new ObjButton('button101238', 'Button 3',59,568,65.000000,24.000000,1,7,'div','',1,0)
+button101238 = new ObjButton('button101238', 'Previous Page',59,568,65.000000,24.000000,1,9,'div','',1,0)
 button101238.setUseSvgFile(1)
 button101238.setFillStyle(17)
 button101238.setUniqueFillID('page71044_button101238')
@@ -689,7 +696,7 @@ button101238.bOverEnabled = true;
 button101238.bDownEnabled = true;
 button101238.build()
 
-text101240 = new ObjText('text101240',null,78,555,61,22,1,8,null,'div',null,0 )
+text101240 = new ObjText('text101240',null,78,555,61,22,1,10,null,'div',null,0 )
 text101240.initSLine(0)
 text101240.initHasBullet(0)
 text101240.initRotateAngle(0,0,0)
@@ -709,7 +716,7 @@ text101240.arrCSSStyles.push('span.text101240Font1 { font-size:16px; font-family
 text101240.addInnerText('<div id=\"text101240\" aria-hidden=\"true\" ><a id=\"text101240anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text101240Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text101240Font1\"  >BACK\n</span ></p >\n</div></div>\n');
 text101240.build()
 
-text71143 = new ObjText('text71143',null,64,148,872,52,1,9,null,'div',null,0 )
+text71143 = new ObjText('text71143',null,64,148,872,52,1,11,null,'div',null,0 )
 text71143.initSLine(0)
 text71143.initHasBullet(0)
 text71143.initRotateAngle(0,0,0)
@@ -726,7 +733,7 @@ text71143.arrCSSStyles.push('span.text71143Font1 { font-size:19px; font-family:"
 text71143.addInnerText('<div id=\"text71143\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71143Font1\"  >REVIEW PROPOSED COSTS\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text71143.build()
 
-text69403 = new ObjText('text69403',null,60,182,880,59,1,10,null,'div',null,0 )
+text69403 = new ObjText('text69403',null,60,182,880,59,1,12,null,'div',null,0 )
 text69403.initSLine(0)
 text69403.initHasBullet(0)
 text69403.initRotateAngle(0,0,0)
@@ -745,7 +752,7 @@ text69403.arrCSSStyles.push('span.text69403Font3 { font-size:19px; font-family:"
 text69403.addInnerText('<div id=\"text69403\" aria-hidden=\"true\" ><p  legLH=\"1.127\" style=\"margin-left:10px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text69403Font1\"  >FRINGE BENEFITS\n</span ></p >\n<p  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text69403Font2\"  >Proposed Cost: 50 percent of time spent on this project for a total cost of $200,000</span ><span class=\"text69403Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text69403.build()
 
-shape71141 = new ObjImage('shape71141','images/shape71141.png','Rectangle 50',74,253,152.000000,38.000000,1,11,'div','',0 )
+shape71141 = new ObjImage('shape71141','images/shape71141.png','Rectangle 50',74,253,152.000000,38.000000,1,13,'div','',0 )
 shape71141.initRotateAngle(0,0,0,-0.000000,-0.000000,151,37)
 shape71141.initHasShadow(0)
 shape71141.initHasReflection(0)
@@ -758,7 +765,7 @@ shape71141.initLineWeight(0)
 shape71141.addOpacity(100)
 shape71141.build()
 
-shape71139 = new ObjImage('shape71139','images/shape71139.png','Rectangle 43',74,301,152.000000,39.000000,1,12,'div','',0 )
+shape71139 = new ObjImage('shape71139','images/shape71139.png','Rectangle 43',74,301,152.000000,39.000000,1,14,'div','',0 )
 shape71139.initRotateAngle(0,0,0,-0.000000,-0.000000,151,38)
 shape71139.initHasShadow(0)
 shape71139.initHasReflection(0)
@@ -771,7 +778,7 @@ shape71139.initLineWeight(0)
 shape71139.addOpacity(100)
 shape71139.build()
 
-shape71137 = new ObjImage('shape71137','images/shape71137.png','Rectangle 45',74,348,152.000000,39.000000,1,13,'div','',0 )
+shape71137 = new ObjImage('shape71137','images/shape71137.png','Rectangle 45',74,348,152.000000,39.000000,1,15,'div','',0 )
 shape71137.initRotateAngle(0,0,0,-0.000000,-0.000000,151,38)
 shape71137.initHasShadow(0)
 shape71137.initHasReflection(0)
@@ -784,7 +791,7 @@ shape71137.initLineWeight(0)
 shape71137.addOpacity(100)
 shape71137.build()
 
-shape71135 = new ObjImage('shape71135','images/shape71135.png','Rectangle 88',458,461,91.000000,44.000000,1,14,'div','',0 )
+shape71135 = new ObjImage('shape71135','images/shape71135.png','Rectangle 88',458,461,91.000000,44.000000,1,16,'div','',0 )
 shape71135.initRotateAngle(0,0,0,-0.000000,-0.000000,90,43)
 shape71135.initHasShadow(0)
 shape71135.initHasReflection(0)
@@ -807,7 +814,7 @@ qu71110.addChild('radio71115')
 qu71110.ansVar=VarQuestion_0033;
 qu71110.build()
 
-text71111 = new ObjText('text71111',null,95,265,104,20,1,15,null,'div',null,0 )
+text71111 = new ObjText('text71111',null,95,264,104,20,1,17,null,'div',null,0 )
 text71111.initSLine(1)
 text71111.initHasBullet(0)
 text71111.initRotateAngle(0,0,0)
@@ -816,7 +823,7 @@ text71111.initHasTextShadow(0)
 text71111.initHasBorder(0)
 text71111.initHasOutline(0)
 text71111.initHasMargin(0)
-text71111.addIe8Attr(95, 265, 104, 20, 0, 0)
+text71111.addIe8Attr(95, 264, 104, 20, 0, 0)
 text71111.addHeading(0)
 text71111.addOpacity(100)
 text71111.arrCSSStyles = new Array();
@@ -825,7 +832,7 @@ text71111.arrCSSStyles.push('span.text71111Font2 { font-size:16px; font-family:"
 text71111.addInnerText('<legend><div id=\"text71111\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71111Font1\"  >Allowable</span ><span class=\"text71111Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n</legend>\n');
 text71111.build()
 
-text71112 = new ObjText('text71112',null,260,264,42,22,1,16,null,'div',null,0 )
+text71112 = new ObjText('text71112',null,260,264,42,22,1,18,null,'div',null,0 )
 text71112.initSLine(1)
 text71112.initHasBullet(0)
 text71112.initRotateAngle(0,0,0)
@@ -842,12 +849,12 @@ text71112.arrCSSStyles.push('span.text71112Font1 { font-size:16px; font-family:"
 text71112.addInnerText('<div id=\"text71112\" aria-hidden=\"true\" ><label id=\"label71113id\" for=\"radio71113id\" onClick=\"Update_qu71110(radio71113id.value);\"><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71112Font1\"  >Yes\n</span ></p >\n</label></div>\n');
 text71112.build()
 
-radio71113 = new ObjInline('radio71113',null,(is.ie?303:302),(is.ie?262:261),null,null,1,17, 0, null, null, 0)
+radio71113 = new ObjInline('radio71113',null,(is.ie?303:302),(is.ie?262:261),null,null,1,19, 0, null, null, 0)
 radio71113.arrCSSStyles = new Array();
 radio71113.arrCSSStyles.push('');
 radio71113.build()
 
-text71114 = new ObjText('text71114',null,382,262,40,21,1,18,null,'div',null,0 )
+text71114 = new ObjText('text71114',null,382,262,40,21,1,20,null,'div',null,0 )
 text71114.initSLine(1)
 text71114.initHasBullet(0)
 text71114.initRotateAngle(0,0,0)
@@ -864,7 +871,7 @@ text71114.arrCSSStyles.push('span.text71114Font1 { font-size:16px; font-family:"
 text71114.addInnerText('<div id=\"text71114\" aria-hidden=\"true\" ><label id=\"label71115id\" for=\"radio71115id\" onClick=\"Update_qu71110(radio71115id.value);\"><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71114Font1\"  >No\n</span ></p >\n</label></div>\n');
 text71114.build()
 
-radio71115 = new ObjInline('radio71115',null,(is.ie?427:426),(is.ie?260:259),null,null,1,19, 0, null, null, 0)
+radio71115 = new ObjInline('radio71115',null,(is.ie?427:426),(is.ie?260:259),null,null,1,21, 0, null, null, 0)
 radio71115.arrCSSStyles = new Array();
 radio71115.arrCSSStyles.push('');
 radio71115.build()
@@ -879,7 +886,7 @@ qu71103.addChild('radio71108')
 qu71103.ansVar=VarQuestion_0032;
 qu71103.build()
 
-text71104 = new ObjText('text71104',null,93,313,107,19,1,20,null,'div',null,0 )
+text71104 = new ObjText('text71104',null,93,312,107,19,1,22,null,'div',null,0 )
 text71104.initSLine(1)
 text71104.initHasBullet(0)
 text71104.initRotateAngle(0,0,0)
@@ -888,7 +895,7 @@ text71104.initHasTextShadow(0)
 text71104.initHasBorder(0)
 text71104.initHasOutline(0)
 text71104.initHasMargin(0)
-text71104.addIe8Attr(93, 313, 107, 19, 0, 0)
+text71104.addIe8Attr(93, 312, 107, 19, 0, 0)
 text71104.addHeading(0)
 text71104.addOpacity(100)
 text71104.arrCSSStyles = new Array();
@@ -897,7 +904,7 @@ text71104.arrCSSStyles.push('span.text71104Font2 { font-size:16px; font-family:"
 text71104.addInnerText('<legend><div id=\"text71104\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71104Font1\"  >Reasonable</span ><span class=\"text71104Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n</legend>\n');
 text71104.build()
 
-text71105 = new ObjText('text71105',null,259,313,49,22,1,21,null,'div',null,0 )
+text71105 = new ObjText('text71105',null,259,313,49,22,1,23,null,'div',null,0 )
 text71105.initSLine(1)
 text71105.initHasBullet(0)
 text71105.initRotateAngle(0,0,0)
@@ -914,12 +921,12 @@ text71105.arrCSSStyles.push('span.text71105Font1 { font-size:16px; font-family:"
 text71105.addInnerText('<div id=\"text71105\" aria-hidden=\"true\" ><label id=\"label71106id\" for=\"radio71106id\" onClick=\"Update_qu71103(radio71106id.value);\"><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71105Font1\"  >Yes\n</span ></p >\n</label></div>\n');
 text71105.build()
 
-radio71106 = new ObjInline('radio71106',null,(is.ie?303:302),(is.ie?310:309),null,null,1,22, 0, null, null, 0)
+radio71106 = new ObjInline('radio71106',null,(is.ie?303:302),(is.ie?310:309),null,null,1,24, 0, null, null, 0)
 radio71106.arrCSSStyles = new Array();
 radio71106.arrCSSStyles.push('');
 radio71106.build()
 
-text71107 = new ObjText('text71107',null,382,311,47,24,1,23,null,'div',null,0 )
+text71107 = new ObjText('text71107',null,382,311,47,24,1,25,null,'div',null,0 )
 text71107.initSLine(1)
 text71107.initHasBullet(0)
 text71107.initRotateAngle(0,0,0)
@@ -936,7 +943,7 @@ text71107.arrCSSStyles.push('span.text71107Font1 { font-size:16px; font-family:"
 text71107.addInnerText('<div id=\"text71107\" aria-hidden=\"true\" ><label id=\"label71108id\" for=\"radio71108id\" onClick=\"Update_qu71103(radio71108id.value);\"><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71107Font1\"  >No\n</span ></p >\n</label></div>\n');
 text71107.build()
 
-radio71108 = new ObjInline('radio71108',null,(is.ie?427:426),(is.ie?310:309),null,null,1,24, 0, null, null, 0)
+radio71108 = new ObjInline('radio71108',null,(is.ie?427:426),(is.ie?310:309),null,null,1,26, 0, null, null, 0)
 radio71108.arrCSSStyles = new Array();
 radio71108.arrCSSStyles.push('');
 radio71108.build()
@@ -951,7 +958,7 @@ qu71096.addChild('radio71101')
 qu71096.ansVar=VarQuestion_0031;
 qu71096.build()
 
-text71097 = new ObjText('text71097',null,95,360,96,27,1,25,null,'div',null,0 )
+text71097 = new ObjText('text71097',null,95,359,96,27,1,27,null,'div',null,0 )
 text71097.initSLine(1)
 text71097.initHasBullet(0)
 text71097.initRotateAngle(0,0,0)
@@ -960,7 +967,7 @@ text71097.initHasTextShadow(0)
 text71097.initHasBorder(0)
 text71097.initHasOutline(0)
 text71097.initHasMargin(0)
-text71097.addIe8Attr(95, 360, 96, 27, 0, 0)
+text71097.addIe8Attr(95, 359, 96, 27, 0, 0)
 text71097.addHeading(0)
 text71097.addOpacity(100)
 text71097.arrCSSStyles = new Array();
@@ -969,7 +976,7 @@ text71097.arrCSSStyles.push('span.text71097Font2 { font-size:16px; font-family:"
 text71097.addInnerText('<legend><div id=\"text71097\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71097Font1\"  >Allocable</span ><span class=\"text71097Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n</legend>\n');
 text71097.build()
 
-text71098 = new ObjText('text71098',null,258,362,47,26,1,26,null,'div',null,0 )
+text71098 = new ObjText('text71098',null,258,362,47,26,1,28,null,'div',null,0 )
 text71098.initSLine(1)
 text71098.initHasBullet(0)
 text71098.initRotateAngle(0,0,0)
@@ -986,12 +993,12 @@ text71098.arrCSSStyles.push('span.text71098Font1 { font-size:16px; font-family:"
 text71098.addInnerText('<div id=\"text71098\" aria-hidden=\"true\" ><label id=\"label71099id\" for=\"radio71099id\" onClick=\"Update_qu71096(radio71099id.value);\"><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71098Font1\"  >Yes\n</span ></p >\n</label></div>\n');
 text71098.build()
 
-radio71099 = new ObjInline('radio71099',null,(is.ie?303:302),(is.ie?358:357),null,null,1,27, 0, null, null, 0)
+radio71099 = new ObjInline('radio71099',null,(is.ie?303:302),(is.ie?358:357),null,null,1,29, 0, null, null, 0)
 radio71099.arrCSSStyles = new Array();
 radio71099.arrCSSStyles.push('');
 radio71099.build()
 
-text71100 = new ObjText('text71100',null,383,362,42,23,1,28,null,'div',null,0 )
+text71100 = new ObjText('text71100',null,383,362,42,23,1,30,null,'div',null,0 )
 text71100.initSLine(1)
 text71100.initHasBullet(0)
 text71100.initRotateAngle(0,0,0)
@@ -1008,12 +1015,12 @@ text71100.arrCSSStyles.push('span.text71100Font1 { font-size:16px; font-family:"
 text71100.addInnerText('<div id=\"text71100\" aria-hidden=\"true\" ><label id=\"label71101id\" for=\"radio71101id\" onClick=\"Update_qu71096(radio71101id.value);\"><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text71100Font1\"  >No\n</span ></p >\n</label></div>\n');
 text71100.build()
 
-radio71101 = new ObjInline('radio71101',null,(is.ie?427:426),(is.ie?358:357),null,null,1,29, 0, null, null, 0)
+radio71101 = new ObjInline('radio71101',null,(is.ie?427:426),(is.ie?358:357),null,null,1,31, 0, null, null, 0)
 radio71101.arrCSSStyles = new Array();
 radio71101.arrCSSStyles.push('');
 radio71101.build()
 
-button71093 = new ObjButton('button71093', 'SUBMIT',447,464,111.000000,41.000000,1,30,'div','',1,0)
+button71093 = new ObjButton('button71093', 'SUBMIT',447,462,111.000000,41.000000,1,32,'div','',1,0)
 button71093.setUseSvgFile(1)
 button71093.setFillStyle(17)
 button71093.setUniqueFillID('page71044_button71093')
@@ -1042,6 +1049,7 @@ button71093.build()
 var trivQuestionArray=[qu71110,qu71103,qu71096];
 arObjs.push(text74510);
 arObjs.push(image1612);
+arObjs.push(progress179008);
 arObjs.push(progress179059);
 arObjs.push(text118468);
 arObjs.push(og101242);
@@ -1104,6 +1112,7 @@ if( is.min ){
 if( is.min ){
     appendElement(text74510, null, null);
     appendElement(image1612, null, null);
+    appendElement(progress179008, null, null);
     appendElement(progress179059, null, null);
     appendElement(text118468, null, null);
     appendElement(button101249, null, null);

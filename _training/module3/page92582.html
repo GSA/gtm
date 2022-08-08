@@ -8,6 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="utf-8" />
 <title>Per Diem Question Failed</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:wght@200;300;400;500;600;700">
 
 <link rel="stylesheet" href="trivantis.css" type="text/css"/>
 <link rel="stylesheet" href="dialog.css" type="text/css"/>
@@ -25,6 +26,7 @@
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-button.js"></script>
 <script src="trivantis-image.js"></script>
+<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-trans.js"></script>
@@ -118,7 +120,33 @@ function ReFlow() {
 
 var arVariables = [];
 
+AICC_Score = new Variable( 'AICC_Score', '', 0, 0, null, null, 'module3', false )
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
+VarLesson_1_Test_Score = new Variable( 'VarLesson_1_Test_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_1_Score = new Variable( 'VarLesson_3_Test_1_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_3_Score = new Variable( 'VarLesson_3_Test_3_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_2_Score = new Variable( 'VarLesson_3_Test_2_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_4_Score = new Variable( 'VarLesson_3_Test_4_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_5_Score = new Variable( 'VarLesson_3_Test_5_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_6_Score = new Variable( 'VarLesson_3_Test_6_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_7_Score = new Variable( 'VarLesson_3_Test_7_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_8_Score = new Variable( 'VarLesson_3_Test_8_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_9_Score = new Variable( 'VarLesson_3_Test_9_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_10_Score = new Variable( 'VarLesson_3_Test_10_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_11_Score = new Variable( 'VarLesson_3_Test_11_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_12_Score = new Variable( 'VarLesson_3_Test_12_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_13_Score = new Variable( 'VarLesson_3_Test_13_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_14_Score = new Variable( 'VarLesson_3_Test_14_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_15_Score = new Variable( 'VarLesson_3_Test_15_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_16_Score = new Variable( 'VarLesson_3_Test_16_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_3_Test_17_Score = new Variable( 'VarLesson_3_Test_17_Score', '0', 0, 0, null, null, 'module3' )
+VarQuestion_0040 = new Variable( 'VarQuestion_0040', '', 0, 0, null, null, 'module3', false )
+VarQuestion_0041 = new Variable( 'VarQuestion_0041', '', 0, 0, null, null, 'module3', false )
+VarQuestion_0042 = new Variable( 'VarQuestion_0042', '', 0, 0, null, null, 'module3', false )
+VarLesson_2_Section_3_Test_Score = new Variable( 'VarLesson_2_Section_3_Test_Score', '0', 0, 0, null, null, 'module3' )
+VarLession_2_Section_2_Test_Score = new Variable( 'VarLession_2_Section_2_Test_Score', '0', 0, 0, null, null, 'module3' )
+VarLesson_2_Section_1_Test_Score = new Variable( 'VarLesson_2_Section_1_Test_Score', '0', 0, 0, null, null, 'module3' )
+VarProgressBar_0027 = new Variable( 'VarProgressBar_0027', '24', 0, 0, null, null, 'module3', false )
 
 onload = init;
 (window.myTop || window).onunload = finish
@@ -138,7 +166,7 @@ function init11() {
       }
     }
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text92583,image1612,og45568,button5990,text5992,og44006,button6026,text6028,text92584,text92585,shape92587,shape92589,shape92591,shape92593,og96718,text96719,text96720,text96721,text96722,image96724,text96725,image96727,text96728,image96730,shape92596,shape92598,shape92600,text92601,image92603,text92605,image92607,image92609,image92611))
+    PreloadResources(new Array(text92583,image1612,og45568,button5990,text5992,og44006,button6026,text6028,progress179008,text92584,text92585,shape92587,shape92589,shape92591,shape92593,og96718,text96719,text96720,text96721,text96722,image96724,text96725,image96727,text96728,image96730,shape92596,shape92598,shape92600,text92601,image92603,text92605,image92607,image92609,image92611,button239374))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text92583.init()
@@ -149,6 +177,7 @@ function init11() {
     og44006.init()
     button6026.init()
     text6028.init()
+    progress179008.init()
     text92584.init()
     text92585.init()
     shape92587.init()
@@ -174,6 +203,7 @@ function init11() {
     image92607.init()
     image92609.init()
     image92611.init()
+    button239374.init()
     text92583.activate()
     image1612.activate()
     og45568.activate()
@@ -182,6 +212,7 @@ function init11() {
     og44006.activate()
     button6026.activate()
     text6028.activate()
+    progress179008.activate()
     text92584.activate()
     text92585.activate()
     shape92587.activate()
@@ -207,10 +238,13 @@ function init11() {
     image92607.activate()
     image92609.activate()
     image92611.activate()
+    button239374.activate()
 button5990.strCookieState = (trivBtnTracking.GetRangeStatus(5990,true));
 button5990.loadStateFromSes("normalState");
 button6026.strCookieState = (trivBtnTracking.GetRangeStatus(6026,true));
 button6026.loadStateFromSes("normalState");
+button239374.strCookieState = (trivBtnTracking.GetRangeStatus(239374,true));
+button239374.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -254,10 +288,13 @@ var trivActFBCnt = 0;
 var currFeedbackIdx = 0;
 var trivPageExited = false;
 var trivInTest = true;
+var bInProcessTest = false;
+var resWind = null;
 
 function finish() {
    if (window.finishCalled) return; 
     window.finishCalled = true; 
+  if( resWind != null && resWind != 'waiting' ) resWind.close()
 }
 
 function trivOnFocus() {
@@ -271,7 +308,13 @@ function checkLeavePage() {
         currFeedbackIdx++;
         if( currFeedbackIdx > -1)
         {
-            trivLeavePage();
+            if( bInProcessTest )
+            {
+              bInProcessTest = false;
+              processTest(1);
+            }
+            else
+              trivLeavePage();
           return;
         }
         else if( !checkQuestions( true ))
@@ -329,6 +372,56 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( !bFeedback ) currFeedbackIdx = 0;
 
   return 1
+}
+
+function finishTest( score ) {
+  var titleMgr = getTitleMgrHandle()
+  if( titleMgr ) {
+    var gotoPage = titleMgr.getProcessTestResult( 'test71483' )
+    if( gotoPage && gotoPage != '' ) {
+      if( score ) afterProcessTest( score, 'VarLesson_3_Test_8_Score' )
+      trivExitPage( gotoPage, false )
+    }
+    else if( !gotoPage ) {
+      setTimeout( "finishTest()", 1000 )
+    }
+    else {
+      trivExitPage( 'page3035.html', false )
+    }
+  }
+}
+
+function processTest(bCheck) {
+  if( bCheck )
+  if( bCheck )
+  {
+    if( !checkQuestions( 1 ))
+    {
+      bInProcessTest = true;
+      return
+    }
+    if( currFeedbackIdx < 0)
+    {
+      bInProcessTest = true;
+      setTimeout( "checkLeavePage()", 100 )
+      return
+    }
+  }
+
+  var titleMgr = getTitleMgrHandle()
+  if( titleMgr ) {
+    if( VarQuestion_0040.f > 0 ) VarQuestion_0040.uDT(); else VarQuestion_0040.getValue();
+    if( VarQuestion_0041.f > 0 ) VarQuestion_0041.uDT(); else VarQuestion_0041.getValue();
+    if( VarQuestion_0042.f > 0 ) VarQuestion_0042.uDT(); else VarQuestion_0042.getValue();
+    VarLesson_3_Test_8_Score.set( titleMgr.GetTestScore( 'test71483' ))
+    var score = parseInt( VarLesson_3_Test_8_Score.getValue() )
+    titleMgr.processTest( 'test71483' )
+  if ( titleMgr.GetIfTestPassed( 'test71483' ) ) {
+    trivPageTracking.SetRangeStatus(71483,2)
+    if ( window.UpdateIndicators ) UpdateIndicators()
+}
+    finishTest( score )
+  }
 }
 
 function OnDeviceRotate() {
@@ -393,8 +486,18 @@ function image92603onUp() {
   action92604();
 }
 
+function action239375(fn){
+    processTest(1);
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button239374onUp() {
+  action239375();
+}
+
 if( is.min ){
-text92583 = new ObjText('text92583',null,253,553,505,30,1,44,null,'div',null,0 )
+text92583 = new ObjText('text92583',null,253,553,505,30,1,47,null,'div',null,0 )
 text92583.initSLine(0)
 text92583.initHasBullet(0)
 text92583.initRotateAngle(0,0,0)
@@ -412,7 +515,7 @@ text92583.arrCSSStyles.push('span.text92583Font2 { font-size:12px; font-family:"
 text92583.addInnerText('<div id=\"text92583\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text92583Font1\"  >LESSON 3: THE COST PRINCIPLES IN PRACTICE</span ><span class=\"text92583Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text92583.build()
 
-image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,2,'div',null, 0 )
+image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,3,'div',null, 0 )
 image1612.initRotateAngle(0,0,0,0,0,0,0)
 image1612.initHasShadow(0)
 image1612.initHasReflection(0)
@@ -428,7 +531,7 @@ og45568.addChild('button5990')
 og45568.addChild('text5992')
 og45568.build()
 
-button5990 = new ObjButton('button5990', 'prev',884,567,65.000000,25.000000,1,3,'div','',1,0)
+button5990 = new ObjButton('button5990', 'Next Page',884,567,65.000000,25.000000,1,4,'div','',1,0)
 button5990.setUseSvgFile(1)
 button5990.setFillStyle(17)
 button5990.setUniqueFillID('page92582_button5990')
@@ -452,7 +555,7 @@ button5990.bOverEnabled = true;
 button5990.bDownEnabled = true;
 button5990.build()
 
-text5992 = new ObjText('text5992',null,878,555,51,18,1,4,null,'div',null,0 )
+text5992 = new ObjText('text5992',null,878,555,51,18,1,5,null,'div',null,0 )
 text5992.initSLine(1)
 text5992.initHasBullet(0)
 text5992.initRotateAngle(0,0,0)
@@ -478,7 +581,7 @@ og44006.addChild('button6026')
 og44006.addChild('text6028')
 og44006.build()
 
-button6026 = new ObjButton('button6026', 'Button 3',60,568,65.000000,24.000000,1,5,'div','',1,0)
+button6026 = new ObjButton('button6026', 'Pevious Page',60,568,65.000000,24.000000,1,6,'div','',1,0)
 button6026.setUseSvgFile(1)
 button6026.setFillStyle(17)
 button6026.setUniqueFillID('page92582_button6026')
@@ -502,7 +605,7 @@ button6026.bOverEnabled = true;
 button6026.bDownEnabled = true;
 button6026.build()
 
-text6028 = new ObjText('text6028',null,79,555,61,22,1,6,null,'div',null,0 )
+text6028 = new ObjText('text6028',null,79,555,61,22,1,7,null,'div',null,0 )
 text6028.initSLine(0)
 text6028.initHasBullet(0)
 text6028.initRotateAngle(0,0,0)
@@ -522,7 +625,10 @@ text6028.arrCSSStyles.push('span.text6028Font1 { font-size:16px; font-family:"Ar
 text6028.addInnerText('<div id=\"text6028\" aria-hidden=\"true\" ><a id=\"text6028anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text6028Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text6028Font1\"  >BACK\n</span ></p >\n</div></div>\n');
 text6028.build()
 
-text92584 = new ObjText('text92584',null,68,145,880,44,1,7,null,'div',null,0 )
+progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,8,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
+progress179008.build()
+
+text92584 = new ObjText('text92584',null,68,145,880,44,1,9,null,'div',null,0 )
 text92584.initSLine(0)
 text92584.initHasBullet(0)
 text92584.initRotateAngle(0,0,0)
@@ -539,7 +645,7 @@ text92584.arrCSSStyles.push('span.text92584Font1 { font-size:19px; font-family:"
 text92584.addInnerText('<div id=\"text92584\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92584Font1\"  >REVIEW PROPOSED COSTS\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text92584.build()
 
-text92585 = new ObjText('text92585',null,64,182,880,54,1,8,null,'div',null,0 )
+text92585 = new ObjText('text92585',null,64,182,880,54,1,10,null,'div',null,0 )
 text92585.initSLine(0)
 text92585.initHasBullet(0)
 text92585.initRotateAngle(0,0,0)
@@ -558,7 +664,7 @@ text92585.arrCSSStyles.push('span.text92585Font3 { font-size:19px; font-family:"
 text92585.addInnerText('<div id=\"text92585\" aria-hidden=\"true\" ><p  legLH=\"1.127\" style=\"margin-left:10px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92585Font1\"  >PER DIEM\n</span ></p >\n<p  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92585Font2\"  >Proposed Cost: Adjusted for locality so proposed cost of $980 (14 days in the field x $35/day x 2 biologists)</span ><span class=\"text92585Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text92585.build()
 
-shape92587 = new ObjImage('shape92587','images/shape92587.png','Rectangle 50',74,253,152.000000,38.000000,1,9,'div','',0 )
+shape92587 = new ObjImage('shape92587','images/shape92587.png','Rectangle 50',74,253,152.000000,38.000000,1,11,'div','',0 )
 shape92587.initRotateAngle(0,0,0,-0.000000,-0.000000,151,37)
 shape92587.initHasShadow(0)
 shape92587.initHasReflection(0)
@@ -571,7 +677,7 @@ shape92587.initLineWeight(0)
 shape92587.addOpacity(100)
 shape92587.build()
 
-shape92589 = new ObjImage('shape92589','images/shape92589.png','Rectangle 43',74,301,152.000000,39.000000,1,10,'div','',0 )
+shape92589 = new ObjImage('shape92589','images/shape92589.png','Rectangle 43',74,301,152.000000,39.000000,1,12,'div','',0 )
 shape92589.initRotateAngle(0,0,0,-0.000000,-0.000000,151,38)
 shape92589.initHasShadow(0)
 shape92589.initHasReflection(0)
@@ -584,7 +690,7 @@ shape92589.initLineWeight(0)
 shape92589.addOpacity(100)
 shape92589.build()
 
-shape92591 = new ObjImage('shape92591','images/shape92591.png','Rectangle 45',74,348,152.000000,39.000000,1,11,'div','',0 )
+shape92591 = new ObjImage('shape92591','images/shape92591.png','Rectangle 45',74,348,152.000000,39.000000,1,13,'div','',0 )
 shape92591.initRotateAngle(0,0,0,-0.000000,-0.000000,151,38)
 shape92591.initHasShadow(0)
 shape92591.initHasReflection(0)
@@ -597,7 +703,7 @@ shape92591.initLineWeight(0)
 shape92591.addOpacity(100)
 shape92591.build()
 
-shape92593 = new ObjImage('shape92593','images/shape92593.png','Rectangle 88',458,461,91.000000,44.000000,1,12,'div','',0 )
+shape92593 = new ObjImage('shape92593','images/shape92593.png','Rectangle 88',458,461,91.000000,44.000000,1,14,'div','',0 )
 shape92593.initRotateAngle(0,0,0,-0.000000,-0.000000,90,43)
 shape92593.initHasShadow(0)
 shape92593.initHasReflection(0)
@@ -623,7 +729,7 @@ og96718.addChild('text96728')
 og96718.addChild('image96730')
 og96718.build()
 
-text96719 = new ObjText('text96719',null,94,264,96,27,1,13,null,'div',null,0 )
+text96719 = new ObjText('text96719',null,94,264,96,27,1,15,null,'div',null,0 )
 text96719.initSLine(1)
 text96719.initHasBullet(0)
 text96719.initRotateAngle(0,0,0)
@@ -641,7 +747,7 @@ text96719.arrCSSStyles.push('span.text96719Font2 { font-size:16px; font-family:"
 text96719.addInnerText('<div id=\"text96719\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96719Font1\"  >Allowable</span ><span class=\"text96719Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text96719.build()
 
-text96720 = new ObjText('text96720',null,94,312,96,27,1,14,null,'div',null,0 )
+text96720 = new ObjText('text96720',null,94,312,96,27,1,16,null,'div',null,0 )
 text96720.initSLine(1)
 text96720.initHasBullet(0)
 text96720.initRotateAngle(0,0,0)
@@ -659,7 +765,7 @@ text96720.arrCSSStyles.push('span.text96720Font2 { font-size:16px; font-family:"
 text96720.addInnerText('<div id=\"text96720\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96720Font1\"  >Reasonable</span ><span class=\"text96720Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text96720.build()
 
-text96721 = new ObjText('text96721',null,94,359,96,27,1,15,null,'div',null,0 )
+text96721 = new ObjText('text96721',null,94,359,96,27,1,17,null,'div',null,0 )
 text96721.initSLine(1)
 text96721.initHasBullet(0)
 text96721.initRotateAngle(0,0,0)
@@ -677,7 +783,7 @@ text96721.arrCSSStyles.push('span.text96721Font2 { font-size:16px; font-family:"
 text96721.addInnerText('<div id=\"text96721\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96721Font1\"  >Allocable</span ><span class=\"text96721Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text96721.build()
 
-text96722 = new ObjText('text96722',null,258,263,39,20,1,16,null,'div',null,0 )
+text96722 = new ObjText('text96722',null,258,263,39,20,1,18,null,'div',null,0 )
 text96722.initSLine(1)
 text96722.initHasBullet(0)
 text96722.initRotateAngle(0,0,0)
@@ -694,7 +800,7 @@ text96722.arrCSSStyles.push('span.text96722Font1 { font-size:16px; font-family:"
 text96722.addInnerText('<div id=\"text96722\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96722Font1\"  >Yes\n</span ></p >\n</div>\n');
 text96722.build()
 
-image96724 = new ObjImage('image96724','images/asset_5.png','Asset 5',303,261,22,22,1,17,'div',null, 0 )
+image96724 = new ObjImage('image96724','images/asset_5.png','Asset 5',303,261,22,22,1,19,'div',null, 0 )
 image96724.initRotateAngle(0,0,0,0,0,0,0)
 image96724.initHasShadow(0)
 image96724.initHasReflection(0)
@@ -704,7 +810,7 @@ image96724.addBorder(0)
 image96724.addOpacity(100)
 image96724.build()
 
-text96725 = new ObjText('text96725',null,258,311,39,20,1,18,null,'div',null,0 )
+text96725 = new ObjText('text96725',null,258,311,39,20,1,20,null,'div',null,0 )
 text96725.initSLine(1)
 text96725.initHasBullet(0)
 text96725.initRotateAngle(0,0,0)
@@ -721,7 +827,7 @@ text96725.arrCSSStyles.push('span.text96725Font1 { font-size:16px; font-family:"
 text96725.addInnerText('<div id=\"text96725\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96725Font1\"  >Yes\n</span ></p >\n</div>\n');
 text96725.build()
 
-image96727 = new ObjImage('image96727','images/asset_5.png','Asset 5',303,307,22,22,1,19,'div',null, 0 )
+image96727 = new ObjImage('image96727','images/asset_5.png','Asset 5',303,307,22,22,1,21,'div',null, 0 )
 image96727.initRotateAngle(0,0,0,0,0,0,0)
 image96727.initHasShadow(0)
 image96727.initHasReflection(0)
@@ -731,7 +837,7 @@ image96727.addBorder(0)
 image96727.addOpacity(100)
 image96727.build()
 
-text96728 = new ObjText('text96728',null,258,358,39,20,1,20,null,'div',null,0 )
+text96728 = new ObjText('text96728',null,258,358,39,20,1,22,null,'div',null,0 )
 text96728.initSLine(1)
 text96728.initHasBullet(0)
 text96728.initRotateAngle(0,0,0)
@@ -748,7 +854,7 @@ text96728.arrCSSStyles.push('span.text96728Font1 { font-size:16px; font-family:"
 text96728.addInnerText('<div id=\"text96728\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96728Font1\"  >Yes\n</span ></p >\n</div>\n');
 text96728.build()
 
-image96730 = new ObjImage('image96730','images/asset_5.png','Asset 5',303,356,22,22,1,21,'div',null, 0 )
+image96730 = new ObjImage('image96730','images/asset_5.png','Asset 5',303,356,22,22,1,23,'div',null, 0 )
 image96730.initRotateAngle(0,0,0,0,0,0,0)
 image96730.initHasShadow(0)
 image96730.initHasReflection(0)
@@ -758,7 +864,7 @@ image96730.addBorder(0)
 image96730.addOpacity(100)
 image96730.build()
 
-shape92596 = new ObjImage('shape92596','images/shape92596.png','Rectangle 28',0,0,1010.000000,601.000000,1,22,'div','',0 )
+shape92596 = new ObjImage('shape92596','images/shape92596.png','Rectangle 28',0,0,1010.000000,601.000000,1,24,'div','',0 )
 shape92596.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,600)
 shape92596.initHasShadow(0)
 shape92596.initHasReflection(0)
@@ -771,7 +877,7 @@ shape92596.initLineWeight(0)
 shape92596.addOpacity(25)
 shape92596.build()
 
-shape92598 = new ObjImage('shape92598','images/shape92598.png','Rectangle 30',343,187,324.000000,258.000000,1,23,'div','',0 )
+shape92598 = new ObjImage('shape92598','images/shape92598.png','Rectangle 30',343,187,324.000000,258.000000,1,25,'div','',0 )
 shape92598.initRotateAngle(0,0,0,-0.000000,-0.000000,323,257)
 shape92598.initHasShadow(1)
 shape92598.initHasReflection(0)
@@ -785,7 +891,7 @@ shape92598.initLineWeight(2)
 shape92598.addOpacity(100)
 shape92598.build()
 
-shape92600 = new ObjImage('shape92600','images/shape92600.png','Rectangle 31',343,187,115.000000,44.000000,1,24,'div','',0 )
+shape92600 = new ObjImage('shape92600','images/shape92600.png','Rectangle 31',343,187,115.000000,44.000000,1,26,'div','',0 )
 shape92600.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape92600.initHasShadow(0)
 shape92600.initHasReflection(0)
@@ -798,7 +904,7 @@ shape92600.initLineWeight(0)
 shape92600.addOpacity(100)
 shape92600.build()
 
-text92601 = new ObjText('text92601',null,358,197,82,27,1,25,null,'div',null,0 )
+text92601 = new ObjText('text92601',null,370,196,82,27,1,27,null,'div',null,0 )
 text92601.initSLine(1)
 text92601.initHasBullet(0)
 text92601.initRotateAngle(0,0,0)
@@ -807,7 +913,7 @@ text92601.initHasTextShadow(0)
 text92601.initHasBorder(0)
 text92601.initHasOutline(0)
 text92601.initHasMargin(0)
-text92601.addIe8Attr(358, 197, 82, 27, 0, 0)
+text92601.addIe8Attr(370, 196, 82, 27, 0, 0)
 text92601.addHeading(0)
 text92601.addOpacity(100)
 text92601.arrCSSStyles = new Array();
@@ -815,7 +921,7 @@ text92601.arrCSSStyles.push('span.text92601Font1 { font-size:16px; font-family:"
 text92601.addInnerText('<div id=\"text92601\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92601Font1\"  >FEEDBACK\n</span ></p >\n</div>\n');
 text92601.build()
 
-image92603 = new ObjImage('image92603','images/image0047.png','Picture 35',627,195,29,29,1,26,'div',null, 0 )
+image92603 = new ObjImage('image92603','images/image0047.png','Picture 35',627,195,29,29,1,28,'div',null, 0 )
 image92603.initRotateAngle(0,0,0,0,0,0,0)
 image92603.initHasShadow(0)
 image92603.initHasReflection(0)
@@ -828,7 +934,7 @@ image92603.hasOnUp = true
 image92603.capture=4
 image92603.build()
 
-text92605 = new ObjText('text92605',null,362,250,282,197,1,27,null,'div',null,0 )
+text92605 = new ObjText('text92605',null,362,250,282,197,1,29,null,'div',null,0 )
 text92605.initSLine(0)
 text92605.initHasBullet(0)
 text92605.initRotateAngle(0,0,0)
@@ -849,7 +955,7 @@ text92605.arrCSSStyles.push('span.text92605Font5 { font-size:13px; font-family:"
 text92605.addInnerText('<div id=\"text92605\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92605Font1\"  >Incorrect.</span ><span class=\"text92605Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92605Font3\"  >This cost is:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92605Font4\"  >Allowable\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92605Font4\"  >Reasonable\n</span ></p >\n<p  style=\"margin-left:41px;text-indent:0px;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92605Font4\"  >Allocable</span ><span class=\"text92605Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text92605.build()
 
-image92607 = new ObjImage('image92607','images/image0062.png','Picture 34',367,305,26,26,1,28,'div',null, 0 )
+image92607 = new ObjImage('image92607','images/image0062.png','Picture 34',367,305,26,26,1,30,'div',null, 0 )
 image92607.initRotateAngle(0,0,0,0,0,0,0)
 image92607.initHasShadow(0)
 image92607.initHasReflection(0)
@@ -859,17 +965,17 @@ image92607.addBorder(0)
 image92607.addOpacity(100)
 image92607.build()
 
-image92609 = new ObjImage('image92609','images/image0062.png','Picture 36',367,344,26,26,1,29,'div',null, 0 )
+image92609 = new ObjImage('image92609','images/image0062.png','Picture 36',367,341,26,26,1,31,'div',null, 0 )
 image92609.initRotateAngle(0,0,0,0,0,0,0)
 image92609.initHasShadow(0)
 image92609.initHasReflection(0)
-image92609.addIe8Attr(367, 344, 26, 26, 0, 0)
+image92609.addIe8Attr(367, 341, 26, 26, 0, 0)
 image92609.initImageMap(1,'0,0,26,0,26,26,0,26,0,0','M 0 0 L 26 0 L 26 26 L 0 26 L 0 0 z')
 image92609.addBorder(0)
 image92609.addOpacity(100)
 image92609.build()
 
-image92611 = new ObjImage('image92611','images/image0062.png','Picture 37',367,379,26,26,1,30,'div',null, 0 )
+image92611 = new ObjImage('image92611','images/image0062.png','Picture 37',367,379,26,26,1,32,'div',null, 0 )
 image92611.initRotateAngle(0,0,0,0,0,0,0)
 image92611.initHasShadow(0)
 image92611.initHasReflection(0)
@@ -879,6 +985,32 @@ image92611.addBorder(0)
 image92611.addOpacity(100)
 image92611.build()
 
+button239374 = new ObjButton('button239374', 'SUBMIT',447,462,111.000000,41.000000,1,33,'div','',1,0)
+button239374.setUseSvgFile(1)
+button239374.setFillStyle(17)
+button239374.setUniqueFillID('page92582_button239374')
+button239374.initRotateAngle(0,0,0,-0.000000,-0.000000,110,40)
+button239374.initHasShadow(0)
+button239374.initHasReflection(0)
+button239374.setImages({"disabledState":"images/button239374_disabled.png","downState":"images/button239374_down.png","normalState":"images/button239374.png","overState":"images/button239374_over.png","selectedState":"images/button239374_selected.png","visitedState":"images/button239374_visited.png"});
+button239374.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
+button239374.addOpacity(100)
+button239374.initImageMap('0,0,110,0,110,40,0,40,0,0','M 0.000000 0.000000 L 110.000000 0.000000 L 110.000000 40.000000 L 0.000000 40.000000 L 0.000000 0.000000 z')
+button239374.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
+button239374.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
+button239374.rebuildDefs();
+button239374.initLineWeight('0')
+button239374.onUp = button239374onUp
+button239374.hasOnUp = true
+button239374.capture=4
+button239374.setTextVal({"disabledState":{"div":"div.button239374disabledStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button239374disabledStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"downState":{"div":"div.button239374downStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button239374downStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"normalState":{"div":"div.button239374Text { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button239374Text { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"overState":{"div":"div.button239374overStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button239374overStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"selectedState":{"div":"div.button239374selectedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button239374selectedStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"visitedState":{"div":"div.button239374visitedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button239374visitedStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"}});
+button239374.text = 'SUBMIT'
+button239374.bSelectedEnabled = false;
+button239374.bVisitedEnabled = false;
+button239374.bOverEnabled = true;
+button239374.bDownEnabled = true;
+button239374.build()
+
 arObjs.push(text92583);
 arObjs.push(image1612);
 arObjs.push(og45568);
@@ -887,6 +1019,7 @@ arObjs.push(text5992);
 arObjs.push(og44006);
 arObjs.push(button6026);
 arObjs.push(text6028);
+arObjs.push(progress179008);
 arObjs.push(text92584);
 arObjs.push(text92585);
 arObjs.push(shape92587);
@@ -912,6 +1045,7 @@ arObjs.push(text92605);
 arObjs.push(image92607);
 arObjs.push(image92609);
 arObjs.push(image92611);
+arObjs.push(button239374);
 
 
 writeStyleSheets(arObjs);}
@@ -946,6 +1080,7 @@ if( is.min ){
     appendElement(text5992, null, null);
     appendElement(button6026, null, null);
     appendElement(text6028, null, null);
+    appendElement(progress179008, null, null);
     appendElement(text92584, null, null);
     appendElement(text92585, null, null);
     appendElement(shape92587, null, null);
@@ -970,6 +1105,7 @@ if( is.min ){
     appendElement(image92607, null, null);
     appendElement(image92609, null, null);
     appendElement(image92611, null, null);
+    appendElement(button239374, null, null);
 }
 </script>
 
