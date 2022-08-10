@@ -23,7 +23,6 @@
 <script src="es6-promise-2.0.0.min.js"></script>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
-<script src="trivantis-button.js"></script>
 <script src="trivantis-image.js"></script>
 <script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
@@ -129,17 +128,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text67,image1612,og45568,button5990,text5992,og44006,button6026,text6028,progress62539,text187608,text116304,text446,text447,shape448,shape450,text10306,text10151,text452))
+    PreloadResources(new Array(text67,image250446,image250438,image1612,progress62539,text187608,text116304,text446,text447,shape448,shape450,text10306,text10151,text452))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text67.init()
+    image250446.init()
+    image250438.init()
     image1612.init()
-    og45568.init()
-    button5990.init()
-    text5992.init()
-    og44006.init()
-    button6026.init()
-    text6028.init()
     progress62539.init()
     text187608.init()
     text116304.init()
@@ -151,13 +146,9 @@ function init11() {
     text10151.init()
     text452.init()
     text67.activate()
+    image250446.activate()
+    image250438.activate()
     image1612.activate()
-    og45568.activate()
-    button5990.activate()
-    text5992.activate()
-    og44006.activate()
-    button6026.activate()
-    text6028.activate()
     progress62539.activate()
     text187608.activate()
     text116304.activate()
@@ -168,10 +159,6 @@ function init11() {
     text10306.activate()
     text10151.activate()
     text452.activate()
-button5990.strCookieState = (trivBtnTracking.GetRangeStatus(5990,true));
-button5990.loadStateFromSes("normalState");
-button6026.strCookieState = (trivBtnTracking.GetRangeStatus(6026,true));
-button6026.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -287,56 +274,28 @@ function OnDeviceRotate() {
 
 }
 
-function action5991(fn){
+function action250648(fn){
     trivExitPage('page455.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button5990onUp() {
-  action5991();
+function image250446onUp() {
+  action250648();
 }
 
-function action5993(fn){
-    if( text5992.eatOnUp==true ){
-        text5992.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page455.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text5992onUp() {
-  action5993();
-}
-
-function action6027(fn){
+function action250695(fn){
     trivExitPage('page427.html',false); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button6026onUp() {
-  action6027();
-}
-
-function action6029(fn){
-    if( text6028.eatOnUp==true ){
-        text6028.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page427.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text6028onUp() {
-  action6029();
+function image250438onUp() {
+  action250695();
 }
 
 if( is.min ){
-text67 = new ObjText('text67',null,253,553,505,30,1,30,null,'div',null,0 )
+text67 = new ObjText('text67',null,253,553,505,30,1,26,null,'div',null,0 )
 text67.initSLine(0)
 text67.initHasBullet(0)
 text67.initRotateAngle(0,0,0)
@@ -354,7 +313,33 @@ text67.arrCSSStyles.push('span.text67Font2 { font-size:12px; font-family:"Arial"
 text67.addInnerText('<div id=\"text67\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text67Font1\"  >LESSON 1: GENERAL PROVISIONS AND BASIC CONSIDERATIONS</span ><span class=\"text67Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text67.build()
 
-image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,3,'div',null, 0 )
+image250446 = new ObjImage('image250446','images/next-button.png','Next Page',870,554,80,33,1,2,'div',null, 0 )
+image250446.initRotateAngle(0,0,0,0,0,0,0)
+image250446.initHasShadow(0)
+image250446.initHasReflection(0)
+image250446.addIe8Attr(870, 554, 80, 33, 0, 0)
+image250446.initImageMap(1,'0,0,80,0,80,33,0,33,0,0','M 0 0 L 80 0 L 80 33 L 0 33 L 0 0 z')
+image250446.addBorder(0)
+image250446.addOpacity(100)
+image250446.onUp = image250446onUp
+image250446.hasOnUp = true
+image250446.capture=4
+image250446.build()
+
+image250438 = new ObjImage('image250438','images/back-button.png','Previous Page',58,554,80,32,1,3,'div',null, 0 )
+image250438.initRotateAngle(0,0,0,0,0,0,0)
+image250438.initHasShadow(0)
+image250438.initHasReflection(0)
+image250438.addIe8Attr(58, 554, 80, 32, 0, 0)
+image250438.initImageMap(1,'0,0,80,0,80,32,0,32,0,0','M 0 0 L 80 0 L 80 32 L 0 32 L 0 0 z')
+image250438.addBorder(0)
+image250438.addOpacity(100)
+image250438.onUp = image250438onUp
+image250438.hasOnUp = true
+image250438.capture=4
+image250438.build()
+
+image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,5,'div',null, 0 )
 image1612.initRotateAngle(0,0,0,0,0,0,0)
 image1612.initHasShadow(0)
 image1612.initHasReflection(0)
@@ -364,111 +349,11 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-og45568 = new ObjInline('og45568',null,0,0,948,591,1,0)
-og45568.isGrp = true
-og45568.addChild('button5990')
-og45568.addChild('text5992')
-og45568.build()
-
-button5990 = new ObjButton('button5990', 'Next Page',884,567,65.000000,25.000000,1,4,'div','',1,0)
-button5990.setUseSvgFile(1)
-button5990.setFillStyle(17)
-button5990.setUniqueFillID('page444_button5990')
-button5990.initRotateAngle(180,0,0,-0.000000,-0.000000,64,24)
-button5990.initHasShadow(0)
-button5990.initHasReflection(0)
-button5990.setImages({"disabledState":"images/button5990_disabled.png","downState":"images/button5990_down.png","normalState":"images/button5990.png","overState":"images/button5990_over.png","selectedState":"images/button5990_selected.png","visitedState":"images/button5990_visited.png"});
-button5990.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button5990.addOpacity(100)
-button5990.initImageMap('0,0,64,0,64,24,0,24,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 24.000000 L 0.000000 24.000000 L 0.000000 0.000000 z')
-button5990.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button5990.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button5990_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button5990_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button5990_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button5990_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button5990\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button5990)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button5990_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button5990_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button5990_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button5990_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button5990_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button5990_visitedState)"}});
-button5990.rebuildDefs();
-button5990.initLineWeight('0')
-button5990.onUp = button5990onUp
-button5990.hasOnUp = true
-button5990.capture=4
-button5990.bSelectedEnabled = false;
-button5990.bVisitedEnabled = false;
-button5990.bOverEnabled = true;
-button5990.bDownEnabled = true;
-button5990.build()
-
-text5992 = new ObjText('text5992',null,878,555,51,18,1,5,null,'div',null,0 )
-text5992.initSLine(1)
-text5992.initHasBullet(0)
-text5992.initRotateAngle(0,0,0)
-text5992.initHasOuterShadow(0)
-text5992.initHasTextShadow(0)
-text5992.initHasBorder(0)
-text5992.initHasOutline(0)
-text5992.initHasMargin(0)
-text5992.addIe8Attr(878, 555, 51, 18, 0, 0)
-text5992.addHeading(0)
-text5992.addOpacity(100)
-text5992.onUp = text5992onUp
-text5992.hasOnUp = true
-text5992.capture=4
-text5992.arrCSSStyles = new Array();
-text5992.arrCSSStyles.push('span.text5992Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text5992.addInnerText('<div id=\"text5992\" aria-hidden=\"true\" ><a id=\"text5992anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text5992Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text5992Font1\"  >NEXT\n</span ></p >\n</div></div>\n');
-text5992.build()
-
-og44006 = new ObjInline('og44006',null,0,0,140,591,1,0)
-og44006.isGrp = true
-og44006.addChild('button6026')
-og44006.addChild('text6028')
-og44006.build()
-
-button6026 = new ObjButton('button6026', 'Pevious Page',60,568,65.000000,24.000000,1,6,'div','',1,0)
-button6026.setUseSvgFile(1)
-button6026.setFillStyle(17)
-button6026.setUniqueFillID('page444_button6026')
-button6026.initRotateAngle(0,0,0,-0.000000,-0.000000,64,23)
-button6026.initHasShadow(0)
-button6026.initHasReflection(0)
-button6026.setImages({"disabledState":"images/button6026_disabled.png","downState":"images/button6026_down.png","normalState":"images/button6026.png","overState":"images/button6026_over.png","selectedState":"images/button6026_selected.png","visitedState":"images/button6026_visited.png"});
-button6026.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button6026.addOpacity(100)
-button6026.initImageMap('0,0,64,0,64,23,0,23,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 23.000000 L 0.000000 23.000000 L 0.000000 0.000000 z')
-button6026.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button6026.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button6026_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button6026_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button6026_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button6026_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button6026\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button6026)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button6026_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button6026_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button6026_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button6026_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page444_button6026_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page444_button6026_visitedState)"}});
-button6026.rebuildDefs();
-button6026.initLineWeight('0')
-button6026.onUp = button6026onUp
-button6026.hasOnUp = true
-button6026.capture=4
-button6026.bSelectedEnabled = false;
-button6026.bVisitedEnabled = false;
-button6026.bOverEnabled = true;
-button6026.bDownEnabled = true;
-button6026.build()
-
-text6028 = new ObjText('text6028',null,79,555,61,22,1,7,null,'div',null,0 )
-text6028.initSLine(0)
-text6028.initHasBullet(0)
-text6028.initRotateAngle(0,0,0)
-text6028.initHasOuterShadow(0)
-text6028.initHasTextShadow(0)
-text6028.initHasBorder(0)
-text6028.initHasOutline(0)
-text6028.initHasMargin(0)
-text6028.addIe8Attr(79, 555, 61, 22, 0, 0)
-text6028.addHeading(0)
-text6028.addOpacity(100)
-text6028.onUp = text6028onUp
-text6028.hasOnUp = true
-text6028.capture=4
-text6028.arrCSSStyles = new Array();
-text6028.arrCSSStyles.push('span.text6028Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text6028.addInnerText('<div id=\"text6028\" aria-hidden=\"true\" ><a id=\"text6028anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text6028Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text6028Font1\"  >BACK\n</span ></p >\n</div></div>\n');
-text6028.build()
-
-progress62539 = new ObjProgress('progress62539','',65,522,878,20,1,18,1,8,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,37,0,0,0,0,0,'div',0 )
+progress62539 = new ObjProgress('progress62539','',65,522,878,20,1,18,1,6,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,37,0,0,0,0,0,'div',0 )
 progress62539.actionSetPos(13)
 progress62539.build()
 
-text187608 = new ObjText('text187608',null,431,181,353,338,1,9,null,'div',null,0 )
+text187608 = new ObjText('text187608',null,431,181,353,338,1,7,null,'div',null,0 )
 text187608.initSLine(0)
 text187608.initHasBullet(1)
 text187608.initRotateAngle(0,0,0)
@@ -490,7 +375,7 @@ text187608.arrCSSStyles.push('li.text187608Font4 { font-size:16px; font-family:"
 text187608.addInnerText('<div id=\"text187608\" aria-hidden=\"true\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text187608Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text187608CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text187608Font1\"  >Is this cost charged consistently? A cost may not be assigned to a Federal award as a direct cost if any other cost incurred for the same purpose in like circumstances has been allocated to the Federal award as an indirect cost.\n</span ></li >\n<li  class=\"text187608Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text187608CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text187608Font1\"  >Are costs determined in accordance with generally accepted accounting principles?\n</span ></li >\n<li  class=\"text187608Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text187608CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text187608Font1\"  >Is the cost used to meet the matching or cost sharing requirement of another Federal award? If yes, then the cost cannot be used again for a different Federal award.\n</span ></li >\n<li  class=\"text187608Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text187608CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text187608Font1\"  >Is the cost adequately documented?\n</span ></li >\n</ul >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text187608Font1\"  >Sections 200.420 through 200.475 of Subpart E also provide additional guidance by designating specific cost items as either “allowable” or “unallowable.”</span ><span class=\"text187608Font3\"  > </span ><span class=\"text187608Font4\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text187608.build()
 
-text116304 = new ObjText('text116304',null,342,523,31,23,1,10,null,'div',null,0 )
+text116304 = new ObjText('text116304',null,342,523,31,23,1,8,null,'div',null,0 )
 text116304.initSLine(1)
 text116304.initHasBullet(0)
 text116304.initRotateAngle(0,0,0)
@@ -508,7 +393,7 @@ text116304.arrCSSStyles.push('span.text116304Font2 { font-size:16px; font-family
 text116304.addInnerText('<div id=\"text116304\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text116304Font1\"  >34%</span ><span class=\"text116304Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text116304.build()
 
-text446 = new ObjText('text446',null,63,141,746,44,1,11,null,'div',null,0 )
+text446 = new ObjText('text446',null,63,141,746,44,1,9,null,'div',null,0 )
 text446.initSLine(0)
 text446.initHasBullet(0)
 text446.initRotateAngle(0,0,0)
@@ -525,7 +410,7 @@ text446.arrCSSStyles.push('span.text446Font1 { font-size:19px; font-family:"Oswa
 text446.addInnerText('<div id=\"text446\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text446Font1\"  >200.403: ALLOWABLE COSTS\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text446.build()
 
-text447 = new ObjText('text447',null,60,181,343,336,1,12,null,'div',null,0 )
+text447 = new ObjText('text447',null,60,181,343,336,1,10,null,'div',null,0 )
 text447.initSLine(0)
 text447.initHasBullet(1)
 text447.initRotateAngle(0,0,0)
@@ -543,7 +428,7 @@ text447.arrCSSStyles.push('li.text447Font1 { font-size:15px; font-family:"Arial"
 text447.addInnerText('<div id=\"text447\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:13px;text-align:left;\" >\n<span class=\"text447Font1\"  >The cost principles describe the criteria that must be met for a cost to be considered “allowable” and, therefore, chargeable to the award. All allowable costs must meet certain criteria. So, when you are considering whether a cost can be charged, here are some questions to think about:\n</span ></p >\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text447Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text447CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text447Font1\"  >Is the cost necessary and reasonable for the work of the award?\n</span ></li >\n<li  class=\"text447Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text447CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text447Font1\"  >Is the expense in compliance with laws, regulations, statutory authorization of the program, and terms of the award? This can include the type of charge and the amount of each charge.\n</span ></li >\n<li  class=\"text447Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text447CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text447Font1\"  >Is the cost consistent with the policies and procedures applied to all the non-Federal entity’s activities (Not just for this award)?\n</span ></li >\n</ul >\n</div>\n');
 text447.build()
 
-shape448 = new ObjImage('shape448','images/shape448.png','Rectangle 7',825,121,184.000000,388.000000,1,13,'div','',0 )
+shape448 = new ObjImage('shape448','images/shape448.png','Rectangle 7',825,121,184.000000,388.000000,1,11,'div','',0 )
 shape448.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape448.initHasShadow(0)
 shape448.initHasReflection(0)
@@ -556,7 +441,7 @@ shape448.initLineWeight(0)
 shape448.addOpacity(100)
 shape448.build()
 
-shape450 = new ObjImage('shape450','images/shape450.png','Rectangle 9',813,192,195.000000,68.000000,1,14,'div','',0 )
+shape450 = new ObjImage('shape450','images/shape450.png','Rectangle 9',813,192,195.000000,68.000000,1,12,'div','',0 )
 shape450.initRotateAngle(0,0,0,-0.000000,-0.000000,194,67)
 shape450.initHasShadow(0)
 shape450.initHasReflection(0)
@@ -569,7 +454,7 @@ shape450.initLineWeight(0)
 shape450.addOpacity(100)
 shape450.build()
 
-text10306 = new ObjText('text10306',null,849,144,71,56,1,15,null,'div',null,0 )
+text10306 = new ObjText('text10306',null,849,144,71,56,1,13,null,'div',null,0 )
 text10306.initSLine(0)
 text10306.initHasBullet(0)
 text10306.initRotateAngle(0,0,0)
@@ -587,7 +472,7 @@ text10306.arrCSSStyles.push('span.text10306Font2 { font-size:16px; font-family:"
 text10306.addInnerText('<div id=\"text10306\" aria-hidden=\"true\" ><p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10306Font1\" style=\"position:relative;top:-3px;\" >200.401\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10306Font1\" style=\"position:relative;top:-3px;\" >200.402</span ><span class=\"text10306Font2\" style=\"background-color:transparentposition:relative;top:-3px;\" >\n</span ></p >\n</div>\n');
 text10306.build()
 
-text10151 = new ObjText('text10151',null,849,267,92,209,1,16,null,'div',null,0 )
+text10151 = new ObjText('text10151',null,849,267,92,209,1,14,null,'div',null,0 )
 text10151.initSLine(0)
 text10151.initHasBullet(0)
 text10151.initRotateAngle(0,0,0)
@@ -605,7 +490,7 @@ text10151.arrCSSStyles.push('span.text10151Font2 { font-size:16px; font-family:"
 text10151.addInnerText('<div id=\"text10151\" aria-hidden=\"true\" ><p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.404\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.405\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.406\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.407\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.408\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.409\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.410\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.411</span ><span class=\"text10151Font2\" style=\"background-color:transparentposition:relative;top:-3px;\" >\n</span ></p >\n</div>\n');
 text10151.build()
 
-text452 = new ObjText('text452',null,849,199,141,59,1,17,null,'div',null,0 )
+text452 = new ObjText('text452',null,849,199,141,59,1,15,null,'div',null,0 )
 text452.initSLine(0)
 text452.initHasBullet(0)
 text452.initRotateAngle(0,0,0)
@@ -625,13 +510,9 @@ text452.addInnerText('<div id=\"text452\" aria-hidden=\"true\" ><p  legLH=\"1.10
 text452.build()
 
 arObjs.push(text67);
+arObjs.push(image250446);
+arObjs.push(image250438);
 arObjs.push(image1612);
-arObjs.push(og45568);
-arObjs.push(button5990);
-arObjs.push(text5992);
-arObjs.push(og44006);
-arObjs.push(button6026);
-arObjs.push(text6028);
 arObjs.push(progress62539);
 arObjs.push(text187608);
 arObjs.push(text116304);
@@ -653,8 +534,6 @@ writeStyleSheets(arObjs);}
 <body onfocus="trivOnFocus()" onResize="ReFlow()">
 
    <DIV id="pageDIV" class="pageDIV">
-<div id="og45568"><a id="og45568anc"></a></div>
-<div id="og44006"><a id="og44006anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
@@ -671,11 +550,9 @@ if( is.min ){
 <script>
 if( is.min ){
     appendElement(text67, null, null);
+    appendElement(image250446, null, null);
+    appendElement(image250438, null, null);
     appendElement(image1612, null, null);
-    appendElement(button5990, null, null);
-    appendElement(text5992, null, null);
-    appendElement(button6026, null, null);
-    appendElement(text6028, null, null);
     appendElement(progress62539, null, null);
     appendElement(text187608, null, null);
     appendElement(text116304, null, null);

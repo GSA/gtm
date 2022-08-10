@@ -175,17 +175,16 @@ function init11() {
       }
     }
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text74644,image1612,progress179008,progress179245,text172417,og101638,button101645,text101647,text74375,text74374,shape74373,shape74371,shape74369,shape74367,qu74342,text74343,text74344,radio74345,text74346,radio74347,qu74335,text74336,text74337,radio74338,text74339,radio74340,qu74328,text74329,text74330,radio74331,text74332,radio74333,button74325))
+    PreloadResources(new Array(text74644,image1612,progress179008,image257954,image254775,progress179245,text172417,text74375,text74374,shape74373,shape74371,shape74369,shape74367,qu74342,text74343,text74344,radio74345,text74346,radio74347,qu74335,text74336,text74337,radio74338,text74339,radio74340,qu74328,text74329,text74330,radio74331,text74332,radio74333,button74325))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text74644.init()
     image1612.init()
     progress179008.init()
+    image257954.init()
+    image254775.init()
     progress179245.init()
     text172417.init()
-    og101638.init()
-    button101645.init()
-    text101647.init()
     text74375.init()
     text74374.init()
     shape74373.init()
@@ -214,11 +213,10 @@ function init11() {
     text74644.activate()
     image1612.activate()
     progress179008.activate()
+    image257954.activate()
+    image254775.activate()
     progress179245.activate()
     text172417.activate()
-    og101638.activate()
-    button101645.activate()
-    text101647.activate()
     text74375.activate()
     text74374.activate()
     shape74373.activate()
@@ -244,8 +242,6 @@ function init11() {
     text74332.activate()
     radio74333.activate()
     button74325.activate()
-button101645.strCookieState = (trivBtnTracking.GetRangeStatus(101645,true));
-button101645.loadStateFromSes("normalState");
 button74325.strCookieState = (trivBtnTracking.GetRangeStatus(74325,true));
 button74325.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
@@ -453,40 +449,36 @@ function OnDeviceRotate() {
 
 }
 
-function action101646else(fn){
-    if(!document.getElementById("DLG_Div_101646"))trivAlert( '101646', 'Module3', 'Please answer the question to procede.', fn );
+function action257955else(fn){
+    if(!document.getElementById("DLG_Div_257955"))trivAlert( '257955', 'Module3', 'Please answer the question correctly to procede.', fn );
 }
 
-function action101646(fn){
+function action257955(fn){
     if(VarQuestion_0066.isCorr('\u0059\u0065\u0073')||VarQuestion_0067.isCorr('\u0059\u0065\u0073')||VarQuestion_0068.isCorr('\u0059\u0065\u0073')||!VarQuestion_0066.isCorr('\u0059\u0065\u0073')||!VarQuestion_0067.isCorr('\u0059\u0065\u0073')||!VarQuestion_0068.isCorr('\u0059\u0065\u0073'))
-    {trivExitPage('page71968.html',true); 
-    }else{ action101646else(fn);}
+    {trivExitPage('page256780.html',true); 
+    }else{ action257955else(fn);}
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button101645onUp() {
-  action101646();
+function image257954onUp() {
+  action257955();
 }
 
-function action191740else(fn){
-    if(!document.getElementById("DLG_Div_191740"))trivAlert( '191740', 'Module3', 'Please answer the question to procede.', fn );
+function action254855else(fn){
+    if(!document.getElementById("DLG_Div_254855"))trivAlert( '254855', 'Module3', 'Please answer the question to procede.', fn );
 }
 
-function action191740(fn){
-    if( text101647.eatOnUp==true ){
-        text101647.eatOnUp=false;
-        return;
-    }
+function action254855(fn){
     if(VarQuestion_0066.isCorr('\u0059\u0065\u0073')||VarQuestion_0067.isCorr('\u0059\u0065\u0073')||VarQuestion_0068.isCorr('\u0059\u0065\u0073')||!VarQuestion_0066.isCorr('\u0059\u0065\u0073')||!VarQuestion_0067.isCorr('\u0059\u0065\u0073')||!VarQuestion_0068.isCorr('\u0059\u0065\u0073'))
     {trivExitPage('page71968.html',true); 
-    }else{ action191740else(fn);}
+    }else{ action254855else(fn);}
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function text101647onUp() {
-  action191740();
+function image254775onUp() {
+  action254855();
 }
 
 function Offset_qu74342(bDevRotate) {
@@ -533,7 +525,7 @@ function button74325onUp() {
 }
 
 if( is.min ){
-text74644 = new ObjText('text74644',null,253,553,505,30,1,45,null,'div',null,0 )
+text74644 = new ObjText('text74644',null,253,553,505,30,1,44,null,'div',null,0 )
 text74644.initSLine(0)
 text74644.initHasBullet(0)
 text74644.initRotateAngle(0,0,0)
@@ -564,10 +556,36 @@ image1612.build()
 progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,4,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
 progress179008.build()
 
-progress179245 = new ObjProgress('progress179245','',65,522,878,20,1,18,1,5,'#07648d','images/progress179245_bar.png','#ffffff','images/progress179245.png',1,41,0,0,0,1,VarProgressBar_0044.getValue(),'div',0 )
+image257954 = new ObjImage('image257954','images/next-button.png','Next Page',870,554,80,33,1,5,'div',null, 0 )
+image257954.initRotateAngle(0,0,0,0,0,0,0)
+image257954.initHasShadow(0)
+image257954.initHasReflection(0)
+image257954.addIe8Attr(870, 554, 80, 33, 0, 0)
+image257954.initImageMap(1,'0,0,80,0,80,33,0,33,0,0','M 0 0 L 80 0 L 80 33 L 0 33 L 0 0 z')
+image257954.addBorder(0)
+image257954.addOpacity(100)
+image257954.onUp = image257954onUp
+image257954.hasOnUp = true
+image257954.capture=4
+image257954.build()
+
+image254775 = new ObjImage('image254775','images/back-button.png','Previous Page',58,554,80,32,1,6,'div',null, 0 )
+image254775.initRotateAngle(0,0,0,0,0,0,0)
+image254775.initHasShadow(0)
+image254775.initHasReflection(0)
+image254775.addIe8Attr(58, 554, 80, 32, 0, 0)
+image254775.initImageMap(1,'0,0,80,0,80,32,0,32,0,0','M 0 0 L 80 0 L 80 32 L 0 32 L 0 0 z')
+image254775.addBorder(0)
+image254775.addOpacity(100)
+image254775.onUp = image254775onUp
+image254775.hasOnUp = true
+image254775.capture=4
+image254775.build()
+
+progress179245 = new ObjProgress('progress179245','',65,522,878,20,1,18,1,7,'#07648d','images/progress179245_bar.png','#ffffff','images/progress179245.png',1,42,0,0,0,1,VarProgressBar_0044.getValue(),'div',0 )
 progress179245.build()
 
-text172417 = new ObjText('text172417',null,896,523,45,23,1,6,null,'div',null,0 )
+text172417 = new ObjText('text172417',null,887,523,45,23,1,8,null,'div',null,0 )
 text172417.initSLine(1)
 text172417.initHasBullet(0)
 text172417.initRotateAngle(0,0,0)
@@ -576,64 +594,14 @@ text172417.initHasTextShadow(0)
 text172417.initHasBorder(0)
 text172417.initHasOutline(0)
 text172417.initHasMargin(0)
-text172417.addIe8Attr(896, 523, 45, 23, 0, 0)
+text172417.addIe8Attr(887, 523, 45, 23, 0, 0)
 text172417.addHeading(0)
 text172417.addOpacity(100)
 text172417.arrCSSStyles = new Array();
 text172417.arrCSSStyles.push('span.text172417Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
 text172417.arrCSSStyles.push('span.text172417Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text172417.addInnerText('<div id=\"text172417\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text172417Font1\"  >100%</span ><span class=\"text172417Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text172417.addInnerText('<div id=\"text172417\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text172417Font1\"  >99%</span ><span class=\"text172417Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text172417.build()
-
-og101638 = new ObjInline('og101638',null,0,0,139,591,1,0)
-og101638.isGrp = true
-og101638.addChild('button101645')
-og101638.addChild('text101647')
-og101638.build()
-
-button101645 = new ObjButton('button101645', 'Previous Page',59,568,65.000000,24.000000,1,7,'div','',1,0)
-button101645.setUseSvgFile(1)
-button101645.setFillStyle(17)
-button101645.setUniqueFillID('page72024_button101645')
-button101645.initRotateAngle(0,0,0,-0.000000,-0.000000,64,23)
-button101645.initHasShadow(0)
-button101645.initHasReflection(0)
-button101645.setImages({"disabledState":"images/button101645_disabled.png","downState":"images/button101645_down.png","normalState":"images/button101645.png","overState":"images/button101645_over.png","selectedState":"images/button101645_selected.png","visitedState":"images/button101645_visited.png"});
-button101645.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button101645.addOpacity(100)
-button101645.initImageMap('0,0,64,0,64,23,0,23,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 23.000000 L 0.000000 23.000000 L 0.000000 0.000000 z')
-button101645.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button101645.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page72024_button101645_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page72024_button101645_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page72024_button101645_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page72024_button101645_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page72024_button101645\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page72024_button101645)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page72024_button101645_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page72024_button101645_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page72024_button101645_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page72024_button101645_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page72024_button101645_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page72024_button101645_visitedState)"}});
-button101645.rebuildDefs();
-button101645.initLineWeight('0')
-button101645.onUp = button101645onUp
-button101645.hasOnUp = true
-button101645.capture=4
-button101645.bSelectedEnabled = false;
-button101645.bVisitedEnabled = false;
-button101645.bOverEnabled = true;
-button101645.bDownEnabled = true;
-button101645.build()
-
-text101647 = new ObjText('text101647',null,78,555,61,22,1,8,null,'div',null,0 )
-text101647.initSLine(0)
-text101647.initHasBullet(0)
-text101647.initRotateAngle(0,0,0)
-text101647.initHasOuterShadow(0)
-text101647.initHasTextShadow(0)
-text101647.initHasBorder(0)
-text101647.initHasOutline(0)
-text101647.initHasMargin(0)
-text101647.addIe8Attr(78, 555, 61, 22, 0, 0)
-text101647.addHeading(0)
-text101647.addOpacity(100)
-text101647.onUp = text101647onUp
-text101647.hasOnUp = true
-text101647.capture=4
-text101647.arrCSSStyles = new Array();
-text101647.arrCSSStyles.push('span.text101647Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text101647.addInnerText('<div id=\"text101647\" aria-hidden=\"true\" ><a id=\"text101647anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text101647Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text101647Font1\"  >BACK\n</span ></p >\n</div></div>\n');
-text101647.build()
 
 text74375 = new ObjText('text74375',null,68,145,865,54,1,9,null,'div',null,0 )
 text74375.initSLine(0)
@@ -969,11 +937,10 @@ var trivQuestionArray=[qu74342,qu74335,qu74328];
 arObjs.push(text74644);
 arObjs.push(image1612);
 arObjs.push(progress179008);
+arObjs.push(image257954);
+arObjs.push(image254775);
 arObjs.push(progress179245);
 arObjs.push(text172417);
-arObjs.push(og101638);
-arObjs.push(button101645);
-arObjs.push(text101647);
 arObjs.push(text74375);
 arObjs.push(text74374);
 arObjs.push(shape74373);
@@ -1010,7 +977,6 @@ writeStyleSheets(arObjs);}
 <body onfocus="trivOnFocus()" onResize="ReFlow()">
 
    <DIV id="pageDIV" class="pageDIV">
-<div id="og101638"><a id="og101638anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
@@ -1028,10 +994,10 @@ if( is.min ){
     appendElement(text74644, null, null);
     appendElement(image1612, null, null);
     appendElement(progress179008, null, null);
+    appendElement(image257954, null, null);
+    appendElement(image254775, null, null);
     appendElement(progress179245, null, null);
     appendElement(text172417, null, null);
-    appendElement(button101645, null, null);
-    appendElement(text101647, null, null);
     appendElement(text74375, null, null);
     appendElement(text74374, null, null);
     appendElement(shape74373, null, null);

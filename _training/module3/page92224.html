@@ -166,17 +166,13 @@ function init11() {
       }
     }
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text92225,image1612,og45568,button5990,text5992,og44006,button6026,text6028,progress179008,text92226,text92227,shape92229,shape92231,shape92233,shape92235,og96676,text96677,text96678,text96679,text96680,image96682,text96683,image96685,text96686,image96688,shape92238,shape92240,shape92242,text92243,image92245,text92247,image92249,image92251,image92253,button239136))
+    PreloadResources(new Array(text92225,image250446,image250438,image1612,progress179008,text92226,text92227,shape92229,shape92231,shape92233,shape92235,button239136,og96676,text96677,text96678,text96679,text96680,image96682,text96683,image96685,text96686,image96688,shape92238,shape92240,shape92242,text92243,image92245,text92247,image92249,image92251,image92253))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text92225.init()
+    image250446.init()
+    image250438.init()
     image1612.init()
-    og45568.init()
-    button5990.init()
-    text5992.init()
-    og44006.init()
-    button6026.init()
-    text6028.init()
     progress179008.init()
     text92226.init()
     text92227.init()
@@ -184,6 +180,7 @@ function init11() {
     shape92231.init()
     shape92233.init()
     shape92235.init()
+    button239136.init()
     og96676.init()
     text96677.init()
     text96678.init()
@@ -203,15 +200,10 @@ function init11() {
     image92249.init()
     image92251.init()
     image92253.init()
-    button239136.init()
     text92225.activate()
+    image250446.activate()
+    image250438.activate()
     image1612.activate()
-    og45568.activate()
-    button5990.activate()
-    text5992.activate()
-    og44006.activate()
-    button6026.activate()
-    text6028.activate()
     progress179008.activate()
     text92226.activate()
     text92227.activate()
@@ -219,6 +211,7 @@ function init11() {
     shape92231.activate()
     shape92233.activate()
     shape92235.activate()
+    button239136.activate()
     og96676.activate()
     text96677.activate()
     text96678.activate()
@@ -238,11 +231,6 @@ function init11() {
     image92249.activate()
     image92251.activate()
     image92253.activate()
-    button239136.activate()
-button5990.strCookieState = (trivBtnTracking.GetRangeStatus(5990,true));
-button5990.loadStateFromSes("normalState");
-button6026.strCookieState = (trivBtnTracking.GetRangeStatus(6026,true));
-button6026.loadStateFromSes("normalState");
 button239136.strCookieState = (trivBtnTracking.GetRangeStatus(239136,true));
 button239136.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
@@ -428,62 +416,24 @@ function OnDeviceRotate() {
 
 }
 
-function action5991(fn){
+function action250648(fn){
     trivExitPage('page71511.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button5990onUp() {
-  action5991();
+function image250446onUp() {
+  action250648();
 }
 
-function action5993(fn){
-    if( text5992.eatOnUp==true ){
-        text5992.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page71511.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text5992onUp() {
-  action5993();
-}
-
-function action6027(fn){
+function action250695(fn){
     trivExitPage('page92165.html',false); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button6026onUp() {
-  action6027();
-}
-
-function action6029(fn){
-    if( text6028.eatOnUp==true ){
-        text6028.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page92165.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text6028onUp() {
-  action6029();
-}
-
-function action92246(fn){
-    trivExitPage('page71453.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function image92245onUp() {
-  action92246();
+function image250438onUp() {
+  action250695();
 }
 
 function action239137(fn){
@@ -496,8 +446,18 @@ function button239136onUp() {
   action239137();
 }
 
+function action92246(fn){
+    trivExitPage('page71453.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function image92245onUp() {
+  action92246();
+}
+
 if( is.min ){
-text92225 = new ObjText('text92225',null,253,553,505,30,1,47,null,'div',null,0 )
+text92225 = new ObjText('text92225',null,253,553,505,30,1,43,null,'div',null,0 )
 text92225.initSLine(0)
 text92225.initHasBullet(0)
 text92225.initRotateAngle(0,0,0)
@@ -515,7 +475,33 @@ text92225.arrCSSStyles.push('span.text92225Font2 { font-size:12px; font-family:"
 text92225.addInnerText('<div id=\"text92225\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text92225Font1\"  >LESSON 3: THE COST PRINCIPLES IN PRACTICE</span ><span class=\"text92225Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text92225.build()
 
-image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,3,'div',null, 0 )
+image250446 = new ObjImage('image250446','images/next-button.png','Next Page',870,554,80,33,1,2,'div',null, 0 )
+image250446.initRotateAngle(0,0,0,0,0,0,0)
+image250446.initHasShadow(0)
+image250446.initHasReflection(0)
+image250446.addIe8Attr(870, 554, 80, 33, 0, 0)
+image250446.initImageMap(1,'0,0,80,0,80,33,0,33,0,0','M 0 0 L 80 0 L 80 33 L 0 33 L 0 0 z')
+image250446.addBorder(0)
+image250446.addOpacity(100)
+image250446.onUp = image250446onUp
+image250446.hasOnUp = true
+image250446.capture=4
+image250446.build()
+
+image250438 = new ObjImage('image250438','images/back-button.png','Previous Page',58,554,80,32,1,3,'div',null, 0 )
+image250438.initRotateAngle(0,0,0,0,0,0,0)
+image250438.initHasShadow(0)
+image250438.initHasReflection(0)
+image250438.addIe8Attr(58, 554, 80, 32, 0, 0)
+image250438.initImageMap(1,'0,0,80,0,80,32,0,32,0,0','M 0 0 L 80 0 L 80 32 L 0 32 L 0 0 z')
+image250438.addBorder(0)
+image250438.addOpacity(100)
+image250438.onUp = image250438onUp
+image250438.hasOnUp = true
+image250438.capture=4
+image250438.build()
+
+image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,5,'div',null, 0 )
 image1612.initRotateAngle(0,0,0,0,0,0,0)
 image1612.initHasShadow(0)
 image1612.initHasReflection(0)
@@ -525,110 +511,10 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-og45568 = new ObjInline('og45568',null,0,0,948,591,1,0)
-og45568.isGrp = true
-og45568.addChild('button5990')
-og45568.addChild('text5992')
-og45568.build()
-
-button5990 = new ObjButton('button5990', 'Next Page',884,567,65.000000,25.000000,1,4,'div','',1,0)
-button5990.setUseSvgFile(1)
-button5990.setFillStyle(17)
-button5990.setUniqueFillID('page92224_button5990')
-button5990.initRotateAngle(180,0,0,-0.000000,-0.000000,64,24)
-button5990.initHasShadow(0)
-button5990.initHasReflection(0)
-button5990.setImages({"disabledState":"images/button5990_disabled.png","downState":"images/button5990_down.png","normalState":"images/button5990.png","overState":"images/button5990_over.png","selectedState":"images/button5990_selected.png","visitedState":"images/button5990_visited.png"});
-button5990.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button5990.addOpacity(100)
-button5990.initImageMap('0,0,64,0,64,24,0,24,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 24.000000 L 0.000000 24.000000 L 0.000000 0.000000 z')
-button5990.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button5990.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button5990_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button5990_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button5990_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button5990_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button5990\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button5990)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button5990_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button5990_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button5990_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button5990_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button5990_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button5990_visitedState)"}});
-button5990.rebuildDefs();
-button5990.initLineWeight('0')
-button5990.onUp = button5990onUp
-button5990.hasOnUp = true
-button5990.capture=4
-button5990.bSelectedEnabled = false;
-button5990.bVisitedEnabled = false;
-button5990.bOverEnabled = true;
-button5990.bDownEnabled = true;
-button5990.build()
-
-text5992 = new ObjText('text5992',null,878,555,51,18,1,5,null,'div',null,0 )
-text5992.initSLine(1)
-text5992.initHasBullet(0)
-text5992.initRotateAngle(0,0,0)
-text5992.initHasOuterShadow(0)
-text5992.initHasTextShadow(0)
-text5992.initHasBorder(0)
-text5992.initHasOutline(0)
-text5992.initHasMargin(0)
-text5992.addIe8Attr(878, 555, 51, 18, 0, 0)
-text5992.addHeading(0)
-text5992.addOpacity(100)
-text5992.onUp = text5992onUp
-text5992.hasOnUp = true
-text5992.capture=4
-text5992.arrCSSStyles = new Array();
-text5992.arrCSSStyles.push('span.text5992Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text5992.addInnerText('<div id=\"text5992\" aria-hidden=\"true\" ><a id=\"text5992anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text5992Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text5992Font1\"  >NEXT\n</span ></p >\n</div></div>\n');
-text5992.build()
-
-og44006 = new ObjInline('og44006',null,0,0,140,591,1,0)
-og44006.isGrp = true
-og44006.addChild('button6026')
-og44006.addChild('text6028')
-og44006.build()
-
-button6026 = new ObjButton('button6026', 'Pevious Page',60,568,65.000000,24.000000,1,6,'div','',1,0)
-button6026.setUseSvgFile(1)
-button6026.setFillStyle(17)
-button6026.setUniqueFillID('page92224_button6026')
-button6026.initRotateAngle(0,0,0,-0.000000,-0.000000,64,23)
-button6026.initHasShadow(0)
-button6026.initHasReflection(0)
-button6026.setImages({"disabledState":"images/button6026_disabled.png","downState":"images/button6026_down.png","normalState":"images/button6026.png","overState":"images/button6026_over.png","selectedState":"images/button6026_selected.png","visitedState":"images/button6026_visited.png"});
-button6026.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button6026.addOpacity(100)
-button6026.initImageMap('0,0,64,0,64,23,0,23,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 23.000000 L 0.000000 23.000000 L 0.000000 0.000000 z')
-button6026.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button6026.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button6026_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button6026_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button6026_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button6026_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button6026\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button6026)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button6026_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button6026_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button6026_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button6026_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page92224_button6026_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page92224_button6026_visitedState)"}});
-button6026.rebuildDefs();
-button6026.initLineWeight('0')
-button6026.onUp = button6026onUp
-button6026.hasOnUp = true
-button6026.capture=4
-button6026.bSelectedEnabled = false;
-button6026.bVisitedEnabled = false;
-button6026.bOverEnabled = true;
-button6026.bDownEnabled = true;
-button6026.build()
-
-text6028 = new ObjText('text6028',null,79,555,61,22,1,7,null,'div',null,0 )
-text6028.initSLine(0)
-text6028.initHasBullet(0)
-text6028.initRotateAngle(0,0,0)
-text6028.initHasOuterShadow(0)
-text6028.initHasTextShadow(0)
-text6028.initHasBorder(0)
-text6028.initHasOutline(0)
-text6028.initHasMargin(0)
-text6028.addIe8Attr(79, 555, 61, 22, 0, 0)
-text6028.addHeading(0)
-text6028.addOpacity(100)
-text6028.onUp = text6028onUp
-text6028.hasOnUp = true
-text6028.capture=4
-text6028.arrCSSStyles = new Array();
-text6028.arrCSSStyles.push('span.text6028Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text6028.addInnerText('<div id=\"text6028\" aria-hidden=\"true\" ><a id=\"text6028anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text6028Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text6028Font1\"  >BACK\n</span ></p >\n</div></div>\n');
-text6028.build()
-
-progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,8,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
+progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,6,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
 progress179008.build()
 
-text92226 = new ObjText('text92226',null,68,148,880,44,1,9,null,'div',null,0 )
+text92226 = new ObjText('text92226',null,68,148,880,44,1,7,null,'div',null,0 )
 text92226.initSLine(0)
 text92226.initHasBullet(0)
 text92226.initRotateAngle(0,0,0)
@@ -646,7 +532,7 @@ text92226.arrCSSStyles.push('span.text92226Font2 { font-size:16px; font-family:"
 text92226.addInnerText('<div id=\"text92226\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92226Font1\"  >REVIEW PROPOSED COSTS</span ><span class=\"text92226Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text92226.build()
 
-text92227 = new ObjText('text92227',null,64,181,880,72,1,10,null,'div',null,0 )
+text92227 = new ObjText('text92227',null,64,181,880,72,1,8,null,'div',null,0 )
 text92227.initSLine(0)
 text92227.initHasBullet(0)
 text92227.initRotateAngle(0,0,0)
@@ -665,7 +551,7 @@ text92227.arrCSSStyles.push('span.text92227Font3 { font-size:19px; font-family:"
 text92227.addInnerText('<div id=\"text92227\" aria-hidden=\"true\" ><p  legLH=\"1.127\" style=\"margin-left:10px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92227Font1\"  >AIRFARE\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92227Font2\"  >Can drive to location for field work using state-issued vehicle but prefer to fly for convenience at a cost of $1,200 <br />(2 biologists x $600 round trip)</span ><span class=\"text92227Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text92227.build()
 
-shape92229 = new ObjImage('shape92229','images/shape92229.png','Rectangle 50',74,253,152.000000,38.000000,1,11,'div','',0 )
+shape92229 = new ObjImage('shape92229','images/shape92229.png','Rectangle 50',74,253,152.000000,38.000000,1,9,'div','',0 )
 shape92229.initRotateAngle(0,0,0,-0.000000,-0.000000,151,37)
 shape92229.initHasShadow(0)
 shape92229.initHasReflection(0)
@@ -678,7 +564,7 @@ shape92229.initLineWeight(0)
 shape92229.addOpacity(100)
 shape92229.build()
 
-shape92231 = new ObjImage('shape92231','images/shape92231.png','Rectangle 43',74,301,152.000000,39.000000,1,12,'div','',0 )
+shape92231 = new ObjImage('shape92231','images/shape92231.png','Rectangle 43',74,301,152.000000,39.000000,1,10,'div','',0 )
 shape92231.initRotateAngle(0,0,0,-0.000000,-0.000000,151,38)
 shape92231.initHasShadow(0)
 shape92231.initHasReflection(0)
@@ -691,7 +577,7 @@ shape92231.initLineWeight(0)
 shape92231.addOpacity(100)
 shape92231.build()
 
-shape92233 = new ObjImage('shape92233','images/shape92233.png','Rectangle 45',74,348,152.000000,39.000000,1,13,'div','',0 )
+shape92233 = new ObjImage('shape92233','images/shape92233.png','Rectangle 45',74,348,152.000000,39.000000,1,11,'div','',0 )
 shape92233.initRotateAngle(0,0,0,-0.000000,-0.000000,151,38)
 shape92233.initHasShadow(0)
 shape92233.initHasReflection(0)
@@ -704,7 +590,7 @@ shape92233.initLineWeight(0)
 shape92233.addOpacity(100)
 shape92233.build()
 
-shape92235 = new ObjImage('shape92235','images/shape92235.png','Rectangle 88',458,461,91.000000,44.000000,1,14,'div','',0 )
+shape92235 = new ObjImage('shape92235','images/shape92235.png','Rectangle 88',458,461,91.000000,44.000000,1,12,'div','',0 )
 shape92235.initRotateAngle(0,0,0,-0.000000,-0.000000,90,43)
 shape92235.initHasShadow(0)
 shape92235.initHasReflection(0)
@@ -717,276 +603,7 @@ shape92235.initLineWeight(0)
 shape92235.addOpacity(100)
 shape92235.build()
 
-og96676 = new ObjInline('og96676',null,0,0,325,386,1,0)
-og96676.isGrp = true
-og96676.addChild('text96677')
-og96676.addChild('text96678')
-og96676.addChild('text96679')
-og96676.addChild('text96680')
-og96676.addChild('image96682')
-og96676.addChild('text96683')
-og96676.addChild('image96685')
-og96676.addChild('text96686')
-og96676.addChild('image96688')
-og96676.build()
-
-text96677 = new ObjText('text96677',null,94,264,96,27,1,15,null,'div',null,0 )
-text96677.initSLine(1)
-text96677.initHasBullet(0)
-text96677.initRotateAngle(0,0,0)
-text96677.initHasOuterShadow(0)
-text96677.initHasTextShadow(0)
-text96677.initHasBorder(0)
-text96677.initHasOutline(0)
-text96677.initHasMargin(0)
-text96677.addIe8Attr(94, 264, 96, 27, 0, 0)
-text96677.addHeading(0)
-text96677.addOpacity(100)
-text96677.arrCSSStyles = new Array();
-text96677.arrCSSStyles.push('span.text96677Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text96677.arrCSSStyles.push('span.text96677Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text96677.addInnerText('<div id=\"text96677\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96677Font1\"  >Allowable</span ><span class=\"text96677Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
-text96677.build()
-
-text96678 = new ObjText('text96678',null,94,312,96,27,1,16,null,'div',null,0 )
-text96678.initSLine(1)
-text96678.initHasBullet(0)
-text96678.initRotateAngle(0,0,0)
-text96678.initHasOuterShadow(0)
-text96678.initHasTextShadow(0)
-text96678.initHasBorder(0)
-text96678.initHasOutline(0)
-text96678.initHasMargin(0)
-text96678.addIe8Attr(94, 312, 96, 27, 0, 0)
-text96678.addHeading(0)
-text96678.addOpacity(100)
-text96678.arrCSSStyles = new Array();
-text96678.arrCSSStyles.push('span.text96678Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text96678.arrCSSStyles.push('span.text96678Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text96678.addInnerText('<div id=\"text96678\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96678Font1\"  >Reasonable</span ><span class=\"text96678Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
-text96678.build()
-
-text96679 = new ObjText('text96679',null,94,359,96,27,1,17,null,'div',null,0 )
-text96679.initSLine(1)
-text96679.initHasBullet(0)
-text96679.initRotateAngle(0,0,0)
-text96679.initHasOuterShadow(0)
-text96679.initHasTextShadow(0)
-text96679.initHasBorder(0)
-text96679.initHasOutline(0)
-text96679.initHasMargin(0)
-text96679.addIe8Attr(94, 359, 96, 27, 0, 0)
-text96679.addHeading(0)
-text96679.addOpacity(100)
-text96679.arrCSSStyles = new Array();
-text96679.arrCSSStyles.push('span.text96679Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text96679.arrCSSStyles.push('span.text96679Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text96679.addInnerText('<div id=\"text96679\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96679Font1\"  >Allocable</span ><span class=\"text96679Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
-text96679.build()
-
-text96680 = new ObjText('text96680',null,258,263,39,20,1,18,null,'div',null,0 )
-text96680.initSLine(1)
-text96680.initHasBullet(0)
-text96680.initRotateAngle(0,0,0)
-text96680.initHasOuterShadow(0)
-text96680.initHasTextShadow(0)
-text96680.initHasBorder(0)
-text96680.initHasOutline(0)
-text96680.initHasMargin(0)
-text96680.addIe8Attr(258, 263, 39, 20, 0, 0)
-text96680.addHeading(0)
-text96680.addOpacity(100)
-text96680.arrCSSStyles = new Array();
-text96680.arrCSSStyles.push('span.text96680Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text96680.addInnerText('<div id=\"text96680\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96680Font1\"  >Yes\n</span ></p >\n</div>\n');
-text96680.build()
-
-image96682 = new ObjImage('image96682','images/asset_5.png','Asset 5',303,261,22,22,1,19,'div',null, 0 )
-image96682.initRotateAngle(0,0,0,0,0,0,0)
-image96682.initHasShadow(0)
-image96682.initHasReflection(0)
-image96682.addIe8Attr(303, 261, 22, 22, 0, 0)
-image96682.initImageMap(1,'0,0,22,0,22,22,0,22,0,0','M 0 0 L 22 0 L 22 22 L 0 22 L 0 0 z')
-image96682.addBorder(0)
-image96682.addOpacity(100)
-image96682.build()
-
-text96683 = new ObjText('text96683',null,258,311,39,20,1,20,null,'div',null,0 )
-text96683.initSLine(1)
-text96683.initHasBullet(0)
-text96683.initRotateAngle(0,0,0)
-text96683.initHasOuterShadow(0)
-text96683.initHasTextShadow(0)
-text96683.initHasBorder(0)
-text96683.initHasOutline(0)
-text96683.initHasMargin(0)
-text96683.addIe8Attr(258, 311, 39, 20, 0, 0)
-text96683.addHeading(0)
-text96683.addOpacity(100)
-text96683.arrCSSStyles = new Array();
-text96683.arrCSSStyles.push('span.text96683Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text96683.addInnerText('<div id=\"text96683\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96683Font1\"  >Yes\n</span ></p >\n</div>\n');
-text96683.build()
-
-image96685 = new ObjImage('image96685','images/asset_5.png','Asset 5',303,307,22,22,1,21,'div',null, 0 )
-image96685.initRotateAngle(0,0,0,0,0,0,0)
-image96685.initHasShadow(0)
-image96685.initHasReflection(0)
-image96685.addIe8Attr(303, 307, 22, 22, 0, 0)
-image96685.initImageMap(1,'0,0,22,0,22,22,0,22,0,0','M 0 0 L 22 0 L 22 22 L 0 22 L 0 0 z')
-image96685.addBorder(0)
-image96685.addOpacity(100)
-image96685.build()
-
-text96686 = new ObjText('text96686',null,258,358,39,20,1,22,null,'div',null,0 )
-text96686.initSLine(1)
-text96686.initHasBullet(0)
-text96686.initRotateAngle(0,0,0)
-text96686.initHasOuterShadow(0)
-text96686.initHasTextShadow(0)
-text96686.initHasBorder(0)
-text96686.initHasOutline(0)
-text96686.initHasMargin(0)
-text96686.addIe8Attr(258, 358, 39, 20, 0, 0)
-text96686.addHeading(0)
-text96686.addOpacity(100)
-text96686.arrCSSStyles = new Array();
-text96686.arrCSSStyles.push('span.text96686Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text96686.addInnerText('<div id=\"text96686\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96686Font1\"  >Yes\n</span ></p >\n</div>\n');
-text96686.build()
-
-image96688 = new ObjImage('image96688','images/asset_5.png','Asset 5',303,356,22,22,1,23,'div',null, 0 )
-image96688.initRotateAngle(0,0,0,0,0,0,0)
-image96688.initHasShadow(0)
-image96688.initHasReflection(0)
-image96688.addIe8Attr(303, 356, 22, 22, 0, 0)
-image96688.initImageMap(1,'0,0,22,0,22,22,0,22,0,0','M 0 0 L 22 0 L 22 22 L 0 22 L 0 0 z')
-image96688.addBorder(0)
-image96688.addOpacity(100)
-image96688.build()
-
-shape92238 = new ObjImage('shape92238','images/shape92238.png','Rectangle 28',0,0,1010.000000,601.000000,1,24,'div','',0 )
-shape92238.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,600)
-shape92238.initHasShadow(0)
-shape92238.initHasReflection(0)
-shape92238.setUniqueFillID('page92224_shape92238')
-shape92238.addIe8Attr(0.000000, 0.000000, 1010.000000, 601.000000, 0, 0)
-shape92238.initImageMap(1,'0,0,1009,0,1009,600,0,600,0,0','M 0.000000 0.000000 L 1009.000000 0.000000 L 1009.000000 600.000000 L 0.000000 600.000000 L 0.000000 0.000000 z', '', 'fill:#07648D;"' , '')
-shape92238.setUseSvgFile(1)
-shape92238.addBorder(0)
-shape92238.initLineWeight(0)
-shape92238.addOpacity(25)
-shape92238.build()
-
-shape92240 = new ObjImage('shape92240','images/shape92240.png','Rectangle 30',343,187,324.000000,318.000000,1,25,'div','',0 )
-shape92240.initRotateAngle(0,0,0,-0.000000,-0.000000,323,317)
-shape92240.initHasShadow(1)
-shape92240.initHasReflection(0)
-shape92240.setUniqueFillID('page92224_shape92240')
-shape92240.addIe8Attr(343.000000, 187.000000, 324.000000, 318.000000, 0, 0)
-shape92240.initImageMap(1,'1,1,322,1,322,316,1,316,1,1','M 1.000000 1.000000 L 322.000000 1.000000 L 322.000000 316.000000 L 1.000000 316.000000 L 1.000000 1.000000 z', '', 'stroke:#07648D; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:#FFFFFF;"' , '')
-shape92240.setUseSvgFile(1)
-shape92240.addShadow(315,2,0.400000,'0','0','0',0,0,0,0.000000,2)
-shape92240.addBorder(0)
-shape92240.initLineWeight(2)
-shape92240.addOpacity(100)
-shape92240.build()
-
-shape92242 = new ObjImage('shape92242','images/shape92242.png','Rectangle 31',343,187,115.000000,44.000000,1,26,'div','',0 )
-shape92242.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
-shape92242.initHasShadow(0)
-shape92242.initHasReflection(0)
-shape92242.setUniqueFillID('page92224_shape92242')
-shape92242.addIe8Attr(343.000000, 187.000000, 115.000000, 44.000000, 0, 0)
-shape92242.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#07648D;"' , '')
-shape92242.setUseSvgFile(1)
-shape92242.addBorder(0)
-shape92242.initLineWeight(0)
-shape92242.addOpacity(100)
-shape92242.build()
-
-text92243 = new ObjText('text92243',null,359,196,83,28,1,27,null,'div',null,0 )
-text92243.initSLine(1)
-text92243.initHasBullet(0)
-text92243.initRotateAngle(0,0,0)
-text92243.initHasOuterShadow(0)
-text92243.initHasTextShadow(0)
-text92243.initHasBorder(0)
-text92243.initHasOutline(0)
-text92243.initHasMargin(0)
-text92243.addIe8Attr(359, 196, 83, 28, 0, 0)
-text92243.addHeading(0)
-text92243.addOpacity(100)
-text92243.arrCSSStyles = new Array();
-text92243.arrCSSStyles.push('span.text92243Font1 { font-size:16px; font-family:"Oswald Light"; color:#ffffff;}');
-text92243.addInnerText('<div id=\"text92243\" aria-hidden=\"true\" ><p  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92243Font1\"  >FEEDBACK\n</span ></p >\n</div>\n');
-text92243.build()
-
-image92245 = new ObjImage('image92245','images/image0047.png','Picture 35',627,195,29,29,1,28,'div',null, 0 )
-image92245.initRotateAngle(0,0,0,0,0,0,0)
-image92245.initHasShadow(0)
-image92245.initHasReflection(0)
-image92245.addIe8Attr(627, 195, 29, 29, 0, 0)
-image92245.initImageMap(1,'0,0,29,0,29,29,0,29,0,0','M 0 0 L 29 0 L 29 29 L 0 29 L 0 0 z')
-image92245.addBorder(0)
-image92245.addOpacity(100)
-image92245.onUp = image92245onUp
-image92245.hasOnUp = true
-image92245.capture=4
-image92245.build()
-
-text92247 = new ObjText('text92247',null,362,241,282,239,1,29,null,'div',null,0 )
-text92247.initSLine(0)
-text92247.initHasBullet(0)
-text92247.initRotateAngle(0,0,0)
-text92247.initHasOuterShadow(0)
-text92247.initHasTextShadow(0)
-text92247.initHasBorder(0)
-text92247.initHasOutline(0)
-text92247.initHasMargin(6)
-text92247.addIe8Attr(362, 241, 282, 239, 0, 0)
-text92247.addHeading(0)
-text92247.addOpacity(100)
-text92247.arrCSSStyles = new Array();
-text92247.arrCSSStyles.push('span.text92247Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#cf2a27; font-weight:bold;}');
-text92247.arrCSSStyles.push('span.text92247Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text92247.arrCSSStyles.push('span.text92247Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text92247.arrCSSStyles.push('span.text92247Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text92247.arrCSSStyles.push('span.text92247Font5 { font-size:19px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text92247.addInnerText('<div id=\"text92247\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92247Font1\"  >Incorrect.</span ><span class=\"text92247Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92247Font3\"  >This cost is:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92247Font4\"  >Allowable\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92247Font4\"  >Allocable\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:2px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92247Font3\"  >This cost is not:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92247Font4\"  >Reasonable. Staff can use an official vehicle to drive to the field work location.</span ><span class=\"text92247Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text92247.build()
-
-image92249 = new ObjImage('image92249','images/image0104.png','Picture 34',367,296,26,26,1,30,'div',null, 0 )
-image92249.initRotateAngle(0,0,0,0,0,0,0)
-image92249.initHasShadow(0)
-image92249.initHasReflection(0)
-image92249.addIe8Attr(367, 296, 26, 26, 0, 0)
-image92249.initImageMap(1,'0,0,26,0,26,26,0,26,0,0','M 0 0 L 26 0 L 26 26 L 0 26 L 0 0 z')
-image92249.addBorder(0)
-image92249.addOpacity(100)
-image92249.build()
-
-image92251 = new ObjImage('image92251','images/image0062.png','Picture 36',367,334,26,26,1,31,'div',null, 0 )
-image92251.initRotateAngle(0,0,0,0,0,0,0)
-image92251.initHasShadow(0)
-image92251.initHasReflection(0)
-image92251.addIe8Attr(367, 334, 26, 26, 0, 0)
-image92251.initImageMap(1,'0,0,26,0,26,26,0,26,0,0','M 0 0 L 26 0 L 26 26 L 0 26 L 0 0 z')
-image92251.addBorder(0)
-image92251.addOpacity(100)
-image92251.build()
-
-image92253 = new ObjImage('image92253','images/image0105.png','Picture 37',367,412,26,26,1,32,'div',null, 0 )
-image92253.initRotateAngle(0,0,0,0,0,0,0)
-image92253.initHasShadow(0)
-image92253.initHasReflection(0)
-image92253.addIe8Attr(367, 412, 26, 26, 0, 0)
-image92253.initImageMap(1,'0,0,26,0,26,26,0,26,0,0','M 0 0 L 26 0 L 26 26 L 0 26 L 0 0 z')
-image92253.addBorder(0)
-image92253.addOpacity(100)
-image92253.build()
-
-button239136 = new ObjButton('button239136', 'SUBMIT',447,462,111.000000,41.000000,1,33,'div','',1,0)
+button239136 = new ObjButton('button239136', 'SUBMIT',447,462,111.000000,41.000000,1,13,'div','',1,0)
 button239136.setUseSvgFile(1)
 button239136.setFillStyle(17)
 button239136.setUniqueFillID('page92224_button239136')
@@ -1012,14 +629,279 @@ button239136.bOverEnabled = true;
 button239136.bDownEnabled = true;
 button239136.build()
 
+og96676 = new ObjInline('og96676',null,0,0,325,386,1,0)
+og96676.isGrp = true
+og96676.addChild('text96677')
+og96676.addChild('text96678')
+og96676.addChild('text96679')
+og96676.addChild('text96680')
+og96676.addChild('image96682')
+og96676.addChild('text96683')
+og96676.addChild('image96685')
+og96676.addChild('text96686')
+og96676.addChild('image96688')
+og96676.build()
+
+text96677 = new ObjText('text96677',null,94,264,96,27,1,14,null,'div',null,0 )
+text96677.initSLine(1)
+text96677.initHasBullet(0)
+text96677.initRotateAngle(0,0,0)
+text96677.initHasOuterShadow(0)
+text96677.initHasTextShadow(0)
+text96677.initHasBorder(0)
+text96677.initHasOutline(0)
+text96677.initHasMargin(0)
+text96677.addIe8Attr(94, 264, 96, 27, 0, 0)
+text96677.addHeading(0)
+text96677.addOpacity(100)
+text96677.arrCSSStyles = new Array();
+text96677.arrCSSStyles.push('span.text96677Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text96677.arrCSSStyles.push('span.text96677Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text96677.addInnerText('<div id=\"text96677\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96677Font1\"  >Allowable</span ><span class=\"text96677Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text96677.build()
+
+text96678 = new ObjText('text96678',null,94,312,96,27,1,15,null,'div',null,0 )
+text96678.initSLine(1)
+text96678.initHasBullet(0)
+text96678.initRotateAngle(0,0,0)
+text96678.initHasOuterShadow(0)
+text96678.initHasTextShadow(0)
+text96678.initHasBorder(0)
+text96678.initHasOutline(0)
+text96678.initHasMargin(0)
+text96678.addIe8Attr(94, 312, 96, 27, 0, 0)
+text96678.addHeading(0)
+text96678.addOpacity(100)
+text96678.arrCSSStyles = new Array();
+text96678.arrCSSStyles.push('span.text96678Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text96678.arrCSSStyles.push('span.text96678Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text96678.addInnerText('<div id=\"text96678\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96678Font1\"  >Reasonable</span ><span class=\"text96678Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text96678.build()
+
+text96679 = new ObjText('text96679',null,94,359,96,27,1,16,null,'div',null,0 )
+text96679.initSLine(1)
+text96679.initHasBullet(0)
+text96679.initRotateAngle(0,0,0)
+text96679.initHasOuterShadow(0)
+text96679.initHasTextShadow(0)
+text96679.initHasBorder(0)
+text96679.initHasOutline(0)
+text96679.initHasMargin(0)
+text96679.addIe8Attr(94, 359, 96, 27, 0, 0)
+text96679.addHeading(0)
+text96679.addOpacity(100)
+text96679.arrCSSStyles = new Array();
+text96679.arrCSSStyles.push('span.text96679Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text96679.arrCSSStyles.push('span.text96679Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text96679.addInnerText('<div id=\"text96679\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96679Font1\"  >Allocable</span ><span class=\"text96679Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
+text96679.build()
+
+text96680 = new ObjText('text96680',null,258,263,39,20,1,17,null,'div',null,0 )
+text96680.initSLine(1)
+text96680.initHasBullet(0)
+text96680.initRotateAngle(0,0,0)
+text96680.initHasOuterShadow(0)
+text96680.initHasTextShadow(0)
+text96680.initHasBorder(0)
+text96680.initHasOutline(0)
+text96680.initHasMargin(0)
+text96680.addIe8Attr(258, 263, 39, 20, 0, 0)
+text96680.addHeading(0)
+text96680.addOpacity(100)
+text96680.arrCSSStyles = new Array();
+text96680.arrCSSStyles.push('span.text96680Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text96680.addInnerText('<div id=\"text96680\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96680Font1\"  >Yes\n</span ></p >\n</div>\n');
+text96680.build()
+
+image96682 = new ObjImage('image96682','images/asset_5.png','Asset 5',303,261,22,22,1,18,'div',null, 0 )
+image96682.initRotateAngle(0,0,0,0,0,0,0)
+image96682.initHasShadow(0)
+image96682.initHasReflection(0)
+image96682.addIe8Attr(303, 261, 22, 22, 0, 0)
+image96682.initImageMap(1,'0,0,22,0,22,22,0,22,0,0','M 0 0 L 22 0 L 22 22 L 0 22 L 0 0 z')
+image96682.addBorder(0)
+image96682.addOpacity(100)
+image96682.build()
+
+text96683 = new ObjText('text96683',null,258,311,39,20,1,19,null,'div',null,0 )
+text96683.initSLine(1)
+text96683.initHasBullet(0)
+text96683.initRotateAngle(0,0,0)
+text96683.initHasOuterShadow(0)
+text96683.initHasTextShadow(0)
+text96683.initHasBorder(0)
+text96683.initHasOutline(0)
+text96683.initHasMargin(0)
+text96683.addIe8Attr(258, 311, 39, 20, 0, 0)
+text96683.addHeading(0)
+text96683.addOpacity(100)
+text96683.arrCSSStyles = new Array();
+text96683.arrCSSStyles.push('span.text96683Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text96683.addInnerText('<div id=\"text96683\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96683Font1\"  >Yes\n</span ></p >\n</div>\n');
+text96683.build()
+
+image96685 = new ObjImage('image96685','images/asset_5.png','Asset 5',303,307,22,22,1,20,'div',null, 0 )
+image96685.initRotateAngle(0,0,0,0,0,0,0)
+image96685.initHasShadow(0)
+image96685.initHasReflection(0)
+image96685.addIe8Attr(303, 307, 22, 22, 0, 0)
+image96685.initImageMap(1,'0,0,22,0,22,22,0,22,0,0','M 0 0 L 22 0 L 22 22 L 0 22 L 0 0 z')
+image96685.addBorder(0)
+image96685.addOpacity(100)
+image96685.build()
+
+text96686 = new ObjText('text96686',null,258,358,39,20,1,21,null,'div',null,0 )
+text96686.initSLine(1)
+text96686.initHasBullet(0)
+text96686.initRotateAngle(0,0,0)
+text96686.initHasOuterShadow(0)
+text96686.initHasTextShadow(0)
+text96686.initHasBorder(0)
+text96686.initHasOutline(0)
+text96686.initHasMargin(0)
+text96686.addIe8Attr(258, 358, 39, 20, 0, 0)
+text96686.addHeading(0)
+text96686.addOpacity(100)
+text96686.arrCSSStyles = new Array();
+text96686.arrCSSStyles.push('span.text96686Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text96686.addInnerText('<div id=\"text96686\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text96686Font1\"  >Yes\n</span ></p >\n</div>\n');
+text96686.build()
+
+image96688 = new ObjImage('image96688','images/asset_5.png','Asset 5',303,356,22,22,1,22,'div',null, 0 )
+image96688.initRotateAngle(0,0,0,0,0,0,0)
+image96688.initHasShadow(0)
+image96688.initHasReflection(0)
+image96688.addIe8Attr(303, 356, 22, 22, 0, 0)
+image96688.initImageMap(1,'0,0,22,0,22,22,0,22,0,0','M 0 0 L 22 0 L 22 22 L 0 22 L 0 0 z')
+image96688.addBorder(0)
+image96688.addOpacity(100)
+image96688.build()
+
+shape92238 = new ObjImage('shape92238','images/shape92238.png','Rectangle 28',0,0,1010.000000,601.000000,1,23,'div','',0 )
+shape92238.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,600)
+shape92238.initHasShadow(0)
+shape92238.initHasReflection(0)
+shape92238.setUniqueFillID('page92224_shape92238')
+shape92238.addIe8Attr(0.000000, 0.000000, 1010.000000, 601.000000, 0, 0)
+shape92238.initImageMap(1,'0,0,1009,0,1009,600,0,600,0,0','M 0.000000 0.000000 L 1009.000000 0.000000 L 1009.000000 600.000000 L 0.000000 600.000000 L 0.000000 0.000000 z', '', 'fill:#07648D;"' , '')
+shape92238.setUseSvgFile(1)
+shape92238.addBorder(0)
+shape92238.initLineWeight(0)
+shape92238.addOpacity(25)
+shape92238.build()
+
+shape92240 = new ObjImage('shape92240','images/shape92240.png','Rectangle 30',343,187,324.000000,318.000000,1,24,'div','',0 )
+shape92240.initRotateAngle(0,0,0,-0.000000,-0.000000,323,317)
+shape92240.initHasShadow(1)
+shape92240.initHasReflection(0)
+shape92240.setUniqueFillID('page92224_shape92240')
+shape92240.addIe8Attr(343.000000, 187.000000, 324.000000, 318.000000, 0, 0)
+shape92240.initImageMap(1,'1,1,322,1,322,316,1,316,1,1','M 1.000000 1.000000 L 322.000000 1.000000 L 322.000000 316.000000 L 1.000000 316.000000 L 1.000000 1.000000 z', '', 'stroke:#07648D; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:#FFFFFF;"' , '')
+shape92240.setUseSvgFile(1)
+shape92240.addShadow(315,2,0.400000,'0','0','0',0,0,0,0.000000,2)
+shape92240.addBorder(0)
+shape92240.initLineWeight(2)
+shape92240.addOpacity(100)
+shape92240.build()
+
+shape92242 = new ObjImage('shape92242','images/shape92242.png','Rectangle 31',343,187,115.000000,44.000000,1,25,'div','',0 )
+shape92242.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
+shape92242.initHasShadow(0)
+shape92242.initHasReflection(0)
+shape92242.setUniqueFillID('page92224_shape92242')
+shape92242.addIe8Attr(343.000000, 187.000000, 115.000000, 44.000000, 0, 0)
+shape92242.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#07648D;"' , '')
+shape92242.setUseSvgFile(1)
+shape92242.addBorder(0)
+shape92242.initLineWeight(0)
+shape92242.addOpacity(100)
+shape92242.build()
+
+text92243 = new ObjText('text92243',null,359,196,83,28,1,26,null,'div',null,0 )
+text92243.initSLine(1)
+text92243.initHasBullet(0)
+text92243.initRotateAngle(0,0,0)
+text92243.initHasOuterShadow(0)
+text92243.initHasTextShadow(0)
+text92243.initHasBorder(0)
+text92243.initHasOutline(0)
+text92243.initHasMargin(0)
+text92243.addIe8Attr(359, 196, 83, 28, 0, 0)
+text92243.addHeading(0)
+text92243.addOpacity(100)
+text92243.arrCSSStyles = new Array();
+text92243.arrCSSStyles.push('span.text92243Font1 { font-size:16px; font-family:"Oswald Light"; color:#ffffff;}');
+text92243.addInnerText('<div id=\"text92243\" aria-hidden=\"true\" ><p  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92243Font1\"  >FEEDBACK\n</span ></p >\n</div>\n');
+text92243.build()
+
+image92245 = new ObjImage('image92245','images/image0047.png','Picture 35',627,195,29,29,1,27,'div',null, 0 )
+image92245.initRotateAngle(0,0,0,0,0,0,0)
+image92245.initHasShadow(0)
+image92245.initHasReflection(0)
+image92245.addIe8Attr(627, 195, 29, 29, 0, 0)
+image92245.initImageMap(1,'0,0,29,0,29,29,0,29,0,0','M 0 0 L 29 0 L 29 29 L 0 29 L 0 0 z')
+image92245.addBorder(0)
+image92245.addOpacity(100)
+image92245.onUp = image92245onUp
+image92245.hasOnUp = true
+image92245.capture=4
+image92245.build()
+
+text92247 = new ObjText('text92247',null,362,241,282,239,1,28,null,'div',null,0 )
+text92247.initSLine(0)
+text92247.initHasBullet(0)
+text92247.initRotateAngle(0,0,0)
+text92247.initHasOuterShadow(0)
+text92247.initHasTextShadow(0)
+text92247.initHasBorder(0)
+text92247.initHasOutline(0)
+text92247.initHasMargin(6)
+text92247.addIe8Attr(362, 241, 282, 239, 0, 0)
+text92247.addHeading(0)
+text92247.addOpacity(100)
+text92247.arrCSSStyles = new Array();
+text92247.arrCSSStyles.push('span.text92247Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#cf2a27; font-weight:bold;}');
+text92247.arrCSSStyles.push('span.text92247Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
+text92247.arrCSSStyles.push('span.text92247Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text92247.arrCSSStyles.push('span.text92247Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text92247.arrCSSStyles.push('span.text92247Font5 { font-size:19px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text92247.addInnerText('<div id=\"text92247\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92247Font1\"  >Incorrect.</span ><span class=\"text92247Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92247Font3\"  >This cost is:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92247Font4\"  >Allowable\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92247Font4\"  >Allocable\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:2px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:20px;text-align:left;\" >\n<span class=\"text92247Font3\"  >This cost is not:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text92247Font4\"  >Reasonable. Staff can use an official vehicle to drive to the field work location.</span ><span class=\"text92247Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text92247.build()
+
+image92249 = new ObjImage('image92249','images/image0104.png','Picture 34',367,296,26,26,1,29,'div',null, 0 )
+image92249.initRotateAngle(0,0,0,0,0,0,0)
+image92249.initHasShadow(0)
+image92249.initHasReflection(0)
+image92249.addIe8Attr(367, 296, 26, 26, 0, 0)
+image92249.initImageMap(1,'0,0,26,0,26,26,0,26,0,0','M 0 0 L 26 0 L 26 26 L 0 26 L 0 0 z')
+image92249.addBorder(0)
+image92249.addOpacity(100)
+image92249.build()
+
+image92251 = new ObjImage('image92251','images/image0062.png','Picture 36',367,334,26,26,1,30,'div',null, 0 )
+image92251.initRotateAngle(0,0,0,0,0,0,0)
+image92251.initHasShadow(0)
+image92251.initHasReflection(0)
+image92251.addIe8Attr(367, 334, 26, 26, 0, 0)
+image92251.initImageMap(1,'0,0,26,0,26,26,0,26,0,0','M 0 0 L 26 0 L 26 26 L 0 26 L 0 0 z')
+image92251.addBorder(0)
+image92251.addOpacity(100)
+image92251.build()
+
+image92253 = new ObjImage('image92253','images/image0105.png','Picture 37',367,412,26,26,1,31,'div',null, 0 )
+image92253.initRotateAngle(0,0,0,0,0,0,0)
+image92253.initHasShadow(0)
+image92253.initHasReflection(0)
+image92253.addIe8Attr(367, 412, 26, 26, 0, 0)
+image92253.initImageMap(1,'0,0,26,0,26,26,0,26,0,0','M 0 0 L 26 0 L 26 26 L 0 26 L 0 0 z')
+image92253.addBorder(0)
+image92253.addOpacity(100)
+image92253.build()
+
 arObjs.push(text92225);
+arObjs.push(image250446);
+arObjs.push(image250438);
 arObjs.push(image1612);
-arObjs.push(og45568);
-arObjs.push(button5990);
-arObjs.push(text5992);
-arObjs.push(og44006);
-arObjs.push(button6026);
-arObjs.push(text6028);
 arObjs.push(progress179008);
 arObjs.push(text92226);
 arObjs.push(text92227);
@@ -1027,6 +909,7 @@ arObjs.push(shape92229);
 arObjs.push(shape92231);
 arObjs.push(shape92233);
 arObjs.push(shape92235);
+arObjs.push(button239136);
 arObjs.push(og96676);
 arObjs.push(text96677);
 arObjs.push(text96678);
@@ -1046,7 +929,6 @@ arObjs.push(text92247);
 arObjs.push(image92249);
 arObjs.push(image92251);
 arObjs.push(image92253);
-arObjs.push(button239136);
 
 
 writeStyleSheets(arObjs);}
@@ -1058,8 +940,6 @@ writeStyleSheets(arObjs);}
 <body onfocus="trivOnFocus()" onResize="ReFlow()">
 
    <DIV id="pageDIV" class="pageDIV">
-<div id="og45568"><a id="og45568anc"></a></div>
-<div id="og44006"><a id="og44006anc"></a></div>
 <div id="og96676"><a id="og96676anc"></a></div>
    </DIV>
 <script>
@@ -1076,11 +956,9 @@ if( is.min ){
 <script>
 if( is.min ){
     appendElement(text92225, null, null);
+    appendElement(image250446, null, null);
+    appendElement(image250438, null, null);
     appendElement(image1612, null, null);
-    appendElement(button5990, null, null);
-    appendElement(text5992, null, null);
-    appendElement(button6026, null, null);
-    appendElement(text6028, null, null);
     appendElement(progress179008, null, null);
     appendElement(text92226, null, null);
     appendElement(text92227, null, null);
@@ -1088,6 +966,7 @@ if( is.min ){
     appendElement(shape92231, null, null);
     appendElement(shape92233, null, null);
     appendElement(shape92235, null, null);
+    appendElement(button239136, null, null);
     appendElement(text96677, null, null);
     appendElement(text96678, null, null);
     appendElement(text96679, null, null);
@@ -1106,7 +985,6 @@ if( is.min ){
     appendElement(image92249, null, null);
     appendElement(image92251, null, null);
     appendElement(image92253, null, null);
-    appendElement(button239136, null, null);
 }
 </script>
 

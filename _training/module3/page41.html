@@ -125,7 +125,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(shape5420,shape5459,shape5381,shape5310,text58,text59,text60,shape5519,shape5349,text61))
+    PreloadResources(new Array(shape5420,shape5459,shape5381,shape5310,text58,text59,text60,image250455))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     shape5420.init()
@@ -135,9 +135,7 @@ function init11() {
     text58.init()
     text59.init()
     text60.init()
-    shape5519.init()
-    shape5349.init()
-    text61.init()
+    image250455.init()
     shape5420.activate()
     shape5459.activate()
     shape5381.activate()
@@ -145,9 +143,7 @@ function init11() {
     text58.activate()
     text59.activate()
     text60.activate()
-    shape5519.activate()
-    shape5349.activate()
-    text61.activate()
+    image250455.activate()
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -262,37 +258,13 @@ function OnDeviceRotate() {
 
 }
 
-function action33481(fn){
-    trivExitPage('page62.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function shape5519onUp() {
-  action33481();
-}
-
-function action33472(fn){
-    trivExitPage('page62.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function shape5349onUp() {
-  action33472();
-}
-
 function action33183(fn){
-    if( text61.eatOnUp==true ){
-        text61.eatOnUp=false;
-        return;
-    }
     trivExitPage('page62.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function text61onUp() {
+function image250455onUp() {
   action33183();
 }
 
@@ -383,7 +355,7 @@ text59.arrCSSStyles.push('span.text59Font1 { font-size:27px; font-family:"Oswald
 text59.addInnerText('<div id=\"text59\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text59Font1\"  >MODULE 3\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text59.build()
 
-text60 = new ObjText('text60',null,111,268,783,66,1,7,null,'div',null,0 )
+text60 = new ObjText('text60',null,113,268,783,66,1,7,null,'div',null,0 )
 text60.initSLine(0)
 text60.initHasBullet(0)
 text60.initRotateAngle(0,0,0)
@@ -392,7 +364,7 @@ text60.initHasTextShadow(0)
 text60.initHasBorder(0)
 text60.initHasOutline(0)
 text60.initHasMargin(6)
-text60.addIe8Attr(111, 268, 783, 66, 0, 0)
+text60.addIe8Attr(113, 268, 783, 66, 0, 0)
 text60.addHeading(0)
 text60.addOpacity(100)
 text60.arrCSSStyles = new Array();
@@ -400,58 +372,18 @@ text60.arrCSSStyles.push('span.text60Font1 { font-size:32px; font-family:"Oswald
 text60.addInnerText('<div id=\"text60\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text60Font1\"  >2 CFR 200: SUBPART E COST PRINCIPLES\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text60.build()
 
-shape5519 = new ObjImage('shape5519','images/shape5519.png','Sart Module Button Box',446,382,118.000000,47.000000,1,8,'div','',0 )
-shape5519.initRotateAngle(0,0,0,-0.000000,-0.000000,117,46)
-shape5519.initHasShadow(0)
-shape5519.initHasReflection(0)
-shape5519.setUniqueFillID('page41_shape5519')
-shape5519.addIe8Attr(446.000000, 382.000000, 118.000000, 47.000000, 0, 0)
-shape5519.initImageMap(1,'0,0,117,0,117,46,0,46,0,0','M 0.000000 0.000000 L 117.000000 0.000000 L 117.000000 46.000000 L 0.000000 46.000000 L 0.000000 0.000000 z', '', 'fill:#FFBE2E;"' , '')
-shape5519.setUseSvgFile(1)
-shape5519.addBorder(0)
-shape5519.initLineWeight(0)
-shape5519.addOpacity(100)
-shape5519.onUp = shape5519onUp
-shape5519.hasOnUp = true
-shape5519.capture=4
-shape5519.build()
-
-shape5349 = new ObjImage('shape5349','images/shape5349.png','Start Module Button Arrow',531,396,21.000000,19.000000,1,9,'div','',0 )
-shape5349.initRotateAngle(90,0,0,-0.000000,-0.000000,20,18)
-shape5349.initHasShadow(0)
-shape5349.initHasReflection(0)
-shape5349.setUniqueFillID('page41_shape5349')
-shape5349.addIe8Attr(532.000000, 396.000000, 19.000000, 21.000000, 1, -1)
-shape5349.initImageMap(1,'10,0,20,18,0,18,10,0','M 10.000000 0.000000 L 20.000000 18.000000 L 0.000000 18.000000 L 10.000000 0.000000 z', '', 'fill:#000000;"' , '')
-shape5349.setUseSvgFile(1)
-shape5349.addBorder(0)
-shape5349.initLineWeight(0)
-shape5349.addOpacity(100)
-shape5349.onUp = shape5349onUp
-shape5349.hasOnUp = true
-shape5349.capture=4
-shape5349.build()
-
-text61 = new ObjText('text61',null,457,377,86,60,1,10,null,'div',null,0 )
-text61.initSLine(0)
-text61.initHasBullet(0)
-text61.initRotateAngle(0,0,0)
-text61.initHasOuterShadow(0)
-text61.initHasTextShadow(0)
-text61.initHasBorder(0)
-text61.initHasOutline(0)
-text61.initHasMargin(6)
-text61.addIe8Attr(457, 377, 86, 60, 0, 0)
-text61.addHeading(0)
-text61.addOpacity(100)
-text61.onUp = text61onUp
-text61.hasOnUp = true
-text61.capture=4
-text61.arrCSSStyles = new Array();
-text61.arrCSSStyles.push('span.text61Font1 { font-size:25px; font-family:"Oswald Medium"; color:#000000;}');
-text61.arrCSSStyles.push('span.text61Font2 { font-size:28px; font-family:"Oswald Medium"; color:#000000;}');
-text61.addInnerText('<div id=\"text61\" aria-hidden=\"true\" ><a id=\"text61anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text61Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:justify;\" >\n<span class=\"text61Font1\"  >START</span ><span class=\"text61Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div></div>\n');
-text61.build()
+image250455 = new ObjImage('image250455','images/start-button.png','start-button',443,382,124,44,1,8,'div',null, 0 )
+image250455.initRotateAngle(0,0,0,0,0,0,0)
+image250455.initHasShadow(0)
+image250455.initHasReflection(0)
+image250455.addIe8Attr(443, 382, 124, 44, 0, 0)
+image250455.initImageMap(1,'0,0,124,0,124,44,0,44,0,0','M 0 0 L 124 0 L 124 44 L 0 44 L 0 0 z')
+image250455.addBorder(0)
+image250455.addOpacity(100)
+image250455.onUp = image250455onUp
+image250455.hasOnUp = true
+image250455.capture=4
+image250455.build()
 
 arObjs.push(shape5420);
 arObjs.push(shape5459);
@@ -460,9 +392,7 @@ arObjs.push(shape5310);
 arObjs.push(text58);
 arObjs.push(text59);
 arObjs.push(text60);
-arObjs.push(shape5519);
-arObjs.push(shape5349);
-arObjs.push(text61);
+arObjs.push(image250455);
 
 
 writeStyleSheets(arObjs);}
@@ -496,9 +426,7 @@ if( is.min ){
     appendElement(text58, null, null);
     appendElement(text59, null, null);
     appendElement(text60, null, null);
-    appendElement(shape5519, null, null);
-    appendElement(shape5349, null, null);
-    appendElement(text61, null, null);
+    appendElement(image250455, null, null);
 }
 </script>
 

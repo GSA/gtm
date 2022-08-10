@@ -23,7 +23,6 @@
 <script src="es6-promise-2.0.0.min.js"></script>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
-<script src="trivantis-button.js"></script>
 <script src="trivantis-image.js"></script>
 <script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
@@ -129,17 +128,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text118952,image1612,og45568,button5990,text5992,og44006,button6026,text6028,progress120186,shape118954,text119103,text119104,text119105,image119107,text119108,image119110,text119111,text119112,shape119114,text119115,text119116))
+    PreloadResources(new Array(text118952,image250446,image250438,image1612,progress120186,shape118954,text119103,text119104,text119105,image119107,text119108,image119110,text119111,text119112,shape119114,text119115,text119116))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text118952.init()
+    image250446.init()
+    image250438.init()
     image1612.init()
-    og45568.init()
-    button5990.init()
-    text5992.init()
-    og44006.init()
-    button6026.init()
-    text6028.init()
     progress120186.init()
     shape118954.init()
     text119103.init()
@@ -154,13 +149,9 @@ function init11() {
     text119115.init()
     text119116.init()
     text118952.activate()
+    image250446.activate()
+    image250438.activate()
     image1612.activate()
-    og45568.activate()
-    button5990.activate()
-    text5992.activate()
-    og44006.activate()
-    button6026.activate()
-    text6028.activate()
     progress120186.activate()
     shape118954.activate()
     text119103.activate()
@@ -174,10 +165,6 @@ function init11() {
     shape119114.activate()
     text119115.activate()
     text119116.activate()
-button5990.strCookieState = (trivBtnTracking.GetRangeStatus(5990,true));
-button5990.loadStateFromSes("normalState");
-button6026.strCookieState = (trivBtnTracking.GetRangeStatus(6026,true));
-button6026.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -293,56 +280,28 @@ function OnDeviceRotate() {
 
 }
 
-function action5991(fn){
+function action250648(fn){
     trivExitPage('page118720.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button5990onUp() {
-  action5991();
+function image250446onUp() {
+  action250648();
 }
 
-function action5993(fn){
-    if( text5992.eatOnUp==true ){
-        text5992.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page118720.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text5992onUp() {
-  action5993();
-}
-
-function action6027(fn){
+function action250695(fn){
     trivExitPage('page119090.html',false); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button6026onUp() {
-  action6027();
-}
-
-function action6029(fn){
-    if( text6028.eatOnUp==true ){
-        text6028.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page119090.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text6028onUp() {
-  action6029();
+function image250438onUp() {
+  action250695();
 }
 
 if( is.min ){
-text118952 = new ObjText('text118952',null,253,552,505,30,1,33,null,'div',null,0 )
+text118952 = new ObjText('text118952',null,253,552,505,30,1,29,null,'div',null,0 )
 text118952.initSLine(0)
 text118952.initHasBullet(0)
 text118952.initRotateAngle(0,0,0)
@@ -360,7 +319,33 @@ text118952.arrCSSStyles.push('span.text118952Font2 { font-size:12px; font-family
 text118952.addInnerText('<div id=\"text118952\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text118952Font1\"  >LESSON 2: SELECT ITEMS OF COST</span ><span class=\"text118952Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text118952.build()
 
-image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,3,'div',null, 0 )
+image250446 = new ObjImage('image250446','images/next-button.png','Next Page',870,554,80,33,1,2,'div',null, 0 )
+image250446.initRotateAngle(0,0,0,0,0,0,0)
+image250446.initHasShadow(0)
+image250446.initHasReflection(0)
+image250446.addIe8Attr(870, 554, 80, 33, 0, 0)
+image250446.initImageMap(1,'0,0,80,0,80,33,0,33,0,0','M 0 0 L 80 0 L 80 33 L 0 33 L 0 0 z')
+image250446.addBorder(0)
+image250446.addOpacity(100)
+image250446.onUp = image250446onUp
+image250446.hasOnUp = true
+image250446.capture=4
+image250446.build()
+
+image250438 = new ObjImage('image250438','images/back-button.png','Previous Page',58,554,80,32,1,3,'div',null, 0 )
+image250438.initRotateAngle(0,0,0,0,0,0,0)
+image250438.initHasShadow(0)
+image250438.initHasReflection(0)
+image250438.addIe8Attr(58, 554, 80, 32, 0, 0)
+image250438.initImageMap(1,'0,0,80,0,80,32,0,32,0,0','M 0 0 L 80 0 L 80 32 L 0 32 L 0 0 z')
+image250438.addBorder(0)
+image250438.addOpacity(100)
+image250438.onUp = image250438onUp
+image250438.hasOnUp = true
+image250438.capture=4
+image250438.build()
+
+image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,5,'div',null, 0 )
 image1612.initRotateAngle(0,0,0,0,0,0,0)
 image1612.initHasShadow(0)
 image1612.initHasReflection(0)
@@ -370,111 +355,11 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-og45568 = new ObjInline('og45568',null,0,0,948,591,1,0)
-og45568.isGrp = true
-og45568.addChild('button5990')
-og45568.addChild('text5992')
-og45568.build()
-
-button5990 = new ObjButton('button5990', 'Next Page',884,567,65.000000,25.000000,1,4,'div','',1,0)
-button5990.setUseSvgFile(1)
-button5990.setFillStyle(17)
-button5990.setUniqueFillID('page119102_button5990')
-button5990.initRotateAngle(180,0,0,-0.000000,-0.000000,64,24)
-button5990.initHasShadow(0)
-button5990.initHasReflection(0)
-button5990.setImages({"disabledState":"images/button5990_disabled.png","downState":"images/button5990_down.png","normalState":"images/button5990.png","overState":"images/button5990_over.png","selectedState":"images/button5990_selected.png","visitedState":"images/button5990_visited.png"});
-button5990.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button5990.addOpacity(100)
-button5990.initImageMap('0,0,64,0,64,24,0,24,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 24.000000 L 0.000000 24.000000 L 0.000000 0.000000 z')
-button5990.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button5990.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button5990_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button5990_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button5990_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button5990_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button5990\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button5990)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button5990_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button5990_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button5990_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button5990_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button5990_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button5990_visitedState)"}});
-button5990.rebuildDefs();
-button5990.initLineWeight('0')
-button5990.onUp = button5990onUp
-button5990.hasOnUp = true
-button5990.capture=4
-button5990.bSelectedEnabled = false;
-button5990.bVisitedEnabled = false;
-button5990.bOverEnabled = true;
-button5990.bDownEnabled = true;
-button5990.build()
-
-text5992 = new ObjText('text5992',null,878,555,51,18,1,5,null,'div',null,0 )
-text5992.initSLine(1)
-text5992.initHasBullet(0)
-text5992.initRotateAngle(0,0,0)
-text5992.initHasOuterShadow(0)
-text5992.initHasTextShadow(0)
-text5992.initHasBorder(0)
-text5992.initHasOutline(0)
-text5992.initHasMargin(0)
-text5992.addIe8Attr(878, 555, 51, 18, 0, 0)
-text5992.addHeading(0)
-text5992.addOpacity(100)
-text5992.onUp = text5992onUp
-text5992.hasOnUp = true
-text5992.capture=4
-text5992.arrCSSStyles = new Array();
-text5992.arrCSSStyles.push('span.text5992Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text5992.addInnerText('<div id=\"text5992\" aria-hidden=\"true\" ><a id=\"text5992anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text5992Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text5992Font1\"  >NEXT\n</span ></p >\n</div></div>\n');
-text5992.build()
-
-og44006 = new ObjInline('og44006',null,0,0,140,591,1,0)
-og44006.isGrp = true
-og44006.addChild('button6026')
-og44006.addChild('text6028')
-og44006.build()
-
-button6026 = new ObjButton('button6026', 'Pevious Page',60,568,65.000000,24.000000,1,6,'div','',1,0)
-button6026.setUseSvgFile(1)
-button6026.setFillStyle(17)
-button6026.setUniqueFillID('page119102_button6026')
-button6026.initRotateAngle(0,0,0,-0.000000,-0.000000,64,23)
-button6026.initHasShadow(0)
-button6026.initHasReflection(0)
-button6026.setImages({"disabledState":"images/button6026_disabled.png","downState":"images/button6026_down.png","normalState":"images/button6026.png","overState":"images/button6026_over.png","selectedState":"images/button6026_selected.png","visitedState":"images/button6026_visited.png"});
-button6026.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button6026.addOpacity(100)
-button6026.initImageMap('0,0,64,0,64,23,0,23,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 23.000000 L 0.000000 23.000000 L 0.000000 0.000000 z')
-button6026.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button6026.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button6026_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button6026_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button6026_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button6026_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button6026\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button6026)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button6026_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button6026_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button6026_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button6026_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page119102_button6026_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page119102_button6026_visitedState)"}});
-button6026.rebuildDefs();
-button6026.initLineWeight('0')
-button6026.onUp = button6026onUp
-button6026.hasOnUp = true
-button6026.capture=4
-button6026.bSelectedEnabled = false;
-button6026.bVisitedEnabled = false;
-button6026.bOverEnabled = true;
-button6026.bDownEnabled = true;
-button6026.build()
-
-text6028 = new ObjText('text6028',null,79,555,61,22,1,7,null,'div',null,0 )
-text6028.initSLine(0)
-text6028.initHasBullet(0)
-text6028.initRotateAngle(0,0,0)
-text6028.initHasOuterShadow(0)
-text6028.initHasTextShadow(0)
-text6028.initHasBorder(0)
-text6028.initHasOutline(0)
-text6028.initHasMargin(0)
-text6028.addIe8Attr(79, 555, 61, 22, 0, 0)
-text6028.addHeading(0)
-text6028.addOpacity(100)
-text6028.onUp = text6028onUp
-text6028.hasOnUp = true
-text6028.capture=4
-text6028.arrCSSStyles = new Array();
-text6028.arrCSSStyles.push('span.text6028Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text6028.addInnerText('<div id=\"text6028\" aria-hidden=\"true\" ><a id=\"text6028anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text6028Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text6028Font1\"  >BACK\n</span ></p >\n</div></div>\n');
-text6028.build()
-
-progress120186 = new ObjProgress('progress120186','',65,522,878,20,1,18,1,8,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,56,0,0,0,0,0,'div',0 )
+progress120186 = new ObjProgress('progress120186','',65,522,878,20,1,18,1,6,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,56,0,0,0,0,0,'div',0 )
 progress120186.actionSetPos(51)
 progress120186.build()
 
-shape118954 = new ObjImage('shape118954','images/shape118954.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,9,'div','',0 )
+shape118954 = new ObjImage('shape118954','images/shape118954.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape118954.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape118954.initHasShadow(0)
 shape118954.initHasReflection(0)
@@ -487,7 +372,7 @@ shape118954.initLineWeight(0)
 shape118954.addOpacity(100)
 shape118954.build()
 
-text119103 = new ObjText('text119103',null,829,523,31,23,1,10,null,'div',null,0 )
+text119103 = new ObjText('text119103',null,829,523,31,23,1,8,null,'div',null,0 )
 text119103.initSLine(1)
 text119103.initHasBullet(0)
 text119103.initRotateAngle(0,0,0)
@@ -505,7 +390,7 @@ text119103.arrCSSStyles.push('span.text119103Font2 { font-size:16px; font-family
 text119103.addInnerText('<div id=\"text119103\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119103Font1\"  >92%</span ><span class=\"text119103Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text119103.build()
 
-text119104 = new ObjText('text119104',null,63,145,752,51,1,11,null,'div',null,0 )
+text119104 = new ObjText('text119104',null,63,145,752,51,1,9,null,'div',null,0 )
 text119104.initSLine(0)
 text119104.initHasBullet(0)
 text119104.initRotateAngle(0,0,0)
@@ -522,7 +407,7 @@ text119104.arrCSSStyles.push('span.text119104Font1 { font-size:19px; font-family
 text119104.addInnerText('<div id=\"text119104\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119104Font1\"  >200.465: RENTAL COSTS OF REAL PROPERTY AND EQUIPTMENT\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119104.build()
 
-text119105 = new ObjText('text119105',null,59,185,674,61,1,12,null,'div',null,0 )
+text119105 = new ObjText('text119105',null,59,185,674,61,1,10,null,'div',null,0 )
 text119105.initSLine(0)
 text119105.initHasBullet(0)
 text119105.initRotateAngle(0,0,0)
@@ -542,7 +427,7 @@ text119105.arrCSSStyles.push('span.text119105Font4 { font-size:13px; font-family
 text119105.addInnerText('<div id=\"text119105\" aria-hidden=\"true\" ><p  legLH=\"1.127\" style=\"margin-left:10px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:7px;text-align:left;\" >\n<span class=\"text119105Font1\"  >Rental costs of real property and equipment are allowable within specified constraints.</span ><span class=\"text119105Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119105Font3\"  >THE COSTS MUST BE REASONABLE AS COMPARED:</span ><span class=\"text119105Font4\"  > \n</span ></p >\n</div>\n');
 text119105.build()
 
-image119107 = new ObjImage('image119107','images/image108.png','image108',63,258,58,58,1,13,'div',null, 0 )
+image119107 = new ObjImage('image119107','images/image108.png','image108',63,258,58,58,1,11,'div',null, 0 )
 image119107.initRotateAngle(0,0,0,0,0,0,0)
 image119107.initHasShadow(0)
 image119107.initHasReflection(0)
@@ -552,7 +437,7 @@ image119107.addBorder(0)
 image119107.addOpacity(100)
 image119107.build()
 
-text119108 = new ObjText('text119108',null,131,272,226,44,1,14,null,'div',null,0 )
+text119108 = new ObjText('text119108',null,131,272,226,44,1,12,null,'div',null,0 )
 text119108.initSLine(0)
 text119108.initHasBullet(0)
 text119108.initRotateAngle(0,0,0)
@@ -570,7 +455,7 @@ text119108.arrCSSStyles.push('span.text119108Font2 { font-size:17px; font-family
 text119108.addInnerText('<div id=\"text119108\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119108Font1\"  >To similar property under the market conditions of the area</span ><span class=\"text119108Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text119108.build()
 
-image119110 = new ObjImage('image119110','images/image109.png','image109',396,258,58,58,1,15,'div',null, 0 )
+image119110 = new ObjImage('image119110','images/image109.png','image109',396,258,58,58,1,13,'div',null, 0 )
 image119110.initRotateAngle(0,0,0,0,0,0,0)
 image119110.initHasShadow(0)
 image119110.initHasReflection(0)
@@ -580,7 +465,7 @@ image119110.addBorder(0)
 image119110.addOpacity(100)
 image119110.build()
 
-text119111 = new ObjText('text119111',null,462,272,242,41,1,16,null,'div',null,0 )
+text119111 = new ObjText('text119111',null,462,272,242,41,1,14,null,'div',null,0 )
 text119111.initSLine(0)
 text119111.initHasBullet(0)
 text119111.initRotateAngle(0,0,0)
@@ -598,7 +483,7 @@ text119111.arrCSSStyles.push('span.text119111Font2 { font-size:17px; font-family
 text119111.addInnerText('<div id=\"text119111\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119111Font1\"  >To any other alternatives available to meet the requirement</span ><span class=\"text119111Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text119111.build()
 
-text119112 = new ObjText('text119112',null,65,352,674,107,1,17,null,'div',null,0 )
+text119112 = new ObjText('text119112',null,65,352,674,107,1,15,null,'div',null,0 )
 text119112.initSLine(0)
 text119112.initHasBullet(0)
 text119112.initRotateAngle(0,0,0)
@@ -616,7 +501,7 @@ text119112.arrCSSStyles.push('span.text119112Font3 { font-size:17px; font-family
 text119112.addInnerText('<div id=\"text119112\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119112Font1\"  >The costs must also be reasonable considering the type, life expectancy, condition, and value of the leased property.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119112Font1\"  >Carefully review any arrangements that constitute a “less-than-arm’s-length” arrangement. These are arrangements in which a relationship exists so that one party of the arrangement can substantially influence the actions of the other party.</span ><span class=\"text119112Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text119112.build()
 
-shape119114 = new ObjImage('shape119114','images/shape119114.png','Rectangle 8',768,424,242.000000,68.000000,1,18,'div','',0 )
+shape119114 = new ObjImage('shape119114','images/shape119114.png','Rectangle 8',768,424,242.000000,68.000000,1,16,'div','',0 )
 shape119114.initRotateAngle(0,0,0,-0.000000,-0.000000,241,67)
 shape119114.initHasShadow(0)
 shape119114.initHasReflection(0)
@@ -629,7 +514,7 @@ shape119114.initLineWeight(0)
 shape119114.addOpacity(100)
 shape119114.build()
 
-text119115 = new ObjText('text119115',null,848,145,110,287,1,19,null,'div',null,0 )
+text119115 = new ObjText('text119115',null,848,145,110,287,1,17,null,'div',null,0 )
 text119115.initSLine(0)
 text119115.initHasBullet(0)
 text119115.initRotateAngle(0,0,0)
@@ -647,7 +532,7 @@ text119115.arrCSSStyles.push('span.text119115Font2 { font-size:12px; font-family
 text119115.addInnerText('<div id=\"text119115\" aria-hidden=\"true\" ><p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.423 \n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.426\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.442\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.444 \n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.450 \n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.467 \n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.448 \n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.454\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.460\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.463\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119115Font1\" style=\"position:relative;top:-3px;\" >200.464</span ><span class=\"text119115Font2\" style=\"background-color:transparentposition:relative;top:-3px;\" >\n</span ></p >\n</div>\n');
 text119115.build()
 
-text119116 = new ObjText('text119116',null,788,430,192,57,1,20,null,'div',null,0 )
+text119116 = new ObjText('text119116',null,788,430,192,57,1,18,null,'div',null,0 )
 text119116.initSLine(0)
 text119116.initHasBullet(0)
 text119116.initRotateAngle(0,0,0)
@@ -667,13 +552,9 @@ text119116.addInnerText('<div id=\"text119116\" aria-hidden=\"true\" ><p  legLH=
 text119116.build()
 
 arObjs.push(text118952);
+arObjs.push(image250446);
+arObjs.push(image250438);
 arObjs.push(image1612);
-arObjs.push(og45568);
-arObjs.push(button5990);
-arObjs.push(text5992);
-arObjs.push(og44006);
-arObjs.push(button6026);
-arObjs.push(text6028);
 arObjs.push(progress120186);
 arObjs.push(shape118954);
 arObjs.push(text119103);
@@ -698,8 +579,6 @@ writeStyleSheets(arObjs);}
 <body onfocus="trivOnFocus()" onResize="ReFlow()">
 
    <DIV id="pageDIV" class="pageDIV">
-<div id="og45568"><a id="og45568anc"></a></div>
-<div id="og44006"><a id="og44006anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
@@ -716,11 +595,9 @@ if( is.min ){
 <script>
 if( is.min ){
     appendElement(text118952, null, null);
+    appendElement(image250446, null, null);
+    appendElement(image250438, null, null);
     appendElement(image1612, null, null);
-    appendElement(button5990, null, null);
-    appendElement(text5992, null, null);
-    appendElement(button6026, null, null);
-    appendElement(text6028, null, null);
     appendElement(progress120186, null, null);
     appendElement(shape118954, null, null);
     appendElement(text119103, null, null);

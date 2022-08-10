@@ -23,7 +23,6 @@
 <script src="es6-promise-2.0.0.min.js"></script>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
-<script src="trivantis-button.js"></script>
 <script src="trivantis-image.js"></script>
 <script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
@@ -129,17 +128,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(image1612,og44006,button6026,text6028,progress62539,og218478,button218485,text218487,text116677,text1557,text1558,shape1559,image37090,text1563,shape1564,image37206,text1568,shape1569,image1572,text1574,shape1575,text1577))
+    PreloadResources(new Array(image250446,image250438,image1612,progress62539,text116677,text1557,text1558,shape1559,image37090,text1563,shape1564,image37206,text1568,shape1569,image1572,text1574,shape1575,text1577))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
+    image250446.init()
+    image250438.init()
     image1612.init()
-    og44006.init()
-    button6026.init()
-    text6028.init()
     progress62539.init()
-    og218478.init()
-    button218485.init()
-    text218487.init()
     text116677.init()
     text1557.init()
     text1558.init()
@@ -154,14 +149,10 @@ function init11() {
     text1574.init()
     shape1575.init()
     text1577.init()
+    image250446.activate()
+    image250438.activate()
     image1612.activate()
-    og44006.activate()
-    button6026.activate()
-    text6028.activate()
     progress62539.activate()
-    og218478.activate()
-    button218485.activate()
-    text218487.activate()
     text116677.activate()
     text1557.activate()
     text1558.activate()
@@ -176,10 +167,6 @@ function init11() {
     text1574.activate()
     shape1575.activate()
     text1577.activate()
-button6026.strCookieState = (trivBtnTracking.GetRangeStatus(6026,true));
-button6026.loadStateFromSes("normalState");
-button218485.strCookieState = (trivBtnTracking.GetRangeStatus(218485,true));
-button218485.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -294,46 +281,54 @@ function OnDeviceRotate() {
 
 }
 
-function action5993(fn){
-    if( text218487.eatOnUp==true ){
-        text218487.eatOnUp=false;
-        return;
-    }
+function action250695(fn){
+    trivExitPage('page53997.html',false);
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function image250438onUp() {
+  action250695();
+}
+
+function action250648(fn){
     trivExitPage('page119903.html',true);
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function text218487onUp() {
-  action5993();
-}
-
-function action6027(fn){
-    trivExitPage('page53997.html',false);
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function button6026onUp() {
-  action6027();
-}
-
-function action6029(fn){
-    if( text6028.eatOnUp==true ){
-        text6028.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page53997.html',false);
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text6028onUp() {
-  action6029();
+function image250446onUp() {
+  action250648();
 }
 
 if( is.min ){
-image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,2,'div',null, 0 )
+image250446 = new ObjImage('image250446','images/next-button.png','Next Page',870,554,80,33,1,1,'div',null, 0 )
+image250446.initRotateAngle(0,0,0,0,0,0,0)
+image250446.initHasShadow(0)
+image250446.initHasReflection(0)
+image250446.addIe8Attr(870, 554, 80, 33, 0, 0)
+image250446.initImageMap(1,'0,0,80,0,80,33,0,33,0,0','M 0 0 L 80 0 L 80 33 L 0 33 L 0 0 z')
+image250446.addBorder(0)
+image250446.addOpacity(100)
+image250446.onUp = image250446onUp
+image250446.hasOnUp = true
+image250446.capture=4
+image250446.build()
+
+image250438 = new ObjImage('image250438','images/back-button.png','Previous Page',58,554,80,32,1,2,'div',null, 0 )
+image250438.initRotateAngle(0,0,0,0,0,0,0)
+image250438.initHasShadow(0)
+image250438.initHasReflection(0)
+image250438.addIe8Attr(58, 554, 80, 32, 0, 0)
+image250438.initImageMap(1,'0,0,80,0,80,32,0,32,0,0','M 0 0 L 80 0 L 80 32 L 0 32 L 0 0 z')
+image250438.addBorder(0)
+image250438.addOpacity(100)
+image250438.onUp = image250438onUp
+image250438.hasOnUp = true
+image250438.capture=4
+image250438.build()
+
+image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,4,'div',null, 0 )
 image1612.initRotateAngle(0,0,0,0,0,0,0)
 image1612.initHasShadow(0)
 image1612.initHasReflection(0)
@@ -343,108 +338,11 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-og44006 = new ObjInline('og44006',null,0,0,140,591,1,0)
-og44006.isGrp = true
-og44006.addChild('button6026')
-og44006.addChild('text6028')
-og44006.build()
-
-button6026 = new ObjButton('button6026', 'Pevious Page',60,568,65.000000,24.000000,1,3,'div','',1,0)
-button6026.setUseSvgFile(1)
-button6026.setFillStyle(17)
-button6026.setUniqueFillID('page1555_button6026')
-button6026.initRotateAngle(0,0,0,-0.000000,-0.000000,64,23)
-button6026.initHasShadow(0)
-button6026.initHasReflection(0)
-button6026.setImages({"disabledState":"images/button6026_disabled.png","downState":"images/button6026_down.png","normalState":"images/button6026.png","overState":"images/button6026_over.png","selectedState":"images/button6026_selected.png","visitedState":"images/button6026_visited.png"});
-button6026.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button6026.addOpacity(100)
-button6026.initImageMap('0,0,64,0,64,23,0,23,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 23.000000 L 0.000000 23.000000 L 0.000000 0.000000 z')
-button6026.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button6026.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button6026_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button6026_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button6026_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button6026_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button6026\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button6026)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button6026_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button6026_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button6026_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button6026_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button6026_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button6026_visitedState)"}});
-button6026.rebuildDefs();
-button6026.initLineWeight('0')
-button6026.onUp = button6026onUp
-button6026.hasOnUp = true
-button6026.capture=4
-button6026.bSelectedEnabled = false;
-button6026.bVisitedEnabled = false;
-button6026.bOverEnabled = true;
-button6026.bDownEnabled = true;
-button6026.build()
-
-text6028 = new ObjText('text6028',null,79,555,61,22,1,4,null,'div',null,0 )
-text6028.initSLine(0)
-text6028.initHasBullet(0)
-text6028.initRotateAngle(0,0,0)
-text6028.initHasOuterShadow(0)
-text6028.initHasTextShadow(0)
-text6028.initHasBorder(0)
-text6028.initHasOutline(0)
-text6028.initHasMargin(0)
-text6028.addIe8Attr(79, 555, 61, 22, 0, 0)
-text6028.addHeading(0)
-text6028.addOpacity(100)
-text6028.onUp = text6028onUp
-text6028.hasOnUp = true
-text6028.capture=4
-text6028.arrCSSStyles = new Array();
-text6028.arrCSSStyles.push('span.text6028Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text6028.addInnerText('<div id=\"text6028\" aria-hidden=\"true\" ><a id=\"text6028anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text6028Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text6028Font1\"  >BACK\n</span ></p >\n</div></div>\n');
-text6028.build()
-
 progress62539 = new ObjProgress('progress62539','',65,522,878,20,1,18,1,5,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,37,0,0,0,0,0,'div',0 )
 progress62539.actionSetPos(37)
 progress62539.build()
 
-og218478 = new ObjInline('og218478',null,0,0,948,591,1,0)
-og218478.isGrp = true
-og218478.addChild('button218485')
-og218478.addChild('text218487')
-og218478.build()
-
-button218485 = new ObjButton('button218485', 'Next Page',884,567,65.000000,25.000000,1,6,'div','',1,0)
-button218485.setUseSvgFile(1)
-button218485.setFillStyle(17)
-button218485.setUniqueFillID('page1555_button218485')
-button218485.initRotateAngle(180,0,0,-0.000000,-0.000000,64,24)
-button218485.initHasShadow(0)
-button218485.initHasReflection(0)
-button218485.setImages({"disabledState":"images/button218485_disabled.png","downState":"images/button218485_down.png","normalState":"images/button218485.png","overState":"images/button218485_over.png","selectedState":"images/button218485_selected.png","visitedState":"images/button218485_visited.png"});
-button218485.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button218485.addOpacity(100)
-button218485.initImageMap('0,0,64,0,64,24,0,24,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 24.000000 L 0.000000 24.000000 L 0.000000 0.000000 z')
-button218485.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button218485.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button218485_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button218485_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button218485_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button218485_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button218485\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button218485)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button218485_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button218485_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button218485_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button218485_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page1555_button218485_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page1555_button218485_visitedState)"}});
-button218485.rebuildDefs();
-button218485.initLineWeight('0')
-button218485.bSelectedEnabled = false;
-button218485.bVisitedEnabled = false;
-button218485.bOverEnabled = true;
-button218485.bDownEnabled = true;
-button218485.build()
-
-text218487 = new ObjText('text218487',null,878,555,51,18,1,7,null,'div',null,0 )
-text218487.initSLine(1)
-text218487.initHasBullet(0)
-text218487.initRotateAngle(0,0,0)
-text218487.initHasOuterShadow(0)
-text218487.initHasTextShadow(0)
-text218487.initHasBorder(0)
-text218487.initHasOutline(0)
-text218487.initHasMargin(0)
-text218487.addIe8Attr(878, 555, 51, 18, 0, 0)
-text218487.addHeading(0)
-text218487.addOpacity(100)
-text218487.onUp = text218487onUp
-text218487.hasOnUp = true
-text218487.capture=4
-text218487.arrCSSStyles = new Array();
-text218487.arrCSSStyles.push('span.text218487Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text218487.addInnerText('<div id=\"text218487\" aria-hidden=\"true\" ><a id=\"text218487anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text218487Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text218487Font1\"  >NEXT\n</span ></p >\n</div>\n');
-text218487.build()
-
-text116677 = new ObjText('text116677',null,896,523,38,23,1,8,null,'div',null,0 )
+text116677 = new ObjText('text116677',null,896,523,38,23,1,6,null,'div',null,0 )
 text116677.initSLine(1)
 text116677.initHasBullet(0)
 text116677.initRotateAngle(0,0,0)
@@ -462,7 +360,7 @@ text116677.arrCSSStyles.push('span.text116677Font2 { font-size:16px; font-family
 text116677.addInnerText('<div id=\"text116677\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text116677Font1\"  >100%</span ><span class=\"text116677Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text116677.build()
 
-text1557 = new ObjText('text1557',null,62,139,880,44,1,9,null,'div',null,0 )
+text1557 = new ObjText('text1557',null,62,139,880,44,1,7,null,'div',null,0 )
 text1557.initSLine(0)
 text1557.initHasBullet(0)
 text1557.initRotateAngle(0,0,0)
@@ -480,7 +378,7 @@ text1557.arrCSSStyles.push('span.text1557Font2 { font-size:19px; font-family:"Os
 text1557.addInnerText('<div id=\"text1557\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1557Font1\"  >KEY TAKEAWAYS</span ><span class=\"text1557Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text1557.build()
 
-text1558 = new ObjText('text1558',null,55,174,880,34,1,10,null,'div',null,0 )
+text1558 = new ObjText('text1558',null,55,174,880,34,1,8,null,'div',null,0 )
 text1558.initSLine(1)
 text1558.initHasBullet(0)
 text1558.initRotateAngle(0,0,0)
@@ -498,7 +396,7 @@ text1558.arrCSSStyles.push('span.text1558Font2 { font-size:16px; font-family:"Os
 text1558.addInnerText('<div id=\"text1558\" aria-hidden=\"true\" ><p  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1558Font1\"  >IN THIS LESSON WE:</span ><span class=\"text1558Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text1558.build()
 
-shape1559 = new ObjImage('shape1559','images/shape1559.png','Rectangle 12',65,249,310.000000,183.000000,1,11,'div','',0 )
+shape1559 = new ObjImage('shape1559','images/shape1559.png','Rectangle 12',65,249,310.000000,183.000000,1,9,'div','',0 )
 shape1559.initRotateAngle(0,0,0,-0.000000,-0.000000,309,182)
 shape1559.initHasShadow(0)
 shape1559.initHasReflection(0)
@@ -511,7 +409,7 @@ shape1559.initLineWeight(0)
 shape1559.addOpacity(100)
 shape1559.build()
 
-image37090 = new ObjImage('image37090','images/image59.png','image59',187,211,58,58,1,12,'div',null, 0 )
+image37090 = new ObjImage('image37090','images/image59.png','image59',187,211,58,58,1,10,'div',null, 0 )
 image37090.initRotateAngle(0,0,0,0,0,0,0)
 image37090.initHasShadow(0)
 image37090.initHasReflection(0)
@@ -521,7 +419,7 @@ image37090.addBorder(0)
 image37090.addOpacity(100)
 image37090.build()
 
-text1563 = new ObjText('text1563',null,88,275,263,145,1,13,null,'div',null,0 )
+text1563 = new ObjText('text1563',null,88,275,263,145,1,11,null,'div',null,0 )
 text1563.initSLine(0)
 text1563.initHasBullet(0)
 text1563.initRotateAngle(0,0,0)
@@ -539,7 +437,7 @@ text1563.arrCSSStyles.push('span.text1563Font2 { font-size:17px; font-family:"Ar
 text1563.addInnerText('<div id=\"text1563\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text1563Font1\"  >Explored some of the primary elements of 2 CFR 200 Subpart C Cost Principles. As you learned, General Provisions address some of the fundamental issues regarding analyzing the type of cost and assessing how to determine if a cost can be included in a financial assistance award.</span ><span class=\"text1563Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text1563.build()
 
-shape1564 = new ObjImage('shape1564','images/shape1564.png','Rectangle 18',393,249,218.000000,183.000000,1,14,'div','',0 )
+shape1564 = new ObjImage('shape1564','images/shape1564.png','Rectangle 18',393,249,218.000000,183.000000,1,12,'div','',0 )
 shape1564.initRotateAngle(0,0,0,-0.000000,-0.000000,217,182)
 shape1564.initHasShadow(0)
 shape1564.initHasReflection(0)
@@ -552,7 +450,7 @@ shape1564.initLineWeight(0)
 shape1564.addOpacity(100)
 shape1564.build()
 
-image37206 = new ObjImage('image37206','images/image60.png','image60',468,212,58,58,1,15,'div',null, 0 )
+image37206 = new ObjImage('image37206','images/image60.png','image60',468,212,58,58,1,13,'div',null, 0 )
 image37206.initRotateAngle(0,0,0,0,0,0,0)
 image37206.initHasShadow(0)
 image37206.initHasReflection(0)
@@ -562,7 +460,7 @@ image37206.addBorder(0)
 image37206.addOpacity(100)
 image37206.build()
 
-text1568 = new ObjText('text1568',null,413,275,179,143,1,16,null,'div',null,0 )
+text1568 = new ObjText('text1568',null,413,275,179,143,1,14,null,'div',null,0 )
 text1568.initSLine(0)
 text1568.initHasBullet(0)
 text1568.initRotateAngle(0,0,0)
@@ -580,7 +478,7 @@ text1568.arrCSSStyles.push('span.text1568Font2 { font-size:17px; font-family:"Ar
 text1568.addInnerText('<div id=\"text1568\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text1568Font1\"  >Learned the composition of costs consists of direct, indirect costs, and credits. We also learned the requirements for determining if a cost is allowable, reasonable, and/or allocable.</span ><span class=\"text1568Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text1568.build()
 
-shape1569 = new ObjImage('shape1569','images/shape1569.png','Rectangle 21',631,249,315.000000,183.000000,1,17,'div','',0 )
+shape1569 = new ObjImage('shape1569','images/shape1569.png','Rectangle 21',631,249,315.000000,183.000000,1,15,'div','',0 )
 shape1569.initRotateAngle(0,0,0,-0.000000,-0.000000,314,182)
 shape1569.initHasShadow(0)
 shape1569.initHasReflection(0)
@@ -593,7 +491,7 @@ shape1569.initLineWeight(0)
 shape1569.addOpacity(100)
 shape1569.build()
 
-image1572 = new ObjImage('image1572','images/image0051.png','Picture 19',756,214,58,58,1,18,'div',null, 0 )
+image1572 = new ObjImage('image1572','images/image0051.png','Picture 19',756,214,58,58,1,16,'div',null, 0 )
 image1572.initRotateAngle(0,0,0,0,0,0,0)
 image1572.initHasShadow(0)
 image1572.initHasReflection(0)
@@ -603,7 +501,7 @@ image1572.addBorder(0)
 image1572.addOpacity(100)
 image1572.build()
 
-text1574 = new ObjText('text1574',null,653,275,270,149,1,19,null,'div',null,0 )
+text1574 = new ObjText('text1574',null,653,275,270,149,1,17,null,'div',null,0 )
 text1574.initSLine(0)
 text1574.initHasBullet(0)
 text1574.initRotateAngle(0,0,0)
@@ -621,7 +519,7 @@ text1574.arrCSSStyles.push('span.text1574Font3 { font-size:17px; font-family:"Ar
 text1574.addInnerText('<div id=\"text1574\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text1574Font1\"  >Explored the concepts of direct costs – those that are charged directly to a Federal award – and indirect costs, which cover a non-Federal entity’s overall expenses and are charged consistently to multiple grants. We also looked at some examples of these costs and how they are applied to financial assistance.</span ><span class=\"text1574Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text1574.build()
 
-shape1575 = new ObjImage('shape1575','images/shape1575.png','Rectangle 24',65,449,881.000000,54.000000,1,20,'div','',0 )
+shape1575 = new ObjImage('shape1575','images/shape1575.png','Rectangle 24',65,449,881.000000,54.000000,1,18,'div','',0 )
 shape1575.initRotateAngle(0,0,0,-0.000000,-0.000000,880,53)
 shape1575.initHasShadow(0)
 shape1575.initHasReflection(0)
@@ -634,7 +532,7 @@ shape1575.initLineWeight(0)
 shape1575.addOpacity(100)
 shape1575.build()
 
-text1577 = new ObjText('text1577',null,86,459,757,41,1,21,null,'div',null,0 )
+text1577 = new ObjText('text1577',null,86,459,757,41,1,19,null,'div',null,0 )
 text1577.initSLine(0)
 text1577.initHasBullet(0)
 text1577.initRotateAngle(0,0,0)
@@ -652,14 +550,10 @@ text1577.arrCSSStyles.push('span.text1577Font3 { font-size:17px; font-family:"Ar
 text1577.addInnerText('<div id=\"text1577\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1577Font1\"  >We’ll return to most of the concepts in Lesson 3 when we apply them to a sample budget. <br />Before we get to that, however, let’s explore how specific cost categories are addressed in Subpart C in Lesson 2.</span ><span class=\"text1577Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text1577.build()
 
+arObjs.push(image250446);
+arObjs.push(image250438);
 arObjs.push(image1612);
-arObjs.push(og44006);
-arObjs.push(button6026);
-arObjs.push(text6028);
 arObjs.push(progress62539);
-arObjs.push(og218478);
-arObjs.push(button218485);
-arObjs.push(text218487);
 arObjs.push(text116677);
 arObjs.push(text1557);
 arObjs.push(text1558);
@@ -685,8 +579,6 @@ writeStyleSheets(arObjs);}
 <body onfocus="trivOnFocus()" onResize="ReFlow()">
 
    <DIV id="pageDIV" class="pageDIV">
-<div id="og44006"><a id="og44006anc"></a></div>
-<div id="og218478"><a id="og218478anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
@@ -702,12 +594,10 @@ if( is.min ){
 
 <script>
 if( is.min ){
+    appendElement(image250446, null, null);
+    appendElement(image250438, null, null);
     appendElement(image1612, null, null);
-    appendElement(button6026, null, null);
-    appendElement(text6028, null, null);
     appendElement(progress62539, null, null);
-    appendElement(button218485, null, null);
-    appendElement(text218487, null, null);
     appendElement(text116677, null, null);
     appendElement(text1557, null, null);
     appendElement(text1558, null, null);

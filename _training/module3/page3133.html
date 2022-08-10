@@ -23,7 +23,6 @@
 <script src="es6-promise-2.0.0.min.js"></script>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
-<script src="trivantis-button.js"></script>
 <script src="trivantis-image.js"></script>
 <script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
@@ -130,17 +129,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23237,image1612,og45568,button5990,text5992,og44006,button6026,text6028,progress179008,progress178841,text117969,text3135,text3136,shape3137,image3140,text3142))
+    PreloadResources(new Array(text23237,image250446,image250438,image1612,progress179008,progress178841,text117969,text3135,text3136,shape3137,image3140,text3142))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text23237.init()
+    image250446.init()
+    image250438.init()
     image1612.init()
-    og45568.init()
-    button5990.init()
-    text5992.init()
-    og44006.init()
-    button6026.init()
-    text6028.init()
     progress179008.init()
     progress178841.init()
     text117969.init()
@@ -150,13 +145,9 @@ function init11() {
     image3140.init()
     text3142.init()
     text23237.activate()
+    image250446.activate()
+    image250438.activate()
     image1612.activate()
-    og45568.activate()
-    button5990.activate()
-    text5992.activate()
-    og44006.activate()
-    button6026.activate()
-    text6028.activate()
     progress179008.activate()
     progress178841.activate()
     text117969.activate()
@@ -165,10 +156,6 @@ function init11() {
     shape3137.activate()
     image3140.activate()
     text3142.activate()
-button5990.strCookieState = (trivBtnTracking.GetRangeStatus(5990,true));
-button5990.loadStateFromSes("normalState");
-button6026.strCookieState = (trivBtnTracking.GetRangeStatus(6026,true));
-button6026.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -284,56 +271,28 @@ function OnDeviceRotate() {
 
 }
 
-function action5991(fn){
+function action250648(fn){
     trivExitPage('page3145.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button5990onUp() {
-  action5991();
+function image250446onUp() {
+  action250648();
 }
 
-function action5993(fn){
-    if( text5992.eatOnUp==true ){
-        text5992.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page3145.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text5992onUp() {
-  action5993();
-}
-
-function action6027(fn){
+function action250695(fn){
     trivExitPage('page3058.html',false); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function button6026onUp() {
-  action6027();
-}
-
-function action6029(fn){
-    if( text6028.eatOnUp==true ){
-        text6028.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page3058.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text6028onUp() {
-  action6029();
+function image250438onUp() {
+  action250695();
 }
 
 if( is.min ){
-text23237 = new ObjText('text23237',null,253,553,505,30,1,28,null,'div',null,0 )
+text23237 = new ObjText('text23237',null,253,553,505,30,1,24,null,'div',null,0 )
 text23237.initSLine(0)
 text23237.initHasBullet(0)
 text23237.initRotateAngle(0,0,0)
@@ -351,7 +310,33 @@ text23237.arrCSSStyles.push('span.text23237Font2 { font-size:12px; font-family:"
 text23237.addInnerText('<div id=\"text23237\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text23237Font1\"  >LESSON 3: THE COST PRINCIPLES IN PRACTICE</span ><span class=\"text23237Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text23237.build()
 
-image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,3,'div',null, 0 )
+image250446 = new ObjImage('image250446','images/next-button.png','Next Page',870,554,80,33,1,2,'div',null, 0 )
+image250446.initRotateAngle(0,0,0,0,0,0,0)
+image250446.initHasShadow(0)
+image250446.initHasReflection(0)
+image250446.addIe8Attr(870, 554, 80, 33, 0, 0)
+image250446.initImageMap(1,'0,0,80,0,80,33,0,33,0,0','M 0 0 L 80 0 L 80 33 L 0 33 L 0 0 z')
+image250446.addBorder(0)
+image250446.addOpacity(100)
+image250446.onUp = image250446onUp
+image250446.hasOnUp = true
+image250446.capture=4
+image250446.build()
+
+image250438 = new ObjImage('image250438','images/back-button.png','Previous Page',58,554,80,32,1,3,'div',null, 0 )
+image250438.initRotateAngle(0,0,0,0,0,0,0)
+image250438.initHasShadow(0)
+image250438.initHasReflection(0)
+image250438.addIe8Attr(58, 554, 80, 32, 0, 0)
+image250438.initImageMap(1,'0,0,80,0,80,32,0,32,0,0','M 0 0 L 80 0 L 80 32 L 0 32 L 0 0 z')
+image250438.addBorder(0)
+image250438.addOpacity(100)
+image250438.onUp = image250438onUp
+image250438.hasOnUp = true
+image250438.capture=4
+image250438.build()
+
+image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,5,'div',null, 0 )
 image1612.initRotateAngle(0,0,0,0,0,0,0)
 image1612.initHasShadow(0)
 image1612.initHasReflection(0)
@@ -361,113 +346,13 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-og45568 = new ObjInline('og45568',null,0,0,948,591,1,0)
-og45568.isGrp = true
-og45568.addChild('button5990')
-og45568.addChild('text5992')
-og45568.build()
-
-button5990 = new ObjButton('button5990', 'Next Page',884,567,65.000000,25.000000,1,4,'div','',1,0)
-button5990.setUseSvgFile(1)
-button5990.setFillStyle(17)
-button5990.setUniqueFillID('page3133_button5990')
-button5990.initRotateAngle(180,0,0,-0.000000,-0.000000,64,24)
-button5990.initHasShadow(0)
-button5990.initHasReflection(0)
-button5990.setImages({"disabledState":"images/button5990_disabled.png","downState":"images/button5990_down.png","normalState":"images/button5990.png","overState":"images/button5990_over.png","selectedState":"images/button5990_selected.png","visitedState":"images/button5990_visited.png"});
-button5990.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button5990.addOpacity(100)
-button5990.initImageMap('0,0,64,0,64,24,0,24,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 24.000000 L 0.000000 24.000000 L 0.000000 0.000000 z')
-button5990.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button5990.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button5990_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button5990_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button5990_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button5990_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button5990\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button5990)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button5990_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button5990_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button5990_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button5990_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button5990_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"25.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button5990_visitedState)"}});
-button5990.rebuildDefs();
-button5990.initLineWeight('0')
-button5990.onUp = button5990onUp
-button5990.hasOnUp = true
-button5990.capture=4
-button5990.bSelectedEnabled = false;
-button5990.bVisitedEnabled = false;
-button5990.bOverEnabled = true;
-button5990.bDownEnabled = true;
-button5990.build()
-
-text5992 = new ObjText('text5992',null,878,555,51,18,1,5,null,'div',null,0 )
-text5992.initSLine(1)
-text5992.initHasBullet(0)
-text5992.initRotateAngle(0,0,0)
-text5992.initHasOuterShadow(0)
-text5992.initHasTextShadow(0)
-text5992.initHasBorder(0)
-text5992.initHasOutline(0)
-text5992.initHasMargin(0)
-text5992.addIe8Attr(878, 555, 51, 18, 0, 0)
-text5992.addHeading(0)
-text5992.addOpacity(100)
-text5992.onUp = text5992onUp
-text5992.hasOnUp = true
-text5992.capture=4
-text5992.arrCSSStyles = new Array();
-text5992.arrCSSStyles.push('span.text5992Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text5992.addInnerText('<div id=\"text5992\" aria-hidden=\"true\" ><a id=\"text5992anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text5992Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text5992Font1\"  >NEXT\n</span ></p >\n</div></div>\n');
-text5992.build()
-
-og44006 = new ObjInline('og44006',null,0,0,140,591,1,0)
-og44006.isGrp = true
-og44006.addChild('button6026')
-og44006.addChild('text6028')
-og44006.build()
-
-button6026 = new ObjButton('button6026', 'Pevious Page',60,568,65.000000,24.000000,1,6,'div','',1,0)
-button6026.setUseSvgFile(1)
-button6026.setFillStyle(17)
-button6026.setUniqueFillID('page3133_button6026')
-button6026.initRotateAngle(0,0,0,-0.000000,-0.000000,64,23)
-button6026.initHasShadow(0)
-button6026.initHasReflection(0)
-button6026.setImages({"disabledState":"images/button6026_disabled.png","downState":"images/button6026_down.png","normalState":"images/button6026.png","overState":"images/button6026_over.png","selectedState":"images/button6026_selected.png","visitedState":"images/button6026_visited.png"});
-button6026.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button6026.addOpacity(100)
-button6026.initImageMap('0,0,64,0,64,23,0,23,0,0','M 0.000000 0.000000 L 64.000000 0.000000 L 64.000000 23.000000 L 0.000000 23.000000 L 0.000000 0.000000 z')
-button6026.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button6026.setImgFillVal({"disabledState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button6026_disabledState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button6026_disabledState)"},"downState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button6026_downState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button6026_downState)"},"normalState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button6026\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button6026)"},"overState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button6026_overState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button6026_overState)"},"selectedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button6026_selectedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button6026_selectedState)"},"visitedState":{"B64":"images/image0002.png","fill":"                <pattern id=\"Picture_page3133_button6026_visitedState\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\" patternUnits=\"userSpaceOnUse\">                <image xlink:href=\"images/image0002.png\" x=\"0\" y=\"0\" width=\"65.000000\" height=\"24.000000\"  preserveAspectRatio=\"none\"/>           </pattern>       ","style":"fill:url(#Picture_page3133_button6026_visitedState)"}});
-button6026.rebuildDefs();
-button6026.initLineWeight('0')
-button6026.onUp = button6026onUp
-button6026.hasOnUp = true
-button6026.capture=4
-button6026.bSelectedEnabled = false;
-button6026.bVisitedEnabled = false;
-button6026.bOverEnabled = true;
-button6026.bDownEnabled = true;
-button6026.build()
-
-text6028 = new ObjText('text6028',null,79,555,61,22,1,7,null,'div',null,0 )
-text6028.initSLine(0)
-text6028.initHasBullet(0)
-text6028.initRotateAngle(0,0,0)
-text6028.initHasOuterShadow(0)
-text6028.initHasTextShadow(0)
-text6028.initHasBorder(0)
-text6028.initHasOutline(0)
-text6028.initHasMargin(0)
-text6028.addIe8Attr(79, 555, 61, 22, 0, 0)
-text6028.addHeading(0)
-text6028.addOpacity(100)
-text6028.onUp = text6028onUp
-text6028.hasOnUp = true
-text6028.capture=4
-text6028.arrCSSStyles = new Array();
-text6028.arrCSSStyles.push('span.text6028Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text6028.addInnerText('<div id=\"text6028\" aria-hidden=\"true\" ><a id=\"text6028anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text6028Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text6028Font1\"  >BACK\n</span ></p >\n</div></div>\n');
-text6028.build()
-
-progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,8,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
+progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,6,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
 progress179008.build()
 
-progress178841 = new ObjProgress('progress178841','',65,522,878,20,1,18,1,9,'#07648d','images/progress178841_bar.png','#ffffff','images/progress178841.png',1,41,0,0,0,1,VarProgressBar_0007.getValue(),'div',0 )
+progress178841 = new ObjProgress('progress178841','',65,522,878,20,1,18,1,7,'#07648d','images/progress178841_bar.png','#ffffff','images/progress178841.png',1,41,0,0,0,1,VarProgressBar_0007.getValue(),'div',0 )
 progress178841.build()
 
-text117969 = new ObjText('text117969',null,141,523,31,23,1,10,null,'div',null,0 )
+text117969 = new ObjText('text117969',null,141,523,31,23,1,8,null,'div',null,0 )
 text117969.initSLine(1)
 text117969.initHasBullet(0)
 text117969.initRotateAngle(0,0,0)
@@ -485,7 +370,7 @@ text117969.arrCSSStyles.push('span.text117969Font2 { font-size:16px; font-family
 text117969.addInnerText('<div id=\"text117969\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text117969Font1\"  >12%</span ><span class=\"text117969Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text117969.build()
 
-text3135 = new ObjText('text3135',null,65,140,867,51,1,11,null,'div',null,0 )
+text3135 = new ObjText('text3135',null,65,140,867,51,1,9,null,'div',null,0 )
 text3135.initSLine(0)
 text3135.initHasBullet(0)
 text3135.initRotateAngle(0,0,0)
@@ -502,7 +387,7 @@ text3135.arrCSSStyles.push('span.text3135Font1 { font-size:19px; font-family:"Os
 text3135.addInnerText('<div id=\"text3135\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3135Font1\"  >INDIRECT COST RATES\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3135.build()
 
-text3136 = new ObjText('text3136',null,60,180,298,314,1,12,null,'div',null,0 )
+text3136 = new ObjText('text3136',null,60,180,298,314,1,10,null,'div',null,0 )
 text3136.initSLine(0)
 text3136.initHasBullet(0)
 text3136.initRotateAngle(0,0,0)
@@ -520,7 +405,7 @@ text3136.arrCSSStyles.push('span.text3136Font3 { font-size:13px; font-family:"Ar
 text3136.addInnerText('<div id=\"text3136\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font1\"  >Let’s review briefly indirect costs. The NFE\'s cognizant agency for indirect costs is responsible for negotiating the indirect cost rate and issuing the appropriate Rate Agreement. These costs cover the operating expenses of the organization.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font1\"  >Alternatively, the NFE can elect to use the 10 percent de minimis rate, but only if they don’t have a negotiated rate.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font1\"  >The indirect cost rate should be applied to the items of costs specified in the allocation base. A Federal awarding agency may not negotiate a lower indirect cost rate than specified in the Rate Agreement, but an NFE may volunteer to reduce its indirect cost rate for that specific award. </span ><span class=\"text3136Font3\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:10px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3136Font3\"  >&nbsp;\n</span ></p >\n</div>\n');
 text3136.build()
 
-shape3137 = new ObjImage('shape3137','images/shape3137.png','Rectangle 8',414,243,535.000000,260.000000,1,13,'div','',0 )
+shape3137 = new ObjImage('shape3137','images/shape3137.png','Rectangle 8',414,243,535.000000,260.000000,1,11,'div','',0 )
 shape3137.initRotateAngle(0,0,0,-0.000000,-0.000000,534,259)
 shape3137.initHasShadow(0)
 shape3137.initHasReflection(0)
@@ -533,7 +418,7 @@ shape3137.initLineWeight(0)
 shape3137.addOpacity(100)
 shape3137.build()
 
-image3140 = new ObjImage('image3140','images/image0088.png','Picture 9',595,185,172,171,1,14,'div',null, 0 )
+image3140 = new ObjImage('image3140','images/image0088.png','Picture 9',595,185,172,171,1,12,'div',null, 0 )
 image3140.initRotateAngle(0,0,0,0,0,0,0)
 image3140.initHasShadow(0)
 image3140.initHasReflection(0)
@@ -543,7 +428,7 @@ image3140.addBorder(0)
 image3140.addOpacity(100)
 image3140.build()
 
-text3142 = new ObjText('text3142',null,454,383,454,101,1,15,null,'div',null,0 )
+text3142 = new ObjText('text3142',null,454,383,454,101,1,13,null,'div',null,0 )
 text3142.initSLine(0)
 text3142.initHasBullet(0)
 text3142.initRotateAngle(0,0,0)
@@ -562,13 +447,9 @@ text3142.addInnerText('<div id=\"text3142\" aria-hidden=\"true\" ><p  legLH=\"1.
 text3142.build()
 
 arObjs.push(text23237);
+arObjs.push(image250446);
+arObjs.push(image250438);
 arObjs.push(image1612);
-arObjs.push(og45568);
-arObjs.push(button5990);
-arObjs.push(text5992);
-arObjs.push(og44006);
-arObjs.push(button6026);
-arObjs.push(text6028);
 arObjs.push(progress179008);
 arObjs.push(progress178841);
 arObjs.push(text117969);
@@ -588,8 +469,6 @@ writeStyleSheets(arObjs);}
 <body onfocus="trivOnFocus()" onResize="ReFlow()">
 
    <DIV id="pageDIV" class="pageDIV">
-<div id="og45568"><a id="og45568anc"></a></div>
-<div id="og44006"><a id="og44006anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
@@ -606,11 +485,9 @@ if( is.min ){
 <script>
 if( is.min ){
     appendElement(text23237, null, null);
+    appendElement(image250446, null, null);
+    appendElement(image250438, null, null);
     appendElement(image1612, null, null);
-    appendElement(button5990, null, null);
-    appendElement(text5992, null, null);
-    appendElement(button6026, null, null);
-    appendElement(text6028, null, null);
     appendElement(progress179008, null, null);
     appendElement(progress178841, null, null);
     appendElement(text117969, null, null);
