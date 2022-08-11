@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="utf-8" />
 <title>Budget Review</title>
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:wght@200;300;400;500;600;700">
+<link rel="stylesheet" type="text/css" href="appfonts/stylesheet.css">
 
 <link rel="stylesheet" href="trivantis.css" type="text/css"/>
 <style type="text/css">
@@ -116,7 +116,6 @@ var arVariables = [];
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
 VarProgressBar_0010 = new Variable( 'VarProgressBar_0010', '8', 0, 0, null, null, 'module3', false )
-VarProgressBar_0027 = new Variable( 'VarProgressBar_0027', '24', 0, 0, null, null, 'module3', false )
 
 onload = init;
 (window.myTop || window).onunload = finish
@@ -129,14 +128,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23237,image250446,image250438,image1612,progress179008,progress178875,text118089,text3173,text3174,image3176))
+    PreloadResources(new Array(text23237,image250446,image250438,image1612,progress178875,text118089,text3173,text3174,image3176))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text23237.init()
     image250446.init()
     image250438.init()
     image1612.init()
-    progress179008.init()
     progress178875.init()
     text118089.init()
     text3173.init()
@@ -146,7 +144,6 @@ function init11() {
     image250446.activate()
     image250438.activate()
     image1612.activate()
-    progress179008.activate()
     progress178875.activate()
     text118089.activate()
     text3173.activate()
@@ -288,7 +285,7 @@ function image250438onUp() {
 }
 
 if( is.min ){
-text23237 = new ObjText('text23237',null,253,553,505,30,1,22,null,'div',null,0 )
+text23237 = new ObjText('text23237',null,253,553,505,30,1,21,null,'div',null,0 )
 text23237.initSLine(0)
 text23237.initHasBullet(0)
 text23237.initRotateAngle(0,0,0)
@@ -342,13 +339,10 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,6,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
-progress179008.build()
-
-progress178875 = new ObjProgress('progress178875','',65,522,878,20,1,18,1,7,'#07648d','images/progress178875_bar.png','#ffffff','images/progress178875.png',1,41,0,0,0,1,VarProgressBar_0010.getValue(),'div',0 )
+progress178875 = new ObjProgress('progress178875','',65,522,878,20,1,18,1,6,'#07648d','images/progress178875_bar.png','#ffffff','images/progress178875.png',1,41,0,0,0,1,VarProgressBar_0010.getValue(),'div',0 )
 progress178875.build()
 
-text118089 = new ObjText('text118089',null,204,523,31,23,1,8,null,'div',null,0 )
+text118089 = new ObjText('text118089',null,204,523,31,23,1,7,null,'div',null,0 )
 text118089.initSLine(1)
 text118089.initHasBullet(0)
 text118089.initRotateAngle(0,0,0)
@@ -366,7 +360,7 @@ text118089.arrCSSStyles.push('span.text118089Font2 { font-size:16px; font-family
 text118089.addInnerText('<div id=\"text118089\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118089Font1\"  >20%</span ><span class=\"text118089Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text118089.build()
 
-text3173 = new ObjText('text3173',null,64,145,880,53,1,9,null,'div',null,0 )
+text3173 = new ObjText('text3173',null,64,145,880,53,1,8,null,'div',null,0 )
 text3173.initSLine(0)
 text3173.initHasBullet(0)
 text3173.initRotateAngle(0,0,0)
@@ -383,7 +377,7 @@ text3173.arrCSSStyles.push('span.text3173Font1 { font-size:19px; font-family:"Os
 text3173.addInnerText('<div id=\"text3173\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3173Font1\"  >BUDGET REVIEW\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3173.build()
 
-text3174 = new ObjText('text3174',null,60,184,425,302,1,10,null,'div',null,0 )
+text3174 = new ObjText('text3174',null,60,184,425,302,1,9,null,'div',null,0 )
 text3174.initSLine(0)
 text3174.initHasBullet(0)
 text3174.initRotateAngle(0,0,0)
@@ -401,7 +395,7 @@ text3174.arrCSSStyles.push('span.text3174Font3 { font-size:13px; font-family:"Ar
 text3174.addInnerText('<div id=\"text3174\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3174Font1\"  >When a Federal awarding agency receives a project proposal, the agency will carefully review the non-Federal entity’s (NFE’s) budget submission to determine whether costs are reasonable, allowable, and/or allocable.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3174Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3174Font1\"  >Non-Federal entities submit a budget summary and budget categories through the SF-424 A (non-construction) or SF-424 C (construction). Additional information should be included to provide more detail for the Federal awarding agency to review costs and ensure they match the activities included in the proposal. This information can be included in a separate spreadsheet or a budget narrative that explains the costs, or both.</span ><span class=\"text3174Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text3174.build()
 
-image3176 = new ObjImage('image3176','images/image0091.png','Picture 7',534,117,411,411,1,11,'div',null, 0 )
+image3176 = new ObjImage('image3176','images/image0091.png','Picture 7',534,117,411,411,1,10,'div',null, 0 )
 image3176.initRotateAngle(0,0,0,0,0,0,0)
 image3176.initHasShadow(0)
 image3176.initHasReflection(0)
@@ -415,7 +409,6 @@ arObjs.push(text23237);
 arObjs.push(image250446);
 arObjs.push(image250438);
 arObjs.push(image1612);
-arObjs.push(progress179008);
 arObjs.push(progress178875);
 arObjs.push(text118089);
 arObjs.push(text3173);
@@ -451,7 +444,6 @@ if( is.min ){
     appendElement(image250446, null, null);
     appendElement(image250438, null, null);
     appendElement(image1612, null, null);
-    appendElement(progress179008, null, null);
     appendElement(progress178875, null, null);
     appendElement(text118089, null, null);
     appendElement(text3173, null, null);

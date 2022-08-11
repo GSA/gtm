@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="utf-8" />
 <title>Budget Review: Summary of Costs</title>
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:wght@200;300;400;500;600;700">
+<link rel="stylesheet" type="text/css" href="appfonts/stylesheet.css">
 
 <link rel="stylesheet" href="trivantis.css" type="text/css"/>
 <link rel="stylesheet" href="dialog.css" type="text/css"/>
@@ -120,7 +120,6 @@ function ReFlow() {
 var arVariables = [];
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0027 = new Variable( 'VarProgressBar_0027', '24', 0, 0, null, null, 'module3', false )
 VarProgressBar_0005 = new Variable( 'VarProgressBar_0005', '41', 0, 0, null, null, 'module3', false )
 
 onload = init;
@@ -134,12 +133,11 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(image250446,image1612,progress179008,progress257984,image257925,text256781,text256782,text256783,text256784,shape256786,text256787,text256788,shape256790,text256791))
+    PreloadResources(new Array(image250446,image1612,progress257984,image257925,text256781,text256782,text256783,text256784,shape256786,text256787,text256788,shape256790,text256791))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     image250446.init()
     image1612.init()
-    progress179008.init()
     progress257984.init()
     image257925.init()
     text256781.init()
@@ -153,7 +151,6 @@ function init11() {
     text256791.init()
     image250446.activate()
     image1612.activate()
-    progress179008.activate()
     progress257984.activate()
     image257925.activate()
     text256781.activate()
@@ -324,13 +321,10 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,4,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
-progress179008.build()
-
-progress257984 = new ObjProgress('progress257984','',65,522,878,20,1,18,1,5,'#07648d','images/progress257984_bar.png','#ffffff','images/progress257984.png',1,41,0,0,0,1,VarProgressBar_0005.getValue(),'div',0 )
+progress257984 = new ObjProgress('progress257984','',65,522,878,20,1,18,1,4,'#07648d','images/progress257984_bar.png','#ffffff','images/progress257984.png',1,41,0,0,0,1,VarProgressBar_0005.getValue(),'div',0 )
 progress257984.build()
 
-image257925 = new ObjImage('image257925','images/back-button.png','Previous Page',58,554,80,32,1,6,'div',null, 0 )
+image257925 = new ObjImage('image257925','images/back-button.png','Previous Page',58,554,80,32,1,5,'div',null, 0 )
 image257925.initRotateAngle(0,0,0,0,0,0,0)
 image257925.initHasShadow(0)
 image257925.initHasReflection(0)
@@ -343,7 +337,7 @@ image257925.hasOnUp = true
 image257925.capture=4
 image257925.build()
 
-text256781 = new ObjText('text256781',null,898,523,45,23,1,7,null,'div',null,0 )
+text256781 = new ObjText('text256781',null,898,523,45,23,1,6,null,'div',null,0 )
 text256781.initSLine(1)
 text256781.initHasBullet(0)
 text256781.initRotateAngle(0,0,0)
@@ -361,7 +355,7 @@ text256781.arrCSSStyles.push('span.text256781Font2 { font-size:16px; font-family
 text256781.addInnerText('<div id=\"text256781\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text256781Font1\"  >100%</span ><span class=\"text256781Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text256781.build()
 
-text256782 = new ObjText('text256782',null,60,145,880,53,1,8,null,'div',null,0 )
+text256782 = new ObjText('text256782',null,60,145,880,53,1,7,null,'div',null,0 )
 text256782.initSLine(0)
 text256782.initHasBullet(0)
 text256782.initRotateAngle(0,0,0)
@@ -378,7 +372,7 @@ text256782.arrCSSStyles.push('span.text256782Font1 { font-size:19px; font-family
 text256782.addInnerText('<div id=\"text256782\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text256782Font1\"  >BUDGET REVIEW: SUMMARY OF COSTS\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text256782.build()
 
-text256783 = new ObjText('text256783',null,65,183,880,81,1,9,null,'div',null,0 )
+text256783 = new ObjText('text256783',null,65,183,880,81,1,8,null,'div',null,0 )
 text256783.initSLine(0)
 text256783.initHasBullet(0)
 text256783.initRotateAngle(0,0,0)
@@ -396,7 +390,7 @@ text256783.arrCSSStyles.push('span.text256783Font2 { font-size:17px; font-family
 text256783.addInnerText('<div id=\"text256783\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text256783Font1\"  >Based on this review, several costs do not meet all three criteria of allowable, reasonable, and/or allocable. Remember that a Federal awarding agency should only approve items of cost that meet all required criteria. Also, remember that the Federal awarding agency must have sufficient budget detail from the NFE in order to evaluate whether their grant costs meet all three criteria of allowable, reasonable, and/or allocable.</span ><span class=\"text256783Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text256783.build()
 
-text256784 = new ObjText('text256784',null,65,268,412,33,1,10,null,'div',null,0 )
+text256784 = new ObjText('text256784',null,65,268,412,33,1,9,null,'div',null,0 )
 text256784.initSLine(1)
 text256784.initHasBullet(0)
 text256784.initRotateAngle(0,0,0)
@@ -414,7 +408,7 @@ text256784.arrCSSStyles.push('span.text256784Font2 { font-size:13px; font-family
 text256784.addInnerText('<div id=\"text256784\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text256784Font1\"  >COSTS THAT ARE CHARGEABLE (AS PROPOSED):</span ><span class=\"text256784Font2\"  > \n</span ></p >\n</div>\n');
 text256784.build()
 
-shape256786 = new ObjImage('shape256786','images/shape256786.png','Rectangle 11',0,298,476.000000,204.000000,1,11,'div','',0 )
+shape256786 = new ObjImage('shape256786','images/shape256786.png','Rectangle 11',0,298,476.000000,204.000000,1,10,'div','',0 )
 shape256786.initRotateAngle(0,0,0,-0.000000,-0.000000,475,203)
 shape256786.initHasShadow(0)
 shape256786.initHasReflection(0)
@@ -427,7 +421,7 @@ shape256786.initLineWeight(0)
 shape256786.addOpacity(100)
 shape256786.build()
 
-text256787 = new ObjText('text256787',null,65,321,370,181,1,12,null,'div',null,0 )
+text256787 = new ObjText('text256787',null,65,321,370,181,1,11,null,'div',null,0 )
 text256787.initSLine(0)
 text256787.initHasBullet(1)
 text256787.initRotateAngle(0,0,0)
@@ -447,7 +441,7 @@ text256787.arrCSSStyles.push('li.text256787Font2 { font-size:17px; font-family:"
 text256787.addInnerText('<div id=\"text256787\" aria-hidden=\"true\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Field biologist (staff)\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Field biologist (lead)\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Fringe benefits\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Per diem\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Tents\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Recruiting costs\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Indirect cost (limited to amount approved using the base and rate on Rate Agreement)\n</span ></li >\n<li  class=\"text256787Font2\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >In-kind match: student volunteers</span ><span class=\"text256787Font2\" style=\"background-color:transparent\" >\n</span ></li >\n</ul >\n</div>\n');
 text256787.build()
 
-text256788 = new ObjText('text256788',null,571,269,376,38,1,13,null,'div',null,0 )
+text256788 = new ObjText('text256788',null,571,269,376,38,1,12,null,'div',null,0 )
 text256788.initSLine(1)
 text256788.initHasBullet(0)
 text256788.initRotateAngle(0,0,0)
@@ -466,7 +460,7 @@ text256788.arrCSSStyles.push('span.text256788Font3 { font-size:16px; font-family
 text256788.addInnerText('<div id=\"text256788\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text256788Font1\"  >COSTS THAT ARE NOT CHARGEABLE (AS PROPOSED):</span ><span class=\"text256788Font2\"  > </span ><span class=\"text256788Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text256788.build()
 
-shape256790 = new ObjImage('shape256790','images/shape256790.png','Rectangle 12',533,298,476.000000,204.000000,1,14,'div','',0 )
+shape256790 = new ObjImage('shape256790','images/shape256790.png','Rectangle 12',533,298,476.000000,204.000000,1,13,'div','',0 )
 shape256790.initRotateAngle(0,0,0,-0.000000,-0.000000,475,203)
 shape256790.initHasShadow(0)
 shape256790.initHasReflection(0)
@@ -479,7 +473,7 @@ shape256790.initLineWeight(0)
 shape256790.addOpacity(100)
 shape256790.build()
 
-text256791 = new ObjText('text256791',null,569,321,376,181,1,15,null,'div',null,0 )
+text256791 = new ObjText('text256791',null,569,321,376,181,1,14,null,'div',null,0 )
 text256791.initSLine(0)
 text256791.initHasBullet(1)
 text256791.initRotateAngle(0,0,0)
@@ -501,7 +495,6 @@ text256791.build()
 
 arObjs.push(image250446);
 arObjs.push(image1612);
-arObjs.push(progress179008);
 arObjs.push(progress257984);
 arObjs.push(image257925);
 arObjs.push(text256781);
@@ -541,7 +534,6 @@ if( is.min ){
 if( is.min ){
     appendElement(image250446, null, null);
     appendElement(image1612, null, null);
-    appendElement(progress179008, null, null);
     appendElement(progress257984, null, null);
     appendElement(image257925, null, null);
     appendElement(text256781, null, null);

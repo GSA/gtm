@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="utf-8" />
 <title>Remodel of Program Director’s Office Question Passed</title>
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald:wght@200;300;400;500;600;700">
+<link rel="stylesheet" type="text/css" href="appfonts/stylesheet.css">
 
 <link rel="stylesheet" href="trivantis.css" type="text/css"/>
 <link rel="stylesheet" href="dialog.css" type="text/css"/>
@@ -26,7 +26,6 @@
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-button.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-trans.js"></script>
@@ -146,7 +145,6 @@ VarQuestion_0057 = new Variable( 'VarQuestion_0057', '', 0, 0, null, null, 'modu
 VarLesson_2_Section_3_Test_Score = new Variable( 'VarLesson_2_Section_3_Test_Score', '0', 0, 0, null, null, 'module3' )
 VarLession_2_Section_2_Test_Score = new Variable( 'VarLession_2_Section_2_Test_Score', '0', 0, 0, null, null, 'module3' )
 VarLesson_2_Section_1_Test_Score = new Variable( 'VarLesson_2_Section_1_Test_Score', '0', 0, 0, null, null, 'module3' )
-VarProgressBar_0027 = new Variable( 'VarProgressBar_0027', '24', 0, 0, null, null, 'module3', false )
 
 onload = init;
 (window.myTop || window).onunload = finish
@@ -166,20 +164,20 @@ function init11() {
       }
     }
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text94407,image250446,image250438,image1612,progress179008,text94408,text94409,shape94411,shape94413,shape94415,shape94417,og96858,text96859,text96860,text96861,text96862,image96864,text96865,image96867,text96868,image96870,shape94420,shape94422,shape94424,text94425,image94427,text94429,image94431,image94433,image94435,button240445))
+    PreloadResources(new Array(text94407,image250446,image250438,image1612,text94408,text94409,shape94411,shape94413,shape94415,shape94417,button240445,og96858,text96859,text96860,text96861,text96862,image96864,text96865,image96867,text96868,image96870,shape94420,shape94422,shape94424,text94425,image94427,text94429,image94431,image94433,image94435))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     text94407.init()
     image250446.init()
     image250438.init()
     image1612.init()
-    progress179008.init()
     text94408.init()
     text94409.init()
     shape94411.init()
     shape94413.init()
     shape94415.init()
     shape94417.init()
+    button240445.init()
     og96858.init()
     text96859.init()
     text96860.init()
@@ -199,18 +197,17 @@ function init11() {
     image94431.init()
     image94433.init()
     image94435.init()
-    button240445.init()
     text94407.activate()
     image250446.activate()
     image250438.activate()
     image1612.activate()
-    progress179008.activate()
     text94408.activate()
     text94409.activate()
     shape94411.activate()
     shape94413.activate()
     shape94415.activate()
     shape94417.activate()
+    button240445.activate()
     og96858.activate()
     text96859.activate()
     text96860.activate()
@@ -230,7 +227,6 @@ function init11() {
     image94431.activate()
     image94433.activate()
     image94435.activate()
-    button240445.activate()
 button240445.strCookieState = (trivBtnTracking.GetRangeStatus(240445,true));
 button240445.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
@@ -436,16 +432,6 @@ function image250438onUp() {
   action250695();
 }
 
-function action94428(fn){
-    trivExitPage('page71800.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function image94427onUp() {
-  action94428();
-}
-
 function action240446(fn){
     processTest(1);
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -456,8 +442,18 @@ function button240445onUp() {
   action240446();
 }
 
+function action94428(fn){
+    trivExitPage('page71800.html',true); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function image94427onUp() {
+  action94428();
+}
+
 if( is.min ){
-text94407 = new ObjText('text94407',null,253,553,505,30,1,43,null,'div',null,0 )
+text94407 = new ObjText('text94407',null,253,553,505,30,1,42,null,'div',null,0 )
 text94407.initSLine(0)
 text94407.initHasBullet(0)
 text94407.initRotateAngle(0,0,0)
@@ -511,10 +507,7 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-progress179008 = new ObjProgress('progress179008','',65,522,878,20,1,18,1,6,'#07648d','images/progress179008_bar.png','#ffffff','images/progress179008.png',1,44,0,0,0,1,VarProgressBar_0027.getValue(),'div',0 )
-progress179008.build()
-
-text94408 = new ObjText('text94408',null,68,145,880,44,1,7,null,'div',null,0 )
+text94408 = new ObjText('text94408',null,68,145,880,44,1,6,null,'div',null,0 )
 text94408.initSLine(0)
 text94408.initHasBullet(0)
 text94408.initRotateAngle(0,0,0)
@@ -531,7 +524,7 @@ text94408.arrCSSStyles.push('span.text94408Font1 { font-size:19px; font-family:"
 text94408.addInnerText('<div id=\"text94408\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text94408Font1\"  >REVIEW PROPOSED COSTS\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text94408.build()
 
-text94409 = new ObjText('text94409',null,64,182,880,57,1,8,null,'div',null,0 )
+text94409 = new ObjText('text94409',null,64,182,880,57,1,7,null,'div',null,0 )
 text94409.initSLine(0)
 text94409.initHasBullet(0)
 text94409.initRotateAngle(0,0,0)
@@ -550,7 +543,7 @@ text94409.arrCSSStyles.push('span.text94409Font3 { font-size:13px; font-family:"
 text94409.addInnerText('<div id=\"text94409\" aria-hidden=\"true\" ><p  legLH=\"1.127\" style=\"margin-left:10px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text94409Font1\"  >REMODEL OF PROGRAM DIRECTOR\'S OFFICE\n</span ></p >\n<p  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text94409Font2\"  >Proposed Cost: $350,000 (not part of state-scheduled remodel)</span ><span class=\"text94409Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text94409.build()
 
-shape94411 = new ObjImage('shape94411','images/shape94411.png','Rectangle 50',74,253,152.000000,38.000000,1,9,'div','',0 )
+shape94411 = new ObjImage('shape94411','images/shape94411.png','Rectangle 50',74,253,152.000000,38.000000,1,8,'div','',0 )
 shape94411.initRotateAngle(0,0,0,-0.000000,-0.000000,151,37)
 shape94411.initHasShadow(0)
 shape94411.initHasReflection(0)
@@ -563,7 +556,7 @@ shape94411.initLineWeight(0)
 shape94411.addOpacity(100)
 shape94411.build()
 
-shape94413 = new ObjImage('shape94413','images/shape94413.png','Rectangle 43',74,301,152.000000,39.000000,1,10,'div','',0 )
+shape94413 = new ObjImage('shape94413','images/shape94413.png','Rectangle 43',74,301,152.000000,39.000000,1,9,'div','',0 )
 shape94413.initRotateAngle(0,0,0,-0.000000,-0.000000,151,38)
 shape94413.initHasShadow(0)
 shape94413.initHasReflection(0)
@@ -576,7 +569,7 @@ shape94413.initLineWeight(0)
 shape94413.addOpacity(100)
 shape94413.build()
 
-shape94415 = new ObjImage('shape94415','images/shape94415.png','Rectangle 45',74,348,152.000000,39.000000,1,11,'div','',0 )
+shape94415 = new ObjImage('shape94415','images/shape94415.png','Rectangle 45',74,348,152.000000,39.000000,1,10,'div','',0 )
 shape94415.initRotateAngle(0,0,0,-0.000000,-0.000000,151,38)
 shape94415.initHasShadow(0)
 shape94415.initHasReflection(0)
@@ -589,7 +582,7 @@ shape94415.initLineWeight(0)
 shape94415.addOpacity(100)
 shape94415.build()
 
-shape94417 = new ObjImage('shape94417','images/shape94417.png','Rectangle 88',458,461,91.000000,44.000000,1,12,'div','',0 )
+shape94417 = new ObjImage('shape94417','images/shape94417.png','Rectangle 88',458,461,91.000000,44.000000,1,11,'div','',0 )
 shape94417.initRotateAngle(0,0,0,-0.000000,-0.000000,90,43)
 shape94417.initHasShadow(0)
 shape94417.initHasReflection(0)
@@ -601,6 +594,32 @@ shape94417.addBorder(0)
 shape94417.initLineWeight(0)
 shape94417.addOpacity(100)
 shape94417.build()
+
+button240445 = new ObjButton('button240445', 'SUBMIT',447,462,111.000000,41.000000,1,12,'div','',1,0)
+button240445.setUseSvgFile(1)
+button240445.setFillStyle(17)
+button240445.setUniqueFillID('page94406_button240445')
+button240445.initRotateAngle(0,0,0,-0.000000,-0.000000,110,40)
+button240445.initHasShadow(0)
+button240445.initHasReflection(0)
+button240445.setImages({"disabledState":"images/button240445_disabled.png","downState":"images/button240445_down.png","normalState":"images/button240445.png","overState":"images/button240445_over.png","selectedState":"images/button240445_selected.png","visitedState":"images/button240445_visited.png"});
+button240445.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
+button240445.addOpacity(100)
+button240445.initImageMap('0,0,110,0,110,40,0,40,0,0','M 0.000000 0.000000 L 110.000000 0.000000 L 110.000000 40.000000 L 0.000000 40.000000 L 0.000000 0.000000 z')
+button240445.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
+button240445.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
+button240445.rebuildDefs();
+button240445.initLineWeight('0')
+button240445.onUp = button240445onUp
+button240445.hasOnUp = true
+button240445.capture=4
+button240445.setTextVal({"disabledState":{"div":"div.button240445disabledStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445disabledStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}"},"downState":{"div":"div.button240445downStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445downStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}"},"normalState":{"div":"div.button240445Text { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445Text { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}"},"overState":{"div":"div.button240445overStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445overStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}"},"selectedState":{"div":"div.button240445selectedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445selectedStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}"},"visitedState":{"div":"div.button240445visitedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445visitedStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}"}});
+button240445.text = 'SUBMIT'
+button240445.bSelectedEnabled = false;
+button240445.bVisitedEnabled = false;
+button240445.bOverEnabled = true;
+button240445.bDownEnabled = true;
+button240445.build()
 
 og96858 = new ObjInline('og96858',null,0,0,325,386,1,0)
 og96858.isGrp = true
@@ -871,43 +890,17 @@ image94435.addBorder(0)
 image94435.addOpacity(100)
 image94435.build()
 
-button240445 = new ObjButton('button240445', 'SUBMIT',447,462,111.000000,41.000000,1,31,'div','',1,0)
-button240445.setUseSvgFile(1)
-button240445.setFillStyle(17)
-button240445.setUniqueFillID('page94406_button240445')
-button240445.initRotateAngle(0,0,0,-0.000000,-0.000000,110,40)
-button240445.initHasShadow(0)
-button240445.initHasReflection(0)
-button240445.setImages({"disabledState":"images/button240445_disabled.png","downState":"images/button240445_down.png","normalState":"images/button240445.png","overState":"images/button240445_over.png","selectedState":"images/button240445_selected.png","visitedState":"images/button240445_visited.png"});
-button240445.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button240445.addOpacity(100)
-button240445.initImageMap('0,0,110,0,110,40,0,40,0,0','M 0.000000 0.000000 L 110.000000 0.000000 L 110.000000 40.000000 L 0.000000 40.000000 L 0.000000 0.000000 z')
-button240445.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button240445.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
-button240445.rebuildDefs();
-button240445.initLineWeight('0')
-button240445.onUp = button240445onUp
-button240445.hasOnUp = true
-button240445.capture=4
-button240445.setTextVal({"disabledState":{"div":"div.button240445disabledStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445disabledStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"downState":{"div":"div.button240445downStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445downStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"normalState":{"div":"div.button240445Text { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445Text { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"overState":{"div":"div.button240445overStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445overStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"selectedState":{"div":"div.button240445selectedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445selectedStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"},"visitedState":{"div":"div.button240445visitedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","span":"span.button240445visitedStateText { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; color:#000000;}"}});
-button240445.text = 'SUBMIT'
-button240445.bSelectedEnabled = false;
-button240445.bVisitedEnabled = false;
-button240445.bOverEnabled = true;
-button240445.bDownEnabled = true;
-button240445.build()
-
 arObjs.push(text94407);
 arObjs.push(image250446);
 arObjs.push(image250438);
 arObjs.push(image1612);
-arObjs.push(progress179008);
 arObjs.push(text94408);
 arObjs.push(text94409);
 arObjs.push(shape94411);
 arObjs.push(shape94413);
 arObjs.push(shape94415);
 arObjs.push(shape94417);
+arObjs.push(button240445);
 arObjs.push(og96858);
 arObjs.push(text96859);
 arObjs.push(text96860);
@@ -927,7 +920,6 @@ arObjs.push(text94429);
 arObjs.push(image94431);
 arObjs.push(image94433);
 arObjs.push(image94435);
-arObjs.push(button240445);
 
 
 writeStyleSheets(arObjs);}
@@ -958,13 +950,13 @@ if( is.min ){
     appendElement(image250446, null, null);
     appendElement(image250438, null, null);
     appendElement(image1612, null, null);
-    appendElement(progress179008, null, null);
     appendElement(text94408, null, null);
     appendElement(text94409, null, null);
     appendElement(shape94411, null, null);
     appendElement(shape94413, null, null);
     appendElement(shape94415, null, null);
     appendElement(shape94417, null, null);
+    appendElement(button240445, null, null);
     appendElement(text96859, null, null);
     appendElement(text96860, null, null);
     appendElement(text96861, null, null);
@@ -983,7 +975,6 @@ if( is.min ){
     appendElement(image94431, null, null);
     appendElement(image94433, null, null);
     appendElement(image94435, null, null);
-    appendElement(button240445, null, null);
 }
 </script>
 
