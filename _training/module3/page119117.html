@@ -128,9 +128,10 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(image250446,image250438,image1612,progress120186,text119118,text119119,text119120,shape119122,image119124,text119125,shape119127,image119129,text119130,shape119132,image119134,text119135,shape119137,text119138))
+    PreloadResources(new Array(text280256,image250446,image250438,image1612,progress120186,text119118,text119119,text119120,shape119122,image119124,text119125,shape119127,image119129,text119130,shape119132,image119134,text119135,shape119137,text119138))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
+    text280256.init()
     image250446.init()
     image250438.init()
     image1612.init()
@@ -149,6 +150,7 @@ function init11() {
     text119135.init()
     shape119137.init()
     text119138.init()
+    text280256.activate()
     image250446.activate()
     image250438.activate()
     image1612.activate()
@@ -302,7 +304,25 @@ function image250446onUp() {
 }
 
 if( is.min ){
-image250446 = new ObjImage('image250446','images/next-button.png','Next Page',870,554,80,33,1,1,'div',null, 0 )
+text280256 = new ObjText('text280256',null,253,552,505,30,1,31,null,'div',null,0 )
+text280256.initSLine(0)
+text280256.initHasBullet(0)
+text280256.initRotateAngle(0,0,0)
+text280256.initHasOuterShadow(0)
+text280256.initHasTextShadow(0)
+text280256.initHasBorder(0)
+text280256.initHasOutline(0)
+text280256.initHasMargin(6)
+text280256.addIe8Attr(253, 552, 505, 30, 0, 0)
+text280256.addHeading(0)
+text280256.addOpacity(100)
+text280256.arrCSSStyles = new Array();
+text280256.arrCSSStyles.push('span.text280256Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text280256.arrCSSStyles.push('span.text280256Font2 { font-size:12px; font-family:"Arial", sans-serif; color:#898989;}');
+text280256.addInnerText('<div id=\"text280256\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text280256Font1\"  >LESSON 2: SELECT ITEMS OF COST</span ><span class=\"text280256Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text280256.build()
+
+image250446 = new ObjImage('image250446','images/next-button.png','Next Page',870,554,80,33,1,2,'div',null, 0 )
 image250446.initRotateAngle(0,0,0,0,0,0,0)
 image250446.initHasShadow(0)
 image250446.initHasReflection(0)
@@ -315,7 +335,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-image250438 = new ObjImage('image250438','images/back-button.png','Previous Page',58,554,80,32,1,2,'div',null, 0 )
+image250438 = new ObjImage('image250438','images/back-button.png','Previous Page',58,554,80,32,1,3,'div',null, 0 )
 image250438.initRotateAngle(0,0,0,0,0,0,0)
 image250438.initHasShadow(0)
 image250438.initHasReflection(0)
@@ -328,7 +348,7 @@ image250438.hasOnUp = true
 image250438.capture=4
 image250438.build()
 
-image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,4,'div',null, 0 )
+image1612 = new ObjImage('image1612','images/image0010.png','Federal Grants Header',0,0,1009,121,1,5,'div',null, 0 )
 image1612.initRotateAngle(0,0,0,0,0,0,0)
 image1612.initHasShadow(0)
 image1612.initHasReflection(0)
@@ -338,11 +358,11 @@ image1612.addBorder(0)
 image1612.addOpacity(100)
 image1612.build()
 
-progress120186 = new ObjProgress('progress120186','',65,522,878,20,1,18,1,5,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,56,0,0,0,0,0,'div',0 )
+progress120186 = new ObjProgress('progress120186','',65,522,878,20,1,18,1,6,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,56,0,0,0,0,0,'div',0 )
 progress120186.actionSetPos(56)
 progress120186.build()
 
-text119118 = new ObjText('text119118',null,898,523,45,23,1,6,null,'div',null,0 )
+text119118 = new ObjText('text119118',null,898,523,45,23,1,7,null,'div',null,0 )
 text119118.initSLine(1)
 text119118.initHasBullet(0)
 text119118.initRotateAngle(0,0,0)
@@ -360,7 +380,7 @@ text119118.arrCSSStyles.push('span.text119118Font2 { font-size:16px; font-family
 text119118.addInnerText('<div id=\"text119118\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119118Font1\"  >100%</span ><span class=\"text119118Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text119118.build()
 
-text119119 = new ObjText('text119119',null,60,139,880,54,1,7,null,'div',null,0 )
+text119119 = new ObjText('text119119',null,60,139,880,54,1,8,null,'div',null,0 )
 text119119.initSLine(0)
 text119119.initHasBullet(0)
 text119119.initRotateAngle(0,0,0)
@@ -378,7 +398,7 @@ text119119.arrCSSStyles.push('span.text119119Font2 { font-size:19px; font-family
 text119119.addInnerText('<div id=\"text119119\" aria-hidden=\"true\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119119Font1\"  >KEY TAKEAWAYS</span ><span class=\"text119119Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119119.build()
 
-text119120 = new ObjText('text119120',null,66,177,279,42,1,8,null,'div',null,0 )
+text119120 = new ObjText('text119120',null,66,177,279,42,1,9,null,'div',null,0 )
 text119120.initSLine(1)
 text119120.initHasBullet(0)
 text119120.initRotateAngle(0,0,0)
@@ -395,7 +415,7 @@ text119120.arrCSSStyles.push('span.text119120Font1 { font-size:16px; font-family
 text119120.addInnerText('<div id=\"text119120\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119120Font1\"  >IN THIS LESSON WE:\n</span ></p >\n</div>\n');
 text119120.build()
 
-shape119122 = new ObjImage('shape119122','images/shape119122.png','Rectangle 7',65,259,281.000000,174.000000,1,9,'div','',0 )
+shape119122 = new ObjImage('shape119122','images/shape119122.png','Rectangle 7',65,259,281.000000,174.000000,1,10,'div','',0 )
 shape119122.initRotateAngle(0,0,0,-0.000000,-0.000000,280,173)
 shape119122.initHasShadow(0)
 shape119122.initHasReflection(0)
@@ -408,7 +428,7 @@ shape119122.initLineWeight(0)
 shape119122.addOpacity(100)
 shape119122.build()
 
-image119124 = new ObjImage('image119124','images/image110.png','image110',179,223,53,53,1,10,'div',null, 0 )
+image119124 = new ObjImage('image119124','images/image110.png','image110',179,223,53,53,1,11,'div',null, 0 )
 image119124.initRotateAngle(0,0,0,0,0,0,0)
 image119124.initHasShadow(0)
 image119124.initHasReflection(0)
@@ -418,7 +438,7 @@ image119124.addBorder(0)
 image119124.addOpacity(100)
 image119124.build()
 
-text119125 = new ObjText('text119125',null,94,295,223,143,1,11,null,'div',null,0 )
+text119125 = new ObjText('text119125',null,94,295,223,143,1,12,null,'div',null,0 )
 text119125.initSLine(0)
 text119125.initHasBullet(0)
 text119125.initRotateAngle(0,0,0)
@@ -436,7 +456,7 @@ text119125.arrCSSStyles.push('span.text119125Font2 { font-size:17px; font-family
 text119125.addInnerText('<div id=\"text119125\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119125Font1\"  >Explored the General Provisions for Select Items of Cost. <br />We learned about the principles <br />to be applied in establishing the allowability of certain items involved in determining cost.</span ><span class=\"text119125Font2\"  > &nbsp;&nbsp;\n</span ></p >\n</div>\n');
 text119125.build()
 
-shape119127 = new ObjImage('shape119127','images/shape119127.png','Rectangle 8',365,259,281.000000,174.000000,1,12,'div','',0 )
+shape119127 = new ObjImage('shape119127','images/shape119127.png','Rectangle 8',365,259,281.000000,174.000000,1,13,'div','',0 )
 shape119127.initRotateAngle(0,0,0,-0.000000,-0.000000,280,173)
 shape119127.initHasShadow(0)
 shape119127.initHasReflection(0)
@@ -449,7 +469,7 @@ shape119127.initLineWeight(0)
 shape119127.addOpacity(100)
 shape119127.build()
 
-image119129 = new ObjImage('image119129','images/image111.png','image111',478,224,53,53,1,13,'div',null, 0 )
+image119129 = new ObjImage('image119129','images/image111.png','image111',478,224,53,53,1,14,'div',null, 0 )
 image119129.initRotateAngle(0,0,0,0,0,0,0)
 image119129.initHasShadow(0)
 image119129.initHasReflection(0)
@@ -459,7 +479,7 @@ image119129.addBorder(0)
 image119129.addOpacity(100)
 image119129.build()
 
-text119130 = new ObjText('text119130',null,415,295,179,113,1,14,null,'div',null,0 )
+text119130 = new ObjText('text119130',null,415,295,179,113,1,15,null,'div',null,0 )
 text119130.initSLine(0)
 text119130.initHasBullet(0)
 text119130.initRotateAngle(0,0,0)
@@ -477,7 +497,7 @@ text119130.arrCSSStyles.push('span.text119130Font2 { font-size:17px; font-family
 text119130.addInnerText('<div id=\"text119130\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119130Font1\"  >This included the various types of costs that are strictly allowable or unallowable, or allowable or unallowable in specific circumstances.</span ><span class=\"text119130Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text119130.build()
 
-shape119132 = new ObjImage('shape119132','images/shape119132.png','Rectangle 9',665,259,281.000000,174.000000,1,15,'div','',0 )
+shape119132 = new ObjImage('shape119132','images/shape119132.png','Rectangle 9',665,259,281.000000,174.000000,1,16,'div','',0 )
 shape119132.initRotateAngle(0,0,0,-0.000000,-0.000000,280,173)
 shape119132.initHasShadow(0)
 shape119132.initHasReflection(0)
@@ -490,7 +510,7 @@ shape119132.initLineWeight(0)
 shape119132.addOpacity(100)
 shape119132.build()
 
-image119134 = new ObjImage('image119134','images/image0081.png','Picture 15',779,224,53,53,1,16,'div',null, 0 )
+image119134 = new ObjImage('image119134','images/image0081.png','Picture 15',779,224,53,53,1,17,'div',null, 0 )
 image119134.initRotateAngle(0,0,0,0,0,0,0)
 image119134.initHasShadow(0)
 image119134.initHasReflection(0)
@@ -500,7 +520,7 @@ image119134.addBorder(0)
 image119134.addOpacity(100)
 image119134.build()
 
-text119135 = new ObjText('text119135',null,697,295,215,66,1,17,null,'div',null,0 )
+text119135 = new ObjText('text119135',null,697,295,215,66,1,18,null,'div',null,0 )
 text119135.initSLine(0)
 text119135.initHasBullet(0)
 text119135.initRotateAngle(0,0,0)
@@ -518,7 +538,7 @@ text119135.arrCSSStyles.push('span.text119135Font2 { font-size:17px; font-family
 text119135.addInnerText('<div id=\"text119135\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119135Font1\"  >We also reviewed some of <br />the cost categories that require prior approval.</span ><span class=\"text119135Font2\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text119135.build()
 
-shape119137 = new ObjImage('shape119137','images/shape119137.png','Rectangle 17',65,449,881.000000,54.000000,1,18,'div','',0 )
+shape119137 = new ObjImage('shape119137','images/shape119137.png','Rectangle 17',65,449,881.000000,54.000000,1,19,'div','',0 )
 shape119137.initRotateAngle(0,0,0,-0.000000,-0.000000,880,53)
 shape119137.initHasShadow(0)
 shape119137.initHasReflection(0)
@@ -531,7 +551,7 @@ shape119137.initLineWeight(0)
 shape119137.addOpacity(100)
 shape119137.build()
 
-text119138 = new ObjText('text119138',null,86,457,757,41,1,19,null,'div',null,0 )
+text119138 = new ObjText('text119138',null,86,457,757,41,1,20,null,'div',null,0 )
 text119138.initSLine(0)
 text119138.initHasBullet(0)
 text119138.initRotateAngle(0,0,0)
@@ -549,6 +569,7 @@ text119138.arrCSSStyles.push('span.text119138Font3 { font-size:17px; font-family
 text119138.addInnerText('<div id=\"text119138\" aria-hidden=\"true\" ><p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119138Font1\"  >Now that we’ve learned about various basic principles and considerations of costs covered in Lesson 1, as well as the Select Items of Cost covered in Lesson 2, let’s test our knowledge in Lesson 3 by reviewing a sample budget.</span ><span class=\"text119138Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text119138.build()
 
+arObjs.push(text280256);
 arObjs.push(image250446);
 arObjs.push(image250438);
 arObjs.push(image1612);
@@ -593,6 +614,7 @@ if( is.min ){
 
 <script>
 if( is.min ){
+    appendElement(text280256, null, null);
     appendElement(image250446, null, null);
     appendElement(image250438, null, null);
     appendElement(image1612, null, null);

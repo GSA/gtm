@@ -133,7 +133,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(image250446,image1612,progress257984,image257925,text256781,text256782,text256783,text256784,shape256786,text256787,text256788,shape256790,text256791))
+    PreloadResources(new Array(image250446,image1612,progress257984,image257925,text256781,text256782,text256783,text256784,shape256786,text256787,text280951,text256788,shape256790,text256791,text281046))
     pageLayer = new ObjLayer(GetCurrentPageID());
     pageLayer.show(true);
     image250446.init()
@@ -146,9 +146,11 @@ function init11() {
     text256784.init()
     shape256786.init()
     text256787.init()
+    text280951.init()
     text256788.init()
     shape256790.init()
     text256791.init()
+    text281046.init()
     image250446.activate()
     image1612.activate()
     progress257984.activate()
@@ -159,9 +161,11 @@ function init11() {
     text256784.activate()
     shape256786.activate()
     text256787.activate()
+    text280951.activate()
     text256788.activate()
     shape256790.activate()
     text256791.activate()
+    text281046.activate()
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -422,7 +426,7 @@ shape256786.initLineWeight(0)
 shape256786.addOpacity(100)
 shape256786.build()
 
-text256787 = new ObjText('text256787',null,65,321,370,181,1,11,null,'div',null,0 )
+text256787 = new ObjText('text256787',null,59,321,181,181,1,11,null,'div',null,0 )
 text256787.initSLine(0)
 text256787.initHasBullet(1)
 text256787.initRotateAngle(0,0,0)
@@ -431,18 +435,34 @@ text256787.initHasTextShadow(0)
 text256787.initHasBorder(0)
 text256787.initHasOutline(0)
 text256787.initHasMargin(0)
-text256787.addIe8Attr(65, 321, 370, 181, 0, 0)
+text256787.addIe8Attr(59, 321, 181, 181, 0, 0)
 text256787.addHeading(0)
 text256787.addOpacity(100)
 text256787.arrCSSStyles = new Array();
 text256787.arrCSSStyles.push('span.text256787Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}');
 text256787.arrCSSStyles.push('li.text256787Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text256787.arrCSSStyles.push('span.text256787Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text256787.arrCSSStyles.push('li.text256787Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text256787.addInnerText('<div id=\"text256787\" aria-hidden=\"true\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Field biologist (staff)\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Field biologist (lead)\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Fringe benefits\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Per diem\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Tents\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Recruiting costs\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Indirect cost (limited to amount approved using the base and rate on Rate Agreement)\n</span ></li >\n<li  class=\"text256787Font2\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:15px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256787CircleBulletFont7.png\'); padding-left:8px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >In-kind match: student volunteers</span ><span class=\"text256787Font2\" style=\"background-color:transparent\" >\n</span ></li >\n</ul >\n</div>\n');
+text256787.addInnerText('<div id=\"text256787\" aria-hidden=\"true\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Field biologist (staff)\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Field biologist (lead)\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Fringe benefits\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Per diem\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Tents\n</span ></li >\n<li  class=\"text256787Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256787CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256787Font1\"  >Recruiting costs\n</span ></li >\n</ul >\n</div>\n');
 text256787.build()
 
-text256788 = new ObjText('text256788',null,571,269,376,38,1,12,null,'div',null,0 )
+text280951 = new ObjText('text280951',null,253,321,186,165,1,12,null,'div',null,0 )
+text280951.initSLine(0)
+text280951.initHasBullet(1)
+text280951.initRotateAngle(0,0,0)
+text280951.initHasOuterShadow(0)
+text280951.initHasTextShadow(0)
+text280951.initHasBorder(0)
+text280951.initHasOutline(0)
+text280951.initHasMargin(0)
+text280951.addIe8Attr(253, 321, 186, 165, 0, 0)
+text280951.addHeading(0)
+text280951.addOpacity(100)
+text280951.arrCSSStyles = new Array();
+text280951.arrCSSStyles.push('span.text280951Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text280951.arrCSSStyles.push('li.text280951Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text280951.addInnerText('<div id=\"text280951\" aria-hidden=\"true\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text280951Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text280951CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text280951Font1\"  >Indirect cost (limited to amount approved using the base and rate on Rate Agreement)\n</span ></li >\n<li  class=\"text280951Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text280951CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text280951Font1\"  >In-kind match: student volunteers\n</span ></li >\n</ul >\n</div>\n');
+text280951.build()
+
+text256788 = new ObjText('text256788',null,571,269,376,38,1,13,null,'div',null,0 )
 text256788.initSLine(1)
 text256788.initHasBullet(0)
 text256788.initRotateAngle(0,0,0)
@@ -461,7 +481,7 @@ text256788.arrCSSStyles.push('span.text256788Font3 { font-size:16px; font-family
 text256788.addInnerText('<div id=\"text256788\" aria-hidden=\"true\" ><p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text256788Font1\"  >COSTS THAT ARE NOT CHARGEABLE (AS PROPOSED):</span ><span class=\"text256788Font2\"  > </span ><span class=\"text256788Font3\" style=\"background-color:transparent\" >\n</span ></p >\n</div>\n');
 text256788.build()
 
-shape256790 = new ObjImage('shape256790','images/shape256790.png','Rectangle 12',533,298,476.000000,204.000000,1,13,'div','',0 )
+shape256790 = new ObjImage('shape256790','images/shape256790.png','Rectangle 12',533,298,476.000000,204.000000,1,14,'div','',0 )
 shape256790.initRotateAngle(0,0,0,-0.000000,-0.000000,475,203)
 shape256790.initHasShadow(0)
 shape256790.initHasReflection(0)
@@ -474,7 +494,7 @@ shape256790.initLineWeight(0)
 shape256790.addOpacity(100)
 shape256790.build()
 
-text256791 = new ObjText('text256791',null,569,321,376,181,1,14,null,'div',null,0 )
+text256791 = new ObjText('text256791',null,563,321,187,181,1,15,null,'div',null,0 )
 text256791.initSLine(0)
 text256791.initHasBullet(1)
 text256791.initRotateAngle(0,0,0)
@@ -483,16 +503,32 @@ text256791.initHasTextShadow(0)
 text256791.initHasBorder(0)
 text256791.initHasOutline(0)
 text256791.initHasMargin(0)
-text256791.addIe8Attr(569, 321, 376, 181, 0, 0)
+text256791.addIe8Attr(563, 321, 187, 181, 0, 0)
 text256791.addHeading(0)
 text256791.addOpacity(100)
 text256791.arrCSSStyles = new Array();
 text256791.arrCSSStyles.push('span.text256791Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}');
 text256791.arrCSSStyles.push('li.text256791Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text256791.arrCSSStyles.push('span.text256791Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text256791.arrCSSStyles.push('li.text256791Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:normal; font-style:normal; text-decoration:normal;}');
-text256791.addInnerText('<div id=\"text256791\" aria-hidden=\"true\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Program director\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Administrative assistant\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Airfare (for field biologists)\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Pickup truck\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Alcoholic beverages\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Lobbying fee\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Remodel of program director\'s office\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >In-kind match: president of the \"Friends of State Wildlife.”</span ><span class=\"text256791Font3\" style=\"background-color:transparent\" >\n</span ></li >\n</ul >\n</div>\n');
+text256791.addInnerText('<div id=\"text256791\" aria-hidden=\"true\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Program director\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Administrative assistant\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Airfare (for field biologists)\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Pickup truck\n</span ></li >\n<li  class=\"text256791Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text256791CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text256791Font1\"  >Alcoholic beverages\n</span ></li >\n</ul >\n</div>\n');
 text256791.build()
+
+text281046 = new ObjText('text281046',null,758,321,183,172,1,16,null,'div',null,0 )
+text281046.initSLine(0)
+text281046.initHasBullet(1)
+text281046.initRotateAngle(0,0,0)
+text281046.initHasOuterShadow(0)
+text281046.initHasTextShadow(0)
+text281046.initHasBorder(0)
+text281046.initHasOutline(0)
+text281046.initHasMargin(0)
+text281046.addIe8Attr(758, 321, 183, 172, 0, 0)
+text281046.addHeading(0)
+text281046.addOpacity(100)
+text281046.arrCSSStyles = new Array();
+text281046.arrCSSStyles.push('span.text281046Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text281046.arrCSSStyles.push('li.text281046Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101; font-weight:normal; font-style:normal; text-decoration:normal;}');
+text281046.addInnerText('<div id=\"text281046\" aria-hidden=\"true\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text281046Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text281046CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text281046Font1\"  >Lobbying fee\n</span ></li >\n<li  class=\"text281046Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text281046CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text281046Font1\"  >Remodel of program director\'s office\n</span ></li >\n<li  class=\"text281046Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:7px; list-style-image:url(\'images/text281046CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text281046Font1\"  >In-kind match: president of the \"Friends of State Wildlife.”\n</span ></li >\n</ul >\n</div>\n');
+text281046.build()
 
 arObjs.push(image250446);
 arObjs.push(image1612);
@@ -504,9 +540,11 @@ arObjs.push(text256783);
 arObjs.push(text256784);
 arObjs.push(shape256786);
 arObjs.push(text256787);
+arObjs.push(text280951);
 arObjs.push(text256788);
 arObjs.push(shape256790);
 arObjs.push(text256791);
+arObjs.push(text281046);
 
 
 writeStyleSheets(arObjs);}
@@ -543,9 +581,11 @@ if( is.min ){
     appendElement(text256784, null, null);
     appendElement(shape256786, null, null);
     appendElement(text256787, null, null);
+    appendElement(text280951, null, null);
     appendElement(text256788, null, null);
     appendElement(shape256790, null, null);
     appendElement(text256791, null, null);
+    appendElement(text281046, null, null);
 }
 </script>
 
