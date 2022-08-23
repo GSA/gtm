@@ -330,16 +330,6 @@ function OnDeviceRotate() {
 
 }
 
-function action250648(fn){
-    trivExitPage('page119903.html',true);
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function image250446onUp() {
-  action250648();
-}
-
 function action250695(fn){
     trivExitPage('page53997.html',false);
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -348,6 +338,16 @@ function action250695(fn){
 
 function image250438onUp() {
   action250695();
+}
+
+function action250648(fn){
+    trivExitPage('page119903.html',true);
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function image250446onUp() {
+  action250648();
 }
 
 if( is.min ){

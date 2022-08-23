@@ -49,17 +49,17 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 "785":{
 "pageLayer":{"w":785,"h":1000,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"repeat-y"}
 ,
-"text67":{"x":197,"y":553,"w":393,"h":46,"txtscale":100,"bOffBottom":0}
+"text67":{"x":197,"y":588,"w":393,"h":46,"txtscale":100,"bOffBottom":0}
 ,
-"image250446":{"x":677,"y":554,"w":62,"h":26,"bOffBottom":0,"i":"images/next-button.png"}
+"image250446":{"x":677,"y":589,"w":62,"h":26,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"image250438":{"x":45,"y":554,"w":62,"h":25,"bOffBottom":0,"i":"images/back-button.png"}
+"image250438":{"x":45,"y":589,"w":62,"h":25,"bOffBottom":0,"i":"images/back-button.png"}
 ,
 "":{"x":146,"y":314,"w":233,"h":156,"bOffBottom":0}
 ,
 "image1612":{"x":0,"y":0,"w":785,"h":94,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"progress62539":{"x":51,"y":522,"w":683,"h":16,"bOffBottom":0,"vert":0,"barImage":"images/TabletPortrait_progress62539_bar.png","bgImage":"images/TabletPortrait_progress62539.png"}
+"progress62539":{"x":51,"y":557,"w":683,"h":16,"bOffBottom":0,"vert":0,"barImage":"images/TabletPortrait_progress62539_bar.png","bgImage":"images/TabletPortrait_progress62539.png"}
 ,
 "text115664":{"x":86,"y":523,"w":24,"h":18,"txtscale":100,"bOffBottom":0}
 ,
@@ -73,7 +73,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image33537":{"x":135,"y":256,"w":45,"h":45,"bOffBottom":0,"i":"images/image4.png"}
 ,
-"text86":{"x":51,"y":317,"w":213,"h":158,"txtscale":100,"bOffBottom":0}
+"text86":{"x":51,"y":317,"w":213,"h":191,"txtscale":100,"bOffBottom":0}
 ,
 "shape87":{"x":284,"y":284,"w":217.000000,"h":229.000000,"stylemods":[{"sel":"div.shape87Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:216.000000px; height:228.000000px;}"},{"sel":"span.shape87Text","decl":" { width:212.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:17px; font-size:17px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAADlCAYAAADeBlKgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADYSURBVHhe7cExAQAAAMKg9U9tCU8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4K0GCYYAAavKn7AAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 216.000000 0.000000 L 216.000000 228.000000 L 0.000000 228.000000 L 0.000000 0.000000 z"}
 ,
@@ -81,7 +81,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "shape92":{"x":518,"y":284,"w":217.000000,"h":229.000000,"stylemods":[{"sel":"div.shape92Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:216.000000px; height:228.000000px;}"},{"sel":"span.shape92Text","decl":" { width:212.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:17px; font-size:17px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAADlCAYAAADeBlKgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADYSURBVHhe7cExAQAAAMKg9U9tCU8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4K0GCYYAAavKn7AAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 216.000000 0.000000 L 216.000000 228.000000 L 0.000000 228.000000 L 0.000000 0.000000 z"}
 ,
-"text94":{"x":284,"y":317,"w":216,"h":113,"txtscale":100,"bOffBottom":0}
+"text94":{"x":284,"y":317,"w":216,"h":123,"txtscale":100,"bOffBottom":0}
 ,
 "image96":{"x":602,"y":256,"w":45,"h":45,"bOffBottom":0,"i":"images/image0007.png"}
 ,
