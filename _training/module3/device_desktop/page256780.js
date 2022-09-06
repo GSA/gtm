@@ -1,15 +1,17 @@
 DesktopResponsive={"1009":{
 "pageLayer":{"w":1009,"h":600,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"1009px 567px","bgRepeat":"repeat-y"}
 ,
-"text283949":{"x":253,"y":553,"w":505,"h":30,"txtscale":100,"bOffBottom":0}
+"text23237":{"x":253,"y":553,"w":505,"h":30,"txtscale":100,"bOffBottom":0}
 ,
 "image250446":{"x":870,"y":554,"w":80,"h":33,"bOffBottom":0,"i":"images/next-button.png"}
 ,
 "":{"x":188,"y":314,"w":300,"h":200,"bOffBottom":0}
 ,
+"":{"x":346,"y":123,"w":300,"h":200,"bOffBottom":0}
+,
 "image1612":{"x":0,"y":0,"w":1009,"h":121,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"progress257984":{"x":65,"y":522,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/progress257984_bar.png","bgImage":"images/progress257984.png"}
+"progress178094":{"x":65,"y":522,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/progress178094_bar.png","bgImage":"images/progress178094.png"}
 ,
 "image257925":{"x":58,"y":554,"w":80,"h":32,"bOffBottom":0,"i":"images/back-button.png"}
 ,
@@ -40,5 +42,5 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/back-button.png','images/progress257984.png','images/progress257984_bar.png','images/shape256786.png','images/text256787CircleBulletFont6.png','images/text280951CircleBulletFont6.png','images/shape256790.png','images/text256791CircleBulletFont6.png','images/text281046CircleBulletFont6.png','images/text281046CircleBulletFont6.png']
+,"preload":['images/back-button.png','images/shape256786.png','images/text256787CircleBulletFont6.png','images/text280951CircleBulletFont6.png','images/shape256790.png','images/text256791CircleBulletFont6.png','images/text281046CircleBulletFont6.png','images/text281046CircleBulletFont6.png']
 }}

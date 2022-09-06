@@ -9,9 +9,11 @@ DesktopResponsive={"1009":{
 ,
 "":{"x":188,"y":314,"w":300,"h":200,"bOffBottom":0}
 ,
+"":{"x":346,"y":123,"w":300,"h":200,"bOffBottom":0}
+,
 "image1612":{"x":0,"y":0,"w":1009,"h":121,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"progress178954":{"x":65,"y":522,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/progress178954_bar.png","bgImage":"images/progress178954.png"}
+"progress178094":{"x":65,"y":522,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/progress178094_bar.png","bgImage":"images/progress178094.png"}
 ,
 "text118278":{"x":395,"y":523,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
 ,
@@ -56,5 +58,5 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0098.png','images/image0099.png','images/image132.png','images/image135.png','images/budget23_top_dark.png','images/budget23_top_light.png','images/budget23_second_light.png','images/budget23_second_dark.png','images/budget23_third_light.png','images/budget23_third_dark.png','images/budget23_bottom_light.png','images/budget23_bottom_dark.png','images/progress178954.png','images/progress178954_bar.png']
+,"preload":['images/image0098.png','images/image0099.png','images/image132.png','images/image135.png','images/budget23_top_dark.png','images/budget23_top_light.png','images/budget23_second_light.png','images/budget23_second_dark.png','images/budget23_third_light.png','images/budget23_third_dark.png','images/budget23_bottom_light.png','images/budget23_bottom_dark.png']
 }}

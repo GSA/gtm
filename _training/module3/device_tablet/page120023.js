@@ -9,6 +9,8 @@ TabletResponsive={"1009":{
 ,
 "":{"x":188,"y":314,"w":300,"h":200,"bOffBottom":0}
 ,
+"":{"x":346,"y":123,"w":300,"h":200,"bOffBottom":0}
+,
 "image1612":{"x":0,"y":0,"w":1009,"h":121,"bOffBottom":0,"i":"images/image0010.png"}
 ,
 "progress120186":{"x":65,"y":522,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/TabletLandscape_progress120186_bar.png","bgImage":"images/TabletLandscape_progress120186.png"}
@@ -47,6 +49,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "":{"x":146,"y":314,"w":233,"h":156,"bOffBottom":0}
 ,
+"":{"x":269,"y":123,"w":233,"h":156,"bOffBottom":0}
+,
 "image1612":{"x":0,"y":0,"w":785,"h":94,"bOffBottom":0,"i":"images/image0010.png"}
 ,
 "progress120186":{"x":51,"y":522,"w":683,"h":16,"bOffBottom":0,"vert":0,"barImage":"images/TabletPortrait_progress120186_bar.png","bgImage":"images/TabletPortrait_progress120186.png"}
@@ -57,7 +61,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text120025":{"x":661,"y":141,"w":52,"h":156,"txtscale":100,"bOffBottom":0}
 ,
-"text120026":{"x":47,"y":140,"w":344,"h":44,"txtscale":100,"bOffBottom":0}
+"text120026":{"x":47,"y":140,"w":344,"h":40,"txtscale":100,"bOffBottom":0}
 ,
 "text120027":{"x":52,"y":187,"w":252,"h":272,"txtscale":100,"bOffBottom":0}
 ,

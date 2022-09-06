@@ -1,6 +1,8 @@
 DesktopResponsive={"1009":{
 "pageLayer":{"w":1009,"h":600,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"1009px 567px","bgRepeat":"repeat-y"}
 ,
+"text67":{"x":253,"y":553,"w":505,"h":30,"txtscale":100,"bOffBottom":0}
+,
 "text270208":{"x":253,"y":553,"w":505,"h":30,"txtscale":100,"bOffBottom":0}
 ,
 "image250446":{"x":870,"y":554,"w":80,"h":33,"bOffBottom":0,"i":"images/next-button.png"}
@@ -9,9 +11,11 @@ DesktopResponsive={"1009":{
 ,
 "":{"x":188,"y":314,"w":300,"h":200,"bOffBottom":0}
 ,
+"":{"x":346,"y":123,"w":300,"h":200,"bOffBottom":0}
+,
 "image1612":{"x":0,"y":0,"w":1009,"h":121,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"progress62539":{"x":65,"y":522,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/progress62539_bar.png","bgImage":"images/progress62539.png"}
+"progress62539":{"x":65,"y":522,"w":878,"h":31,"bOffBottom":0,"vert":0,"barImage":"images/progress62539_bar.png","bgImage":"images/progress62539.png"}
 ,
 "text116677":{"x":896,"y":523,"w":38,"h":23,"txtscale":100,"bOffBottom":0}
 ,
