@@ -25,6 +25,8 @@
 <script src="es6-promise-2.0.0.min.js"></script>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
+<script src="trivantis-inline.js"></script>
+<script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
 <script src="trivantis-buttontracking.js"></script>
 <script src="device_desktop/page73591.js"></script>
@@ -183,7 +185,10 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
+    PreloadResources(new Array(text112866))
     pageLayer.show(true);
+    text112866.init()
+    text112866.activate()
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -299,6 +304,24 @@ function OnDeviceRotate() {
 }
 
 if( is.min ){
+text112866 = new ObjText('text112866',null,341,528,500,78,1,12,null,'div',null,0 )
+text112866.initSLine(0)
+text112866.initHasBullet(0)
+text112866.initRotateAngle(0,0,0)
+text112866.initHasOuterShadow(0)
+text112866.initHasTextShadow(0)
+text112866.initHasBorder(0)
+text112866.initHasOutline(0)
+text112866.initHasMargin(6)
+text112866.addIe8Attr(341, 528, 500, 78, 0, 0)
+text112866.addHeading(0)
+text112866.addOpacity(100)
+text112866.arrCSSStyles = new Array();
+text112866.arrCSSStyles.push('span.text112866Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#000000;}');
+text112866.addInnerText('<div id=\"text112866\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text112866Font1\"  >LESSON 2: KNOWLEDGE CHECK\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text112866.build()
+
+arObjs.push(text112866);
 
 
 writeStyleSheets(arObjs);}
@@ -322,9 +345,9 @@ if( is.min ){
 }
 </script>
 
-
 <script>
 if( is.min ){
+    appendElement(text112866, null, null);
 }
 </script>
 

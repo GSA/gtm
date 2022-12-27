@@ -1,6 +1,8 @@
 TabletResponsive={"1009":{
 "pageLayer":{"w":1009,"h":662,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"1009px 567px","bgRepeat":"no-repeat"}
 ,
+"text112866":{"x":341,"y":528,"w":500,"h":78,"txtscale":100,"bOffBottom":0}
+,
 "image72753":{"x":65,"y":537,"w":47,"h":17,"bOffBottom":0,"i":"images/image0002.png"}
 ,
 "image72756":{"x":898,"y":537,"w":48,"h":17,"bOffBottom":0,"i":"images/image0003.png"}
@@ -116,6 +118,8 @@ Init_qu99765(false, true);
 },
 "785":{
 "pageLayer":{"w":785,"h":1000,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
+,
+"text112866":{"x":265,"y":528,"w":389,"h":61,"txtscale":100,"bOffBottom":0}
 ,
 "image72753":{"x":51,"y":537,"w":37,"h":13,"bOffBottom":0,"i":"images/image0002.png"}
 ,

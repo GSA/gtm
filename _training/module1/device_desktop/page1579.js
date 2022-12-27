@@ -1,8 +1,6 @@
 DesktopResponsive={"1009":{
 "pageLayer":{"w":1009,"h":567,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"1009px 567px","bgRepeat":"no-repeat"}
 ,
-"text73":{"x":278,"y":527,"w":430,"h":49,"txtscale":100,"bOffBottom":0}
-,
 "image10977":{"x":0,"y":0,"w":1009,"h":120,"bOffBottom":0,"i":"images/image0014.png"}
 ,
 "image12154":{"x":65,"y":537,"w":47,"h":17,"bOffBottom":0,"i":"images/image0002.png"}
@@ -35,7 +33,7 @@ DesktopResponsive={"1009":{
 ,
 "text20915":{"x":75,"y":218,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text20914":{"x":415,"y":216,"w":138,"h":63,"txtscale":100,"bOffBottom":0}
+"text20914":{"x":415,"y":216,"w":155,"h":63,"txtscale":100,"bOffBottom":0}
 ,
 "text20688":{"x":65,"y":145,"w":439,"h":39,"txtscale":100,"bOffBottom":0}
 ,
@@ -61,21 +59,21 @@ DesktopResponsive={"1009":{
 ,
 "text1607":{"x":425,"y":403,"w":112,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"text65283":{"x":65,"y":185,"w":729,"h":24,"txtscale":100,"bOffBottom":0}
+"text65283":{"x":68,"y":187,"w":729,"h":24,"txtscale":100,"bOffBottom":0}
 ,
-"text65284":{"x":87,"y":260,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
+"text65284":{"x":87,"y":464,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
 ,
 "combo65285":{"x":471,"y":264,"w":50,"h":30,"fsize":19,"bOffBottom":0}
 ,
-"text65286":{"x":87,"y":328,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
+"text65286":{"x":87,"y":399,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
 ,
 "combo65287":{"x":472,"y":332,"w":50,"h":30,"fsize":19,"bOffBottom":0}
 ,
-"text65288":{"x":87,"y":399,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
+"text65288":{"x":87,"y":328,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
 ,
 "combo65289":{"x":472,"y":398,"w":50,"h":30,"fsize":19,"bOffBottom":0}
 ,
-"text65290":{"x":87,"y":464,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
+"text65290":{"x":87,"y":260,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
 ,
 "combo65291":{"x":476,"y":465,"w":50,"h":30,"fsize":19,"bOffBottom":0}
 ,
@@ -101,7 +99,7 @@ DesktopResponsive={"1009":{
 ,
 "shape91009":{"x":112,"y":232,"w":115.000000,"h":44.000000,"stylemods":[{"sel":"div.shape91009Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:114.000000px; height:43.000000px;}"},{"sel":"span.shape91009Text","decl":" { width:110.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAAsCAYAAABWm4fEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAArSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAALhWA088AAFdM0HJAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z" ,"i":"images/shape91009.png"}
 ,
-"text91010":{"x":128,"y":246,"w":79,"h":26,"txtscale":100,"bOffBottom":0}
+"text91010":{"x":120,"y":246,"w":96,"h":26,"txtscale":100,"bOffBottom":0}
 ,
 "text90995":{"x":130,"y":290,"w":748,"h":144,"txtscale":100,"bOffBottom":0}
 ,
@@ -131,7 +129,7 @@ DesktopResponsive={"1009":{
 ,
 "shape1645":{"x":112,"y":232,"w":115.000000,"h":44.000000,"stylemods":[{"sel":"div.shape1645Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:114.000000px; height:43.000000px;}"},{"sel":"span.shape1645Text","decl":" { width:110.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAAsCAYAAABWm4fEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAArSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAALhWA088AAFdM0HJAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z" ,"i":"images/shape1645.png"}
 ,
-"text1647":{"x":128,"y":246,"w":79,"h":26,"txtscale":100,"bOffBottom":0}
+"text1647":{"x":120,"y":246,"w":99,"h":26,"txtscale":100,"bOffBottom":0}
 ,
 "text77970":{"x":130,"y":290,"w":748,"h":144,"txtscale":100,"bOffBottom":0}
 ,

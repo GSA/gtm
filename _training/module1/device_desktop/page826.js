@@ -1,7 +1,7 @@
 DesktopResponsive={"1009":{
 "pageLayer":{"w":1009,"h":567,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"1009px 567px","bgRepeat":"no-repeat"}
 ,
-"text73":{"x":278,"y":527,"w":430,"h":49,"txtscale":100,"bOffBottom":0}
+"text112296":{"x":278,"y":527,"w":430,"h":49,"txtscale":100,"bOffBottom":0}
 ,
 "image10977":{"x":0,"y":0,"w":1009,"h":120,"bOffBottom":0,"i":"images/image0014.png"}
 ,

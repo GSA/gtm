@@ -26,6 +26,8 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-button.js"></script>
+<script src="trivantis-inline.js"></script>
+<script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
 <script src="trivantis-buttontracking.js"></script>
 <script src="device_desktop/page73592.js"></script>
@@ -197,9 +199,11 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(button73593))
+    PreloadResources(new Array(text112866,button73593))
     pageLayer.show(true);
+    text112866.init()
     button73593.init()
+    text112866.activate()
     button73593.activate()
 button73593.strCookieState = (trivBtnTracking.GetRangeStatus(73593,true));
 button73593.loadStateFromSes("normalState");
@@ -376,7 +380,24 @@ function button73593onUp() {
 }
 
 if( is.min ){
-button73593 = new ObjButton('button73593', 'Done',909,507,61.000000,41.000000,1,1,'div','',1,1)
+text112866 = new ObjText('text112866',null,341,528,500,78,1,13,null,'div',null,0 )
+text112866.initSLine(0)
+text112866.initHasBullet(0)
+text112866.initRotateAngle(0,0,0)
+text112866.initHasOuterShadow(0)
+text112866.initHasTextShadow(0)
+text112866.initHasBorder(0)
+text112866.initHasOutline(0)
+text112866.initHasMargin(6)
+text112866.addIe8Attr(341, 528, 500, 78, 0, 0)
+text112866.addHeading(0)
+text112866.addOpacity(100)
+text112866.arrCSSStyles = new Array();
+text112866.arrCSSStyles.push('span.text112866Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#000000;}');
+text112866.addInnerText('<div id=\"text112866\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text112866Font1\"  >LESSON 2: KNOWLEDGE CHECK\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text112866.build()
+
+button73593 = new ObjButton('button73593', 'Done',909,507,61.000000,41.000000,1,2,'div','',1,1)
 button73593.setUseSvgFile(1)
 button73593.setFillStyle(17)
 button73593.setUniqueFillID('page73592_button73593')
@@ -399,6 +420,7 @@ button73593.bOverEnabled = true;
 button73593.bDownEnabled = true;
 button73593.build()
 
+arObjs.push(text112866);
 arObjs.push(button73593);
 
 
@@ -425,6 +447,7 @@ if( is.min ){
 
 <script>
 if( is.min ){
+    appendElement(text112866, null, null);
     appendElement(button73593, null, null);
 }
 </script>

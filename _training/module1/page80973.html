@@ -190,9 +190,9 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text73,og102,image10977,image12154,image12152,button11935,button11927,button47987,text46693,text46674,button47650,og80978,image80980,image80983,image80986,button80993,text80995,text80997,text80999,text81000,shape81002,shape81004,shape81006,shape81008,text81009,og81010,shape81012,text81013,og81014,shape81016,text81017,og81018,shape81020,text81021,og81022,shape81024,text81025,og81026,shape81028,text81029,og81030,shape81032,text81033,og81034,shape81036,text81037,og81038,shape81040,text81041,qu81043,text81044,text81045,text81046,text81049,text81050,text81053,text81054,text81057,text81058,og89235,shape88587,text88588,shape88583,shape88591,image88595,shape88585,text88589,image88901,image88896,image88946,image88964,og89300,shape89060,shape89062,shape89064,text89065,shape89076,image89079,text89351,image89447,image89439,image89353,image89357))
+    PreloadResources(new Array(text110033,og102,image10977,image12154,image12152,button11935,button11927,button47987,text46693,text46674,button47650,og80978,image80980,image80983,image80986,button80993,text80995,text80997,text80999,text81000,shape81002,shape81004,shape81006,shape81008,text81009,og81010,shape81012,text81013,og110092,shape81016,text81017,og81018,shape81020,text81021,og81022,shape81024,text81025,og81026,shape81028,text81029,og81030,shape81032,text81033,og81034,shape81036,text81037,og81038,shape81040,text81041,qu81043,text81044,text81045,text81046,text81049,text81050,text81053,text81054,text81057,text81058,og89235,shape88583,shape88585,shape88587,shape88591,image88595,text88589,image88901,image88896,image88946,image88964,text88588,og89300,shape89060,shape89062,shape89064,text89065,shape89076,image89079,text89351,image89447,image89439,image89353,image89357))
     pageLayer.show(true);
-    text73.init()
+    text110033.init()
     og102.init()
     image10977.init()
     image12154.init()
@@ -220,7 +220,7 @@ function init11() {
     og81010.init()
     shape81012.init()
     text81013.init()
-    og81014.init()
+    og110092.init()
     shape81016.init()
     text81017.init()
     og81018.init()
@@ -252,17 +252,17 @@ function init11() {
     text81057.init()
     text81058.init()
     og89235.init()
-    shape88587.init()
-    text88588.init()
     shape88583.init()
+    shape88585.init()
+    shape88587.init()
     shape88591.init()
     image88595.init()
-    shape88585.init()
     text88589.init()
     image88901.init()
     image88896.init()
     image88946.init()
     image88964.init()
+    text88588.init()
     og89300.init()
     shape89060.init()
     shape89062.init()
@@ -275,7 +275,7 @@ function init11() {
     image89439.init()
     image89353.init()
     image89357.init()
-    text73.activate()
+    text110033.activate()
     og102.activate()
     image10977.activate()
     image12154.activate()
@@ -303,7 +303,7 @@ function init11() {
     og81010.activate()
     shape81012.activate()
     text81013.activate()
-    og81014.activate()
+    og110092.activate()
     shape81016.activate()
     text81017.activate()
     og81018.activate()
@@ -335,17 +335,17 @@ function init11() {
     text81057.activate()
     text81058.activate()
     og89235.activate()
-    shape88587.activate()
-    text88588.activate()
     shape88583.activate()
+    shape88585.activate()
+    shape88587.activate()
     shape88591.activate()
     image88595.activate()
-    shape88585.activate()
     text88589.activate()
     image88901.activate()
     image88896.activate()
     image88946.activate()
     image88964.activate()
+    text88588.activate()
     og89300.activate()
     shape89060.activate()
     shape89062.activate()
@@ -483,25 +483,6 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( !bForce && bFeedback && !forceCheckQuestions() ) return 0;
 
   var onAfterFBAction = ( bNotLeavingPage ? (function(){trivActFBCnt--;}) : (function(){trivActFBCnt--;window.checkLeavePage();}) );
-  var ans_Varl1q1 = Varl1q1.getValue()
-  if( bFeedback && currFeedbackIdx == 0 && ans_Varl1q1 != '~~~null~~~' && !qu81043.hasBeenProcessed) {
-    var arrAns = new Array
-    arrAns[0]='\u0031\u004C\u002D\u0031\u0052'
-    arrAns[1]='\u0032\u004C\u002D\u0032\u0052'
-    arrAns[2]='\u0033\u004C\u002D\u0033\u0052'
-    arrAns[3]='\u0034\u004C\u002D\u0034\u0052'
-    var offset=0
-    var wrong=false
-    for( var idx=0; idx<4 && !wrong; idx++ ) {
-      offset = ans_Varl1q1.indexOf( arrAns[idx], offset )
-      if( offset < 0 ) wrong = true
-      else offset = offset + arrAns[idx].length
-    }
-    if( !wrong ) {        trivActFBCnt++; action81043_3(onAfterFBAction); return 0;  } //1
-
-    if( wrong ) {trivActFBCnt++; action81043_4(onAfterFBAction); return 0;  } //2 
-
-  }
   if( !bFeedback ) currFeedbackIdx = 1;
 
   return 1
@@ -519,6 +500,35 @@ function forceCheckQuestions() {
     currFeedbackIdx = 0;
     trivGoToPage = null;
     return 0;
+  }
+  return 1
+}
+
+function doImmFeedback( objId ) {
+  var onAfterFBAction = function(){trivActFBCnt--;};
+
+  if(objId=='qu81043') {
+    var ans_Varl1q1 = Varl1q1.getValue()
+    if(ans_Varl1q1 != '~~~null~~~' && !qu81043.hasBeenProcessed) {
+      var arrAns = new Array
+      arrAns[0]='\u0031\u004C\u002D\u0031\u0052'
+      arrAns[1]='\u0032\u004C\u002D\u0032\u0052'
+      arrAns[2]='\u0033\u004C\u002D\u0033\u0052'
+      arrAns[3]='\u0034\u004C\u002D\u0034\u0052'
+      var answered = ans_Varl1q1.match(/-/g);
+      if( answered.length < arrAns.length ) return 0;
+      var offset=0
+      var wrong=false
+      for( var idx=0; idx<4 && !wrong; idx++ ) {
+        offset = ans_Varl1q1.indexOf( arrAns[idx], offset )
+        if( offset < 0 ) wrong = true
+        else offset = offset + arrAns[idx].length
+      }
+    if( !wrong ) {        trivActFBCnt++; action81043_1(onAfterFBAction); return 0;  } //1
+
+    if( wrong ) {trivActFBCnt++; action81043_2(onAfterFBAction); return 0;  } //2 
+
+    }
   }
   return 1
 }
@@ -755,15 +765,16 @@ function Update_qu81043() {
   newVal = newVal.substring( 0, newVal.length-1 )
   Varl1q1.set( newVal )
   qu81043Object.hasBeenProcessed=false;
+  doImmFeedback('qu81043');
 }
 
-function action81043_3(fn){
+function action81043_1(fn){
     og89235.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action81043_4(fn){
+function action81043_2(fn){
     og89300.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -784,7 +795,7 @@ function action81048(fn){
         text81046.eatOnUp=false;
         return;
     }
-    og81014.actionToggleShow(); 
+    og110092.actionToggleShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -906,23 +917,23 @@ function image89079onUp() {
 }
 
 if( is.min ){
-text73 = new ObjText('text73',null,278,527,430,49,1,94,null,'div',null,0 )
-text73.initSLine(0)
-text73.initHasBullet(0)
-text73.initRotateAngle(0,0,0)
-text73.initHasOuterShadow(0)
-text73.initHasTextShadow(0)
-text73.initHasBorder(0)
-text73.initHasOutline(0)
-text73.initHasMargin(6)
-text73.addIe8Attr(278, 527, 430, 49, 0, 0)
-text73.addHeading(0)
-text73.addOpacity(100)
-text73.arrCSSStyles = new Array();
-text73.arrCSSStyles.push('span.text73Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#00324b;}');
-text73.arrCSSStyles.push('span.text73Font2 { font-size:13px; font-family:"Oswald"; color:#898989;}');
-text73.addInnerText('<div id=\"text73\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text73Font1\"  >LESSON 1: LAWS, REGULATIONS, AND GUIDANCE</span ><span class=\"text73Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text73.build()
+text110033 = new ObjText('text110033',null,278,527,430,49,1,94,null,'div',null,0 )
+text110033.initSLine(0)
+text110033.initHasBullet(0)
+text110033.initRotateAngle(0,0,0)
+text110033.initHasOuterShadow(0)
+text110033.initHasTextShadow(0)
+text110033.initHasBorder(0)
+text110033.initHasOutline(0)
+text110033.initHasMargin(6)
+text110033.addIe8Attr(278, 527, 430, 49, 0, 0)
+text110033.addHeading(0)
+text110033.addOpacity(100)
+text110033.arrCSSStyles = new Array();
+text110033.arrCSSStyles.push('span.text110033Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#000000;}');
+text110033.arrCSSStyles.push('span.text110033Font2 { font-size:13px; font-family:"Oswald"; color:#898989;}');
+text110033.addInnerText('<div id=\"text110033\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text110033Font1\"  >LESSON 1: KNOWLEDGE CHECK</span ><span class=\"text110033Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text110033.build()
 
 og102 = new ObjInline('og102',null,0,0,1009,558,1,0)
 og102.isGrp = true
@@ -1356,11 +1367,11 @@ text81013.arrCSSStyles.push('span.text81013Font1 { font-size:17px; font-family:"
 text81013.addInnerText('<div id=\"text81013\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81013Font1\"  >Supplemental Appropriations\n</span ></p ></div>\n');
 text81013.build()
 
-og81014 = new ObjInline('og81014',null,0,0,826,302,1,0)
-og81014.isGrp = true
-og81014.addChild('shape81016')
-og81014.addChild('text81017')
-og81014.build()
+og110092 = new ObjInline('og110092',null,0,0,825,302,1,0)
+og110092.isGrp = true
+og110092.addChild('shape81016')
+og110092.addChild('text81017')
+og110092.build()
 
 shape81016 = new ObjImage('shape81016','images/shape81016.png','Blue A',603,243,223.000000,60.000000,1,26,'div','',0 )
 shape81016.initRotateAngle(0,0,0,-0.000000,-0.000000,222,59)
@@ -1375,7 +1386,7 @@ shape81016.initLineWeight(0)
 shape81016.addOpacity(100)
 shape81016.build()
 
-text81017 = new ObjText('text81017',null,613,255,213,41,1,27,null,'div',null,0 )
+text81017 = new ObjText('text81017',null,609,255,213,41,1,27,null,'div',null,0 )
 text81017.initSLine(1)
 text81017.initHasBullet(0)
 text81017.initRotateAngle(0,0,0)
@@ -1384,7 +1395,7 @@ text81017.initHasTextShadow(0)
 text81017.initHasBorder(0)
 text81017.initHasOutline(0)
 text81017.initHasMargin(0)
-text81017.addIe8Attr(613, 255, 213, 41, 0, 0)
+text81017.addIe8Attr(609, 255, 213, 41, 0, 0)
 text81017.addHeading(0)
 text81017.addOpacity(100)
 text81017.arrCSSStyles = new Array();
@@ -1638,9 +1649,9 @@ text81044.addIe8Attr(76, 185, 729, 28, 0, 0)
 text81044.addHeading(0)
 text81044.addOpacity(100)
 text81044.arrCSSStyles = new Array();
+text81044.arrCSSStyles.push('span.text81044Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text81044.arrCSSStyles.push('span.text81044Font1 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text81044.arrCSSStyles.push('span.text81044Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text81044.addInnerText('<legend><div id=\"text81044\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81044Font1\"  >Match the type of appropriation with its description</span ><span class=\"text81044Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n</legend>\n');
+text81044.addInnerText('<legend><div id=\"text81044\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81044Font1\"  >Match the type of appropriation with its description</span ><span class=\"text81044Font0\" style=\"background-color:transparent\" >\n</span ></p ></div>\n</legend>\n');
 text81044.build()
 
 text81045 = new ObjText('text81045',null,88,255,493,47,1,41,null,'div',null,0 )
@@ -1658,9 +1669,9 @@ text81045.addOpacity(100)
 text81045.setupMatch( true, '1L', Update_qu81043, 41, 'cf2a27', 2)
 text81045.isChoice = true
 text81045.arrCSSStyles = new Array();
+text81045.arrCSSStyles.push('span.text81045Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text81045.arrCSSStyles.push('span.text81045Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
-text81045.arrCSSStyles.push('span.text81045Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text81045.addInnerText('<div id=\"text81045\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81045Font1\"  >Used when there is an urgent need for further funding of a program or project that already received funding</span ><span class=\"text81045Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
+text81045.addInnerText('<div id=\"text81045\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81045Font1\"  >Used when there is an urgent need for further funding of a program or project that already received funding</span ><span class=\"text81045Font0\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text81045.build()
 
 text81046 = new ObjText('text81046',null,613,255,221,41,1,42,null,'div',null,0 )
@@ -1700,9 +1711,9 @@ text81049.addOpacity(100)
 text81049.setupMatch( true, '2L', Update_qu81043, 41, 'cf2a27', 2)
 text81049.isChoice = true
 text81049.arrCSSStyles = new Array();
+text81049.arrCSSStyles.push('span.text81049Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text81049.arrCSSStyles.push('span.text81049Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
-text81049.arrCSSStyles.push('span.text81049Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text81049.addInnerText('<div id=\"text81049\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81049Font1\"  >Intended to keep existing Federal programs functioning until regular appropriation acts are enacted</span ><span class=\"text81049Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
+text81049.addInnerText('<div id=\"text81049\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81049Font1\"  >Intended to keep existing Federal programs functioning until regular appropriation acts are enacted</span ><span class=\"text81049Font0\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text81049.build()
 
 text81050 = new ObjText('text81050',null,613,332,217,32,1,44,null,'div',null,0 )
@@ -1742,9 +1753,9 @@ text81053.addOpacity(100)
 text81053.setupMatch( true, '3L', Update_qu81043, 41, 'cf2a27', 2)
 text81053.isChoice = true
 text81053.arrCSSStyles = new Array();
+text81053.arrCSSStyles.push('span.text81053Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text81053.arrCSSStyles.push('span.text81053Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
-text81053.arrCSSStyles.push('span.text81053Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text81053.addInnerText('<div id=\"text81053\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81053Font1\"  >Uses broader language that allows the funds to be obligated to several different purposes</span ><span class=\"text81053Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
+text81053.addInnerText('<div id=\"text81053\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81053Font1\"  >Uses broader language that allows the funds to be obligated to several different purposes</span ><span class=\"text81053Font0\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text81053.build()
 
 text81054 = new ObjText('text81054',null,613,400,204,32,1,46,null,'div',null,0 )
@@ -1784,9 +1795,9 @@ text81057.addOpacity(100)
 text81057.setupMatch( true, '4L', Update_qu81043, 41, 'cf2a27', 2)
 text81057.isChoice = true
 text81057.arrCSSStyles = new Array();
+text81057.arrCSSStyles.push('span.text81057Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text81057.arrCSSStyles.push('span.text81057Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
-text81057.arrCSSStyles.push('span.text81057Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text81057.addInnerText('<div id=\"text81057\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81057Font1\"  >Cannot be expended except to accomplish the specific project for which they were obligated</span ><span class=\"text81057Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
+text81057.addInnerText('<div id=\"text81057\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text81057Font1\"  >Cannot be expended except to accomplish the specific project for which they were obligated</span ><span class=\"text81057Font0\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text81057.build()
 
 text81058 = new ObjText('text81058',null,613,468,206,41,1,48,null,'div',null,0 )
@@ -1813,46 +1824,16 @@ text81058.build()
 
 og89235 = new ObjInline('og89235',null,0,0,1008,568,1,0)
 og89235.isGrp = true
-og89235.addChild('shape88587')
-og89235.addChild('text88588')
 og89235.addChild('shape88583')
+og89235.addChild('shape88585')
+og89235.addChild('shape88587')
 og89235.addChild('shape88591')
 og89235.addChild('image88595')
-og89235.addChild('shape88585')
 og89235.addChild('text88589')
+og89235.addChild('text88588')
 og89235.build()
 
-shape88587 = new ObjImage('shape88587','images/shape88587.png','Rectangle 48',184,180,115.000000,44.000000,1,49,'div','',0 )
-shape88587.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
-shape88587.initHasShadow(0)
-shape88587.initHasReflection(0)
-shape88587.setUniqueFillID('page80973_shape88587')
-shape88587.addIe8Attr(184.000000, 180.000000, 115.000000, 44.000000, 0, 0)
-shape88587.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
-shape88587.setUseSvgFile(1)
-shape88587.addBorder(0)
-shape88587.initLineWeight(0)
-shape88587.addOpacity(100)
-shape88587.build()
-
-text88588 = new ObjText('text88588',null,196,190,79,26,1,50,null,'div',null,0 )
-text88588.initSLine(1)
-text88588.initHasBullet(0)
-text88588.initRotateAngle(0,0,0)
-text88588.initHasOuterShadow(0)
-text88588.initHasTextShadow(0)
-text88588.initHasBorder(0)
-text88588.initHasOutline(0)
-text88588.initHasMargin(0)
-text88588.addIe8Attr(196, 190, 79, 26, 0, 0)
-text88588.addHeading(0)
-text88588.addOpacity(100)
-text88588.arrCSSStyles = new Array();
-text88588.arrCSSStyles.push('span.text88588Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text88588.addInnerText('<div id=\"text88588\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text88588Font1\"  >Feedback\n</span ></p ></div>\n');
-text88588.build()
-
-shape88583 = new ObjImage('shape88583','images/shape88583.png','Rectangle 35',0,0,1009.000000,569.000000,1,51,'div','',0 )
+shape88583 = new ObjImage('shape88583','images/shape88583.png','Rectangle 35',0,0,1009.000000,569.000000,1,49,'div','',0 )
 shape88583.initRotateAngle(0,0,0,-0.000000,-0.000000,1008,568)
 shape88583.initHasShadow(0)
 shape88583.initHasReflection(0)
@@ -1864,6 +1845,33 @@ shape88583.addBorder(0)
 shape88583.initLineWeight(0)
 shape88583.addOpacity(25)
 shape88583.build()
+
+shape88585 = new ObjImage('shape88585','images/shape88585.png','Rectangle 47',181,179,767.000000,343.000000,1,50,'div','',0 )
+shape88585.initRotateAngle(0,0,0,-0.000000,-0.000000,766,342)
+shape88585.initHasShadow(1)
+shape88585.initHasReflection(0)
+shape88585.setUniqueFillID('page80973_shape88585')
+shape88585.addIe8Attr(181.000000, 179.000000, 767.000000, 343.000000, 0, 0)
+shape88585.initImageMap(1,'1,1,765,1,765,341,1,341,1,1','M 1.000000 1.000000 L 765.000000 1.000000 L 765.000000 341.000000 L 1.000000 341.000000 L 1.000000 1.000000 z', '', 'stroke:#00324B; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:#FFFFFF;"' , '')
+shape88585.setUseSvgFile(1)
+shape88585.addShadow(315,2,0.400000,'0','0','0',0,0,0,0.000000,2)
+shape88585.addBorder(0)
+shape88585.initLineWeight(2)
+shape88585.addOpacity(100)
+shape88585.build()
+
+shape88587 = new ObjImage('shape88587','images/shape88587.png','Rectangle 48',184,180,115.000000,44.000000,1,51,'div','',0 )
+shape88587.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
+shape88587.initHasShadow(0)
+shape88587.initHasReflection(0)
+shape88587.setUniqueFillID('page80973_shape88587')
+shape88587.addIe8Attr(184.000000, 180.000000, 115.000000, 44.000000, 0, 0)
+shape88587.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
+shape88587.setUseSvgFile(1)
+shape88587.addBorder(0)
+shape88587.initLineWeight(0)
+shape88587.addOpacity(100)
+shape88587.build()
 
 shape88591 = new ObjImage('shape88591','images/shape88591.png','Rectangle 51',913,185,28.000000,28.000000,1,52,'div','',0 )
 shape88591.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
@@ -1894,21 +1902,7 @@ image88595.hasOnUp = true
 image88595.capture=4
 image88595.build()
 
-shape88585 = new ObjImage('shape88585','images/shape88585.png','Rectangle 47',181,179,767.000000,343.000000,1,54,'div','',0 )
-shape88585.initRotateAngle(0,0,0,-0.000000,-0.000000,766,342)
-shape88585.initHasShadow(1)
-shape88585.initHasReflection(0)
-shape88585.setUniqueFillID('page80973_shape88585')
-shape88585.addIe8Attr(181.000000, 179.000000, 767.000000, 343.000000, 0, 0)
-shape88585.initImageMap(1,'1,1,765,1,765,341,1,341,1,1','M 1.000000 1.000000 L 765.000000 1.000000 L 765.000000 341.000000 L 1.000000 341.000000 L 1.000000 1.000000 z', '', 'stroke:#00324B; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:#FFFFFF;"' , '')
-shape88585.setUseSvgFile(1)
-shape88585.addShadow(315,2,0.400000,'0','0','0',0,0,0,0.000000,2)
-shape88585.addBorder(0)
-shape88585.initLineWeight(2)
-shape88585.addOpacity(100)
-shape88585.build()
-
-text88589 = new ObjText('text88589',null,191,237,744,323,1,55,null,'div',null,0 )
+text88589 = new ObjText('text88589',null,191,237,744,323,1,54,null,'div',null,0 )
 text88589.initSLine(0)
 text88589.initHasBullet(0)
 text88589.initRotateAngle(0,0,0)
@@ -1931,7 +1925,7 @@ text88589.arrCSSStyles.push('span.text88589Font4 { font-size:16px; font-family:"
 text88589.addInnerText('<div id=\"text88589\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text88589Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.094\" style=\"margin-left:0px;text-indent:0px;line-height:0.750;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span style=\"text-indent:0px\" id=\"embeded_image88896\"></span><span class=\"text88589Font3\"  > &nbsp;The correct answer is that </span ><span class=\"text88589Font4\"  >Supplemental Appropriations</span ><span class=\"text88589Font3\"  > are used when there is an urgent need for \nfurther funding of a program or project that already received funding.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text88589Font3\"  >.\n</span ></p >\n<p  legLH=\"1.094\" style=\"margin-left:0px;text-indent:0px;line-height:0.750;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span style=\"text-indent:0px\" id=\"embeded_image88901\"></span><span class=\"text88589Font3\"  > &nbsp;The correct answer is that </span ><span class=\"text88589Font4\"  >Continuing Appropriations</span ><span class=\"text88589Font3\"  > are intended to keep existing Federal \nprograms functioning until regular appropriation acts are enacted.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text88589Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.094\" style=\"margin-left:0px;text-indent:0px;line-height:0.750;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span style=\"text-indent:0px\" id=\"embeded_image88964\"></span><span class=\"text88589Font3\"  > &nbsp;The correct answer is that </span ><span class=\"text88589Font4\"  >General Appropriations</span ><span class=\"text88589Font3\"  > use broader language that allows the funds to be \nobligated to several different purposes.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text88589Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.094\" style=\"margin-left:0px;text-indent:0px;line-height:0.750;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span style=\"text-indent:0px\" id=\"embeded_image88946\"></span><span class=\"text88589Font3\"  >The correct answer is that </span ><span class=\"text88589Font4\"  >Specific Appropriations</span ><span class=\"text88589Font3\"  > cannot be expended except to accomplish the \nspecific project for which they were obligated\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text88589.build()
 
-image88901 = new ObjImage('image88901','images/image0090.png','Picture 43',null,326,27,26,1,56,'span',null, 0 )
+image88901 = new ObjImage('image88901','images/image0090.png','Picture 43',null,326,27,26,1,55,'span',null, 0 )
 image88901.initRotateAngle(0,0,0,0,0,0,0)
 image88901.initHasShadow(0)
 image88901.initHasReflection(0)
@@ -1941,7 +1935,7 @@ image88901.addBorder(0)
 image88901.addOpacity(100)
 image88901.build()
 
-image88896 = new ObjImage('image88896','images/image0090.png','Picture 43',null,261,27,26,1,57,'span',null, 0 )
+image88896 = new ObjImage('image88896','images/image0090.png','Picture 43',null,261,27,26,1,56,'span',null, 0 )
 image88896.initRotateAngle(0,0,0,0,0,0,0)
 image88896.initHasShadow(0)
 image88896.initHasReflection(0)
@@ -1951,7 +1945,7 @@ image88896.addBorder(0)
 image88896.addOpacity(100)
 image88896.build()
 
-image88946 = new ObjImage('image88946','images/image0090.png','Picture 43',null,456,27,26,1,58,'span',null, 0 )
+image88946 = new ObjImage('image88946','images/image0090.png','Picture 43',null,456,27,26,1,57,'span',null, 0 )
 image88946.initRotateAngle(0,0,0,0,0,0,0)
 image88946.initHasShadow(0)
 image88946.initHasReflection(0)
@@ -1961,7 +1955,7 @@ image88946.addBorder(0)
 image88946.addOpacity(100)
 image88946.build()
 
-image88964 = new ObjImage('image88964','images/image0090.png','Picture 43',null,391,27,26,1,59,'span',null, 0 )
+image88964 = new ObjImage('image88964','images/image0090.png','Picture 43',null,391,27,26,1,58,'span',null, 0 )
 image88964.initRotateAngle(0,0,0,0,0,0,0)
 image88964.initHasShadow(0)
 image88964.initHasReflection(0)
@@ -1970,6 +1964,24 @@ image88964.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26
 image88964.addBorder(0)
 image88964.addOpacity(100)
 image88964.build()
+
+text88588 = new ObjText('text88588',null,196,190,100,26,1,59,null,'div',null,0 )
+text88588.initSLine(1)
+text88588.initHasBullet(0)
+text88588.initRotateAngle(0,0,0)
+text88588.initHasOuterShadow(0)
+text88588.initHasTextShadow(0)
+text88588.initHasBorder(0)
+text88588.initHasOutline(0)
+text88588.initHasMargin(0)
+text88588.addIe8Attr(196, 190, 100, 26, 0, 0)
+text88588.addHeading(0)
+text88588.addOpacity(100)
+text88588.arrCSSStyles = new Array();
+text88588.arrCSSStyles.push('span.text88588Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text88588.arrCSSStyles.push('span.text88588Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text88588.addInnerText('<div id=\"text88588\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text88588Font1\"  >FEEDBACK</span ><span class=\"text88588Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text88588.build()
 
 og89300 = new ObjInline('og89300',null,0,0,1008,586,1,0)
 og89300.isGrp = true
@@ -2022,7 +2034,7 @@ shape89064.initLineWeight(0)
 shape89064.addOpacity(100)
 shape89064.build()
 
-text89065 = new ObjText('text89065',null,196,190,79,26,1,63,null,'div',null,0 )
+text89065 = new ObjText('text89065',null,196,190,106,26,1,63,null,'div',null,0 )
 text89065.initSLine(1)
 text89065.initHasBullet(0)
 text89065.initRotateAngle(0,0,0)
@@ -2031,12 +2043,13 @@ text89065.initHasTextShadow(0)
 text89065.initHasBorder(0)
 text89065.initHasOutline(0)
 text89065.initHasMargin(0)
-text89065.addIe8Attr(196, 190, 79, 26, 0, 0)
+text89065.addIe8Attr(196, 190, 106, 26, 0, 0)
 text89065.addHeading(0)
 text89065.addOpacity(100)
 text89065.arrCSSStyles = new Array();
-text89065.arrCSSStyles.push('span.text89065Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text89065.addInnerText('<div id=\"text89065\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text89065Font1\"  >Feedback\n</span ></p ></div>\n');
+text89065.arrCSSStyles.push('span.text89065Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text89065.arrCSSStyles.push('span.text89065Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text89065.addInnerText('<div id=\"text89065\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text89065Font1\"  >FEEDBACK</span ><span class=\"text89065Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text89065.build()
 
 shape89076 = new ObjImage('shape89076','images/shape89076.png','Rectangle 51',913,185,28.000000,28.000000,1,64,'div','',0 )
@@ -2133,7 +2146,7 @@ image89357.addOpacity(100)
 image89357.build()
 
 var trivQuestionArray=[qu81043];
-arObjs.push(text73);
+arObjs.push(text110033);
 arObjs.push(og102);
 arObjs.push(image10977);
 arObjs.push(image12154);
@@ -2161,7 +2174,7 @@ arObjs.push(text81009);
 arObjs.push(og81010);
 arObjs.push(shape81012);
 arObjs.push(text81013);
-arObjs.push(og81014);
+arObjs.push(og110092);
 arObjs.push(shape81016);
 arObjs.push(text81017);
 arObjs.push(og81018);
@@ -2193,17 +2206,17 @@ arObjs.push(text81054);
 arObjs.push(text81057);
 arObjs.push(text81058);
 arObjs.push(og89235);
-arObjs.push(shape88587);
-arObjs.push(text88588);
 arObjs.push(shape88583);
+arObjs.push(shape88585);
+arObjs.push(shape88587);
 arObjs.push(shape88591);
 arObjs.push(image88595);
-arObjs.push(shape88585);
 arObjs.push(text88589);
 arObjs.push(image88901);
 arObjs.push(image88896);
 arObjs.push(image88946);
 arObjs.push(image88964);
+arObjs.push(text88588);
 arObjs.push(og89300);
 arObjs.push(shape89060);
 arObjs.push(shape89062);
@@ -2230,7 +2243,7 @@ writeStyleSheets(arObjs);}
 <div id="og102"><a id="og102anc"></a></div>
 <div id="og80978"><a id="og80978anc"></a></div>
 <div id="og81010"><a id="og81010anc"></a></div>
-<div id="og81014"><a id="og81014anc"></a></div>
+<div id="og110092"><a id="og110092anc"></a></div>
 <div id="og81018"><a id="og81018anc"></a></div>
 <div id="og81022"><a id="og81022anc"></a></div>
 <div id="og81026"><a id="og81026anc"></a></div>
@@ -2253,7 +2266,7 @@ if( is.min ){
 
 <script>
 if( is.min ){
-    appendElement(text73, null, null);
+    appendElement(text110033, null, null);
     appendElement(image10977, null, null);
     appendElement(image12154, null, null);
     appendElement(image12152, null, null);
@@ -2302,17 +2315,17 @@ if( is.min ){
     appendElement(text81054, '<fieldset id="qu81043_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text81057, '<fieldset id="qu81043_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text81058, '<fieldset id="qu81043_fieldset" style="border:0;"></fieldset>', null);
-    appendElement(shape88587, null, null);
-    appendElement(text88588, null, null);
     appendElement(shape88583, null, null);
+    appendElement(shape88585, null, null);
+    appendElement(shape88587, null, null);
     appendElement(shape88591, null, null);
     appendElement(image88595, null, null);
-    appendElement(shape88585, null, null);
     appendElement(text88589, null, null);
 
 
 
 
+    appendElement(text88588, null, null);
     appendElement(shape89060, null, null);
     appendElement(shape89062, null, null);
     appendElement(shape89064, null, null);

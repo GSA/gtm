@@ -1,5 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":477,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
+"pageLayer":{"w":785,"h":472,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
 ,
 "text23923":{"x":265,"y":411,"w":389,"h":61,"txtscale":100,"bOffBottom":0}
 ,
@@ -43,15 +43,19 @@ PhoneResponsive={"785":{
 ,
 "text2457":{"x":112,"y":175,"w":298,"h":48,"txtscale":100,"bOffBottom":0}
 ,
-"text32475":{"x":475,"y":175,"w":258,"h":100,"txtscale":100,"bOffBottom":0}
+"text32475":{"x":108,"y":224,"w":258,"h":100,"txtscale":100,"bOffBottom":0}
 ,
-"text32485":{"x":112,"y":230,"w":304,"h":120,"txtscale":100,"bOffBottom":0}
+"text32485":{"x":112,"y":311,"w":304,"h":120,"txtscale":100,"bOffBottom":0}
 ,
-"text32495":{"x":475,"y":242,"w":261,"h":80,"txtscale":100,"bOffBottom":0}
+"text32495":{"x":469,"y":302,"w":261,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text32505":{"x":112,"y":311,"w":275,"h":166,"txtscale":100,"bOffBottom":0}
+"text109484":{"x":471,"y":172,"w":258,"h":110,"txtscale":100,"bOffBottom":0}
 ,
-"text32515":{"x":475,"y":311,"w":270,"h":100,"txtscale":100,"bOffBottom":0}
+"text109500":{"x":108,"y":224,"w":258,"h":100,"txtscale":100,"bOffBottom":0}
+,
+"text109507":{"x":108,"y":224,"w":258,"h":100,"txtscale":100,"bOffBottom":0}
+,
+"text32515":{"x":469,"y":233,"w":270,"h":100,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -105,15 +109,19 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2457":{"x":69,"y":225,"w":182,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text32475":{"x":290,"y":225,"w":158,"h":200,"txtscale":100,"bOffBottom":0}
+"text32475":{"x":66,"y":288,"w":158,"h":200,"txtscale":100,"bOffBottom":0}
 ,
-"text32485":{"x":69,"y":295,"w":186,"h":200,"txtscale":100,"bOffBottom":0}
+"text32485":{"x":69,"y":400,"w":186,"h":200,"txtscale":100,"bOffBottom":0}
 ,
-"text32495":{"x":290,"y":311,"w":159,"h":120,"txtscale":100,"bOffBottom":0}
+"text32495":{"x":287,"y":388,"w":159,"h":120,"txtscale":100,"bOffBottom":0}
 ,
-"text32505":{"x":69,"y":400,"w":168,"h":120,"txtscale":100,"bOffBottom":0}
+"text109484":{"x":288,"y":221,"w":158,"h":140,"txtscale":100,"bOffBottom":0}
 ,
-"text32515":{"x":290,"y":400,"w":165,"h":180,"txtscale":100,"bOffBottom":0}
+"text109500":{"x":66,"y":288,"w":158,"h":200,"txtscale":100,"bOffBottom":0}
+,
+"text109507":{"x":66,"y":288,"w":158,"h":200,"txtscale":100,"bOffBottom":0}
+,
+"text32515":{"x":287,"y":300,"w":165,"h":180,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
