@@ -414,11 +414,11 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu69466.hasBeenProcessed) {
     if( ans_Varl1q11 != '\u0046\u0061\u006C\u0073\u0065' && ans_Varl1q11 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action69466_3(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action69466_1(onAfterFBAction);return 0;  } //2 
 
     else if( ans_Varl1q11 == '\u0046\u0061\u006C\u0073\u0065' ) 
     { //1 
-        trivActFBCnt++; action69466_4(onAfterFBAction);  return 0;
+        trivActFBCnt++; action69466_2(onAfterFBAction);  return 0;
   } //1
 
   }
@@ -700,13 +700,13 @@ function Update_qu69466(value) {
    qu69466Object.hasBeenProcessed=false;
 }
 
-function action69466_3(fn){
+function action69466_1(fn){
     og95639.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action69466_4(fn){
+function action69466_2(fn){
     og69312.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

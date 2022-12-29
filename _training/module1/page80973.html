@@ -524,9 +524,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action81043_3(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action81043_1(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action81043_4(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action81043_2(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -651,16 +651,8 @@ function image80980onUp() {
   action80981();
 }
 
-function action118468else(fn){
-    og89300.actionShow(); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
 function action118468(fn){
-    if(Varl1q1.isCorr('\u0031\u004C\u002D\u0031\u0052\u002C\u0032\u004C\u002D\u0032\u0052\u002C\u0033\u004C\u002D\u0033\u0052\u002C\u0034\u004C\u002D\u0034\u0052'))
-    {trivExitPage('page1246.html',true); 
-    }else{ action118468else();}
+    trivExitPage('page1246.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -669,16 +661,8 @@ function image80983onUp() {
   action118468();
 }
 
-function action118412else(fn){
-    og89300.actionShow(); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
 function action118412(fn){
-    if(Varl1q1.isCorr('\u0031\u004C\u002D\u0031\u0052\u002C\u0032\u004C\u002D\u0032\u0052\u002C\u0033\u004C\u002D\u0033\u0052\u002C\u0034\u004C\u002D\u0034\u0052'))
-    {trivExitPage('page1246.html',true); 
-    }else{ action118412else();}
+    trivExitPage('page1246.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -687,20 +671,12 @@ function button80993onUp() {
   action118412();
 }
 
-function action80996else(fn){
-    og89300.actionShow(); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
 function action80996(fn){
     if( text80995.eatOnUp==true ){
         text80995.eatOnUp=false;
         return;
     }
-    if(Varl1q1.isCorr('\u0031\u004C\u002D\u0031\u0052\u002C\u0032\u004C\u002D\u0032\u0052\u002C\u0033\u004C\u002D\u0033\u0052\u002C\u0034\u004C\u002D\u0034\u0052'))
-    {trivExitPage('page1246.html',true); 
-    }else{ action80996else();}
+    trivExitPage('page1246.html',true); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -792,13 +768,13 @@ function Update_qu81043() {
   doImmFeedback('qu81043');
 }
 
-function action81043_3(fn){
+function action81043_1(fn){
     og89235.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action81043_4(fn){
+function action81043_2(fn){
     og89300.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

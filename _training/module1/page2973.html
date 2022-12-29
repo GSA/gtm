@@ -476,12 +476,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu86207.hasBeenProcessed) {
     if( ans_Varl2q6 == '\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u002C\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u002C\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u002C\u0020\u0020\u0020\u0020\u0020\u0020' ) 
     { //1 
-        trivActFBCnt++; action86207_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action86207_1(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl2q6 != '\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u002C\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u002C\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u002C\u0020\u0020\u0020\u0020\u0020\u0020' && ans_Varl2q6 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action86207_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action86207_2(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -703,13 +703,13 @@ function Update_qu86207( upd ) {
     qu86207Object.hasBeenProcessed=false;
 }
 
-function action86207_3(fn){
+function action86207_1(fn){
     og85727.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action86207_4(fn){
+function action86207_2(fn){
     og113952.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

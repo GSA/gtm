@@ -386,12 +386,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu84365.hasBeenProcessed) {
     if( ans_Varl2q4 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action84365_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action84365_1(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl2q4 != '\u0054\u0072\u0075\u0065' && ans_Varl2q4 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action84365_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action84365_2(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -634,13 +634,13 @@ function Update_qu84365(value) {
    qu84365Object.hasBeenProcessed=false;
 }
 
-function action84365_3(fn){
+function action84365_1(fn){
     og84120.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action84365_4(fn){
+function action84365_2(fn){
     og84171.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

@@ -438,9 +438,9 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
       if( offset < 0 ) wrong = true
       else offset = offset + arrAns[idx].length
     }
-    if( !wrong ) {        trivActFBCnt++; action75793_3(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action75793_1(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action75793_4(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action75793_2(onAfterFBAction); return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -611,13 +611,13 @@ function Update_qu75793() {
   qu75793Object.hasBeenProcessed=false;
 }
 
-function action75793_3(fn){
+function action75793_1(fn){
     og75702.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action75793_4(fn){
+function action75793_2(fn){
     og75745.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
