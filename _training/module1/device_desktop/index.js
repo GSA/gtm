@@ -25,7 +25,7 @@ DesktopResponsive={"1009":{
 ,
 "text59":{"x":432,"y":213,"w":145,"h":87,"txtscale":100,"bOffBottom":0}
 ,
-"text60":{"x":111,"y":262,"w":783,"h":93,"txtscale":100,"bOffBottom":0}
+"text60":{"x":111,"y":281,"w":783,"h":93,"txtscale":100,"bOffBottom":0}
 ,
 "text61":{"x":427,"y":376,"w":129,"h":50,"txtscale":100,"bOffBottom":0}
 ,
