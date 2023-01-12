@@ -1,7 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":472,"bgColor":"#00324b","bgImage":"images/image0000.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
-,
-"text23923":{"x":265,"y":411,"w":389,"h":61,"txtscale":100,"bOffBottom":0}
+"pageLayer":{"w":785,"h":450,"bgColor":"#00324b","bgImage":"images/image0000.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
 ,
 "shape3495":{"x":75,"y":313,"w":635.000000,"h":4.000000,"stylemods":[{"sel":"div.shape3495Text","decl":" { position:absolute; top:1.000000px; left:1.000000px; display:flex; justify-content:center; align-items:center; width:631.000000px; height:0.000000px;}"},{"sel":"span.shape3495Text","decl":" { width:627.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnkAAAACCAYAAAAkc8qKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAcSURBVFhH7cExAQAAAMKg9U9tDQ8gAAAAAOBeDRPKAAHjSqiOAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 2.000000 2.000000 L 633.000000 2.000000 "}
 ,
@@ -24,8 +22,6 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 },
 "480":{
 "pageLayer":{"w":480,"h":763,"bgColor":"#00324b","bgImage":"images/image0000.png","bgSize":"480px 270px","bgRepeat":"no-repeat"}
-,
-"text23923":{"x":162,"y":528,"w":238,"h":48,"txtscale":100,"bOffBottom":0}
 ,
 "shape3495":{"x":46,"y":403,"w":390.000000,"h":4.000000,"stylemods":[{"sel":"div.shape3495Text","decl":" { position:absolute; top:1.000000px; left:1.000000px; display:flex; justify-content:center; align-items:center; width:386.000000px; height:0.000000px;}"},{"sel":"span.shape3495Text","decl":" { width:382.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYQAAAACCAYAAABYI6uiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAaSURBVEhL7cExAQAAAMKg9U/tYwwgAACAqwEMIgABS4x0zAAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 2.000000 2.000000 L 388.000000 2.000000 "}
 ,

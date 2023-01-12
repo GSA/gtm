@@ -71,7 +71,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text27260":{"x":69,"y":418,"w":177,"h":102,"txtscale":100,"bOffBottom":0}
 ,
-"text431":{"x":31,"y":145,"w":209,"h":58,"txtscale":100,"bOffBottom":0}
+"text431":{"x":31,"y":145,"w":209,"h":76,"txtscale":100,"bOffBottom":0}
 ,
 "image432":{"x":35,"y":188,"w":25,"h":25,"bOffBottom":0,"i":"images/image0009.png"}
 ,

@@ -27,7 +27,7 @@ PhoneResponsive={"785":{
 ,
 "text21471":{"x":56,"y":150,"w":268,"h":136,"txtscale":100,"bOffBottom":0}
 ,
-"text2139":{"x":51,"y":113,"w":342,"h":35,"txtscale":100,"bOffBottom":0}
+"text2139":{"x":51,"y":113,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
 ,
 "shape2140":{"x":113,"y":247,"w":215.000000,"h":146.000000,"stylemods":[{"sel":"div.shape2140Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:214.000000px; height:145.000000px;}"},{"sel":"span.shape2140Text","decl":" { width:210.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANcAAACSCAYAAADW6F9qAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACRSURBVHhe7cExAQAAAMKg9U9tB28gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBWA+sZAAH3siUXAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 214.000000 0.000000 L 214.000000 145.000000 L 0.000000 145.000000 L 0.000000 0.000000 z"}
 ,
@@ -75,7 +75,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text21471":{"x":34,"y":193,"w":164,"h":221,"txtscale":100,"bOffBottom":0}
 ,
-"text2139":{"x":31,"y":145,"w":209,"h":58,"txtscale":100,"bOffBottom":0}
+"text2139":{"x":31,"y":145,"w":209,"h":76,"txtscale":100,"bOffBottom":0}
 ,
 "shape2140":{"x":69,"y":317,"w":132.000000,"h":89.000000,"stylemods":[{"sel":"div.shape2140Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:131.000000px; height:88.000000px;}"},{"sel":"span.shape2140Text","decl":" { width:127.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAABZCAYAAAD/5IxWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABFSURBVHhe7cExAQAAAMKg9U9tDB8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+KkBt+kAASs6oOwAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 131.000000 0.000000 L 131.000000 88.000000 L 0.000000 88.000000 L 0.000000 0.000000 z"}
 ,
