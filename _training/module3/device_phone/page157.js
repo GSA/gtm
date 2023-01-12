@@ -1,7 +1,7 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":554,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"repeat-y"}
+"pageLayer":{"w":785,"h":539,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"repeat-y"}
 ,
-"text67":{"x":197,"y":508,"w":393,"h":46,"txtscale":100,"bOffBottom":0}
+"text67":{"x":197,"y":508,"w":393,"h":26,"txtscale":100,"bOffBottom":0}
 ,
 "image250446":{"x":669,"y":509,"w":72,"h":30,"bOffBottom":0,"i":"images/next-button.png"}
 ,
@@ -9,19 +9,19 @@ PhoneResponsive={"785":{
 ,
 "":{"x":146,"y":244,"w":233,"h":156,"bOffBottom":0}
 ,
-"":{"x":269,"y":96,"w":233,"h":156,"bOffBottom":0}
+"":{"x":330,"y":96,"w":233,"h":156,"bOffBottom":0}
 ,
 "image1612":{"x":0,"y":0,"w":785,"h":94,"bOffBottom":0,"i":"images/image0010.png"}
 ,
 "progress62539":{"x":51,"y":484,"w":683,"h":24,"bOffBottom":0,"vert":0,"barImage":"images/PhoneLandscape_progress62539_bar.png","bgImage":"images/PhoneLandscape_progress62539.png"}
 ,
-"text116151":{"x":135,"y":407,"w":24,"h":18,"txtscale":100,"bOffBottom":0}
+"text116151":{"x":100,"y":450,"w":24,"h":18,"txtscale":100,"bOffBottom":0}
 ,
 "text7698":{"x":51,"y":218,"w":218,"h":37,"txtscale":100,"bOffBottom":0}
 ,
-"text159":{"x":45,"y":103,"w":682,"h":40,"txtscale":100,"bOffBottom":0}
+"text159":{"x":45,"y":103,"w":682,"h":44,"txtscale":100,"bOffBottom":0}
 ,
-"text160":{"x":51,"y":144,"w":674,"h":83,"txtscale":100,"bOffBottom":0}
+"text160":{"x":51,"y":141,"w":674,"h":83,"txtscale":100,"bOffBottom":0}
 ,
 "shape161":{"x":76,"y":268,"w":233.000000,"h":151.000000,"stylemods":[{"sel":"div.shape161Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:232.000000px; height:150.000000px;}"},{"sel":"span.shape161Text","decl":" { width:228.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:14px; font-size:14px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOkAAACXCAYAAADwH3xSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACfSURBVHhe7cExAQAAAMKg9U/tawggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHg1JnEAASvSMvsAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 232.000000 0.000000 L 232.000000 150.000000 L 0.000000 150.000000 L 0.000000 0.000000 z"}
 ,
@@ -49,9 +49,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,"preload":[]
 },
 "480":{
-"pageLayer":{"w":480,"h":966,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"480px 270px","bgRepeat":"repeat-y"}
+"pageLayer":{"w":480,"h":951,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"480px 270px","bgRepeat":"repeat-y"}
 ,
-"text67":{"x":120,"y":903,"w":240,"h":63,"txtscale":100,"bOffBottom":0}
+"text67":{"x":120,"y":903,"w":240,"h":40,"txtscale":100,"bOffBottom":0}
 ,
 "image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next-button.png"}
 ,
@@ -59,15 +59,15 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "":{"x":89,"y":314,"w":143,"h":95,"bOffBottom":0}
 ,
-"":{"x":165,"y":123,"w":143,"h":95,"bOffBottom":0}
+"":{"x":202,"y":124,"w":143,"h":95,"bOffBottom":0}
 ,
 "image1612":{"x":0,"y":0,"w":480,"h":58,"bOffBottom":0,"i":"images/image0010.png"}
 ,
 "progress62539":{"x":31,"y":868,"w":418,"h":18,"bOffBottom":0,"vert":0,"barImage":"images/PhonePortrait_progress62539_bar.png","bgImage":"images/PhonePortrait_progress62539.png"}
 ,
-"text116151":{"x":83,"y":523,"w":15,"h":17,"txtscale":100,"bOffBottom":0}
+"text116151":{"x":61,"y":578,"w":15,"h":17,"txtscale":100,"bOffBottom":0}
 ,
-"text7698":{"x":49,"y":236,"w":158,"h":40,"txtscale":100,"bOffBottom":0}
+"text7698":{"x":49,"y":236,"w":158,"h":37,"txtscale":100,"bOffBottom":0}
 ,
 "text159":{"x":42,"y":70,"w":400,"h":44,"txtscale":100,"bOffBottom":0}
 ,
