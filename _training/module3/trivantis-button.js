@@ -1624,7 +1624,7 @@ function ObjRespChanges()
 		else
 		{
 			if(this.bDisabled)
-				this.change(this.stateFills['disabledState'].stylePath, false , this.name+"disabledState"+"Text", this.stateOpacity.disabledState, this.str_SvgDisabImgFills, "disabledState")
+				this.change(this.stateFills['disabledState'].stylePath, false, this.name+"disabledState"+"Text", this.stateOpacity.disabledState, this.stateImgFills['disabledState'].style, "disabledState")
 			else if (this.currentState != "normalState" )
 				this.change(this.stateFills[this.currentState].stylePath, false , this.name+this.currentState+"Text", this.stateOpacity[this.currentState], this.stateImgFills[this.currentState].style, this.currentState);
 			else
