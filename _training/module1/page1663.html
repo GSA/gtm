@@ -194,7 +194,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text110033,og102,image10977,image12154,image12152,button11935,button11927,button47987,text46693,text46674,button47650,og66204,image66206,image66209,image66212,button66219,text66221,text66223,text20700,shape1666,shape1669,og66019,shape1672,text1674,text1679,qu65989,text65991,text65992,radio65993,text65994,radio65995,og65899,shape1699,shape1702,shape1704,text1706,text1707,shape1708,image1710,og65914,shape65916,shape65918,shape65920,text65921,text65922,shape65924,image65926,og122590,shape122592,shape122594,shape122596,text122597,shape122599,text122601,image122603))
+    PreloadResources(new Array(text110033,og102,image10977,image12154,image12152,button11935,button11927,og126614,button47987,text46693,text46674,button47650,og66204,image66206,image66209,image66212,button66219,text66221,text66223,text20700,shape1666,shape1669,og66019,shape1672,text1674,text1679,qu65989,text65991,text65992,radio65993,text65994,radio65995,og65899,shape1699,shape1702,shape1704,text1706,text1707,shape1708,image1710,og65914,shape65916,shape65918,shape65920,text65921,text65922,shape65924,image65926,og122590,shape122592,shape122594,shape122596,text122597,shape122599,text122601,image122603))
     pageLayer.show(true);
     text110033.init()
     og102.init()
@@ -203,6 +203,7 @@ function init11() {
     image12152.init()
     button11935.init()
     button11927.init()
+    og126614.init()
     button47987.init()
     text46693.init()
     text46674.init()
@@ -258,6 +259,7 @@ function init11() {
     image12152.activate()
     button11935.activate()
     button11927.activate()
+    og126614.activate()
     button47987.activate()
     text46693.activate()
     text46674.activate()
@@ -821,7 +823,7 @@ function image122603onUp() {
 }
 
 if( is.min ){
-text110033 = new ObjText('text110033',null,349,527,290,49,1,66,null,'div',null,0 )
+text110033 = new ObjText('text110033',null,349,527,290,49,1,67,null,'div',null,0 )
 text110033.initSLine(0)
 text110033.initHasBullet(0)
 text110033.initRotateAngle(0,0,0)
@@ -927,6 +929,14 @@ button11927.bVisitedEnabled = false;
 button11927.bOverEnabled = true;
 button11927.bDownEnabled = true;
 button11927.build()
+
+og126614 = new ObjInline('og126614',null,0,0,1090,607,1,0)
+og126614.isGrp = true
+og126614.addChild('button47987')
+og126614.addChild('text46693')
+og126614.addChild('text46674')
+og126614.addChild('button47650')
+og126614.build()
 
 button47987 = new ObjButton('button47987', 'Button',848,518,121.000000,41.000000,1,7,'div','',1,0)
 button47987.setUseSvgFile(1)
@@ -1667,6 +1677,7 @@ arObjs.push(image12154);
 arObjs.push(image12152);
 arObjs.push(button11935);
 arObjs.push(button11927);
+arObjs.push(og126614);
 arObjs.push(button47987);
 arObjs.push(text46693);
 arObjs.push(text46674);
@@ -1727,6 +1738,7 @@ writeStyleSheets(arObjs);}
 
     <DIV style="visibility:hidden;" id="pageDIV" >
 <div id="og102"><a id="og102anc"></a></div>
+<div id="og126614"><a id="og126614anc"></a></div>
 <div id="og66204"><a id="og66204anc"></a></div>
 <div id="og66019"><a id="og66019anc"></a></div>
 <div id="og65899"><a id="og65899anc"></a></div>

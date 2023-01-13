@@ -65,7 +65,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text71886":{"x":38,"y":527,"w":95,"h":38,"txtscale":100,"bOffBottom":0}
 ,
-"text2391":{"x":31,"y":145,"w":209,"h":108,"txtscale":100,"bOffBottom":0}
+"text2391":{"x":31,"y":145,"w":209,"h":81,"txtscale":100,"bOffBottom":0}
 ,
 "text2392":{"x":31,"y":185,"w":193,"h":435,"txtscale":100,"bOffBottom":0}
 ,

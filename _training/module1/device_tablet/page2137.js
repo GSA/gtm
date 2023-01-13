@@ -27,7 +27,7 @@ TabletResponsive={"1009":{
 ,
 "text21471":{"x":72,"y":193,"w":345,"h":120,"txtscale":100,"bOffBottom":0}
 ,
-"text2139":{"x":65,"y":145,"w":439,"h":44,"txtscale":100,"bOffBottom":0}
+"text2139":{"x":65,"y":145,"w":439,"h":38,"txtscale":100,"bOffBottom":0}
 ,
 "shape2140":{"x":145,"y":317,"w":276.000000,"h":187.000000,"stylemods":[{"sel":"div.shape2140Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:275.000000px; height:186.000000px;}"},{"sel":"span.shape2140Text","decl":" { width:271.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARQAAAC7CAYAAACkTWH2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADeSURBVHhe7cEBAQAAAIIg/69uSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9qJ1gAAbSqEkMAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 275.000000 0.000000 L 275.000000 186.000000 L 0.000000 186.000000 L 0.000000 0.000000 z"}
 ,
@@ -75,7 +75,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text21471":{"x":56,"y":193,"w":268,"h":136,"txtscale":100,"bOffBottom":0}
 ,
-"text2139":{"x":51,"y":145,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
+"text2139":{"x":51,"y":145,"w":342,"h":35,"txtscale":100,"bOffBottom":0}
 ,
 "shape2140":{"x":113,"y":317,"w":215.000000,"h":146.000000,"stylemods":[{"sel":"div.shape2140Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:214.000000px; height:145.000000px;}"},{"sel":"span.shape2140Text","decl":" { width:210.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANcAAACSCAYAAADW6F9qAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACRSURBVHhe7cExAQAAAMKg9U9tB28gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBWA+sZAAH3siUXAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 214.000000 0.000000 L 214.000000 145.000000 L 0.000000 145.000000 L 0.000000 0.000000 z"}
 ,

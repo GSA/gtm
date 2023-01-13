@@ -193,7 +193,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text110033,og102,image10977,image12154,image12152,button11935,button11927,button47987,text46693,text46674,button47650,og91720,image91722,image91725,image91728,button91735,text91737,text91739,text64166,text64164,text1478,shape1481,shape1483,shape1485,shape1487,shape1489,shape1491,shape1494,text1496,shape1497,text1500,text1502,og110294,shape1509,text1511,text1512,text1513,qu59306,text62737,text62738,check62739,text62740,check62741,text62742,check62743,text62744,check62745,og59253,shape1515,shape59255,shape59257,text59258,text59259,shape59261,image59263,og60455,shape60457,shape60459,shape60461,text60462,text60463,shape60465,image60467,og122415,shape122417,shape122419,shape122421,text122422,shape122424,text122426,image122428))
+    PreloadResources(new Array(text110033,og102,image10977,image12154,image12152,button11935,button11927,og126614,button47987,text46693,text46674,button47650,og91720,image91722,image91725,image91728,button91735,text91737,text91739,text64166,text64164,text1478,shape1481,shape1483,shape1485,shape1487,shape1489,shape1491,shape1494,text1496,shape1497,text1500,text1502,og110294,shape1509,text1511,text1512,text1513,qu59306,text62737,text62738,check62739,text62740,check62741,text62742,check62743,text62744,check62745,og59253,shape1515,shape59255,shape59257,text59258,text59259,shape59261,image59263,og60455,shape60457,shape60459,shape60461,text60462,text60463,shape60465,image60467,og122415,shape122417,shape122419,shape122421,text122422,shape122424,text122426,image122428))
     pageLayer.show(true);
     text110033.init()
     og102.init()
@@ -202,6 +202,7 @@ function init11() {
     image12152.init()
     button11935.init()
     button11927.init()
+    og126614.init()
     button47987.init()
     text46693.init()
     text46674.init()
@@ -273,6 +274,7 @@ function init11() {
     image12152.activate()
     button11935.activate()
     button11927.activate()
+    og126614.activate()
     button47987.activate()
     text46693.activate()
     text46674.activate()
@@ -845,7 +847,7 @@ function image122428onUp() {
 }
 
 if( is.min ){
-text110033 = new ObjText('text110033',null,349,527,290,49,1,82,null,'div',null,0 )
+text110033 = new ObjText('text110033',null,349,527,290,49,1,83,null,'div',null,0 )
 text110033.initSLine(0)
 text110033.initHasBullet(0)
 text110033.initRotateAngle(0,0,0)
@@ -951,6 +953,14 @@ button11927.bVisitedEnabled = false;
 button11927.bOverEnabled = true;
 button11927.bDownEnabled = true;
 button11927.build()
+
+og126614 = new ObjInline('og126614',null,0,0,1090,607,1,0)
+og126614.isGrp = true
+og126614.addChild('button47987')
+og126614.addChild('text46693')
+og126614.addChild('text46674')
+og126614.addChild('button47650')
+og126614.build()
 
 button47987 = new ObjButton('button47987', 'Button',848,518,121.000000,41.000000,1,7,'div','',1,0)
 button47987.setUseSvgFile(1)
@@ -1462,7 +1472,7 @@ qu59306.ansVar=Varl1q4;
 qu59306.build()
 
 text62737 = new ObjText('text62737',null,73,172,792,36,1,35,null,'div',null,0 )
-text62737.initSLine(1)
+text62737.initSLine(0)
 text62737.initHasBullet(0)
 text62737.initRotateAngle(0,0,0)
 text62737.initHasOuterShadow(0)
@@ -1476,7 +1486,7 @@ text62737.addOpacity(100)
 text62737.arrCSSStyles = new Array();
 text62737.arrCSSStyles.push('span.text62737Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
 text62737.arrCSSStyles.push('span.text62737Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text62737.addInnerText('<legend><div id=\"text62737\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text62737Font1\"  >The _______ issues executive orders to manage the operations of the executive branch of the Federal government</span ><span class=\"text62737Font2\"  >. \n</span ></p ></div>\n</legend>\n');
+text62737.addInnerText('<legend><div id=\"text62737\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text62737Font1\"  >The _______ issues executive orders to manage the operations of the executive branch of the Federal government</span ><span class=\"text62737Font2\"  >. \n</span ></p ></div>\n</legend>\n');
 text62737.build()
 
 text62738 = new ObjText('text62738',null,181,235,692,42,1,36,null,'div',null,0 )
@@ -1923,6 +1933,7 @@ arObjs.push(image12154);
 arObjs.push(image12152);
 arObjs.push(button11935);
 arObjs.push(button11927);
+arObjs.push(og126614);
 arObjs.push(button47987);
 arObjs.push(text46693);
 arObjs.push(text46674);
@@ -1999,6 +2010,7 @@ writeStyleSheets(arObjs);}
 
     <DIV style="visibility:hidden;" id="pageDIV" >
 <div id="og102"><a id="og102anc"></a></div>
+<div id="og126614"><a id="og126614anc"></a></div>
 <div id="og91720"><a id="og91720anc"></a></div>
 <div id="og110294"><a id="og110294anc"></a></div>
 <div id="og59253"><a id="og59253anc"></a></div>

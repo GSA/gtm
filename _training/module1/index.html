@@ -184,7 +184,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(og44,shape45,shape47,shape49,shape51,shape53,shape55,button47987,text46693,text46674,button47650,text58,text59,text60,text61,button7690))
+    PreloadResources(new Array(og44,shape45,shape47,shape49,shape51,shape53,shape55,og126614,button47987,text46693,text46674,button47650,text58,text59,text60,text61,button7690))
     pageLayer.show(true);
     og44.init()
     shape45.init()
@@ -193,6 +193,7 @@ function init11() {
     shape51.init()
     shape53.init()
     shape55.init()
+    og126614.init()
     button47987.init()
     text46693.init()
     text46674.init()
@@ -209,6 +210,7 @@ function init11() {
     shape51.activate()
     shape53.activate()
     shape55.activate()
+    og126614.activate()
     button47987.activate()
     text46693.activate()
     text46674.activate()
@@ -451,6 +453,14 @@ shape55.initLineWeight(1)
 shape55.addOpacity(100)
 shape55.build()
 
+og126614 = new ObjInline('og126614',null,0,0,1090,607,1,0)
+og126614.isGrp = true
+og126614.addChild('button47987')
+og126614.addChild('text46693')
+og126614.addChild('text46674')
+og126614.addChild('button47650')
+og126614.build()
+
 button47987 = new ObjButton('button47987', 'Button',848,518,121.000000,41.000000,1,7,'div','',1,0)
 button47987.setUseSvgFile(1)
 button47987.setFillStyle(1)
@@ -636,6 +646,7 @@ arObjs.push(shape49);
 arObjs.push(shape51);
 arObjs.push(shape53);
 arObjs.push(shape55);
+arObjs.push(og126614);
 arObjs.push(button47987);
 arObjs.push(text46693);
 arObjs.push(text46674);
@@ -657,6 +668,7 @@ writeStyleSheets(arObjs);}
 
     <DIV style="visibility:hidden;" id="pageDIV" >
 <div id="og44"><a id="og44anc"></a></div>
+<div id="og126614"><a id="og126614anc"></a></div>
    </DIV>
 <script>
 if( is.min ){

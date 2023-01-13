@@ -185,7 +185,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text112396,og123,image11133,image10956,image11131,button11126,button11118,button47987,text46693,text46674,button47650,text1023,text1024,text1025,shape1026,image1028,text1030,shape1031,image1034,text1036,shape1037,text1039))
+    PreloadResources(new Array(text112396,og123,image11133,image10956,image11131,button11126,button11118,og126614,button47987,text46693,text46674,button47650,text1023,text1024,text1025,shape1026,image1028,text1030,shape1031,image1034,text1036,shape1037,text1039))
     pageLayer.show(true);
     text112396.init()
     og123.init()
@@ -194,6 +194,7 @@ function init11() {
     image11131.init()
     button11126.init()
     button11118.init()
+    og126614.init()
     button47987.init()
     text46693.init()
     text46674.init()
@@ -216,6 +217,7 @@ function init11() {
     image11131.activate()
     button11126.activate()
     button11118.activate()
+    og126614.activate()
     button47987.activate()
     text46693.activate()
     text46674.activate()
@@ -421,7 +423,7 @@ function button47650onUp() {
 }
 
 if( is.min ){
-text112396 = new ObjText('text112396',null,278,527,430,49,1,33,null,'div',null,0 )
+text112396 = new ObjText('text112396',null,278,527,430,49,1,34,null,'div',null,0 )
 text112396.initSLine(0)
 text112396.initHasBullet(0)
 text112396.initRotateAngle(0,0,0)
@@ -527,6 +529,14 @@ button11118.bVisitedEnabled = false;
 button11118.bOverEnabled = true;
 button11118.bDownEnabled = true;
 button11118.build()
+
+og126614 = new ObjInline('og126614',null,0,0,1090,607,1,0)
+og126614.isGrp = true
+og126614.addChild('button47987')
+og126614.addChild('text46693')
+og126614.addChild('text46674')
+og126614.addChild('button47650')
+og126614.build()
 
 button47987 = new ObjButton('button47987', 'Button',848,518,121.000000,41.000000,1,7,'div','',1,0)
 button47987.setUseSvgFile(1)
@@ -787,6 +797,7 @@ arObjs.push(image10956);
 arObjs.push(image11131);
 arObjs.push(button11126);
 arObjs.push(button11118);
+arObjs.push(og126614);
 arObjs.push(button47987);
 arObjs.push(text46693);
 arObjs.push(text46674);
@@ -814,6 +825,7 @@ writeStyleSheets(arObjs);}
 
     <DIV style="visibility:hidden;" id="pageDIV" >
 <div id="og123"><a id="og123anc"></a></div>
+<div id="og126614"><a id="og126614anc"></a></div>
    </DIV>
 <script>
 if( is.min ){

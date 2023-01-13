@@ -440,26 +440,6 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( !bForce && bFeedback && !forceCheckQuestions() ) return 0;
 
   var onAfterFBAction = ( bNotLeavingPage ? (function(){trivActFBCnt--;}) : (function(){trivActFBCnt--;window.checkLeavePage();}) );
-  var ans_Varl2q8 = Varl2q8.getValue()
-  if( bFeedback && currFeedbackIdx == 0 && ans_Varl2q8 != '~~~null~~~' && !qu75793.hasBeenProcessed) {
-    var arrAns = new Array
-    arrAns[0]='\u0031\u004C\u002D\u0031\u0052'
-    arrAns[1]='\u0032\u004C\u002D\u0032\u0052'
-    arrAns[2]='\u0033\u004C\u002D\u0033\u0052'
-    arrAns[3]='\u0034\u004C\u002D\u0034\u0052'
-    arrAns[4]='\u0035\u004C\u002D\u0035\u0052'
-    var offset=0
-    var wrong=false
-    for( var idx=0; idx<5 && !wrong; idx++ ) {
-      offset = ans_Varl2q8.indexOf( arrAns[idx], offset )
-      if( offset < 0 ) wrong = true
-      else offset = offset + arrAns[idx].length
-    }
-    if( !wrong ) {        trivActFBCnt++; action75793_1(onAfterFBAction); return 0;  } //1
-
-    if( wrong ) {trivActFBCnt++; action75793_2(onAfterFBAction); return 0;  } //2 
-
-  }
   if( !bFeedback ) currFeedbackIdx = 1;
 
   return 1
@@ -477,6 +457,36 @@ function forceCheckQuestions() {
     currFeedbackIdx = 0;
     trivGoToPage = null;
     return 0;
+  }
+  return 1
+}
+
+function doImmFeedback( objId ) {
+  var onAfterFBAction = function(){trivActFBCnt--;};
+
+  if(objId=='qu75793') {
+    var ans_Varl2q8 = Varl2q8.getValue()
+    if(ans_Varl2q8 != '~~~null~~~' && !qu75793.hasBeenProcessed) {
+      var arrAns = new Array
+      arrAns[0]='\u0031\u004C\u002D\u0031\u0052'
+      arrAns[1]='\u0032\u004C\u002D\u0032\u0052'
+      arrAns[2]='\u0033\u004C\u002D\u0033\u0052'
+      arrAns[3]='\u0034\u004C\u002D\u0034\u0052'
+      arrAns[4]='\u0035\u004C\u002D\u0035\u0052'
+      var answered = ans_Varl2q8.match(/-/g);
+      if( answered.length < arrAns.length ) return 0;
+      var offset=0
+      var wrong=false
+      for( var idx=0; idx<5 && !wrong; idx++ ) {
+        offset = ans_Varl2q8.indexOf( arrAns[idx], offset )
+        if( offset < 0 ) wrong = true
+        else offset = offset + arrAns[idx].length
+      }
+    if( !wrong ) {        trivActFBCnt++; action75793_1(onAfterFBAction); return 0;  } //1
+
+    if( wrong ) {trivActFBCnt++; action75793_2(onAfterFBAction); return 0;  } //2 
+
+    }
   }
   return 1
 }
@@ -656,6 +666,7 @@ function Update_qu75793() {
   newVal = newVal.substring( 0, newVal.length-1 )
   Varl2q8.set( newVal )
   qu75793Object.hasBeenProcessed=false;
+  doImmFeedback('qu75793');
 }
 
 function action75793_1(fn){

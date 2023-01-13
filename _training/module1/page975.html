@@ -185,7 +185,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text112366,og409,image65,image68,image71,button9218,button10427,button47987,text46693,text46674,button47650,text977,text978,shape979,image982,text984,image986))
+    PreloadResources(new Array(text112366,og409,image65,image68,image71,button9218,button10427,og126614,button47987,text46693,text46674,button47650,text977,text978,shape979,image982,text984,image986))
     pageLayer.show(true);
     text112366.init()
     og409.init()
@@ -194,6 +194,7 @@ function init11() {
     image71.init()
     button9218.init()
     button10427.init()
+    og126614.init()
     button47987.init()
     text46693.init()
     text46674.init()
@@ -211,6 +212,7 @@ function init11() {
     image71.activate()
     button9218.activate()
     button10427.activate()
+    og126614.activate()
     button47987.activate()
     text46693.activate()
     text46674.activate()
@@ -411,7 +413,7 @@ function button47650onUp() {
 }
 
 if( is.min ){
-text112366 = new ObjText('text112366',null,278,527,430,49,1,28,null,'div',null,0 )
+text112366 = new ObjText('text112366',null,278,527,430,49,1,29,null,'div',null,0 )
 text112366.initSLine(0)
 text112366.initHasBullet(0)
 text112366.initRotateAngle(0,0,0)
@@ -517,6 +519,14 @@ button10427.bVisitedEnabled = false;
 button10427.bOverEnabled = true;
 button10427.bDownEnabled = true;
 button10427.build()
+
+og126614 = new ObjInline('og126614',null,0,0,1090,607,1,0)
+og126614.isGrp = true
+og126614.addChild('button47987')
+og126614.addChild('text46693')
+og126614.addChild('text46674')
+og126614.addChild('button47650')
+og126614.build()
 
 button47987 = new ObjButton('button47987', 'Button',848,518,121.000000,41.000000,1,7,'div','',1,0)
 button47987.setUseSvgFile(1)
@@ -702,6 +712,7 @@ arObjs.push(image68);
 arObjs.push(image71);
 arObjs.push(button9218);
 arObjs.push(button10427);
+arObjs.push(og126614);
 arObjs.push(button47987);
 arObjs.push(text46693);
 arObjs.push(text46674);
@@ -724,6 +735,7 @@ writeStyleSheets(arObjs);}
 
     <DIV style="visibility:hidden;" id="pageDIV" >
 <div id="og409"><a id="og409anc"></a></div>
+<div id="og126614"><a id="og126614anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
