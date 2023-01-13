@@ -498,9 +498,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action99765_7(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action99765_1(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action99765_8(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action99765_2(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -704,13 +704,13 @@ function Update_qu99765() {
   doImmFeedback('qu99765');
 }
 
-function action99765_7(fn){
+function action99765_1(fn){
     og86465.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action99765_8(fn){
+function action99765_2(fn){
     og99702.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1449,7 +1449,7 @@ text99768.addInnerText('<div id=\"text99768\" aria-live=\"polite\" ><div style=\
 text99768.build()
 
 text99769 = new ObjText('text99769',null,617,465,219,53,1,33,null,'div',null,0 )
-text99769.initSLine(0)
+text99769.initSLine(1)
 text99769.initHasBullet(0)
 text99769.initRotateAngle(0,0,0)
 text99769.initHasOuterShadow(0)
@@ -1467,7 +1467,7 @@ text99769.setupMatch( false, '4R', Update_qu99765, 32, 'cf2a27', 2)
 text99769.isChoice = true
 text99769.arrCSSStyles = new Array();
 text99769.arrCSSStyles.push('span.text99769Font1 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
-text99769.addInnerText('<div id=\"text99769\" aria-live=\"polite\" ><a id=\"text99769anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99769Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99769Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
+text99769.addInnerText('<div id=\"text99769\" aria-live=\"polite\" ><a id=\"text99769anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99769Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99769Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
 text99769.build()
 
 text99770 = new ObjText('text99770',null,89,312,501,63,1,34,null,'div',null,0 )
@@ -1511,7 +1511,7 @@ text99772.addInnerText('<div id=\"text99772\" aria-live=\"polite\" ><div style=\
 text99772.build()
 
 text99773 = new ObjText('text99773',null,615,395,218,51,1,36,null,'div',null,0 )
-text99773.initSLine(0)
+text99773.initSLine(1)
 text99773.initHasBullet(0)
 text99773.initRotateAngle(0,0,0)
 text99773.initHasOuterShadow(0)
@@ -1529,7 +1529,7 @@ text99773.setupMatch( false, '3R', Update_qu99765, 32, 'cf2a27', 2)
 text99773.isChoice = true
 text99773.arrCSSStyles = new Array();
 text99773.arrCSSStyles.push('span.text99773Font1 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
-text99773.addInnerText('<div id=\"text99773\" aria-live=\"polite\" ><a id=\"text99773anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99773Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99773Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
+text99773.addInnerText('<div id=\"text99773\" aria-live=\"polite\" ><a id=\"text99773anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99773Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99773Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
 text99773.build()
 
 text99774 = new ObjText('text99774',null,90,462,518,48,1,37,null,'div',null,0 )
@@ -1553,7 +1553,7 @@ text99774.addInnerText('<div id=\"text99774\" aria-live=\"polite\" ><div style=\
 text99774.build()
 
 text99775 = new ObjText('text99775',null,618,260,215,58,1,38,null,'div',null,0 )
-text99775.initSLine(0)
+text99775.initSLine(1)
 text99775.initHasBullet(0)
 text99775.initRotateAngle(0,0,0)
 text99775.initHasOuterShadow(0)
@@ -1571,11 +1571,11 @@ text99775.setupMatch( false, '1R', Update_qu99765, 32, 'cf2a27', 2)
 text99775.isChoice = true
 text99775.arrCSSStyles = new Array();
 text99775.arrCSSStyles.push('span.text99775Font1 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
-text99775.addInnerText('<div id=\"text99775\" aria-live=\"polite\" ><a id=\"text99775anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99775Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99775Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
+text99775.addInnerText('<div id=\"text99775\" aria-live=\"polite\" ><a id=\"text99775anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99775Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99775Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
 text99775.build()
 
 text99777 = new ObjText('text99777',null,614,332,219,57,1,39,null,'div',null,0 )
-text99777.initSLine(0)
+text99777.initSLine(1)
 text99777.initHasBullet(0)
 text99777.initRotateAngle(0,0,0)
 text99777.initHasOuterShadow(0)
@@ -1593,7 +1593,7 @@ text99777.setupMatch( false, '2R', Update_qu99765, 32, 'cf2a27', 2)
 text99777.isChoice = true
 text99777.arrCSSStyles = new Array();
 text99777.arrCSSStyles.push('span.text99777Font1 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
-text99777.addInnerText('<div id=\"text99777\" aria-live=\"polite\" ><a id=\"text99777anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99777Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99777Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
+text99777.addInnerText('<div id=\"text99777\" aria-live=\"polite\" ><a id=\"text99777anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99777Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99777Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
 text99777.build()
 
 og86465 = new ObjInline('og86465',null,0,0,1009,568,1,0)
