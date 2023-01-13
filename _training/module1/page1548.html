@@ -434,12 +434,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu63255.hasBeenProcessed) {
     if( ans_Varl1q5 == '\u0020\u0020\u0020\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action63255_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action63255_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q5 != '\u0020\u0020\u0020\u0054\u0072\u0075\u0065' && ans_Varl1q5 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action63255_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action63255_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -646,13 +646,13 @@ function Update_qu63255(value) {
    qu63255Object.hasBeenProcessed=false;
 }
 
-function action63255_1(fn){
+function action63255_3(fn){
     og63247.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action63255_2(fn){
+function action63255_4(fn){
     og63557.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

@@ -497,9 +497,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action82704_1(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action82704_3(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action82704_2(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action82704_4(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -703,13 +703,13 @@ function Update_qu82704() {
   doImmFeedback('qu82704');
 }
 
-function action82704_1(fn){
+function action82704_3(fn){
     og82672.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action82704_2(fn){
+function action82704_4(fn){
     og84031.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

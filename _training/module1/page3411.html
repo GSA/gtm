@@ -498,9 +498,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action99765_1(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action99765_3(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action99765_2(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action99765_4(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -704,13 +704,13 @@ function Update_qu99765() {
   doImmFeedback('qu99765');
 }
 
-function action99765_1(fn){
+function action99765_3(fn){
     og86465.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action99765_2(fn){
+function action99765_4(fn){
     og99702.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
