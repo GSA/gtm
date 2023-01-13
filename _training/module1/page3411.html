@@ -498,9 +498,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action99765_1(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action99765_7(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action99765_2(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action99765_8(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -704,13 +704,13 @@ function Update_qu99765() {
   doImmFeedback('qu99765');
 }
 
-function action99765_1(fn){
+function action99765_7(fn){
     og86465.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action99765_2(fn){
+function action99765_8(fn){
     og99702.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -793,7 +793,7 @@ function action101753(fn){
         text99777.eatOnUp=false;
         return;
     }
-    og99960.actionToggleShow(); 
+    og100255.actionToggleShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -803,7 +803,7 @@ function action101756(fn){
         text99777.eatOnUp=false;
         return;
     }
-    og100155.actionToggleShow(); 
+    og100114.actionToggleShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
@@ -1396,7 +1396,7 @@ text23378.arrCSSStyles.push('span.text23378Font2 { font-size:19px; font-family:"
 text23378.addInnerText('<div id=\"text23378\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:4px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text23378Font1\"  >DESCRIPTION</span ><span class=\"text23378Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text23378.build()
 
-qu99765 = new ObjInline('qu99765',null,66,185,847,357,1,0)
+qu99765 = new ObjInline('qu99765',null,66,185,847,366,1,0)
 qu99765.isGrp = true
 qu99765.addChild('text99767')
 qu99765.addChild('text99768')
@@ -1448,7 +1448,7 @@ text99768.arrCSSStyles.push('span.text99768Font2 { font-size:19px; font-family:"
 text99768.addInnerText('<div id=\"text99768\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99768Font1\"  >Are those programs in which the Federal agency generally may select the recipient from among all eligible applicants.\n</span ></p >\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99768Font2\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
 text99768.build()
 
-text99769 = new ObjText('text99769',null,617,447,219,53,1,33,null,'div',null,0 )
+text99769 = new ObjText('text99769',null,617,465,219,53,1,33,null,'div',null,0 )
 text99769.initSLine(0)
 text99769.initHasBullet(0)
 text99769.initRotateAngle(0,0,0)
@@ -1457,7 +1457,7 @@ text99769.initHasTextShadow(0)
 text99769.initHasBorder(0)
 text99769.initHasOutline(0)
 text99769.initHasMargin(0)
-text99769.addIe8Attr(617, 447, 219, 53, 0, 0)
+text99769.addIe8Attr(617, 465, 219, 53, 0, 0)
 text99769.addHeading(0)
 text99769.addOpacity(100)
 text99769.onUp = text99769onUp
@@ -1510,7 +1510,7 @@ text99772.arrCSSStyles.push('span.text99772Font1 { font-size:17px; font-family:"
 text99772.addInnerText('<div id=\"text99772\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99772Font1\"  >Most Federal awards are made through a competitive process.</span ><span class=\"text99772Font0\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text99772.build()
 
-text99773 = new ObjText('text99773',null,615,381,218,51,1,36,null,'div',null,0 )
+text99773 = new ObjText('text99773',null,615,395,218,51,1,36,null,'div',null,0 )
 text99773.initSLine(0)
 text99773.initHasBullet(0)
 text99773.initRotateAngle(0,0,0)
@@ -1519,7 +1519,7 @@ text99773.initHasTextShadow(0)
 text99773.initHasBorder(0)
 text99773.initHasOutline(0)
 text99773.initHasMargin(0)
-text99773.addIe8Attr(615, 381, 218, 51, 0, 0)
+text99773.addIe8Attr(615, 395, 218, 51, 0, 0)
 text99773.addHeading(0)
 text99773.addOpacity(100)
 text99773.onUp = text99773onUp
@@ -1552,7 +1552,7 @@ text99774.arrCSSStyles.push('span.text99774Font2 { font-size:19px; font-family:"
 text99774.addInnerText('<div id=\"text99774\" aria-live=\"polite\" ><div style=\"cursor:pointer\">\n<p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99774Font1\"  >Are those programs in which the Federal agency may determine the amount of funding to be awarded.</span ><span class=\"text99774Font2\"  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
 text99774.build()
 
-text99775 = new ObjText('text99775',null,618,245,215,58,1,38,null,'div',null,0 )
+text99775 = new ObjText('text99775',null,618,260,215,58,1,38,null,'div',null,0 )
 text99775.initSLine(0)
 text99775.initHasBullet(0)
 text99775.initRotateAngle(0,0,0)
@@ -1561,7 +1561,7 @@ text99775.initHasTextShadow(0)
 text99775.initHasBorder(0)
 text99775.initHasOutline(0)
 text99775.initHasMargin(0)
-text99775.addIe8Attr(618, 245, 215, 58, 0, 0)
+text99775.addIe8Attr(618, 260, 215, 58, 0, 0)
 text99775.addHeading(0)
 text99775.addOpacity(100)
 text99775.onUp = text99775onUp
@@ -1574,7 +1574,7 @@ text99775.arrCSSStyles.push('span.text99775Font1 { font-size:19px; font-family:"
 text99775.addInnerText('<div id=\"text99775\" aria-live=\"polite\" ><a id=\"text99775anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text99775Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99775Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p ></div></div>\n');
 text99775.build()
 
-text99777 = new ObjText('text99777',null,614,312,219,57,1,39,null,'div',null,0 )
+text99777 = new ObjText('text99777',null,614,332,219,57,1,39,null,'div',null,0 )
 text99777.initSLine(0)
 text99777.initHasBullet(0)
 text99777.initRotateAngle(0,0,0)
@@ -1583,7 +1583,7 @@ text99777.initHasTextShadow(0)
 text99777.initHasBorder(0)
 text99777.initHasOutline(0)
 text99777.initHasMargin(0)
-text99777.addIe8Attr(614, 312, 219, 57, 0, 0)
+text99777.addIe8Attr(614, 332, 219, 57, 0, 0)
 text99777.addHeading(0)
 text99777.addOpacity(100)
 text99777.onUp = text99777onUp

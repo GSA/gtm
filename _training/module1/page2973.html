@@ -493,12 +493,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu86207.hasBeenProcessed) {
     if( ans_Varl2q6 == '\u0031\u0020\u0020\u0020\u0020\u002C\u0035\u002C\u0039\u002C\u0031\u0030' ) 
     { //1 
-        trivActFBCnt++; action86207_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action86207_7(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl2q6 != '\u0031\u0020\u0020\u0020\u0020\u002C\u0035\u002C\u0039\u002C\u0031\u0030' && ans_Varl2q6 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action86207_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action86207_8(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -750,13 +750,13 @@ function Update_qu86207( upd ) {
     qu86207Object.hasBeenProcessed=false;
 }
 
-function action86207_1(fn){
+function action86207_7(fn){
     og85727.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action86207_2(fn){
+function action86207_8(fn){
     og113952.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
