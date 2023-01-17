@@ -43,7 +43,7 @@ PhoneResponsive={"785":{
 ,
 "shape1037":{"x":0,"y":325,"w":786.000000,"h":52.000000,"stylemods":[{"sel":"div.shape1037Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:785.000000px; height:51.000000px;}"},{"sel":"span.shape1037Text","decl":" { width:781.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxIAAAA0CAYAAAAe2Q59AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVHhe7cEBDQAAAMKg909tDwcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMC5Gn7yAAFcwLt/AAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 785.000000 0.000000 L 785.000000 51.000000 L 0.000000 51.000000 L 0.000000 0.000000 z"}
 ,
-"text1039":{"x":51,"y":342,"w":675,"h":60,"txtscale":100,"bOffBottom":0}
+"text1039":{"x":51,"y":335,"w":675,"h":60,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -97,7 +97,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "shape1037":{"x":0,"y":418,"w":481.000000,"h":32.000000,"stylemods":[{"sel":"div.shape1037Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:480.000000px; height:31.000000px;}"},{"sel":"span.shape1037Text","decl":" { width:476.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeEAAAAgCAYAAAAlicCrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABTSURBVHhe7cEBDQAAAMKg909tDjcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4VwPwoAABiH+j8AAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 480.000000 0.000000 L 480.000000 31.000000 L 0.000000 31.000000 L 0.000000 0.000000 z"}
 ,
-"text1039":{"x":31,"y":440,"w":413,"h":80,"txtscale":100,"bOffBottom":0}
+"text1039":{"x":31,"y":430,"w":413,"h":80,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

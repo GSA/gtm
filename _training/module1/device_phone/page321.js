@@ -61,7 +61,7 @@ PhoneResponsive={"785":{
 ,
 "text26123":{"x":61,"y":295,"w":186,"h":22,"txtscale":100,"bOffBottom":0}
 ,
-"text26122":{"x":61,"y":350,"w":186,"h":26,"txtscale":100,"bOffBottom":0}
+"text26122":{"x":61,"y":350,"w":186,"h":41,"txtscale":100,"bOffBottom":0}
 ,
 "image342":{"x":258,"y":340,"w":13,"h":11,"bOffBottom":0,"i":"images/image0018.png"}
 ,

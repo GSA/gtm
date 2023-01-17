@@ -47,11 +47,11 @@ DesktopResponsive={"1009":{
 ,
 "text755":{"x":144,"y":225,"w":346,"h":71,"txtscale":100,"bOffBottom":0}
 ,
-"text28773":{"x":597,"y":220,"w":345,"h":96,"txtscale":100,"bOffBottom":0}
+"text28773":{"x":142,"y":320,"w":345,"h":96,"txtscale":100,"bOffBottom":0}
 ,
-"text28783":{"x":596,"y":328,"w":349,"h":85,"txtscale":100,"bOffBottom":0}
+"text28783":{"x":600,"y":328,"w":349,"h":85,"txtscale":100,"bOffBottom":0}
 ,
-"text28793":{"x":144,"y":319,"w":343,"h":94,"txtscale":100,"bOffBottom":0}
+"text28793":{"x":600,"y":225,"w":343,"h":94,"txtscale":100,"bOffBottom":0}
 ,
 "text756":{"x":62,"y":423,"w":882,"h":61,"txtscale":100,"bOffBottom":0}
 ,

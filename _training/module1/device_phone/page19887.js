@@ -55,11 +55,11 @@ PhoneResponsive={"785":{
 ,
 "text19906":{"x":112,"y":211,"w":227,"h":45,"txtscale":100,"bOffBottom":0}
 ,
-"text29927":{"x":470,"y":216,"w":230,"h":60,"txtscale":100,"bOffBottom":0}
+"text29927":{"x":112,"y":288,"w":230,"h":60,"txtscale":100,"bOffBottom":0}
 ,
-"text29937":{"x":112,"y":288,"w":223,"h":60,"txtscale":100,"bOffBottom":0}
+"text29937":{"x":468,"y":216,"w":223,"h":60,"txtscale":100,"bOffBottom":0}
 ,
-"text29984":{"x":468,"y":295,"w":267,"h":45,"txtscale":100,"bOffBottom":0}
+"text29984":{"x":468,"y":288,"w":267,"h":45,"txtscale":100,"bOffBottom":0}
 ,
 "text19907":{"x":51,"y":357,"w":684,"h":54,"txtscale":100,"bOffBottom":0}
 ,
@@ -123,15 +123,15 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "shape19903":{"x":266,"y":354,"w":171.000000,"h":42.000000,"stylemods":[{"sel":"div.shape19903Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:170.000000px; height:41.000000px;}"},{"sel":"span.shape19903Text","decl":" { width:166.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKsAAAAqCAYAAADMBKtkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAzSURBVHhe7cExAQAAAMKg9U9tDB8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4K4GcGIAAWGgzv4AAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 170.000000 0.000000 L 170.000000 41.000000 L 0.000000 41.000000 L 0.000000 0.000000 z"}
 ,
-"image19905":{"x":255,"y":372,"w":25,"h":25,"bOffBottom":0,"i":"images/image70.png"}
+"image19905":{"x":255,"y":371,"w":25,"h":25,"bOffBottom":0,"i":"images/image70.png"}
 ,
 "text19906":{"x":69,"y":271,"w":139,"h":45,"txtscale":100,"bOffBottom":0}
 ,
-"text29927":{"x":287,"y":278,"w":141,"h":75,"txtscale":100,"bOffBottom":0}
+"text29927":{"x":69,"y":370,"w":141,"h":75,"txtscale":100,"bOffBottom":0}
 ,
-"text29937":{"x":69,"y":370,"w":137,"h":75,"txtscale":100,"bOffBottom":0}
+"text29937":{"x":286,"y":278,"w":137,"h":75,"txtscale":100,"bOffBottom":0}
 ,
-"text29984":{"x":286,"y":379,"w":163,"h":30,"txtscale":100,"bOffBottom":0}
+"text29984":{"x":286,"y":370,"w":163,"h":30,"txtscale":100,"bOffBottom":0}
 ,
 "text19907":{"x":31,"y":459,"w":418,"h":54,"txtscale":100,"bOffBottom":0}
 ,
