@@ -21,7 +21,7 @@ PhoneResponsive={"785":{
 ,
 "text20914":{"x":323,"y":168,"w":129,"h":62,"txtscale":100,"bOffBottom":0}
 ,
-"text20688":{"x":51,"y":113,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
+"text20688":{"x":53,"y":113,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
 ,
 "shape1585":{"x":323,"y":244,"w":103.000000,"h":47.000000,"stylemods":[{"sel":"div.shape1585Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:102.000000px; height:46.000000px;}"},{"sel":"span.shape1585Text","decl":" { width:98.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAvCAYAAAD+StT4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAqSURBVHhe7cExAQAAAMKg9U9tB28gAAAAAAAAAAAAAAAAAAAAAAAA4FcDS9MAAf6iY2QAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 102.000000 0.000000 L 102.000000 46.000000 L 0.000000 46.000000 L 0.000000 0.000000 z"}
 ,
@@ -167,7 +167,7 @@ qu65281.reorgChoice();}
 ,
 "text20914":{"x":197,"y":216,"w":79,"h":62,"txtscale":100,"bOffBottom":0}
 ,
-"text20688":{"x":31,"y":145,"w":209,"h":44,"txtscale":100,"bOffBottom":0}
+"text20688":{"x":32,"y":145,"w":209,"h":44,"txtscale":100,"bOffBottom":0}
 ,
 "shape1585":{"x":197,"y":313,"w":63.000000,"h":29.000000,"stylemods":[{"sel":"div.shape1585Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:62.000000px; height:28.000000px;}"},{"sel":"span.shape1585Text","decl":" { width:58.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAdCAYAAAAdO7TiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAeSURBVFhH7cExAQAAAMKg9U9tCy8gAAAAAAAAgK8aHKkAASqFq8MAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 62.000000 0.000000 L 62.000000 28.000000 L 0.000000 28.000000 L 0.000000 0.000000 z"}
 ,

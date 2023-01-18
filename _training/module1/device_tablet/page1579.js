@@ -21,7 +21,7 @@ TabletResponsive={"1009":{
 ,
 "text20914":{"x":415,"y":216,"w":166,"h":63,"txtscale":100,"bOffBottom":0}
 ,
-"text20688":{"x":65,"y":145,"w":439,"h":44,"txtscale":100,"bOffBottom":0}
+"text20688":{"x":68,"y":145,"w":439,"h":44,"txtscale":100,"bOffBottom":0}
 ,
 "shape1585":{"x":415,"y":313,"w":132.000000,"h":60.000000,"stylemods":[{"sel":"div.shape1585Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:131.000000px; height:59.000000px;}"},{"sel":"span.shape1585Text","decl":" { width:127.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAAA8CAYAAACn3RK/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA1SURBVHhe7cEBAQAAAIIg/6+uIUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA1QB7/AAB+aYwdwAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 131.000000 0.000000 L 131.000000 59.000000 L 0.000000 59.000000 L 0.000000 0.000000 z"}
 ,
@@ -45,7 +45,7 @@ TabletResponsive={"1009":{
 ,
 "text1607":{"x":425,"y":403,"w":112,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"text65283":{"x":68,"y":187,"w":729,"h":24,"txtscale":100,"bOffBottom":0}
+"text65283":{"x":75,"y":190,"w":729,"h":24,"txtscale":100,"bOffBottom":0}
 ,
 "text65284":{"x":87,"y":464,"w":676,"h":64,"txtscale":100,"bOffBottom":0}
 ,
@@ -167,7 +167,7 @@ qu65281.reorgChoice();}
 ,
 "text20914":{"x":323,"y":216,"w":129,"h":62,"txtscale":100,"bOffBottom":0}
 ,
-"text20688":{"x":51,"y":145,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
+"text20688":{"x":53,"y":145,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
 ,
 "shape1585":{"x":323,"y":313,"w":103.000000,"h":47.000000,"stylemods":[{"sel":"div.shape1585Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:102.000000px; height:46.000000px;}"},{"sel":"span.shape1585Text","decl":" { width:98.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAAvCAYAAAD+StT4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAqSURBVHhe7cExAQAAAMKg9U9tB28gAAAAAAAAAAAAAAAAAAAAAAAA4FcDS9MAAf6iY2QAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 102.000000 0.000000 L 102.000000 46.000000 L 0.000000 46.000000 L 0.000000 0.000000 z"}
 ,

@@ -37,13 +37,13 @@ DesktopResponsive={"1009":{
 ,
 "text30156":{"x":142,"y":378,"w":475,"h":58,"txtscale":100,"bOffBottom":0}
 ,
-"text19947":{"x":73,"y":240,"w":337,"h":55,"txtscale":100,"bOffBottom":0}
+"text19947":{"x":73,"y":250,"w":337,"h":55,"txtscale":100,"bOffBottom":0}
 ,
 "text30129":{"x":139,"y":290,"w":501,"h":87,"txtscale":100,"bOffBottom":0}
 ,
-"text923":{"x":65,"y":145,"w":439,"h":40,"txtscale":100,"bOffBottom":0}
+"text923":{"x":68,"y":145,"w":439,"h":40,"txtscale":100,"bOffBottom":0}
 ,
-"text924":{"x":65,"y":185,"w":880,"h":80,"txtscale":100,"bOffBottom":0}
+"text924":{"x":65,"y":190,"w":880,"h":98,"txtscale":100,"bOffBottom":0}
 ,
 "image925":{"x":76,"y":288,"w":53,"h":53,"bOffBottom":0,"i":"images/image71.png"}
 ,
@@ -55,7 +55,7 @@ DesktopResponsive={"1009":{
 ,
 "image936":{"x":651,"y":367,"w":53,"h":53,"bOffBottom":0,"i":"images/image0069.png"}
 ,
-"text938":{"x":716,"y":308,"w":228,"h":142,"txtscale":100,"bOffBottom":0}
+"text938":{"x":716,"y":308,"w":228,"h":208,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

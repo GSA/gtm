@@ -37,7 +37,7 @@ DesktopResponsive={"1009":{
 ,
 "text1873":{"x":131,"y":353,"w":83,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"text20767":{"x":65,"y":145,"w":439,"h":39,"txtscale":100,"bOffBottom":0}
+"text20767":{"x":68,"y":145,"w":439,"h":39,"txtscale":100,"bOffBottom":0}
 ,
 "text1886":{"x":593,"y":257,"w":83,"h":25,"txtscale":100,"bOffBottom":0}
 ,
@@ -45,11 +45,11 @@ DesktopResponsive={"1009":{
 ,
 "text1883":{"x":310,"y":472,"w":387,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"text1884":{"x":65,"y":431,"w":880,"h":24,"txtscale":100,"bOffBottom":0}
+"text1884":{"x":75,"y":431,"w":880,"h":24,"txtscale":100,"bOffBottom":0}
 ,
 "text1885":{"x":131,"y":255,"w":28,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"text67780":{"x":68,"y":185,"w":880,"h":26,"txtscale":100,"bOffBottom":0}
+"text67780":{"x":75,"y":190,"w":880,"h":26,"txtscale":100,"bOffBottom":0}
 ,
 "text67781":{"x":182,"y":249,"w":692,"h":73,"txtscale":100,"bOffBottom":0}
 ,
@@ -59,11 +59,11 @@ DesktopResponsive={"1009":{
 ,
 "check67784":{"x":74,"y":351,"fsize":19,"bOffBottom":0}
 ,
-"text67785":{"x":648,"y":230,"w":289,"h":113,"txtscale":100,"bOffBottom":0}
+"text67785":{"x":647,"y":235,"w":289,"h":113,"txtscale":100,"bOffBottom":0}
 ,
 "check67786":{"x":534,"y":256,"fsize":19,"bOffBottom":0}
 ,
-"text67787":{"x":658,"y":322,"w":285,"h":121,"txtscale":100,"bOffBottom":0}
+"text67787":{"x":654,"y":330,"w":285,"h":121,"txtscale":100,"bOffBottom":0}
 ,
 "check67788":{"x":535,"y":350,"fsize":19,"bOffBottom":0}
 ,

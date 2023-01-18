@@ -45,13 +45,13 @@ DesktopResponsive={"1009":{
 ,
 "image142322":{"x":66,"y":339,"w":263,"h":60,"bOffBottom":0,"i":"images/image0039.png"}
 ,
-"text142320":{"x":79,"y":341,"w":190,"h":53,"txtscale":100,"bOffBottom":0}
+"text142320":{"x":79,"y":352,"w":190,"h":53,"txtscale":100,"bOffBottom":0}
 ,
 "image142319":{"x":291,"y":357,"w":17,"h":14,"bOffBottom":0,"i":"images/image0037.png"}
 ,
 "image142317":{"x":66,"y":412,"w":263,"h":61,"bOffBottom":0,"i":"images/image0038.png"}
 ,
-"text142315":{"x":79,"y":416,"w":190,"h":53,"txtscale":100,"bOffBottom":0}
+"text142315":{"x":79,"y":422,"w":190,"h":53,"txtscale":100,"bOffBottom":0}
 ,
 "image142314":{"x":291,"y":430,"w":17,"h":14,"bOffBottom":0,"i":"images/image0037.png"}
 ,
