@@ -190,7 +190,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text112866,og72667,image72669,image72672,image72675,button72682,text72684,text72686,text22736,shape3257,shape3243,shape3234,shape3245,shape3239,shape3247,shape3249,shape3251,shape3264,text3263,text23116,shape3241,qu75793,text75795,text75796,text75797,text75798,text75799,text75801,text75802,text75806,text75807,text75808,text75809,og75702,shape3303,shape3308,text3310,image3311,image3314,image3316,image3318,image3320,shape3322,text118193,shape3325,image3328,og75745,shape75747,shape75749,text75750,shape75762,image114514,image114512,image114510,image114508,image114506,text118217,shape75765,image75768,og123164,shape123166,shape123168,shape123170,text123171,shape123173,text123175,image123177))
+    PreloadResources(new Array(text112866,og72667,image72669,image72672,image72675,button72682,text72684,text72686,text22736,shape3257,shape3243,shape3234,shape3245,shape3239,shape3247,shape3249,shape3251,shape3264,text3263,text23116,shape3241,qu75793,text75795,text75796,text75797,text75798,text75799,text75801,text75802,text75806,text75807,text75808,text75809,og75702,shape3303,shape3308,text3310,image3311,image3314,image3316,image3318,image3320,shape3322,text118193,shape3325,image3328,og75745,shape75747,shape75749,text75750,shape75762,image114514,image114512,image114510,image114508,image114506,text118217,shape75765,image75768,og123164,shape123166,shape123168,shape123173,shape157493,text157491,text157490,image123177))
     pageLayer.show(true);
     text112866.init()
     og72667.init()
@@ -254,10 +254,10 @@ function init11() {
     og123164.init()
     shape123166.init()
     shape123168.init()
-    shape123170.init()
-    text123171.init()
     shape123173.init()
-    text123175.init()
+    shape157493.init()
+    text157491.init()
+    text157490.init()
     image123177.init()
     text112866.activate()
     og72667.activate()
@@ -321,10 +321,10 @@ function init11() {
     og123164.activate()
     shape123166.activate()
     shape123168.activate()
-    shape123170.activate()
-    text123171.activate()
     shape123173.activate()
-    text123175.activate()
+    shape157493.activate()
+    text157491.activate()
+    text157490.activate()
     image123177.activate()
 button72682.strCookieState = (trivBtnTracking.GetRangeStatus(72682,true));
 button72682.loadStateFromSes("normalState");
@@ -482,9 +482,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action75793_3(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action75793_7(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action75793_4(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action75793_8(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -669,13 +669,13 @@ function Update_qu75793() {
   doImmFeedback('qu75793');
 }
 
-function action75793_3(fn){
+function action75793_7(fn){
     og75702.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action75793_4(fn){
+function action75793_8(fn){
     og75745.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1347,8 +1347,10 @@ text3310.addOpacity(100)
 text3310.arrCSSStyles = new Array();
 text3310.arrCSSStyles.push('span.text3310Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
 text3310.arrCSSStyles.push('span.text3310Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text3310.arrCSSStyles.push('span.text3310Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text3310.addInnerText('<div id=\"text3310\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font2\"  >A </span ><span class=\"text3310Font3\"  >contract i</span ><span class=\"text3310Font2\"  >s the appropriate legal instrument to use, if the Federal agency is acquiring property or services for its own direct benefit or use of the Federal Government.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font2\"  >A </span ><span class=\"text3310Font3\"  >contract i</span ><span class=\"text3310Font2\"  >s the appropriate legal instrument to use if the Federal agency is the direct beneficiary for use of property or services.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:49px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >Federal Financial Assistance </span ><span class=\"text3310Font2\"  >is the appropriate legal instrument to use if it is provided at the request of the recipient.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font2\"  >A </span ><span class=\"text3310Font3\"  >contract</span ><span class=\"text3310Font2\"  > is the appropriate legal instrument to use if the Federal agency is providing the specifications for the property or services.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:49px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font2\"  >A </span ><span class=\"text3310Font3\"  >contract</span ><span class=\"text3310Font2\"  > is the appropriate legal instrument to use if Federal agency is buying (or leasing) the property or buying services based on it own identified needs.\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text3310.arrCSSStyles.push('span.text3310Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text3310.arrCSSStyles.push('span.text3310Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text3310.arrCSSStyles.push('span.text3310Font5 { font-size:15px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
+text3310.addInnerText('<div id=\"text3310\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >A </span ><span class=\"text3310Font4\"  >contract i</span ><span class=\"text3310Font3\"  >s the appropriate legal instrument to use, if the Federal agency is acquiring property or services for its own direct benefit or use of the Federal Government.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >A </span ><span class=\"text3310Font4\"  >contract i</span ><span class=\"text3310Font3\"  >s the appropriate legal instrument to use if the Federal agency is the direct beneficiary for use of property or services.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font4\"  >Federal Financial Assistance </span ><span class=\"text3310Font3\"  >is the appropriate legal instrument to use if it is provided at the request of the recipient.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >A </span ><span class=\"text3310Font4\"  >contract</span ><span class=\"text3310Font3\"  > is the appropriate legal instrument to use if the Federal agency is providing the specifications for the property or services.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >A </span ><span class=\"text3310Font4\"  >contract</span ><span class=\"text3310Font3\"  > is the appropriate legal instrument to use if Federal agency is buying (or leasing) the property or buying services based on it own identified needs.</span ><span class=\"text3310Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3310.build()
 
 image3311 = new ObjImage('image3311','images/image0134.png','Picture 47',150,340,24,26,1,35,'div',null, 0 )
@@ -1520,8 +1522,10 @@ text75750.arrCSSStyles = new Array();
 text75750.arrCSSStyles.push('span.text75750Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#cf2a27; font-weight:bold;}');
 text75750.arrCSSStyles.push('span.text75750Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
 text75750.arrCSSStyles.push('span.text75750Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text75750.arrCSSStyles.push('span.text75750Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text75750.addInnerText('<div id=\"text75750\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font1\"  >Incorrect.</span ><span class=\"text75750Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:6px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:6px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A </span ><span class=\"text75750Font4\"  >contract i</span ><span class=\"text75750Font3\"  >s the appropriate legal instrument to use, if the Federal agency is acquiring property or services for its &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;own direct benefit or use of the Federal Government.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >A </span ><span class=\"text75750Font4\"  >contract i</span ><span class=\"text75750Font3\"  >s the appropriate legal instrument to use if the Federal agency is the direct beneficiary for use of property or services.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font4\"  >Federal Financial Assistance </span ><span class=\"text75750Font3\"  >is the appropriate legal instrument to use if it is provided at the request of the recipient.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >A </span ><span class=\"text75750Font4\"  >contract</span ><span class=\"text75750Font3\"  > is the appropriate legal instrument to use if the Federal agency is providing the specifications for the property or services.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >A </span ><span class=\"text75750Font4\"  >contract</span ><span class=\"text75750Font3\"  > is the appropriate legal instrument to use if Federal agency is buying (or leasing) the property or buying services based on it own identified needs.\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text75750.arrCSSStyles.push('span.text75750Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text75750.arrCSSStyles.push('span.text75750Font5 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text75750.arrCSSStyles.push('span.text75750Font6 { font-size:15px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
+text75750.addInnerText('<div id=\"text75750\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font1\"  >Incorrect.</span ><span class=\"text75750Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:6px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:6px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text75750Font4\"  >A </span ><span class=\"text75750Font5\"  >contract i</span ><span class=\"text75750Font4\"  >s the appropriate legal instrument to use, if the Federal agency is acquiring property or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;services for its own direct benefit or use of the Federal Government.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font6\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font4\"  >A </span ><span class=\"text75750Font5\"  >contract i</span ><span class=\"text75750Font4\"  >s the appropriate legal instrument to use if the Federal agency is the direct beneficiary for use of property or services.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font6\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font5\"  >Federal Financial Assistance </span ><span class=\"text75750Font4\"  >is the appropriate legal instrument to use if it is provided at the request of the recipient.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font6\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font4\"  >A </span ><span class=\"text75750Font5\"  >contract</span ><span class=\"text75750Font4\"  > is the appropriate legal instrument to use if the Federal agency is providing the specifications for the property or services.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font6\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font4\"  >A </span ><span class=\"text75750Font5\"  >contract</span ><span class=\"text75750Font4\"  > is the appropriate legal instrument to use if Federal agency is buying (or leasing) the property or buying services based on it own identified needs.</span ><span class=\"text75750Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text75750.build()
 
 shape75762 = new ObjImage('shape75762','images/shape75762.png','Rectangle 57',104,147,134.000000,44.000000,1,47,'div','',0 )
@@ -1638,10 +1642,10 @@ og123164 = new ObjInline('og123164',null,0,0,1009,568,1,0)
 og123164.isGrp = true
 og123164.addChild('shape123166')
 og123164.addChild('shape123168')
-og123164.addChild('shape123170')
-og123164.addChild('text123171')
 og123164.addChild('shape123173')
-og123164.addChild('text123175')
+og123164.addChild('shape157493')
+og123164.addChild('text157491')
+og123164.addChild('text157490')
 og123164.addChild('image123177')
 og123164.build()
 
@@ -1672,38 +1676,7 @@ shape123168.initLineWeight(2)
 shape123168.addOpacity(100)
 shape123168.build()
 
-shape123170 = new ObjImage('shape123170','images/shape123170.png','Rectangle 40',112,181,115.000000,44.000000,1,58,'div','',0 )
-shape123170.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
-shape123170.initHasShadow(0)
-shape123170.initHasReflection(0)
-shape123170.setUniqueFillID('page3233_shape123170')
-shape123170.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
-shape123170.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
-shape123170.setUseSvgFile(1)
-shape123170.addBorder(0)
-shape123170.initLineWeight(0)
-shape123170.addOpacity(100)
-shape123170.build()
-
-text123171 = new ObjText('text123171',null,130,242,800,50,1,59,null,'div',null,0 )
-text123171.initSLine(0)
-text123171.initHasBullet(0)
-text123171.initRotateAngle(0,0,0)
-text123171.initHasOuterShadow(0)
-text123171.initHasTextShadow(0)
-text123171.initHasBorder(0)
-text123171.initHasOutline(0)
-text123171.initHasMargin(6)
-text123171.addIe8Attr(130, 242, 800, 50, 0, 0)
-text123171.addHeading(0)
-text123171.addOpacity(100)
-text123171.arrCSSStyles = new Array();
-text123171.arrCSSStyles.push('span.text123171Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
-text123171.arrCSSStyles.push('span.text123171Font2 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
-text123171.addInnerText('<div id=\"text123171\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text123171Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;You must answer the question correctly in order to move to the next question.</span ><span class=\"text123171Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text123171.build()
-
-shape123173 = new ObjImage('shape123173','images/shape123173.png','Rectangle 43',857,191,28.000000,28.000000,1,60,'div','',0 )
+shape123173 = new ObjImage('shape123173','images/shape123173.png','Rectangle 43',857,191,28.000000,28.000000,1,58,'div','',0 )
 shape123173.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape123173.initHasShadow(0)
 shape123173.initHasReflection(0)
@@ -1719,23 +1692,55 @@ shape123173.hasOnUp = true
 shape123173.capture=4
 shape123173.build()
 
-text123175 = new ObjText('text123175',null,120,194,101,26,1,61,null,'div',null,0 )
-text123175.initSLine(1)
-text123175.initHasBullet(0)
-text123175.initRotateAngle(0,0,0)
-text123175.initHasOuterShadow(0)
-text123175.initHasTextShadow(0)
-text123175.initHasBorder(0)
-text123175.initHasOutline(0)
-text123175.initHasMargin(0)
-text123175.addIe8Attr(120, 194, 101, 26, 0, 0)
-text123175.addHeading(0)
-text123175.addOpacity(100)
-text123175.arrCSSStyles = new Array();
-text123175.arrCSSStyles.push('span.text123175Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text123175.arrCSSStyles.push('span.text123175Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text123175.addInnerText('<div id=\"text123175\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text123175Font1\"  >FEEDBACK</span ><span class=\"text123175Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text123175.build()
+shape157493 = new ObjImage('shape157493','images/shape157493.png','Rectangle 40',112,181,115.000000,44.000000,1,59,'div','',0 )
+shape157493.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
+shape157493.initHasShadow(0)
+shape157493.initHasReflection(0)
+shape157493.setUniqueFillID('page3233_shape157493')
+shape157493.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
+shape157493.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
+shape157493.setUseSvgFile(1)
+shape157493.addBorder(0)
+shape157493.initLineWeight(0)
+shape157493.addOpacity(100)
+shape157493.build()
+
+text157491 = new ObjText('text157491',null,130,230,800,50,1,60,null,'div',null,0 )
+text157491.initSLine(0)
+text157491.initHasBullet(0)
+text157491.initRotateAngle(0,0,0)
+text157491.initHasOuterShadow(0)
+text157491.initHasTextShadow(0)
+text157491.initHasBorder(0)
+text157491.initHasOutline(0)
+text157491.initHasMargin(6)
+text157491.addIe8Attr(130, 230, 800, 50, 0, 0)
+text157491.addHeading(0)
+text157491.addOpacity(100)
+text157491.arrCSSStyles = new Array();
+text157491.arrCSSStyles.push('span.text157491Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text157491.arrCSSStyles.push('span.text157491Font2 { font-size:15px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text157491.arrCSSStyles.push('span.text157491Font3 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
+text157491.addInnerText('<div id=\"text157491\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text157491Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text157491Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text157491Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text157491.build()
+
+text157490 = new ObjText('text157490',null,114,194,101,26,1,61,null,'div',null,0 )
+text157490.initSLine(1)
+text157490.initHasBullet(0)
+text157490.initRotateAngle(0,0,0)
+text157490.initHasOuterShadow(0)
+text157490.initHasTextShadow(0)
+text157490.initHasBorder(0)
+text157490.initHasOutline(0)
+text157490.initHasMargin(0)
+text157490.addIe8Attr(114, 194, 101, 26, 0, 0)
+text157490.addHeading(0)
+text157490.addOpacity(100)
+text157490.arrCSSStyles = new Array();
+text157490.arrCSSStyles.push('span.text157490Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text157490.arrCSSStyles.push('span.text157490Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text157490.addInnerText('<div id=\"text157490\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text157490Font1\"  >FEEDBACK</span ><span class=\"text157490Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text157490.build()
 
 image123177 = new ObjImage('image123177','images/image0093.png','Picture 44',862,198,18,18,1,62,'div',null, 0 )
 image123177.initRotateAngle(0,0,0,0,0,0,0)
@@ -1813,10 +1818,10 @@ arObjs.push(image75768);
 arObjs.push(og123164);
 arObjs.push(shape123166);
 arObjs.push(shape123168);
-arObjs.push(shape123170);
-arObjs.push(text123171);
 arObjs.push(shape123173);
-arObjs.push(text123175);
+arObjs.push(shape157493);
+arObjs.push(text157491);
+arObjs.push(text157490);
 arObjs.push(image123177);
 
 
@@ -1905,10 +1910,10 @@ if( is.min ){
     appendElement(image75768, null, null);
     appendElement(shape123166, null, null);
     appendElement(shape123168, null, null);
-    appendElement(shape123170, null, null);
-    appendElement(text123171, null, null);
     appendElement(shape123173, null, null);
-    appendElement(text123175, null, null);
+    appendElement(shape157493, null, null);
+    appendElement(text157491, null, null);
+    appendElement(text157490, null, null);
     appendElement(image123177, null, null);
 }
 </script>

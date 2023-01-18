@@ -37,7 +37,7 @@ TabletResponsive={"1009":{
 ,
 "text943":{"x":66,"y":190,"w":462,"h":337,"txtscale":100,"bOffBottom":0}
 ,
-"image944":{"x":507,"y":100,"w":450,"h":450,"bOffBottom":0,"i":"images/slide_unique.png"}
+"image944":{"x":540,"y":144,"w":417,"h":365,"bOffBottom":0,"i":"images/slide_unique.png"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -85,7 +85,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text943":{"x":51,"y":190,"w":359,"h":408,"txtscale":100,"bOffBottom":0}
 ,
-"image944":{"x":394,"y":100,"w":350,"h":350,"bOffBottom":0,"i":"images/slide_unique.png"}
+"image944":{"x":420,"y":144,"w":324,"h":284,"bOffBottom":0,"i":"images/slide_unique.png"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

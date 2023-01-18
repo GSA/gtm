@@ -290,7 +290,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text110033,og91720,image91722,image91725,image91728,button91735,text91737,text91739,text64164,text1478,shape1481,shape1483,shape1485,shape1487,shape1489,shape1491,shape1494,text1496,shape1497,text1500,text1502,og110294,shape1509,text1511,text1512,text1513,qu59306,text62737,text62738,check62739,text62740,check62741,text62742,check62743,text62744,check62745,og59253,shape1515,shape59255,shape59257,text59258,text59259,shape59261,image59263,og60455,shape60457,shape60459,shape60461,text60462,text60463,shape60465,image60467,og122415,shape122417,shape122419,shape122421,text122422,shape122424,text122426,image122428))
+    PreloadResources(new Array(text110033,og91720,image91722,image91725,image91728,button91735,text91737,text91739,text64164,text1478,shape1481,shape1483,shape1485,shape1487,shape1489,shape1491,shape1494,text1496,shape1497,text1500,text1502,og110294,shape1509,text1511,text1512,text1513,qu59306,text62737,text62738,check62739,text62740,check62741,text62742,check62743,text62744,check62745,og59253,shape1515,shape59255,shape59257,text59258,text59259,shape59261,image59263,og60455,shape60457,shape60459,shape60461,text60462,text60463,shape60465,image60467,og122415,shape122417,shape122419,shape153914,text153912,text153911,shape122424,image122428))
     pageLayer.show(true);
     text110033.init()
     og91720.init()
@@ -347,10 +347,10 @@ function init11() {
     og122415.init()
     shape122417.init()
     shape122419.init()
-    shape122421.init()
-    text122422.init()
+    shape153914.init()
+    text153912.init()
+    text153911.init()
     shape122424.init()
-    text122426.init()
     image122428.init()
     text110033.activate()
     og91720.activate()
@@ -407,10 +407,10 @@ function init11() {
     og122415.activate()
     shape122417.activate()
     shape122419.activate()
-    shape122421.activate()
-    text122422.activate()
+    shape153914.activate()
+    text153912.activate()
+    text153911.activate()
     shape122424.activate()
-    text122426.activate()
     image122428.activate()
 button91735.strCookieState = (trivBtnTracking.GetRangeStatus(91735,true));
 button91735.loadStateFromSes("normalState");
@@ -530,12 +530,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu59306.hasBeenProcessed) {
     if( ans_Varl1q4 == '\u0020\u0020\u0055\u006E\u0069\u0074\u0065\u0064\u0020\u0053\u0074\u0061\u0074\u0065\u0073\u0020\u0050\u0072\u0065\u0073\u0069\u0064\u0065\u006E\u0074' ) 
     { //1 
-        trivActFBCnt++; action59306_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action59306_7(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q4 != '\u0020\u0020\u0055\u006E\u0069\u0074\u0065\u0064\u0020\u0053\u0074\u0061\u0074\u0065\u0073\u0020\u0050\u0072\u0065\u0073\u0069\u0064\u0065\u006E\u0074' && ans_Varl1q4 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action59306_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action59306_8(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -777,13 +777,13 @@ function Update_qu59306( upd ) {
     qu59306Object.hasBeenProcessed=false;
 }
 
-function action59306_3(fn){
+function action59306_7(fn){
     og60455.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action59306_4(fn){
+function action59306_8(fn){
     og59253.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -981,7 +981,7 @@ text64164.arrCSSStyles.push('span.text64164Font2 { font-size:13px; font-family:"
 text64164.addInnerText('<div id=\"text64164\" aria-live=\"polite\" ><a id=\"text64164anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text64164Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text64164Font1\"  >BACK</span ><span class=\"text64164Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text64164.build()
 
-text1478 = new ObjText('text1478',null,68,141,439,51,1,10,null,'div',null,0 )
+text1478 = new ObjText('text1478',null,68,145,439,51,1,10,null,'div',null,0 )
 text1478.initSLine(0)
 text1478.initHasBullet(0)
 text1478.initRotateAngle(0,0,0)
@@ -990,7 +990,7 @@ text1478.initHasTextShadow(0)
 text1478.initHasBorder(0)
 text1478.initHasOutline(0)
 text1478.initHasMargin(6)
-text1478.addIe8Attr(68, 141, 439, 51, 0, 0)
+text1478.addIe8Attr(68, 145, 439, 51, 0, 0)
 text1478.addHeading(0)
 text1478.addOpacity(100)
 text1478.arrCSSStyles = new Array();
@@ -1259,8 +1259,8 @@ text62737.addIe8Attr(75, 184, 792, 54, 0, 0)
 text62737.addHeading(0)
 text62737.addOpacity(100)
 text62737.arrCSSStyles = new Array();
-text62737.arrCSSStyles.push('span.text62737Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
-text62737.arrCSSStyles.push('span.text62737Font2 { font-size:15px; font-family:"Oswald"; color:#010101;}');
+text62737.arrCSSStyles.push('span.text62737Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
+text62737.arrCSSStyles.push('span.text62737Font2 { font-size:15px; font-family:"Oswald"; color:#00324b;}');
 text62737.addInnerText('<legend><div id=\"text62737\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text62737Font1\"  >The _______ issues executive orders to manage the operations of the executive branch of the Federal government</span ><span class=\"text62737Font2\"  >. \n</span ></p ></div>\n</legend>\n');
 text62737.build()
 
@@ -1439,9 +1439,10 @@ text59259.addOpacity(100)
 text59259.arrCSSStyles = new Array();
 text59259.arrCSSStyles.push('span.text59259Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#cf2a27; font-weight:bold;}');
 text59259.arrCSSStyles.push('span.text59259Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text59259.arrCSSStyles.push('span.text59259Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text59259.arrCSSStyles.push('span.text59259Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text59259.addInnerText('<div id=\"text59259\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text59259Font1\"  >Incorrect</span ><span class=\"text59259Font2\"  >.\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text59259Font3\"  >The </span ><span class=\"text59259Font4\"  >United States President</span ><span class=\"text59259Font3\"  > issues executive orders to manage the operations of the executive branch of the Federal government. An executive order is directed to one or more Federal agencies. Executive orders do not directly apply to recipients.\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text59259.arrCSSStyles.push('span.text59259Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text59259.arrCSSStyles.push('span.text59259Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text59259.arrCSSStyles.push('span.text59259Font5 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
+text59259.addInnerText('<div id=\"text59259\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text59259Font1\"  >Incorrect</span ><span class=\"text59259Font2\"  >.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text59259Font3\"  >The </span ><span class=\"text59259Font4\"  >United States President</span ><span class=\"text59259Font3\"  > issues executive orders to manage the operations of the executive branch of the Federal government. An executive order is directed to one or more Federal agencies. Executive orders do not directly apply to recipients.</span ><span class=\"text59259Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text59259.build()
 
 shape59261 = new ObjImage('shape59261','images/shape59261.png','Rectangle 65',670,245,28.000000,28.000000,1,40,'div','',0 )
@@ -1553,9 +1554,10 @@ text60463.addHeading(0)
 text60463.addOpacity(100)
 text60463.arrCSSStyles = new Array();
 text60463.arrCSSStyles.push('span.text60463Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text60463.arrCSSStyles.push('span.text60463Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text60463.arrCSSStyles.push('span.text60463Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text60463.addInnerText('<div id=\"text60463\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text60463Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text60463Font2\"  >The </span ><span class=\"text60463Font3\"  >United States President</span ><span class=\"text60463Font2\"  > issues executive orders to manage the operations of the executive branch of the Federal government. An executive order is directed to one or more Federal agencies. Executive orders do not directly apply to recipients.\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text60463.arrCSSStyles.push('span.text60463Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text60463.arrCSSStyles.push('span.text60463Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text60463.arrCSSStyles.push('span.text60463Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
+text60463.addInnerText('<div id=\"text60463\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text60463Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text60463Font2\"  >The </span ><span class=\"text60463Font3\"  >United States President</span ><span class=\"text60463Font2\"  > issues executive orders to manage the operations of the executive branch of the Federal government. An executive order is directed to one or more Federal agencies. Executive orders do not directly apply to recipients.</span ><span class=\"text60463Font4\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text60463.build()
 
 shape60465 = new ObjImage('shape60465','images/shape60465.png','Rectangle 65',670,245,28.000000,28.000000,1,47,'div','',0 )
@@ -1588,10 +1590,10 @@ og122415 = new ObjInline('og122415',null,0,0,1009,568,1,0)
 og122415.isGrp = true
 og122415.addChild('shape122417')
 og122415.addChild('shape122419')
-og122415.addChild('shape122421')
-og122415.addChild('text122422')
+og122415.addChild('shape153914')
+og122415.addChild('text153912')
+og122415.addChild('text153911')
 og122415.addChild('shape122424')
-og122415.addChild('text122426')
 og122415.addChild('image122428')
 og122415.build()
 
@@ -1622,38 +1624,57 @@ shape122419.initLineWeight(2)
 shape122419.addOpacity(100)
 shape122419.build()
 
-shape122421 = new ObjImage('shape122421','images/shape122421.png','Rectangle 40',112,181,115.000000,44.000000,1,51,'div','',0 )
-shape122421.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
-shape122421.initHasShadow(0)
-shape122421.initHasReflection(0)
-shape122421.setUniqueFillID('page1477_shape122421')
-shape122421.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
-shape122421.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
-shape122421.setUseSvgFile(1)
-shape122421.addBorder(0)
-shape122421.initLineWeight(0)
-shape122421.addOpacity(100)
-shape122421.build()
+shape153914 = new ObjImage('shape153914','images/shape153914.png','Rectangle 40',112,181,115.000000,44.000000,1,51,'div','',0 )
+shape153914.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
+shape153914.initHasShadow(0)
+shape153914.initHasReflection(0)
+shape153914.setUniqueFillID('page1477_shape153914')
+shape153914.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
+shape153914.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
+shape153914.setUseSvgFile(1)
+shape153914.addBorder(0)
+shape153914.initLineWeight(0)
+shape153914.addOpacity(100)
+shape153914.build()
 
-text122422 = new ObjText('text122422',null,130,242,800,50,1,52,null,'div',null,0 )
-text122422.initSLine(0)
-text122422.initHasBullet(0)
-text122422.initRotateAngle(0,0,0)
-text122422.initHasOuterShadow(0)
-text122422.initHasTextShadow(0)
-text122422.initHasBorder(0)
-text122422.initHasOutline(0)
-text122422.initHasMargin(6)
-text122422.addIe8Attr(130, 242, 800, 50, 0, 0)
-text122422.addHeading(0)
-text122422.addOpacity(100)
-text122422.arrCSSStyles = new Array();
-text122422.arrCSSStyles.push('span.text122422Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
-text122422.arrCSSStyles.push('span.text122422Font2 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
-text122422.addInnerText('<div id=\"text122422\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text122422Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;You must answer the question correctly in order to move to the next question.</span ><span class=\"text122422Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text122422.build()
+text153912 = new ObjText('text153912',null,130,230,800,50,1,52,null,'div',null,0 )
+text153912.initSLine(0)
+text153912.initHasBullet(0)
+text153912.initRotateAngle(0,0,0)
+text153912.initHasOuterShadow(0)
+text153912.initHasTextShadow(0)
+text153912.initHasBorder(0)
+text153912.initHasOutline(0)
+text153912.initHasMargin(6)
+text153912.addIe8Attr(130, 230, 800, 50, 0, 0)
+text153912.addHeading(0)
+text153912.addOpacity(100)
+text153912.arrCSSStyles = new Array();
+text153912.arrCSSStyles.push('span.text153912Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text153912.arrCSSStyles.push('span.text153912Font2 { font-size:15px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text153912.arrCSSStyles.push('span.text153912Font3 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
+text153912.addInnerText('<div id=\"text153912\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153912Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text153912Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text153912Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text153912.build()
 
-shape122424 = new ObjImage('shape122424','images/shape122424.png','Rectangle 43',857,191,28.000000,28.000000,1,53,'div','',0 )
+text153911 = new ObjText('text153911',null,114,194,101,26,1,53,null,'div',null,0 )
+text153911.initSLine(1)
+text153911.initHasBullet(0)
+text153911.initRotateAngle(0,0,0)
+text153911.initHasOuterShadow(0)
+text153911.initHasTextShadow(0)
+text153911.initHasBorder(0)
+text153911.initHasOutline(0)
+text153911.initHasMargin(0)
+text153911.addIe8Attr(114, 194, 101, 26, 0, 0)
+text153911.addHeading(0)
+text153911.addOpacity(100)
+text153911.arrCSSStyles = new Array();
+text153911.arrCSSStyles.push('span.text153911Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text153911.arrCSSStyles.push('span.text153911Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text153911.addInnerText('<div id=\"text153911\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153911Font1\"  >FEEDBACK</span ><span class=\"text153911Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text153911.build()
+
+shape122424 = new ObjImage('shape122424','images/shape122424.png','Rectangle 43',857,191,28.000000,28.000000,1,54,'div','',0 )
 shape122424.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape122424.initHasShadow(0)
 shape122424.initHasReflection(0)
@@ -1668,24 +1689,6 @@ shape122424.onUp = shape122424onUp
 shape122424.hasOnUp = true
 shape122424.capture=4
 shape122424.build()
-
-text122426 = new ObjText('text122426',null,120,194,101,26,1,54,null,'div',null,0 )
-text122426.initSLine(1)
-text122426.initHasBullet(0)
-text122426.initRotateAngle(0,0,0)
-text122426.initHasOuterShadow(0)
-text122426.initHasTextShadow(0)
-text122426.initHasBorder(0)
-text122426.initHasOutline(0)
-text122426.initHasMargin(0)
-text122426.addIe8Attr(120, 194, 101, 26, 0, 0)
-text122426.addHeading(0)
-text122426.addOpacity(100)
-text122426.arrCSSStyles = new Array();
-text122426.arrCSSStyles.push('span.text122426Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text122426.arrCSSStyles.push('span.text122426Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text122426.addInnerText('<div id=\"text122426\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text122426Font1\"  >FEEDBACK</span ><span class=\"text122426Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text122426.build()
 
 image122428 = new ObjImage('image122428','images/image0093.png','Picture 44',862,198,18,18,1,55,'div',null, 0 )
 image122428.initRotateAngle(0,0,0,0,0,0,0)
@@ -1756,10 +1759,10 @@ arObjs.push(image60467);
 arObjs.push(og122415);
 arObjs.push(shape122417);
 arObjs.push(shape122419);
-arObjs.push(shape122421);
-arObjs.push(text122422);
+arObjs.push(shape153914);
+arObjs.push(text153912);
+arObjs.push(text153911);
 arObjs.push(shape122424);
-arObjs.push(text122426);
 arObjs.push(image122428);
 
 
@@ -1853,10 +1856,10 @@ if( is.min ){
     appendElement(image60467, null, null);
     appendElement(shape122417, null, null);
     appendElement(shape122419, null, null);
-    appendElement(shape122421, null, null);
-    appendElement(text122422, null, null);
+    appendElement(shape153914, null, null);
+    appendElement(text153912, null, null);
+    appendElement(text153911, null, null);
     appendElement(shape122424, null, null);
-    appendElement(text122426, null, null);
     appendElement(image122428, null, null);
 }
 </script>

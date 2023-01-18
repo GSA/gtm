@@ -194,7 +194,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text112866,og72436,image72438,image72441,image72444,button72451,text72453,text72455,og73668,text2738,shape2721,text2723,text2724,shape2728,shape2731,qu73625,text73627,text73628,radio73629,text73630,radio73631,og73849,shape73851,image112953,image113022,shape73853,shape73855,text73857,text112788,shape73859,image73861,og73843,image113078,image113076,shape2739,shape2741,shape2743,text2746,text112839,shape2747,image2749,og123018,shape123020,shape123022,shape123024,text123025,shape123027,text123029,image123031))
+    PreloadResources(new Array(text112866,og72436,image72438,image72441,image72444,button72451,text72453,text72455,og73668,text2738,shape2721,text2723,text2724,shape2728,shape2731,qu73625,text73627,text73628,radio73629,text73630,radio73631,og73849,shape73851,image112953,image113022,shape73853,shape73855,text73857,text112788,shape73859,image73861,og73843,image113078,image113076,shape2739,shape2741,shape2743,text2746,text112839,shape2747,image2749,og123018,shape123020,shape123022,shape123027,shape155886,text155884,text155883,image123031))
     pageLayer.show(true);
     text112866.init()
     og72436.init()
@@ -240,10 +240,10 @@ function init11() {
     og123018.init()
     shape123020.init()
     shape123022.init()
-    shape123024.init()
-    text123025.init()
     shape123027.init()
-    text123029.init()
+    shape155886.init()
+    text155884.init()
+    text155883.init()
     image123031.init()
     text112866.activate()
     og72436.activate()
@@ -289,10 +289,10 @@ function init11() {
     og123018.activate()
     shape123020.activate()
     shape123022.activate()
-    shape123024.activate()
-    text123025.activate()
     shape123027.activate()
-    text123029.activate()
+    shape155886.activate()
+    text155884.activate()
+    text155883.activate()
     image123031.activate()
 button72451.strCookieState = (trivBtnTracking.GetRangeStatus(72451,true));
 button72451.loadStateFromSes("normalState");
@@ -412,12 +412,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu73625.hasBeenProcessed) {
     if( ans_Varl2q2 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action73625_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action73625_7(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl2q2 != '\u0054\u0072\u0075\u0065' && ans_Varl2q2 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action73625_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action73625_8(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -628,13 +628,13 @@ function Update_qu73625(value) {
    qu73625Object.hasBeenProcessed=false;
 }
 
-function action73625_3(fn){
+function action73625_7(fn){
     og73843.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action73625_4(fn){
+function action73625_8(fn){
     og73849.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1099,9 +1099,10 @@ text73857.addOpacity(100)
 text73857.arrCSSStyles = new Array();
 text73857.arrCSSStyles.push('span.text73857Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#cf2a27; font-weight:bold;}');
 text73857.arrCSSStyles.push('span.text73857Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text73857.arrCSSStyles.push('span.text73857Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text73857.arrCSSStyles.push('span.text73857Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text73857.addInnerText('<div id=\"text73857\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font1\"  >Incorrect.</span ><span class=\"text73857Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font3\"  >The grant agreement or cooperative agreement between the Federal agency and the recipient is the legally binding agreement that sets forth the information about the award and includes the terms and conditions of the award. The terms and conditions of the award:\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font4\"  >Provide the administrative and programmatic requirements to which the recipient must comply\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font4\"  >Are based on the established policies of the Federal agency and the requirements contained in 2 CFR 200\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text73857.arrCSSStyles.push('span.text73857Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text73857.arrCSSStyles.push('span.text73857Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text73857.arrCSSStyles.push('span.text73857Font5 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text73857.addInnerText('<div id=\"text73857\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font1\"  >Incorrect.</span ><span class=\"text73857Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font3\"  >The grant agreement or cooperative agreement between the Federal agency and the recipient is the legally binding agreement that sets forth the information about the award and includes the terms and conditions of the award. The terms and conditions of the award:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font4\"  >Provide the administrative and programmatic requirements to which the recipient must comply\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text73857Font4\"  >Are based on the established policies of the Federal agency and the requirements contained in 2 CFR 200</span ><span class=\"text73857Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text73857.build()
 
 text112788 = new ObjText('text112788',null,300,169,101,26,1,25,null,'div',null,0 )
@@ -1238,9 +1239,10 @@ text2746.addHeading(0)
 text2746.addOpacity(100)
 text2746.arrCSSStyles = new Array();
 text2746.arrCSSStyles.push('span.text2746Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text2746.arrCSSStyles.push('span.text2746Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text2746.arrCSSStyles.push('span.text2746Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text2746.addInnerText('<div id=\"text2746\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font2\"  >The grant agreement or cooperative agreement between the Federal agency and the recipient is the legally binding agreement that sets forth the information about the award and includes the terms and conditions of the award. The terms and conditions of the award:\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font3\"  >Provide the administrative and programmatic requirements to which the recipient must comply\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font3\"  >Are based on the established policies of the Federal agency and the requirements contained in 2 CFR 200\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text2746.arrCSSStyles.push('span.text2746Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text2746.arrCSSStyles.push('span.text2746Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text2746.arrCSSStyles.push('span.text2746Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text2746.addInnerText('<div id=\"text2746\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font2\"  >The grant agreement or cooperative agreement between the Federal agency and the recipient is the legally binding agreement that sets forth the information about the award and includes the terms and conditions of the award. The terms and conditions of the award:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font3\"  >Provide the administrative and programmatic requirements to which the recipient must comply\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2746Font3\"  >Are based on the established policies of the Federal agency and the requirements contained in 2 CFR 200</span ><span class=\"text2746Font4\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text2746.build()
 
 text112839 = new ObjText('text112839',null,300,169,101,26,1,34,null,'div',null,0 )
@@ -1294,10 +1296,10 @@ og123018 = new ObjInline('og123018',null,0,0,1009,568,1,0)
 og123018.isGrp = true
 og123018.addChild('shape123020')
 og123018.addChild('shape123022')
-og123018.addChild('shape123024')
-og123018.addChild('text123025')
 og123018.addChild('shape123027')
-og123018.addChild('text123029')
+og123018.addChild('shape155886')
+og123018.addChild('text155884')
+og123018.addChild('text155883')
 og123018.addChild('image123031')
 og123018.build()
 
@@ -1328,38 +1330,7 @@ shape123022.initLineWeight(2)
 shape123022.addOpacity(100)
 shape123022.build()
 
-shape123024 = new ObjImage('shape123024','images/shape123024.png','Rectangle 40',112,181,115.000000,44.000000,1,39,'div','',0 )
-shape123024.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
-shape123024.initHasShadow(0)
-shape123024.initHasReflection(0)
-shape123024.setUniqueFillID('page2720_shape123024')
-shape123024.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
-shape123024.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
-shape123024.setUseSvgFile(1)
-shape123024.addBorder(0)
-shape123024.initLineWeight(0)
-shape123024.addOpacity(100)
-shape123024.build()
-
-text123025 = new ObjText('text123025',null,130,242,800,50,1,40,null,'div',null,0 )
-text123025.initSLine(0)
-text123025.initHasBullet(0)
-text123025.initRotateAngle(0,0,0)
-text123025.initHasOuterShadow(0)
-text123025.initHasTextShadow(0)
-text123025.initHasBorder(0)
-text123025.initHasOutline(0)
-text123025.initHasMargin(6)
-text123025.addIe8Attr(130, 242, 800, 50, 0, 0)
-text123025.addHeading(0)
-text123025.addOpacity(100)
-text123025.arrCSSStyles = new Array();
-text123025.arrCSSStyles.push('span.text123025Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
-text123025.arrCSSStyles.push('span.text123025Font2 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
-text123025.addInnerText('<div id=\"text123025\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text123025Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;You must answer the question correctly in order to move to the next question.</span ><span class=\"text123025Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text123025.build()
-
-shape123027 = new ObjImage('shape123027','images/shape123027.png','Rectangle 43',857,191,28.000000,28.000000,1,41,'div','',0 )
+shape123027 = new ObjImage('shape123027','images/shape123027.png','Rectangle 43',857,191,28.000000,28.000000,1,39,'div','',0 )
 shape123027.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape123027.initHasShadow(0)
 shape123027.initHasReflection(0)
@@ -1375,23 +1346,55 @@ shape123027.hasOnUp = true
 shape123027.capture=4
 shape123027.build()
 
-text123029 = new ObjText('text123029',null,120,194,101,26,1,42,null,'div',null,0 )
-text123029.initSLine(1)
-text123029.initHasBullet(0)
-text123029.initRotateAngle(0,0,0)
-text123029.initHasOuterShadow(0)
-text123029.initHasTextShadow(0)
-text123029.initHasBorder(0)
-text123029.initHasOutline(0)
-text123029.initHasMargin(0)
-text123029.addIe8Attr(120, 194, 101, 26, 0, 0)
-text123029.addHeading(0)
-text123029.addOpacity(100)
-text123029.arrCSSStyles = new Array();
-text123029.arrCSSStyles.push('span.text123029Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text123029.arrCSSStyles.push('span.text123029Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text123029.addInnerText('<div id=\"text123029\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text123029Font1\"  >FEEDBACK</span ><span class=\"text123029Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text123029.build()
+shape155886 = new ObjImage('shape155886','images/shape155886.png','Rectangle 40',112,181,115.000000,44.000000,1,40,'div','',0 )
+shape155886.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
+shape155886.initHasShadow(0)
+shape155886.initHasReflection(0)
+shape155886.setUniqueFillID('page2720_shape155886')
+shape155886.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
+shape155886.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
+shape155886.setUseSvgFile(1)
+shape155886.addBorder(0)
+shape155886.initLineWeight(0)
+shape155886.addOpacity(100)
+shape155886.build()
+
+text155884 = new ObjText('text155884',null,130,230,800,50,1,41,null,'div',null,0 )
+text155884.initSLine(0)
+text155884.initHasBullet(0)
+text155884.initRotateAngle(0,0,0)
+text155884.initHasOuterShadow(0)
+text155884.initHasTextShadow(0)
+text155884.initHasBorder(0)
+text155884.initHasOutline(0)
+text155884.initHasMargin(6)
+text155884.addIe8Attr(130, 230, 800, 50, 0, 0)
+text155884.addHeading(0)
+text155884.addOpacity(100)
+text155884.arrCSSStyles = new Array();
+text155884.arrCSSStyles.push('span.text155884Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text155884.arrCSSStyles.push('span.text155884Font2 { font-size:15px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text155884.arrCSSStyles.push('span.text155884Font3 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
+text155884.addInnerText('<div id=\"text155884\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text155884Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text155884Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text155884Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text155884.build()
+
+text155883 = new ObjText('text155883',null,114,194,101,26,1,42,null,'div',null,0 )
+text155883.initSLine(1)
+text155883.initHasBullet(0)
+text155883.initRotateAngle(0,0,0)
+text155883.initHasOuterShadow(0)
+text155883.initHasTextShadow(0)
+text155883.initHasBorder(0)
+text155883.initHasOutline(0)
+text155883.initHasMargin(0)
+text155883.addIe8Attr(114, 194, 101, 26, 0, 0)
+text155883.addHeading(0)
+text155883.addOpacity(100)
+text155883.arrCSSStyles = new Array();
+text155883.arrCSSStyles.push('span.text155883Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text155883.arrCSSStyles.push('span.text155883Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text155883.addInnerText('<div id=\"text155883\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text155883Font1\"  >FEEDBACK</span ><span class=\"text155883Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text155883.build()
 
 image123031 = new ObjImage('image123031','images/image0093.png','Picture 44',862,198,18,18,1,43,'div',null, 0 )
 image123031.initRotateAngle(0,0,0,0,0,0,0)
@@ -1451,10 +1454,10 @@ arObjs.push(image2749);
 arObjs.push(og123018);
 arObjs.push(shape123020);
 arObjs.push(shape123022);
-arObjs.push(shape123024);
-arObjs.push(text123025);
 arObjs.push(shape123027);
-arObjs.push(text123029);
+arObjs.push(shape155886);
+arObjs.push(text155884);
+arObjs.push(text155883);
 arObjs.push(image123031);
 
 
@@ -1531,10 +1534,10 @@ if( is.min ){
     appendElement(image2749, null, null);
     appendElement(shape123020, null, null);
     appendElement(shape123022, null, null);
-    appendElement(shape123024, null, null);
-    appendElement(text123025, null, null);
     appendElement(shape123027, null, null);
-    appendElement(text123029, null, null);
+    appendElement(shape155886, null, null);
+    appendElement(text155884, null, null);
+    appendElement(text155883, null, null);
     appendElement(image123031, null, null);
 }
 </script>

@@ -191,7 +191,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text112866,og72751,image72753,image72756,image72759,button72766,text72768,text72770,text22805,shape3415,shape3423,shape3425,shape3427,og99960,shape3433,text3435,og100155,shape100157,text100158,og100255,shape100257,text100258,og100114,shape3417,text3436,og100105,shape3419,text3437,og100365,shape100367,text100368,og100126,shape3421,text3438,og100426,shape100428,text100429,text3439,text23378,qu99765,text99767,text99768,text99769,text99770,text99772,text99773,text99774,text99775,text99777,og86465,shape3472,shape3475,text3477,shape3486,text118307,shape3489,image3491,og99702,shape99704,shape99706,text99707,shape99709,text118332,shape99712,image99714,og123194,shape123196,shape123198,shape123200,text123201,shape123203,text123205,image123207))
+    PreloadResources(new Array(text112866,og72751,image72753,image72756,image72759,button72766,text72768,text72770,text22805,shape3415,shape3423,shape3425,shape3427,og99960,shape3433,text3435,og100155,shape100157,text100158,og100255,shape100257,text100258,og100114,shape3417,text3436,og100105,shape3419,text3437,og100365,shape100367,text100368,og100126,shape3421,text3438,og100426,shape100428,text100429,text3439,text23378,qu99765,text99767,text99768,text99769,text99770,text99772,text99773,text99774,text99775,text99777,og86465,shape3472,shape3475,text3477,shape3486,text118307,shape3489,image3491,og99702,shape99704,shape99706,text99707,shape99709,text118332,shape99712,image99714,og123194,shape123196,shape123198,shape123203,shape157718,text157716,text157715,image123207))
     pageLayer.show(true);
     text112866.init()
     og72751.init()
@@ -261,10 +261,10 @@ function init11() {
     og123194.init()
     shape123196.init()
     shape123198.init()
-    shape123200.init()
-    text123201.init()
     shape123203.init()
-    text123205.init()
+    shape157718.init()
+    text157716.init()
+    text157715.init()
     image123207.init()
     text112866.activate()
     og72751.activate()
@@ -334,10 +334,10 @@ function init11() {
     og123194.activate()
     shape123196.activate()
     shape123198.activate()
-    shape123200.activate()
-    text123201.activate()
     shape123203.activate()
-    text123205.activate()
+    shape157718.activate()
+    text157716.activate()
+    text157715.activate()
     image123207.activate()
 button72766.strCookieState = (trivBtnTracking.GetRangeStatus(72766,true));
 button72766.loadStateFromSes("normalState");
@@ -498,9 +498,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action99765_5(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action99765_11(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action99765_6(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action99765_12(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -570,7 +570,7 @@ function action72757else(fn){
 }
 
 function action72757(fn){
-    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {trivExitPage('page3493.html',true); 
     }else{ action72757else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -588,7 +588,7 @@ function action123695else(fn){
 }
 
 function action123695(fn){
-    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {trivExitPage('page3493.html',true); 
     }else{ action123695else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -610,7 +610,7 @@ function action123737(fn){
         text72768.eatOnUp=false;
         return;
     }
-    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {trivExitPage('page3493.html',true); 
     }else{ action123737else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -704,13 +704,13 @@ function Update_qu99765() {
   doImmFeedback('qu99765');
 }
 
-function action99765_5(fn){
+function action99765_11(fn){
     og86465.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action99765_6(fn){
+function action99765_12(fn){
     og99702.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1648,9 +1648,10 @@ text3477.addHeading(0)
 text3477.addOpacity(100)
 text3477.arrCSSStyles = new Array();
 text3477.arrCSSStyles.push('span.text3477Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text3477.arrCSSStyles.push('span.text3477Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text3477.arrCSSStyles.push('span.text3477Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text3477.addInnerText('<div id=\"text3477\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\"  >Discretionary Programs</span ><span class=\"text3477Font3\"  > are those programs in which the Federal agency generally may select the recipient from among all eligible applicants.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:49px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\"  >Non-discretionary Programs</span ><span class=\"text3477Font3\"  > have specific statutory authority under which the Federal agency has no ability to exercise judgement in selecting the recipient or amount of funding.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\"  >Discretionary Programs.</span ><span class=\"text3477Font3\"  > Most Federal awards are made through a competitive process.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\"  >Discretionary Programs</span ><span class=\"text3477Font3\"  > are those programs in which the Federal agency may determine the amount of funding to be awarded.\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text3477.arrCSSStyles.push('span.text3477Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text3477.arrCSSStyles.push('span.text3477Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text3477.arrCSSStyles.push('span.text3477Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
+text3477.addInnerText('<div id=\"text3477\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\"  >Discretionary Programs</span ><span class=\"text3477Font3\"  > are those programs in which the Federal agency generally may select the recipient from among all eligible applicants.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\"  >Non-discretionary Programs</span ><span class=\"text3477Font3\"  > have specific statutory authority under which the Federal agency has no ability to exercise judgement in selecting the recipient or amount of funding.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\"  >Discretionary Programs.</span ><span class=\"text3477Font3\"  > Most Federal awards are made through a competitive process.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3477Font2\"  >Discretionary Programs</span ><span class=\"text3477Font3\"  > are those programs in which the Federal agency may determine the amount of funding to be awarded.</span ><span class=\"text3477Font4\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3477.build()
 
 shape3486 = new ObjImage('shape3486','images/shape3486.png','Rectangle 54',104,170,134.000000,44.000000,1,43,'div','',0 )
@@ -1765,10 +1766,10 @@ text99707.addHeading(0)
 text99707.addOpacity(100)
 text99707.arrCSSStyles = new Array();
 text99707.arrCSSStyles.push('span.text99707Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#cf2a27; font-weight:bold;}');
-text99707.arrCSSStyles.push('span.text99707Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text99707.arrCSSStyles.push('span.text99707Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text99707.arrCSSStyles.push('span.text99707Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text99707.arrCSSStyles.push('span.text99707Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
 text99707.arrCSSStyles.push('span.text99707Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text99707.addInnerText('<div id=\"text99707\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font1\"  >Incorrect.</span ><span class=\"text99707Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font3\"  >Discretionary Programs</span ><span class=\"text99707Font4\"  > are those programs in which the Federal agency generally may select the recipient from among all eligible applicants.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:49px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font3\"  >Non-discretionary Programs</span ><span class=\"text99707Font4\"  > have specific statutory authority under which the Federal agency has no ability to exercise judgement in selecting the recipient or amount of funding.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font3\"  >Discretionary Programs.</span ><span class=\"text99707Font4\"  > Most Federal awards are made through a competitive process.\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:6px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font3\"  >Discretionary Programs</span ><span class=\"text99707Font4\"  > are those programs in which the Federal agency may determine the amount of funding to be awarded.\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text99707.addInnerText('<div id=\"text99707\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font1\"  >Incorrect.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\"  >Discretionary Programs</span ><span class=\"text99707Font3\"  > are those programs in which the Federal agency generally may select the recipient from among all eligible applicants.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\"  >Non-discretionary Programs</span ><span class=\"text99707Font3\"  > have specific statutory authority under which the Federal agency has no ability to exercise judgement in selecting the recipient or amount of funding.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\"  >Discretionary Programs.</span ><span class=\"text99707Font3\"  > Most Federal awards are made through a competitive process.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text99707Font2\"  >Discretionary Programs</span ><span class=\"text99707Font3\"  > are those programs in which the Federal agency may determine the amount of funding to be awarded</span ><span class=\"text99707Font4\"  >.\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text99707.build()
 
 shape99709 = new ObjImage('shape99709','images/shape99709.png','Rectangle 54',104,170,134.000000,44.000000,1,50,'div','',0 )
@@ -1835,10 +1836,10 @@ og123194 = new ObjInline('og123194',null,0,0,1009,568,1,0)
 og123194.isGrp = true
 og123194.addChild('shape123196')
 og123194.addChild('shape123198')
-og123194.addChild('shape123200')
-og123194.addChild('text123201')
 og123194.addChild('shape123203')
-og123194.addChild('text123205')
+og123194.addChild('shape157718')
+og123194.addChild('text157716')
+og123194.addChild('text157715')
 og123194.addChild('image123207')
 og123194.build()
 
@@ -1869,38 +1870,7 @@ shape123198.initLineWeight(2)
 shape123198.addOpacity(100)
 shape123198.build()
 
-shape123200 = new ObjImage('shape123200','images/shape123200.png','Rectangle 40',112,181,115.000000,44.000000,1,56,'div','',0 )
-shape123200.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
-shape123200.initHasShadow(0)
-shape123200.initHasReflection(0)
-shape123200.setUniqueFillID('page3411_shape123200')
-shape123200.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
-shape123200.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
-shape123200.setUseSvgFile(1)
-shape123200.addBorder(0)
-shape123200.initLineWeight(0)
-shape123200.addOpacity(100)
-shape123200.build()
-
-text123201 = new ObjText('text123201',null,130,242,800,50,1,57,null,'div',null,0 )
-text123201.initSLine(0)
-text123201.initHasBullet(0)
-text123201.initRotateAngle(0,0,0)
-text123201.initHasOuterShadow(0)
-text123201.initHasTextShadow(0)
-text123201.initHasBorder(0)
-text123201.initHasOutline(0)
-text123201.initHasMargin(6)
-text123201.addIe8Attr(130, 242, 800, 50, 0, 0)
-text123201.addHeading(0)
-text123201.addOpacity(100)
-text123201.arrCSSStyles = new Array();
-text123201.arrCSSStyles.push('span.text123201Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
-text123201.arrCSSStyles.push('span.text123201Font2 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
-text123201.addInnerText('<div id=\"text123201\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text123201Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;You must answer the question correctly in order to move to the next question.</span ><span class=\"text123201Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text123201.build()
-
-shape123203 = new ObjImage('shape123203','images/shape123203.png','Rectangle 43',857,191,28.000000,28.000000,1,58,'div','',0 )
+shape123203 = new ObjImage('shape123203','images/shape123203.png','Rectangle 43',857,191,28.000000,28.000000,1,56,'div','',0 )
 shape123203.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape123203.initHasShadow(0)
 shape123203.initHasReflection(0)
@@ -1916,23 +1886,55 @@ shape123203.hasOnUp = true
 shape123203.capture=4
 shape123203.build()
 
-text123205 = new ObjText('text123205',null,120,194,101,26,1,59,null,'div',null,0 )
-text123205.initSLine(1)
-text123205.initHasBullet(0)
-text123205.initRotateAngle(0,0,0)
-text123205.initHasOuterShadow(0)
-text123205.initHasTextShadow(0)
-text123205.initHasBorder(0)
-text123205.initHasOutline(0)
-text123205.initHasMargin(0)
-text123205.addIe8Attr(120, 194, 101, 26, 0, 0)
-text123205.addHeading(0)
-text123205.addOpacity(100)
-text123205.arrCSSStyles = new Array();
-text123205.arrCSSStyles.push('span.text123205Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text123205.arrCSSStyles.push('span.text123205Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text123205.addInnerText('<div id=\"text123205\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text123205Font1\"  >FEEDBACK</span ><span class=\"text123205Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text123205.build()
+shape157718 = new ObjImage('shape157718','images/shape157718.png','Rectangle 40',112,181,115.000000,44.000000,1,57,'div','',0 )
+shape157718.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
+shape157718.initHasShadow(0)
+shape157718.initHasReflection(0)
+shape157718.setUniqueFillID('page3411_shape157718')
+shape157718.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
+shape157718.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
+shape157718.setUseSvgFile(1)
+shape157718.addBorder(0)
+shape157718.initLineWeight(0)
+shape157718.addOpacity(100)
+shape157718.build()
+
+text157716 = new ObjText('text157716',null,130,230,800,50,1,58,null,'div',null,0 )
+text157716.initSLine(0)
+text157716.initHasBullet(0)
+text157716.initRotateAngle(0,0,0)
+text157716.initHasOuterShadow(0)
+text157716.initHasTextShadow(0)
+text157716.initHasBorder(0)
+text157716.initHasOutline(0)
+text157716.initHasMargin(6)
+text157716.addIe8Attr(130, 230, 800, 50, 0, 0)
+text157716.addHeading(0)
+text157716.addOpacity(100)
+text157716.arrCSSStyles = new Array();
+text157716.arrCSSStyles.push('span.text157716Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text157716.arrCSSStyles.push('span.text157716Font2 { font-size:15px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text157716.arrCSSStyles.push('span.text157716Font3 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
+text157716.addInnerText('<div id=\"text157716\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text157716Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text157716Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text157716Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text157716.build()
+
+text157715 = new ObjText('text157715',null,114,194,101,26,1,59,null,'div',null,0 )
+text157715.initSLine(1)
+text157715.initHasBullet(0)
+text157715.initRotateAngle(0,0,0)
+text157715.initHasOuterShadow(0)
+text157715.initHasTextShadow(0)
+text157715.initHasBorder(0)
+text157715.initHasOutline(0)
+text157715.initHasMargin(0)
+text157715.addIe8Attr(114, 194, 101, 26, 0, 0)
+text157715.addHeading(0)
+text157715.addOpacity(100)
+text157715.arrCSSStyles = new Array();
+text157715.arrCSSStyles.push('span.text157715Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text157715.arrCSSStyles.push('span.text157715Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text157715.addInnerText('<div id=\"text157715\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text157715Font1\"  >FEEDBACK</span ><span class=\"text157715Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text157715.build()
 
 image123207 = new ObjImage('image123207','images/image0093.png','Picture 44',862,198,18,18,1,60,'div',null, 0 )
 image123207.initRotateAngle(0,0,0,0,0,0,0)
@@ -2016,10 +2018,10 @@ arObjs.push(image99714);
 arObjs.push(og123194);
 arObjs.push(shape123196);
 arObjs.push(shape123198);
-arObjs.push(shape123200);
-arObjs.push(text123201);
 arObjs.push(shape123203);
-arObjs.push(text123205);
+arObjs.push(shape157718);
+arObjs.push(text157716);
+arObjs.push(text157715);
 arObjs.push(image123207);
 
 
@@ -2114,10 +2116,10 @@ if( is.min ){
     appendElement(image99714, null, null);
     appendElement(shape123196, null, null);
     appendElement(shape123198, null, null);
-    appendElement(shape123200, null, null);
-    appendElement(text123201, null, null);
     appendElement(shape123203, null, null);
-    appendElement(text123205, null, null);
+    appendElement(shape157718, null, null);
+    appendElement(text157716, null, null);
+    appendElement(text157715, null, null);
     appendElement(image123207, null, null);
 }
 </script>

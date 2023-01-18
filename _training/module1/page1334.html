@@ -290,7 +290,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text110033,og79436,image79438,image79441,image79444,button79451,text79453,text79455,shape1335,shape1337,shape1339,shape1341,shape1343,shape1345,text20617,shape1352,text1354,shape1355,text1358,text1360,og6746,shape1367,text110203,text1370,text1371,qu6257,text6259,text6260,check6261,text6262,check6263,text6264,check6265,text6266,check6267,og6782,shape6784,shape6786,shape6788,text6789,shape6792,text6790,text6912,image6794,image6796,image6798,image6800,og78768,shape78770,shape78772,shape78774,text78775,shape78778,text78776,text78780,image78782,image78785,image78787,image78789,og122352,shape122354,shape122356,shape122358,text122359,shape122361,text122363,image122365))
+    PreloadResources(new Array(text110033,og79436,image79438,image79441,image79444,button79451,text79453,text79455,shape1335,shape1337,shape1339,shape1341,shape1343,shape1345,text20617,shape1352,text1354,shape1355,text1358,text1360,og6746,shape1367,text110203,text1370,text1371,qu6257,text6259,text6260,check6261,text6262,check6263,text6264,check6265,text6266,check6267,og6782,shape6784,shape6786,shape6788,text6789,shape6792,text6790,text6912,image6794,image6796,image6798,image6800,og78768,shape78770,shape78772,shape78774,text78775,shape78778,text153756,image153755,image153753,image153751,text78780,image78782,og122352,shape122354,shape122356,shape153815,text153813,text153812,shape122361,image122365))
     pageLayer.show(true);
     text110033.init()
     og79436.init()
@@ -345,19 +345,19 @@ function init11() {
     shape78774.init()
     text78775.init()
     shape78778.init()
-    text78776.init()
+    text153756.init()
+    image153755.init()
+    image153753.init()
+    image153751.init()
     text78780.init()
     image78782.init()
-    image78785.init()
-    image78787.init()
-    image78789.init()
     og122352.init()
     shape122354.init()
     shape122356.init()
-    shape122358.init()
-    text122359.init()
+    shape153815.init()
+    text153813.init()
+    text153812.init()
     shape122361.init()
-    text122363.init()
     image122365.init()
     text110033.activate()
     og79436.activate()
@@ -412,19 +412,19 @@ function init11() {
     shape78774.activate()
     text78775.activate()
     shape78778.activate()
-    text78776.activate()
+    text153756.activate()
+    image153755.activate()
+    image153753.activate()
+    image153751.activate()
     text78780.activate()
     image78782.activate()
-    image78785.activate()
-    image78787.activate()
-    image78789.activate()
     og122352.activate()
     shape122354.activate()
     shape122356.activate()
-    shape122358.activate()
-    text122359.activate()
+    shape153815.activate()
+    text153813.activate()
+    text153812.activate()
     shape122361.activate()
-    text122363.activate()
     image122365.activate()
 button79451.strCookieState = (trivBtnTracking.GetRangeStatus(79451,true));
 button79451.loadStateFromSes("normalState");
@@ -544,12 +544,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu6257.hasBeenProcessed) {
     if( ans_Varl1q3 == '\u0052\u0065\u006C\u0065\u0076\u0061\u006E\u0074\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D\u0020\u0073\u0074\u0061\u0074\u0075\u0074\u0065\u002C\u004C\u0065\u0067\u0069\u0073\u006C\u0061\u0074\u0069\u0076\u0065\u0020\u0068\u0069\u0073\u0074\u006F\u0072\u0079\u0020\u006F\u0066\u0020\u0074\u0068\u0065\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D\u0020\u0073\u0074\u0061\u0074\u0075\u0074\u0065\u002C\u0041\u0070\u0070\u0072\u006F\u0070\u0072\u0069\u0061\u0074\u0069\u006F\u006E\u0020\u0061\u0063\u0074\u0073\u0020\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0062\u006C\u0065\u0020\u0074\u006F\u0020\u0074\u0068\u0065\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D' ) 
     { //1 
-        trivActFBCnt++; action6257_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action6257_7(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q3 != '\u0052\u0065\u006C\u0065\u0076\u0061\u006E\u0074\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D\u0020\u0073\u0074\u0061\u0074\u0075\u0074\u0065\u002C\u004C\u0065\u0067\u0069\u0073\u006C\u0061\u0074\u0069\u0076\u0065\u0020\u0068\u0069\u0073\u0074\u006F\u0072\u0079\u0020\u006F\u0066\u0020\u0074\u0068\u0065\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D\u0020\u0073\u0074\u0061\u0074\u0075\u0074\u0065\u002C\u0041\u0070\u0070\u0072\u006F\u0070\u0072\u0069\u0061\u0074\u0069\u006F\u006E\u0020\u0061\u0063\u0074\u0073\u0020\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0062\u006C\u0065\u0020\u0074\u006F\u0020\u0074\u0068\u0065\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D' && ans_Varl1q3 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action6257_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action6257_8(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -777,13 +777,13 @@ function Update_qu6257( upd ) {
     qu6257Object.hasBeenProcessed=false;
 }
 
-function action6257_3(fn){
+function action6257_7(fn){
     og6782.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action6257_4(fn){
+function action6257_8(fn){
     og6782.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1416,7 +1416,7 @@ shape6792.initLineWeight(2)
 shape6792.addOpacity(100)
 shape6792.build()
 
-text6790 = new ObjText('text6790',null,320,239,365,196,0,39,null,'div',null,0 )
+text6790 = new ObjText('text6790',null,320,239,365,234,0,39,null,'div',null,0 )
 text6790.initSLine(0)
 text6790.initHasBullet(0)
 text6790.initRotateAngle(0,0,0)
@@ -1425,14 +1425,14 @@ text6790.initHasTextShadow(0)
 text6790.initHasBorder(0)
 text6790.initHasOutline(0)
 text6790.initHasMargin(6)
-text6790.addIe8Attr(320, 239, 365, 196, 0, 0)
+text6790.addIe8Attr(320, 239, 365, 234, 0, 0)
 text6790.addHeading(0)
 text6790.addOpacity(100)
 text6790.arrCSSStyles = new Array();
-text6790.arrCSSStyles.push('span.text6790Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text6790.arrCSSStyles.push('span.text6790Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text6790.arrCSSStyles.push('span.text6790Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text6790.addInnerText('<div id=\"text6790\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font2\"  >An “authorized grant purpose” is not determined by examining public support for the program. It is determined by examining:\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\"  >Relevant program statute\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\"  >Legislative history of the program statute\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  style=\"margin-left:41px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\"  >Appropriation acts applicable to the program\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text6790.arrCSSStyles.push('span.text6790Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
+text6790.arrCSSStyles.push('span.text6790Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text6790.arrCSSStyles.push('span.text6790Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text6790.addInnerText('<div id=\"text6790\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font2\"  >An “authorized grant purpose” is not determined by examining public support for the program. It is determined by examining:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\"  >Relevant program statute\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\"  >Legislative history of the program statute\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6790Font4\"  >Appropriation acts applicable to the program\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text6790.build()
 
 text6912 = new ObjText('text6912',null,325,243,200,80,0,40,null,'div',null,0 )
@@ -1466,11 +1466,11 @@ image6794.hasOnUp = true
 image6794.capture=4
 image6794.build()
 
-image6796 = new ObjImage('image6796','images/image0090.png','Picture 78',324,315,27,26,0,42,'div',null, 0 )
+image6796 = new ObjImage('image6796','images/image0090.png','Picture 78',324,320,27,26,0,42,'div',null, 0 )
 image6796.initRotateAngle(0,0,0,0,0,0,0)
 image6796.initHasShadow(0)
 image6796.initHasReflection(0)
-image6796.addIe8Attr(324, 315, 27, 26, 0, 0)
+image6796.addIe8Attr(324, 320, 27, 26, 0, 0)
 image6796.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
 image6796.addBorder(0)
 image6796.addOpacity(100)
@@ -1486,11 +1486,11 @@ image6798.addBorder(0)
 image6798.addOpacity(100)
 image6798.build()
 
-image6800 = new ObjImage('image6800','images/image0090.png','Picture 81',324,406,27,26,0,44,'div',null, 0 )
+image6800 = new ObjImage('image6800','images/image0090.png','Picture 81',324,400,27,26,0,44,'div',null, 0 )
 image6800.initRotateAngle(0,0,0,0,0,0,0)
 image6800.initHasShadow(0)
 image6800.initHasReflection(0)
-image6800.addIe8Attr(324, 406, 27, 26, 0, 0)
+image6800.addIe8Attr(324, 400, 27, 26, 0, 0)
 image6800.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
 image6800.addBorder(0)
 image6800.addOpacity(100)
@@ -1503,12 +1503,12 @@ og78768.addChild('shape78772')
 og78768.addChild('shape78774')
 og78768.addChild('text78775')
 og78768.addChild('shape78778')
-og78768.addChild('text78776')
+og78768.addChild('text153756')
+og78768.addChild('image153755')
+og78768.addChild('image153753')
+og78768.addChild('image153751')
 og78768.addChild('text78780')
 og78768.addChild('image78782')
-og78768.addChild('image78785')
-og78768.addChild('image78787')
-og78768.addChild('image78789')
 og78768.build()
 
 shape78770 = new ObjImage('shape78770','images/shape78770.png','Rectangle 2',0,0,1009.000000,569.000000,0,45,'div','',0 )
@@ -1582,26 +1582,56 @@ shape78778.initLineWeight(2)
 shape78778.addOpacity(100)
 shape78778.build()
 
-text78776 = new ObjText('text78776',null,320,239,365,196,0,50,null,'div',null,0 )
-text78776.initSLine(0)
-text78776.initHasBullet(0)
-text78776.initRotateAngle(0,0,0)
-text78776.initHasOuterShadow(0)
-text78776.initHasTextShadow(0)
-text78776.initHasBorder(0)
-text78776.initHasOutline(0)
-text78776.initHasMargin(6)
-text78776.addIe8Attr(320, 239, 365, 196, 0, 0)
-text78776.addHeading(0)
-text78776.addOpacity(100)
-text78776.arrCSSStyles = new Array();
-text78776.arrCSSStyles.push('span.text78776Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text78776.arrCSSStyles.push('span.text78776Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text78776.arrCSSStyles.push('span.text78776Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text78776.addInnerText('<div id=\"text78776\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font2\"  >An “authorized grant purpose” is not determined by examining public support for the program. It is determined by examining:\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font4\"  >Relevant program statute\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font4\"  >Legislative history of the program statute\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  style=\"margin-left:41px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78776Font4\"  >Appropriation acts applicable to the program\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text78776.build()
+text153756 = new ObjText('text153756',null,320,239,365,234,0,50,null,'div',null,0 )
+text153756.initSLine(0)
+text153756.initHasBullet(0)
+text153756.initRotateAngle(0,0,0)
+text153756.initHasOuterShadow(0)
+text153756.initHasTextShadow(0)
+text153756.initHasBorder(0)
+text153756.initHasOutline(0)
+text153756.initHasMargin(6)
+text153756.addIe8Attr(320, 239, 365, 234, 0, 0)
+text153756.addHeading(0)
+text153756.addOpacity(100)
+text153756.arrCSSStyles = new Array();
+text153756.arrCSSStyles.push('span.text153756Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
+text153756.arrCSSStyles.push('span.text153756Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text153756.arrCSSStyles.push('span.text153756Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text153756.addInnerText('<div id=\"text153756\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153756Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153756Font2\"  >An “authorized grant purpose” is not determined by examining public support for the program. It is determined by examining:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153756Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153756Font4\"  >Relevant program statute\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153756Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153756Font4\"  >Legislative history of the program statute\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153756Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153756Font4\"  >Appropriation acts applicable to the program\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text153756.build()
 
-text78780 = new ObjText('text78780',null,325,243,200,80,0,51,null,'div',null,0 )
+image153755 = new ObjImage('image153755','images/image0090.png','Picture 78',324,320,27,26,0,51,'div',null, 0 )
+image153755.initRotateAngle(0,0,0,0,0,0,0)
+image153755.initHasShadow(0)
+image153755.initHasReflection(0)
+image153755.addIe8Attr(324, 320, 27, 26, 0, 0)
+image153755.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
+image153755.addBorder(0)
+image153755.addOpacity(100)
+image153755.build()
+
+image153753 = new ObjImage('image153753','images/image0091.png','Picture 80',324,360,27,26,0,52,'div',null, 0 )
+image153753.initRotateAngle(0,0,0,0,0,0,0)
+image153753.initHasShadow(0)
+image153753.initHasReflection(0)
+image153753.addIe8Attr(324, 360, 27, 26, 0, 0)
+image153753.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
+image153753.addBorder(0)
+image153753.addOpacity(100)
+image153753.build()
+
+image153751 = new ObjImage('image153751','images/image0090.png','Picture 81',324,400,27,26,0,53,'div',null, 0 )
+image153751.initRotateAngle(0,0,0,0,0,0,0)
+image153751.initHasShadow(0)
+image153751.initHasReflection(0)
+image153751.addIe8Attr(324, 400, 27, 26, 0, 0)
+image153751.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
+image153751.addBorder(0)
+image153751.addOpacity(100)
+image153751.build()
+
+text78780 = new ObjText('text78780',null,325,243,200,80,0,54,null,'div',null,0 )
 text78780.initSLine(0)
 text78780.initHasBullet(0)
 text78780.initRotateAngle(0,0,0)
@@ -1619,7 +1649,7 @@ text78780.arrCSSStyles.push('span.text78780Font2 { font-size:16px; font-family:"
 text78780.addInnerText('<div id=\"text78780\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text78780Font1\"  >Incorrect.</span ><span class=\"text78780Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text78780.build()
 
-image78782 = new ObjImage('image78782','images/image0089.png','Picture 93',674,194,18,18,0,52,'div',null, 0 )
+image78782 = new ObjImage('image78782','images/image0089.png','Picture 93',674,194,18,18,0,55,'div',null, 0 )
 image78782.initRotateAngle(0,0,0,0,0,0,0)
 image78782.initHasShadow(0)
 image78782.initHasReflection(0)
@@ -1632,44 +1662,14 @@ image78782.hasOnUp = true
 image78782.capture=4
 image78782.build()
 
-image78785 = new ObjImage('image78785','images/image0090.png','Picture 78',324,315,27,26,0,53,'div',null, 0 )
-image78785.initRotateAngle(0,0,0,0,0,0,0)
-image78785.initHasShadow(0)
-image78785.initHasReflection(0)
-image78785.addIe8Attr(324, 315, 27, 26, 0, 0)
-image78785.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
-image78785.addBorder(0)
-image78785.addOpacity(100)
-image78785.build()
-
-image78787 = new ObjImage('image78787','images/image0091.png','Picture 80',324,360,27,26,0,54,'div',null, 0 )
-image78787.initRotateAngle(0,0,0,0,0,0,0)
-image78787.initHasShadow(0)
-image78787.initHasReflection(0)
-image78787.addIe8Attr(324, 360, 27, 26, 0, 0)
-image78787.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
-image78787.addBorder(0)
-image78787.addOpacity(100)
-image78787.build()
-
-image78789 = new ObjImage('image78789','images/image0090.png','Picture 81',324,406,27,26,0,55,'div',null, 0 )
-image78789.initRotateAngle(0,0,0,0,0,0,0)
-image78789.initHasShadow(0)
-image78789.initHasReflection(0)
-image78789.addIe8Attr(324, 406, 27, 26, 0, 0)
-image78789.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
-image78789.addBorder(0)
-image78789.addOpacity(100)
-image78789.build()
-
 og122352 = new ObjInline('og122352',null,0,0,1009,568,1,0)
 og122352.isGrp = true
 og122352.addChild('shape122354')
 og122352.addChild('shape122356')
-og122352.addChild('shape122358')
-og122352.addChild('text122359')
+og122352.addChild('shape153815')
+og122352.addChild('text153813')
+og122352.addChild('text153812')
 og122352.addChild('shape122361')
-og122352.addChild('text122363')
 og122352.addChild('image122365')
 og122352.build()
 
@@ -1700,38 +1700,57 @@ shape122356.initLineWeight(2)
 shape122356.addOpacity(100)
 shape122356.build()
 
-shape122358 = new ObjImage('shape122358','images/shape122358.png','Rectangle 40',112,181,115.000000,44.000000,1,58,'div','',0 )
-shape122358.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
-shape122358.initHasShadow(0)
-shape122358.initHasReflection(0)
-shape122358.setUniqueFillID('page1334_shape122358')
-shape122358.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
-shape122358.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
-shape122358.setUseSvgFile(1)
-shape122358.addBorder(0)
-shape122358.initLineWeight(0)
-shape122358.addOpacity(100)
-shape122358.build()
+shape153815 = new ObjImage('shape153815','images/shape153815.png','Rectangle 40',112,181,115.000000,44.000000,1,58,'div','',0 )
+shape153815.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
+shape153815.initHasShadow(0)
+shape153815.initHasReflection(0)
+shape153815.setUniqueFillID('page1334_shape153815')
+shape153815.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
+shape153815.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
+shape153815.setUseSvgFile(1)
+shape153815.addBorder(0)
+shape153815.initLineWeight(0)
+shape153815.addOpacity(100)
+shape153815.build()
 
-text122359 = new ObjText('text122359',null,130,242,800,50,1,59,null,'div',null,0 )
-text122359.initSLine(0)
-text122359.initHasBullet(0)
-text122359.initRotateAngle(0,0,0)
-text122359.initHasOuterShadow(0)
-text122359.initHasTextShadow(0)
-text122359.initHasBorder(0)
-text122359.initHasOutline(0)
-text122359.initHasMargin(6)
-text122359.addIe8Attr(130, 242, 800, 50, 0, 0)
-text122359.addHeading(0)
-text122359.addOpacity(100)
-text122359.arrCSSStyles = new Array();
-text122359.arrCSSStyles.push('span.text122359Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
-text122359.arrCSSStyles.push('span.text122359Font2 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
-text122359.addInnerText('<div id=\"text122359\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text122359Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;You must answer the question correctly in order to move to the next question.</span ><span class=\"text122359Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text122359.build()
+text153813 = new ObjText('text153813',null,130,230,800,50,1,59,null,'div',null,0 )
+text153813.initSLine(0)
+text153813.initHasBullet(0)
+text153813.initRotateAngle(0,0,0)
+text153813.initHasOuterShadow(0)
+text153813.initHasTextShadow(0)
+text153813.initHasBorder(0)
+text153813.initHasOutline(0)
+text153813.initHasMargin(6)
+text153813.addIe8Attr(130, 230, 800, 50, 0, 0)
+text153813.addHeading(0)
+text153813.addOpacity(100)
+text153813.arrCSSStyles = new Array();
+text153813.arrCSSStyles.push('span.text153813Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text153813.arrCSSStyles.push('span.text153813Font2 { font-size:15px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text153813.arrCSSStyles.push('span.text153813Font3 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
+text153813.addInnerText('<div id=\"text153813\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153813Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text153813Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text153813Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text153813.build()
 
-shape122361 = new ObjImage('shape122361','images/shape122361.png','Rectangle 43',857,191,28.000000,28.000000,1,60,'div','',0 )
+text153812 = new ObjText('text153812',null,114,194,101,26,1,60,null,'div',null,0 )
+text153812.initSLine(1)
+text153812.initHasBullet(0)
+text153812.initRotateAngle(0,0,0)
+text153812.initHasOuterShadow(0)
+text153812.initHasTextShadow(0)
+text153812.initHasBorder(0)
+text153812.initHasOutline(0)
+text153812.initHasMargin(0)
+text153812.addIe8Attr(114, 194, 101, 26, 0, 0)
+text153812.addHeading(0)
+text153812.addOpacity(100)
+text153812.arrCSSStyles = new Array();
+text153812.arrCSSStyles.push('span.text153812Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text153812.arrCSSStyles.push('span.text153812Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text153812.addInnerText('<div id=\"text153812\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153812Font1\"  >FEEDBACK</span ><span class=\"text153812Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text153812.build()
+
+shape122361 = new ObjImage('shape122361','images/shape122361.png','Rectangle 43',857,191,28.000000,28.000000,1,61,'div','',0 )
 shape122361.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape122361.initHasShadow(0)
 shape122361.initHasReflection(0)
@@ -1746,24 +1765,6 @@ shape122361.onUp = shape122361onUp
 shape122361.hasOnUp = true
 shape122361.capture=4
 shape122361.build()
-
-text122363 = new ObjText('text122363',null,120,194,101,26,1,61,null,'div',null,0 )
-text122363.initSLine(1)
-text122363.initHasBullet(0)
-text122363.initRotateAngle(0,0,0)
-text122363.initHasOuterShadow(0)
-text122363.initHasTextShadow(0)
-text122363.initHasBorder(0)
-text122363.initHasOutline(0)
-text122363.initHasMargin(0)
-text122363.addIe8Attr(120, 194, 101, 26, 0, 0)
-text122363.addHeading(0)
-text122363.addOpacity(100)
-text122363.arrCSSStyles = new Array();
-text122363.arrCSSStyles.push('span.text122363Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text122363.arrCSSStyles.push('span.text122363Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text122363.addInnerText('<div id=\"text122363\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text122363Font1\"  >FEEDBACK</span ><span class=\"text122363Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text122363.build()
 
 image122365 = new ObjImage('image122365','images/image0093.png','Picture 44',862,198,18,18,1,62,'div',null, 0 )
 image122365.initRotateAngle(0,0,0,0,0,0,0)
@@ -1832,19 +1833,19 @@ arObjs.push(shape78772);
 arObjs.push(shape78774);
 arObjs.push(text78775);
 arObjs.push(shape78778);
-arObjs.push(text78776);
+arObjs.push(text153756);
+arObjs.push(image153755);
+arObjs.push(image153753);
+arObjs.push(image153751);
 arObjs.push(text78780);
 arObjs.push(image78782);
-arObjs.push(image78785);
-arObjs.push(image78787);
-arObjs.push(image78789);
 arObjs.push(og122352);
 arObjs.push(shape122354);
 arObjs.push(shape122356);
-arObjs.push(shape122358);
-arObjs.push(text122359);
+arObjs.push(shape153815);
+arObjs.push(text153813);
+arObjs.push(text153812);
 arObjs.push(shape122361);
-arObjs.push(text122363);
 arObjs.push(image122365);
 
 
@@ -1937,18 +1938,18 @@ if( is.min ){
     appendElement(shape78774, null, null);
     appendElement(text78775, null, null);
     appendElement(shape78778, null, null);
-    appendElement(text78776, null, null);
+    appendElement(text153756, null, null);
+    appendElement(image153755, null, null);
+    appendElement(image153753, null, null);
+    appendElement(image153751, null, null);
     appendElement(text78780, null, null);
     appendElement(image78782, null, null);
-    appendElement(image78785, null, null);
-    appendElement(image78787, null, null);
-    appendElement(image78789, null, null);
     appendElement(shape122354, null, null);
     appendElement(shape122356, null, null);
-    appendElement(shape122358, null, null);
-    appendElement(text122359, null, null);
+    appendElement(shape153815, null, null);
+    appendElement(text153813, null, null);
+    appendElement(text153812, null, null);
     appendElement(shape122361, null, null);
-    appendElement(text122363, null, null);
     appendElement(image122365, null, null);
 }
 </script>

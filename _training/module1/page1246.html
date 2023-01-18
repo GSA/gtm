@@ -290,7 +290,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text110033,og79321,image79323,image79326,image79329,button79336,text79338,text79340,text20596,shape1252,text1254,shape1255,shape1258,text1260,shape1261,shape1264,text1266,shape1267,text1270,og77244,shape1276,text1278,qu5242,text5244,text5245,check5246,text5247,check5248,text5249,check5250,og5846,shape1313,shape1315,shape1317,text1319,text1320,shape1321,image1324,image1327,image1330,image1332,og57594,shape57596,shape57598,shape57600,text57601,text57602,shape57604,image57608,image57611,image57613,image57615,og122273,shape122275,shape122277,shape122279,text122280,shape122282,text122284,image122286))
+    PreloadResources(new Array(text110033,og79321,image79323,image79326,image79329,button79336,text79338,text79340,text20596,shape1252,text1254,shape1255,shape1258,text1260,shape1261,shape1264,text1266,shape1267,text1270,og77244,shape1276,text1278,qu5242,text5244,text5245,check5246,text5247,check5248,text5249,check5250,og5846,shape1313,shape1315,shape1317,text1319,text1320,shape1321,image1324,image1327,image1330,image1332,og57594,shape57596,shape57598,shape57600,text57601,text153502,image153501,image153499,image153497,shape57604,image57608,og122273,shape122275,shape122277,shape153621,text153619,text153618,shape122282,image122286))
     pageLayer.show(true);
     text110033.init()
     og79321.init()
@@ -338,19 +338,19 @@ function init11() {
     shape57598.init()
     shape57600.init()
     text57601.init()
-    text57602.init()
+    text153502.init()
+    image153501.init()
+    image153499.init()
+    image153497.init()
     shape57604.init()
     image57608.init()
-    image57611.init()
-    image57613.init()
-    image57615.init()
     og122273.init()
     shape122275.init()
     shape122277.init()
-    shape122279.init()
-    text122280.init()
+    shape153621.init()
+    text153619.init()
+    text153618.init()
     shape122282.init()
-    text122284.init()
     image122286.init()
     text110033.activate()
     og79321.activate()
@@ -398,19 +398,19 @@ function init11() {
     shape57598.activate()
     shape57600.activate()
     text57601.activate()
-    text57602.activate()
+    text153502.activate()
+    image153501.activate()
+    image153499.activate()
+    image153497.activate()
     shape57604.activate()
     image57608.activate()
-    image57611.activate()
-    image57613.activate()
-    image57615.activate()
     og122273.activate()
     shape122275.activate()
     shape122277.activate()
-    shape122279.activate()
-    text122280.activate()
+    shape153621.activate()
+    text153619.activate()
+    text153618.activate()
     shape122282.activate()
-    text122284.activate()
     image122286.activate()
 button79336.strCookieState = (trivBtnTracking.GetRangeStatus(79336,true));
 button79336.loadStateFromSes("normalState");
@@ -530,12 +530,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu5242.hasBeenProcessed) {
     if( ans_Varl1q2 == '\u0054\u0068\u0065\u0020\u0070\u0075\u0072\u0070\u006F\u0073\u0065\u0020\u0069\u0073\u0020\u0061\u0075\u0074\u0068\u006F\u0072\u0069\u007A\u0065\u0064\u002C\u0054\u0068\u0065\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0067\u0065\u006E\u0063\u0079\u0020\u006F\u0062\u006C\u0069\u0067\u0061\u0074\u0065\u0073\u0020\u0074\u0068\u0065\u0020\u0066\u0075\u006E\u0064\u0073\u0020\u0077\u0069\u0074\u0068\u0069\u006E\u0020\u0074\u0068\u0065\u0020\u0074\u0069\u006D\u0065\u0020\u006C\u0069\u006D\u0069\u0074\u0073\u0020\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0062\u006C\u0065\u0020\u0074\u006F\u0020\u0074\u0068\u0065\u0020\u0061\u0070\u0070\u0072\u006F\u0070\u0072\u0069\u0061\u0074\u0069\u006F\u006E\u002C\u0054\u0068\u0065\u0020\u006F\u0062\u006C\u0069\u0067\u0061\u0074\u0069\u006F\u006E\u0020\u0061\u006E\u0064\u0020\u0065\u0078\u0070\u0065\u006E\u0064\u0069\u0074\u0075\u0072\u0065\u0020\u0061\u0072\u0065\u0020\u0077\u0069\u0074\u0068\u0069\u006E\u0020\u0074\u0068\u0065\u0020\u0061\u006D\u006F\u0075\u006E\u0074\u0073\u0020\u0043\u006F\u006E\u0067\u0072\u0065\u0073\u0073\u0020\u0068\u0061\u0073\u0020\u0065\u0073\u0074\u0061\u0062\u006C\u0069\u0073\u0068\u0065\u0064' ) 
     { //1 
-        trivActFBCnt++; action5242_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action5242_7(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q2 != '\u0054\u0068\u0065\u0020\u0070\u0075\u0072\u0070\u006F\u0073\u0065\u0020\u0069\u0073\u0020\u0061\u0075\u0074\u0068\u006F\u0072\u0069\u007A\u0065\u0064\u002C\u0054\u0068\u0065\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0067\u0065\u006E\u0063\u0079\u0020\u006F\u0062\u006C\u0069\u0067\u0061\u0074\u0065\u0073\u0020\u0074\u0068\u0065\u0020\u0066\u0075\u006E\u0064\u0073\u0020\u0077\u0069\u0074\u0068\u0069\u006E\u0020\u0074\u0068\u0065\u0020\u0074\u0069\u006D\u0065\u0020\u006C\u0069\u006D\u0069\u0074\u0073\u0020\u0061\u0070\u0070\u006C\u0069\u0063\u0061\u0062\u006C\u0065\u0020\u0074\u006F\u0020\u0074\u0068\u0065\u0020\u0061\u0070\u0070\u0072\u006F\u0070\u0072\u0069\u0061\u0074\u0069\u006F\u006E\u002C\u0054\u0068\u0065\u0020\u006F\u0062\u006C\u0069\u0067\u0061\u0074\u0069\u006F\u006E\u0020\u0061\u006E\u0064\u0020\u0065\u0078\u0070\u0065\u006E\u0064\u0069\u0074\u0075\u0072\u0065\u0020\u0061\u0072\u0065\u0020\u0077\u0069\u0074\u0068\u0069\u006E\u0020\u0074\u0068\u0065\u0020\u0061\u006D\u006F\u0075\u006E\u0074\u0073\u0020\u0043\u006F\u006E\u0067\u0072\u0065\u0073\u0073\u0020\u0068\u0061\u0073\u0020\u0065\u0073\u0074\u0061\u0062\u006C\u0069\u0073\u0068\u0065\u0064' && ans_Varl1q2 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action5242_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action5242_8(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -760,13 +760,13 @@ function Update_qu5242( upd ) {
     qu5242Object.hasBeenProcessed=false;
 }
 
-function action5242_3(fn){
+function action5242_7(fn){
     og5846.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action5242_4(fn){
+function action5242_8(fn){
     og57594.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1124,13 +1124,13 @@ og77244.addChild('shape1276')
 og77244.addChild('text1278')
 og77244.build()
 
-shape1276 = new ObjImage('shape1276','images/shape1276.png','Submit',458,461,91.000000,44.000000,1,20,'div','',0 )
-shape1276.initRotateAngle(0,0,0,-0.000000,-0.000000,90,43)
+shape1276 = new ObjImage('shape1276','images/shape1276.png','Submit',458,461,91.000000,41.000000,1,20,'div','',0 )
+shape1276.initRotateAngle(0,0,0,-0.000000,-0.000000,90,40)
 shape1276.initHasShadow(0)
 shape1276.initHasReflection(0)
 shape1276.setUniqueFillID('page1246_shape1276')
-shape1276.addIe8Attr(458.000000, 461.000000, 91.000000, 44.000000, 0, 0)
-shape1276.initImageMap(1,'0,0,90,0,90,43,0,43,0,0','M 0.000000 0.000000 L 90.000000 0.000000 L 90.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#CDAE31;"' , '')
+shape1276.addIe8Attr(458.000000, 461.000000, 91.000000, 41.000000, 0, 0)
+shape1276.initImageMap(1,'0,0,90,0,90,40,0,40,0,0','M 0.000000 0.000000 L 90.000000 0.000000 L 90.000000 40.000000 L 0.000000 40.000000 L 0.000000 0.000000 z', '', 'fill:#CDAE31;"' , '')
 shape1276.setUseSvgFile(1)
 shape1276.addBorder(0)
 shape1276.initLineWeight(0)
@@ -1328,7 +1328,7 @@ text1319.arrCSSStyles.push('span.text1319Font2 { font-size:15px; font-family:"Os
 text1319.addInnerText('<div id=\"text1319\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1319Font1\"  >FEEDBACK</span ><span class=\"text1319Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text1319.build()
 
-text1320 = new ObjText('text1320',null,320,239,365,245,0,33,null,'div',null,0 )
+text1320 = new ObjText('text1320',null,320,239,365,252,0,33,null,'div',null,0 )
 text1320.initSLine(0)
 text1320.initHasBullet(0)
 text1320.initRotateAngle(0,0,0)
@@ -1337,14 +1337,14 @@ text1320.initHasTextShadow(0)
 text1320.initHasBorder(0)
 text1320.initHasOutline(0)
 text1320.initHasMargin(6)
-text1320.addIe8Attr(320, 239, 365, 245, 0, 0)
+text1320.addIe8Attr(320, 239, 365, 252, 0, 0)
 text1320.addHeading(0)
 text1320.addOpacity(100)
 text1320.arrCSSStyles = new Array();
 text1320.arrCSSStyles.push('span.text1320Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text1320.arrCSSStyles.push('span.text1320Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text1320.arrCSSStyles.push('span.text1320Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text1320.addInnerText('<div id=\"text1320\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font2\"  >Funds must be “legally available” to be used for a given obligation or expenditure. Funds are legally available if </span ><span class=\"text1320Font4\"  >ALL</span ><span class=\"text1320Font2\"  > of the following are met:\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\"  >The purpose is authorized\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\"  >The Federal agency obligates the funds within the time limits applicable to the appropriation\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\"  >The obligation and expenditure are within the amounts Congress has established\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text1320.arrCSSStyles.push('span.text1320Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text1320.arrCSSStyles.push('span.text1320Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text1320.addInnerText('<div id=\"text1320\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font2\"  >Funds must be “legally available” to be used for a given obligation or expenditure. Funds are legally available if </span ><span class=\"text1320Font4\"  >ALL</span ><span class=\"text1320Font2\"  > of the following are met:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\"  >The purpose is authorized\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\"  >The Federal agency obligates the funds within the time limits applicable to the appropriation\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1320Font4\"  >The obligation and expenditure are within the amounts Congress has established\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text1320.build()
 
 shape1321 = new ObjImage('shape1321','images/shape1321.png','Rectangle 51',670,189,28.000000,28.000000,0,34,'div','',0 )
@@ -1376,31 +1376,31 @@ image1324.hasOnUp = true
 image1324.capture=4
 image1324.build()
 
-image1327 = new ObjImage('image1327','images/image0090.png','Picture 43',324,333,27,26,0,36,'div',null, 0 )
+image1327 = new ObjImage('image1327','images/image0090.png','Picture 43',324,325,27,26,0,36,'div',null, 0 )
 image1327.initRotateAngle(0,0,0,0,0,0,0)
 image1327.initHasShadow(0)
 image1327.initHasReflection(0)
-image1327.addIe8Attr(324, 333, 27, 26, 0, 0)
+image1327.addIe8Attr(324, 325, 27, 26, 0, 0)
 image1327.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
 image1327.addBorder(0)
 image1327.addOpacity(100)
 image1327.build()
 
-image1330 = new ObjImage('image1330','images/image0091.png','Picture 44',324,369,27,26,0,37,'div',null, 0 )
+image1330 = new ObjImage('image1330','images/image0091.png','Picture 44',324,360,27,26,0,37,'div',null, 0 )
 image1330.initRotateAngle(0,0,0,0,0,0,0)
 image1330.initHasShadow(0)
 image1330.initHasReflection(0)
-image1330.addIe8Attr(324, 369, 27, 26, 0, 0)
+image1330.addIe8Attr(324, 360, 27, 26, 0, 0)
 image1330.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
 image1330.addBorder(0)
 image1330.addOpacity(100)
 image1330.build()
 
-image1332 = new ObjImage('image1332','images/image0091.png','Picture 46',324,408,27,26,0,38,'div',null, 0 )
+image1332 = new ObjImage('image1332','images/image0091.png','Picture 46',324,430,27,26,0,38,'div',null, 0 )
 image1332.initRotateAngle(0,0,0,0,0,0,0)
 image1332.initHasShadow(0)
 image1332.initHasReflection(0)
-image1332.addIe8Attr(324, 408, 27, 26, 0, 0)
+image1332.addIe8Attr(324, 430, 27, 26, 0, 0)
 image1332.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
 image1332.addBorder(0)
 image1332.addOpacity(100)
@@ -1412,12 +1412,12 @@ og57594.addChild('shape57596')
 og57594.addChild('shape57598')
 og57594.addChild('shape57600')
 og57594.addChild('text57601')
-og57594.addChild('text57602')
+og57594.addChild('text153502')
+og57594.addChild('image153501')
+og57594.addChild('image153499')
+og57594.addChild('image153497')
 og57594.addChild('shape57604')
 og57594.addChild('image57608')
-og57594.addChild('image57611')
-og57594.addChild('image57613')
-og57594.addChild('image57615')
 og57594.build()
 
 shape57596 = new ObjImage('shape57596','images/shape57596.png','Rectangle 35',0,0,1009.000000,569.000000,0,39,'div','',0 )
@@ -1478,27 +1478,57 @@ text57601.arrCSSStyles.push('span.text57601Font2 { font-size:15px; font-family:"
 text57601.addInnerText('<div id=\"text57601\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57601Font1\"  >FEEDBACK</span ><span class=\"text57601Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text57601.build()
 
-text57602 = new ObjText('text57602',null,320,239,365,245,0,43,null,'div',null,0 )
-text57602.initSLine(0)
-text57602.initHasBullet(0)
-text57602.initRotateAngle(0,0,0)
-text57602.initHasOuterShadow(0)
-text57602.initHasTextShadow(0)
-text57602.initHasBorder(0)
-text57602.initHasOutline(0)
-text57602.initHasMargin(6)
-text57602.addIe8Attr(320, 239, 365, 245, 0, 0)
-text57602.addHeading(0)
-text57602.addOpacity(100)
-text57602.arrCSSStyles = new Array();
-text57602.arrCSSStyles.push('span.text57602Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#cf2a27; font-weight:bold;}');
-text57602.arrCSSStyles.push('span.text57602Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
-text57602.arrCSSStyles.push('span.text57602Font3 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text57602.arrCSSStyles.push('span.text57602Font5 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text57602.addInnerText('<div id=\"text57602\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font1\"  >Incorrect.</span ><span class=\"text57602Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font3\"  >Funds must be “legally available” to be used for a given obligation or expenditure. Funds are legally available if </span ><span class=\"text57602Font5\"  >ALL</span ><span class=\"text57602Font3\"  > of the following are met:\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:0px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font5\"  >The purpose is authorized\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font5\"  >The Federal agency obligates the funds within the time limits applicable to the appropriation\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:41px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text57602Font5\"  >The obligation and expenditure are within the amounts Congress has established\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text57602.build()
+text153502 = new ObjText('text153502',null,320,239,365,252,0,43,null,'div',null,0 )
+text153502.initSLine(0)
+text153502.initHasBullet(0)
+text153502.initRotateAngle(0,0,0)
+text153502.initHasOuterShadow(0)
+text153502.initHasTextShadow(0)
+text153502.initHasBorder(0)
+text153502.initHasOutline(0)
+text153502.initHasMargin(6)
+text153502.addIe8Attr(320, 239, 365, 252, 0, 0)
+text153502.addHeading(0)
+text153502.addOpacity(100)
+text153502.arrCSSStyles = new Array();
+text153502.arrCSSStyles.push('span.text153502Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#cf2a27; font-weight:bold;}');
+text153502.arrCSSStyles.push('span.text153502Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#006804; font-weight:bold;}');
+text153502.arrCSSStyles.push('span.text153502Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text153502.arrCSSStyles.push('span.text153502Font5 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
+text153502.addInnerText('<div id=\"text153502\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153502Font1\"  >Incorrect.</span ><span class=\"text153502Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153502Font3\"  >Funds must be “legally available” to be used for a given obligation or expenditure. Funds are legally available if </span ><span class=\"text153502Font5\"  >ALL</span ><span class=\"text153502Font3\"  > of the following are met:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153502Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153502Font5\"  >The purpose is authorized\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153502Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153502Font5\"  >The Federal agency obligates the funds within the time limits applicable to the appropriation\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153502Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:41px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153502Font5\"  >The obligation and expenditure are within the amounts Congress has established\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text153502.build()
 
-shape57604 = new ObjImage('shape57604','images/shape57604.png','Rectangle 51',670,189,28.000000,28.000000,0,44,'div','',0 )
+image153501 = new ObjImage('image153501','images/image0090.png','Picture 43',324,325,27,26,0,44,'div',null, 0 )
+image153501.initRotateAngle(0,0,0,0,0,0,0)
+image153501.initHasShadow(0)
+image153501.initHasReflection(0)
+image153501.addIe8Attr(324, 325, 27, 26, 0, 0)
+image153501.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
+image153501.addBorder(0)
+image153501.addOpacity(100)
+image153501.build()
+
+image153499 = new ObjImage('image153499','images/image0091.png','Picture 44',324,360,27,26,0,45,'div',null, 0 )
+image153499.initRotateAngle(0,0,0,0,0,0,0)
+image153499.initHasShadow(0)
+image153499.initHasReflection(0)
+image153499.addIe8Attr(324, 360, 27, 26, 0, 0)
+image153499.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
+image153499.addBorder(0)
+image153499.addOpacity(100)
+image153499.build()
+
+image153497 = new ObjImage('image153497','images/image0091.png','Picture 46',324,430,27,26,0,46,'div',null, 0 )
+image153497.initRotateAngle(0,0,0,0,0,0,0)
+image153497.initHasShadow(0)
+image153497.initHasReflection(0)
+image153497.addIe8Attr(324, 430, 27, 26, 0, 0)
+image153497.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
+image153497.addBorder(0)
+image153497.addOpacity(100)
+image153497.build()
+
+shape57604 = new ObjImage('shape57604','images/shape57604.png','Rectangle 51',670,189,28.000000,28.000000,0,47,'div','',0 )
 shape57604.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape57604.initHasShadow(0)
 shape57604.initHasReflection(0)
@@ -1511,7 +1541,7 @@ shape57604.initLineWeight(2)
 shape57604.addOpacity(100)
 shape57604.build()
 
-image57608 = new ObjImage('image57608','images/image0089.png','Picture 62',674,194,18,18,0,45,'div',null, 0 )
+image57608 = new ObjImage('image57608','images/image0089.png','Picture 62',674,194,18,18,0,48,'div',null, 0 )
 image57608.initRotateAngle(0,0,0,0,0,0,0)
 image57608.initHasShadow(0)
 image57608.initHasReflection(0)
@@ -1524,44 +1554,14 @@ image57608.hasOnUp = true
 image57608.capture=4
 image57608.build()
 
-image57611 = new ObjImage('image57611','images/image0090.png','Picture 43',324,333,27,26,0,46,'div',null, 0 )
-image57611.initRotateAngle(0,0,0,0,0,0,0)
-image57611.initHasShadow(0)
-image57611.initHasReflection(0)
-image57611.addIe8Attr(324, 333, 27, 26, 0, 0)
-image57611.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
-image57611.addBorder(0)
-image57611.addOpacity(100)
-image57611.build()
-
-image57613 = new ObjImage('image57613','images/image0091.png','Picture 44',324,369,27,26,0,47,'div',null, 0 )
-image57613.initRotateAngle(0,0,0,0,0,0,0)
-image57613.initHasShadow(0)
-image57613.initHasReflection(0)
-image57613.addIe8Attr(324, 369, 27, 26, 0, 0)
-image57613.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
-image57613.addBorder(0)
-image57613.addOpacity(100)
-image57613.build()
-
-image57615 = new ObjImage('image57615','images/image0091.png','Picture 46',324,408,27,26,0,48,'div',null, 0 )
-image57615.initRotateAngle(0,0,0,0,0,0,0)
-image57615.initHasShadow(0)
-image57615.initHasReflection(0)
-image57615.addIe8Attr(324, 408, 27, 26, 0, 0)
-image57615.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
-image57615.addBorder(0)
-image57615.addOpacity(100)
-image57615.build()
-
 og122273 = new ObjInline('og122273',null,0,0,1009,568,1,0)
 og122273.isGrp = true
 og122273.addChild('shape122275')
 og122273.addChild('shape122277')
-og122273.addChild('shape122279')
-og122273.addChild('text122280')
+og122273.addChild('shape153621')
+og122273.addChild('text153619')
+og122273.addChild('text153618')
 og122273.addChild('shape122282')
-og122273.addChild('text122284')
 og122273.addChild('image122286')
 og122273.build()
 
@@ -1592,38 +1592,57 @@ shape122277.initLineWeight(2)
 shape122277.addOpacity(100)
 shape122277.build()
 
-shape122279 = new ObjImage('shape122279','images/shape122279.png','Rectangle 40',112,181,115.000000,44.000000,1,51,'div','',0 )
-shape122279.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
-shape122279.initHasShadow(0)
-shape122279.initHasReflection(0)
-shape122279.setUniqueFillID('page1246_shape122279')
-shape122279.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
-shape122279.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
-shape122279.setUseSvgFile(1)
-shape122279.addBorder(0)
-shape122279.initLineWeight(0)
-shape122279.addOpacity(100)
-shape122279.build()
+shape153621 = new ObjImage('shape153621','images/shape153621.png','Rectangle 40',112,181,115.000000,44.000000,1,51,'div','',0 )
+shape153621.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
+shape153621.initHasShadow(0)
+shape153621.initHasReflection(0)
+shape153621.setUniqueFillID('page1246_shape153621')
+shape153621.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
+shape153621.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
+shape153621.setUseSvgFile(1)
+shape153621.addBorder(0)
+shape153621.initLineWeight(0)
+shape153621.addOpacity(100)
+shape153621.build()
 
-text122280 = new ObjText('text122280',null,130,242,800,50,1,52,null,'div',null,0 )
-text122280.initSLine(0)
-text122280.initHasBullet(0)
-text122280.initRotateAngle(0,0,0)
-text122280.initHasOuterShadow(0)
-text122280.initHasTextShadow(0)
-text122280.initHasBorder(0)
-text122280.initHasOutline(0)
-text122280.initHasMargin(6)
-text122280.addIe8Attr(130, 242, 800, 50, 0, 0)
-text122280.addHeading(0)
-text122280.addOpacity(100)
-text122280.arrCSSStyles = new Array();
-text122280.arrCSSStyles.push('span.text122280Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
-text122280.arrCSSStyles.push('span.text122280Font2 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
-text122280.addInnerText('<div id=\"text122280\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text122280Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;You must answer the question correctly in order to move to the next question.</span ><span class=\"text122280Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text122280.build()
+text153619 = new ObjText('text153619',null,130,230,800,50,1,52,null,'div',null,0 )
+text153619.initSLine(0)
+text153619.initHasBullet(0)
+text153619.initRotateAngle(0,0,0)
+text153619.initHasOuterShadow(0)
+text153619.initHasTextShadow(0)
+text153619.initHasBorder(0)
+text153619.initHasOutline(0)
+text153619.initHasMargin(6)
+text153619.addIe8Attr(130, 230, 800, 50, 0, 0)
+text153619.addHeading(0)
+text153619.addOpacity(100)
+text153619.arrCSSStyles = new Array();
+text153619.arrCSSStyles.push('span.text153619Font1 { font-size:19px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text153619.arrCSSStyles.push('span.text153619Font2 { font-size:15px; font-family:"Oswald"; color:#cf2a27; font-weight:bold;}');
+text153619.arrCSSStyles.push('span.text153619Font3 { font-size:19px; font-family:"Oswald"; color:#cf2a27;}');
+text153619.addInnerText('<div id=\"text153619\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153619Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text153619Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text153619Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text153619.build()
 
-shape122282 = new ObjImage('shape122282','images/shape122282.png','Rectangle 43',857,191,28.000000,28.000000,1,53,'div','',0 )
+text153618 = new ObjText('text153618',null,114,194,101,26,1,53,null,'div',null,0 )
+text153618.initSLine(1)
+text153618.initHasBullet(0)
+text153618.initRotateAngle(0,0,0)
+text153618.initHasOuterShadow(0)
+text153618.initHasTextShadow(0)
+text153618.initHasBorder(0)
+text153618.initHasOutline(0)
+text153618.initHasMargin(0)
+text153618.addIe8Attr(114, 194, 101, 26, 0, 0)
+text153618.addHeading(0)
+text153618.addOpacity(100)
+text153618.arrCSSStyles = new Array();
+text153618.arrCSSStyles.push('span.text153618Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text153618.arrCSSStyles.push('span.text153618Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text153618.addInnerText('<div id=\"text153618\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text153618Font1\"  >FEEDBACK</span ><span class=\"text153618Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text153618.build()
+
+shape122282 = new ObjImage('shape122282','images/shape122282.png','Rectangle 43',857,191,28.000000,28.000000,1,54,'div','',0 )
 shape122282.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape122282.initHasShadow(0)
 shape122282.initHasReflection(0)
@@ -1638,24 +1657,6 @@ shape122282.onUp = shape122282onUp
 shape122282.hasOnUp = true
 shape122282.capture=4
 shape122282.build()
-
-text122284 = new ObjText('text122284',null,120,194,101,26,1,54,null,'div',null,0 )
-text122284.initSLine(1)
-text122284.initHasBullet(0)
-text122284.initRotateAngle(0,0,0)
-text122284.initHasOuterShadow(0)
-text122284.initHasTextShadow(0)
-text122284.initHasBorder(0)
-text122284.initHasOutline(0)
-text122284.initHasMargin(0)
-text122284.addIe8Attr(120, 194, 101, 26, 0, 0)
-text122284.addHeading(0)
-text122284.addOpacity(100)
-text122284.arrCSSStyles = new Array();
-text122284.arrCSSStyles.push('span.text122284Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text122284.arrCSSStyles.push('span.text122284Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text122284.addInnerText('<div id=\"text122284\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text122284Font1\"  >FEEDBACK</span ><span class=\"text122284Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text122284.build()
 
 image122286 = new ObjImage('image122286','images/image0093.png','Picture 44',862,198,18,18,1,55,'div',null, 0 )
 image122286.initRotateAngle(0,0,0,0,0,0,0)
@@ -1717,19 +1718,19 @@ arObjs.push(shape57596);
 arObjs.push(shape57598);
 arObjs.push(shape57600);
 arObjs.push(text57601);
-arObjs.push(text57602);
+arObjs.push(text153502);
+arObjs.push(image153501);
+arObjs.push(image153499);
+arObjs.push(image153497);
 arObjs.push(shape57604);
 arObjs.push(image57608);
-arObjs.push(image57611);
-arObjs.push(image57613);
-arObjs.push(image57615);
 arObjs.push(og122273);
 arObjs.push(shape122275);
 arObjs.push(shape122277);
-arObjs.push(shape122279);
-arObjs.push(text122280);
+arObjs.push(shape153621);
+arObjs.push(text153619);
+arObjs.push(text153618);
 arObjs.push(shape122282);
-arObjs.push(text122284);
 arObjs.push(image122286);
 
 
@@ -1812,18 +1813,18 @@ if( is.min ){
     appendElement(shape57598, null, null);
     appendElement(shape57600, null, null);
     appendElement(text57601, null, null);
-    appendElement(text57602, null, null);
+    appendElement(text153502, null, null);
+    appendElement(image153501, null, null);
+    appendElement(image153499, null, null);
+    appendElement(image153497, null, null);
     appendElement(shape57604, null, null);
     appendElement(image57608, null, null);
-    appendElement(image57611, null, null);
-    appendElement(image57613, null, null);
-    appendElement(image57615, null, null);
     appendElement(shape122275, null, null);
     appendElement(shape122277, null, null);
-    appendElement(shape122279, null, null);
-    appendElement(text122280, null, null);
+    appendElement(shape153621, null, null);
+    appendElement(text153619, null, null);
+    appendElement(text153618, null, null);
     appendElement(shape122282, null, null);
-    appendElement(text122284, null, null);
     appendElement(image122286, null, null);
 }
 </script>
