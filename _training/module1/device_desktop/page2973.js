@@ -15,7 +15,7 @@ DesktopResponsive={"1009":{
 ,
 "text72602":{"x":79,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text22694":{"x":65,"y":145,"w":439,"h":37,"txtscale":100,"bOffBottom":0}
+"text22694":{"x":68,"y":145,"w":439,"h":37,"txtscale":100,"bOffBottom":0}
 ,
 "shape2976":{"x":74,"y":274,"w":29.000000,"h":86.000000,"stylemods":[{"sel":"div.shape2976Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:28.000000px; height:85.000000px;}"},{"sel":"span.shape2976Text","decl":" { width:24.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAABWCAYAAAAzDJ2gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAgSURBVGhD7cEBAQAAAIIg/69uSEAAAAAAAAAAAABwrgYnTgAB4dBBQQAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 28.000000 0.000000 L 28.000000 85.000000 L 0.000000 85.000000 L 0.000000 0.000000 z" ,"i":"images/shape2976.png"}
 ,
@@ -49,7 +49,7 @@ DesktopResponsive={"1009":{
 ,
 "text3000":{"x":310,"y":472,"w":387,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"text86209":{"x":65,"y":185,"w":729,"h":28,"txtscale":100,"bOffBottom":0}
+"text86209":{"x":75,"y":190,"w":729,"h":28,"txtscale":100,"bOffBottom":0}
 ,
 "text86210":{"x":758,"y":230,"w":29,"h":27,"txtscale":100,"bOffBottom":0}
 ,
@@ -99,7 +99,7 @@ DesktopResponsive={"1009":{
 ,
 "check86233":{"x":918,"y":419,"fsize":19,"bOffBottom":0}
 ,
-"text3001":{"x":65,"y":461,"w":379,"h":50,"txtscale":100,"bOffBottom":0}
+"text3001":{"x":75,"y":461,"w":379,"h":50,"txtscale":100,"bOffBottom":0}
 ,
 "text3002":{"x":84,"y":423,"w":28,"h":27,"txtscale":100,"bOffBottom":0}
 ,
@@ -107,7 +107,7 @@ DesktopResponsive={"1009":{
 ,
 "text3006":{"x":733,"y":182,"w":67,"h":37,"txtscale":100,"bOffBottom":0}
 ,
-"text3007":{"x":811,"y":182,"w":86,"h":37,"txtscale":100,"bOffBottom":0}
+"text3007":{"x":811,"y":182,"w":85,"h":41,"txtscale":100,"bOffBottom":0}
 ,
 "text3008":{"x":911,"y":182,"w":47,"h":22,"txtscale":100,"bOffBottom":0}
 ,

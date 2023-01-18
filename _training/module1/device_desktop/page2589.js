@@ -27,9 +27,9 @@ DesktopResponsive={"1009":{
 ,
 "text72317":{"x":79,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text2591":{"x":65,"y":145,"w":439,"h":77,"txtscale":100,"bOffBottom":0}
+"text2591":{"x":68,"y":145,"w":439,"h":77,"txtscale":100,"bOffBottom":0}
 ,
-"text2592":{"x":65,"y":185,"w":880,"h":65,"txtscale":100,"bOffBottom":0}
+"text2592":{"x":75,"y":190,"w":880,"h":65,"txtscale":100,"bOffBottom":0}
 ,
 "shape2593":{"x":65,"y":254,"w":229.000000,"h":185.000000,"stylemods":[{"sel":"div.shape2593Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:228.000000px; height:184.000000px;}"},{"sel":"span.shape2593Text","decl":" { width:224.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOUAAAC5CAYAAADXhfiaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC8SURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABe1ACWywABcsWfhAAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 228.000000 0.000000 L 228.000000 184.000000 L 0.000000 184.000000 L 0.000000 0.000000 z" ,"i":"images/shape2593.png"}
 ,
@@ -57,7 +57,7 @@ DesktopResponsive={"1009":{
 ,
 "shape2615":{"x":0,"y":459,"w":1010.000000,"h":39.000000,"stylemods":[{"sel":"div.shape2615Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:1009.000000px; height:38.000000px;}"},{"sel":"span.shape2615Text","decl":" { width:1005.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA/IAAAAnCAYAAACseXM5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACvSURBVHhe7cEBDQAAAMKg909tDwcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACvame9AAEHjzHWAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 1009.000000 0.000000 L 1009.000000 38.000000 L 0.000000 38.000000 L 0.000000 0.000000 z" ,"i":"images/shape2615.png"}
 ,
-"text2617":{"x":65,"y":469,"w":880,"h":23,"txtscale":100,"bOffBottom":0}
+"text2617":{"x":75,"y":469,"w":880,"h":23,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

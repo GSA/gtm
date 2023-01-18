@@ -27,9 +27,9 @@ DesktopResponsive={"1009":{
 ,
 "text71928":{"x":79,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text22119":{"x":65,"y":145,"w":439,"h":77,"txtscale":100,"bOffBottom":0}
+"text22119":{"x":68,"y":145,"w":439,"h":77,"txtscale":100,"bOffBottom":0}
 ,
-"text2416":{"x":66,"y":185,"w":494,"h":325,"txtscale":100,"bOffBottom":0}
+"text2416":{"x":66,"y":190,"w":494,"h":325,"txtscale":100,"bOffBottom":0}
 ,
 "image2417":{"x":550,"y":120,"w":414,"h":414,"bOffBottom":0,"i":"images/image150.png"}
 ,
