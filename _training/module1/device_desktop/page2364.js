@@ -39,12 +39,12 @@ DesktopResponsive={"1009":{
 ,
 "text2373":{"x":144,"y":226,"w":446,"h":257,"txtscale":100,"bOffBottom":0}
 ,
-"image2374":{"x":544,"y":114,"w":420,"h":420,"bOffBottom":0,"i":"images/image0029.png"}
+"image2374":{"x":550,"y":120,"w":420,"h":420,"bOffBottom":0,"i":"images/card_phone_coins.png"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0002.png','images/image0003.png','images/image0014.png','images/image0029.png','images/image0069.png','images/image143.png','images/image144.png','images/button71840.png','images/button71840_over.png','images/button71840_down.png','images/button71840_disabled.png','images/button71840_visited.png','images/button71840_selected.png']
+,"preload":['images/image0002.png','images/image0003.png','images/image0014.png','images/image0069.png','images/image143.png','images/image144.png','images/card_phone_coins.png','images/button71840.png','images/button71840_over.png','images/button71840_down.png','images/button71840_disabled.png','images/button71840_visited.png','images/button71840_selected.png']
 }}

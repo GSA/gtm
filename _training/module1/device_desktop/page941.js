@@ -37,12 +37,12 @@ DesktopResponsive={"1009":{
 ,
 "text943":{"x":66,"y":190,"w":462,"h":337,"txtscale":100,"bOffBottom":0}
 ,
-"image944":{"x":550,"y":120,"w":414,"h":414,"bOffBottom":0,"i":"images/image0029.png"}
+"image944":{"x":507,"y":100,"w":450,"h":450,"bOffBottom":0,"i":"images/slide_unique.png"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0029.png']
+,"preload":['images/slide_unique.png']
 }}

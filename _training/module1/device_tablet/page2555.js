@@ -85,7 +85,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2557":{"x":53,"y":145,"w":342,"h":60,"txtscale":100,"bOffBottom":0}
 ,
-"text2558":{"x":51,"y":190,"w":685,"h":45,"txtscale":100,"bOffBottom":0}
+"text2558":{"x":51,"y":190,"w":685,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "image2560":{"x":59,"y":250,"w":41,"h":41,"bOffBottom":0,"i":"images/image0124.png"}
 ,
@@ -97,11 +97,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2570":{"x":112,"y":250,"w":297,"h":170,"txtscale":100,"bOffBottom":0}
 ,
-"text34047":{"x":112,"y":410,"w":257,"h":80,"txtscale":100,"bOffBottom":0}
+"text34047":{"x":112,"y":410,"w":257,"h":68,"txtscale":100,"bOffBottom":0}
 ,
 "text34057":{"x":471,"y":250,"w":300,"h":85,"txtscale":100,"bOffBottom":0}
 ,
-"text34067":{"x":471,"y":326,"w":265,"h":220,"txtscale":100,"bOffBottom":0}
+"text34067":{"x":471,"y":326,"w":265,"h":217,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

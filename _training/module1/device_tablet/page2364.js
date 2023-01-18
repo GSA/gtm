@@ -39,7 +39,7 @@ TabletResponsive={"1009":{
 ,
 "text2373":{"x":144,"y":226,"w":446,"h":257,"txtscale":100,"bOffBottom":0}
 ,
-"image2374":{"x":544,"y":114,"w":420,"h":420,"bOffBottom":0,"i":"images/image0029.png"}
+"image2374":{"x":550,"y":120,"w":420,"h":420,"bOffBottom":0,"i":"images/card_phone_coins.png"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -89,7 +89,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2373":{"x":112,"y":226,"w":347,"h":272,"txtscale":100,"bOffBottom":0}
 ,
-"image2374":{"x":423,"y":114,"w":327,"h":327,"bOffBottom":0,"i":"images/image0029.png"}
+"image2374":{"x":428,"y":120,"w":327,"h":327,"bOffBottom":0,"i":"images/card_phone_coins.png"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

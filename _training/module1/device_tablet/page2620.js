@@ -203,11 +203,11 @@ Init_qu82704(false, true);
 ,
 "text82710":{"x":500,"y":267,"w":105,"h":32,"txtscale":100,"bOffBottom":0}
 ,
-"text82711":{"x":108,"y":307,"w":88,"h":260,"txtscale":100,"bOffBottom":0}
+"text82711":{"x":108,"y":307,"w":88,"h":170,"txtscale":100,"bOffBottom":0}
 ,
 "text82712":{"x":500,"y":307,"w":104,"h":32,"txtscale":100,"bOffBottom":0}
 ,
-"text82713":{"x":108,"y":347,"w":88,"h":140,"txtscale":100,"bOffBottom":0}
+"text82713":{"x":108,"y":347,"w":88,"h":119,"txtscale":100,"bOffBottom":0}
 ,
 "text82714":{"x":500,"y":347,"w":104,"h":32,"txtscale":100,"bOffBottom":0}
 ,

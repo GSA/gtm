@@ -105,7 +105,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image2185":{"x":417,"y":441,"w":41,"h":41,"bOffBottom":0,"i":"images/image114.png"}
 ,
-"text2187":{"x":467,"y":456,"w":133,"h":40,"txtscale":100,"bOffBottom":0}
+"text2187":{"x":467,"y":456,"w":133,"h":32,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

@@ -31,9 +31,9 @@ DesktopResponsive={"1009":{
 ,
 "text140634":{"x":70,"y":180,"w":895,"h":73,"txtscale":100,"bOffBottom":0}
 ,
-"image2155":{"x":76,"y":244,"w":53,"h":53,"bOffBottom":0,"i":"images/image0012.png"}
+"image2155":{"x":76,"y":250,"w":53,"h":53,"bOffBottom":0,"i":"images/slide_financial.png"}
 ,
-"image2157":{"x":76,"y":380,"w":53,"h":53,"bOffBottom":0,"i":"images/image0012.png"}
+"image2157":{"x":76,"y":380,"w":53,"h":53,"bOffBottom":0,"i":"images/slide_procurement.png"}
 ,
 "text2159":{"x":144,"y":244,"w":268,"h":241,"txtscale":100,"bOffBottom":0}
 ,
@@ -48,5 +48,5 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0002.png','images/image0003.png','images/image0012.png','images/image0014.png','images/image111.jpeg','images/button71630.png','images/button71630_over.png','images/button71630_down.png','images/button71630_disabled.png','images/button71630_visited.png','images/button71630_selected.png','images/shape2160.png']
+,"preload":['images/image0002.png','images/image0003.png','images/image0014.png','images/image111.jpeg','images/slide_financial.png','images/slide_procurement.png','images/button71630.png','images/button71630_over.png','images/button71630_down.png','images/button71630_disabled.png','images/button71630_visited.png','images/button71630_selected.png','images/shape2160.png']
 }}

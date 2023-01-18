@@ -1,5 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":474,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
+"pageLayer":{"w":785,"h":472,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
 ,
 "text23923":{"x":256,"y":410,"w":280,"h":61,"txtscale":100,"bOffBottom":0}
 ,
@@ -29,7 +29,7 @@ PhoneResponsive={"785":{
 ,
 "text2557":{"x":53,"y":113,"w":342,"h":60,"txtscale":100,"bOffBottom":0}
 ,
-"text2558":{"x":51,"y":148,"w":685,"h":45,"txtscale":100,"bOffBottom":0}
+"text2558":{"x":51,"y":148,"w":685,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "image2560":{"x":59,"y":194,"w":41,"h":41,"bOffBottom":0,"i":"images/image0124.png"}
 ,
@@ -41,11 +41,11 @@ PhoneResponsive={"785":{
 ,
 "text2570":{"x":112,"y":194,"w":297,"h":170,"txtscale":100,"bOffBottom":0}
 ,
-"text34047":{"x":112,"y":319,"w":257,"h":80,"txtscale":100,"bOffBottom":0}
+"text34047":{"x":112,"y":319,"w":257,"h":68,"txtscale":100,"bOffBottom":0}
 ,
 "text34057":{"x":471,"y":194,"w":300,"h":85,"txtscale":100,"bOffBottom":0}
 ,
-"text34067":{"x":471,"y":254,"w":265,"h":220,"txtscale":100,"bOffBottom":0}
+"text34067":{"x":471,"y":254,"w":265,"h":217,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -85,7 +85,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2557":{"x":32,"y":145,"w":209,"h":76,"txtscale":100,"bOffBottom":0}
 ,
-"text2558":{"x":31,"y":190,"w":419,"h":60,"txtscale":100,"bOffBottom":0}
+"text2558":{"x":31,"y":190,"w":419,"h":85,"txtscale":100,"bOffBottom":0}
 ,
 "image2560":{"x":36,"y":250,"w":25,"h":25,"bOffBottom":0,"i":"images/image0124.png"}
 ,
@@ -97,11 +97,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2570":{"x":69,"y":250,"w":182,"h":289,"txtscale":100,"bOffBottom":0}
 ,
-"text34047":{"x":69,"y":410,"w":157,"h":140,"txtscale":100,"bOffBottom":0}
+"text34047":{"x":69,"y":410,"w":157,"h":102,"txtscale":100,"bOffBottom":0}
 ,
 "text34057":{"x":288,"y":250,"w":184,"h":136,"txtscale":100,"bOffBottom":0}
 ,
-"text34067":{"x":288,"y":326,"w":162,"h":360,"txtscale":100,"bOffBottom":0}
+"text34067":{"x":288,"y":326,"w":162,"h":272,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

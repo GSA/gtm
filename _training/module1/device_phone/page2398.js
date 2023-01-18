@@ -93,7 +93,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2410":{"x":69,"y":251,"w":156,"h":102,"txtscale":100,"bOffBottom":0}
 ,
-"text32320":{"x":286,"y":251,"w":164,"h":80,"txtscale":100,"bOffBottom":0}
+"text32320":{"x":286,"y":251,"w":164,"h":68,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

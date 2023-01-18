@@ -99,9 +99,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2477":{"x":112,"y":205,"w":263,"h":85,"txtscale":100,"bOffBottom":0}
 ,
-"text32917":{"x":474,"y":204,"w":257,"h":120,"txtscale":100,"bOffBottom":0}
+"text32917":{"x":474,"y":204,"w":257,"h":101,"txtscale":100,"bOffBottom":0}
 ,
-"text32927":{"x":112,"y":346,"w":270,"h":200,"txtscale":100,"bOffBottom":0}
+"text32927":{"x":112,"y":346,"w":270,"h":153,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

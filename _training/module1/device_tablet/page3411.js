@@ -201,11 +201,11 @@ Init_qu99765(false, true);
 ,
 "text99770":{"x":108,"y":267,"w":92,"h":247,"txtscale":100,"bOffBottom":0}
 ,
-"text99772":{"x":108,"y":307,"w":91,"h":140,"txtscale":100,"bOffBottom":0}
+"text99772":{"x":108,"y":307,"w":91,"h":85,"txtscale":100,"bOffBottom":0}
 ,
 "text99773":{"x":500,"y":307,"w":105,"h":32,"txtscale":100,"bOffBottom":0}
 ,
-"text99774":{"x":108,"y":347,"w":91,"h":180,"txtscale":100,"bOffBottom":0}
+"text99774":{"x":108,"y":347,"w":91,"h":153,"txtscale":100,"bOffBottom":0}
 ,
 "text99775":{"x":500,"y":347,"w":102,"h":32,"txtscale":100,"bOffBottom":0}
 ,

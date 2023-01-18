@@ -1,5 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":515,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
+"pageLayer":{"w":785,"h":472,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
 ,
 "text23923":{"x":256,"y":410,"w":280,"h":61,"txtscale":100,"bOffBottom":0}
 ,
@@ -29,11 +29,11 @@ PhoneResponsive={"785":{
 ,
 "text2154":{"x":53,"y":113,"w":342,"h":76,"txtscale":100,"bOffBottom":0}
 ,
-"text140634":{"x":54,"y":140,"w":696,"h":66,"txtscale":100,"bOffBottom":0}
+"text140634":{"x":54,"y":140,"w":696,"h":63,"txtscale":100,"bOffBottom":0}
 ,
-"image2155":{"x":59,"y":190,"w":41,"h":41,"bOffBottom":0,"i":"images/image0012.png"}
+"image2155":{"x":59,"y":194,"w":41,"h":41,"bOffBottom":0,"i":"images/slide_financial.png"}
 ,
-"image2157":{"x":59,"y":296,"w":41,"h":41,"bOffBottom":0,"i":"images/image0012.png"}
+"image2157":{"x":59,"y":296,"w":41,"h":41,"bOffBottom":0,"i":"images/slide_procurement.png"}
 ,
 "text2159":{"x":112,"y":190,"w":209,"h":255,"txtscale":100,"bOffBottom":0}
 ,
@@ -41,7 +41,7 @@ PhoneResponsive={"785":{
 ,
 "image2163":{"x":322,"y":230,"w":107,"h":107,"bOffBottom":0,"i":"images/image111.jpeg"}
 ,
-"text2165":{"x":444,"y":209,"w":270,"h":306,"txtscale":100,"bOffBottom":0}
+"text2165":{"x":444,"y":209,"w":270,"h":255,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -51,7 +51,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,"preload":[]
 },
 "480":{
-"pageLayer":{"w":480,"h":772,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"480px 270px","bgRepeat":"no-repeat"}
+"pageLayer":{"w":480,"h":763,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"480px 270px","bgRepeat":"no-repeat"}
 ,
 "text23923":{"x":157,"y":527,"w":171,"h":60,"txtscale":100,"bOffBottom":0}
 ,
@@ -81,11 +81,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2154":{"x":32,"y":145,"w":209,"h":76,"txtscale":100,"bOffBottom":0}
 ,
-"text140634":{"x":33,"y":180,"w":426,"h":102,"txtscale":100,"bOffBottom":0}
+"text140634":{"x":33,"y":180,"w":426,"h":97,"txtscale":100,"bOffBottom":0}
 ,
-"image2155":{"x":36,"y":244,"w":25,"h":25,"bOffBottom":0,"i":"images/image0012.png"}
+"image2155":{"x":36,"y":250,"w":25,"h":25,"bOffBottom":0,"i":"images/slide_financial.png"}
 ,
-"image2157":{"x":36,"y":380,"w":25,"h":25,"bOffBottom":0,"i":"images/image0012.png"}
+"image2157":{"x":36,"y":380,"w":25,"h":25,"bOffBottom":0,"i":"images/slide_procurement.png"}
 ,
 "text2159":{"x":69,"y":244,"w":127,"h":391,"txtscale":100,"bOffBottom":0}
 ,
@@ -93,7 +93,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image2163":{"x":197,"y":296,"w":66,"h":66,"bOffBottom":0,"i":"images/image111.jpeg"}
 ,
-"text2165":{"x":272,"y":268,"w":165,"h":504,"txtscale":100,"bOffBottom":0}
+"text2165":{"x":272,"y":268,"w":165,"h":442,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
