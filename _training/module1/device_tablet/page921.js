@@ -57,7 +57,7 @@ TabletResponsive={"1009":{
 ,
 "image936":{"x":651,"y":374,"w":53,"h":53,"bOffBottom":0,"i":"images/image0069.png"}
 ,
-"text938":{"x":716,"y":300,"w":228,"h":85,"txtscale":100,"bOffBottom":0}
+"text938":{"x":716,"y":300,"w":228,"h":94,"txtscale":100,"bOffBottom":0}
 ,
 "text158796":{"x":716,"y":378,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,

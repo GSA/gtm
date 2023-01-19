@@ -120,7 +120,6 @@
     width: 1009px !important;
     height: 567px !important;
     clip: rect(0px, 1009px, 567px, 0px) !important;
-    background-image: url(images/image0004.png) !important;
     background-size: 1009px 567px !important;
     background-repeat: no-repeat !important;
     left: 10px !important;
@@ -319,7 +318,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text110033,og67757,image67759,image67762,image67765,button67772,text67774,text67776,shape1847,shape1849,shape1851,shape1856,text1858,shape1862,shape1864,shape1869,shape1871,text1873,text20767,text1886,og67793,shape1881,text1883,text1884,text1885,qu67778,text67780,text67781,check67782,text67783,check67784,text67785,check67786,text67787,check67788,og68010,shape68012,shape68014,shape68016,text68018,shape68020,image68023,text111164,image68026,image68028,og67919,shape1928,shape1930,shape1932,text1935,shape1936,image1938,text111205,image1940,image1942,og122638,shape122640,shape122642,shape154831,text154829,text154828,shape122647,image122651))
+    PreloadResources(new Array(text110033,og67757,image67759,image67762,image67765,button67772,text67774,text67776,shape1847,shape1849,shape1851,shape1856,text1858,shape1862,shape1864,shape1869,shape1871,text1873,text20767,text1886,og67793,shape1881,text1883,text1884,text1885,qu67778,text67780,text67781,check67782,text67783,check67784,text67785,check67786,text67787,check67788,og68010,shape68012,shape68014,shape68016,text68018,shape68020,image68023,text111164,image68026,image68028,og67919,shape1928,shape1930,shape1932,text1935,shape1936,image1938,text111205,image174337,image174335,og122638,shape122640,shape122642,shape154831,text154829,text154828,shape122647,image122651))
     pageLayer.show(true);
     text110033.init()
     og67757.init()
@@ -374,8 +373,8 @@ function init11() {
     shape1936.init()
     image1938.init()
     text111205.init()
-    image1940.init()
-    image1942.init()
+    image174337.init()
+    image174335.init()
     og122638.init()
     shape122640.init()
     shape122642.init()
@@ -437,8 +436,8 @@ function init11() {
     shape1936.activate()
     image1938.activate()
     text111205.activate()
-    image1940.activate()
-    image1942.activate()
+    image174337.activate()
+    image174335.activate()
     og122638.activate()
     shape122640.activate()
     shape122642.activate()
@@ -563,14 +562,14 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   var onAfterFBAction = ( bNotLeavingPage ? (function(){trivActFBCnt--;}) : (function(){trivActFBCnt--;window.checkLeavePage();}) );
   var ans_Varl1q10 = Varl1q10.getValue()
   if( bFeedback && currFeedbackIdx == 0 && !qu67778.hasBeenProcessed) {
-    if( ans_Varl1q10 == '\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020' ) 
+    if( ans_Varl1q10 == '\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072' ) 
     { //1 
-        trivActFBCnt++; action67778_25(onAfterFBAction);  return 0;
+        trivActFBCnt++; action67778_5(onAfterFBAction);  return 0;
   } //1
 
-    else if( ans_Varl1q10 != '\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020' && ans_Varl1q10 != '~~~null~~~' ) 
+    else if( ans_Varl1q10 != '\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072' && ans_Varl1q10 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action67778_26(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action67778_6(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -637,7 +636,7 @@ function action67763else(fn){
 }
 
 function action67763(fn){
-    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {trivExitPage('page1944.html',true); 
     }else{ action67763else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -677,7 +676,7 @@ function action67775(fn){
         text67774.eatOnUp=false;
         return;
     }
-    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {trivExitPage('page1944.html',true); 
     }else{ action67775else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -723,7 +722,7 @@ function action77213else(fn){
 }
 
 function action77213(fn){
-    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {og67919.actionShow(); 
     }else{ action77213else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -741,7 +740,7 @@ function action77471else(fn){
 }
 
 function action77471(fn){
-    if(!Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(!Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {og68010.actionShow(); 
     }else{ action77471else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -755,7 +754,7 @@ function action77470else(fn){
 }
 
 function action77470(fn){
-    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {og67919.actionShow(); 
     }else{ action77470else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -777,7 +776,7 @@ function action77483(fn){
         text1883.eatOnUp=false;
         return;
     }
-    if(!Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(!Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {og68010.actionShow(); 
     }else{ action77483else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -795,7 +794,7 @@ function action77482(fn){
         text1883.eatOnUp=false;
         return;
     }
-    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u0020\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u0020'))
+    if(Varl1q10.isCorr('\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072'))
     {og67919.actionShow(); 
     }else{ action77482else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -812,15 +811,15 @@ function Offset_qu67778(bDevRotate) {
 function Update_qu67778( upd ) {
   var val = ','
   if( upd ) {
-    if (check67782.objLyr.doc.getElementById("check67782id").checked) val += 'Increase transparency of Federal  award spending ,'
-    if (check67784.objLyr.doc.getElementById("check67784id").checked) val += 'Empower every American with the ability to hold the government accountable for each spending decision ,'
-    if (check67786.objLyr.doc.getElementById("check67786id").checked) val += 'Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website ,'
+    if (check67782.objLyr.doc.getElementById("check67782id").checked) val += 'Increase transparency of Federal  award spending\\r,'
+    if (check67784.objLyr.doc.getElementById("check67784id").checked) val += 'Empower every American with the ability to hold the government accountable for each spending decision\\r,'
+    if (check67786.objLyr.doc.getElementById("check67786id").checked) val += 'Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website\\r,'
     if (check67788.objLyr.doc.getElementById("check67788id").checked) val += 'Minimize transparency of and accountability for the over $1 trillion that Federal agencies award each year in contracts&#44 loans&#44 grants&#44 and other awards,'
   }
   else val += Varl1q10.getValue() + ','
-  check67782.objLyr.doc.getElementById("check67782id").checked=(val.indexOf(',Increase transparency of Federal  award spending ,')>=0)
-  check67784.objLyr.doc.getElementById("check67784id").checked=(val.indexOf(',Empower every American with the ability to hold the government accountable for each spending decision ,')>=0)
-  check67786.objLyr.doc.getElementById("check67786id").checked=(val.indexOf(',Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website ,')>=0)
+  check67782.objLyr.doc.getElementById("check67782id").checked=(val.indexOf(',Increase transparency of Federal  award spending\\r,')>=0)
+  check67784.objLyr.doc.getElementById("check67784id").checked=(val.indexOf(',Empower every American with the ability to hold the government accountable for each spending decision\\r,')>=0)
+  check67786.objLyr.doc.getElementById("check67786id").checked=(val.indexOf(',Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website\\r,')>=0)
   check67788.objLyr.doc.getElementById("check67788id").checked=(val.indexOf(',Minimize transparency of and accountability for the over $1 trillion that Federal agencies award each year in contracts&#44 loans&#44 grants&#44 and other awards,')>=0)
   if( val.length > 1 )
     val = val.substring(1,val.length-1)
@@ -830,13 +829,13 @@ function Update_qu67778( upd ) {
     qu67778Object.hasBeenProcessed=false;
 }
 
-function action67778_25(fn){
+function action67778_5(fn){
     og67919.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action67778_26(fn){
+function action67778_6(fn){
     og68010.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1476,7 +1475,7 @@ text68018.arrCSSStyles.push('span.text68018Font2 { font-size:16px; font-family:"
 text68018.arrCSSStyles.push('span.text68018Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
 text68018.arrCSSStyles.push('span.text68018Font4 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
 text68018.arrCSSStyles.push('span.text68018Font5 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text68018.addInnerText('<div id=\"text68018\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font1\"  >Incorrect.</span ><span class=\"text68018Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font3\"  >The purpose of Federal Funding Accountability and Transparency Act of 2006 is to:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font4\"  >Increase transparency of Federal award spending\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font4\"  >Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website</span ><span class=\"text68018Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text68018.addInnerText('<div id=\"text68018\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font1\"  >Incorrect.</span ><span class=\"text68018Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:8px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font3\"  >The purpose of Federal Funding Accountability and Transparency Act of 2006 is to:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font4\"  >Increase transparency of Federal award spending\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font4\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text68018Font4\"  >Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website</span ><span class=\"text68018Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text68018.build()
 
 shape68020 = new ObjImage('shape68020','images/shape68020.png','Close box',670,201,28.000000,28.000000,1,39,'div','',0 )
@@ -1495,11 +1494,11 @@ shape68020.hasOnUp = true
 shape68020.capture=4
 shape68020.build()
 
-image68023 = new ObjImage('image68023','images/image0089.png','Close X',674,206,18,18,1,40,'div',null, 0 )
+image68023 = new ObjImage('image68023','images/image0089.png','Close X',675,206,18,18,1,40,'div',null, 0 )
 image68023.initRotateAngle(0,0,0,0,0,0,0)
 image68023.initHasShadow(0)
 image68023.initHasReflection(0)
-image68023.addIe8Attr(674, 206, 18, 18, 0, 0)
+image68023.addIe8Attr(675, 206, 18, 18, 0, 0)
 image68023.initImageMap(1,'0,0,18,0,18,18,0,18,0,0','M 0 0 L 18 0 L 18 18 L 0 18 L 0 0 z')
 image68023.addBorder(0)
 image68023.addOpacity(100)
@@ -1508,7 +1507,7 @@ image68023.hasOnUp = true
 image68023.capture=4
 image68023.build()
 
-text111164 = new ObjText('text111164',null,310,204,131,26,1,41,null,'div',null,0 )
+text111164 = new ObjText('text111164',null,310,196,131,26,1,41,null,'div',null,0 )
 text111164.initSLine(1)
 text111164.initHasBullet(0)
 text111164.initRotateAngle(0,0,0)
@@ -1517,7 +1516,7 @@ text111164.initHasTextShadow(0)
 text111164.initHasBorder(0)
 text111164.initHasOutline(0)
 text111164.initHasMargin(0)
-text111164.addIe8Attr(310, 204, 131, 26, 0, 0)
+text111164.addIe8Attr(310, 196, 131, 26, 0, 0)
 text111164.addHeading(0)
 text111164.addOpacity(100)
 text111164.arrCSSStyles = new Array();
@@ -1526,21 +1525,21 @@ text111164.arrCSSStyles.push('span.text111164Font2 { font-size:19px; font-family
 text111164.addInnerText('<div id=\"text111164\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text111164Font1\"  >FEEDBACK</span ><span class=\"text111164Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text111164.build()
 
-image68026 = new ObjImage('image68026','images/image0090.png','Picture 78',324,325,27,26,1,42,'div',null, 0 )
+image68026 = new ObjImage('image68026','images/image0090.png','Picture 78',324,330,27,26,1,42,'div',null, 0 )
 image68026.initRotateAngle(0,0,0,0,0,0,0)
 image68026.initHasShadow(0)
 image68026.initHasReflection(0)
-image68026.addIe8Attr(324, 325, 27, 26, 0, 0)
+image68026.addIe8Attr(324, 330, 27, 26, 0, 0)
 image68026.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
 image68026.addBorder(0)
 image68026.addOpacity(100)
 image68026.build()
 
-image68028 = new ObjImage('image68028','images/image0091.png','Picture 79',324,378,27,26,1,43,'div',null, 0 )
+image68028 = new ObjImage('image68028','images/image0091.png','Picture 79',324,382,27,26,1,43,'div',null, 0 )
 image68028.initRotateAngle(0,0,0,0,0,0,0)
 image68028.initHasShadow(0)
 image68028.initHasReflection(0)
-image68028.addIe8Attr(324, 378, 27, 26, 0, 0)
+image68028.addIe8Attr(324, 382, 27, 26, 0, 0)
 image68028.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
 image68028.addBorder(0)
 image68028.addOpacity(100)
@@ -1555,8 +1554,8 @@ og67919.addChild('text1935')
 og67919.addChild('shape1936')
 og67919.addChild('image1938')
 og67919.addChild('text111205')
-og67919.addChild('image1940')
-og67919.addChild('image1942')
+og67919.addChild('image174337')
+og67919.addChild('image174335')
 og67919.build()
 
 shape1928 = new ObjImage('shape1928','images/shape1928.png','Feedback backdrop',0,0,1010.000000,569.000000,1,44,'div','',0 )
@@ -1616,7 +1615,7 @@ text1935.arrCSSStyles.push('span.text1935Font1 { font-size:16px; font-family:"Ar
 text1935.arrCSSStyles.push('span.text1935Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
 text1935.arrCSSStyles.push('span.text1935Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
 text1935.arrCSSStyles.push('span.text1935Font4 { font-size:13px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold;}');
-text1935.addInnerText('<div id=\"text1935\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font2\"  >The purpose of Federal Funding Accountability and Transparency Act of 2006 is to:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font3\"  >Increase transparency of Federal award spending\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font3\"  >Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website</span ><span class=\"text1935Font4\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text1935.addInnerText('<div id=\"text1935\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:8px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font2\"  >The purpose of Federal Funding Accountability and Transparency Act of 2006 is to:\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font3\"  >Increase transparency of Federal award spending\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:48px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1935Font3\"  >Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website</span ><span class=\"text1935Font4\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text1935.build()
 
 shape1936 = new ObjImage('shape1936','images/shape1936.png','Close box',670,201,28.000000,28.000000,1,48,'div','',0 )
@@ -1635,11 +1634,11 @@ shape1936.hasOnUp = true
 shape1936.capture=4
 shape1936.build()
 
-image1938 = new ObjImage('image1938','images/image0089.png','Close X',674,206,18,18,1,49,'div',null, 0 )
+image1938 = new ObjImage('image1938','images/image0089.png','Close X',675,206,18,18,1,49,'div',null, 0 )
 image1938.initRotateAngle(0,0,0,0,0,0,0)
 image1938.initHasShadow(0)
 image1938.initHasReflection(0)
-image1938.addIe8Attr(674, 206, 18, 18, 0, 0)
+image1938.addIe8Attr(675, 206, 18, 18, 0, 0)
 image1938.initImageMap(1,'0,0,18,0,18,18,0,18,0,0','M 0 0 L 18 0 L 18 18 L 0 18 L 0 0 z')
 image1938.addBorder(0)
 image1938.addOpacity(100)
@@ -1648,7 +1647,7 @@ image1938.hasOnUp = true
 image1938.capture=4
 image1938.build()
 
-text111205 = new ObjText('text111205',null,310,204,131,26,1,50,null,'div',null,0 )
+text111205 = new ObjText('text111205',null,310,196,131,26,1,50,null,'div',null,0 )
 text111205.initSLine(1)
 text111205.initHasBullet(0)
 text111205.initRotateAngle(0,0,0)
@@ -1657,7 +1656,7 @@ text111205.initHasTextShadow(0)
 text111205.initHasBorder(0)
 text111205.initHasOutline(0)
 text111205.initHasMargin(0)
-text111205.addIe8Attr(310, 204, 131, 26, 0, 0)
+text111205.addIe8Attr(310, 196, 131, 26, 0, 0)
 text111205.addHeading(0)
 text111205.addOpacity(100)
 text111205.arrCSSStyles = new Array();
@@ -1666,25 +1665,25 @@ text111205.arrCSSStyles.push('span.text111205Font2 { font-size:19px; font-family
 text111205.addInnerText('<div id=\"text111205\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text111205Font1\"  >FEEDBACK</span ><span class=\"text111205Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text111205.build()
 
-image1940 = new ObjImage('image1940','images/image0090.png','Picture 78',324,325,27,26,1,51,'div',null, 0 )
-image1940.initRotateAngle(0,0,0,0,0,0,0)
-image1940.initHasShadow(0)
-image1940.initHasReflection(0)
-image1940.addIe8Attr(324, 325, 27, 26, 0, 0)
-image1940.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
-image1940.addBorder(0)
-image1940.addOpacity(100)
-image1940.build()
+image174337 = new ObjImage('image174337','images/image0090.png','Picture 78',324,330,27,26,1,51,'div',null, 0 )
+image174337.initRotateAngle(0,0,0,0,0,0,0)
+image174337.initHasShadow(0)
+image174337.initHasReflection(0)
+image174337.addIe8Attr(324, 330, 27, 26, 0, 0)
+image174337.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
+image174337.addBorder(0)
+image174337.addOpacity(100)
+image174337.build()
 
-image1942 = new ObjImage('image1942','images/image0091.png','Picture 79',324,378,27,26,1,52,'div',null, 0 )
-image1942.initRotateAngle(0,0,0,0,0,0,0)
-image1942.initHasShadow(0)
-image1942.initHasReflection(0)
-image1942.addIe8Attr(324, 378, 27, 26, 0, 0)
-image1942.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
-image1942.addBorder(0)
-image1942.addOpacity(100)
-image1942.build()
+image174335 = new ObjImage('image174335','images/image0091.png','Picture 79',324,382,27,26,1,52,'div',null, 0 )
+image174335.initRotateAngle(0,0,0,0,0,0,0)
+image174335.initHasShadow(0)
+image174335.initHasReflection(0)
+image174335.addIe8Attr(324, 382, 27, 26, 0, 0)
+image174335.initImageMap(1,'0,0,27,0,27,26,0,26,0,0','M 0 0 L 27 0 L 27 26 L 0 26 L 0 0 z')
+image174335.addBorder(0)
+image174335.addOpacity(100)
+image174335.build()
 
 og122638 = new ObjInline('og122638',null,0,0,1009,568,1,0)
 og122638.isGrp = true
@@ -1724,12 +1723,12 @@ shape122642.initLineWeight(2)
 shape122642.addOpacity(100)
 shape122642.build()
 
-shape154831 = new ObjImage('shape154831','images/shape154831.png','Rectangle 40',112,181,115.000000,44.000000,1,55,'div','',0 )
+shape154831 = new ObjImage('shape154831','images/shape154831.png','Rectangle 40',112,184,115.000000,44.000000,1,55,'div','',0 )
 shape154831.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape154831.initHasShadow(0)
 shape154831.initHasReflection(0)
 shape154831.setUniqueFillID('page1846_shape154831')
-shape154831.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
+shape154831.addIe8Attr(112.000000, 184.000000, 115.000000, 44.000000, 0, 0)
 shape154831.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
 shape154831.setUseSvgFile(1)
 shape154831.addBorder(0)
@@ -1774,12 +1773,12 @@ text154828.arrCSSStyles.push('span.text154828Font2 { font-size:15px; font-family
 text154828.addInnerText('<div id=\"text154828\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text154828Font1\"  >FEEDBACK</span ><span class=\"text154828Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text154828.build()
 
-shape122647 = new ObjImage('shape122647','images/shape122647.png','Rectangle 43',640,191,28.000000,28.000000,1,58,'div','',0 )
+shape122647 = new ObjImage('shape122647','images/shape122647.png','Rectangle 43',636,191,28.000000,28.000000,1,58,'div','',0 )
 shape122647.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape122647.initHasShadow(0)
 shape122647.initHasReflection(0)
 shape122647.setUniqueFillID('page1846_shape122647')
-shape122647.addIe8Attr(640.000000, 191.000000, 28.000000, 28.000000, 0, 0)
+shape122647.addIe8Attr(636.000000, 191.000000, 28.000000, 28.000000, 0, 0)
 shape122647.initImageMap(1,'1,1,26,1,26,26,1,26,1,1','M 1.000000 1.000000 L 26.000000 1.000000 L 26.000000 26.000000 L 1.000000 26.000000 L 1.000000 1.000000 z', '', 'stroke:#00324B; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:none;"' , '')
 shape122647.setUseSvgFile(1)
 shape122647.addBorder(0)
@@ -1790,11 +1789,11 @@ shape122647.hasOnUp = true
 shape122647.capture=4
 shape122647.build()
 
-image122651 = new ObjImage('image122651','images/image0093.png','Picture 44',645,197,18,18,1,59,'div',null, 0 )
+image122651 = new ObjImage('image122651','images/image0093.png','Picture 44',641,197,18,18,1,59,'div',null, 0 )
 image122651.initRotateAngle(0,0,0,0,0,0,0)
 image122651.initHasShadow(0)
 image122651.initHasReflection(0)
-image122651.addIe8Attr(645, 197, 18, 18, 0, 0)
+image122651.addIe8Attr(641, 197, 18, 18, 0, 0)
 image122651.initImageMap(1,'0,0,18,0,18,18,0,18,0,0','M 0 0 L 18 0 L 18 18 L 0 18 L 0 0 z')
 image122651.addBorder(0)
 image122651.addOpacity(100)
@@ -1857,8 +1856,8 @@ arObjs.push(text1935);
 arObjs.push(shape1936);
 arObjs.push(image1938);
 arObjs.push(text111205);
-arObjs.push(image1940);
-arObjs.push(image1942);
+arObjs.push(image174337);
+arObjs.push(image174335);
 arObjs.push(og122638);
 arObjs.push(shape122640);
 arObjs.push(shape122642);
@@ -1924,17 +1923,17 @@ if( is.min ){
     appendElement(text67780, '<fieldset id="qu67778_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text67781, '<fieldset id="qu67778_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu67778_fieldset" style="border:0;"></fieldset>', '<div id="check67782"><a id="check67782anc"></a></div>');
-    appendElement(null, check67782.div, '<input type="checkbox" name="qu67778" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check67782id" value="Increase transparency of Federal  award spending " onchange=";Update_qu67778( 1 );">');
+    appendElement(null, check67782.div, '<input type="checkbox" name="qu67778" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check67782id" value="Increase transparency of Federal  award spending\\r" onchange=";Update_qu67778( 1 );">');
     appendElement(null, check67782.div, '<label id="label67782id2" for="check67782id" class="custQCB custCB" style="" onchange=";Update_qu67778( 1 );"></label> ');
 
     appendElement(text67783, '<fieldset id="qu67778_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu67778_fieldset" style="border:0;"></fieldset>', '<div id="check67784"><a id="check67784anc"></a></div>');
-    appendElement(null, check67784.div, '<input type="checkbox" name="qu67778" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check67784id" value="Empower every American with the ability to hold the government accountable for each spending decision " onchange=";Update_qu67778( 1 );">');
+    appendElement(null, check67784.div, '<input type="checkbox" name="qu67778" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check67784id" value="Empower every American with the ability to hold the government accountable for each spending decision\\r" onchange=";Update_qu67778( 1 );">');
     appendElement(null, check67784.div, '<label id="label67784id2" for="check67784id" class="custQCB custCB" style="" onchange=";Update_qu67778( 1 );"></label> ');
 
     appendElement(text67785, '<fieldset id="qu67778_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu67778_fieldset" style="border:0;"></fieldset>', '<div id="check67786"><a id="check67786anc"></a></div>');
-    appendElement(null, check67786.div, '<input type="checkbox" name="qu67778" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check67786id" value="Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website " onchange=";Update_qu67778( 1 );">');
+    appendElement(null, check67786.div, '<input type="checkbox" name="qu67778" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check67786id" value="Announce all Federal awards publicly and publish the required information on a publicly available OMB-designated governmentwide website\\r" onchange=";Update_qu67778( 1 );">');
     appendElement(null, check67786.div, '<label id="label67786id2" for="check67786id" class="custQCB custCB" style="" onchange=";Update_qu67778( 1 );"></label> ');
 
     appendElement(text67787, '<fieldset id="qu67778_fieldset" style="border:0;"></fieldset>', null);
@@ -1958,8 +1957,8 @@ if( is.min ){
     appendElement(shape1936, null, null);
     appendElement(image1938, null, null);
     appendElement(text111205, null, null);
-    appendElement(image1940, null, null);
-    appendElement(image1942, null, null);
+    appendElement(image174337, null, null);
+    appendElement(image174335, null, null);
     appendElement(shape122640, null, null);
     appendElement(shape122642, null, null);
     appendElement(shape154831, null, null);

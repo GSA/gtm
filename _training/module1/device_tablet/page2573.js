@@ -25,9 +25,9 @@ TabletResponsive={"1009":{
 ,
 "button72134":{"B64":{"disabledState":"","downState":"","normalState":"","overState":"","selectedState":"","visitedState":""},"bOffBottom":0,"h":41,"p":"M 10.000000 0.000000 L 110.000000 0.000000 L 112.000000 0.187500 L 113.937500 0.812500 L 117.062500 2.937500 L 119.250000 6.125000 L 119.812500 8.000000 L 120.000000 10.000000 L 120.000000 30.000000 L 119.812500 32.000000 L 119.250000 33.937500 L 117.062500 37.062500 L 113.937500 39.250000 L 112.000000 39.812500 L 110.000000 40.000000 L 10.000000 40.000000 L 6.187500 39.250000 L 2.937500 37.125000 L 0.750000 33.875000 L 0.187500 32.000000 L 0.000000 30.000000 L 0.000000 10.000000 L 0.187500 8.000000 L 0.812500 6.125000 L 2.937500 2.937500 L 6.125000 0.812500 L 8.000000 0.187500 L 10.000000 0.000000 z","stylemods":[{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:120.000000px; height:40.000000px;}","sel":"div.button72134Text"},{"decl":" { width:112.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134Text"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:120.000000px; height:40.000000px;}","sel":"div.button72134overStateText"},{"decl":" { width:112.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134overStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:120.000000px; height:40.000000px;}","sel":"div.button72134downStateText"},{"decl":" { width:112.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134downStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:120.000000px; height:40.000000px;}","sel":"div.button72134disabledStateText"},{"decl":" { width:112.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134disabledStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:120.000000px; height:40.000000px;}","sel":"div.button72134visitedStateText"},{"decl":" { width:112.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134visitedStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:120.000000px; height:40.000000px;}","sel":"div.button72134selectedStateText"},{"decl":" { width:112.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134selectedStateText"}],"w":121,"x":848,"y":518}
 ,
-"text72136":{"x":895,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
+"text72136":{"x":900,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text72138":{"x":79,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
+"text72138":{"x":75,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
 "text2576":{"x":75,"y":185,"w":880,"h":65,"txtscale":100,"bOffBottom":0}
 ,
@@ -45,7 +45,7 @@ TabletResponsive={"1009":{
 ,
 "text2585":{"x":676,"y":213,"w":259,"h":138,"txtscale":100,"bOffBottom":0}
 ,
-"text2586":{"x":65,"y":335,"w":880,"h":181,"txtscale":100,"bOffBottom":0}
+"text2586":{"x":75,"y":335,"w":880,"h":181,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -81,9 +81,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "button72134":{"B64":{"disabledState":"","downState":"","normalState":"","overState":"","selectedState":"","visitedState":""},"bOffBottom":0,"h":32,"p":"M 7.000000 0.000000 L 86.000000 0.000000 L 88.750000 0.562500 L 90.937500 2.062500 L 92.437500 4.312500 L 93.000000 7.000000 L 93.000000 24.000000 L 92.437500 26.750000 L 90.937500 28.937500 L 88.750000 30.437500 L 86.000000 31.000000 L 7.000000 31.000000 L 4.375000 30.500000 L 2.062500 29.000000 L 0.562500 26.687500 L 0.000000 24.000000 L 0.000000 7.000000 L 0.562500 4.312500 L 2.062500 2.062500 L 4.312500 0.562500 L 7.000000 0.000000 z","stylemods":[{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:93.000000px; height:31.000000px;}","sel":"div.button72134Text"},{"decl":" { width:87.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134Text"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:93.000000px; height:31.000000px;}","sel":"div.button72134overStateText"},{"decl":" { width:87.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134overStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:93.000000px; height:31.000000px;}","sel":"div.button72134downStateText"},{"decl":" { width:87.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134downStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:93.000000px; height:31.000000px;}","sel":"div.button72134disabledStateText"},{"decl":" { width:87.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134disabledStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:93.000000px; height:31.000000px;}","sel":"div.button72134visitedStateText"},{"decl":" { width:87.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134visitedStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:93.000000px; height:31.000000px;}","sel":"div.button72134selectedStateText"},{"decl":" { width:87.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button72134selectedStateText"}],"w":94,"x":660,"y":518}
 ,
-"text72136":{"x":696,"y":527,"w":156,"h":62,"txtscale":100,"bOffBottom":0}
+"text72136":{"x":700,"y":527,"w":156,"h":62,"txtscale":100,"bOffBottom":0}
 ,
-"text72138":{"x":61,"y":527,"w":156,"h":62,"txtscale":100,"bOffBottom":0}
+"text72138":{"x":58,"y":527,"w":156,"h":62,"txtscale":100,"bOffBottom":0}
 ,
 "text2576":{"x":58,"y":185,"w":685,"h":51,"txtscale":100,"bOffBottom":0}
 ,
@@ -101,7 +101,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text2585":{"x":526,"y":213,"w":202,"h":119,"txtscale":100,"bOffBottom":0}
 ,
-"text2586":{"x":51,"y":335,"w":685,"h":170,"txtscale":100,"bOffBottom":0}
+"text2586":{"x":58,"y":335,"w":685,"h":170,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

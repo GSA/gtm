@@ -3,6 +3,10 @@ DesktopResponsive={"1009":{
 ,
 "text112866":{"x":418,"y":528,"w":250,"h":78,"txtscale":100,"bOffBottom":0}
 ,
+"":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
+,
+"":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
+,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
 }

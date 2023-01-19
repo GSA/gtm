@@ -71,7 +71,7 @@ PhoneResponsive={"785":{
 ,
 "text1090":{"x":626,"y":198,"w":112,"h":63,"txtscale":100,"bOffBottom":0}
 ,
-"text1091":{"x":51,"y":321,"w":685,"h":102,"txtscale":100,"bOffBottom":0}
+"text1091":{"x":58,"y":321,"w":685,"h":102,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -153,7 +153,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text1090":{"x":383,"y":255,"w":69,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text1091":{"x":31,"y":413,"w":419,"h":170,"txtscale":100,"bOffBottom":0}
+"text1091":{"x":36,"y":413,"w":419,"h":170,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

@@ -120,7 +120,6 @@
     width: 1009px !important;
     height: 567px !important;
     clip: rect(0px, 1009px, 567px, 0px) !important;
-    background-image: url(images/image0004.png) !important;
     background-size: 1009px 567px !important;
     background-repeat: no-repeat !important;
     left: 10px !important;
@@ -529,12 +528,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu63255.hasBeenProcessed) {
     if( ans_Varl1q5 == '\u005C\u0072\u0020\u0020\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action63255_29(onAfterFBAction);  return 0;
+        trivActFBCnt++; action63255_11(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q5 != '\u005C\u0072\u0020\u0020\u0054\u0072\u0075\u0065' && ans_Varl1q5 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action63255_30(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action63255_12(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -673,13 +672,13 @@ function Update_qu63255(value) {
    qu63255Object.hasBeenProcessed=false;
 }
 
-function action63255_29(fn){
+function action63255_11(fn){
     og63247.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action63255_30(fn){
+function action63255_12(fn){
     og63557.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1218,7 +1217,7 @@ shape63564.initLineWeight(0)
 shape63564.addOpacity(100)
 shape63564.build()
 
-text63565 = new ObjText('text63565',null,310,253,93,26,1,25,null,'div',null,0 )
+text63565 = new ObjText('text63565',null,310,246,93,26,1,25,null,'div',null,0 )
 text63565.initSLine(1)
 text63565.initHasBullet(0)
 text63565.initRotateAngle(0,0,0)
@@ -1227,7 +1226,7 @@ text63565.initHasTextShadow(0)
 text63565.initHasBorder(0)
 text63565.initHasOutline(0)
 text63565.initHasMargin(0)
-text63565.addIe8Attr(310, 253, 93, 26, 0, 0)
+text63565.addIe8Attr(310, 246, 93, 26, 0, 0)
 text63565.addHeading(0)
 text63565.addOpacity(100)
 text63565.arrCSSStyles = new Array();
@@ -1249,11 +1248,11 @@ shape63567.initLineWeight(2)
 shape63567.addOpacity(100)
 shape63567.build()
 
-image63569 = new ObjImage('image63569','images/image0089.png','Picture 45',674,255,18,18,1,27,'div',null, 0 )
+image63569 = new ObjImage('image63569','images/image0089.png','Picture 45',675,255,18,18,1,27,'div',null, 0 )
 image63569.initRotateAngle(0,0,0,0,0,0,0)
 image63569.initHasShadow(0)
 image63569.initHasReflection(0)
-image63569.addIe8Attr(674, 255, 18, 18, 0, 0)
+image63569.addIe8Attr(675, 255, 18, 18, 0, 0)
 image63569.initImageMap(1,'0,0,18,0,18,18,0,18,0,0','M 0 0 L 18 0 L 18 18 L 0 18 L 0 0 z')
 image63569.addBorder(0)
 image63569.addOpacity(100)
@@ -1332,7 +1331,7 @@ shape1572.initLineWeight(0)
 shape1572.addOpacity(100)
 shape1572.build()
 
-text1574 = new ObjText('text1574',null,310,253,93,26,1,32,null,'div',null,0 )
+text1574 = new ObjText('text1574',null,310,246,93,26,1,32,null,'div',null,0 )
 text1574.initSLine(1)
 text1574.initHasBullet(0)
 text1574.initRotateAngle(0,0,0)
@@ -1341,7 +1340,7 @@ text1574.initHasTextShadow(0)
 text1574.initHasBorder(0)
 text1574.initHasOutline(0)
 text1574.initHasMargin(0)
-text1574.addIe8Attr(310, 253, 93, 26, 0, 0)
+text1574.addIe8Attr(310, 246, 93, 26, 0, 0)
 text1574.addHeading(0)
 text1574.addOpacity(100)
 text1574.arrCSSStyles = new Array();
@@ -1363,11 +1362,11 @@ shape1575.initLineWeight(2)
 shape1575.addOpacity(100)
 shape1575.build()
 
-image1577 = new ObjImage('image1577','images/image0089.png','Picture 45',674,255,18,18,1,34,'div',null, 0 )
+image1577 = new ObjImage('image1577','images/image0089.png','Picture 45',675,255,18,18,1,34,'div',null, 0 )
 image1577.initRotateAngle(0,0,0,0,0,0,0)
 image1577.initHasShadow(0)
 image1577.initHasReflection(0)
-image1577.addIe8Attr(674, 255, 18, 18, 0, 0)
+image1577.addIe8Attr(675, 255, 18, 18, 0, 0)
 image1577.initImageMap(1,'0,0,18,0,18,18,0,18,0,0','M 0 0 L 18 0 L 18 18 L 0 18 L 0 0 z')
 image1577.addBorder(0)
 image1577.addOpacity(100)
@@ -1414,12 +1413,12 @@ shape122445.initLineWeight(2)
 shape122445.addOpacity(100)
 shape122445.build()
 
-shape154223 = new ObjImage('shape154223','images/shape154223.png','Rectangle 40',112,181,115.000000,44.000000,1,37,'div','',0 )
+shape154223 = new ObjImage('shape154223','images/shape154223.png','Rectangle 40',112,184,115.000000,44.000000,1,37,'div','',0 )
 shape154223.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape154223.initHasShadow(0)
 shape154223.initHasReflection(0)
 shape154223.setUniqueFillID('page1548_shape154223')
-shape154223.addIe8Attr(112.000000, 181.000000, 115.000000, 44.000000, 0, 0)
+shape154223.addIe8Attr(112.000000, 184.000000, 115.000000, 44.000000, 0, 0)
 shape154223.initImageMap(1,'0,0,114,0,114,43,0,43,0,0','M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z', '', 'fill:#00324B;"' , '')
 shape154223.setUseSvgFile(1)
 shape154223.addBorder(0)
@@ -1464,12 +1463,12 @@ text154220.arrCSSStyles.push('span.text154220Font2 { font-size:15px; font-family
 text154220.addInnerText('<div id=\"text154220\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text154220Font1\"  >FEEDBACK</span ><span class=\"text154220Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text154220.build()
 
-shape122450 = new ObjImage('shape122450','images/shape122450.png','Rectangle 43',640,191,28.000000,28.000000,1,40,'div','',0 )
+shape122450 = new ObjImage('shape122450','images/shape122450.png','Rectangle 43',636,191,28.000000,28.000000,1,40,'div','',0 )
 shape122450.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape122450.initHasShadow(0)
 shape122450.initHasReflection(0)
 shape122450.setUniqueFillID('page1548_shape122450')
-shape122450.addIe8Attr(640.000000, 191.000000, 28.000000, 28.000000, 0, 0)
+shape122450.addIe8Attr(636.000000, 191.000000, 28.000000, 28.000000, 0, 0)
 shape122450.initImageMap(1,'1,1,26,1,26,26,1,26,1,1','M 1.000000 1.000000 L 26.000000 1.000000 L 26.000000 26.000000 L 1.000000 26.000000 L 1.000000 1.000000 z', '', 'stroke:#00324B; stroke-width:2; stroke-linejoin:round;stroke-dasharray: none; fill:none;"' , '')
 shape122450.setUseSvgFile(1)
 shape122450.addBorder(0)
@@ -1480,11 +1479,11 @@ shape122450.hasOnUp = true
 shape122450.capture=4
 shape122450.build()
 
-image122454 = new ObjImage('image122454','images/image0093.png','Picture 44',645,197,18,18,1,41,'div',null, 0 )
+image122454 = new ObjImage('image122454','images/image0093.png','Picture 44',641,197,18,18,1,41,'div',null, 0 )
 image122454.initRotateAngle(0,0,0,0,0,0,0)
 image122454.initHasShadow(0)
 image122454.initHasReflection(0)
-image122454.addIe8Attr(645, 197, 18, 18, 0, 0)
+image122454.addIe8Attr(641, 197, 18, 18, 0, 0)
 image122454.initImageMap(1,'0,0,18,0,18,18,0,18,0,0','M 0 0 L 18 0 L 18 18 L 0 18 L 0 0 z')
 image122454.addBorder(0)
 image122454.addOpacity(100)
