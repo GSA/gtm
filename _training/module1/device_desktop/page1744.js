@@ -5,6 +5,8 @@ DesktopResponsive={"1009":{
 ,
 "":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
 ,
+"":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
+,
 "text111444":{"x":68,"y":145,"w":439,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "image67224":{"x":65,"y":537,"w":47,"h":17,"bOffBottom":0,"i":"images/image0002.png"}

@@ -5,6 +5,8 @@ TabletResponsive={"1009":{
 ,
 "":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
 ,
+"":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
+,
 "image80980":{"x":65,"y":537,"w":47,"h":17,"bOffBottom":0,"i":"images/image0002.png"}
 ,
 "image80983":{"x":898,"y":537,"w":48,"h":17,"bOffBottom":0,"i":"images/image0003.png"}
@@ -168,6 +170,8 @@ Init_qu81043(false, true);
 "pageLayer":{"w":785,"h":1000,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
 ,
 "text110033":{"x":272,"y":527,"w":226,"h":38,"txtscale":100,"bOffBottom":0}
+,
+"":{"x":275,"y":183,"w":233,"h":156,"bOffBottom":0}
 ,
 "":{"x":275,"y":183,"w":233,"h":156,"bOffBottom":0}
 ,

@@ -3,6 +3,8 @@ TabletResponsive={"1009":{
 ,
 "":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
 ,
+"":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
+,
 "shape45":{"x":101,"y":262,"w":807.000000,"h":4.000000,"stylemods":[{"sel":"div.shape45Text","decl":" { position:absolute; top:1.000000px; left:1.000000px; display:flex; justify-content:center; align-items:center; width:803.000000px; height:0.000000px;}"},{"sel":"span.shape45Text","decl":" { width:799.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyUAAAACCAYAAABG1XOMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAcSURBVFhH7cEBAQAAAIIg/69uSEAAAAAAAACnahkqAAFc34WWAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 2.000000 2.000000 L 805.000000 2.000000 "}
 ,
 "shape47":{"x":430,"y":226,"w":141.000000,"h":48.000000,"stylemods":[{"sel":"div.shape47Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:140.000000px; height:47.000000px;}"},{"sel":"span.shape47Text","decl":" { width:136.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAAAwCAYAAAAsCvkOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAxSURBVHhe7cGBAAAAAMOg+VPf4ARVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcNWnwAAE4iJe/AAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 140.000000 0.000000 L 140.000000 47.000000 L 0.000000 47.000000 L 0.000000 0.000000 z"}
@@ -42,6 +44,8 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 },
 "785":{
 "pageLayer":{"w":785,"h":1000,"bgColor":"#00324b","bgImage":"images/image0000.png","bgSize":"785px 441px","bgRepeat":"no-repeat"}
+,
+"":{"x":275,"y":183,"w":233,"h":156,"bOffBottom":0}
 ,
 "":{"x":275,"y":183,"w":233,"h":156,"bOffBottom":0}
 ,
