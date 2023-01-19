@@ -33,7 +33,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "shape3499":{"x":335,"y":172,"w":110.000000,"h":38.000000,"stylemods":[{"sel":"div.shape3499Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:37.000000px;}"},{"sel":"span.shape3499Text","decl":" { width:105.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAAmCAYAAAAlUK76AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAmSURBVHhe7cEBAQAAAIIg/69uSEAAAAAAAAAAAAAAAAAAAAAAh2pBdgABcW4DegAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 109.000000 0.000000 L 109.000000 37.000000 L 0.000000 37.000000 L 0.000000 0.000000 z"}
 ,
-"text3501":{"x":196,"y":178,"w":391,"h":49,"txtscale":100,"bOffBottom":0}
+"text3501":{"x":196,"y":178,"w":391,"h":40,"txtscale":100,"bOffBottom":0}
 ,
 "text3502":{"x":54,"y":236,"w":674,"h":93,"txtscale":100,"bOffBottom":0}
 ,
