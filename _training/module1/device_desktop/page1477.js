@@ -19,8 +19,6 @@ DesktopResponsive={"1009":{
 ,
 "text91739":{"x":75,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
-"text64164":{"x":79,"y":527,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
-,
 "text1478":{"x":68,"y":145,"w":439,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "shape1481":{"x":118,"y":271,"w":52.000000,"h":42.000000,"stylemods":[{"sel":"div.shape1481Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:51.000000px; height:41.000000px;}"},{"sel":"span.shape1481Text","decl":" { width:47.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAqCAYAAAD8pHgAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAeSURBVGhD7cEBAQAAAIIg/6+uIUAAAAAAAAAAAHA1IkoAAX1MiXwAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 51.000000 0.000000 L 51.000000 41.000000 L 0.000000 41.000000 L 0.000000 0.000000 z" ,"i":"images/shape1481.png"}
