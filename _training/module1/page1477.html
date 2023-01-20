@@ -557,12 +557,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu59306.hasBeenProcessed) {
     if( ans_Varl1q4 == '\u0055\u006E\u0069\u0074\u0065\u0064\u0020\u0053\u0074\u0061\u0074\u0065\u0073\u0020\u0050\u0072\u0065\u0073\u0069\u0064\u0065\u006E\u0074' ) 
     { //1 
-        trivActFBCnt++; action59306_35(onAfterFBAction);  return 0;
+        trivActFBCnt++; action59306_43(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q4 != '\u0055\u006E\u0069\u0074\u0065\u0064\u0020\u0053\u0074\u0061\u0074\u0065\u0073\u0020\u0050\u0072\u0065\u0073\u0069\u0064\u0065\u006E\u0074' && ans_Varl1q4 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action59306_36(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action59306_44(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -804,13 +804,13 @@ function Update_qu59306( upd ) {
     qu59306Object.hasBeenProcessed=false;
 }
 
-function action59306_35(fn){
+function action59306_43(fn){
     og60455.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action59306_36(fn){
+function action59306_44(fn){
     og59253.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -875,7 +875,7 @@ text110033.arrCSSStyles.push('span.text110033Font2 { font-size:13px; font-family
 text110033.addInnerText('<div id=\"text110033\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text110033Font1\"  >LESSON 1: KNOWLEDGE CHECK</span ><span class=\"text110033Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text110033.build()
 
-og91720 = new ObjInline('og91720',null,0,0,1095,607,1,0)
+og91720 = new ObjInline('og91720',null,0,0,1100,607,1,0)
 og91720.isGrp = true
 og91720.addChild('image91722')
 og91720.addChild('image91725')
@@ -945,7 +945,7 @@ button91735.bOverEnabled = true;
 button91735.bDownEnabled = true;
 button91735.build()
 
-text91737 = new ObjText('text91737',null,895,527,200,80,1,8,null,'div',null,0 )
+text91737 = new ObjText('text91737',null,900,527,200,80,1,8,null,'div',null,0 )
 text91737.initSLine(0)
 text91737.initHasBullet(0)
 text91737.initRotateAngle(0,0,0)
@@ -954,7 +954,7 @@ text91737.initHasTextShadow(0)
 text91737.initHasBorder(0)
 text91737.initHasOutline(0)
 text91737.initHasMargin(0)
-text91737.addIe8Attr(895, 527, 200, 80, 0, 0)
+text91737.addIe8Attr(900, 527, 200, 80, 0, 0)
 text91737.addHeading(0)
 text91737.addOpacity(100)
 text91737.onUp = text91737onUp
@@ -966,7 +966,7 @@ text91737.arrCSSStyles.push('span.text91737Font2 { font-size:13px; font-family:"
 text91737.addInnerText('<div id=\"text91737\" aria-live=\"polite\" ><a id=\"text91737anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text91737Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text91737Font1\"  >NEXT</span ><span class=\"text91737Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text91737.build()
 
-text91739 = new ObjText('text91739',null,79,527,200,80,1,9,null,'div',null,0 )
+text91739 = new ObjText('text91739',null,75,527,200,80,1,9,null,'div',null,0 )
 text91739.initSLine(0)
 text91739.initHasBullet(0)
 text91739.initRotateAngle(0,0,0)
@@ -975,7 +975,7 @@ text91739.initHasTextShadow(0)
 text91739.initHasBorder(0)
 text91739.initHasOutline(0)
 text91739.initHasMargin(0)
-text91739.addIe8Attr(79, 527, 200, 80, 0, 0)
+text91739.addIe8Attr(75, 527, 200, 80, 0, 0)
 text91739.addHeading(0)
 text91739.addOpacity(100)
 text91739.onUp = text91739onUp

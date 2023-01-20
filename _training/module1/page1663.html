@@ -528,12 +528,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu65989.hasBeenProcessed) {
     if( ans_Varl1q7 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action65989_29(onAfterFBAction);  return 0;
+        trivActFBCnt++; action65989_37(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q7 != '\u0054\u0072\u0075\u0065' && ans_Varl1q7 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action65989_30(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action65989_38(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -776,13 +776,13 @@ function Update_qu65989(value) {
    qu65989Object.hasBeenProcessed=false;
 }
 
-function action65989_29(fn){
+function action65989_37(fn){
     og65899.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action65989_30(fn){
+function action65989_38(fn){
     og65914.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -867,7 +867,7 @@ text110033.arrCSSStyles.push('span.text110033Font2 { font-size:13px; font-family
 text110033.addInnerText('<div id=\"text110033\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text110033Font1\"  >LESSON 1: KNOWLEDGE CHECK</span ><span class=\"text110033Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text110033.build()
 
-og66204 = new ObjInline('og66204',null,0,0,1095,607,1,0)
+og66204 = new ObjInline('og66204',null,0,0,1100,607,1,0)
 og66204.isGrp = true
 og66204.addChild('image66206')
 og66204.addChild('image66209')
@@ -937,7 +937,7 @@ button66219.bOverEnabled = true;
 button66219.bDownEnabled = true;
 button66219.build()
 
-text66221 = new ObjText('text66221',null,895,527,200,80,1,8,null,'div',null,0 )
+text66221 = new ObjText('text66221',null,900,527,200,80,1,8,null,'div',null,0 )
 text66221.initSLine(0)
 text66221.initHasBullet(0)
 text66221.initRotateAngle(0,0,0)
@@ -946,7 +946,7 @@ text66221.initHasTextShadow(0)
 text66221.initHasBorder(0)
 text66221.initHasOutline(0)
 text66221.initHasMargin(0)
-text66221.addIe8Attr(895, 527, 200, 80, 0, 0)
+text66221.addIe8Attr(900, 527, 200, 80, 0, 0)
 text66221.addHeading(0)
 text66221.addOpacity(100)
 text66221.onUp = text66221onUp
@@ -958,7 +958,7 @@ text66221.arrCSSStyles.push('span.text66221Font2 { font-size:13px; font-family:"
 text66221.addInnerText('<div id=\"text66221\" aria-live=\"polite\" ><a id=\"text66221anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text66221Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text66221Font1\"  >NEXT</span ><span class=\"text66221Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text66221.build()
 
-text66223 = new ObjText('text66223',null,79,527,200,80,1,9,null,'div',null,0 )
+text66223 = new ObjText('text66223',null,75,527,200,80,1,9,null,'div',null,0 )
 text66223.initSLine(0)
 text66223.initHasBullet(0)
 text66223.initRotateAngle(0,0,0)
@@ -967,7 +967,7 @@ text66223.initHasTextShadow(0)
 text66223.initHasBorder(0)
 text66223.initHasOutline(0)
 text66223.initHasMargin(0)
-text66223.addIe8Attr(79, 527, 200, 80, 0, 0)
+text66223.addIe8Attr(75, 527, 200, 80, 0, 0)
 text66223.addHeading(0)
 text66223.addOpacity(100)
 text66223.onUp = text66223onUp

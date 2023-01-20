@@ -564,12 +564,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu67778.hasBeenProcessed) {
     if( ans_Varl1q10 == '\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072' ) 
     { //1 
-        trivActFBCnt++; action67778_21(onAfterFBAction);  return 0;
+        trivActFBCnt++; action67778_29(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q10 != '\u0049\u006E\u0063\u0072\u0065\u0061\u0073\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u0061\u0072\u0065\u006E\u0063\u0079\u0020\u006F\u0066\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u0073\u0070\u0065\u006E\u0064\u0069\u006E\u0067\u005C\u0072\u002C\u0041\u006E\u006E\u006F\u0075\u006E\u0063\u0065\u0020\u0061\u006C\u006C\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0061\u0077\u0061\u0072\u0064\u0073\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u006E\u0064\u0020\u0070\u0075\u0062\u006C\u0069\u0073\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0064\u0020\u0069\u006E\u0066\u006F\u0072\u006D\u0061\u0074\u0069\u006F\u006E\u0020\u006F\u006E\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u006C\u0079\u0020\u0061\u0076\u0061\u0069\u006C\u0061\u0062\u006C\u0065\u0020\u004F\u004D\u0042\u002D\u0064\u0065\u0073\u0069\u0067\u006E\u0061\u0074\u0065\u0064\u0020\u0067\u006F\u0076\u0065\u0072\u006E\u006D\u0065\u006E\u0074\u0077\u0069\u0064\u0065\u0020\u0077\u0065\u0062\u0073\u0069\u0074\u0065\u005C\u0072' && ans_Varl1q10 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action67778_22(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action67778_30(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -829,13 +829,13 @@ function Update_qu67778( upd ) {
     qu67778Object.hasBeenProcessed=false;
 }
 
-function action67778_21(fn){
+function action67778_29(fn){
     og67919.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action67778_22(fn){
+function action67778_30(fn){
     og68010.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -920,7 +920,7 @@ text110033.arrCSSStyles.push('span.text110033Font2 { font-size:13px; font-family
 text110033.addInnerText('<div id=\"text110033\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text110033Font1\"  >LESSON 1: KNOWLEDGE CHECK</span ><span class=\"text110033Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text110033.build()
 
-og67757 = new ObjInline('og67757',null,0,0,1095,607,1,0)
+og67757 = new ObjInline('og67757',null,0,0,1100,607,1,0)
 og67757.isGrp = true
 og67757.addChild('image67759')
 og67757.addChild('image67762')
@@ -990,7 +990,7 @@ button67772.bOverEnabled = true;
 button67772.bDownEnabled = true;
 button67772.build()
 
-text67774 = new ObjText('text67774',null,895,527,200,80,1,8,null,'div',null,0 )
+text67774 = new ObjText('text67774',null,900,527,200,80,1,8,null,'div',null,0 )
 text67774.initSLine(0)
 text67774.initHasBullet(0)
 text67774.initRotateAngle(0,0,0)
@@ -999,7 +999,7 @@ text67774.initHasTextShadow(0)
 text67774.initHasBorder(0)
 text67774.initHasOutline(0)
 text67774.initHasMargin(0)
-text67774.addIe8Attr(895, 527, 200, 80, 0, 0)
+text67774.addIe8Attr(900, 527, 200, 80, 0, 0)
 text67774.addHeading(0)
 text67774.addOpacity(100)
 text67774.onUp = text67774onUp
@@ -1011,7 +1011,7 @@ text67774.arrCSSStyles.push('span.text67774Font2 { font-size:13px; font-family:"
 text67774.addInnerText('<div id=\"text67774\" aria-live=\"polite\" ><a id=\"text67774anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text67774Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text67774Font1\"  >NEXT</span ><span class=\"text67774Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
 text67774.build()
 
-text67776 = new ObjText('text67776',null,79,527,200,80,1,9,null,'div',null,0 )
+text67776 = new ObjText('text67776',null,75,527,200,80,1,9,null,'div',null,0 )
 text67776.initSLine(0)
 text67776.initHasBullet(0)
 text67776.initRotateAngle(0,0,0)
@@ -1020,7 +1020,7 @@ text67776.initHasTextShadow(0)
 text67776.initHasBorder(0)
 text67776.initHasOutline(0)
 text67776.initHasMargin(0)
-text67776.addIe8Attr(79, 527, 200, 80, 0, 0)
+text67776.addIe8Attr(75, 527, 200, 80, 0, 0)
 text67776.addHeading(0)
 text67776.addOpacity(100)
 text67776.onUp = text67776onUp
