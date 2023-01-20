@@ -103,7 +103,7 @@ TabletResponsive={"1009":{
 ,
 "shape2097":{"x":670,"y":250,"w":28.000000,"h":28.000000,"stylemods":[{"sel":"div.shape2097Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:27.000000px; height:27.000000px;}"},{"sel":"span.shape2097Text","decl":" { width:23.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAaSURBVEhL7cExAQAAAMKg9U9tCF8gAACAWw0MXAAB3XeTugAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 1.000000 1.000000 L 26.000000 1.000000 L 26.000000 26.000000 L 1.000000 26.000000 L 1.000000 1.000000 z"}
 ,
-"text111326":{"x":310,"y":274,"w":91,"h":26,"txtscale":100,"bOffBottom":0}
+"text111326":{"x":310,"y":247,"w":91,"h":26,"txtscale":100,"bOffBottom":0}
 ,
 "image2099":{"x":675,"y":255,"w":18,"h":18,"bOffBottom":0,"i":"images/image0089.png"}
 ,
@@ -233,7 +233,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "shape2097":{"x":521,"y":250,"w":22.000000,"h":22.000000,"stylemods":[{"sel":"div.shape2097Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:21.000000px; height:21.000000px;}"},{"sel":"span.shape2097Text","decl":" { width:17.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYSURBVEhLYxgFo2AUjIJRMApGwaAEDAwAB6YAATgpF14AAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 1.000000 1.000000 L 20.000000 1.000000 L 20.000000 20.000000 L 1.000000 20.000000 L 1.000000 1.000000 z"}
 ,
-"text111326":{"x":241,"y":274,"w":71,"h":20,"txtscale":100,"bOffBottom":0}
+"text111326":{"x":241,"y":247,"w":71,"h":20,"txtscale":100,"bOffBottom":0}
 ,
 "image2099":{"x":525,"y":255,"w":14,"h":14,"bOffBottom":0,"i":"images/image0089.png"}
 ,

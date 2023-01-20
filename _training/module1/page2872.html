@@ -527,12 +527,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu84365.hasBeenProcessed) {
     if( ans_Varl2q4 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action84365_13(onAfterFBAction);  return 0;
+        trivActFBCnt++; action84365_5(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl2q4 != '\u0054\u0072\u0075\u0065' && ans_Varl2q4 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action84365_14(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action84365_6(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -783,13 +783,13 @@ function Update_qu84365(value) {
    qu84365Object.hasBeenProcessed=false;
 }
 
-function action84365_13(fn){
+function action84365_5(fn){
     og84120.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action84365_14(fn){
+function action84365_6(fn){
     og84171.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1062,7 +1062,7 @@ og84120.addChild('shape2919')
 og84120.addChild('image2921')
 og84120.build()
 
-shape2910 = new ObjImage('shape2910','images/shape2910.png','Rectangle 21',0,0,1010.000000,569.000000,1,16,'div','',0 )
+shape2910 = new ObjImage('shape2910','images/shape2910.png','Rectangle 21',0,0,1010.000000,569.000000,0,16,'div','',0 )
 shape2910.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,568)
 shape2910.initHasShadow(0)
 shape2910.initHasReflection(0)
@@ -1075,7 +1075,7 @@ shape2910.initLineWeight(0)
 shape2910.addOpacity(25)
 shape2910.build()
 
-shape2913 = new ObjImage('shape2913','images/shape2913.png','Rectangle 38',302,228,407.000000,187.000000,1,17,'div','',0 )
+shape2913 = new ObjImage('shape2913','images/shape2913.png','Rectangle 38',302,228,407.000000,187.000000,0,17,'div','',0 )
 shape2913.initRotateAngle(0,0,0,-0.000000,-0.000000,406,186)
 shape2913.initHasShadow(1)
 shape2913.initHasReflection(0)
@@ -1089,7 +1089,7 @@ shape2913.initLineWeight(2)
 shape2913.addOpacity(100)
 shape2913.build()
 
-shape2915 = new ObjImage('shape2915','images/shape2915.png','Rectangle 39',302,228,115.000000,44.000000,1,18,'div','',0 )
+shape2915 = new ObjImage('shape2915','images/shape2915.png','Rectangle 39',302,228,115.000000,44.000000,0,18,'div','',0 )
 shape2915.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape2915.initHasShadow(0)
 shape2915.initHasReflection(0)
@@ -1102,7 +1102,7 @@ shape2915.initLineWeight(0)
 shape2915.addOpacity(100)
 shape2915.build()
 
-text2918 = new ObjText('text2918',null,320,289,365,107,1,19,null,'div',null,0 )
+text2918 = new ObjText('text2918',null,320,289,365,107,0,19,null,'div',null,0 )
 text2918.initSLine(0)
 text2918.initHasBullet(0)
 text2918.initRotateAngle(0,0,0)
@@ -1121,7 +1121,7 @@ text2918.arrCSSStyles.push('span.text2918Font3 { font-size:13px; font-family:"Ar
 text2918.addInnerText('<div id=\"text2918\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2918Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:8px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2918Font2\"  >Under a fixed amount award costs are agreed upon in advance of the award and the amount of funding is fixed when the agreement is issued. Financial reporting is not required.</span ><span class=\"text2918Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text2918.build()
 
-text117854 = new ObjText('text117854',null,305,236,106,26,1,20,null,'div',null,0 )
+text117854 = new ObjText('text117854',null,305,236,106,26,0,20,null,'div',null,0 )
 text117854.initSLine(1)
 text117854.initHasBullet(0)
 text117854.initRotateAngle(0,0,0)
@@ -1139,7 +1139,7 @@ text117854.arrCSSStyles.push('span.text117854Font2 { font-size:19px; font-family
 text117854.addInnerText('<div id=\"text117854\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text117854Font1\"  >FEEDBACK</span ><span class=\"text117854Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text117854.build()
 
-shape2919 = new ObjImage('shape2919','images/shape2919.png','Rectangle 42',670,239,28.000000,28.000000,1,21,'div','',0 )
+shape2919 = new ObjImage('shape2919','images/shape2919.png','Rectangle 42',670,239,28.000000,28.000000,0,21,'div','',0 )
 shape2919.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape2919.initHasShadow(0)
 shape2919.initHasReflection(0)
@@ -1155,7 +1155,7 @@ shape2919.hasOnUp = true
 shape2919.capture=4
 shape2919.build()
 
-image2921 = new ObjImage('image2921','images/image0089.png','Picture 43',675,244,18,18,1,22,'div',null, 0 )
+image2921 = new ObjImage('image2921','images/image0089.png','Picture 43',675,244,18,18,0,22,'div',null, 0 )
 image2921.initRotateAngle(0,0,0,0,0,0,0)
 image2921.initHasShadow(0)
 image2921.initHasReflection(0)
@@ -1179,7 +1179,7 @@ og84171.addChild('shape84181')
 og84171.addChild('image84184')
 og84171.build()
 
-shape84173 = new ObjImage('shape84173','images/shape84173.png','Rectangle 21',0,0,1010.000000,569.000000,1,23,'div','',0 )
+shape84173 = new ObjImage('shape84173','images/shape84173.png','Rectangle 21',0,0,1010.000000,569.000000,0,23,'div','',0 )
 shape84173.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,568)
 shape84173.initHasShadow(0)
 shape84173.initHasReflection(0)
@@ -1192,7 +1192,7 @@ shape84173.initLineWeight(0)
 shape84173.addOpacity(25)
 shape84173.build()
 
-shape84175 = new ObjImage('shape84175','images/shape84175.png','Rectangle 38',302,228,407.000000,187.000000,1,24,'div','',0 )
+shape84175 = new ObjImage('shape84175','images/shape84175.png','Rectangle 38',302,228,407.000000,187.000000,0,24,'div','',0 )
 shape84175.initRotateAngle(0,0,0,-0.000000,-0.000000,406,186)
 shape84175.initHasShadow(1)
 shape84175.initHasReflection(0)
@@ -1206,7 +1206,7 @@ shape84175.initLineWeight(2)
 shape84175.addOpacity(100)
 shape84175.build()
 
-shape84177 = new ObjImage('shape84177','images/shape84177.png','Rectangle 39',302,228,115.000000,44.000000,1,25,'div','',0 )
+shape84177 = new ObjImage('shape84177','images/shape84177.png','Rectangle 39',302,228,115.000000,44.000000,0,25,'div','',0 )
 shape84177.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape84177.initHasShadow(0)
 shape84177.initHasReflection(0)
@@ -1219,7 +1219,7 @@ shape84177.initLineWeight(0)
 shape84177.addOpacity(100)
 shape84177.build()
 
-text84179 = new ObjText('text84179',null,320,289,365,107,1,26,null,'div',null,0 )
+text84179 = new ObjText('text84179',null,320,289,365,107,0,26,null,'div',null,0 )
 text84179.initSLine(0)
 text84179.initHasBullet(0)
 text84179.initRotateAngle(0,0,0)
@@ -1239,7 +1239,7 @@ text84179.arrCSSStyles.push('span.text84179Font4 { font-size:13px; font-family:"
 text84179.addInnerText('<div id=\"text84179\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text84179Font1\"  >Incorrect.</span ><span class=\"text84179Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:8px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text84179Font3\"  >Under a fixed amount award costs are agreed upon in advance of the award and the amount of funding is fixed when the agreement is issued. Financial reporting is not required.</span ><span class=\"text84179Font4\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text84179.build()
 
-text117888 = new ObjText('text117888',null,305,236,106,26,1,27,null,'div',null,0 )
+text117888 = new ObjText('text117888',null,305,236,106,26,0,27,null,'div',null,0 )
 text117888.initSLine(1)
 text117888.initHasBullet(0)
 text117888.initRotateAngle(0,0,0)
@@ -1257,7 +1257,7 @@ text117888.arrCSSStyles.push('span.text117888Font2 { font-size:19px; font-family
 text117888.addInnerText('<div id=\"text117888\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text117888Font1\"  >FEEDBACK</span ><span class=\"text117888Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text117888.build()
 
-shape84181 = new ObjImage('shape84181','images/shape84181.png','Rectangle 42',670,239,28.000000,28.000000,1,28,'div','',0 )
+shape84181 = new ObjImage('shape84181','images/shape84181.png','Rectangle 42',670,239,28.000000,28.000000,0,28,'div','',0 )
 shape84181.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape84181.initHasShadow(0)
 shape84181.initHasReflection(0)
@@ -1273,7 +1273,7 @@ shape84181.hasOnUp = true
 shape84181.capture=4
 shape84181.build()
 
-image84184 = new ObjImage('image84184','images/image0089.png','Picture 43',675,244,18,18,1,29,'div',null, 0 )
+image84184 = new ObjImage('image84184','images/image0089.png','Picture 43',675,244,18,18,0,29,'div',null, 0 )
 image84184.initRotateAngle(0,0,0,0,0,0,0)
 image84184.initHasShadow(0)
 image84184.initHasReflection(0)
@@ -1371,7 +1371,7 @@ og123078.addChild('text156478')
 og123078.addChild('image123091')
 og123078.build()
 
-shape123080 = new ObjImage('shape123080','images/shape123080.png','Rectangle 25',0,0,1010.000000,569.000000,1,35,'div','',0 )
+shape123080 = new ObjImage('shape123080','images/shape123080.png','Rectangle 25',0,0,1010.000000,569.000000,0,35,'div','',0 )
 shape123080.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,568)
 shape123080.initHasShadow(0)
 shape123080.initHasReflection(0)
@@ -1384,7 +1384,7 @@ shape123080.initLineWeight(0)
 shape123080.addOpacity(25)
 shape123080.build()
 
-shape123082 = new ObjImage('shape123082','images/shape123082.png','Rectangle 39',112,184,561.000000,101.000000,1,36,'div','',0 )
+shape123082 = new ObjImage('shape123082','images/shape123082.png','Rectangle 39',112,184,561.000000,101.000000,0,36,'div','',0 )
 shape123082.initRotateAngle(0,0,0,-0.000000,-0.000000,560,100)
 shape123082.initHasShadow(1)
 shape123082.initHasReflection(0)
@@ -1398,7 +1398,7 @@ shape123082.initLineWeight(2)
 shape123082.addOpacity(100)
 shape123082.build()
 
-shape123087 = new ObjImage('shape123087','images/shape123087.png','Rectangle 43',636,191,28.000000,28.000000,1,37,'div','',0 )
+shape123087 = new ObjImage('shape123087','images/shape123087.png','Rectangle 43',636,191,28.000000,28.000000,0,37,'div','',0 )
 shape123087.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape123087.initHasShadow(0)
 shape123087.initHasReflection(0)
@@ -1414,7 +1414,7 @@ shape123087.hasOnUp = true
 shape123087.capture=4
 shape123087.build()
 
-shape156481 = new ObjImage('shape156481','images/shape156481.png','Rectangle 40',112,184,115.000000,44.000000,1,38,'div','',0 )
+shape156481 = new ObjImage('shape156481','images/shape156481.png','Rectangle 40',112,184,115.000000,44.000000,0,38,'div','',0 )
 shape156481.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape156481.initHasShadow(0)
 shape156481.initHasReflection(0)
@@ -1427,7 +1427,7 @@ shape156481.initLineWeight(0)
 shape156481.addOpacity(100)
 shape156481.build()
 
-text156479 = new ObjText('text156479',null,130,230,800,50,1,39,null,'div',null,0 )
+text156479 = new ObjText('text156479',null,130,230,800,50,0,39,null,'div',null,0 )
 text156479.initSLine(0)
 text156479.initHasBullet(0)
 text156479.initRotateAngle(0,0,0)
@@ -1446,7 +1446,7 @@ text156479.arrCSSStyles.push('span.text156479Font3 { font-size:19px; font-family
 text156479.addInnerText('<div id=\"text156479\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text156479Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text156479Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text156479Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text156479.build()
 
-text156478 = new ObjText('text156478',null,114,194,101,26,1,40,null,'div',null,0 )
+text156478 = new ObjText('text156478',null,114,194,101,26,0,40,null,'div',null,0 )
 text156478.initSLine(1)
 text156478.initHasBullet(0)
 text156478.initRotateAngle(0,0,0)
@@ -1464,7 +1464,7 @@ text156478.arrCSSStyles.push('span.text156478Font2 { font-size:15px; font-family
 text156478.addInnerText('<div id=\"text156478\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text156478Font1\"  >FEEDBACK</span ><span class=\"text156478Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text156478.build()
 
-image123091 = new ObjImage('image123091','images/image0093.png','Picture 44',641,196,18,18,1,41,'div',null, 0 )
+image123091 = new ObjImage('image123091','images/image0093.png','Picture 44',641,196,18,18,0,41,'div',null, 0 )
 image123091.initRotateAngle(0,0,0,0,0,0,0)
 image123091.initHasShadow(0)
 image123091.initHasReflection(0)

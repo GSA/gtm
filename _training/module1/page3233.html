@@ -606,9 +606,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action75793_13(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action75793_5(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action75793_14(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action75793_6(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -793,13 +793,13 @@ function Update_qu75793() {
   doImmFeedback('qu75793');
 }
 
-function action75793_13(fn){
+function action75793_5(fn){
     og75702.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action75793_14(fn){
+function action75793_6(fn){
     og75745.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1429,7 +1429,7 @@ og75702.addChild('shape3325')
 og75702.addChild('image3328')
 og75702.build()
 
-shape3303 = new ObjImage('shape3303','images/shape3303.png','Rectangle 31',0,0,1009.000000,569.000000,1,34,'div','',0 )
+shape3303 = new ObjImage('shape3303','images/shape3303.png','Rectangle 31',0,0,1009.000000,569.000000,0,34,'div','',0 )
 shape3303.initRotateAngle(0,0,0,-0.000000,-0.000000,1008,568)
 shape3303.initHasShadow(0)
 shape3303.initHasReflection(0)
@@ -1442,7 +1442,7 @@ shape3303.initLineWeight(0)
 shape3303.addOpacity(25)
 shape3303.build()
 
-shape3308 = new ObjImage('shape3308','images/shape3308.png','Rectangle 49',103,146,801.000000,388.000000,1,35,'div','',0 )
+shape3308 = new ObjImage('shape3308','images/shape3308.png','Rectangle 49',103,146,801.000000,388.000000,0,35,'div','',0 )
 shape3308.initRotateAngle(0,0,0,-0.000000,-0.000000,800,387)
 shape3308.initHasShadow(1)
 shape3308.initHasReflection(0)
@@ -1456,7 +1456,7 @@ shape3308.initLineWeight(2)
 shape3308.addOpacity(100)
 shape3308.build()
 
-text3310 = new ObjText('text3310',null,135,206,727,313,1,36,null,'div',null,0 )
+text3310 = new ObjText('text3310',null,135,206,727,313,0,36,null,'div',null,0 )
 text3310.initSLine(0)
 text3310.initHasBullet(0)
 text3310.initRotateAngle(0,0,0)
@@ -1477,7 +1477,7 @@ text3310.arrCSSStyles.push('span.text3310Font5 { font-size:15px; font-family:"Ar
 text3310.addInnerText('<div id=\"text3310\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:49px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >A </span ><span class=\"text3310Font4\"  >contract i</span ><span class=\"text3310Font3\"  >s the appropriate legal instrument to use, if the Federal agency is acquiring property or services for its own direct benefit or use of the Federal Government.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >A </span ><span class=\"text3310Font4\"  >contract i</span ><span class=\"text3310Font3\"  >s the appropriate legal instrument to use if the Federal agency is the direct beneficiary for use of property or services.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font4\"  >Federal Financial Assistance </span ><span class=\"text3310Font3\"  >is the appropriate legal instrument to use if it is provided at the request of the recipient.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >A </span ><span class=\"text3310Font4\"  >contract</span ><span class=\"text3310Font3\"  > is the appropriate legal instrument to use if the Federal agency is providing the specifications for the property or services.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font5\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3310Font3\"  >A </span ><span class=\"text3310Font4\"  >contract</span ><span class=\"text3310Font3\"  > is the appropriate legal instrument to use if Federal agency is buying (or leasing) the property or buying services based on it own identified needs.</span ><span class=\"text3310Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3310.build()
 
-image3311 = new ObjImage('image3311','images/image0134.png','Picture 47',150,342,24,26,1,37,'div',null, 0 )
+image3311 = new ObjImage('image3311','images/image0134.png','Picture 47',150,342,24,26,0,37,'div',null, 0 )
 image3311.initRotateAngle(0,0,0,0,0,0,0)
 image3311.initHasShadow(0)
 image3311.initHasReflection(0)
@@ -1487,7 +1487,7 @@ image3311.addBorder(0)
 image3311.addOpacity(100)
 image3311.build()
 
-image3314 = new ObjImage('image3314','images/image0136.png','Picture 48',150,290,24,26,1,38,'div',null, 0 )
+image3314 = new ObjImage('image3314','images/image0136.png','Picture 48',150,290,24,26,0,38,'div',null, 0 )
 image3314.initRotateAngle(0,0,0,0,0,0,0)
 image3314.initHasShadow(0)
 image3314.initHasReflection(0)
@@ -1497,7 +1497,7 @@ image3314.addBorder(0)
 image3314.addOpacity(100)
 image3314.build()
 
-image3316 = new ObjImage('image3316','images/image0134.png','Picture 69',150,392,24,26,1,39,'div',null, 0 )
+image3316 = new ObjImage('image3316','images/image0134.png','Picture 69',150,392,24,26,0,39,'div',null, 0 )
 image3316.initRotateAngle(0,0,0,0,0,0,0)
 image3316.initHasShadow(0)
 image3316.initHasReflection(0)
@@ -1507,7 +1507,7 @@ image3316.addBorder(0)
 image3316.addOpacity(100)
 image3316.build()
 
-image3318 = new ObjImage('image3318','images/image0136.png','Picture 70',150,245,24,26,1,40,'div',null, 0 )
+image3318 = new ObjImage('image3318','images/image0136.png','Picture 70',150,245,24,26,0,40,'div',null, 0 )
 image3318.initRotateAngle(0,0,0,0,0,0,0)
 image3318.initHasShadow(0)
 image3318.initHasReflection(0)
@@ -1517,7 +1517,7 @@ image3318.addBorder(0)
 image3318.addOpacity(100)
 image3318.build()
 
-image3320 = new ObjImage('image3320','images/image0134.png','Picture 71',150,442,24,26,1,41,'div',null, 0 )
+image3320 = new ObjImage('image3320','images/image0134.png','Picture 71',150,442,24,26,0,41,'div',null, 0 )
 image3320.initRotateAngle(0,0,0,0,0,0,0)
 image3320.initHasShadow(0)
 image3320.initHasReflection(0)
@@ -1527,7 +1527,7 @@ image3320.addBorder(0)
 image3320.addOpacity(100)
 image3320.build()
 
-shape3322 = new ObjImage('shape3322','images/shape3322.png','Rectangle 57',104,147,134.000000,44.000000,1,42,'div','',0 )
+shape3322 = new ObjImage('shape3322','images/shape3322.png','Rectangle 57',104,147,134.000000,44.000000,0,42,'div','',0 )
 shape3322.initRotateAngle(0,0,0,-0.000000,-0.000000,133,43)
 shape3322.initHasShadow(0)
 shape3322.initHasReflection(0)
@@ -1540,7 +1540,7 @@ shape3322.initLineWeight(0)
 shape3322.addOpacity(100)
 shape3322.build()
 
-text118193 = new ObjText('text118193',null,116,154,106,26,1,43,null,'div',null,0 )
+text118193 = new ObjText('text118193',null,116,154,106,26,0,43,null,'div',null,0 )
 text118193.initSLine(1)
 text118193.initHasBullet(0)
 text118193.initRotateAngle(0,0,0)
@@ -1558,7 +1558,7 @@ text118193.arrCSSStyles.push('span.text118193Font2 { font-size:19px; font-family
 text118193.addInnerText('<div id=\"text118193\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118193Font1\"  >FEEDBACK</span ><span class=\"text118193Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118193.build()
 
-shape3325 = new ObjImage('shape3325','images/shape3325.png','X Box',863,154,28.000000,27.000000,1,44,'div','',0 )
+shape3325 = new ObjImage('shape3325','images/shape3325.png','X Box',863,154,28.000000,27.000000,0,44,'div','',0 )
 shape3325.initRotateAngle(0,0,0,-0.000000,-0.000000,27,26)
 shape3325.initHasShadow(0)
 shape3325.initHasReflection(0)
@@ -1574,7 +1574,7 @@ shape3325.hasOnUp = true
 shape3325.capture=4
 shape3325.build()
 
-image3328 = new ObjImage('image3328','images/image0137.png','Picture 61',868,159,17,17,1,45,'div',null, 0 )
+image3328 = new ObjImage('image3328','images/image0137.png','Picture 61',868,159,17,17,0,45,'div',null, 0 )
 image3328.initRotateAngle(0,0,0,0,0,0,0)
 image3328.initHasShadow(0)
 image3328.initHasReflection(0)
@@ -1603,7 +1603,7 @@ og75745.addChild('shape75765')
 og75745.addChild('image75768')
 og75745.build()
 
-shape75747 = new ObjImage('shape75747','images/shape75747.png','Rectangle 31',0,0,1009.000000,569.000000,1,46,'div','',0 )
+shape75747 = new ObjImage('shape75747','images/shape75747.png','Rectangle 31',0,0,1009.000000,569.000000,0,46,'div','',0 )
 shape75747.initRotateAngle(0,0,0,-0.000000,-0.000000,1008,568)
 shape75747.initHasShadow(0)
 shape75747.initHasReflection(0)
@@ -1616,7 +1616,7 @@ shape75747.initLineWeight(0)
 shape75747.addOpacity(25)
 shape75747.build()
 
-shape75749 = new ObjImage('shape75749','images/shape75749.png','Rectangle 49',103,146,801.000000,388.000000,1,47,'div','',0 )
+shape75749 = new ObjImage('shape75749','images/shape75749.png','Rectangle 49',103,146,801.000000,388.000000,0,47,'div','',0 )
 shape75749.initRotateAngle(0,0,0,-0.000000,-0.000000,800,387)
 shape75749.initHasShadow(1)
 shape75749.initHasReflection(0)
@@ -1630,7 +1630,7 @@ shape75749.initLineWeight(2)
 shape75749.addOpacity(100)
 shape75749.build()
 
-text75750 = new ObjText('text75750',null,135,206,727,313,1,48,null,'div',null,0 )
+text75750 = new ObjText('text75750',null,135,206,727,313,0,48,null,'div',null,0 )
 text75750.initSLine(0)
 text75750.initHasBullet(0)
 text75750.initRotateAngle(0,0,0)
@@ -1652,7 +1652,7 @@ text75750.arrCSSStyles.push('span.text75750Font6 { font-size:15px; font-family:"
 text75750.addInnerText('<div id=\"text75750\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font1\"  >Incorrect.</span ><span class=\"text75750Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:6px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</span ></p >\n<p  legLH=\"1.156\" style=\"margin-left:6px;text-indent:0px;line-height:0.938;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text75750Font4\"  >A </span ><span class=\"text75750Font5\"  >contract i</span ><span class=\"text75750Font4\"  >s the appropriate legal instrument to use, if the Federal agency is acquiring property or &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;services for its own direct benefit or use of the Federal Government.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font6\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font4\"  >A </span ><span class=\"text75750Font5\"  >contract i</span ><span class=\"text75750Font4\"  >s the appropriate legal instrument to use if the Federal agency is the direct beneficiary for use of property or services.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font6\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font5\"  >Federal Financial Assistance </span ><span class=\"text75750Font4\"  >is the appropriate legal instrument to use if it is provided at the request of the recipient.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font6\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font4\"  >A </span ><span class=\"text75750Font5\"  >contract</span ><span class=\"text75750Font4\"  > is the appropriate legal instrument to use if the Federal agency is providing the specifications for the property or services.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:6px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font6\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:49px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text75750Font4\"  >A </span ><span class=\"text75750Font5\"  >contract</span ><span class=\"text75750Font4\"  > is the appropriate legal instrument to use if Federal agency is buying (or leasing) the property or buying services based on it own identified needs.</span ><span class=\"text75750Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text75750.build()
 
-shape75762 = new ObjImage('shape75762','images/shape75762.png','Rectangle 57',104,147,134.000000,44.000000,1,49,'div','',0 )
+shape75762 = new ObjImage('shape75762','images/shape75762.png','Rectangle 57',104,147,134.000000,44.000000,0,49,'div','',0 )
 shape75762.initRotateAngle(0,0,0,-0.000000,-0.000000,133,43)
 shape75762.initHasShadow(0)
 shape75762.initHasReflection(0)
@@ -1665,7 +1665,7 @@ shape75762.initLineWeight(0)
 shape75762.addOpacity(100)
 shape75762.build()
 
-text118217 = new ObjText('text118217',null,116,154,106,26,1,50,null,'div',null,0 )
+text118217 = new ObjText('text118217',null,116,154,106,26,0,50,null,'div',null,0 )
 text118217.initSLine(1)
 text118217.initHasBullet(0)
 text118217.initRotateAngle(0,0,0)
@@ -1683,7 +1683,7 @@ text118217.arrCSSStyles.push('span.text118217Font2 { font-size:19px; font-family
 text118217.addInnerText('<div id=\"text118217\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118217Font1\"  >FEEDBACK</span ><span class=\"text118217Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118217.build()
 
-image178939 = new ObjImage('image178939','images/image0134.png','Picture 47',150,342,24,26,1,51,'div',null, 0 )
+image178939 = new ObjImage('image178939','images/image0134.png','Picture 47',150,342,24,26,0,51,'div',null, 0 )
 image178939.initRotateAngle(0,0,0,0,0,0,0)
 image178939.initHasShadow(0)
 image178939.initHasReflection(0)
@@ -1693,7 +1693,7 @@ image178939.addBorder(0)
 image178939.addOpacity(100)
 image178939.build()
 
-image178937 = new ObjImage('image178937','images/image0136.png','Picture 48',150,290,24,26,1,52,'div',null, 0 )
+image178937 = new ObjImage('image178937','images/image0136.png','Picture 48',150,290,24,26,0,52,'div',null, 0 )
 image178937.initRotateAngle(0,0,0,0,0,0,0)
 image178937.initHasShadow(0)
 image178937.initHasReflection(0)
@@ -1703,7 +1703,7 @@ image178937.addBorder(0)
 image178937.addOpacity(100)
 image178937.build()
 
-image178935 = new ObjImage('image178935','images/image0134.png','Picture 69',150,392,24,26,1,53,'div',null, 0 )
+image178935 = new ObjImage('image178935','images/image0134.png','Picture 69',150,392,24,26,0,53,'div',null, 0 )
 image178935.initRotateAngle(0,0,0,0,0,0,0)
 image178935.initHasShadow(0)
 image178935.initHasReflection(0)
@@ -1713,7 +1713,7 @@ image178935.addBorder(0)
 image178935.addOpacity(100)
 image178935.build()
 
-image178933 = new ObjImage('image178933','images/image0136.png','Picture 70',150,245,24,26,1,54,'div',null, 0 )
+image178933 = new ObjImage('image178933','images/image0136.png','Picture 70',150,245,24,26,0,54,'div',null, 0 )
 image178933.initRotateAngle(0,0,0,0,0,0,0)
 image178933.initHasShadow(0)
 image178933.initHasReflection(0)
@@ -1723,7 +1723,7 @@ image178933.addBorder(0)
 image178933.addOpacity(100)
 image178933.build()
 
-image178931 = new ObjImage('image178931','images/image0134.png','Picture 71',150,442,24,26,1,55,'div',null, 0 )
+image178931 = new ObjImage('image178931','images/image0134.png','Picture 71',150,442,24,26,0,55,'div',null, 0 )
 image178931.initRotateAngle(0,0,0,0,0,0,0)
 image178931.initHasShadow(0)
 image178931.initHasReflection(0)
@@ -1733,7 +1733,7 @@ image178931.addBorder(0)
 image178931.addOpacity(100)
 image178931.build()
 
-shape75765 = new ObjImage('shape75765','images/shape75765.png','X Box',863,154,28.000000,27.000000,1,56,'div','',0 )
+shape75765 = new ObjImage('shape75765','images/shape75765.png','X Box',863,154,28.000000,27.000000,0,56,'div','',0 )
 shape75765.initRotateAngle(0,0,0,-0.000000,-0.000000,27,26)
 shape75765.initHasShadow(0)
 shape75765.initHasReflection(0)
@@ -1749,7 +1749,7 @@ shape75765.hasOnUp = true
 shape75765.capture=4
 shape75765.build()
 
-image75768 = new ObjImage('image75768','images/image0137.png','Picture 61',868,159,17,17,1,57,'div',null, 0 )
+image75768 = new ObjImage('image75768','images/image0137.png','Picture 61',868,159,17,17,0,57,'div',null, 0 )
 image75768.initRotateAngle(0,0,0,0,0,0,0)
 image75768.initHasShadow(0)
 image75768.initHasReflection(0)
@@ -1773,7 +1773,7 @@ og123164.addChild('text157490')
 og123164.addChild('image123177')
 og123164.build()
 
-shape123166 = new ObjImage('shape123166','images/shape123166.png','Rectangle 25',0,0,1010.000000,569.000000,1,58,'div','',0 )
+shape123166 = new ObjImage('shape123166','images/shape123166.png','Rectangle 25',0,0,1010.000000,569.000000,0,58,'div','',0 )
 shape123166.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,568)
 shape123166.initHasShadow(0)
 shape123166.initHasReflection(0)
@@ -1786,7 +1786,7 @@ shape123166.initLineWeight(0)
 shape123166.addOpacity(25)
 shape123166.build()
 
-shape123168 = new ObjImage('shape123168','images/shape123168.png','Rectangle 39',112,184,561.000000,101.000000,1,59,'div','',0 )
+shape123168 = new ObjImage('shape123168','images/shape123168.png','Rectangle 39',112,184,561.000000,101.000000,0,59,'div','',0 )
 shape123168.initRotateAngle(0,0,0,-0.000000,-0.000000,560,100)
 shape123168.initHasShadow(1)
 shape123168.initHasReflection(0)
@@ -1800,7 +1800,7 @@ shape123168.initLineWeight(2)
 shape123168.addOpacity(100)
 shape123168.build()
 
-shape123173 = new ObjImage('shape123173','images/shape123173.png','Rectangle 43',636,191,28.000000,28.000000,1,60,'div','',0 )
+shape123173 = new ObjImage('shape123173','images/shape123173.png','Rectangle 43',636,191,28.000000,28.000000,0,60,'div','',0 )
 shape123173.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape123173.initHasShadow(0)
 shape123173.initHasReflection(0)
@@ -1816,7 +1816,7 @@ shape123173.hasOnUp = true
 shape123173.capture=4
 shape123173.build()
 
-shape157493 = new ObjImage('shape157493','images/shape157493.png','Rectangle 40',112,184,115.000000,44.000000,1,61,'div','',0 )
+shape157493 = new ObjImage('shape157493','images/shape157493.png','Rectangle 40',112,184,115.000000,44.000000,0,61,'div','',0 )
 shape157493.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape157493.initHasShadow(0)
 shape157493.initHasReflection(0)
@@ -1829,7 +1829,7 @@ shape157493.initLineWeight(0)
 shape157493.addOpacity(100)
 shape157493.build()
 
-text157491 = new ObjText('text157491',null,130,230,800,50,1,62,null,'div',null,0 )
+text157491 = new ObjText('text157491',null,130,230,800,50,0,62,null,'div',null,0 )
 text157491.initSLine(0)
 text157491.initHasBullet(0)
 text157491.initRotateAngle(0,0,0)
@@ -1848,7 +1848,7 @@ text157491.arrCSSStyles.push('span.text157491Font3 { font-size:19px; font-family
 text157491.addInnerText('<div id=\"text157491\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text157491Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text157491Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text157491Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text157491.build()
 
-text157490 = new ObjText('text157490',null,114,194,101,26,1,63,null,'div',null,0 )
+text157490 = new ObjText('text157490',null,114,194,101,26,0,63,null,'div',null,0 )
 text157490.initSLine(1)
 text157490.initHasBullet(0)
 text157490.initRotateAngle(0,0,0)
@@ -1866,7 +1866,7 @@ text157490.arrCSSStyles.push('span.text157490Font2 { font-size:15px; font-family
 text157490.addInnerText('<div id=\"text157490\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text157490Font1\"  >FEEDBACK</span ><span class=\"text157490Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text157490.build()
 
-image123177 = new ObjImage('image123177','images/image0093.png','Picture 44',641,196,18,18,1,64,'div',null, 0 )
+image123177 = new ObjImage('image123177','images/image0093.png','Picture 44',641,196,18,18,0,64,'div',null, 0 )
 image123177.initRotateAngle(0,0,0,0,0,0,0)
 image123177.initHasShadow(0)
 image123177.initHasReflection(0)

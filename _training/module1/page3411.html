@@ -638,9 +638,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action99765_17(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action99765_5(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action99765_18(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action99765_6(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -844,13 +844,13 @@ function Update_qu99765() {
   doImmFeedback('qu99765');
 }
 
-function action99765_17(fn){
+function action99765_5(fn){
     og86465.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action99765_18(fn){
+function action99765_6(fn){
     og99702.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1751,7 +1751,7 @@ og86465.addChild('shape3489')
 og86465.addChild('image3491')
 og86465.build()
 
-shape3472 = new ObjImage('shape3472','images/shape3472.png','Rectangle 25',0,0,1010.000000,569.000000,1,42,'div','',0 )
+shape3472 = new ObjImage('shape3472','images/shape3472.png','Rectangle 25',0,0,1010.000000,569.000000,0,42,'div','',0 )
 shape3472.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,568)
 shape3472.initHasShadow(0)
 shape3472.initHasReflection(0)
@@ -1764,7 +1764,7 @@ shape3472.initLineWeight(0)
 shape3472.addOpacity(25)
 shape3472.build()
 
-shape3475 = new ObjImage('shape3475','images/shape3475.png','Rectangle 64',103,170,801.000000,311.000000,1,43,'div','',0 )
+shape3475 = new ObjImage('shape3475','images/shape3475.png','Rectangle 64',103,170,801.000000,311.000000,0,43,'div','',0 )
 shape3475.initRotateAngle(0,0,0,-0.000000,-0.000000,800,310)
 shape3475.initHasShadow(1)
 shape3475.initHasReflection(0)
@@ -1778,7 +1778,7 @@ shape3475.initLineWeight(2)
 shape3475.addOpacity(100)
 shape3475.build()
 
-text162653 = new ObjText('text162653',null,128,230,733,249,1,44,null,'div',null,0 )
+text162653 = new ObjText('text162653',null,128,230,733,249,0,44,null,'div',null,0 )
 text162653.initSLine(0)
 text162653.initHasBullet(0)
 text162653.initRotateAngle(0,0,0)
@@ -1799,7 +1799,7 @@ text162653.arrCSSStyles.push('span.text162653Font5 { font-size:13px; font-family
 text162653.addInnerText('<div id=\"text162653\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font1\"  >Correct.</span ><span class=\"text162653Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discretionary Programs</span ><span class=\"text162653Font4\"  > are those programs in which the Federal agency generally may select the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;recipient from among all eligible applicants.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-discretionary Programs</span ><span class=\"text162653Font4\"  > have specific statutory authority under which the Federal agency has &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no ability to exercise judgement in selecting the recipient or amount of funding.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discretionary Programs.</span ><span class=\"text162653Font4\"  > Most Federal awards are made through a competitive process.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discretionary Programs</span ><span class=\"text162653Font4\"  > are those programs in which the Federal agency may determine the \n</span ></p >\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162653Font4\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;amount of funding to be awarded.</span ><span class=\"text162653Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text162653.build()
 
-image162247 = new ObjImage('image162247','images/image0133.png','Picture 51',130,265,26,26,1,45,'div',null, 0 )
+image162247 = new ObjImage('image162247','images/image0133.png','Picture 51',130,265,26,26,0,45,'div',null, 0 )
 image162247.initRotateAngle(0,0,0,0,0,0,0)
 image162247.initHasShadow(0)
 image162247.initHasReflection(0)
@@ -1809,7 +1809,7 @@ image162247.addBorder(0)
 image162247.addOpacity(100)
 image162247.build()
 
-image162267 = new ObjImage('image162267','images/image0133.png','Picture 51',130,318,26,26,1,46,'div',null, 0 )
+image162267 = new ObjImage('image162267','images/image0133.png','Picture 51',130,318,26,26,0,46,'div',null, 0 )
 image162267.initRotateAngle(0,0,0,0,0,0,0)
 image162267.initHasShadow(0)
 image162267.initHasReflection(0)
@@ -1819,7 +1819,7 @@ image162267.addBorder(0)
 image162267.addOpacity(100)
 image162267.build()
 
-image162287 = new ObjImage('image162287','images/image0133.png','Picture 51',130,368,26,26,1,47,'div',null, 0 )
+image162287 = new ObjImage('image162287','images/image0133.png','Picture 51',130,368,26,26,0,47,'div',null, 0 )
 image162287.initRotateAngle(0,0,0,0,0,0,0)
 image162287.initHasShadow(0)
 image162287.initHasReflection(0)
@@ -1829,7 +1829,7 @@ image162287.addBorder(0)
 image162287.addOpacity(100)
 image162287.build()
 
-image162307 = new ObjImage('image162307','images/image0133.png','Picture 51',130,404,26,26,1,48,'div',null, 0 )
+image162307 = new ObjImage('image162307','images/image0133.png','Picture 51',130,404,26,26,0,48,'div',null, 0 )
 image162307.initRotateAngle(0,0,0,0,0,0,0)
 image162307.initHasShadow(0)
 image162307.initHasReflection(0)
@@ -1839,7 +1839,7 @@ image162307.addBorder(0)
 image162307.addOpacity(100)
 image162307.build()
 
-shape3486 = new ObjImage('shape3486','images/shape3486.png','Rectangle 54',104,170,134.000000,44.000000,1,49,'div','',0 )
+shape3486 = new ObjImage('shape3486','images/shape3486.png','Rectangle 54',104,170,134.000000,44.000000,0,49,'div','',0 )
 shape3486.initRotateAngle(0,0,0,-0.000000,-0.000000,133,43)
 shape3486.initHasShadow(0)
 shape3486.initHasReflection(0)
@@ -1852,7 +1852,7 @@ shape3486.initLineWeight(0)
 shape3486.addOpacity(100)
 shape3486.build()
 
-text118307 = new ObjText('text118307',null,112,175,106,26,1,50,null,'div',null,0 )
+text118307 = new ObjText('text118307',null,112,175,106,26,0,50,null,'div',null,0 )
 text118307.initSLine(1)
 text118307.initHasBullet(0)
 text118307.initRotateAngle(0,0,0)
@@ -1870,7 +1870,7 @@ text118307.arrCSSStyles.push('span.text118307Font2 { font-size:19px; font-family
 text118307.addInnerText('<div id=\"text118307\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118307Font1\"  >FEEDBACK</span ><span class=\"text118307Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118307.build()
 
-shape3489 = new ObjImage('shape3489','images/shape3489.png','Rectangle 56',863,179,28.000000,27.000000,1,51,'div','',0 )
+shape3489 = new ObjImage('shape3489','images/shape3489.png','Rectangle 56',863,179,28.000000,27.000000,0,51,'div','',0 )
 shape3489.initRotateAngle(0,0,0,-0.000000,-0.000000,27,26)
 shape3489.initHasShadow(0)
 shape3489.initHasReflection(0)
@@ -1886,7 +1886,7 @@ shape3489.hasOnUp = true
 shape3489.capture=4
 shape3489.build()
 
-image3491 = new ObjImage('image3491','images/image0135.png','Picture 57',868,184,17,17,1,52,'div',null, 0 )
+image3491 = new ObjImage('image3491','images/image0135.png','Picture 57',868,184,17,17,0,52,'div',null, 0 )
 image3491.initRotateAngle(0,0,0,0,0,0,0)
 image3491.initHasShadow(0)
 image3491.initHasReflection(0)
@@ -1914,7 +1914,7 @@ og99702.addChild('shape99712')
 og99702.addChild('image99714')
 og99702.build()
 
-shape99704 = new ObjImage('shape99704','images/shape99704.png','Rectangle 25',0,0,1010.000000,569.000000,1,53,'div','',0 )
+shape99704 = new ObjImage('shape99704','images/shape99704.png','Rectangle 25',0,0,1010.000000,569.000000,0,53,'div','',0 )
 shape99704.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,568)
 shape99704.initHasShadow(0)
 shape99704.initHasReflection(0)
@@ -1927,7 +1927,7 @@ shape99704.initLineWeight(0)
 shape99704.addOpacity(25)
 shape99704.build()
 
-shape99706 = new ObjImage('shape99706','images/shape99706.png','Rectangle 64',103,170,801.000000,311.000000,1,54,'div','',0 )
+shape99706 = new ObjImage('shape99706','images/shape99706.png','Rectangle 64',103,170,801.000000,311.000000,0,54,'div','',0 )
 shape99706.initRotateAngle(0,0,0,-0.000000,-0.000000,800,310)
 shape99706.initHasShadow(1)
 shape99706.initHasReflection(0)
@@ -1941,7 +1941,7 @@ shape99706.initLineWeight(2)
 shape99706.addOpacity(100)
 shape99706.build()
 
-shape99709 = new ObjImage('shape99709','images/shape99709.png','Rectangle 54',104,170,134.000000,44.000000,1,55,'div','',0 )
+shape99709 = new ObjImage('shape99709','images/shape99709.png','Rectangle 54',104,170,134.000000,44.000000,0,55,'div','',0 )
 shape99709.initRotateAngle(0,0,0,-0.000000,-0.000000,133,43)
 shape99709.initHasShadow(0)
 shape99709.initHasReflection(0)
@@ -1954,7 +1954,7 @@ shape99709.initLineWeight(0)
 shape99709.addOpacity(100)
 shape99709.build()
 
-text162542 = new ObjText('text162542',null,128,230,733,249,1,56,null,'div',null,0 )
+text162542 = new ObjText('text162542',null,128,230,733,249,0,56,null,'div',null,0 )
 text162542.initSLine(0)
 text162542.initHasBullet(0)
 text162542.initRotateAngle(0,0,0)
@@ -1975,7 +1975,7 @@ text162542.arrCSSStyles.push('span.text162542Font5 { font-size:13px; font-family
 text162542.addInnerText('<div id=\"text162542\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font1\"  >Incorrect.</span ><span class=\"text162542Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discretionary Programs</span ><span class=\"text162542Font4\"  > are those programs in which the Federal agency generally may select the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;recipient from among all eligible applicants.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Non-discretionary Programs</span ><span class=\"text162542Font4\"  > have specific statutory authority under which the Federal agency has &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no ability to exercise judgement in selecting the recipient or amount of funding.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discretionary Programs.</span ><span class=\"text162542Font4\"  > Most Federal awards are made through a competitive process.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font3\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font3\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Discretionary Programs</span ><span class=\"text162542Font4\"  > are those programs in which the Federal agency may determine the \n</span ></p >\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text162542Font4\"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;amount of funding to be awarded.</span ><span class=\"text162542Font5\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text162542.build()
 
-image162541 = new ObjImage('image162541','images/image0133.png','Picture 51',130,265,26,26,1,57,'div',null, 0 )
+image162541 = new ObjImage('image162541','images/image0133.png','Picture 51',130,265,26,26,0,57,'div',null, 0 )
 image162541.initRotateAngle(0,0,0,0,0,0,0)
 image162541.initHasShadow(0)
 image162541.initHasReflection(0)
@@ -1985,7 +1985,7 @@ image162541.addBorder(0)
 image162541.addOpacity(100)
 image162541.build()
 
-image162539 = new ObjImage('image162539','images/image0133.png','Picture 51',130,318,26,26,1,58,'div',null, 0 )
+image162539 = new ObjImage('image162539','images/image0133.png','Picture 51',130,318,26,26,0,58,'div',null, 0 )
 image162539.initRotateAngle(0,0,0,0,0,0,0)
 image162539.initHasShadow(0)
 image162539.initHasReflection(0)
@@ -1995,7 +1995,7 @@ image162539.addBorder(0)
 image162539.addOpacity(100)
 image162539.build()
 
-image162537 = new ObjImage('image162537','images/image0133.png','Picture 51',130,367,26,26,1,59,'div',null, 0 )
+image162537 = new ObjImage('image162537','images/image0133.png','Picture 51',130,367,26,26,0,59,'div',null, 0 )
 image162537.initRotateAngle(0,0,0,0,0,0,0)
 image162537.initHasShadow(0)
 image162537.initHasReflection(0)
@@ -2005,7 +2005,7 @@ image162537.addBorder(0)
 image162537.addOpacity(100)
 image162537.build()
 
-image162535 = new ObjImage('image162535','images/image0133.png','Picture 51',130,404,26,26,1,60,'div',null, 0 )
+image162535 = new ObjImage('image162535','images/image0133.png','Picture 51',130,404,26,26,0,60,'div',null, 0 )
 image162535.initRotateAngle(0,0,0,0,0,0,0)
 image162535.initHasShadow(0)
 image162535.initHasReflection(0)
@@ -2015,7 +2015,7 @@ image162535.addBorder(0)
 image162535.addOpacity(100)
 image162535.build()
 
-text118332 = new ObjText('text118332',null,112,175,106,26,1,61,null,'div',null,0 )
+text118332 = new ObjText('text118332',null,112,175,106,26,0,61,null,'div',null,0 )
 text118332.initSLine(1)
 text118332.initHasBullet(0)
 text118332.initRotateAngle(0,0,0)
@@ -2033,7 +2033,7 @@ text118332.arrCSSStyles.push('span.text118332Font2 { font-size:19px; font-family
 text118332.addInnerText('<div id=\"text118332\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118332Font1\"  >FEEDBACK</span ><span class=\"text118332Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118332.build()
 
-shape99712 = new ObjImage('shape99712','images/shape99712.png','Rectangle 56',863,179,28.000000,27.000000,1,62,'div','',0 )
+shape99712 = new ObjImage('shape99712','images/shape99712.png','Rectangle 56',863,179,28.000000,27.000000,0,62,'div','',0 )
 shape99712.initRotateAngle(0,0,0,-0.000000,-0.000000,27,26)
 shape99712.initHasShadow(0)
 shape99712.initHasReflection(0)
@@ -2049,7 +2049,7 @@ shape99712.hasOnUp = true
 shape99712.capture=4
 shape99712.build()
 
-image99714 = new ObjImage('image99714','images/image0135.png','Picture 57',868,184,17,17,1,63,'div',null, 0 )
+image99714 = new ObjImage('image99714','images/image0135.png','Picture 57',868,184,17,17,0,63,'div',null, 0 )
 image99714.initRotateAngle(0,0,0,0,0,0,0)
 image99714.initHasShadow(0)
 image99714.initHasReflection(0)
@@ -2073,7 +2073,7 @@ og123194.addChild('text157715')
 og123194.addChild('image123207')
 og123194.build()
 
-shape123196 = new ObjImage('shape123196','images/shape123196.png','Rectangle 25',0,0,1010.000000,569.000000,1,64,'div','',0 )
+shape123196 = new ObjImage('shape123196','images/shape123196.png','Rectangle 25',0,0,1010.000000,569.000000,0,64,'div','',0 )
 shape123196.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,568)
 shape123196.initHasShadow(0)
 shape123196.initHasReflection(0)
@@ -2086,7 +2086,7 @@ shape123196.initLineWeight(0)
 shape123196.addOpacity(25)
 shape123196.build()
 
-shape123198 = new ObjImage('shape123198','images/shape123198.png','Rectangle 39',112,184,561.000000,101.000000,1,65,'div','',0 )
+shape123198 = new ObjImage('shape123198','images/shape123198.png','Rectangle 39',112,184,561.000000,101.000000,0,65,'div','',0 )
 shape123198.initRotateAngle(0,0,0,-0.000000,-0.000000,560,100)
 shape123198.initHasShadow(1)
 shape123198.initHasReflection(0)
@@ -2100,7 +2100,7 @@ shape123198.initLineWeight(2)
 shape123198.addOpacity(100)
 shape123198.build()
 
-shape123203 = new ObjImage('shape123203','images/shape123203.png','Rectangle 43',636,191,28.000000,28.000000,1,66,'div','',0 )
+shape123203 = new ObjImage('shape123203','images/shape123203.png','Rectangle 43',636,191,28.000000,28.000000,0,66,'div','',0 )
 shape123203.initRotateAngle(0,0,0,-0.000000,-0.000000,27,27)
 shape123203.initHasShadow(0)
 shape123203.initHasReflection(0)
@@ -2116,7 +2116,7 @@ shape123203.hasOnUp = true
 shape123203.capture=4
 shape123203.build()
 
-shape157718 = new ObjImage('shape157718','images/shape157718.png','Rectangle 40',112,184,115.000000,44.000000,1,67,'div','',0 )
+shape157718 = new ObjImage('shape157718','images/shape157718.png','Rectangle 40',112,184,115.000000,44.000000,0,67,'div','',0 )
 shape157718.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape157718.initHasShadow(0)
 shape157718.initHasReflection(0)
@@ -2129,7 +2129,7 @@ shape157718.initLineWeight(0)
 shape157718.addOpacity(100)
 shape157718.build()
 
-text157716 = new ObjText('text157716',null,130,230,800,50,1,68,null,'div',null,0 )
+text157716 = new ObjText('text157716',null,130,230,800,50,0,68,null,'div',null,0 )
 text157716.initSLine(0)
 text157716.initHasBullet(0)
 text157716.initRotateAngle(0,0,0)
@@ -2148,7 +2148,7 @@ text157716.arrCSSStyles.push('span.text157716Font3 { font-size:19px; font-family
 text157716.addInnerText('<div id=\"text157716\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text157716Font1\"  >&nbsp;&nbsp;&nbsp;&nbsp;</span ><span class=\"text157716Font2\"  >You must answer the question correctly in order to move to the next question.</span ><span class=\"text157716Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text157716.build()
 
-text157715 = new ObjText('text157715',null,114,194,101,26,1,69,null,'div',null,0 )
+text157715 = new ObjText('text157715',null,114,194,101,26,0,69,null,'div',null,0 )
 text157715.initSLine(1)
 text157715.initHasBullet(0)
 text157715.initRotateAngle(0,0,0)
@@ -2166,7 +2166,7 @@ text157715.arrCSSStyles.push('span.text157715Font2 { font-size:15px; font-family
 text157715.addInnerText('<div id=\"text157715\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text157715Font1\"  >FEEDBACK</span ><span class=\"text157715Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text157715.build()
 
-image123207 = new ObjImage('image123207','images/image0093.png','Picture 44',641,196,18,18,1,70,'div',null, 0 )
+image123207 = new ObjImage('image123207','images/image0093.png','Picture 44',641,196,18,18,0,70,'div',null, 0 )
 image123207.initRotateAngle(0,0,0,0,0,0,0)
 image123207.initHasShadow(0)
 image123207.initHasReflection(0)
