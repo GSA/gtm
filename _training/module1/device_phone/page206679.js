@@ -139,7 +139,7 @@ Init_qu206728(false, true);
 ,"preload":[]
 },
 "480":{
-"pageLayer":{"w":480,"h":1050,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"480px 270px","bgRepeat":"no-repeat"}
+"pageLayer":{"w":480,"h":795,"bgColor":"#00324b","bgImage":"images/image0004.png","bgSize":"480px 270px","bgRepeat":"no-repeat"}
 ,
 "text205813":{"x":199,"y":528,"w":119,"h":48,"txtscale":100,"bOffBottom":0}
 ,
@@ -211,7 +211,7 @@ Init_qu206728(false, true);
 ,
 "shape206744":{"x":49,"y":146,"w":382.000000,"h":185.000000,"stylemods":[{"sel":"div.shape206744Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:381.000000px; height:184.000000px;}"},{"sel":"span.shape206744Text","decl":" { width:377.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYAAAAC7CAYAAABsDUllAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEtSURBVHhe7cEBDQAAAMKg90/t7AEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXA2L3AAFbw97/AAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 1.000000 1.000000 L 380.000000 1.000000 L 380.000000 183.000000 L 1.000000 183.000000 L 1.000000 1.000000 z"}
 ,
-"text206745":{"x":64,"y":206,"w":346,"h":776,"txtscale":100,"bOffBottom":0}
+"text206745":{"x":64,"y":206,"w":346,"h":589,"txtscale":100,"bOffBottom":0}
 ,
 "image206747":{"x":71,"y":342,"w":11,"h":12,"bOffBottom":0,"i":"images/image0134.png"}
 ,
@@ -235,7 +235,7 @@ Init_qu206728(false, true);
 ,
 "shape206769":{"x":49,"y":146,"w":382.000000,"h":185.000000,"stylemods":[{"sel":"div.shape206769Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:381.000000px; height:184.000000px;}"},{"sel":"span.shape206769Text","decl":" { width:377.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYAAAAC7CAYAAABsDUllAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEtSURBVHhe7cEBDQAAAMKg90/t7AEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXA2L3AAFbw97/AAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 1.000000 1.000000 L 380.000000 1.000000 L 380.000000 183.000000 L 1.000000 183.000000 L 1.000000 1.000000 z"}
 ,
-"text206770":{"x":64,"y":206,"w":346,"h":844,"txtscale":100,"bOffBottom":0}
+"text206770":{"x":64,"y":206,"w":346,"h":572,"txtscale":100,"bOffBottom":0}
 ,
 "shape206772":{"x":49,"y":147,"w":64.000000,"h":21.000000,"stylemods":[{"sel":"div.shape206772Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:63.000000px; height:20.000000px;}"},{"sel":"span.shape206772Text","decl":" { width:59.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAVCAYAAAD2KuiaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAbSURBVFhH7cEBAQAAAIIg/69uSEAAAAAAAD9qFRUAAaUGzp4AAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 63.000000 0.000000 L 63.000000 20.000000 L 0.000000 20.000000 L 0.000000 0.000000 z"}
 ,
