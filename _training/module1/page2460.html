@@ -289,7 +289,7 @@ function ReFlow() {
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', true )
 VarHFS = new Variable( 'VarHFS', '0', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
+VarProgressBar_0003 = new Variable( 'VarProgressBar_0003', '0', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
 
 onload = responsiveInit
 detect();
@@ -311,26 +311,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23923,og63,text208202,text208200,image10864,image10862,image10860,button10855,button10847,og123,image11133,image10956,image11131,button11126,button11118,image189881,progress189709,og136116,text203856,text2461,shape2462,image2465,shape2467,image2470,shape2472,image2475,text2477,text32917,text32927,button136131))
+    PreloadResources(new Array(text23923,image10864,og63,progress224458,text203856,text2461,shape2462,image2465,shape2467,image2470,shape2472,image2475,text2477,text32917,text32927,text208202,text208200,image10862,image10860,button10847,button10855))
     pageLayer.show(true);
     text23923.init()
-    og63.init()
-    text208202.init()
-    text208200.init()
     image10864.init()
-    image10862.init()
-    image10860.init()
-    button10855.init()
-    button10847.init()
-    og123.init()
-    image11133.init()
-    image10956.init()
-    image11131.init()
-    button11126.init()
-    button11118.init()
-    image189881.init()
-    progress189709.init()
-    og136116.init()
+    og63.init()
+    progress224458.init()
     text203856.init()
     text2461.init()
     shape2462.init()
@@ -342,25 +328,16 @@ function init11() {
     text2477.init()
     text32917.init()
     text32927.init()
-    button136131.init()
+    text208202.init()
+    text208200.init()
+    image10862.init()
+    image10860.init()
+    button10847.init()
+    button10855.init()
     text23923.activate()
-    og63.activate()
-    text208202.activate()
-    text208200.activate()
     image10864.activate()
-    image10862.activate()
-    image10860.activate()
-    button10855.activate()
-    button10847.activate()
-    og123.activate()
-    image11133.activate()
-    image10956.activate()
-    image11131.activate()
-    button11126.activate()
-    button11118.activate()
-    image189881.activate()
-    progress189709.activate()
-    og136116.activate()
+    og63.activate()
+    progress224458.activate()
     text203856.activate()
     text2461.activate()
     shape2462.activate()
@@ -372,17 +349,16 @@ function init11() {
     text2477.activate()
     text32917.activate()
     text32927.activate()
-    button136131.activate()
-button10855.strCookieState = (trivBtnTracking.GetRangeStatus(10855,true));
-button10855.loadStateFromSes("normalState");
+    text208202.activate()
+    text208200.activate()
+    image10862.activate()
+    image10860.activate()
+    button10847.activate()
+    button10855.activate()
 button10847.strCookieState = (trivBtnTracking.GetRangeStatus(10847,true));
 button10847.loadStateFromSes("normalState");
-button11126.strCookieState = (trivBtnTracking.GetRangeStatus(11126,true));
-button11126.loadStateFromSes("normalState");
-button11118.strCookieState = (trivBtnTracking.GetRangeStatus(11118,true));
-button11118.loadStateFromSes("normalState");
-button136131.strCookieState = (trivBtnTracking.GetRangeStatus(136131,true));
-button136131.loadStateFromSes("normalState");
+button10855.strCookieState = (trivBtnTracking.GetRangeStatus(10855,true));
+button10855.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -496,18 +472,14 @@ function action74(fn){
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action208203(fn){
-    if( text208202.eatOnUp==true ){
-        text208202.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page2480.html',true); 
+function action10848(fn){
+    trivExitPage('page2438.html',false); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function text208202onUp() {
-  action208203();
+function button10847onUp() {
+  action10848();
 }
 
 function action10856(fn){
@@ -520,48 +492,8 @@ function button10855onUp() {
   action10856();
 }
 
-function action10848(fn){
-    trivExitPage('page2438.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function button10847onUp() {
-  action10848();
-}
-
-function action11127(fn){
-    trivExitPage('page2480.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function button11126onUp() {
-  action11127();
-}
-
-function action11119(fn){
-    trivExitPage('page2438.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function button11118onUp() {
-  action11119();
-}
-
-function action136132(fn){
-    trivExitPage('page2480.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function button136131onUp() {
-  action136132();
-}
-
 if( is.min ){
-text23923 = new ObjText('text23923',null,324,514,360,78,1,43,null,'div',null,0 )
+text23923 = new ObjText('text23923',null,324,514,360,78,1,34,null,'div',null,0 )
 text23923.initSLine(0)
 text23923.initHasBullet(0)
 text23923.initRotateAngle(0,0,0)
@@ -578,18 +510,187 @@ text23923.arrCSSStyles.push('span.text23923Font1 { font-size:11px; font-family:"
 text23923.addInnerText('<div id=\"text23923\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text23923Font1\"  >LESSON 2: INTRODUCTION TO FEDERAL FINANCIAL ASSISTANCE\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text23923.build()
 
-og63 = new ObjInline('og63',null,0,0,-1,-1,1,0)
+image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,4,'div',null, 0 )
+image10864.initRotateAngle(0,0,0,0,0,0,0)
+image10864.initHasShadow(0)
+image10864.initHasReflection(0)
+image10864.addIe8Attr(0, 0, 1009, 120, 0, 0)
+image10864.initImageMap(1,'0,0,1009,0,1009,120,0,120,0,0','M 0 0 L 1009 0 L 1009 120 L 0 120 L 0 0 z')
+image10864.addBorder(0)
+image10864.addOpacity(100)
+image10864.build()
+
+og63 = new ObjInline('og63',null,0,0,970,558,1,0)
 og63.isGrp = true
 og63.addChild('text208202')
 og63.addChild('text208200')
-og63.addChild('image10864')
 og63.addChild('image10862')
 og63.addChild('image10860')
-og63.addChild('button10855')
 og63.addChild('button10847')
+og63.addChild('button10855')
 og63.build()
 
-text208202 = new ObjText('text208202',null,900,517,70,17,1,4,null,'div',null,0 )
+progress224458 = new ObjProgress('progress224458','',69,539,872,18,1,16,1,11,'#07648d','images/progress224458_bar.png','#eeeeee','images/progress224458.png',1,40,0,0,0,0,0,'div',0 )
+progress224458.actionSetPos(21)
+progress224458.build()
+
+text203856 = new ObjText('text203856',null,674,540,31,23,1,12,null,'div',null,0 )
+text203856.initSLine(1)
+text203856.initHasBullet(0)
+text203856.initRotateAngle(0,0,0)
+text203856.initHasOuterShadow(0)
+text203856.initHasTextShadow(0)
+text203856.initHasBorder(0)
+text203856.initHasOutline(0)
+text203856.initHasMargin(0)
+text203856.addIe8Attr(674, 540, 31, 23, 0, 0)
+text203856.addHeading(0)
+text203856.addOpacity(100)
+text203856.arrCSSStyles = new Array();
+text203856.arrCSSStyles.push('span.text203856Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text203856.arrCSSStyles.push('span.text203856Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#000000;}');
+text203856.addInnerText('<div id=\"text203856\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text203856Font1\"  >75%</span ><span class=\"text203856Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text203856.build()
+
+text2461 = new ObjText('text2461',null,68,145,439,77,1,13,null,'div',null,0 )
+text2461.initSLine(0)
+text2461.initHasBullet(0)
+text2461.initRotateAngle(0,0,0)
+text2461.initHasOuterShadow(0)
+text2461.initHasTextShadow(0)
+text2461.initHasBorder(0)
+text2461.initHasOutline(0)
+text2461.initHasMargin(6)
+text2461.addIe8Attr(68, 145, 439, 77, 0, 0)
+text2461.addHeading(0)
+text2461.addOpacity(100)
+text2461.arrCSSStyles = new Array();
+text2461.arrCSSStyles.push('span.text2461Font1 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
+text2461.arrCSSStyles.push('span.text2461Font2 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
+text2461.addInnerText('<div id=\"text2461\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2461Font1\"  >FIXED AMOUNT AWARDS</span ><span class=\"text2461Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text2461.build()
+
+shape2462 = new ObjImage('shape2462','images/shape2462.png','Rectangle 12',102,190,402.000000,120.000000,1,14,'div','',0 )
+shape2462.initRotateAngle(0,0,0,-0.000000,-0.000000,401,119)
+shape2462.initHasShadow(0)
+shape2462.initHasReflection(0)
+shape2462.setUniqueFillID('page2460_shape2462')
+shape2462.addIe8Attr(102.000000, 190.000000, 402.000000, 120.000000, 0, 0)
+shape2462.initImageMap(1,'0,0,401,0,401,119,0,119,0,0','M 0.000000 0.000000 L 401.000000 0.000000 L 401.000000 119.000000 L 0.000000 119.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
+shape2462.setUseSvgFile(1)
+shape2462.addBorder(0)
+shape2462.initLineWeight(0)
+shape2462.addOpacity(100)
+shape2462.build()
+
+image2465 = new ObjImage('image2465','images/image0117.png','Picture 8',76,205,53,53,1,15,'div',null, 0 )
+image2465.initRotateAngle(0,0,0,0,0,0,0)
+image2465.initHasShadow(0)
+image2465.initHasReflection(0)
+image2465.addIe8Attr(76, 205, 53, 53, 0, 0)
+image2465.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
+image2465.addBorder(0)
+image2465.addOpacity(100)
+image2465.build()
+
+shape2467 = new ObjImage('shape2467','images/shape2467.png','Rectangle 13',102,325,402.000000,180.000000,1,16,'div','',0 )
+shape2467.initRotateAngle(0,0,0,-0.000000,-0.000000,401,179)
+shape2467.initHasShadow(0)
+shape2467.initHasReflection(0)
+shape2467.setUniqueFillID('page2460_shape2467')
+shape2467.addIe8Attr(102.000000, 325.000000, 402.000000, 180.000000, 0, 0)
+shape2467.initImageMap(1,'0,0,401,0,401,179,0,179,0,0','M 0.000000 0.000000 L 401.000000 0.000000 L 401.000000 179.000000 L 0.000000 179.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
+shape2467.setUseSvgFile(1)
+shape2467.addBorder(0)
+shape2467.initLineWeight(0)
+shape2467.addOpacity(100)
+shape2467.build()
+
+image2470 = new ObjImage('image2470','images/image0118.png','Picture 10',76,360,53,53,1,17,'div',null, 0 )
+image2470.initRotateAngle(0,0,0,0,0,0,0)
+image2470.initHasShadow(0)
+image2470.initHasReflection(0)
+image2470.addIe8Attr(76, 360, 53, 53, 0, 0)
+image2470.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
+image2470.addBorder(0)
+image2470.addOpacity(100)
+image2470.build()
+
+shape2472 = new ObjImage('shape2472','images/shape2472.png','Rectangle 11',557,190,402.000000,121.000000,1,18,'div','',0 )
+shape2472.initRotateAngle(0,0,0,-0.000000,-0.000000,401,120)
+shape2472.initHasShadow(0)
+shape2472.initHasReflection(0)
+shape2472.setUniqueFillID('page2460_shape2472')
+shape2472.addIe8Attr(557.000000, 190.000000, 402.000000, 121.000000, 0, 0)
+shape2472.initImageMap(1,'0,0,401,0,401,120,0,120,0,0','M 0.000000 0.000000 L 401.000000 0.000000 L 401.000000 120.000000 L 0.000000 120.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
+shape2472.setUseSvgFile(1)
+shape2472.addBorder(0)
+shape2472.initLineWeight(0)
+shape2472.addOpacity(100)
+shape2472.build()
+
+image2475 = new ObjImage('image2475','images/image0119.png','Picture 16',536,205,53,53,1,19,'div',null, 0 )
+image2475.initRotateAngle(0,0,0,0,0,0,0)
+image2475.initHasShadow(0)
+image2475.initHasReflection(0)
+image2475.addIe8Attr(536, 205, 53, 53, 0, 0)
+image2475.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
+image2475.addBorder(0)
+image2475.addOpacity(100)
+image2475.build()
+
+text2477 = new ObjText('text2477',null,144,205,338,101,1,20,null,'div',null,0 )
+text2477.initSLine(0)
+text2477.initHasBullet(0)
+text2477.initRotateAngle(0,0,0)
+text2477.initHasOuterShadow(0)
+text2477.initHasTextShadow(0)
+text2477.initHasBorder(0)
+text2477.initHasOutline(0)
+text2477.initHasMargin(0)
+text2477.addIe8Attr(144, 205, 338, 101, 0, 0)
+text2477.addHeading(0)
+text2477.addOpacity(100)
+text2477.arrCSSStyles = new Array();
+text2477.arrCSSStyles.push('span.text2477Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text2477.addInnerText('<div id=\"text2477\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2477Font1\"  >A fixed amount award (FAA) is a type of grant or cooperative agreement that provides funding without regards to actual costs incurred under the Federal award (2 CFR 200.1)\n</span ></p ></div>\n');
+text2477.build()
+
+text32917 = new ObjText('text32917',null,609,204,330,130,1,21,null,'div',null,0 )
+text32917.initSLine(0)
+text32917.initHasBullet(0)
+text32917.initRotateAngle(0,0,0)
+text32917.initHasOuterShadow(0)
+text32917.initHasTextShadow(0)
+text32917.initHasBorder(0)
+text32917.initHasOutline(0)
+text32917.initHasMargin(0)
+text32917.addIe8Attr(609, 204, 330, 130, 0, 0)
+text32917.addHeading(0)
+text32917.addOpacity(100)
+text32917.arrCSSStyles = new Array();
+text32917.arrCSSStyles.push('span.text32917Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text32917.addInnerText('<div id=\"text32917\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text32917Font1\"  >For example, since costs are negotiated up front with a fixed price, financial reports are not required. Accountability is based primarily on performance and results\n</span ></p ></div>\n');
+text32917.build()
+
+text32927 = new ObjText('text32927',null,144,346,347,173,1,22,null,'div',null,0 )
+text32927.initSLine(0)
+text32927.initHasBullet(0)
+text32927.initRotateAngle(0,0,0)
+text32927.initHasOuterShadow(0)
+text32927.initHasTextShadow(0)
+text32927.initHasBorder(0)
+text32927.initHasOutline(0)
+text32927.initHasMargin(0)
+text32927.addIe8Attr(144, 346, 347, 173, 0, 0)
+text32927.addHeading(0)
+text32927.addOpacity(100)
+text32927.arrCSSStyles = new Array();
+text32927.arrCSSStyles.push('span.text32927Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text32927.addInnerText('<div id=\"text32927\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text32927Font1\"  >Fixed amount awards are appropriate when the work that is to be performed can be determined with a reasonable degree of certainty. This type of Federal award reduces some of the administrative burden and record-keeping requirements for both the non-Federal entity and Federal awarding agency or pass-through entity\n</span ></p ></div>\n');
+text32927.build()
+
+text208202 = new ObjText('text208202',null,900,517,70,17,1,5,null,'div',null,0 )
 text208202.initSLine(1)
 text208202.initHasBullet(0)
 text208202.initRotateAngle(0,0,0)
@@ -601,16 +702,13 @@ text208202.initHasMargin(0)
 text208202.addIe8Attr(900, 517, 70, 17, 0, 0)
 text208202.addHeading(0)
 text208202.addOpacity(100)
-text208202.onUp = text208202onUp
-text208202.hasOnUp = true
-text208202.capture=4
 text208202.arrCSSStyles = new Array();
 text208202.arrCSSStyles.push('span.text208202Font1 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b;}');
 text208202.arrCSSStyles.push('span.text208202Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b; font-weight:bold;}');
-text208202.addInnerText('<div id=\"text208202\" aria-live=\"polite\" ><a id=\"text208202anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text208202Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208202Font1\"  >NEXT</span ><span class=\"text208202Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
+text208202.addInnerText('<div id=\"text208202\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208202Font1\"  >NEXT</span ><span class=\"text208202Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208202.build()
 
-text208200 = new ObjText('text208200',null,75,517,63,21,1,5,null,'div',null,0 )
+text208200 = new ObjText('text208200',null,75,517,63,21,1,6,null,'div',null,0 )
 text208200.initSLine(1)
 text208200.initHasBullet(0)
 text208200.initRotateAngle(0,0,0)
@@ -628,17 +726,7 @@ text208200.arrCSSStyles.push('span.text208200Font2 { font-size:13px; font-family
 text208200.addInnerText('<div id=\"text208200\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208200Font1\"  >BACK</span ><span class=\"text208200Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208200.build()
 
-image10864 = new ObjImage('image10864','images/image0014.png','image0014',0,0,1009,120,1,6,'div',null, 0 )
-image10864.initRotateAngle(0,0,0,0,0,0,0)
-image10864.initHasShadow(0)
-image10864.initHasReflection(0)
-image10864.addIe8Attr(0, 0, 1009, 120, 0, 0)
-image10864.initImageMap(1,'0,0,1009,0,1009,120,0,120,0,0','M 0 0 L 1009 0 L 1009 120 L 0 120 L 0 0 z')
-image10864.addBorder(0)
-image10864.addOpacity(100)
-image10864.build()
-
-image10862 = new ObjImage('image10862','images/image0002.png','Picture 34',65,522,47,17,1,7,'div',null, 0 )
+image10862 = new ObjImage('image10862','images/image0002.png','Back Arrow',65,522,47,17,1,7,'div',null, 0 )
 image10862.initRotateAngle(0,0,0,0,0,0,0)
 image10862.initHasShadow(0)
 image10862.initHasReflection(0)
@@ -648,7 +736,7 @@ image10862.addBorder(0)
 image10862.addOpacity(100)
 image10862.build()
 
-image10860 = new ObjImage('image10860','images/image0003.png','Picture 36',898,522,48,17,1,8,'div',null, 0 )
+image10860 = new ObjImage('image10860','images/image0003.png','Next Arrow',898,522,48,17,1,8,'div',null, 0 )
 image10860.initRotateAngle(0,0,0,0,0,0,0)
 image10860.initHasShadow(0)
 image10860.initHasReflection(0)
@@ -658,31 +746,7 @@ image10860.addBorder(0)
 image10860.addOpacity(100)
 image10860.build()
 
-button10855 = new ObjButton('button10855', 'Button',850,512,110.000000,47.000000,1,9,'div','',1,0)
-button10855.setUseSvgFile(1)
-button10855.setFillStyle(1)
-button10855.setUniqueFillID('page2460_button10855')
-button10855.initRotateAngle(0,0,0,-0.000000,-0.000000,109,46)
-button10855.initHasShadow(1)
-button10855.initHasReflection(0)
-button10855.setImages({"disabledState":"","downState":"","normalState":"images/button10855.png","overState":"","selectedState":"","visitedState":""});
-button10855.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button10855.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
-button10855.addOpacity(1)
-button10855.initImageMap('11,0,98,0,100,0,102,1,106,3,108,7,109,9,109,11,109,35,109,37,108,39,106,43,102,45,100,46,98,46,11,46,9,46,7,45,5,44,3,43,2,41,1,39,0,37,0,35,0,11,0,9,1,7,3,3,7,1,9,0,11,0','M 11.000000 0.000000 L 98.000000 0.000000 L 100.250000 0.250000 L 102.312500 0.875000 L 105.812500 3.250000 L 108.125000 6.750000 L 108.750000 8.812500 L 109.000000 11.000000 L 109.000000 35.000000 L 108.750000 37.250000 L 108.125000 39.312500 L 105.812500 42.812500 L 102.312500 45.125000 L 100.250000 45.750000 L 98.000000 46.000000 L 11.000000 46.000000 L 8.875000 45.812500 L 6.812500 45.187500 L 4.937500 44.187500 L 3.250000 42.812500 L 1.875000 41.125000 L 0.875000 39.250000 L 0.187500 37.187500 L 0.000000 35.000000 L 0.000000 11.000000 L 0.250000 8.812500 L 0.875000 6.750000 L 3.250000 3.250000 L 6.750000 0.875000 L 8.812500 0.250000 L 11.000000 0.000000 z')
-button10855.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button10855.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
-button10855.initLineWeight('0')
-button10855.onUp = button10855onUp
-button10855.hasOnUp = true
-button10855.capture=4
-button10855.bSelectedEnabled = false;
-button10855.bVisitedEnabled = false;
-button10855.bOverEnabled = true;
-button10855.bDownEnabled = true;
-button10855.build()
-
-button10847 = new ObjButton('button10847', 'Click Here',50,512,110.000000,47.000000,1,10,'div','',1,0)
+button10847 = new ObjButton('button10847', 'Click Here',50,512,110.000000,47.000000,1,9,'div','',1,0)
 button10847.setUseSvgFile(1)
 button10847.setFillStyle(1)
 button10847.setUniqueFillID('page2460_button10847')
@@ -708,312 +772,34 @@ button10847.bOverEnabled = true;
 button10847.bDownEnabled = true;
 button10847.build()
 
-og123 = new ObjInline('og123',null,0,0,-1,-1,1,0)
-og123.isGrp = true
-og123.addChild('image11133')
-og123.addChild('image10956')
-og123.addChild('image11131')
-og123.addChild('button11126')
-og123.addChild('button11118')
-og123.build()
-
-image11133 = new ObjImage('image11133','images/image0002.png','Picture 34',65,537,47,17,1,11,'div',null, 0 )
-image11133.initRotateAngle(0,0,0,0,0,0,0)
-image11133.initHasShadow(0)
-image11133.initHasReflection(0)
-image11133.addIe8Attr(65, 537, 47, 17, 0, 0)
-image11133.initImageMap(1,'0,0,47,0,47,17,0,17,0,0','M 0 0 L 47 0 L 47 17 L 0 17 L 0 0 z')
-image11133.addBorder(0)
-image11133.addOpacity(100)
-image11133.build()
-
-image10956 = new ObjImage('image10956','images/image0014.png','image0014',0,0,1009,120,1,12,'div',null, 0 )
-image10956.initRotateAngle(0,0,0,0,0,0,0)
-image10956.initHasShadow(0)
-image10956.initHasReflection(0)
-image10956.addIe8Attr(0, 0, 1009, 120, 0, 0)
-image10956.initImageMap(1,'0,0,1009,0,1009,120,0,120,0,0','M 0 0 L 1009 0 L 1009 120 L 0 120 L 0 0 z')
-image10956.addBorder(0)
-image10956.addOpacity(100)
-image10956.build()
-
-image11131 = new ObjImage('image11131','images/image0003.png','Picture 36',898,537,48,17,1,13,'div',null, 0 )
-image11131.initRotateAngle(0,0,0,0,0,0,0)
-image11131.initHasShadow(0)
-image11131.initHasReflection(0)
-image11131.addIe8Attr(898, 537, 48, 17, 0, 0)
-image11131.initImageMap(1,'0,0,48,0,48,17,0,17,0,0','M 0 0 L 48 0 L 48 17 L 0 17 L 0 0 z')
-image11131.addBorder(0)
-image11131.addOpacity(100)
-image11131.build()
-
-button11126 = new ObjButton('button11126', 'Button',850,512,110.000000,47.000000,1,14,'div','',1,0)
-button11126.setUseSvgFile(1)
-button11126.setFillStyle(1)
-button11126.setUniqueFillID('page2460_button11126')
-button11126.initRotateAngle(0,0,0,-0.000000,-0.000000,109,46)
-button11126.initHasShadow(1)
-button11126.initHasReflection(0)
-button11126.setImages({"disabledState":"","downState":"","normalState":"images/button11126.png","overState":"","selectedState":"","visitedState":""});
-button11126.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button11126.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
-button11126.addOpacity(1)
-button11126.initImageMap('11,0,98,0,100,0,102,1,106,3,108,7,109,9,109,11,109,35,109,37,108,39,106,43,102,45,100,46,98,46,11,46,9,46,7,45,5,44,3,43,2,41,1,39,0,37,0,35,0,11,0,9,1,7,3,3,7,1,9,0,11,0','M 11.000000 0.000000 L 98.000000 0.000000 L 100.250000 0.250000 L 102.312500 0.875000 L 105.812500 3.250000 L 108.125000 6.750000 L 108.750000 8.812500 L 109.000000 11.000000 L 109.000000 35.000000 L 108.750000 37.250000 L 108.125000 39.312500 L 105.812500 42.812500 L 102.312500 45.125000 L 100.250000 45.750000 L 98.000000 46.000000 L 11.000000 46.000000 L 8.875000 45.812500 L 6.812500 45.187500 L 4.937500 44.187500 L 3.250000 42.812500 L 1.875000 41.125000 L 0.875000 39.250000 L 0.187500 37.187500 L 0.000000 35.000000 L 0.000000 11.000000 L 0.250000 8.812500 L 0.875000 6.750000 L 3.250000 3.250000 L 6.750000 0.875000 L 8.812500 0.250000 L 11.000000 0.000000 z')
-button11126.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button11126.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
-button11126.initLineWeight('0')
-button11126.onUp = button11126onUp
-button11126.hasOnUp = true
-button11126.capture=4
-button11126.bSelectedEnabled = false;
-button11126.bVisitedEnabled = false;
-button11126.bOverEnabled = true;
-button11126.bDownEnabled = true;
-button11126.build()
-
-button11118 = new ObjButton('button11118', 'Click Here',50,512,110.000000,47.000000,1,15,'div','',1,0)
-button11118.setUseSvgFile(1)
-button11118.setFillStyle(1)
-button11118.setUniqueFillID('page2460_button11118')
-button11118.initRotateAngle(0,0,0,-0.000000,-0.000000,109,46)
-button11118.initHasShadow(1)
-button11118.initHasReflection(0)
-button11118.setImages({"disabledState":"","downState":"","normalState":"images/button11118.png","overState":"","selectedState":"","visitedState":""});
-button11118.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button11118.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
-button11118.addOpacity(1)
-button11118.initImageMap('11,0,98,0,100,0,102,1,106,3,108,7,109,9,109,11,109,35,109,37,108,39,106,43,102,45,100,46,98,46,11,46,9,46,7,45,5,44,3,43,2,41,1,39,0,37,0,35,0,11,0,9,1,7,3,3,7,1,9,0,11,0','M 11.000000 0.000000 L 98.000000 0.000000 L 100.250000 0.250000 L 102.312500 0.875000 L 105.812500 3.250000 L 108.125000 6.750000 L 108.750000 8.812500 L 109.000000 11.000000 L 109.000000 35.000000 L 108.750000 37.250000 L 108.125000 39.312500 L 105.812500 42.812500 L 102.312500 45.125000 L 100.250000 45.750000 L 98.000000 46.000000 L 11.000000 46.000000 L 8.875000 45.812500 L 6.812500 45.187500 L 4.937500 44.187500 L 3.250000 42.812500 L 1.875000 41.125000 L 0.875000 39.250000 L 0.187500 37.187500 L 0.000000 35.000000 L 0.000000 11.000000 L 0.250000 8.812500 L 0.875000 6.750000 L 3.250000 3.250000 L 6.750000 0.875000 L 8.812500 0.250000 L 11.000000 0.000000 z')
-button11118.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button11118.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
-button11118.initLineWeight('0')
-button11118.onUp = button11118onUp
-button11118.hasOnUp = true
-button11118.capture=4
-button11118.setTextVal({"disabledState":{"div":"div.button11118disabledStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button11118disabledStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"downState":{"div":"div.button11118downStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button11118downStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"normalState":{"div":"div.button11118Text { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button11118Text { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"overState":{"div":"div.button11118overStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button11118overStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"selectedState":{"div":"div.button11118selectedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button11118selectedStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"visitedState":{"div":"div.button11118visitedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button11118visitedStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}});
-button11118.text = 'Click Here'
-button11118.bSelectedEnabled = false;
-button11118.bVisitedEnabled = false;
-button11118.bOverEnabled = true;
-button11118.bDownEnabled = true;
-button11118.build()
-
-image189881 = new ObjImage('image189881','images/image0014.png','image0014',0,0,1009,120,1,16,'div',null, 0 )
-image189881.initRotateAngle(0,0,0,0,0,0,0)
-image189881.initHasShadow(0)
-image189881.initHasReflection(0)
-image189881.addIe8Attr(0, 0, 1009, 120, 0, 0)
-image189881.initImageMap(1,'0,0,1009,0,1009,120,0,120,0,0','M 0 0 L 1009 0 L 1009 120 L 0 120 L 0 0 z')
-image189881.addBorder(0)
-image189881.addOpacity(100)
-image189881.build()
-
-progress189709 = new ObjProgress('progress189709','',69,543,867,11,1,9,1,17,'#07648d','images/progress189709_bar.png','#eeeeee','images/progress189709.png',1,28,0,0,0,0,0,'div',0 )
-progress189709.actionSetPos(21)
-progress189709.build()
-
-og136116 = new ObjInline('og136116',null,0,0,-1,-1,1,0)
-og136116.isGrp = true
-og136116.addChild('button136131')
-og136116.build()
-
-text203856 = new ObjText('text203856',null,674,540,31,23,1,19,null,'div',null,0 )
-text203856.initSLine(1)
-text203856.initHasBullet(0)
-text203856.initRotateAngle(0,0,0)
-text203856.initHasOuterShadow(0)
-text203856.initHasTextShadow(0)
-text203856.initHasBorder(0)
-text203856.initHasOutline(0)
-text203856.initHasMargin(0)
-text203856.addIe8Attr(674, 540, 31, 23, 0, 0)
-text203856.addHeading(0)
-text203856.addOpacity(100)
-text203856.arrCSSStyles = new Array();
-text203856.arrCSSStyles.push('span.text203856Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text203856.arrCSSStyles.push('span.text203856Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#000000;}');
-text203856.addInnerText('<div id=\"text203856\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text203856Font1\"  >75%</span ><span class=\"text203856Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text203856.build()
-
-text2461 = new ObjText('text2461',null,68,145,439,77,1,20,null,'div',null,0 )
-text2461.initSLine(0)
-text2461.initHasBullet(0)
-text2461.initRotateAngle(0,0,0)
-text2461.initHasOuterShadow(0)
-text2461.initHasTextShadow(0)
-text2461.initHasBorder(0)
-text2461.initHasOutline(0)
-text2461.initHasMargin(6)
-text2461.addIe8Attr(68, 145, 439, 77, 0, 0)
-text2461.addHeading(0)
-text2461.addOpacity(100)
-text2461.arrCSSStyles = new Array();
-text2461.arrCSSStyles.push('span.text2461Font1 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
-text2461.arrCSSStyles.push('span.text2461Font2 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
-text2461.addInnerText('<div id=\"text2461\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2461Font1\"  >FIXED AMOUNT AWARDS</span ><span class=\"text2461Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text2461.build()
-
-shape2462 = new ObjImage('shape2462','images/shape2462.png','Rectangle 12',102,190,402.000000,120.000000,1,21,'div','',0 )
-shape2462.initRotateAngle(0,0,0,-0.000000,-0.000000,401,119)
-shape2462.initHasShadow(0)
-shape2462.initHasReflection(0)
-shape2462.setUniqueFillID('page2460_shape2462')
-shape2462.addIe8Attr(102.000000, 190.000000, 402.000000, 120.000000, 0, 0)
-shape2462.initImageMap(1,'0,0,401,0,401,119,0,119,0,0','M 0.000000 0.000000 L 401.000000 0.000000 L 401.000000 119.000000 L 0.000000 119.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
-shape2462.setUseSvgFile(1)
-shape2462.addBorder(0)
-shape2462.initLineWeight(0)
-shape2462.addOpacity(100)
-shape2462.build()
-
-image2465 = new ObjImage('image2465','images/image0117.png','Picture 8',76,205,53,53,1,22,'div',null, 0 )
-image2465.initRotateAngle(0,0,0,0,0,0,0)
-image2465.initHasShadow(0)
-image2465.initHasReflection(0)
-image2465.addIe8Attr(76, 205, 53, 53, 0, 0)
-image2465.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
-image2465.addBorder(0)
-image2465.addOpacity(100)
-image2465.build()
-
-shape2467 = new ObjImage('shape2467','images/shape2467.png','Rectangle 13',102,325,402.000000,180.000000,1,23,'div','',0 )
-shape2467.initRotateAngle(0,0,0,-0.000000,-0.000000,401,179)
-shape2467.initHasShadow(0)
-shape2467.initHasReflection(0)
-shape2467.setUniqueFillID('page2460_shape2467')
-shape2467.addIe8Attr(102.000000, 325.000000, 402.000000, 180.000000, 0, 0)
-shape2467.initImageMap(1,'0,0,401,0,401,179,0,179,0,0','M 0.000000 0.000000 L 401.000000 0.000000 L 401.000000 179.000000 L 0.000000 179.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
-shape2467.setUseSvgFile(1)
-shape2467.addBorder(0)
-shape2467.initLineWeight(0)
-shape2467.addOpacity(100)
-shape2467.build()
-
-image2470 = new ObjImage('image2470','images/image0118.png','Picture 10',76,360,53,53,1,24,'div',null, 0 )
-image2470.initRotateAngle(0,0,0,0,0,0,0)
-image2470.initHasShadow(0)
-image2470.initHasReflection(0)
-image2470.addIe8Attr(76, 360, 53, 53, 0, 0)
-image2470.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
-image2470.addBorder(0)
-image2470.addOpacity(100)
-image2470.build()
-
-shape2472 = new ObjImage('shape2472','images/shape2472.png','Rectangle 11',557,190,402.000000,121.000000,1,25,'div','',0 )
-shape2472.initRotateAngle(0,0,0,-0.000000,-0.000000,401,120)
-shape2472.initHasShadow(0)
-shape2472.initHasReflection(0)
-shape2472.setUniqueFillID('page2460_shape2472')
-shape2472.addIe8Attr(557.000000, 190.000000, 402.000000, 121.000000, 0, 0)
-shape2472.initImageMap(1,'0,0,401,0,401,120,0,120,0,0','M 0.000000 0.000000 L 401.000000 0.000000 L 401.000000 120.000000 L 0.000000 120.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
-shape2472.setUseSvgFile(1)
-shape2472.addBorder(0)
-shape2472.initLineWeight(0)
-shape2472.addOpacity(100)
-shape2472.build()
-
-image2475 = new ObjImage('image2475','images/image0119.png','Picture 16',536,205,53,53,1,26,'div',null, 0 )
-image2475.initRotateAngle(0,0,0,0,0,0,0)
-image2475.initHasShadow(0)
-image2475.initHasReflection(0)
-image2475.addIe8Attr(536, 205, 53, 53, 0, 0)
-image2475.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
-image2475.addBorder(0)
-image2475.addOpacity(100)
-image2475.build()
-
-text2477 = new ObjText('text2477',null,144,205,338,101,1,27,null,'div',null,0 )
-text2477.initSLine(0)
-text2477.initHasBullet(0)
-text2477.initRotateAngle(0,0,0)
-text2477.initHasOuterShadow(0)
-text2477.initHasTextShadow(0)
-text2477.initHasBorder(0)
-text2477.initHasOutline(0)
-text2477.initHasMargin(0)
-text2477.addIe8Attr(144, 205, 338, 101, 0, 0)
-text2477.addHeading(0)
-text2477.addOpacity(100)
-text2477.arrCSSStyles = new Array();
-text2477.arrCSSStyles.push('span.text2477Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text2477.addInnerText('<div id=\"text2477\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text2477Font1\"  >A fixed amount award (FAA) is a type of grant or cooperative agreement that provides funding without regards to actual costs incurred under the Federal award (2 CFR 200.1)\n</span ></p ></div>\n');
-text2477.build()
-
-text32917 = new ObjText('text32917',null,609,204,330,130,1,28,null,'div',null,0 )
-text32917.initSLine(0)
-text32917.initHasBullet(0)
-text32917.initRotateAngle(0,0,0)
-text32917.initHasOuterShadow(0)
-text32917.initHasTextShadow(0)
-text32917.initHasBorder(0)
-text32917.initHasOutline(0)
-text32917.initHasMargin(0)
-text32917.addIe8Attr(609, 204, 330, 130, 0, 0)
-text32917.addHeading(0)
-text32917.addOpacity(100)
-text32917.arrCSSStyles = new Array();
-text32917.arrCSSStyles.push('span.text32917Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text32917.addInnerText('<div id=\"text32917\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text32917Font1\"  >For example, since costs are negotiated up front with a fixed price, financial reports are not required. Accountability is based primarily on performance and results\n</span ></p ></div>\n');
-text32917.build()
-
-text32927 = new ObjText('text32927',null,144,346,347,173,1,29,null,'div',null,0 )
-text32927.initSLine(0)
-text32927.initHasBullet(0)
-text32927.initRotateAngle(0,0,0)
-text32927.initHasOuterShadow(0)
-text32927.initHasTextShadow(0)
-text32927.initHasBorder(0)
-text32927.initHasOutline(0)
-text32927.initHasMargin(0)
-text32927.addIe8Attr(144, 346, 347, 173, 0, 0)
-text32927.addHeading(0)
-text32927.addOpacity(100)
-text32927.arrCSSStyles = new Array();
-text32927.arrCSSStyles.push('span.text32927Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text32927.addInnerText('<div id=\"text32927\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text32927Font1\"  >Fixed amount awards are appropriate when the work that is to be performed can be determined with a reasonable degree of certainty. This type of Federal award reduces some of the administrative burden and record-keeping requirements for both the non-Federal entity and Federal awarding agency or pass-through entity\n</span ></p ></div>\n');
-text32927.build()
-
-button136131 = new ObjButton('button136131', 'Button',848,508,121.000000,41.000000,1,18,'div','',1,0)
-button136131.setUseSvgFile(1)
-button136131.setFillStyle(1)
-button136131.setUniqueFillID('page2460_button136131')
-button136131.initRotateAngle(0,0,0,-0.000000,-0.000000,120,40)
-button136131.initHasShadow(1)
-button136131.initHasReflection(0)
-button136131.setImages({"disabledState":"images/button136131_disabled.png","downState":"images/button136131_down.png","normalState":"images/button136131.png","overState":"images/button136131_over.png","selectedState":"images/button136131_selected.png","visitedState":"images/button136131_visited.png"});
-button136131.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button136131.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
-button136131.addOpacity(100)
-button136131.initImageMap('10,0,110,0,112,0,114,1,117,3,119,6,120,8,120,10,120,30,120,32,119,34,117,37,114,39,112,40,110,40,10,40,6,39,3,37,1,34,0,32,0,30,0,10,0,8,1,6,3,3,6,1,8,0,10,0','M 10.000000 0.000000 L 110.000000 0.000000 L 112.000000 0.187500 L 113.937500 0.812500 L 117.062500 2.937500 L 119.250000 6.125000 L 119.812500 8.000000 L 120.000000 10.000000 L 120.000000 30.000000 L 119.812500 32.000000 L 119.250000 33.937500 L 117.062500 37.062500 L 113.937500 39.250000 L 112.000000 39.812500 L 110.000000 40.000000 L 10.000000 40.000000 L 6.187500 39.250000 L 2.937500 37.125000 L 0.750000 33.875000 L 0.187500 32.000000 L 0.000000 30.000000 L 0.000000 10.000000 L 0.187500 8.000000 L 0.812500 6.125000 L 2.937500 2.937500 L 6.125000 0.812500 L 8.000000 0.187500 L 10.000000 0.000000 z')
-button136131.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button136131.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
-button136131.initLineWeight('0')
-button136131.onUp = button136131onUp
-button136131.hasOnUp = true
-button136131.capture=4
-button136131.bSelectedEnabled = false;
-button136131.bVisitedEnabled = false;
-button136131.bOverEnabled = true;
-button136131.bDownEnabled = true;
-button136131.build()
+button10855 = new ObjButton('button10855', 'Button',850,512,110.000000,47.000000,1,10,'div','',1,0)
+button10855.setUseSvgFile(1)
+button10855.setFillStyle(1)
+button10855.setUniqueFillID('page2460_button10855')
+button10855.initRotateAngle(0,0,0,-0.000000,-0.000000,109,46)
+button10855.initHasShadow(1)
+button10855.initHasReflection(0)
+button10855.setImages({"disabledState":"","downState":"","normalState":"images/button10855.png","overState":"","selectedState":"","visitedState":""});
+button10855.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
+button10855.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
+button10855.addOpacity(1)
+button10855.initImageMap('11,0,98,0,100,0,102,1,106,3,108,7,109,9,109,11,109,35,109,37,108,39,106,43,102,45,100,46,98,46,11,46,9,46,7,45,5,44,3,43,2,41,1,39,0,37,0,35,0,11,0,9,1,7,3,3,7,1,9,0,11,0','M 11.000000 0.000000 L 98.000000 0.000000 L 100.250000 0.250000 L 102.312500 0.875000 L 105.812500 3.250000 L 108.125000 6.750000 L 108.750000 8.812500 L 109.000000 11.000000 L 109.000000 35.000000 L 108.750000 37.250000 L 108.125000 39.312500 L 105.812500 42.812500 L 102.312500 45.125000 L 100.250000 45.750000 L 98.000000 46.000000 L 11.000000 46.000000 L 8.875000 45.812500 L 6.812500 45.187500 L 4.937500 44.187500 L 3.250000 42.812500 L 1.875000 41.125000 L 0.875000 39.250000 L 0.187500 37.187500 L 0.000000 35.000000 L 0.000000 11.000000 L 0.250000 8.812500 L 0.875000 6.750000 L 3.250000 3.250000 L 6.750000 0.875000 L 8.812500 0.250000 L 11.000000 0.000000 z')
+button10855.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
+button10855.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
+button10855.initLineWeight('0')
+button10855.onUp = button10855onUp
+button10855.hasOnUp = true
+button10855.capture=4
+button10855.bSelectedEnabled = false;
+button10855.bVisitedEnabled = false;
+button10855.bOverEnabled = true;
+button10855.bDownEnabled = true;
+button10855.build()
 
 arObjs.push(text23923);
-arObjs.push(og63);
-arObjs.push(text208202);
-arObjs.push(text208200);
 arObjs.push(image10864);
-arObjs.push(image10862);
-arObjs.push(image10860);
-arObjs.push(button10855);
-arObjs.push(button10847);
-arObjs.push(og123);
-arObjs.push(image11133);
-arObjs.push(image10956);
-arObjs.push(image11131);
-arObjs.push(button11126);
-arObjs.push(button11118);
-arObjs.push(image189881);
-arObjs.push(progress189709);
-arObjs.push(og136116);
+arObjs.push(og63);
+arObjs.push(progress224458);
 arObjs.push(text203856);
 arObjs.push(text2461);
 arObjs.push(shape2462);
@@ -1025,7 +811,12 @@ arObjs.push(image2475);
 arObjs.push(text2477);
 arObjs.push(text32917);
 arObjs.push(text32927);
-arObjs.push(button136131);
+arObjs.push(text208202);
+arObjs.push(text208200);
+arObjs.push(image10862);
+arObjs.push(image10860);
+arObjs.push(button10847);
+arObjs.push(button10855);
 
 
 writeStyleSheets(arObjs);}
@@ -1038,8 +829,6 @@ writeStyleSheets(arObjs);}
 
     <DIV style="visibility:hidden;" id="pageDIV" >
 <div id="og63"><a id="og63anc"></a></div>
-<div id="og123"><a id="og123anc"></a></div>
-<div id="og136116"><a id="og136116anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
@@ -1055,20 +844,8 @@ if( is.min ){
 <script>
 if( is.min ){
     appendElement(text23923, null, null);
-    appendElement(text208202, null, null);
-    appendElement(text208200, null, null);
     appendElement(image10864, null, null);
-    appendElement(image10862, null, null);
-    appendElement(image10860, null, null);
-    appendElement(button10855, null, null);
-    appendElement(button10847, null, null);
-    appendElement(image11133, null, null);
-    appendElement(image10956, null, null);
-    appendElement(image11131, null, null);
-    appendElement(button11126, null, null);
-    appendElement(button11118, null, null);
-    appendElement(image189881, null, null);
-    appendElement(progress189709, null, null);
+    appendElement(progress224458, null, null);
     appendElement(text203856, null, null);
     appendElement(text2461, null, null);
     appendElement(shape2462, null, null);
@@ -1080,7 +857,12 @@ if( is.min ){
     appendElement(text2477, null, null);
     appendElement(text32917, null, null);
     appendElement(text32927, null, null);
-    appendElement(button136131, null, null);
+    appendElement(text208202, null, null);
+    appendElement(text208200, null, null);
+    appendElement(image10862, null, null);
+    appendElement(image10860, null, null);
+    appendElement(button10847, null, null);
+    appendElement(button10855, null, null);
 }
 </script>
 

@@ -311,18 +311,11 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(og63,text208202,text208200,image10864,image10862,image10860,button10855,button10847,progress187611,og126614,text194304,text465,text466,shape467,image470,shape472,image475,shape477,image480,text482,text27374,text27384,text483,shape484,text486,text73,button47987,text46693,text46674,button47650))
+    PreloadResources(new Array(image10864,og63,progress187611,text194304,text465,text466,shape467,image470,shape472,image475,shape477,image480,text482,text27374,text27384,text483,shape484,text486,text208202,text208200,image10862,image10860,button10847,button10855))
     pageLayer.show(true);
-    og63.init()
-    text208202.init()
-    text208200.init()
     image10864.init()
-    image10862.init()
-    image10860.init()
-    button10855.init()
-    button10847.init()
+    og63.init()
     progress187611.init()
-    og126614.init()
     text194304.init()
     text465.init()
     text466.init()
@@ -338,21 +331,15 @@ function init11() {
     text483.init()
     shape484.init()
     text486.init()
-    text73.init()
-    button47987.init()
-    text46693.init()
-    text46674.init()
-    button47650.init()
-    og63.activate()
-    text208202.activate()
-    text208200.activate()
+    text208202.init()
+    text208200.init()
+    image10862.init()
+    image10860.init()
+    button10847.init()
+    button10855.init()
     image10864.activate()
-    image10862.activate()
-    image10860.activate()
-    button10855.activate()
-    button10847.activate()
+    og63.activate()
     progress187611.activate()
-    og126614.activate()
     text194304.activate()
     text465.activate()
     text466.activate()
@@ -368,19 +355,16 @@ function init11() {
     text483.activate()
     shape484.activate()
     text486.activate()
-    text73.activate()
-    button47987.activate()
-    text46693.activate()
-    text46674.activate()
-    button47650.activate()
-button10855.strCookieState = (trivBtnTracking.GetRangeStatus(10855,true));
-button10855.loadStateFromSes("normalState");
+    text208202.activate()
+    text208200.activate()
+    image10862.activate()
+    image10860.activate()
+    button10847.activate()
+    button10855.activate()
 button10847.strCookieState = (trivBtnTracking.GetRangeStatus(10847,true));
 button10847.loadStateFromSes("normalState");
-button47987.strCookieState = (trivBtnTracking.GetRangeStatus(47987,true));
-button47987.loadStateFromSes("normalState");
-button47650.strCookieState = (trivBtnTracking.GetRangeStatus(47650,true));
-button47650.loadStateFromSes("normalState");
+button10855.strCookieState = (trivBtnTracking.GetRangeStatus(10855,true));
+button10855.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
     trivScrollTo(window, objToScroll);
     var titleManagerIndexWindow = (window && window.parent && window.parent.bIsTitleManagerIndexFile) ? window.parent : null;
@@ -494,18 +478,14 @@ function action74(fn){
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action208203(fn){
-    if( text208202.eatOnUp==true ){
-        text208202.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page489.html',true); 
+function action10848(fn){
+    trivExitPage('page444.html',false); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function text208202onUp() {
-  action208203();
+function button10847onUp() {
+  action10848();
 }
 
 function action10856(fn){
@@ -518,75 +498,253 @@ function button10855onUp() {
   action10856();
 }
 
-function action10848(fn){
-    trivExitPage('page444.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function button10847onUp() {
-  action10848();
-}
-
-function action47988(fn){
-    trivExitPage('page489.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function button47987onUp() {
-  action47988();
-}
-
-function action48294(fn){
-    if( text46693.eatOnUp==true ){
-        text46693.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page489.html',true); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text46693onUp() {
-  action48294();
-}
-
-function action48346(fn){
-    if( text46674.eatOnUp==true ){
-        text46674.eatOnUp=false;
-        return;
-    }
-    trivExitPage('page444.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function text46674onUp() {
-  action48346();
-}
-
-function action47657(fn){
-    trivExitPage('page444.html',false); 
-    if(fn && typeof(fn) == 'string' ) eval(fn);
-    else if(fn && typeof(fn) == 'function' ) fn();
-}
-
-function button47650onUp() {
-  action47657();
-}
-
 if( is.min ){
-og63 = new ObjInline('og63',null,0,0,-1,-1,1,0)
+image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,3,'div',null, 0 )
+image10864.initRotateAngle(0,0,0,0,0,0,0)
+image10864.initHasShadow(0)
+image10864.initHasReflection(0)
+image10864.addIe8Attr(0, 0, 1009, 120, 0, 0)
+image10864.initImageMap(1,'0,0,1009,0,1009,120,0,120,0,0','M 0 0 L 1009 0 L 1009 120 L 0 120 L 0 0 z')
+image10864.addBorder(0)
+image10864.addOpacity(100)
+image10864.build()
+
+og63 = new ObjInline('og63',null,0,0,970,558,1,0)
 og63.isGrp = true
 og63.addChild('text208202')
 og63.addChild('text208200')
-og63.addChild('image10864')
 og63.addChild('image10862')
 og63.addChild('image10860')
-og63.addChild('button10855')
 og63.addChild('button10847')
+og63.addChild('button10855')
 og63.build()
+
+progress187611 = new ObjProgress('progress187611','',69,539,872,18,1,16,1,10,'#07648d','images/progress187611_bar.png','#eeeeee','images/progress187611.png',1,59,0,0,0,0,0,'div',0 )
+progress187611.actionSetPos(16)
+progress187611.build()
+
+text194304 = new ObjText('text194304',null,267,540,31,23,1,11,null,'div',null,0 )
+text194304.initSLine(1)
+text194304.initHasBullet(0)
+text194304.initRotateAngle(0,0,0)
+text194304.initHasOuterShadow(0)
+text194304.initHasTextShadow(0)
+text194304.initHasBorder(0)
+text194304.initHasOutline(0)
+text194304.initHasMargin(0)
+text194304.addIe8Attr(267, 540, 31, 23, 0, 0)
+text194304.addHeading(0)
+text194304.addOpacity(100)
+text194304.arrCSSStyles = new Array();
+text194304.arrCSSStyles.push('span.text194304Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text194304.arrCSSStyles.push('span.text194304Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#000000;}');
+text194304.addInnerText('<div id=\"text194304\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text194304Font1\"  >28%</span ><span class=\"text194304Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text194304.build()
+
+text465 = new ObjText('text465',null,68,145,439,46,1,12,null,'div',null,0 )
+text465.initSLine(0)
+text465.initHasBullet(0)
+text465.initRotateAngle(0,0,0)
+text465.initHasOuterShadow(0)
+text465.initHasTextShadow(0)
+text465.initHasBorder(0)
+text465.initHasOutline(0)
+text465.initHasMargin(6)
+text465.addIe8Attr(68, 145, 439, 46, 0, 0)
+text465.addHeading(0)
+text465.addOpacity(100)
+text465.arrCSSStyles = new Array();
+text465.arrCSSStyles.push('span.text465Font1 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
+text465.arrCSSStyles.push('span.text465Font2 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
+text465.addInnerText('<div id=\"text465\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text465Font1\"  >APPROPRIATIONS</span ><span class=\"text465Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text465.build()
+
+text466 = new ObjText('text466',null,65,190,880,77,1,13,null,'div',null,0 )
+text466.initSLine(0)
+text466.initHasBullet(0)
+text466.initRotateAngle(0,0,0)
+text466.initHasOuterShadow(0)
+text466.initHasTextShadow(0)
+text466.initHasBorder(0)
+text466.initHasOutline(0)
+text466.initHasMargin(0)
+text466.addIe8Attr(65, 190, 880, 77, 0, 0)
+text466.addHeading(0)
+text466.addOpacity(100)
+text466.arrCSSStyles = new Array();
+text466.arrCSSStyles.push('span.text466Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text466.arrCSSStyles.push('span.text466Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
+text466.arrCSSStyles.push('span.text466Font3 { font-size:16px; font-family:"Oswald"; color:#00324b;}');
+text466.arrCSSStyles.push('span.text466Font4 { font-size:16px; font-family:"Arial", sans-serif; color:#00324b;}');
+text466.addInnerText('<div id=\"text466\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:3px;text-align:left;\" >\n<span class=\"text466Font1\"  >Once authorization for a program has been established, Congress makes funds available for <br />obligation and expenditure by means of appropriation acts (or occasionally by other legislation). </span ><span class=\"text466Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text466Font3\"  >THE APPROPRIATION ACT DESCRIBES:</span ><span class=\"text466Font4\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text466.build()
+
+shape467 = new ObjImage('shape467','images/shape467.png','Rectangle 20',100,266,251.000000,116.000000,1,14,'div','',0 )
+shape467.initRotateAngle(0,0,0,-0.000000,-0.000000,250,115)
+shape467.initHasShadow(0)
+shape467.initHasReflection(0)
+shape467.setUniqueFillID('page463_shape467')
+shape467.addIe8Attr(100.000000, 266.000000, 251.000000, 116.000000, 0, 0)
+shape467.initImageMap(1,'0,0,250,0,250,115,0,115,0,0','M 0.000000 0.000000 L 250.000000 0.000000 L 250.000000 115.000000 L 0.000000 115.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
+shape467.setUseSvgFile(1)
+shape467.addBorder(0)
+shape467.initLineWeight(0)
+shape467.addOpacity(100)
+shape467.build()
+
+image470 = new ObjImage('image470','images/image0031.png','Picture 8',73,286,53,53,1,15,'div',null, 0 )
+image470.initRotateAngle(0,0,0,0,0,0,0)
+image470.initHasShadow(0)
+image470.initHasReflection(0)
+image470.addIe8Attr(73, 286, 53, 53, 0, 0)
+image470.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
+image470.addBorder(0)
+image470.addOpacity(100)
+image470.build()
+
+shape472 = new ObjImage('shape472','images/shape472.png','Rectangle 15',410,266,251.000000,116.000000,1,16,'div','',0 )
+shape472.initRotateAngle(0,0,0,-0.000000,-0.000000,250,115)
+shape472.initHasShadow(0)
+shape472.initHasReflection(0)
+shape472.setUniqueFillID('page463_shape472')
+shape472.addIe8Attr(410.000000, 266.000000, 251.000000, 116.000000, 0, 0)
+shape472.initImageMap(1,'0,0,250,0,250,115,0,115,0,0','M 0.000000 0.000000 L 250.000000 0.000000 L 250.000000 115.000000 L 0.000000 115.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
+shape472.setUseSvgFile(1)
+shape472.addBorder(0)
+shape472.initLineWeight(0)
+shape472.addOpacity(100)
+shape472.build()
+
+image475 = new ObjImage('image475','images/image0032.png','Picture 11',380,286,53,53,1,17,'div',null, 0 )
+image475.initRotateAngle(0,0,0,0,0,0,0)
+image475.initHasShadow(0)
+image475.initHasReflection(0)
+image475.addIe8Attr(380, 286, 53, 53, 0, 0)
+image475.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
+image475.addBorder(0)
+image475.addOpacity(100)
+image475.build()
+
+shape477 = new ObjImage('shape477','images/shape477.png','Rectangle 19',710,266,251.000000,116.000000,1,18,'div','',0 )
+shape477.initRotateAngle(0,0,0,-0.000000,-0.000000,250,115)
+shape477.initHasShadow(0)
+shape477.initHasReflection(0)
+shape477.setUniqueFillID('page463_shape477')
+shape477.addIe8Attr(710.000000, 266.000000, 251.000000, 116.000000, 0, 0)
+shape477.initImageMap(1,'0,0,250,0,250,115,0,115,0,0','M 0.000000 0.000000 L 250.000000 0.000000 L 250.000000 115.000000 L 0.000000 115.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
+shape477.setUseSvgFile(1)
+shape477.addBorder(0)
+shape477.initLineWeight(0)
+shape477.addOpacity(100)
+shape477.build()
+
+image480 = new ObjImage('image480','images/image0033.png','Picture 14',686,283,53,53,1,19,'div',null, 0 )
+image480.initRotateAngle(0,0,0,0,0,0,0)
+image480.initHasShadow(0)
+image480.initHasReflection(0)
+image480.addIe8Attr(686, 283, 53, 53, 0, 0)
+image480.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
+image480.addBorder(0)
+image480.addOpacity(100)
+image480.build()
+
+text482 = new ObjText('text482',null,144,297,171,69,1,20,null,'div',null,0 )
+text482.initSLine(0)
+text482.initHasBullet(0)
+text482.initRotateAngle(0,0,0)
+text482.initHasOuterShadow(0)
+text482.initHasTextShadow(0)
+text482.initHasBorder(0)
+text482.initHasOutline(0)
+text482.initHasMargin(0)
+text482.addIe8Attr(144, 297, 171, 69, 0, 0)
+text482.addHeading(0)
+text482.addOpacity(100)
+text482.arrCSSStyles = new Array();
+text482.arrCSSStyles.push('span.text482Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text482.addInnerText('<div id=\"text482\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text482Font1\"  >The purposes for which <br />the funds may be used\n</span ></p ></div>\n');
+text482.build()
+
+text27374 = new ObjText('text27374',null,444,298,194,75,1,21,null,'div',null,0 )
+text27374.initSLine(0)
+text27374.initHasBullet(0)
+text27374.initRotateAngle(0,0,0)
+text27374.initHasOuterShadow(0)
+text27374.initHasTextShadow(0)
+text27374.initHasBorder(0)
+text27374.initHasOutline(0)
+text27374.initHasMargin(0)
+text27374.addIe8Attr(444, 298, 194, 75, 0, 0)
+text27374.addHeading(0)
+text27374.addOpacity(100)
+text27374.arrCSSStyles = new Array();
+text27374.arrCSSStyles.push('span.text27374Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text27374.addInnerText('<div id=\"text27374\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text27374Font1\"  >The length of time the funds may remain available for these uses\n</span ></p ></div>\n');
+text27374.build()
+
+text27384 = new ObjText('text27384',null,754,285,188,75,1,22,null,'div',null,0 )
+text27384.initSLine(0)
+text27384.initHasBullet(0)
+text27384.initRotateAngle(0,0,0)
+text27384.initHasOuterShadow(0)
+text27384.initHasTextShadow(0)
+text27384.initHasBorder(0)
+text27384.initHasOutline(0)
+text27384.initHasMargin(0)
+text27384.addIe8Attr(754, 285, 188, 75, 0, 0)
+text27384.addHeading(0)
+text27384.addOpacity(100)
+text27384.arrCSSStyles = new Array();
+text27384.arrCSSStyles.push('span.text27384Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text27384.addInnerText('<div id=\"text27384\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text27384Font1\"  >The maximum amount a Federal agency may spend on particular elements of a program\n</span ></p ></div>\n');
+text27384.build()
+
+text483 = new ObjText('text483',null,75,396,934,41,1,23,null,'div',null,0 )
+text483.initSLine(0)
+text483.initHasBullet(0)
+text483.initRotateAngle(0,0,0)
+text483.initHasOuterShadow(0)
+text483.initHasTextShadow(0)
+text483.initHasBorder(0)
+text483.initHasOutline(0)
+text483.initHasMargin(0)
+text483.addIe8Attr(75, 396, 934, 41, 0, 0)
+text483.addHeading(0)
+text483.addOpacity(100)
+text483.arrCSSStyles = new Array();
+text483.arrCSSStyles.push('span.text483Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
+text483.addInnerText('<div id=\"text483\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text483Font1\"  >In this manner, Congress may use its appropriation power to accomplish policy objectives and to establish priorities among Federal programs.\n</span ></p ></div>\n');
+text483.build()
+
+shape484 = new ObjImage('shape484','images/shape484.png','Rectangle 17',0,459,1010.000000,39.000000,1,24,'div','',0 )
+shape484.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,38)
+shape484.initHasShadow(0)
+shape484.initHasReflection(0)
+shape484.setUniqueFillID('page463_shape484')
+shape484.addIe8Attr(0.000000, 459.000000, 1010.000000, 39.000000, 0, 0)
+shape484.initImageMap(1,'0,0,1009,0,1009,38,0,38,0,0','M 0.000000 0.000000 L 1009.000000 0.000000 L 1009.000000 38.000000 L 0.000000 38.000000 L 0.000000 0.000000 z', '', 'fill:#CDAE31;"' , '')
+shape484.setUseSvgFile(1)
+shape484.addBorder(0)
+shape484.initLineWeight(0)
+shape484.addOpacity(100)
+shape484.build()
+
+text486 = new ObjText('text486',null,75,469,880,23,1,25,null,'div',null,0 )
+text486.initSLine(1)
+text486.initHasBullet(0)
+text486.initRotateAngle(0,0,0)
+text486.initHasOuterShadow(0)
+text486.initHasTextShadow(0)
+text486.initHasBorder(0)
+text486.initHasOutline(0)
+text486.initHasMargin(0)
+text486.addIe8Attr(75, 469, 880, 23, 0, 0)
+text486.addHeading(0)
+text486.addOpacity(100)
+text486.arrCSSStyles = new Array();
+text486.arrCSSStyles.push('span.text486Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text486.addInnerText('<div id=\"text486\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text486Font1\"  >There are several different categories of appropriations. Let’s look at each one more closely.\n</span ></p ></div>\n');
+text486.build()
 
 text208202 = new ObjText('text208202',null,900,517,70,17,1,4,null,'div',null,0 )
 text208202.initSLine(1)
@@ -600,13 +758,10 @@ text208202.initHasMargin(0)
 text208202.addIe8Attr(900, 517, 70, 17, 0, 0)
 text208202.addHeading(0)
 text208202.addOpacity(100)
-text208202.onUp = text208202onUp
-text208202.hasOnUp = true
-text208202.capture=4
 text208202.arrCSSStyles = new Array();
 text208202.arrCSSStyles.push('span.text208202Font1 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b;}');
 text208202.arrCSSStyles.push('span.text208202Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b; font-weight:bold;}');
-text208202.addInnerText('<div id=\"text208202\" aria-live=\"polite\" ><a id=\"text208202anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text208202Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208202Font1\"  >NEXT</span ><span class=\"text208202Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
+text208202.addInnerText('<div id=\"text208202\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208202Font1\"  >NEXT</span ><span class=\"text208202Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208202.build()
 
 text208200 = new ObjText('text208200',null,75,517,63,21,1,5,null,'div',null,0 )
@@ -627,17 +782,7 @@ text208200.arrCSSStyles.push('span.text208200Font2 { font-size:13px; font-family
 text208200.addInnerText('<div id=\"text208200\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208200Font1\"  >BACK</span ><span class=\"text208200Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208200.build()
 
-image10864 = new ObjImage('image10864','images/image0014.png','image0014',0,0,1009,120,1,6,'div',null, 0 )
-image10864.initRotateAngle(0,0,0,0,0,0,0)
-image10864.initHasShadow(0)
-image10864.initHasReflection(0)
-image10864.addIe8Attr(0, 0, 1009, 120, 0, 0)
-image10864.initImageMap(1,'0,0,1009,0,1009,120,0,120,0,0','M 0 0 L 1009 0 L 1009 120 L 0 120 L 0 0 z')
-image10864.addBorder(0)
-image10864.addOpacity(100)
-image10864.build()
-
-image10862 = new ObjImage('image10862','images/image0002.png','Picture 34',65,522,47,17,1,7,'div',null, 0 )
+image10862 = new ObjImage('image10862','images/image0002.png','Back Arrow',65,522,47,17,1,6,'div',null, 0 )
 image10862.initRotateAngle(0,0,0,0,0,0,0)
 image10862.initHasShadow(0)
 image10862.initHasReflection(0)
@@ -647,7 +792,7 @@ image10862.addBorder(0)
 image10862.addOpacity(100)
 image10862.build()
 
-image10860 = new ObjImage('image10860','images/image0003.png','Picture 36',898,522,48,17,1,8,'div',null, 0 )
+image10860 = new ObjImage('image10860','images/image0003.png','Next Arrow',898,522,48,17,1,7,'div',null, 0 )
 image10860.initRotateAngle(0,0,0,0,0,0,0)
 image10860.initHasShadow(0)
 image10860.initHasReflection(0)
@@ -657,31 +802,7 @@ image10860.addBorder(0)
 image10860.addOpacity(100)
 image10860.build()
 
-button10855 = new ObjButton('button10855', 'Button',850,512,110.000000,47.000000,1,9,'div','',1,0)
-button10855.setUseSvgFile(1)
-button10855.setFillStyle(1)
-button10855.setUniqueFillID('page463_button10855')
-button10855.initRotateAngle(0,0,0,-0.000000,-0.000000,109,46)
-button10855.initHasShadow(1)
-button10855.initHasReflection(0)
-button10855.setImages({"disabledState":"","downState":"","normalState":"images/button10855.png","overState":"","selectedState":"","visitedState":""});
-button10855.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button10855.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
-button10855.addOpacity(1)
-button10855.initImageMap('11,0,98,0,100,0,102,1,106,3,108,7,109,9,109,11,109,35,109,37,108,39,106,43,102,45,100,46,98,46,11,46,9,46,7,45,5,44,3,43,2,41,1,39,0,37,0,35,0,11,0,9,1,7,3,3,7,1,9,0,11,0','M 11.000000 0.000000 L 98.000000 0.000000 L 100.250000 0.250000 L 102.312500 0.875000 L 105.812500 3.250000 L 108.125000 6.750000 L 108.750000 8.812500 L 109.000000 11.000000 L 109.000000 35.000000 L 108.750000 37.250000 L 108.125000 39.312500 L 105.812500 42.812500 L 102.312500 45.125000 L 100.250000 45.750000 L 98.000000 46.000000 L 11.000000 46.000000 L 8.875000 45.812500 L 6.812500 45.187500 L 4.937500 44.187500 L 3.250000 42.812500 L 1.875000 41.125000 L 0.875000 39.250000 L 0.187500 37.187500 L 0.000000 35.000000 L 0.000000 11.000000 L 0.250000 8.812500 L 0.875000 6.750000 L 3.250000 3.250000 L 6.750000 0.875000 L 8.812500 0.250000 L 11.000000 0.000000 z')
-button10855.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button10855.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
-button10855.initLineWeight('0')
-button10855.onUp = button10855onUp
-button10855.hasOnUp = true
-button10855.capture=4
-button10855.bSelectedEnabled = false;
-button10855.bVisitedEnabled = false;
-button10855.bOverEnabled = true;
-button10855.bDownEnabled = true;
-button10855.build()
-
-button10847 = new ObjButton('button10847', 'Click Here',50,512,110.000000,47.000000,1,10,'div','',1,0)
+button10847 = new ObjButton('button10847', 'Click Here',50,512,110.000000,47.000000,1,8,'div','',1,0)
 button10847.setUseSvgFile(1)
 button10847.setFillStyle(1)
 button10847.setUniqueFillID('page463_button10847')
@@ -707,360 +828,33 @@ button10847.bOverEnabled = true;
 button10847.bDownEnabled = true;
 button10847.build()
 
-progress187611 = new ObjProgress('progress187611','',69,539,872,18,1,16,1,11,'#07648d','images/progress187611_bar.png','#eeeeee','images/progress187611.png',1,59,0,0,0,0,0,'div',0 )
-progress187611.actionSetPos(16)
-progress187611.build()
+button10855 = new ObjButton('button10855', 'Button',850,512,110.000000,47.000000,1,9,'div','',1,0)
+button10855.setUseSvgFile(1)
+button10855.setFillStyle(1)
+button10855.setUniqueFillID('page463_button10855')
+button10855.initRotateAngle(0,0,0,-0.000000,-0.000000,109,46)
+button10855.initHasShadow(1)
+button10855.initHasReflection(0)
+button10855.setImages({"disabledState":"","downState":"","normalState":"images/button10855.png","overState":"","selectedState":"","visitedState":""});
+button10855.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
+button10855.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
+button10855.addOpacity(1)
+button10855.initImageMap('11,0,98,0,100,0,102,1,106,3,108,7,109,9,109,11,109,35,109,37,108,39,106,43,102,45,100,46,98,46,11,46,9,46,7,45,5,44,3,43,2,41,1,39,0,37,0,35,0,11,0,9,1,7,3,3,7,1,9,0,11,0','M 11.000000 0.000000 L 98.000000 0.000000 L 100.250000 0.250000 L 102.312500 0.875000 L 105.812500 3.250000 L 108.125000 6.750000 L 108.750000 8.812500 L 109.000000 11.000000 L 109.000000 35.000000 L 108.750000 37.250000 L 108.125000 39.312500 L 105.812500 42.812500 L 102.312500 45.125000 L 100.250000 45.750000 L 98.000000 46.000000 L 11.000000 46.000000 L 8.875000 45.812500 L 6.812500 45.187500 L 4.937500 44.187500 L 3.250000 42.812500 L 1.875000 41.125000 L 0.875000 39.250000 L 0.187500 37.187500 L 0.000000 35.000000 L 0.000000 11.000000 L 0.250000 8.812500 L 0.875000 6.750000 L 3.250000 3.250000 L 6.750000 0.875000 L 8.812500 0.250000 L 11.000000 0.000000 z')
+button10855.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
+button10855.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
+button10855.initLineWeight('0')
+button10855.onUp = button10855onUp
+button10855.hasOnUp = true
+button10855.capture=4
+button10855.bSelectedEnabled = false;
+button10855.bVisitedEnabled = false;
+button10855.bOverEnabled = true;
+button10855.bDownEnabled = true;
+button10855.build()
 
-og126614 = new ObjInline('og126614',null,0,0,-1,-1,1,0)
-og126614.isGrp = true
-og126614.addChild('button47987')
-og126614.addChild('text46693')
-og126614.addChild('text46674')
-og126614.addChild('button47650')
-og126614.addChild('text73')
-og126614.build()
-
-text194304 = new ObjText('text194304',null,267,540,31,23,1,16,null,'div',null,0 )
-text194304.initSLine(1)
-text194304.initHasBullet(0)
-text194304.initRotateAngle(0,0,0)
-text194304.initHasOuterShadow(0)
-text194304.initHasTextShadow(0)
-text194304.initHasBorder(0)
-text194304.initHasOutline(0)
-text194304.initHasMargin(0)
-text194304.addIe8Attr(267, 540, 31, 23, 0, 0)
-text194304.addHeading(0)
-text194304.addOpacity(100)
-text194304.arrCSSStyles = new Array();
-text194304.arrCSSStyles.push('span.text194304Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text194304.arrCSSStyles.push('span.text194304Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#000000;}');
-text194304.addInnerText('<div id=\"text194304\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text194304Font1\"  >28%</span ><span class=\"text194304Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text194304.build()
-
-text465 = new ObjText('text465',null,68,145,439,46,1,17,null,'div',null,0 )
-text465.initSLine(0)
-text465.initHasBullet(0)
-text465.initRotateAngle(0,0,0)
-text465.initHasOuterShadow(0)
-text465.initHasTextShadow(0)
-text465.initHasBorder(0)
-text465.initHasOutline(0)
-text465.initHasMargin(6)
-text465.addIe8Attr(68, 145, 439, 46, 0, 0)
-text465.addHeading(0)
-text465.addOpacity(100)
-text465.arrCSSStyles = new Array();
-text465.arrCSSStyles.push('span.text465Font1 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
-text465.arrCSSStyles.push('span.text465Font2 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
-text465.addInnerText('<div id=\"text465\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text465Font1\"  >APPROPRIATIONS</span ><span class=\"text465Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text465.build()
-
-text466 = new ObjText('text466',null,65,190,880,77,1,18,null,'div',null,0 )
-text466.initSLine(0)
-text466.initHasBullet(0)
-text466.initRotateAngle(0,0,0)
-text466.initHasOuterShadow(0)
-text466.initHasTextShadow(0)
-text466.initHasBorder(0)
-text466.initHasOutline(0)
-text466.initHasMargin(0)
-text466.addIe8Attr(65, 190, 880, 77, 0, 0)
-text466.addHeading(0)
-text466.addOpacity(100)
-text466.arrCSSStyles = new Array();
-text466.arrCSSStyles.push('span.text466Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text466.arrCSSStyles.push('span.text466Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#000000;}');
-text466.arrCSSStyles.push('span.text466Font3 { font-size:16px; font-family:"Oswald"; color:#00324b;}');
-text466.arrCSSStyles.push('span.text466Font4 { font-size:16px; font-family:"Arial", sans-serif; color:#00324b;}');
-text466.addInnerText('<div id=\"text466\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:3px;text-align:left;\" >\n<span class=\"text466Font1\"  >Once authorization for a program has been established, Congress makes funds available for <br />obligation and expenditure by means of appropriation acts (or occasionally by other legislation). </span ><span class=\"text466Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text466Font3\"  >THE APPROPRIATION ACT DESCRIBES:</span ><span class=\"text466Font4\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text466.build()
-
-shape467 = new ObjImage('shape467','images/shape467.png','Rectangle 20',100,266,251.000000,116.000000,1,19,'div','',0 )
-shape467.initRotateAngle(0,0,0,-0.000000,-0.000000,250,115)
-shape467.initHasShadow(0)
-shape467.initHasReflection(0)
-shape467.setUniqueFillID('page463_shape467')
-shape467.addIe8Attr(100.000000, 266.000000, 251.000000, 116.000000, 0, 0)
-shape467.initImageMap(1,'0,0,250,0,250,115,0,115,0,0','M 0.000000 0.000000 L 250.000000 0.000000 L 250.000000 115.000000 L 0.000000 115.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
-shape467.setUseSvgFile(1)
-shape467.addBorder(0)
-shape467.initLineWeight(0)
-shape467.addOpacity(100)
-shape467.build()
-
-image470 = new ObjImage('image470','images/image0031.png','Picture 8',73,286,53,53,1,20,'div',null, 0 )
-image470.initRotateAngle(0,0,0,0,0,0,0)
-image470.initHasShadow(0)
-image470.initHasReflection(0)
-image470.addIe8Attr(73, 286, 53, 53, 0, 0)
-image470.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
-image470.addBorder(0)
-image470.addOpacity(100)
-image470.build()
-
-shape472 = new ObjImage('shape472','images/shape472.png','Rectangle 15',410,266,251.000000,116.000000,1,21,'div','',0 )
-shape472.initRotateAngle(0,0,0,-0.000000,-0.000000,250,115)
-shape472.initHasShadow(0)
-shape472.initHasReflection(0)
-shape472.setUniqueFillID('page463_shape472')
-shape472.addIe8Attr(410.000000, 266.000000, 251.000000, 116.000000, 0, 0)
-shape472.initImageMap(1,'0,0,250,0,250,115,0,115,0,0','M 0.000000 0.000000 L 250.000000 0.000000 L 250.000000 115.000000 L 0.000000 115.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
-shape472.setUseSvgFile(1)
-shape472.addBorder(0)
-shape472.initLineWeight(0)
-shape472.addOpacity(100)
-shape472.build()
-
-image475 = new ObjImage('image475','images/image0032.png','Picture 11',380,286,53,53,1,22,'div',null, 0 )
-image475.initRotateAngle(0,0,0,0,0,0,0)
-image475.initHasShadow(0)
-image475.initHasReflection(0)
-image475.addIe8Attr(380, 286, 53, 53, 0, 0)
-image475.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
-image475.addBorder(0)
-image475.addOpacity(100)
-image475.build()
-
-shape477 = new ObjImage('shape477','images/shape477.png','Rectangle 19',710,266,251.000000,116.000000,1,23,'div','',0 )
-shape477.initRotateAngle(0,0,0,-0.000000,-0.000000,250,115)
-shape477.initHasShadow(0)
-shape477.initHasReflection(0)
-shape477.setUniqueFillID('page463_shape477')
-shape477.addIe8Attr(710.000000, 266.000000, 251.000000, 116.000000, 0, 0)
-shape477.initImageMap(1,'0,0,250,0,250,115,0,115,0,0','M 0.000000 0.000000 L 250.000000 0.000000 L 250.000000 115.000000 L 0.000000 115.000000 L 0.000000 0.000000 z', '', 'fill:#CED6DA;"' , '')
-shape477.setUseSvgFile(1)
-shape477.addBorder(0)
-shape477.initLineWeight(0)
-shape477.addOpacity(100)
-shape477.build()
-
-image480 = new ObjImage('image480','images/image0033.png','Picture 14',686,283,53,53,1,24,'div',null, 0 )
-image480.initRotateAngle(0,0,0,0,0,0,0)
-image480.initHasShadow(0)
-image480.initHasReflection(0)
-image480.addIe8Attr(686, 283, 53, 53, 0, 0)
-image480.initImageMap(1,'0,0,53,0,53,53,0,53,0,0','M 0 0 L 53 0 L 53 53 L 0 53 L 0 0 z')
-image480.addBorder(0)
-image480.addOpacity(100)
-image480.build()
-
-text482 = new ObjText('text482',null,144,297,171,69,1,25,null,'div',null,0 )
-text482.initSLine(0)
-text482.initHasBullet(0)
-text482.initRotateAngle(0,0,0)
-text482.initHasOuterShadow(0)
-text482.initHasTextShadow(0)
-text482.initHasBorder(0)
-text482.initHasOutline(0)
-text482.initHasMargin(0)
-text482.addIe8Attr(144, 297, 171, 69, 0, 0)
-text482.addHeading(0)
-text482.addOpacity(100)
-text482.arrCSSStyles = new Array();
-text482.arrCSSStyles.push('span.text482Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text482.addInnerText('<div id=\"text482\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text482Font1\"  >The purposes for which <br />the funds may be used\n</span ></p ></div>\n');
-text482.build()
-
-text27374 = new ObjText('text27374',null,444,298,194,75,1,26,null,'div',null,0 )
-text27374.initSLine(0)
-text27374.initHasBullet(0)
-text27374.initRotateAngle(0,0,0)
-text27374.initHasOuterShadow(0)
-text27374.initHasTextShadow(0)
-text27374.initHasBorder(0)
-text27374.initHasOutline(0)
-text27374.initHasMargin(0)
-text27374.addIe8Attr(444, 298, 194, 75, 0, 0)
-text27374.addHeading(0)
-text27374.addOpacity(100)
-text27374.arrCSSStyles = new Array();
-text27374.arrCSSStyles.push('span.text27374Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text27374.addInnerText('<div id=\"text27374\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text27374Font1\"  >The length of time the funds may remain available for these uses\n</span ></p ></div>\n');
-text27374.build()
-
-text27384 = new ObjText('text27384',null,754,285,188,75,1,27,null,'div',null,0 )
-text27384.initSLine(0)
-text27384.initHasBullet(0)
-text27384.initRotateAngle(0,0,0)
-text27384.initHasOuterShadow(0)
-text27384.initHasTextShadow(0)
-text27384.initHasBorder(0)
-text27384.initHasOutline(0)
-text27384.initHasMargin(0)
-text27384.addIe8Attr(754, 285, 188, 75, 0, 0)
-text27384.addHeading(0)
-text27384.addOpacity(100)
-text27384.arrCSSStyles = new Array();
-text27384.arrCSSStyles.push('span.text27384Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text27384.addInnerText('<div id=\"text27384\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text27384Font1\"  >The maximum amount a Federal agency may spend on particular elements of a program\n</span ></p ></div>\n');
-text27384.build()
-
-text483 = new ObjText('text483',null,75,396,934,41,1,28,null,'div',null,0 )
-text483.initSLine(0)
-text483.initHasBullet(0)
-text483.initRotateAngle(0,0,0)
-text483.initHasOuterShadow(0)
-text483.initHasTextShadow(0)
-text483.initHasBorder(0)
-text483.initHasOutline(0)
-text483.initHasMargin(0)
-text483.addIe8Attr(75, 396, 934, 41, 0, 0)
-text483.addHeading(0)
-text483.addOpacity(100)
-text483.arrCSSStyles = new Array();
-text483.arrCSSStyles.push('span.text483Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000;}');
-text483.addInnerText('<div id=\"text483\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text483Font1\"  >In this manner, Congress may use its appropriation power to accomplish policy objectives and to establish priorities among Federal programs.\n</span ></p ></div>\n');
-text483.build()
-
-shape484 = new ObjImage('shape484','images/shape484.png','Rectangle 17',0,459,1010.000000,39.000000,1,29,'div','',0 )
-shape484.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,38)
-shape484.initHasShadow(0)
-shape484.initHasReflection(0)
-shape484.setUniqueFillID('page463_shape484')
-shape484.addIe8Attr(0.000000, 459.000000, 1010.000000, 39.000000, 0, 0)
-shape484.initImageMap(1,'0,0,1009,0,1009,38,0,38,0,0','M 0.000000 0.000000 L 1009.000000 0.000000 L 1009.000000 38.000000 L 0.000000 38.000000 L 0.000000 0.000000 z', '', 'fill:#CDAE31;"' , '')
-shape484.setUseSvgFile(1)
-shape484.addBorder(0)
-shape484.initLineWeight(0)
-shape484.addOpacity(100)
-shape484.build()
-
-text486 = new ObjText('text486',null,75,469,880,23,1,30,null,'div',null,0 )
-text486.initSLine(1)
-text486.initHasBullet(0)
-text486.initRotateAngle(0,0,0)
-text486.initHasOuterShadow(0)
-text486.initHasTextShadow(0)
-text486.initHasBorder(0)
-text486.initHasOutline(0)
-text486.initHasMargin(0)
-text486.addIe8Attr(75, 469, 880, 23, 0, 0)
-text486.addHeading(0)
-text486.addOpacity(100)
-text486.arrCSSStyles = new Array();
-text486.arrCSSStyles.push('span.text486Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text486.addInnerText('<div id=\"text486\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text486Font1\"  >There are several different categories of appropriations. Let’s look at each one more closely.\n</span ></p ></div>\n');
-text486.build()
-
-text73 = new ObjText('text73',null,278,512,430,49,1,43,null,'div',null,0 )
-text73.initSLine(0)
-text73.initHasBullet(0)
-text73.initRotateAngle(0,0,0)
-text73.initHasOuterShadow(0)
-text73.initHasTextShadow(0)
-text73.initHasBorder(0)
-text73.initHasOutline(0)
-text73.initHasMargin(6)
-text73.addIe8Attr(278, 512, 430, 49, 0, 0)
-text73.addHeading(0)
-text73.addOpacity(100)
-text73.arrCSSStyles = new Array();
-text73.arrCSSStyles.push('span.text73Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#0c343d;}');
-text73.arrCSSStyles.push('span.text73Font2 { font-size:13px; font-family:"Oswald"; color:#0c343d;}');
-text73.addInnerText('<div id=\"text73\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text73Font1\"  >LESSON 1: LAWS, REGULATIONS, AND GUIDANCE</span ><span class=\"text73Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
-text73.build()
-
-button47987 = new ObjButton('button47987', 'Button',848,506,121.000000,41.000000,1,12,'div','',1,0)
-button47987.setUseSvgFile(1)
-button47987.setFillStyle(1)
-button47987.setUniqueFillID('page463_button47987')
-button47987.initRotateAngle(0,0,0,-0.000000,-0.000000,120,40)
-button47987.initHasShadow(1)
-button47987.initHasReflection(0)
-button47987.setImages({"disabledState":"images/button47987_disabled.png","downState":"images/button47987_down.png","normalState":"images/button47987.png","overState":"images/button47987_over.png","selectedState":"images/button47987_selected.png","visitedState":"images/button47987_visited.png"});
-button47987.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button47987.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
-button47987.addOpacity(100)
-button47987.initImageMap('10,0,110,0,112,0,114,1,117,3,119,6,120,8,120,10,120,30,120,32,119,34,117,37,114,39,112,40,110,40,10,40,6,39,3,37,1,34,0,32,0,30,0,10,0,8,1,6,3,3,6,1,8,0,10,0','M 10.000000 0.000000 L 110.000000 0.000000 L 112.000000 0.187500 L 113.937500 0.812500 L 117.062500 2.937500 L 119.250000 6.125000 L 119.812500 8.000000 L 120.000000 10.000000 L 120.000000 30.000000 L 119.812500 32.000000 L 119.250000 33.937500 L 117.062500 37.062500 L 113.937500 39.250000 L 112.000000 39.812500 L 110.000000 40.000000 L 10.000000 40.000000 L 6.187500 39.250000 L 2.937500 37.125000 L 0.750000 33.875000 L 0.187500 32.000000 L 0.000000 30.000000 L 0.000000 10.000000 L 0.187500 8.000000 L 0.812500 6.125000 L 2.937500 2.937500 L 6.125000 0.812500 L 8.000000 0.187500 L 10.000000 0.000000 z')
-button47987.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button47987.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
-button47987.initLineWeight('0')
-button47987.onUp = button47987onUp
-button47987.hasOnUp = true
-button47987.capture=4
-button47987.bSelectedEnabled = false;
-button47987.bVisitedEnabled = false;
-button47987.bOverEnabled = true;
-button47987.bDownEnabled = true;
-button47987.build()
-
-text46693 = new ObjText('text46693',null,900,515,200,80,1,13,null,'div',null,0 )
-text46693.initSLine(0)
-text46693.initHasBullet(0)
-text46693.initRotateAngle(0,0,0)
-text46693.initHasOuterShadow(0)
-text46693.initHasTextShadow(0)
-text46693.initHasBorder(0)
-text46693.initHasOutline(0)
-text46693.initHasMargin(0)
-text46693.addIe8Attr(900, 515, 200, 80, 0, 0)
-text46693.addHeading(0)
-text46693.addOpacity(100)
-text46693.onUp = text46693onUp
-text46693.hasOnUp = true
-text46693.capture=4
-text46693.arrCSSStyles = new Array();
-text46693.arrCSSStyles.push('span.text46693Font1 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b;}');
-text46693.arrCSSStyles.push('span.text46693Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b; font-weight:bold;}');
-text46693.addInnerText('<div id=\"text46693\" aria-live=\"polite\" ><a id=\"text46693anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text46693Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46693Font1\"  >NEXT</span ><span class=\"text46693Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
-text46693.build()
-
-text46674 = new ObjText('text46674',null,75,515,200,80,1,14,null,'div',null,0 )
-text46674.initSLine(0)
-text46674.initHasBullet(0)
-text46674.initRotateAngle(0,0,0)
-text46674.initHasOuterShadow(0)
-text46674.initHasTextShadow(0)
-text46674.initHasBorder(0)
-text46674.initHasOutline(0)
-text46674.initHasMargin(0)
-text46674.addIe8Attr(75, 515, 200, 80, 0, 0)
-text46674.addHeading(0)
-text46674.addOpacity(100)
-text46674.onUp = text46674onUp
-text46674.hasOnUp = true
-text46674.capture=4
-text46674.arrCSSStyles = new Array();
-text46674.arrCSSStyles.push('span.text46674Font1 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b;}');
-text46674.arrCSSStyles.push('span.text46674Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b; font-weight:bold;}');
-text46674.addInnerText('<div id=\"text46674\" aria-live=\"polite\" ><a id=\"text46674anc\" style=\"display:block;height:0px;width:0px;\" href=\"javascript:text46674Object.onUp()\"></a>\n<div style=\"cursor:pointer\">\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text46674Font1\"  >BACK</span ><span class=\"text46674Font2\" style=\"background-color:transparent\" >\n</span ></p ></div></div>\n');
-text46674.build()
-
-button47650 = new ObjButton('button47650', 'Button',39,506,121.000000,41.000000,1,15,'div','',1,0)
-button47650.setUseSvgFile(1)
-button47650.setFillStyle(1)
-button47650.setUniqueFillID('page463_button47650')
-button47650.initRotateAngle(0,0,0,-0.000000,-0.000000,120,40)
-button47650.initHasShadow(1)
-button47650.initHasReflection(0)
-button47650.setImages({"disabledState":"images/button47650_disabled.png","downState":"images/button47650_down.png","normalState":"images/button47650.png","overState":"images/button47650_over.png","selectedState":"images/button47650_selected.png","visitedState":"images/button47650_visited.png"});
-button47650.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
-button47650.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
-button47650.addOpacity(100)
-button47650.initImageMap('10,0,110,0,112,0,114,1,117,3,119,6,120,8,120,10,120,30,120,32,119,34,117,37,114,39,112,40,110,40,10,40,6,39,3,37,1,34,0,32,0,30,0,10,0,8,1,6,3,3,6,1,8,0,10,0','M 10.000000 0.000000 L 110.000000 0.000000 L 112.000000 0.187500 L 113.937500 0.812500 L 117.062500 2.937500 L 119.250000 6.125000 L 119.812500 8.000000 L 120.000000 10.000000 L 120.000000 30.000000 L 119.812500 32.000000 L 119.250000 33.937500 L 117.062500 37.062500 L 113.937500 39.250000 L 112.000000 39.812500 L 110.000000 40.000000 L 10.000000 40.000000 L 6.187500 39.250000 L 2.937500 37.125000 L 0.750000 33.875000 L 0.187500 32.000000 L 0.000000 30.000000 L 0.000000 10.000000 L 0.187500 8.000000 L 0.812500 6.125000 L 2.937500 2.937500 L 6.125000 0.812500 L 8.000000 0.187500 L 10.000000 0.000000 z')
-button47650.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
-button47650.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
-button47650.initLineWeight('0')
-button47650.onUp = button47650onUp
-button47650.hasOnUp = true
-button47650.capture=4
-button47650.bSelectedEnabled = false;
-button47650.bVisitedEnabled = false;
-button47650.bOverEnabled = true;
-button47650.bDownEnabled = true;
-button47650.build()
-
-arObjs.push(og63);
-arObjs.push(text208202);
-arObjs.push(text208200);
 arObjs.push(image10864);
-arObjs.push(image10862);
-arObjs.push(image10860);
-arObjs.push(button10855);
-arObjs.push(button10847);
+arObjs.push(og63);
 arObjs.push(progress187611);
-arObjs.push(og126614);
 arObjs.push(text194304);
 arObjs.push(text465);
 arObjs.push(text466);
@@ -1076,11 +870,12 @@ arObjs.push(text27384);
 arObjs.push(text483);
 arObjs.push(shape484);
 arObjs.push(text486);
-arObjs.push(text73);
-arObjs.push(button47987);
-arObjs.push(text46693);
-arObjs.push(text46674);
-arObjs.push(button47650);
+arObjs.push(text208202);
+arObjs.push(text208200);
+arObjs.push(image10862);
+arObjs.push(image10860);
+arObjs.push(button10847);
+arObjs.push(button10855);
 
 
 writeStyleSheets(arObjs);}
@@ -1093,7 +888,6 @@ writeStyleSheets(arObjs);}
 
     <DIV style="visibility:hidden;" id="pageDIV" >
 <div id="og63"><a id="og63anc"></a></div>
-<div id="og126614"><a id="og126614anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
@@ -1108,13 +902,7 @@ if( is.min ){
 
 <script>
 if( is.min ){
-    appendElement(text208202, null, null);
-    appendElement(text208200, null, null);
     appendElement(image10864, null, null);
-    appendElement(image10862, null, null);
-    appendElement(image10860, null, null);
-    appendElement(button10855, null, null);
-    appendElement(button10847, null, null);
     appendElement(progress187611, null, null);
     appendElement(text194304, null, null);
     appendElement(text465, null, null);
@@ -1131,11 +919,12 @@ if( is.min ){
     appendElement(text483, null, null);
     appendElement(shape484, null, null);
     appendElement(text486, null, null);
-    appendElement(text73, null, null);
-    appendElement(button47987, null, null);
-    appendElement(text46693, null, null);
-    appendElement(text46674, null, null);
-    appendElement(button47650, null, null);
+    appendElement(text208202, null, null);
+    appendElement(text208200, null, null);
+    appendElement(image10862, null, null);
+    appendElement(image10860, null, null);
+    appendElement(button10847, null, null);
+    appendElement(button10855, null, null);
 }
 </script>
 

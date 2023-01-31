@@ -150,6 +150,8 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-button.js"></script>
+<script src="trivantis-image.js"></script>
+<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -290,7 +292,6 @@ function ReFlow() {
 
 AICC_Score = new Variable( 'AICC_Score', '', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', true )
-VarTest_1_Score = new Variable( 'VarTest_1_Score', '0', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final' )
 Varl2q1 = new Variable( 'Varl2q1', '', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
 Varl2q2 = new Variable( 'Varl2q2', '', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
 Varl2q3 = new Variable( 'Varl2q3', '', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
@@ -301,6 +302,8 @@ Varl2q7 = new Variable( 'Varl2q7', '', 0, 0, null, null, 'gsa93cfg_2_training_mo
 Varl2q8 = new Variable( 'Varl2q8', '', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
 Varl2q9 = new Variable( 'Varl2q9', '', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
 Varl2q10 = new Variable( 'Varl2q10', '', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
+VarTest_1_Score = new Variable( 'VarTest_1_Score', '0', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final' )
+VarProgressBar_0003 = new Variable( 'VarProgressBar_0003', '0', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final', false )
 VarTest_2_Score = new Variable( 'VarTest_2_Score', '0', 0, 0, null, null, 'gsa93cfg_2_training_module_design_review_ppt_module_1_final' )
 
 onload = responsiveInit
@@ -323,12 +326,32 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text205813,button207077))
+    PreloadResources(new Array(text23923,text205813,image10864,progress224458,og225506,image225508,image225510,button225517,text225519,text225520,button207077))
     pageLayer.show(true);
+    text23923.init()
     text205813.init()
+    image10864.init()
+    progress224458.init()
+    og225506.init()
+    image225508.init()
+    image225510.init()
+    button225517.init()
+    text225519.init()
+    text225520.init()
     button207077.init()
+    text23923.activate()
     text205813.activate()
+    image10864.activate()
+    progress224458.activate()
+    og225506.activate()
+    image225508.activate()
+    image225510.activate()
+    button225517.activate()
+    text225519.activate()
+    text225520.activate()
     button207077.activate()
+button225517.strCookieState = (trivBtnTracking.GetRangeStatus(225517,true));
+button225517.loadStateFromSes("normalState");
 button207077.strCookieState = (trivBtnTracking.GetRangeStatus(207077,true));
 button207077.loadStateFromSes("normalState");
     var objToScroll = trivGetScrollObj(window.location.href) ;
@@ -426,7 +449,7 @@ function trivLeavePage() {
 }
 
 function trivPrevPage() {
-    trivExitPage( 'page207069.html', true )
+    trivExitPage( 'page206917.html', true )
 }
 
 function trivNextPage() {
@@ -453,7 +476,7 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
 function finishTest( score ) {
   var titleMgr = getTitleMgrHandle()
   if( titleMgr ) {
-    var gotoPage = titleMgr.getProcessTestResult( 'test205812' )
+    var gotoPage = titleMgr.getProcessTestResult( 'test225504' )
     if( gotoPage && gotoPage != '' ) {
       if( score ) afterProcessTest( score, 'VarTest_2_Score' )
       trivExitPage( gotoPage, false )
@@ -462,7 +485,7 @@ function finishTest( score ) {
       setTimeout( "finishTest()", 1000 )
     }
     else {
-      trivExitPage( 'index.html', false )
+      trivExitPage( 'page2101.html', false )
     }
   }
 }
@@ -484,7 +507,7 @@ function processTest(bCheck) {
     }
   }
 
-    trivPageTracking.SetRangeStatus(205812,2)
+    trivPageTracking.SetRangeStatus(225504,2)
     if ( window.UpdateIndicators ) UpdateIndicators()
   afterProcessTest( -1, 'VarTest_2_Score' )
   trivExitPage( 'page3493.html', false )
@@ -492,6 +515,16 @@ function processTest(bCheck) {
 
 function OnDeviceRotate() {
 
+}
+
+function action225518(fn){
+    trivExitPage('page206917.html',false); 
+    if(fn && typeof(fn) == 'string' ) eval(fn);
+    else if(fn && typeof(fn) == 'function' ) fn();
+}
+
+function button225517onUp() {
+  action225518();
 }
 
 function action207078(fn){
@@ -505,7 +538,24 @@ function button207077onUp() {
 }
 
 if( is.min ){
-text205813 = new ObjText('text205813',null,418,528,250,78,1,15,null,'div',null,0 )
+text23923 = new ObjText('text23923',null,324,514,360,78,1,24,null,'div',null,0 )
+text23923.initSLine(0)
+text23923.initHasBullet(0)
+text23923.initRotateAngle(0,0,0)
+text23923.initHasOuterShadow(0)
+text23923.initHasTextShadow(0)
+text23923.initHasBorder(0)
+text23923.initHasOutline(0)
+text23923.initHasMargin(6)
+text23923.addIe8Attr(324, 514, 360, 78, 0, 0)
+text23923.addHeading(0)
+text23923.addOpacity(100)
+text23923.arrCSSStyles = new Array();
+text23923.arrCSSStyles.push('span.text23923Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#073763;}');
+text23923.addInnerText('<div id=\"text23923\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text23923Font1\"  >LESSON 2: INTRODUCTION TO FEDERAL FINANCIAL ASSISTANCE\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text23923.build()
+
+text205813 = new ObjText('text205813',null,418,520,180,25,1,25,null,'div',null,0 )
 text205813.initSLine(0)
 text205813.initHasBullet(0)
 text205813.initRotateAngle(0,0,0)
@@ -514,7 +564,7 @@ text205813.initHasTextShadow(0)
 text205813.initHasBorder(0)
 text205813.initHasOutline(0)
 text205813.initHasMargin(6)
-text205813.addIe8Attr(418, 528, 250, 78, 0, 0)
+text205813.addIe8Attr(418, 520, 180, 25, 0, 0)
 text205813.addHeading(0)
 text205813.addOpacity(100)
 text205813.arrCSSStyles = new Array();
@@ -522,7 +572,110 @@ text205813.arrCSSStyles.push('span.text205813Font1 { font-size:11px; font-family
 text205813.addInnerText('<div id=\"text205813\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text205813Font1\"  >LESSON 2: KNOWLEDGE CHECK\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text205813.build()
 
-button207077 = new ObjButton('button207077', 'Done',909,507,61.000000,41.000000,1,4,'div','',1,1)
+image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,5,'div',null, 0 )
+image10864.initRotateAngle(0,0,0,0,0,0,0)
+image10864.initHasShadow(0)
+image10864.initHasReflection(0)
+image10864.addIe8Attr(0, 0, 1009, 120, 0, 0)
+image10864.initImageMap(1,'0,0,1009,0,1009,120,0,120,0,0','M 0 0 L 1009 0 L 1009 120 L 0 120 L 0 0 z')
+image10864.addBorder(0)
+image10864.addOpacity(100)
+image10864.build()
+
+progress224458 = new ObjProgress('progress224458','',69,539,872,18,1,16,1,6,'#07648d','images/progress224458_bar.png','#eeeeee','images/progress224458.png',1,40,0,0,0,0,0,'div',0 )
+progress224458.actionSetPos(40)
+progress224458.build()
+
+og225506 = new ObjInline('og225506',null,0,0,1100,596,1,0)
+og225506.isGrp = true
+og225506.addChild('image225508')
+og225506.addChild('image225510')
+og225506.addChild('button225517')
+og225506.addChild('text225519')
+og225506.addChild('text225520')
+og225506.build()
+
+image225508 = new ObjImage('image225508','images/image0002.png','Picture 34',64,527,47,17,1,7,'div',null, 0 )
+image225508.initRotateAngle(0,0,0,0,0,0,0)
+image225508.initHasShadow(0)
+image225508.initHasReflection(0)
+image225508.addIe8Attr(64, 527, 47, 17, 0, 0)
+image225508.initImageMap(1,'0,0,47,0,47,17,0,17,0,0','M 0 0 L 47 0 L 47 17 L 0 17 L 0 0 z')
+image225508.addBorder(0)
+image225508.addOpacity(100)
+image225508.build()
+
+image225510 = new ObjImage('image225510','images/image0003.png','Picture 36',897,527,48,17,1,8,'div',null, 0 )
+image225510.initRotateAngle(0,0,0,0,0,0,0)
+image225510.initHasShadow(0)
+image225510.initHasReflection(0)
+image225510.addIe8Attr(897, 527, 48, 17, 0, 0)
+image225510.initImageMap(1,'0,0,48,0,48,17,0,17,0,0','M 0 0 L 48 0 L 48 17 L 0 17 L 0 0 z')
+image225510.addBorder(0)
+image225510.addOpacity(100)
+image225510.build()
+
+button225517 = new ObjButton('button225517', 'Button',50,512,110.000000,47.000000,1,9,'div','',1,0)
+button225517.setUseSvgFile(1)
+button225517.setFillStyle(1)
+button225517.setUniqueFillID('page207070_button225517')
+button225517.initRotateAngle(0,0,0,-0.000000,-0.000000,109,46)
+button225517.initHasShadow(1)
+button225517.initHasReflection(0)
+button225517.setImages({"disabledState":"","downState":"","normalState":"images/button225517.png","overState":"","selectedState":"","visitedState":""});
+button225517.setStateOpacity({"disabledState":1,"downState":1,"normalState":1,"overState":1,"selectedState":1,"visitedState":1});
+button225517.addShadow(270,6,1.000000,'1','7','f',1,7,15,0.000000,2)
+button225517.addOpacity(1)
+button225517.initImageMap('11,0,98,0,100,0,102,1,106,3,108,7,109,9,109,11,109,35,109,37,108,39,106,43,102,45,100,46,98,46,11,46,9,46,7,45,5,44,3,43,2,41,1,39,0,37,0,35,0,11,0,9,1,7,3,3,7,1,9,0,11,0','M 11.000000 0.000000 L 98.000000 0.000000 L 100.250000 0.250000 L 102.312500 0.875000 L 105.812500 3.250000 L 108.125000 6.750000 L 108.750000 8.812500 L 109.000000 11.000000 L 109.000000 35.000000 L 108.750000 37.250000 L 108.125000 39.312500 L 105.812500 42.812500 L 102.312500 45.125000 L 100.250000 45.750000 L 98.000000 46.000000 L 11.000000 46.000000 L 8.875000 45.812500 L 6.812500 45.187500 L 4.937500 44.187500 L 3.250000 42.812500 L 1.875000 41.125000 L 0.875000 39.250000 L 0.187500 37.187500 L 0.000000 35.000000 L 0.000000 11.000000 L 0.250000 8.812500 L 0.875000 6.750000 L 3.250000 3.250000 L 6.750000 0.875000 L 8.812500 0.250000 L 11.000000 0.000000 z')
+button225517.setFills({"disabledState":{"fillInfo":"","stylePath":"fill:none;\""},"downState":{"fillInfo":"","stylePath":"fill:none;\""},"normalState":{"fillInfo":"","stylePath":"fill:none;\""},"overState":{"fillInfo":"","stylePath":"fill:none;\""},"selectedState":{"fillInfo":"","screenRdr":"Selected","stylePath":"fill:none;\""},"visitedState":{"fillInfo":"","screenRdr":"Visited","stylePath":"fill:none;\""}});
+button225517.setImgFillVal({"disabledState":{"B64":"","fill":"","style":""},"downState":{"B64":"","fill":"","style":""},"normalState":{"B64":"","fill":"","style":""},"overState":{"B64":"","fill":"","style":""},"selectedState":{"B64":"","fill":"","style":""},"visitedState":{"B64":"","fill":"","style":""}});
+button225517.initLineWeight('0')
+button225517.onUp = button225517onUp
+button225517.hasOnUp = true
+button225517.capture=4
+button225517.bSelectedEnabled = false;
+button225517.bVisitedEnabled = false;
+button225517.bOverEnabled = true;
+button225517.bDownEnabled = true;
+button225517.build()
+
+text225519 = new ObjText('text225519',null,900,516,200,80,1,10,null,'div',null,0 )
+text225519.initSLine(0)
+text225519.initHasBullet(0)
+text225519.initRotateAngle(0,0,0)
+text225519.initHasOuterShadow(0)
+text225519.initHasTextShadow(0)
+text225519.initHasBorder(0)
+text225519.initHasOutline(0)
+text225519.initHasMargin(0)
+text225519.addIe8Attr(900, 516, 200, 80, 0, 0)
+text225519.addHeading(0)
+text225519.addOpacity(100)
+text225519.arrCSSStyles = new Array();
+text225519.arrCSSStyles.push('span.text225519Font1 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b;}');
+text225519.arrCSSStyles.push('span.text225519Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b; font-weight:bold;}');
+text225519.addInnerText('<div id=\"text225519\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text225519Font1\"  >NEXT</span ><span class=\"text225519Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text225519.build()
+
+text225520 = new ObjText('text225520',null,75,516,200,80,1,11,null,'div',null,0 )
+text225520.initSLine(0)
+text225520.initHasBullet(0)
+text225520.initRotateAngle(0,0,0)
+text225520.initHasOuterShadow(0)
+text225520.initHasTextShadow(0)
+text225520.initHasBorder(0)
+text225520.initHasOutline(0)
+text225520.initHasMargin(0)
+text225520.addIe8Attr(75, 516, 200, 80, 0, 0)
+text225520.addHeading(0)
+text225520.addOpacity(100)
+text225520.arrCSSStyles = new Array();
+text225520.arrCSSStyles.push('span.text225520Font1 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b;}');
+text225520.arrCSSStyles.push('span.text225520Font2 { font-size:13px; font-family:"Arial", sans-serif; color:#00324b; font-weight:bold;}');
+text225520.addInnerText('<div id=\"text225520\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text225520Font1\"  >BACK</span ><span class=\"text225520Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text225520.build()
+
+button207077 = new ObjButton('button207077', 'Done',909,507,61.000000,41.000000,1,12,'div','',1,1)
 button207077.setUseSvgFile(1)
 button207077.setFillStyle(17)
 button207077.setUniqueFillID('page207070_button207077')
@@ -545,7 +698,16 @@ button207077.bOverEnabled = true;
 button207077.bDownEnabled = true;
 button207077.build()
 
+arObjs.push(text23923);
 arObjs.push(text205813);
+arObjs.push(image10864);
+arObjs.push(progress224458);
+arObjs.push(og225506);
+arObjs.push(image225508);
+arObjs.push(image225510);
+arObjs.push(button225517);
+arObjs.push(text225519);
+arObjs.push(text225520);
 arObjs.push(button207077);
 
 
@@ -558,6 +720,7 @@ writeStyleSheets(arObjs);}
 <body onfocus="trivOnFocus()" onResize="ReFlow()">
 
     <DIV style="visibility:hidden;" id="pageDIV" >
+<div id="og225506"><a id="og225506anc"></a></div>
    </DIV>
 <script>
 if( is.min ){
@@ -572,7 +735,15 @@ if( is.min ){
 
 <script>
 if( is.min ){
+    appendElement(text23923, null, null);
     appendElement(text205813, null, null);
+    appendElement(image10864, null, null);
+    appendElement(progress224458, null, null);
+    appendElement(image225508, null, null);
+    appendElement(image225510, null, null);
+    appendElement(button225517, null, null);
+    appendElement(text225519, null, null);
+    appendElement(text225520, null, null);
     appendElement(button207077, null, null);
 }
 </script>
