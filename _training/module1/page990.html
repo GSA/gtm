@@ -311,8 +311,9 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(image10864,og63,progress187611,text197281,text992,text993,image995,image997,text999,text1000,shape1001,image1004,text1006,shape1008,text208202,text208200,image10862,image10860,button10847,button10855))
+    PreloadResources(new Array(text227472,image10864,og63,progress187611,text197281,text992,text993,image995,image997,text999,text1000,shape1001,image1004,text1006,shape1008,text208202,text208200,image10862,image10860,button10847,button10855))
     pageLayer.show(true);
+    text227472.init()
     image10864.init()
     og63.init()
     progress187611.init()
@@ -333,6 +334,7 @@ function init11() {
     image10860.init()
     button10847.init()
     button10855.init()
+    text227472.activate()
     image10864.activate()
     og63.activate()
     progress187611.activate()
@@ -491,7 +493,24 @@ function button10855onUp() {
 }
 
 if( is.min ){
-image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,3,'div',null, 0 )
+text227472 = new ObjText('text227472',null,324,514,360,78,1,40,null,'div',null,0 )
+text227472.initSLine(0)
+text227472.initHasBullet(0)
+text227472.initRotateAngle(0,0,0)
+text227472.initHasOuterShadow(0)
+text227472.initHasTextShadow(0)
+text227472.initHasBorder(0)
+text227472.initHasOutline(0)
+text227472.initHasMargin(6)
+text227472.addIe8Attr(324, 514, 360, 78, 0, 0)
+text227472.addHeading(0)
+text227472.addOpacity(100)
+text227472.arrCSSStyles = new Array();
+text227472.arrCSSStyles.push('span.text227472Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#073763;}');
+text227472.addInnerText('<div id=\"text227472\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text227472Font1\"  >LESSON 1: LAWS, REGULATIONS, GUIDANCE\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text227472.build()
+
+image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,10,'div',null, 0 )
 image10864.initRotateAngle(0,0,0,0,0,0,0)
 image10864.initHasShadow(0)
 image10864.initHasReflection(0)
@@ -501,7 +520,7 @@ image10864.addBorder(0)
 image10864.addOpacity(100)
 image10864.build()
 
-og63 = new ObjInline('og63',null,0,0,970,558,1,0)
+og63 = new ObjInline('og63',null,0,0,970,548,1,0)
 og63.isGrp = true
 og63.addChild('text208202')
 og63.addChild('text208200')
@@ -511,11 +530,11 @@ og63.addChild('button10847')
 og63.addChild('button10855')
 og63.build()
 
-progress187611 = new ObjProgress('progress187611','',69,539,872,18,1,16,1,10,'#07648d','images/progress187611_bar.png','#eeeeee','images/progress187611.png',1,59,0,0,0,0,0,'div',0 )
+progress187611 = new ObjProgress('progress187611','',69,539,872,18,1,16,1,11,'#07648d','images/progress187611_bar.png','#eeeeee','images/progress187611.png',1,59,0,0,0,0,0,'div',0 )
 progress187611.actionSetPos(39)
 progress187611.build()
 
-text197281 = new ObjText('text197281',null,614,540,31,23,1,11,null,'div',null,0 )
+text197281 = new ObjText('text197281',null,614,540,31,23,1,12,null,'div',null,0 )
 text197281.initSLine(1)
 text197281.initHasBullet(0)
 text197281.initRotateAngle(0,0,0)
@@ -533,7 +552,7 @@ text197281.arrCSSStyles.push('span.text197281Font2 { font-size:16px; font-family
 text197281.addInnerText('<div id=\"text197281\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text197281Font1\"  >66%</span ><span class=\"text197281Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text197281.build()
 
-text992 = new ObjText('text992',null,68,145,439,46,1,12,null,'div',null,0 )
+text992 = new ObjText('text992',null,68,145,439,46,1,13,null,'div',null,0 )
 text992.initSLine(0)
 text992.initHasBullet(0)
 text992.initRotateAngle(0,0,0)
@@ -551,7 +570,7 @@ text992.arrCSSStyles.push('span.text992Font2 { font-size:19px; font-family:"Oswa
 text992.addInnerText('<div id=\"text992\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text992Font1\"  >OMB MEMORANDA</span ><span class=\"text992Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text992.build()
 
-text993 = new ObjText('text993',null,65,190,522,172,1,13,null,'div',null,0 )
+text993 = new ObjText('text993',null,65,190,522,172,1,14,null,'div',null,0 )
 text993.initSLine(0)
 text993.initHasBullet(0)
 text993.initRotateAngle(0,0,0)
@@ -571,7 +590,7 @@ text993.arrCSSStyles.push('span.text993Font4 { font-size:16px; font-family:"Aria
 text993.addInnerText('<div id=\"text993\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:4px;text-align:left;\" >\n<span class=\"text993Font1\"  >The Office of Management and Budget issues memoranda each year to provide guidance to advance administrative priorities of the President. These memoranda can be issued to provide additional guidance on Executive Orders. OMB Memoranda that address Federal financial assistance are binding on Federal agencies</span ><span class=\"text993Font2\"  > </span ><span class=\"text993Font1\"  >unless exceptions are granted by OMB. \n</span ></p >\n<p  style=\"margin-left:10px;text-indent:0px;margin-top:3px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text993Font3\"  >SOME EXAMPLES OF OMB MEMORANDA IMPACTING FEDERAL ASSISTANCE INCLUDE:</span ><span class=\"text993Font4\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text993.build()
 
-image995 = new ObjImage('image995','images/image0075.png','Picture 16',76,327,53,53,1,14,'div',null, 0 )
+image995 = new ObjImage('image995','images/image0075.png','Picture 16',76,327,53,53,1,15,'div',null, 0 )
 image995.initRotateAngle(0,0,0,0,0,0,0)
 image995.initHasShadow(0)
 image995.initHasReflection(0)
@@ -581,7 +600,7 @@ image995.addBorder(0)
 image995.addOpacity(100)
 image995.build()
 
-image997 = new ObjImage('image997','images/image80.png','image80',76,407,53,53,1,15,'div',null, 0 )
+image997 = new ObjImage('image997','images/image80.png','image80',76,407,53,53,1,16,'div',null, 0 )
 image997.initRotateAngle(0,0,0,0,0,0,0)
 image997.initHasShadow(0)
 image997.initHasReflection(0)
@@ -591,7 +610,7 @@ image997.addBorder(0)
 image997.addOpacity(100)
 image997.build()
 
-text999 = new ObjText('text999',null,144,327,420,150,1,16,null,'div',null,0 )
+text999 = new ObjText('text999',null,144,327,420,150,1,17,null,'div',null,0 )
 text999.initSLine(0)
 text999.initHasBullet(0)
 text999.initRotateAngle(0,0,0)
@@ -609,7 +628,7 @@ text999.arrCSSStyles.push('span.text999Font2 { font-size:15px; font-family:"Aria
 text999.addInnerText('<div id=\"text999\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text999Font1\"  >M-21-20</span ><span class=\"text999Font2\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text999Font2\"  >Promoting Public Trust in the Federal Government through Effective Implementation of the American Rescue Plan Act and Stewardship of the Taxpayer Resources \n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text999Font2\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text999Font1\"  >M-22-02\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text999Font2\"  >New Financial Assistance Transparency <br />Reporting Requirements\n</span ></p ></div>\n');
 text999.build()
 
-text1000 = new ObjText('text1000',null,65,481,499,20,1,17,null,'div',null,0 )
+text1000 = new ObjText('text1000',null,65,481,499,20,1,18,null,'div',null,0 )
 text1000.initSLine(1)
 text1000.initHasBullet(0)
 text1000.initRotateAngle(0,0,0)
@@ -627,7 +646,7 @@ text1000.arrCSSStyles.push('span.text1000Font2 { font-size:15px; font-family:"Ar
 text1000.addInnerText('<div id=\"text1000\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text1000Font1\"  >All OMB Memoranda are posted on the </span ><a href=\"javascript:var newWnd=ObjLayerActionGoToNewWindow(\'https://www.whitehouse.gov/\',\'Trivantis_\',\'width=1025,height=701,scrollbars=1,resizable=1,menubar=1,toolbar=1,location=1,status=1\'); \"  ><span class=\"text1000Font2\"  >White House website.</span></a ><span class=\"text1000Font1\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text1000.build()
 
-shape1001 = new ObjImage('shape1001','images/shape1001.png','Rectangle 10',634,185,317.000000,315.000000,1,18,'div','',0 )
+shape1001 = new ObjImage('shape1001','images/shape1001.png','Rectangle 10',634,185,317.000000,315.000000,1,19,'div','',0 )
 shape1001.initRotateAngle(0,0,0,-0.000000,-0.000000,316,314)
 shape1001.initHasShadow(0)
 shape1001.initHasReflection(0)
@@ -640,7 +659,7 @@ shape1001.initLineWeight(0)
 shape1001.addOpacity(100)
 shape1001.build()
 
-image1004 = new ObjImage('image1004','images/image81.jpeg','image81',698,140,188,188,1,19,'div',null, 0 )
+image1004 = new ObjImage('image1004','images/image81.jpeg','image81',698,140,188,188,1,20,'div',null, 0 )
 image1004.initRotateAngle(0,0,0,0,0,0,0)
 image1004.initHasShadow(0)
 image1004.initHasReflection(0)
@@ -650,7 +669,7 @@ image1004.addBorder(0)
 image1004.addOpacity(100)
 image1004.build()
 
-text1006 = new ObjText('text1006',null,680,377,224,106,1,20,null,'div',null,0 )
+text1006 = new ObjText('text1006',null,680,377,224,106,1,21,null,'div',null,0 )
 text1006.initSLine(0)
 text1006.initHasBullet(0)
 text1006.initRotateAngle(0,0,0)
@@ -667,7 +686,7 @@ text1006.arrCSSStyles.push('span.text1006Font1 { font-size:15px; font-family:"Ar
 text1006.addInnerText('<div id=\"text1006\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text1006Font1\"  >Each OMB Memorandum has a specific number indicating first <br />the year in which it was issued, <br />followed by a number indicating <br />the order of issuance.\n</span ></p ></div>\n');
 text1006.build()
 
-shape1008 = new ObjImage('shape1008','images/shape1008.png','Straight Connector 5',737,352,110.000000,4.000000,1,21,'div','',0 )
+shape1008 = new ObjImage('shape1008','images/shape1008.png','Straight Connector 5',737,352,110.000000,4.000000,1,22,'div','',0 )
 shape1008.initRotateAngle(0,0,0,-1.000000,-1.000000,106,0)
 shape1008.initHasShadow(0)
 shape1008.initHasReflection(0)
@@ -680,7 +699,7 @@ shape1008.initLineWeight(1)
 shape1008.addOpacity(100)
 shape1008.build()
 
-text208202 = new ObjText('text208202',null,900,517,70,17,1,4,null,'div',null,0 )
+text208202 = new ObjText('text208202',null,900,512,70,17,1,34,null,'div',null,0 )
 text208202.initSLine(1)
 text208202.initHasBullet(0)
 text208202.initRotateAngle(0,0,0)
@@ -689,7 +708,7 @@ text208202.initHasTextShadow(0)
 text208202.initHasBorder(0)
 text208202.initHasOutline(0)
 text208202.initHasMargin(0)
-text208202.addIe8Attr(900, 517, 70, 17, 0, 0)
+text208202.addIe8Attr(900, 512, 70, 17, 0, 0)
 text208202.addHeading(0)
 text208202.addOpacity(100)
 text208202.arrCSSStyles = new Array();
@@ -698,7 +717,7 @@ text208202.arrCSSStyles.push('span.text208202Font2 { font-size:13px; font-family
 text208202.addInnerText('<div id=\"text208202\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208202Font1\"  >NEXT</span ><span class=\"text208202Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208202.build()
 
-text208200 = new ObjText('text208200',null,75,517,63,21,1,5,null,'div',null,0 )
+text208200 = new ObjText('text208200',null,75,512,63,21,1,35,null,'div',null,0 )
 text208200.initSLine(1)
 text208200.initHasBullet(0)
 text208200.initRotateAngle(0,0,0)
@@ -707,7 +726,7 @@ text208200.initHasTextShadow(0)
 text208200.initHasBorder(0)
 text208200.initHasOutline(0)
 text208200.initHasMargin(0)
-text208200.addIe8Attr(75, 517, 63, 21, 0, 0)
+text208200.addIe8Attr(75, 512, 63, 21, 0, 0)
 text208200.addHeading(0)
 text208200.addOpacity(100)
 text208200.arrCSSStyles = new Array();
@@ -716,7 +735,7 @@ text208200.arrCSSStyles.push('span.text208200Font2 { font-size:13px; font-family
 text208200.addInnerText('<div id=\"text208200\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208200Font1\"  >BACK</span ><span class=\"text208200Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208200.build()
 
-image10862 = new ObjImage('image10862','images/image0002.png','Back Arrow',65,522,47,17,1,6,'div',null, 0 )
+image10862 = new ObjImage('image10862','images/image0002.png','Back Arrow',65,522,47,17,1,36,'div',null, 0 )
 image10862.initRotateAngle(0,0,0,0,0,0,0)
 image10862.initHasShadow(0)
 image10862.initHasReflection(0)
@@ -726,7 +745,7 @@ image10862.addBorder(0)
 image10862.addOpacity(100)
 image10862.build()
 
-image10860 = new ObjImage('image10860','images/image0003.png','Next Arrow',898,522,48,17,1,7,'div',null, 0 )
+image10860 = new ObjImage('image10860','images/image0003.png','Next Arrow',898,522,48,17,1,37,'div',null, 0 )
 image10860.initRotateAngle(0,0,0,0,0,0,0)
 image10860.initHasShadow(0)
 image10860.initHasReflection(0)
@@ -736,7 +755,7 @@ image10860.addBorder(0)
 image10860.addOpacity(100)
 image10860.build()
 
-button10847 = new ObjButton('button10847', 'Click Here',50,512,110.000000,47.000000,1,8,'div','',1,0)
+button10847 = new ObjButton('button10847', 'Button',50,502,110.000000,47.000000,1,38,'div','',1,0)
 button10847.setUseSvgFile(1)
 button10847.setFillStyle(1)
 button10847.setUniqueFillID('page990_button10847')
@@ -754,15 +773,13 @@ button10847.initLineWeight('0')
 button10847.onUp = button10847onUp
 button10847.hasOnUp = true
 button10847.capture=4
-button10847.setTextVal({"disabledState":{"div":"div.button10847disabledStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847disabledStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"downState":{"div":"div.button10847downStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847downStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"normalState":{"div":"div.button10847Text { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847Text { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"overState":{"div":"div.button10847overStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847overStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"selectedState":{"div":"div.button10847selectedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847selectedStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"visitedState":{"div":"div.button10847visitedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847visitedStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}});
-button10847.text = 'Click Here'
 button10847.bSelectedEnabled = false;
 button10847.bVisitedEnabled = false;
 button10847.bOverEnabled = true;
 button10847.bDownEnabled = true;
 button10847.build()
 
-button10855 = new ObjButton('button10855', 'Button',850,512,110.000000,47.000000,1,9,'div','',1,0)
+button10855 = new ObjButton('button10855', 'Button',850,502,110.000000,47.000000,1,39,'div','',1,0)
 button10855.setUseSvgFile(1)
 button10855.setFillStyle(1)
 button10855.setUniqueFillID('page990_button10855')
@@ -786,6 +803,7 @@ button10855.bOverEnabled = true;
 button10855.bDownEnabled = true;
 button10855.build()
 
+arObjs.push(text227472);
 arObjs.push(image10864);
 arObjs.push(og63);
 arObjs.push(progress187611);
@@ -832,6 +850,7 @@ if( is.min ){
 
 <script>
 if( is.min ){
+    appendElement(text227472, null, null);
     appendElement(image10864, null, null);
     appendElement(progress187611, null, null);
     appendElement(text197281, null, null);

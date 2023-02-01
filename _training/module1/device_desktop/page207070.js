@@ -1,9 +1,9 @@
 DesktopResponsive={"1009":{
 "pageLayer":{"w":1009,"h":567,"bgColor":"#00324b","bgImage":"images/image0000.png","bgSize":"1009px 567px","bgRepeat":"no-repeat"}
 ,
-"text23923":{"x":324,"y":514,"w":360,"h":78,"txtscale":100,"bOffBottom":0}
+"text23923":{"x":324,"y":514,"w":360,"h":36,"txtscale":100,"bOffBottom":0}
 ,
-"text205813":{"x":418,"y":520,"w":180,"h":25,"txtscale":100,"bOffBottom":0}
+"text205813":{"x":395,"y":515,"w":243,"h":39,"txtscale":100,"bOffBottom":0}
 ,
 "":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
 ,

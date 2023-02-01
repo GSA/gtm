@@ -311,8 +311,9 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(image10864,og63,progress187611,text193838,text268,image269,image272,image274,image277,image279,image282,image284,image287,text25826,text25825,text25824,text25823,text25822,text25821,text25820,text25819,text25818,text25817,text25816,text25815,text289,text208202,text208200,image10862,image10860,button10847,button10855))
+    PreloadResources(new Array(text227472,image10864,og63,progress187611,text193838,text268,image269,image272,image274,image277,image279,image282,image284,image287,text25826,text25825,text25824,text25823,text25822,text25821,text25820,text25819,text25818,text25817,text25816,text25815,text289,text208202,text208200,image10862,image10860,button10847,button10855))
     pageLayer.show(true);
+    text227472.init()
     image10864.init()
     og63.init()
     progress187611.init()
@@ -345,6 +346,7 @@ function init11() {
     image10860.init()
     button10847.init()
     button10855.init()
+    text227472.activate()
     image10864.activate()
     og63.activate()
     progress187611.activate()
@@ -515,7 +517,24 @@ function button10855onUp() {
 }
 
 if( is.min ){
-image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,3,'div',null, 0 )
+text227472 = new ObjText('text227472',null,324,514,360,78,1,52,null,'div',null,0 )
+text227472.initSLine(0)
+text227472.initHasBullet(0)
+text227472.initRotateAngle(0,0,0)
+text227472.initHasOuterShadow(0)
+text227472.initHasTextShadow(0)
+text227472.initHasBorder(0)
+text227472.initHasOutline(0)
+text227472.initHasMargin(6)
+text227472.addIe8Attr(324, 514, 360, 78, 0, 0)
+text227472.addHeading(0)
+text227472.addOpacity(100)
+text227472.arrCSSStyles = new Array();
+text227472.arrCSSStyles.push('span.text227472Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#073763;}');
+text227472.addInnerText('<div id=\"text227472\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text227472Font1\"  >LESSON 1: LAWS, REGULATIONS, GUIDANCE\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text227472.build()
+
+image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,10,'div',null, 0 )
 image10864.initRotateAngle(0,0,0,0,0,0,0)
 image10864.initHasShadow(0)
 image10864.initHasReflection(0)
@@ -525,7 +544,7 @@ image10864.addBorder(0)
 image10864.addOpacity(100)
 image10864.build()
 
-og63 = new ObjInline('og63',null,0,0,970,558,1,0)
+og63 = new ObjInline('og63',null,0,0,970,548,1,0)
 og63.isGrp = true
 og63.addChild('text208202')
 og63.addChild('text208200')
@@ -535,11 +554,11 @@ og63.addChild('button10847')
 og63.addChild('button10855')
 og63.build()
 
-progress187611 = new ObjProgress('progress187611','',69,539,872,18,1,16,1,10,'#07648d','images/progress187611_bar.png','#eeeeee','images/progress187611.png',1,59,0,0,0,0,0,'div',0 )
+progress187611 = new ObjProgress('progress187611','',69,539,872,18,1,16,1,11,'#07648d','images/progress187611_bar.png','#eeeeee','images/progress187611.png',1,59,0,0,0,0,0,'div',0 )
 progress187611.actionSetPos(8)
 progress187611.build()
 
-text193838 = new ObjText('text193838',null,144,540,31,23,1,11,null,'div',null,0 )
+text193838 = new ObjText('text193838',null,144,540,31,23,1,12,null,'div',null,0 )
 text193838.initSLine(1)
 text193838.initHasBullet(0)
 text193838.initRotateAngle(0,0,0)
@@ -557,7 +576,7 @@ text193838.arrCSSStyles.push('span.text193838Font2 { font-size:16px; font-family
 text193838.addInnerText('<div id=\"text193838\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text193838Font1\"  >13%</span ><span class=\"text193838Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text193838.build()
 
-text268 = new ObjText('text268',null,65,145,469,42,1,12,null,'div',null,0 )
+text268 = new ObjText('text268',null,65,145,469,42,1,13,null,'div',null,0 )
 text268.initSLine(0)
 text268.initHasBullet(0)
 text268.initRotateAngle(0,0,0)
@@ -575,7 +594,7 @@ text268.arrCSSStyles.push('span.text268Font2 { font-size:19px; font-family:"Oswa
 text268.addInnerText('<div id=\"text268\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text268Font1\"  >KEY FEDERAL FINANCIAL ASSISTANCE LAWS</span ><span class=\"text268Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text268.build()
 
-image269 = new ObjImage('image269','images/image0017.png','Picture Placeholder 14',66,188,301,66,1,13,'div',null, 0 )
+image269 = new ObjImage('image269','images/image0017.png','Picture Placeholder 14',66,188,301,66,1,14,'div',null, 0 )
 image269.initRotateAngle(0,0,0,0,0,0,0)
 image269.initHasShadow(0)
 image269.initHasReflection(0)
@@ -585,7 +604,7 @@ image269.addBorder(0)
 image269.addOpacity(100)
 image269.build()
 
-image272 = new ObjImage('image272','images/image0019.png','Picture Placeholder 20',332,214,17,14,1,14,'div',null, 0 )
+image272 = new ObjImage('image272','images/image0019.png','Picture Placeholder 20',332,214,17,14,1,15,'div',null, 0 )
 image272.initRotateAngle(90,0,0,0,0,0,0)
 image272.initHasShadow(0)
 image272.initHasReflection(0)
@@ -595,7 +614,7 @@ image272.addBorder(0)
 image272.addOpacity(100)
 image272.build()
 
-image274 = new ObjImage('image274','images/image0017.png','Picture Placeholder 15',66,262,301,66,1,15,'div',null, 0 )
+image274 = new ObjImage('image274','images/image0017.png','Picture Placeholder 15',66,262,301,66,1,16,'div',null, 0 )
 image274.initRotateAngle(0,0,0,0,0,0,0)
 image274.initHasShadow(0)
 image274.initHasReflection(0)
@@ -605,7 +624,7 @@ image274.addBorder(0)
 image274.addOpacity(100)
 image274.build()
 
-image277 = new ObjImage('image277','images/image0018.png','Picture Placeholder 21',332,288,17,14,1,16,'div',null, 0 )
+image277 = new ObjImage('image277','images/image0018.png','Picture Placeholder 21',332,288,17,14,1,17,'div',null, 0 )
 image277.initRotateAngle(90,0,0,0,0,0,0)
 image277.initHasShadow(0)
 image277.initHasReflection(0)
@@ -615,7 +634,7 @@ image277.addBorder(0)
 image277.addOpacity(100)
 image277.build()
 
-image279 = new ObjImage('image279','images/image0017.png','Picture Placeholder 18',66,336,301,66,1,17,'div',null, 0 )
+image279 = new ObjImage('image279','images/image0017.png','Picture Placeholder 18',66,336,301,66,1,18,'div',null, 0 )
 image279.initRotateAngle(0,0,0,0,0,0,0)
 image279.initHasShadow(0)
 image279.initHasReflection(0)
@@ -625,7 +644,7 @@ image279.addBorder(0)
 image279.addOpacity(100)
 image279.build()
 
-image282 = new ObjImage('image282','images/image0019.png','Picture Placeholder 22',332,363,17,14,1,18,'div',null, 0 )
+image282 = new ObjImage('image282','images/image0019.png','Picture Placeholder 22',332,363,17,14,1,19,'div',null, 0 )
 image282.initRotateAngle(90,0,0,0,0,0,0)
 image282.initHasShadow(0)
 image282.initHasReflection(0)
@@ -635,7 +654,7 @@ image282.addBorder(0)
 image282.addOpacity(100)
 image282.build()
 
-image284 = new ObjImage('image284','images/image0015.png','Picture Placeholder 19',66,411,301,66,1,19,'div',null, 0 )
+image284 = new ObjImage('image284','images/image0015.png','Picture Placeholder 19',66,411,301,66,1,20,'div',null, 0 )
 image284.initRotateAngle(0,0,0,0,0,0,0)
 image284.initHasShadow(0)
 image284.initHasReflection(0)
@@ -645,7 +664,7 @@ image284.addBorder(0)
 image284.addOpacity(100)
 image284.build()
 
-image287 = new ObjImage('image287','images/image0021.png','Picture Placeholder 23',332,437,17,14,1,20,'div',null, 0 )
+image287 = new ObjImage('image287','images/image0021.png','Picture Placeholder 23',332,437,17,14,1,21,'div',null, 0 )
 image287.initRotateAngle(90,0,0,0,0,0,0)
 image287.initHasShadow(0)
 image287.initHasReflection(0)
@@ -655,7 +674,7 @@ image287.addBorder(0)
 image287.addOpacity(100)
 image287.build()
 
-text25826 = new ObjText('text25826',null,79,194,239,34,1,21,null,'div',null,0 )
+text25826 = new ObjText('text25826',null,79,194,239,34,1,22,null,'div',null,0 )
 text25826.initSLine(1)
 text25826.initHasBullet(0)
 text25826.initRotateAngle(0,0,0)
@@ -672,7 +691,7 @@ text25826.arrCSSStyles.push('span.text25826Font1 { font-size:16px; font-family:"
 text25826.addInnerText('<div id=\"text25826\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.409\" style=\"margin-left:10px;text-indent:0px;line-height:1.350;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25826Font1\" style=\"position:relative;top:-2px;\" >The Federal Grant and \n</span ></p ></div>\n');
 text25826.build()
 
-text25825 = new ObjText('text25825',null,90,204,200,27,1,22,null,'div',null,0 )
+text25825 = new ObjText('text25825',null,90,204,200,27,1,23,null,'div',null,0 )
 text25825.initSLine(1)
 text25825.initHasBullet(0)
 text25825.initRotateAngle(0,0,0)
@@ -690,7 +709,7 @@ text25825.arrCSSStyles.push('span.text25825Font2 { font-size:19px; font-family:"
 text25825.addInnerText('<div id=\"text25825\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25825Font1\"  >Cooperative Agreement Act </span ><span class=\"text25825Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25825.build()
 
-text25824 = new ObjText('text25824',null,90,222,200,27,1,23,null,'div',null,0 )
+text25824 = new ObjText('text25824',null,90,222,200,27,1,24,null,'div',null,0 )
 text25824.initSLine(1)
 text25824.initHasBullet(0)
 text25824.initRotateAngle(0,0,0)
@@ -708,7 +727,7 @@ text25824.arrCSSStyles.push('span.text25824Font2 { font-size:19px; font-family:"
 text25824.addInnerText('<div id=\"text25824\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25824Font1\"  >of 1977</span ><span class=\"text25824Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25824.build()
 
-text25823 = new ObjText('text25823',null,79,264,239,23,1,24,null,'div',null,0 )
+text25823 = new ObjText('text25823',null,79,264,239,23,1,25,null,'div',null,0 )
 text25823.initSLine(1)
 text25823.initHasBullet(0)
 text25823.initRotateAngle(0,0,0)
@@ -725,7 +744,7 @@ text25823.arrCSSStyles.push('span.text25823Font1 { font-size:16px; font-family:"
 text25823.addInnerText('<div id=\"text25823\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25823Font1\"  >The Federal Program \n</span ></p ></div>\n');
 text25823.build()
 
-text25822 = new ObjText('text25822',null,90,276,200,24,1,25,null,'div',null,0 )
+text25822 = new ObjText('text25822',null,90,276,200,24,1,26,null,'div',null,0 )
 text25822.initSLine(1)
 text25822.initHasBullet(0)
 text25822.initRotateAngle(0,0,0)
@@ -743,7 +762,7 @@ text25822.arrCSSStyles.push('span.text25822Font2 { font-size:19px; font-family:"
 text25822.addInnerText('<div id=\"text25822\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25822Font1\"  >Information Act of 1977 </span ><span class=\"text25822Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25822.build()
 
-text25821 = new ObjText('text25821',null,90,296,200,25,1,26,null,'div',null,0 )
+text25821 = new ObjText('text25821',null,90,296,200,25,1,27,null,'div',null,0 )
 text25821.initSLine(1)
 text25821.initHasBullet(0)
 text25821.initRotateAngle(0,0,0)
@@ -761,7 +780,7 @@ text25821.arrCSSStyles.push('span.text25821Font2 { font-size:15px; font-family:"
 text25821.addInnerText('<div id=\"text25821\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25821Font1\"  >(PL 95-220; 31 USC 6104)</span ><span class=\"text25821Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25821.build()
 
-text25820 = new ObjText('text25820',null,90,372,126,22,1,27,null,'div',null,0 )
+text25820 = new ObjText('text25820',null,90,372,126,22,1,28,null,'div',null,0 )
 text25820.initSLine(1)
 text25820.initHasBullet(0)
 text25820.initRotateAngle(0,0,0)
@@ -779,7 +798,7 @@ text25820.arrCSSStyles.push('span.text25820Font2 { font-size:16px; font-family:"
 text25820.addInnerText('<div id=\"text25820\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25820Font1\"  >(PL 104-13; 44 USC 3501)</span ><span class=\"text25820Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25820.build()
 
-text25819 = new ObjText('text25819',null,90,354,144,25,1,28,null,'div',null,0 )
+text25819 = new ObjText('text25819',null,90,354,144,25,1,29,null,'div',null,0 )
 text25819.initSLine(1)
 text25819.initHasBullet(0)
 text25819.initRotateAngle(0,0,0)
@@ -797,7 +816,7 @@ text25819.arrCSSStyles.push('span.text25819Font2 { font-size:19px; font-family:"
 text25819.addInnerText('<div id=\"text25819\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25819Font1\"  >Reduction Act of 1995 </span ><span class=\"text25819Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25819.build()
 
-text25818 = new ObjText('text25818',null,79,342,126,24,1,29,null,'div',null,0 )
+text25818 = new ObjText('text25818',null,79,342,126,24,1,30,null,'div',null,0 )
 text25818.initSLine(1)
 text25818.initHasBullet(0)
 text25818.initRotateAngle(0,0,0)
@@ -815,7 +834,7 @@ text25818.arrCSSStyles.push('span.text25818Font2 { font-size:15px; font-family:"
 text25818.addInnerText('<div id=\"text25818\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25818Font1\"  >The Paperwork </span ><span class=\"text25818Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25818.build()
 
-text25817 = new ObjText('text25817',null,90,449,140,35,1,30,null,'div',null,0 )
+text25817 = new ObjText('text25817',null,90,449,140,35,1,31,null,'div',null,0 )
 text25817.initSLine(1)
 text25817.initHasBullet(0)
 text25817.initRotateAngle(0,0,0)
@@ -833,7 +852,7 @@ text25817.arrCSSStyles.push('span.text25817Font2 { font-size:16px; font-family:"
 text25817.addInnerText('<div id=\"text25817\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25817Font1\"  >(PL 104-156; 31 USC 75)</span ><span class=\"text25817Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25817.build()
 
-text25816 = new ObjText('text25816',null,79,418,116,28,1,31,null,'div',null,0 )
+text25816 = new ObjText('text25816',null,79,418,116,28,1,32,null,'div',null,0 )
 text25816.initSLine(1)
 text25816.initHasBullet(0)
 text25816.initRotateAngle(0,0,0)
@@ -851,7 +870,7 @@ text25816.arrCSSStyles.push('span.text25816Font2 { font-size:15px; font-family:"
 text25816.addInnerText('<div id=\"text25816\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25816Font1\"  >The Single Audit </span ><span class=\"text25816Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25816.build()
 
-text25815 = new ObjText('text25815',null,90,429,84,27,1,32,null,'div',null,0 )
+text25815 = new ObjText('text25815',null,90,429,84,27,1,33,null,'div',null,0 )
 text25815.initSLine(1)
 text25815.initHasBullet(0)
 text25815.initRotateAngle(0,0,0)
@@ -869,7 +888,7 @@ text25815.arrCSSStyles.push('span.text25815Font2 { font-size:19px; font-family:"
 text25815.addInnerText('<div id=\"text25815\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text25815Font1\"  >Act of 1996 </span ><span class=\"text25815Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text25815.build()
 
-text289 = new ObjText('text289',null,383,188,547,289,1,33,null,'div',null,0 )
+text289 = new ObjText('text289',null,383,188,547,289,1,34,null,'div',null,0 )
 text289.initSLine(0)
 text289.initHasBullet(0)
 text289.initRotateAngle(0,0,0)
@@ -886,7 +905,7 @@ text289.arrCSSStyles.push('span.text289Font1 { font-size:15px; font-family:"Aria
 text289.addInnerText('<div id=\"text289\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text289Font1\"  >Amendments enacted to the Single Audit Act of 1984 provided updated audit requirements for organizations and individuals receiving Federal awards. The purpose of the law was to further streamline the auditing process so that award recipients are only required to undergo a single, annual audit rather than being subject to separate, multiple audits of specific programs. A non-Federal entity that expends $750,000 or more during the non-Federal entity\'s fiscal year in Federal awards must have a single or program-specific audit conducted for that year. The Federal Audit Clearinghouse must make available the reporting packages to the public, except for Indian tribes, and maintain a data base of completed audits, provide appropriate information to Federal agencies, and follow up with known auditees that have not submitted the required data collection forms and reporting packages.\n</span ></p ></div>\n');
 text289.build()
 
-text208202 = new ObjText('text208202',null,900,517,70,17,1,4,null,'div',null,0 )
+text208202 = new ObjText('text208202',null,900,512,70,17,1,46,null,'div',null,0 )
 text208202.initSLine(1)
 text208202.initHasBullet(0)
 text208202.initRotateAngle(0,0,0)
@@ -895,7 +914,7 @@ text208202.initHasTextShadow(0)
 text208202.initHasBorder(0)
 text208202.initHasOutline(0)
 text208202.initHasMargin(0)
-text208202.addIe8Attr(900, 517, 70, 17, 0, 0)
+text208202.addIe8Attr(900, 512, 70, 17, 0, 0)
 text208202.addHeading(0)
 text208202.addOpacity(100)
 text208202.arrCSSStyles = new Array();
@@ -904,7 +923,7 @@ text208202.arrCSSStyles.push('span.text208202Font2 { font-size:13px; font-family
 text208202.addInnerText('<div id=\"text208202\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208202Font1\"  >NEXT</span ><span class=\"text208202Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208202.build()
 
-text208200 = new ObjText('text208200',null,75,517,63,21,1,5,null,'div',null,0 )
+text208200 = new ObjText('text208200',null,75,512,63,21,1,47,null,'div',null,0 )
 text208200.initSLine(1)
 text208200.initHasBullet(0)
 text208200.initRotateAngle(0,0,0)
@@ -913,7 +932,7 @@ text208200.initHasTextShadow(0)
 text208200.initHasBorder(0)
 text208200.initHasOutline(0)
 text208200.initHasMargin(0)
-text208200.addIe8Attr(75, 517, 63, 21, 0, 0)
+text208200.addIe8Attr(75, 512, 63, 21, 0, 0)
 text208200.addHeading(0)
 text208200.addOpacity(100)
 text208200.arrCSSStyles = new Array();
@@ -922,7 +941,7 @@ text208200.arrCSSStyles.push('span.text208200Font2 { font-size:13px; font-family
 text208200.addInnerText('<div id=\"text208200\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208200Font1\"  >BACK</span ><span class=\"text208200Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208200.build()
 
-image10862 = new ObjImage('image10862','images/image0002.png','Back Arrow',65,522,47,17,1,6,'div',null, 0 )
+image10862 = new ObjImage('image10862','images/image0002.png','Back Arrow',65,522,47,17,1,48,'div',null, 0 )
 image10862.initRotateAngle(0,0,0,0,0,0,0)
 image10862.initHasShadow(0)
 image10862.initHasReflection(0)
@@ -932,7 +951,7 @@ image10862.addBorder(0)
 image10862.addOpacity(100)
 image10862.build()
 
-image10860 = new ObjImage('image10860','images/image0003.png','Next Arrow',898,522,48,17,1,7,'div',null, 0 )
+image10860 = new ObjImage('image10860','images/image0003.png','Next Arrow',898,522,48,17,1,49,'div',null, 0 )
 image10860.initRotateAngle(0,0,0,0,0,0,0)
 image10860.initHasShadow(0)
 image10860.initHasReflection(0)
@@ -942,7 +961,7 @@ image10860.addBorder(0)
 image10860.addOpacity(100)
 image10860.build()
 
-button10847 = new ObjButton('button10847', 'Click Here',50,512,110.000000,47.000000,1,8,'div','',1,0)
+button10847 = new ObjButton('button10847', 'Button',50,502,110.000000,47.000000,1,50,'div','',1,0)
 button10847.setUseSvgFile(1)
 button10847.setFillStyle(1)
 button10847.setUniqueFillID('page266_button10847')
@@ -960,15 +979,13 @@ button10847.initLineWeight('0')
 button10847.onUp = button10847onUp
 button10847.hasOnUp = true
 button10847.capture=4
-button10847.setTextVal({"disabledState":{"div":"div.button10847disabledStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847disabledStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"downState":{"div":"div.button10847downStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847downStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"normalState":{"div":"div.button10847Text { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847Text { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"overState":{"div":"div.button10847overStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847overStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"selectedState":{"div":"div.button10847selectedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847selectedStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"visitedState":{"div":"div.button10847visitedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847visitedStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}});
-button10847.text = 'Click Here'
 button10847.bSelectedEnabled = false;
 button10847.bVisitedEnabled = false;
 button10847.bOverEnabled = true;
 button10847.bDownEnabled = true;
 button10847.build()
 
-button10855 = new ObjButton('button10855', 'Button',850,512,110.000000,47.000000,1,9,'div','',1,0)
+button10855 = new ObjButton('button10855', 'Button',850,502,110.000000,47.000000,1,51,'div','',1,0)
 button10855.setUseSvgFile(1)
 button10855.setFillStyle(1)
 button10855.setUniqueFillID('page266_button10855')
@@ -992,6 +1009,7 @@ button10855.bOverEnabled = true;
 button10855.bDownEnabled = true;
 button10855.build()
 
+arObjs.push(text227472);
 arObjs.push(image10864);
 arObjs.push(og63);
 arObjs.push(progress187611);
@@ -1050,6 +1068,7 @@ if( is.min ){
 
 <script>
 if( is.min ){
+    appendElement(text227472, null, null);
     appendElement(image10864, null, null);
     appendElement(progress187611, null, null);
     appendElement(text193838, null, null);

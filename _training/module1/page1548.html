@@ -538,12 +538,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   var onAfterFBAction = ( bNotLeavingPage ? (function(){trivActFBCnt--;}) : (function(){trivActFBCnt--;window.checkLeavePage();}) );
   var ans_Varl1q5 = Varl1q5.getValue()
   if( bFeedback && currFeedbackIdx == 0 && !qu63255.hasBeenProcessed) {
-    if( ans_Varl1q5 == '\u0020\u0020\u0020\u0054\u0072\u0075\u0065' ) 
+    if( ans_Varl1q5 == '\u005C\u0072\u0020\u0020\u0054\u0072\u0075\u0065' ) 
     { //1 
         trivActFBCnt++; action63255_1(onAfterFBAction);  return 0;
   } //1
 
-    else if( ans_Varl1q5 != '\u0020\u0020\u0020\u0054\u0072\u0075\u0065' && ans_Varl1q5 != '~~~null~~~' ) 
+    else if( ans_Varl1q5 != '\u005C\u0072\u0020\u0020\u0054\u0072\u0075\u0065' && ans_Varl1q5 != '~~~null~~~' ) 
     { //2 
 trivActFBCnt++; action63255_2(onAfterFBAction);return 0;  } //2 
 
@@ -589,8 +589,8 @@ function Offset_qu63255(bDevRotate) {
 function Update_qu63255(value) {
  if(typeof(value) !== "undefined")  Varl1q5.set(value)
   var val = Varl1q5.getValue()
-  radio63259.objLyr.doc.getElementById("radio63259id").checked=(val=='   True')
-  radio63261.objLyr.doc.getElementById("radio63261id").checked=(val=='   False')
+  radio63259.objLyr.doc.getElementById("radio63259id").checked=(val=='\\r  True')
+  radio63261.objLyr.doc.getElementById("radio63261id").checked=(val=='\\r  False')
    qu63255Object.hasBeenProcessed=false;
 }
 
@@ -619,7 +619,7 @@ function action76989else(fn){
 }
 
 function action76989(fn){
-    if(!Varl1q5.isCorr('\u0020\u0020\u0020\u0054\u0072\u0075\u0065'))
+    if(!Varl1q5.isCorr('\u005C\u0072\u0020\u0020\u0054\u0072\u0075\u0065'))
     {og63557.actionShow(); 
     }else{ action76989else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -633,7 +633,7 @@ function action76988else(fn){
 }
 
 function action76988(fn){
-    if(Varl1q5.isCorr('\u0020\u0020\u0020\u0054\u0072\u0075\u0065'))
+    if(Varl1q5.isCorr('\u005C\u0072\u0020\u0020\u0054\u0072\u0075\u0065'))
     {og63247.actionShow(); 
     }else{ action76988else();}
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -1515,12 +1515,12 @@ if( is.min ){
     appendElement(text63257, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text63258, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', '<div id="radio63259"><a id="radio63259anc"></a></div>');
-    appendElement(null, radio63259.div, '<input type="radio" name="qu63255" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio63259id" value="   True"  >');
+    appendElement(null, radio63259.div, '<input type="radio" name="qu63255" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio63259id" value="\\r  True"  >');
     appendElement(null, radio63259.div, '<label id="label63259id2" for="radio63259id" class="custQR custRadio" style="" onClick="Update_qu63255(radio63259id.value);"></label>');
 
     appendElement(text63260, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', '<div id="radio63261"><a id="radio63261anc"></a></div>');
-    appendElement(null, radio63261.div, '<input type="radio" name="qu63255" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio63261id" value="   False"  >');
+    appendElement(null, radio63261.div, '<input type="radio" name="qu63255" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio63261id" value="\\r  False"  >');
     appendElement(null, radio63261.div, '<label id="label63261id2" for="radio63261id" class="custQR custRadio" style="" onClick="Update_qu63255(radio63261id.value);"></label>');
 
     appendElement(shape1561, null, null);

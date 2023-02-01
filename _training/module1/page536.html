@@ -311,8 +311,9 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(image10864,og63,progress187611,text194532,text538,image539,text541,image542,image545,text547,image548,image550,text552,image553,image142322,text142320,image142319,image142317,text142315,image142314,text565,image566,text208202,text208200,image10862,image10860,button10847,button10855))
+    PreloadResources(new Array(text227472,image10864,og63,progress187611,text194532,text538,image539,text541,image542,image545,text547,image548,image550,text552,image553,image142322,text142320,image142319,image142317,text142315,image142314,text565,image566,text208202,text208200,image10862,image10860,button10847,button10855))
     pageLayer.show(true);
+    text227472.init()
     image10864.init()
     og63.init()
     progress187611.init()
@@ -341,6 +342,7 @@ function init11() {
     image10860.init()
     button10847.init()
     button10855.init()
+    text227472.activate()
     image10864.activate()
     og63.activate()
     progress187611.activate()
@@ -507,7 +509,24 @@ function button10855onUp() {
 }
 
 if( is.min ){
-image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,3,'div',null, 0 )
+text227472 = new ObjText('text227472',null,324,514,360,78,1,48,null,'div',null,0 )
+text227472.initSLine(0)
+text227472.initHasBullet(0)
+text227472.initRotateAngle(0,0,0)
+text227472.initHasOuterShadow(0)
+text227472.initHasTextShadow(0)
+text227472.initHasBorder(0)
+text227472.initHasOutline(0)
+text227472.initHasMargin(6)
+text227472.addIe8Attr(324, 514, 360, 78, 0, 0)
+text227472.addHeading(0)
+text227472.addOpacity(100)
+text227472.arrCSSStyles = new Array();
+text227472.arrCSSStyles.push('span.text227472Font1 { font-size:11px; font-family:"Arial", sans-serif; color:#073763;}');
+text227472.addInnerText('<div id=\"text227472\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text227472Font1\"  >LESSON 1: LAWS, REGULATIONS, GUIDANCE\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text227472.build()
+
+image10864 = new ObjImage('image10864','images/image0014.png','Header',0,0,1009,120,1,10,'div',null, 0 )
 image10864.initRotateAngle(0,0,0,0,0,0,0)
 image10864.initHasShadow(0)
 image10864.initHasReflection(0)
@@ -517,7 +536,7 @@ image10864.addBorder(0)
 image10864.addOpacity(100)
 image10864.build()
 
-og63 = new ObjInline('og63',null,0,0,970,558,1,0)
+og63 = new ObjInline('og63',null,0,0,970,548,1,0)
 og63.isGrp = true
 og63.addChild('text208202')
 og63.addChild('text208200')
@@ -527,11 +546,11 @@ og63.addChild('button10847')
 og63.addChild('button10855')
 og63.build()
 
-progress187611 = new ObjProgress('progress187611','',69,539,872,18,1,16,1,10,'#07648d','images/progress187611_bar.png','#eeeeee','images/progress187611.png',1,59,0,0,0,0,0,'div',0 )
+progress187611 = new ObjProgress('progress187611','',69,539,872,18,1,16,1,11,'#07648d','images/progress187611_bar.png','#eeeeee','images/progress187611.png',1,59,0,0,0,0,0,'div',0 )
 progress187611.actionSetPos(18)
 progress187611.build()
 
-text194532 = new ObjText('text194532',null,294,540,31,23,1,11,null,'div',null,0 )
+text194532 = new ObjText('text194532',null,294,540,31,23,1,12,null,'div',null,0 )
 text194532.initSLine(1)
 text194532.initHasBullet(0)
 text194532.initRotateAngle(0,0,0)
@@ -549,7 +568,7 @@ text194532.arrCSSStyles.push('span.text194532Font2 { font-size:16px; font-family
 text194532.addInnerText('<div id=\"text194532\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text194532Font1\"  >30%</span ><span class=\"text194532Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text194532.build()
 
-text538 = new ObjText('text538',null,65,145,439,41,1,12,null,'div',null,0 )
+text538 = new ObjText('text538',null,65,145,439,41,1,13,null,'div',null,0 )
 text538.initSLine(0)
 text538.initHasBullet(0)
 text538.initRotateAngle(0,0,0)
@@ -567,7 +586,7 @@ text538.arrCSSStyles.push('span.text538Font2 { font-size:19px; font-family:"Oswa
 text538.addInnerText('<div id=\"text538\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text538Font1\"  >TYPES OF APPROPRIATION</span ><span class=\"text538Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text538.build()
 
-image539 = new ObjImage('image539','images/image0038.png','Picture Placeholder 57',66,187,263,38,1,13,'div',null, 0 )
+image539 = new ObjImage('image539','images/image0038.png','Picture Placeholder 57',66,187,263,38,1,14,'div',null, 0 )
 image539.initRotateAngle(0,0,0,0,0,0,0)
 image539.initHasShadow(0)
 image539.initHasReflection(0)
@@ -577,7 +596,7 @@ image539.addBorder(0)
 image539.addOpacity(100)
 image539.build()
 
-text541 = new ObjText('text541',null,79,192,190,39,1,14,null,'div',null,0 )
+text541 = new ObjText('text541',null,79,192,190,39,1,15,null,'div',null,0 )
 text541.initSLine(1)
 text541.initHasBullet(0)
 text541.initRotateAngle(0,0,0)
@@ -594,7 +613,7 @@ text541.arrCSSStyles.push('span.text541Font1 { font-size:15px; font-family:"Oswa
 text541.addInnerText('<div id=\"text541\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text541Font1\"  >General Appropriations\n</span ></p ></div>\n');
 text541.build()
 
-image542 = new ObjImage('image542','images/image0037.png','Picture Placeholder 58',291,200,17,14,1,15,'div',null, 0 )
+image542 = new ObjImage('image542','images/image0037.png','Picture Placeholder 58',291,200,17,14,1,16,'div',null, 0 )
 image542.initRotateAngle(90,0,0,0,0,0,0)
 image542.initHasShadow(0)
 image542.initHasReflection(0)
@@ -604,7 +623,7 @@ image542.addBorder(0)
 image542.addOpacity(100)
 image542.build()
 
-image545 = new ObjImage('image545','images/image0041.png','Picture Placeholder 59',66,238,263,38,1,16,'div',null, 0 )
+image545 = new ObjImage('image545','images/image0041.png','Picture Placeholder 59',66,238,263,38,1,17,'div',null, 0 )
 image545.initRotateAngle(0,0,0,0,0,0,0)
 image545.initHasShadow(0)
 image545.initHasReflection(0)
@@ -614,7 +633,7 @@ image545.addBorder(0)
 image545.addOpacity(100)
 image545.build()
 
-text547 = new ObjText('text547',null,79,243,190,39,1,17,null,'div',null,0 )
+text547 = new ObjText('text547',null,79,243,190,39,1,18,null,'div',null,0 )
 text547.initSLine(1)
 text547.initHasBullet(0)
 text547.initRotateAngle(0,0,0)
@@ -631,7 +650,7 @@ text547.arrCSSStyles.push('span.text547Font1 { font-size:15px; font-family:"Oswa
 text547.addInnerText('<div id=\"text547\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text547Font1\"  >Special or Specific Appropriation\n</span ></p ></div>\n');
 text547.build()
 
-image548 = new ObjImage('image548','images/image0035.png','Picture Placeholder 60',291,250,17,14,1,18,'div',null, 0 )
+image548 = new ObjImage('image548','images/image0035.png','Picture Placeholder 60',291,250,17,14,1,19,'div',null, 0 )
 image548.initRotateAngle(90,0,0,0,0,0,0)
 image548.initHasShadow(0)
 image548.initHasReflection(0)
@@ -641,7 +660,7 @@ image548.addBorder(0)
 image548.addOpacity(100)
 image548.build()
 
-image550 = new ObjImage('image550','images/image0038.png','Picture Placeholder 61',66,289,263,38,1,19,'div',null, 0 )
+image550 = new ObjImage('image550','images/image0038.png','Picture Placeholder 61',66,289,263,38,1,20,'div',null, 0 )
 image550.initRotateAngle(0,0,0,0,0,0,0)
 image550.initHasShadow(0)
 image550.initHasReflection(0)
@@ -651,7 +670,7 @@ image550.addBorder(0)
 image550.addOpacity(100)
 image550.build()
 
-text552 = new ObjText('text552',null,79,297,190,39,1,20,null,'div',null,0 )
+text552 = new ObjText('text552',null,79,297,190,39,1,21,null,'div',null,0 )
 text552.initSLine(1)
 text552.initHasBullet(0)
 text552.initRotateAngle(0,0,0)
@@ -668,7 +687,7 @@ text552.arrCSSStyles.push('span.text552Font1 { font-size:15px; font-family:"Oswa
 text552.addInnerText('<div id=\"text552\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:10px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text552Font1\"  >Supplemental Appropriation\n</span ></p ></div>\n');
 text552.build()
 
-image553 = new ObjImage('image553','images/image0037.png','Picture Placeholder 62',291,301,17,14,1,21,'div',null, 0 )
+image553 = new ObjImage('image553','images/image0037.png','Picture Placeholder 62',291,301,17,14,1,22,'div',null, 0 )
 image553.initRotateAngle(90,0,0,0,0,0,0)
 image553.initHasShadow(0)
 image553.initHasReflection(0)
@@ -678,7 +697,7 @@ image553.addBorder(0)
 image553.addOpacity(100)
 image553.build()
 
-image142322 = new ObjImage('image142322','images/image0039.png','Picture Placeholder 65',66,339,263,60,1,22,'div',null, 0 )
+image142322 = new ObjImage('image142322','images/image0039.png','Picture Placeholder 65',66,339,263,60,1,23,'div',null, 0 )
 image142322.initRotateAngle(0,0,0,0,0,0,0)
 image142322.initHasShadow(0)
 image142322.initHasReflection(0)
@@ -688,7 +707,7 @@ image142322.addBorder(0)
 image142322.addOpacity(100)
 image142322.build()
 
-text142320 = new ObjText('text142320',null,79,352,190,53,1,23,null,'div',null,0 )
+text142320 = new ObjText('text142320',null,79,352,190,53,1,24,null,'div',null,0 )
 text142320.initSLine(0)
 text142320.initHasBullet(0)
 text142320.initRotateAngle(0,0,0)
@@ -705,7 +724,7 @@ text142320.arrCSSStyles.push('span.text142320Font1 { font-size:15px; font-family
 text142320.addInnerText('<div id=\"text142320\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text142320Font1\"  >Continuing Appropriation / Continuing Resolution\n</span ></p ></div>\n');
 text142320.build()
 
-image142319 = new ObjImage('image142319','images/image0037.png','Picture Placeholder 66',291,357,17,14,1,24,'div',null, 0 )
+image142319 = new ObjImage('image142319','images/image0037.png','Picture Placeholder 66',291,357,17,14,1,25,'div',null, 0 )
 image142319.initRotateAngle(90,0,0,0,0,0,0)
 image142319.initHasShadow(0)
 image142319.initHasReflection(0)
@@ -715,7 +734,7 @@ image142319.addBorder(0)
 image142319.addOpacity(100)
 image142319.build()
 
-image142317 = new ObjImage('image142317','images/image0038.png','Picture Placeholder 84',66,412,263,61,1,25,'div',null, 0 )
+image142317 = new ObjImage('image142317','images/image0038.png','Picture Placeholder 84',66,412,263,61,1,26,'div',null, 0 )
 image142317.initRotateAngle(0,0,0,0,0,0,0)
 image142317.initHasShadow(0)
 image142317.initHasReflection(0)
@@ -725,7 +744,7 @@ image142317.addBorder(0)
 image142317.addOpacity(100)
 image142317.build()
 
-text142315 = new ObjText('text142315',null,79,422,190,53,1,26,null,'div',null,0 )
+text142315 = new ObjText('text142315',null,79,422,190,53,1,27,null,'div',null,0 )
 text142315.initSLine(0)
 text142315.initHasBullet(0)
 text142315.initRotateAngle(0,0,0)
@@ -742,7 +761,7 @@ text142315.arrCSSStyles.push('span.text142315Font1 { font-size:15px; font-family
 text142315.addInnerText('<div id=\"text142315\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text142315Font1\"  >Earmarks / Line Item Appropriations\n</span ></p ></div>\n');
 text142315.build()
 
-image142314 = new ObjImage('image142314','images/image0037.png','Picture Placeholder 85',291,430,17,14,1,27,'div',null, 0 )
+image142314 = new ObjImage('image142314','images/image0037.png','Picture Placeholder 85',291,430,17,14,1,28,'div',null, 0 )
 image142314.initRotateAngle(90,0,0,0,0,0,0)
 image142314.initHasShadow(0)
 image142314.initHasReflection(0)
@@ -752,7 +771,7 @@ image142314.addBorder(0)
 image142314.addOpacity(100)
 image142314.build()
 
-text565 = new ObjText('text565',null,351,188,298,289,1,28,null,'div',null,0 )
+text565 = new ObjText('text565',null,351,188,298,289,1,29,null,'div',null,0 )
 text565.initSLine(0)
 text565.initHasBullet(0)
 text565.initRotateAngle(0,0,0)
@@ -769,7 +788,7 @@ text565.arrCSSStyles.push('span.text565Font1 { font-size:15px; font-family:"Aria
 text565.addInnerText('<div id=\"text565\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text565Font1\"  >A specific appropriation uses narrower language than a general appropriation to accomplish the specific project for which they were obligated. For example, disaster funding for Hurricane Sandy.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text565Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text565Font1\"  >If an agency has a specific appropriation for a particular item and also has a general appropriation broad enough to cover the same item, it does not have an option as to which it uses. It must use the specific appropriation.\n</span ></p ></div>\n');
 text565.build()
 
-image566 = new ObjImage('image566','images/image31.png','image31',657,206,318,318,1,29,'div',null, 0 )
+image566 = new ObjImage('image566','images/image31.png','image31',657,206,318,318,1,30,'div',null, 0 )
 image566.initRotateAngle(0,0,0,0,0,0,0)
 image566.initHasShadow(0)
 image566.initHasReflection(0)
@@ -779,7 +798,7 @@ image566.addBorder(0)
 image566.addOpacity(100)
 image566.build()
 
-text208202 = new ObjText('text208202',null,900,517,70,17,1,4,null,'div',null,0 )
+text208202 = new ObjText('text208202',null,900,512,70,17,1,42,null,'div',null,0 )
 text208202.initSLine(1)
 text208202.initHasBullet(0)
 text208202.initRotateAngle(0,0,0)
@@ -788,7 +807,7 @@ text208202.initHasTextShadow(0)
 text208202.initHasBorder(0)
 text208202.initHasOutline(0)
 text208202.initHasMargin(0)
-text208202.addIe8Attr(900, 517, 70, 17, 0, 0)
+text208202.addIe8Attr(900, 512, 70, 17, 0, 0)
 text208202.addHeading(0)
 text208202.addOpacity(100)
 text208202.arrCSSStyles = new Array();
@@ -797,7 +816,7 @@ text208202.arrCSSStyles.push('span.text208202Font2 { font-size:13px; font-family
 text208202.addInnerText('<div id=\"text208202\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208202Font1\"  >NEXT</span ><span class=\"text208202Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208202.build()
 
-text208200 = new ObjText('text208200',null,75,517,63,21,1,5,null,'div',null,0 )
+text208200 = new ObjText('text208200',null,75,512,63,21,1,43,null,'div',null,0 )
 text208200.initSLine(1)
 text208200.initHasBullet(0)
 text208200.initRotateAngle(0,0,0)
@@ -806,7 +825,7 @@ text208200.initHasTextShadow(0)
 text208200.initHasBorder(0)
 text208200.initHasOutline(0)
 text208200.initHasMargin(0)
-text208200.addIe8Attr(75, 517, 63, 21, 0, 0)
+text208200.addIe8Attr(75, 512, 63, 21, 0, 0)
 text208200.addHeading(0)
 text208200.addOpacity(100)
 text208200.arrCSSStyles = new Array();
@@ -815,7 +834,7 @@ text208200.arrCSSStyles.push('span.text208200Font2 { font-size:13px; font-family
 text208200.addInnerText('<div id=\"text208200\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text208200Font1\"  >BACK</span ><span class=\"text208200Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text208200.build()
 
-image10862 = new ObjImage('image10862','images/image0002.png','Back Arrow',65,522,47,17,1,6,'div',null, 0 )
+image10862 = new ObjImage('image10862','images/image0002.png','Back Arrow',65,522,47,17,1,44,'div',null, 0 )
 image10862.initRotateAngle(0,0,0,0,0,0,0)
 image10862.initHasShadow(0)
 image10862.initHasReflection(0)
@@ -825,7 +844,7 @@ image10862.addBorder(0)
 image10862.addOpacity(100)
 image10862.build()
 
-image10860 = new ObjImage('image10860','images/image0003.png','Next Arrow',898,522,48,17,1,7,'div',null, 0 )
+image10860 = new ObjImage('image10860','images/image0003.png','Next Arrow',898,522,48,17,1,45,'div',null, 0 )
 image10860.initRotateAngle(0,0,0,0,0,0,0)
 image10860.initHasShadow(0)
 image10860.initHasReflection(0)
@@ -835,7 +854,7 @@ image10860.addBorder(0)
 image10860.addOpacity(100)
 image10860.build()
 
-button10847 = new ObjButton('button10847', 'Click Here',50,512,110.000000,47.000000,1,8,'div','',1,0)
+button10847 = new ObjButton('button10847', 'Button',50,502,110.000000,47.000000,1,46,'div','',1,0)
 button10847.setUseSvgFile(1)
 button10847.setFillStyle(1)
 button10847.setUniqueFillID('page536_button10847')
@@ -853,15 +872,13 @@ button10847.initLineWeight('0')
 button10847.onUp = button10847onUp
 button10847.hasOnUp = true
 button10847.capture=4
-button10847.setTextVal({"disabledState":{"div":"div.button10847disabledStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847disabledStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"downState":{"div":"div.button10847downStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847downStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"normalState":{"div":"div.button10847Text { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847Text { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"overState":{"div":"div.button10847overStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847overStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"selectedState":{"div":"div.button10847selectedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847selectedStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"},"visitedState":{"div":"div.button10847visitedStateText { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:109.000000px; height:46.000000px;}","span":"span.button10847visitedStateText { width:101.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}});
-button10847.text = 'Click Here'
 button10847.bSelectedEnabled = false;
 button10847.bVisitedEnabled = false;
 button10847.bOverEnabled = true;
 button10847.bDownEnabled = true;
 button10847.build()
 
-button10855 = new ObjButton('button10855', 'Button',850,512,110.000000,47.000000,1,9,'div','',1,0)
+button10855 = new ObjButton('button10855', 'Button',850,502,110.000000,47.000000,1,47,'div','',1,0)
 button10855.setUseSvgFile(1)
 button10855.setFillStyle(1)
 button10855.setUniqueFillID('page536_button10855')
@@ -885,6 +902,7 @@ button10855.bOverEnabled = true;
 button10855.bDownEnabled = true;
 button10855.build()
 
+arObjs.push(text227472);
 arObjs.push(image10864);
 arObjs.push(og63);
 arObjs.push(progress187611);
@@ -939,6 +957,7 @@ if( is.min ){
 
 <script>
 if( is.min ){
+    appendElement(text227472, null, null);
     appendElement(image10864, null, null);
     appendElement(progress187611, null, null);
     appendElement(text194532, null, null);
