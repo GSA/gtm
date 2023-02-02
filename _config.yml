@@ -128,6 +128,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  training:
+    output: true
 
 permalink: pretty
 
@@ -138,6 +140,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap # See additional instructions for url parameter above.
   - jekyll-seo-tag
+
+include: ["_tob*.txt"]
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
