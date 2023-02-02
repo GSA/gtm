@@ -21,13 +21,13 @@ DesktopResponsive={"1009":{
 ,
 "image10864":{"x":0,"y":0,"w":1009,"h":120,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"progress224458":{"x":69,"y":539,"w":872,"h":18,"bOffBottom":0,"vert":0,"barImage":"images/progress224458_bar.png","bgImage":"images/progress224458.png"}
+"progress224458":{"x":69,"y":540,"w":872,"h":18,"bOffBottom":0,"vert":0,"barImage":"images/progress224458_bar.png","bgImage":"images/progress224458.png"}
 ,
 "text202857":{"x":344,"y":540,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
 ,
 "text2391":{"x":68,"y":145,"w":439,"h":77,"txtscale":100,"bOffBottom":0}
 ,
-"text2392":{"x":66,"y":185,"w":406,"h":374,"txtscale":100,"bOffBottom":0}
+"text2392":{"x":66,"y":180,"w":406,"h":344,"txtscale":100,"bOffBottom":0}
 ,
 "image2394":{"x":548,"y":120,"w":414,"h":414,"bOffBottom":0,"i":"images/image0112.png"}
 ,
