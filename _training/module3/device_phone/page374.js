@@ -3,15 +3,15 @@ PhoneResponsive={"785":{
 ,
 "text67":{"x":197,"y":508,"w":393,"h":26,"txtscale":100,"bOffBottom":0}
 ,
-"image250446":{"x":669,"y":509,"w":72,"h":30,"bOffBottom":0,"i":"images/next-button.png"}
-,
-"image250438":{"x":45,"y":509,"w":72,"h":29,"bOffBottom":0,"i":"images/back-button.png"}
-,
-"":{"x":146,"y":244,"w":233,"h":156,"bOffBottom":0}
+"":{"x":146,"y":247,"w":233,"h":156,"bOffBottom":0}
 ,
 "":{"x":330,"y":96,"w":233,"h":156,"bOffBottom":0}
 ,
 "image1612":{"x":0,"y":0,"w":785,"h":94,"bOffBottom":0,"i":"images/image0010.png"}
+,
+"image250438":{"x":45,"y":509,"w":72,"h":29,"bOffBottom":0,"i":"images/back-button.png"}
+,
+"image250446":{"x":669,"y":509,"w":72,"h":30,"bOffBottom":0,"i":"images/next-button.png"}
 ,
 "progress62539":{"x":51,"y":484,"w":683,"h":24,"bOffBottom":0,"vert":0,"barImage":"images/PhoneLandscape_progress62539_bar.png","bgImage":"images/PhoneLandscape_progress62539.png"}
 ,
@@ -19,7 +19,7 @@ PhoneResponsive={"785":{
 ,
 "image9099":{"x":52,"y":148,"w":297,"h":247,"bOffBottom":0,"i":"images/image25.5.jpg"}
 ,
-"text376":{"x":47,"y":116,"w":571,"h":44,"txtscale":100,"bOffBottom":0}
+"text376":{"x":47,"y":116,"w":571,"h":40,"txtscale":100,"bOffBottom":0}
 ,
 "shape380":{"x":371,"y":146,"w":252.000000,"h":248.000000,"stylemods":[{"sel":"div.shape380Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:251.000000px; height:247.000000px;}"},{"sel":"span.shape380Text","decl":" { width:247.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPwAAAD4CAYAAADIOotxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEJSURBVHhe7cEBAQAAAIIg/69uSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAByoAdGlAAEih8NtAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 251.000000 0.000000 L 251.000000 247.000000 L 0.000000 247.000000 L 0.000000 0.000000 z"}
 ,
@@ -45,15 +45,15 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text67":{"x":120,"y":903,"w":240,"h":40,"txtscale":100,"bOffBottom":0}
 ,
-"image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next-button.png"}
-,
-"image250438":{"x":29,"y":919,"w":80,"h":32,"bOffBottom":0,"i":"images/back-button.png"}
-,
-"":{"x":89,"y":314,"w":143,"h":95,"bOffBottom":0}
+"":{"x":89,"y":318,"w":143,"h":95,"bOffBottom":0}
 ,
 "":{"x":202,"y":124,"w":143,"h":95,"bOffBottom":0}
 ,
 "image1612":{"x":0,"y":0,"w":480,"h":58,"bOffBottom":0,"i":"images/image0010.png"}
+,
+"image250438":{"x":29,"y":919,"w":80,"h":32,"bOffBottom":0,"i":"images/back-button.png"}
+,
+"image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next-button.png"}
 ,
 "progress62539":{"x":31,"y":868,"w":418,"h":18,"bOffBottom":0,"vert":0,"barImage":"images/PhonePortrait_progress62539_bar.png","bgImage":"images/PhonePortrait_progress62539.png"}
 ,
@@ -61,7 +61,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image9099":{"x":30,"y":132,"w":280,"h":232,"bOffBottom":0,"i":"images/image25.5.jpg"}
 ,
-"text376":{"x":30,"y":85,"w":349,"h":44,"txtscale":100,"bOffBottom":0}
+"text376":{"x":30,"y":85,"w":349,"h":38,"txtscale":100,"bOffBottom":0}
 ,
 "shape380":{"x":92,"y":461,"w":287.000000,"h":281.000000,"stylemods":[{"sel":"div.shape380Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:286.000000px; height:280.000000px;}"},{"sel":"span.shape380Text","decl":" { width:282.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:13px; font-size:13px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR8AAAEZCAYAAACuDiFQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFQSURBVHhe7cExAQAAAMKg9U9tCy8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4KkG7XEAAYKE4BEAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 286.000000 0.000000 L 286.000000 280.000000 L 0.000000 280.000000 L 0.000000 0.000000 z"}
 ,

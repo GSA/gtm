@@ -3,13 +3,13 @@ DesktopResponsive={"1009":{
 ,
 "text23237":{"x":253,"y":553,"w":505,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"image250446":{"x":870,"y":537,"w":80,"h":33,"bOffBottom":0,"i":"images/next-button.png"}
-,
-"":{"x":188,"y":314,"w":300,"h":200,"bOffBottom":0}
+"":{"x":188,"y":318,"w":300,"h":200,"bOffBottom":0}
 ,
 "":{"x":424,"y":124,"w":300,"h":200,"bOffBottom":0}
 ,
 "image1612":{"x":0,"y":0,"w":1009,"h":121,"bOffBottom":0,"i":"images/image0010.png"}
+,
+"image250446":{"x":870,"y":537,"w":80,"h":33,"bOffBottom":0,"i":"images/next-button.png"}
 ,
 "progress178094":{"x":65,"y":517,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/progress178094_bar.png","bgImage":"images/progress178094.png"}
 ,
