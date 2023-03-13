@@ -17,20 +17,20 @@ DesktopResponsive={"1009":{
 ,
 "shape55":{"x":101,"y":334,"w":807.000000,"h":4.000000,"stylemods":[{"sel":"div.shape55Text","decl":" { position:absolute; top:1.000000px; left:1.000000px; display:flex; justify-content:center; align-items:center; width:803.000000px; height:0.000000px;}"},{"sel":"span.shape55Text","decl":" { width:799.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyUAAAACCAYAAABG1XOMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAcSURBVFhH7cEBAQAAAIIg/69uSEAAAAAAAACnahkqAAFc34WWAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 2.000000 2.000000 L 805.000000 2.000000 " ,"i":"images/shape55.png"}
 ,
+"text319603":{"x":324,"y":514,"w":360,"h":30,"txtscale":100,"bOffBottom":0}
+,
 "text58":{"x":348,"y":91,"w":315,"h":77,"txtscale":100,"bOffBottom":0}
 ,
 "text59":{"x":432,"y":230,"w":145,"h":39,"txtscale":100,"bOffBottom":0}
 ,
 "text60":{"x":111,"y":281,"w":783,"h":93,"txtscale":100,"bOffBottom":0}
 ,
-"text61":{"x":427,"y":376,"w":129,"h":50,"txtscale":100,"bOffBottom":0}
-,
-"button7690":{"B64":{"disabledState":"","downState":"","normalState":"","overState":"","selectedState":"","visitedState":""},"bOffBottom":0,"h":59,"i":"images/button7690.png","p":"M 0.000000 0.000000 L 127.000000 0.000000 L 127.000000 58.000000 L 0.000000 58.000000 L 0.000000 0.000000 z","stylemods":[{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:127.000000px; height:58.000000px;}","sel":"div.button7690Text"},{"decl":" { width:123.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button7690Text"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:127.000000px; height:58.000000px;}","sel":"div.button7690overStateText"},{"decl":" { width:123.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button7690overStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:127.000000px; height:58.000000px;}","sel":"div.button7690downStateText"},{"decl":" { width:123.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button7690downStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:127.000000px; height:58.000000px;}","sel":"div.button7690disabledStateText"},{"decl":" { width:123.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button7690disabledStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:127.000000px; height:58.000000px;}","sel":"div.button7690visitedStateText"},{"decl":" { width:123.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button7690visitedStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:127.000000px; height:58.000000px;}","sel":"div.button7690selectedStateText"},{"decl":" { width:123.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}","sel":"span.button7690selectedStateText"}],"w":128,"x":441,"y":375}
+"image317179":{"x":441,"y":380,"w":129,"h":50,"bOffBottom":0,"i":"images/start-button.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/button7690.png']
+,"preload":['images/start-button.jpg']
 }}
