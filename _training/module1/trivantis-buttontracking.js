@@ -151,4 +151,4 @@ ButtonTrackingObj.prototype.SavePageTracking = function()
 }
 
 var trivBtnTracking = new ButtonTrackingObj(365,'gsa93cfg_2_training_module_design_review_ppt_module_1_final', 0, null);
-trivBtnTracking.title={id:1,v:0,c:[{id:209802,v:'normalState'},{id:217593,v:'normalState'},{id:217988,v:'normalState'},{id:219294,v:'normalState'},{id:219691,v:'normalState'},{id:220546,v:'normalState'},{id:221153,v:'normalState'}]};
+trivBtnTracking.title={id:1,v:0,c:[]};
