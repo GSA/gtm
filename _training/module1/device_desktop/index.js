@@ -17,8 +17,6 @@ DesktopResponsive={"1009":{
 ,
 "shape55":{"x":101,"y":334,"w":807.000000,"h":4.000000,"stylemods":[{"sel":"div.shape55Text","decl":" { position:absolute; top:1.000000px; left:1.000000px; display:flex; justify-content:center; align-items:center; width:803.000000px; height:0.000000px;}"},{"sel":"span.shape55Text","decl":" { width:799.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyUAAAACCAYAAABG1XOMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAcSURBVFhH7cEBAQAAAIIg/69uSEAAAAAAAACnahkqAAFc34WWAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 2.000000 2.000000 L 805.000000 2.000000 " ,"i":"images/shape55.png"}
 ,
-"text319603":{"x":324,"y":514,"w":360,"h":30,"txtscale":100,"bOffBottom":0}
-,
 "text58":{"x":348,"y":91,"w":315,"h":77,"txtscale":100,"bOffBottom":0}
 ,
 "text59":{"x":432,"y":230,"w":145,"h":39,"txtscale":100,"bOffBottom":0}

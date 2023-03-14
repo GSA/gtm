@@ -51,7 +51,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text773":{"x":53,"y":145,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
 ,
-"text774":{"x":50,"y":189,"w":374,"h":459,"txtscale":100,"bOffBottom":0}
+"text774":{"x":50,"y":189,"w":374,"h":425,"txtscale":100,"bOffBottom":0}
 ,
 "image776":{"x":428,"y":120,"w":322,"h":322,"bOffBottom":0,"i":"images/image0053.png"}
 ,
