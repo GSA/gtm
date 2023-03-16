@@ -29,7 +29,7 @@ DesktopResponsive={"1009":{
 ,
 "shape2160":{"x":480,"y":244,"w":466.000000,"h":256.000000,"stylemods":[{"sel":"div.shape2160Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:465.000000px; height:255.000000px;}"},{"sel":"span.shape2160Text","decl":" { width:461.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdIAAAEACAYAAAAHlvcSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHmSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuFEDSWkAARZfmGYAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 465.000000 0.000000 L 465.000000 255.000000 L 0.000000 255.000000 L 0.000000 0.000000 z" ,"i":"images/shape2160.png"}
 ,
-"image2163":{"x":414,"y":296,"w":138,"h":138,"bOffBottom":0,"i":"images/image111.jpeg"}
+"image2163":{"x":414,"y":296,"w":137,"h":137,"bOffBottom":0,"i":"images/picture2.png"}
 ,
 "text2165":{"x":571,"y":268,"w":347,"h":261,"txtscale":100,"bOffBottom":0}
 ,
@@ -38,5 +38,5 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image111.jpeg','images/slide_financial.png','images/slide_procurement.png','images/shape2160.png']
+,"preload":['images/slide_financial.png','images/slide_procurement.png','images/picture2.png','images/shape2160.png']
 }}

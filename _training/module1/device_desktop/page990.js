@@ -31,7 +31,7 @@ DesktopResponsive={"1009":{
 ,
 "shape1001":{"x":634,"y":185,"w":317.000000,"h":315.000000,"stylemods":[{"sel":"div.shape1001Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:316.000000px; height:314.000000px;}"},{"sel":"span.shape1001Text","decl":" { width:312.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT0AAAE7CAYAAACvwlaAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGaSURBVHhe7cExAQAAAMKg9U9tCj8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfmoZ0QABwiS2/wAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 316.000000 0.000000 L 316.000000 314.000000 L 0.000000 314.000000 L 0.000000 0.000000 z" ,"i":"images/shape1001.png"}
 ,
-"image1004":{"x":698,"y":140,"w":188,"h":188,"bOffBottom":0,"i":"images/image81.jpeg"}
+"image1004":{"x":700,"y":150,"w":180,"h":180,"bOffBottom":0,"i":"images/picture3.png"}
 ,
 "text1006":{"x":680,"y":377,"w":224,"h":106,"txtscale":100,"bOffBottom":0}
 ,
@@ -42,5 +42,5 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0075.png','images/image80.png','images/image81.jpeg','images/shape1001.png','images/shape1008.png']
+,"preload":['images/image0075.png','images/image80.png','images/picture3.png','images/shape1001.png','images/shape1008.png']
 }}

@@ -47,7 +47,7 @@ DesktopResponsive={"1009":{
 ,
 "shape157":{"x":139,"y":333,"w":367.000000,"h":165.000000,"stylemods":[{"sel":"div.shape157Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:366.000000px; height:164.000000px;}"},{"sel":"span.shape157Text","decl":" { width:362.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAW8AAAClCAYAAACTOHxyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAECSURBVHhe7cExAQAAAMKg9U9tDB8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4KUGsv4AAdlXPd4AAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 366.000000 0.000000 L 366.000000 164.000000 L 0.000000 164.000000 L 0.000000 0.000000 z" ,"i":"images/shape157.png"}
 ,
-"image160":{"x":73,"y":347,"w":138,"h":138,"bOffBottom":0,"i":"images/image12.jpeg"}
+"image160":{"x":73,"y":347,"w":137,"h":137,"bOffBottom":0,"i":"images/picture7.png"}
 ,
 "text162":{"x":223,"y":369,"w":256,"h":94,"txtscale":100,"bOffBottom":0}
 ,
@@ -56,5 +56,5 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0009.png','images/image0010.png','images/image0011.png','images/image0012.png','images/image12.jpeg','images/shape133.png','images/shape139.png','images/shape145.png','images/shape151.png','images/shape157.png']
+,"preload":['images/image0009.png','images/image0010.png','images/image0011.png','images/image0012.png','images/picture7.png','images/shape133.png','images/shape139.png','images/shape145.png','images/shape151.png','images/shape157.png']
 }}
