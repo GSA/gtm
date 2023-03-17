@@ -13,10 +13,6 @@ PhoneResponsive={"785":{
 ,
 "image10864":{"x":0,"y":0,"w":785,"h":93,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"progress224458":{"x":54,"y":420,"w":678,"h":14,"bOffBottom":0,"vert":0,"barImage":"images/PhoneLandscape_progress224458_bar.png","bgImage":"images/PhoneLandscape_progress224458.png"}
-,
-"text204705":{"x":439,"y":420,"w":24,"h":18,"txtscale":100,"bOffBottom":0}
-,
 "image2544":{"x":59,"y":250,"w":41,"h":41,"bOffBottom":0,"i":"images/image0122.png"}
 ,
 "text22450":{"x":53,"y":113,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
@@ -50,10 +46,6 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 "":{"x":168,"y":183,"w":143,"h":95,"bOffBottom":0}
 ,
 "image10864":{"x":0,"y":0,"w":480,"h":57,"bOffBottom":0,"i":"images/image0014.png"}
-,
-"progress224458":{"x":33,"y":540,"w":415,"h":9,"bOffBottom":0,"vert":0,"barImage":"images/PhonePortrait_progress224458_bar.png","bgImage":"images/PhonePortrait_progress224458.png"}
-,
-"text204705":{"x":268,"y":540,"w":15,"h":17,"txtscale":100,"bOffBottom":0}
 ,
 "image2544":{"x":36,"y":321,"w":25,"h":25,"bOffBottom":0,"i":"images/image0122.png"}
 ,

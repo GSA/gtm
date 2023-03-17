@@ -13,10 +13,6 @@ DesktopResponsive={"1009":{
 ,
 "text319603":{"x":324,"y":514,"w":360,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"progress187611":{"x":69,"y":540,"w":872,"h":18,"bOffBottom":0,"vert":0,"barImage":"images/progress187611_bar.png","bgImage":"images/progress187611.png"}
-,
-"text194391":{"x":274,"y":540,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
-,
 "text498":{"x":65,"y":145,"w":439,"h":68,"txtscale":100,"bOffBottom":0}
 ,
 "image260578":{"x":66,"y":190,"w":260,"h":40,"bOffBottom":0,"i":"images/lsidenav1_dark.jpg"}
@@ -35,9 +31,9 @@ DesktopResponsive={"1009":{
 ,
 "image260727":{"x":66,"y":340,"w":260,"h":50,"bOffBottom":0,"i":"images/lsidenav4_light.jpg"}
 ,
-"image269115":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
+"image358214":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
 ,
-"image260747":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
+"image358289":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
 ,
 "text530":{"x":351,"y":188,"w":298,"h":289,"txtscale":100,"bOffBottom":0}
 ,

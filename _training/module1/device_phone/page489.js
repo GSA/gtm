@@ -13,10 +13,6 @@ PhoneResponsive={"785":{
 ,
 "text319603":{"x":252,"y":400,"w":280,"h":23,"txtscale":100,"bOffBottom":0}
 ,
-"progress187611":{"x":54,"y":420,"w":678,"h":14,"bOffBottom":0,"vert":0,"barImage":"images/PhoneLandscape_progress187611_bar.png","bgImage":"images/PhoneLandscape_progress187611.png"}
-,
-"text194391":{"x":213,"y":420,"w":24,"h":18,"txtscale":100,"bOffBottom":0}
-,
 "text498":{"x":51,"y":113,"w":342,"h":67,"txtscale":100,"bOffBottom":0}
 ,
 "image260578":{"x":51,"y":148,"w":202,"h":31,"bOffBottom":0,"i":"images/lsidenav1_dark.jpg"}
@@ -35,9 +31,9 @@ PhoneResponsive={"785":{
 ,
 "image260727":{"x":51,"y":265,"w":202,"h":39,"bOffBottom":0,"i":"images/lsidenav4_light.jpg"}
 ,
-"image269115":{"x":51,"y":311,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
+"image358214":{"x":51,"y":311,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
 ,
-"image260747":{"x":51,"y":311,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
+"image358289":{"x":51,"y":311,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
 ,
 "text530":{"x":273,"y":146,"w":232,"h":225,"txtscale":100,"bOffBottom":0}
 ,
@@ -81,10 +77,6 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text319603":{"x":154,"y":514,"w":171,"h":24,"txtscale":100,"bOffBottom":0}
 ,
-"progress187611":{"x":33,"y":740,"w":415,"h":9,"bOffBottom":0,"vert":0,"barImage":"images/PhonePortrait_progress187611_bar.png","bgImage":"images/PhonePortrait_progress187611.png"}
-,
-"text194391":{"x":130,"y":540,"w":15,"h":17,"txtscale":100,"bOffBottom":0}
-,
 "text498":{"x":31,"y":145,"w":209,"h":99,"txtscale":100,"bOffBottom":0}
 ,
 "image260578":{"x":31,"y":190,"w":124,"h":19,"bOffBottom":0,"i":"images/lsidenav1_dark.jpg"}
@@ -103,9 +95,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image260727":{"x":31,"y":340,"w":124,"h":24,"bOffBottom":0,"i":"images/lsidenav4_light.jpg"}
 ,
-"image269115":{"x":31,"y":400,"w":124,"h":21,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
+"image358214":{"x":31,"y":400,"w":124,"h":21,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
 ,
-"image260747":{"x":31,"y":400,"w":124,"h":21,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
+"image358289":{"x":31,"y":400,"w":124,"h":21,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
 ,
 "text530":{"x":167,"y":188,"w":142,"h":153,"txtscale":100,"bOffBottom":0}
 ,

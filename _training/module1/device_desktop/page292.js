@@ -13,8 +13,6 @@ DesktopResponsive={"1009":{
 ,
 "text319603":{"x":324,"y":514,"w":360,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"progress187611":{"x":69,"y":540,"w":872,"h":18,"bOffBottom":0,"vert":0,"barImage":"images/progress187611_bar.png","bgImage":"images/progress187611.png"}
-,
 "image258495":{"x":66,"y":188,"w":300,"h":65,"bOffBottom":0,"i":"images/nav1_light.jpg"}
 ,
 "image258231":{"x":66,"y":188,"w":300,"h":65,"bOffBottom":0,"i":"images/nav1_dark.jpg"}
@@ -30,8 +28,6 @@ DesktopResponsive={"1009":{
 "image258508":{"x":66,"y":411,"w":300,"h":65,"bOffBottom":0,"i":"images/nav4_dark.jpg"}
 ,
 "image258510":{"x":66,"y":411,"w":300,"h":65,"bOffBottom":0,"i":"images/nav4_light.jpg"}
-,
-"text193874":{"x":174,"y":540,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
 ,
 "text294":{"x":65,"y":145,"w":448,"h":43,"txtscale":100,"bOffBottom":0}
 ,

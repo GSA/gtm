@@ -13,8 +13,6 @@ DesktopResponsive={"1009":{
 ,
 "text319603":{"x":324,"y":514,"w":360,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"progress187611":{"x":69,"y":540,"w":872,"h":18,"bOffBottom":0,"vert":0,"barImage":"images/progress187611_bar.png","bgImage":"images/progress187611.png"}
-,
 "image257179":{"x":66,"y":188,"w":300,"h":65,"bOffBottom":0,"i":"images/sidenav1_dark.png"}
 ,
 "image257232":{"x":66,"y":188,"w":300,"h":65,"bOffBottom":0,"i":"images/sidenav1_light.jpg"}
@@ -46,8 +44,6 @@ DesktopResponsive={"1009":{
 "image254640":{"x":667,"y":193,"w":326,"h":257,"bOffBottom":0,"i":"images/image0023.png"}
 ,
 "text254636":{"x":383,"y":188,"w":547,"h":289,"txtscale":100,"bOffBottom":0}
-,
-"text193713":{"x":74,"y":540,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
