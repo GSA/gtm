@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,shape119901,text118963,text118964,text118965,shape118967,image118969,shape118971,text118972))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,shape119901,text118964,text118965,shape118967,image118969,shape118971,text118972))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
     shape119901.init()
-    text118963.init()
     text118964.init()
     text118965.init()
     shape118967.init()
@@ -228,9 +224,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
     shape119901.activate()
-    text118963.activate()
     text118964.activate()
     text118965.activate()
     shape118967.activate()
@@ -363,7 +357,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,26,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,24,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -417,11 +411,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(36)
-progress120186.build()
-
-shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,8,'div','',0 )
+shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape119901.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape119901.initHasShadow(0)
 shape119901.initHasReflection(0)
@@ -434,25 +424,7 @@ shape119901.initLineWeight(0)
 shape119901.addOpacity(100)
 shape119901.build()
 
-text118963 = new ObjText('text118963',null,641,536,31,23,1,9,null,'div',null,0 )
-text118963.initSLine(1)
-text118963.initHasBullet(0)
-text118963.initRotateAngle(0,0,0)
-text118963.initHasOuterShadow(0)
-text118963.initHasTextShadow(0)
-text118963.initHasBorder(0)
-text118963.initHasOutline(0)
-text118963.initHasMargin(0)
-text118963.addIe8Attr(641, 536, 31, 23, 0, 0)
-text118963.addHeading(0)
-text118963.addOpacity(100)
-text118963.arrCSSStyles = new Array();
-text118963.arrCSSStyles.push('span.text118963Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118963.arrCSSStyles.push('span.text118963Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text118963.addInnerText('<div id=\"text118963\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118963Font1\"  >68%</span ><span class=\"text118963Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text118963.build()
-
-text118964 = new ObjText('text118964',null,60,145,338,59,1,10,null,'div',null,0 )
+text118964 = new ObjText('text118964',null,60,145,338,59,1,8,null,'div',null,0 )
 text118964.initSLine(0)
 text118964.initHasBullet(0)
 text118964.initRotateAngle(0,0,0)
@@ -470,7 +442,7 @@ text118964.arrCSSStyles.push('span.text118964Font2 { font-size:19px; font-family
 text118964.addInnerText('<div id=\"text118964\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118964Font1\"  >200.423: ALCOHOLIC BEVERAGES</span ><span class=\"text118964Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text118964.build()
 
-text118965 = new ObjText('text118965',null,67,188,295,65,1,11,null,'div',null,0 )
+text118965 = new ObjText('text118965',null,67,188,295,65,1,9,null,'div',null,0 )
 text118965.initSLine(0)
 text118965.initHasBullet(0)
 text118965.initRotateAngle(0,0,0)
@@ -488,7 +460,7 @@ text118965.arrCSSStyles.push('span.text118965Font3 { font-size:13px; font-family
 text118965.addInnerText('<div id=\"text118965\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118965Font1\"  >Let’s begin with costs that are generally unallowable. For example, the cost of alcoholic beverages is always unallowable.</span ><span class=\"text118965Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118965.build()
 
-shape118967 = new ObjImage('shape118967','images/shape118967.png','Rectangle 12',405,145,421.000000,364.000000,1,12,'div','',0 )
+shape118967 = new ObjImage('shape118967','images/shape118967.png','Rectangle 12',405,145,421.000000,364.000000,1,10,'div','',0 )
 shape118967.initRotateAngle(0,0,0,-0.000000,-0.000000,420,363)
 shape118967.initHasShadow(0)
 shape118967.initHasReflection(0)
@@ -501,7 +473,7 @@ shape118967.initLineWeight(0)
 shape118967.addOpacity(100)
 shape118967.build()
 
-image118969 = new ObjImage('image118969','images/image0073.png','Picture 11',405,124,411,411,1,13,'div',null, 0 )
+image118969 = new ObjImage('image118969','images/image0073.png','Picture 11',405,124,411,411,1,11,'div',null, 0 )
 image118969.initRotateAngle(0,0,0,0,0,0,0)
 image118969.initHasShadow(0)
 image118969.initHasReflection(0)
@@ -511,7 +483,7 @@ image118969.addBorder(0)
 image118969.addOpacity(100)
 image118969.build()
 
-shape118971 = new ObjImage('shape118971','images/shape118971.png','Rectangle 8',813,133,195.000000,68.000000,1,14,'div','',0 )
+shape118971 = new ObjImage('shape118971','images/shape118971.png','Rectangle 8',813,133,195.000000,68.000000,1,12,'div','',0 )
 shape118971.initRotateAngle(0,0,0,-0.000000,-0.000000,194,67)
 shape118971.initHasShadow(0)
 shape118971.initHasReflection(0)
@@ -524,7 +496,7 @@ shape118971.initLineWeight(0)
 shape118971.addOpacity(100)
 shape118971.build()
 
-text118972 = new ObjText('text118972',null,850,141,128,375,1,15,null,'div',null,0 )
+text118972 = new ObjText('text118972',null,850,141,128,375,1,13,null,'div',null,0 )
 text118972.initSLine(0)
 text118972.initHasBullet(0)
 text118972.initRotateAngle(0,0,0)
@@ -549,9 +521,7 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
 arObjs.push(shape119901);
-arObjs.push(text118963);
 arObjs.push(text118964);
 arObjs.push(text118965);
 arObjs.push(shape118967);
@@ -587,9 +557,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
     appendElement(shape119901, null, null);
-    appendElement(text118963, null, null);
     appendElement(text118964, null, null);
     appendElement(text118965, null, null);
     appendElement(shape118967, null, null);

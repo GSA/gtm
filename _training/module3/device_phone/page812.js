@@ -13,10 +13,6 @@ PhoneResponsive={"785":{
 ,
 "image250446":{"x":669,"y":509,"w":72,"h":30,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"progress62539":{"x":51,"y":484,"w":683,"h":24,"bOffBottom":0,"vert":0,"barImage":"images/PhoneLandscape_progress62539_bar.png","bgImage":"images/PhoneLandscape_progress62539.png"}
-,
-"text116599":{"x":407,"y":450,"w":24,"h":18,"txtscale":100,"bOffBottom":0}
-,
 "text814":{"x":47,"y":113,"w":340,"h":38,"txtscale":100,"bOffBottom":0}
 ,
 "text815":{"x":52,"y":149,"w":303,"h":340,"txtscale":100,"bOffBottom":0}
@@ -47,13 +43,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"progress62539":{"x":31,"y":868,"w":418,"h":18,"bOffBottom":0,"vert":0,"barImage":"images/PhonePortrait_progress62539_bar.png","bgImage":"images/PhonePortrait_progress62539.png"}
-,
-"text116599":{"x":249,"y":578,"w":15,"h":17,"txtscale":100,"bOffBottom":0}
-,
 "text814":{"x":29,"y":145,"w":208,"h":38,"txtscale":100,"bOffBottom":0}
 ,
-"text815":{"x":32,"y":192,"w":185,"h":510,"txtscale":100,"bOffBottom":0}
+"text815":{"x":32,"y":192,"w":185,"h":544,"txtscale":100,"bOffBottom":0}
 ,
 "shape816":{"x":245,"y":145,"w":236.000000,"h":167.000000,"stylemods":[{"sel":"div.shape816Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:235.000000px; height:166.000000px;}"},{"sel":"span.shape816Text","decl":" { width:231.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAACnCAYAAAASTLC7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACwSURBVHhe7cEBDQAAAMKg909tDjcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgSw1olQABVLRZ2AAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 235.000000 0.000000 L 235.000000 166.000000 L 0.000000 166.000000 L 0.000000 0.000000 z"}
 ,

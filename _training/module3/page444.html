@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0001 = new Variable( 'VarProgressBar_0001', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text67,image1612,image250438,image250446,progress62539,text187608,text116304,text446,text447,shape448,shape450,text10306,text10151,text452))
+    PreloadResources(new Array(text67,image1612,image250438,image250446,text187608,text446,text447,shape448,shape450,text10306,text10151,text452))
     pageLayer.show(true);
     text67.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress62539.init()
     text187608.init()
-    text116304.init()
     text446.init()
     text447.init()
     shape448.init()
@@ -229,9 +225,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress62539.activate()
     text187608.activate()
-    text116304.activate()
     text446.activate()
     text447.activate()
     shape448.activate()
@@ -365,7 +359,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text67 = new ObjText('text67',null,253,536,505,30,1,27,null,'div',null,0 )
+text67 = new ObjText('text67',null,253,536,505,30,1,25,null,'div',null,0 )
 text67.initSLine(0)
 text67.initHasBullet(0)
 text67.initRotateAngle(0,0,0)
@@ -419,11 +413,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress62539 = new ObjProgress('progress62539','',65,575,878,31,1,22,1,7,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,35,0,0,0,0,0,'div',0 )
-progress62539.actionSetPos(11)
-progress62539.build()
-
-text187608 = new ObjText('text187608',null,431,181,353,338,1,8,null,'div',null,0 )
+text187608 = new ObjText('text187608',null,431,181,353,338,1,7,null,'div',null,0 )
 text187608.initSLine(0)
 text187608.initHasBullet(1)
 text187608.initRotateAngle(0,0,0)
@@ -445,25 +435,7 @@ text187608.arrCSSStyles.push('li.text187608Font4 { font-size:16px; font-family:"
 text187608.addInnerText('<div id=\"text187608\" aria-live=\"polite\" ><ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text187608Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text187608CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text187608Font1\"  >Is this cost charged consistently? A cost may not be assigned to a Federal award as a direct cost if any other cost incurred for the same purpose in like circumstances has been allocated to the Federal award as an indirect cost.\n</span ></li >\n<li  class=\"text187608Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text187608CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text187608Font1\"  >Are costs determined in accordance with generally accepted accounting principles?\n</span ></li >\n<li  class=\"text187608Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text187608CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text187608Font1\"  >Is the cost used to meet the matching or cost sharing requirement of another Federal award? If yes, then the cost cannot be used again for a different Federal award.\n</span ></li >\n<li  class=\"text187608Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text187608CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text187608Font1\"  >Is the cost adequately documented?\n</span ></li >\n</ul >\n<p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text187608Font1\"  >Sections 200.420 through 200.475 of Subpart E also provide additional guidance by designating specific cost items as either “allowable” or “unallowable.”</span ><span class=\"text187608Font3\"  > </span ><span class=\"text187608Font4\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text187608.build()
 
-text116304 = new ObjText('text116304',null,337,578,31,23,1,9,null,'div',null,0 )
-text116304.initSLine(1)
-text116304.initHasBullet(0)
-text116304.initRotateAngle(0,0,0)
-text116304.initHasOuterShadow(0)
-text116304.initHasTextShadow(0)
-text116304.initHasBorder(0)
-text116304.initHasOutline(0)
-text116304.initHasMargin(0)
-text116304.addIe8Attr(337, 578, 31, 23, 0, 0)
-text116304.addHeading(0)
-text116304.addOpacity(100)
-text116304.arrCSSStyles = new Array();
-text116304.arrCSSStyles.push('span.text116304Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text116304.arrCSSStyles.push('span.text116304Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text116304.addInnerText('<div id=\"text116304\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text116304Font1\"  >34%</span ><span class=\"text116304Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text116304.build()
-
-text446 = new ObjText('text446',null,60,139,746,51,1,10,null,'div',null,0 )
+text446 = new ObjText('text446',null,60,139,746,51,1,8,null,'div',null,0 )
 text446.initSLine(0)
 text446.initHasBullet(0)
 text446.initRotateAngle(0,0,0)
@@ -481,7 +453,7 @@ text446.arrCSSStyles.push('span.text446Font2 { font-size:19px; font-family:"Oswa
 text446.addInnerText('<div id=\"text446\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text446Font1\"  >200.403: ALLOWABLE COSTS</span ><span class=\"text446Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text446.build()
 
-text447 = new ObjText('text447',null,67,181,337,340,1,11,null,'div',null,0 )
+text447 = new ObjText('text447',null,67,181,337,340,1,9,null,'div',null,0 )
 text447.initSLine(0)
 text447.initHasBullet(1)
 text447.initRotateAngle(0,0,0)
@@ -499,7 +471,7 @@ text447.arrCSSStyles.push('li.text447Font1 { font-size:15px; font-family:"Arial"
 text447.addInnerText('<div id=\"text447\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:13px;text-align:left;\" >\n<span class=\"text447Font1\"  >The cost principles describe the criteria that must be met for a cost to be considered “allowable” and, therefore, chargeable to the award. All allowable costs must meet certain criteria. So, when you are considering whether a cost can be charged, here are some questions to think about:\n</span ></p >\n<ul  style=\"list-style-position:outside;text-align:left;\" >\n<li  class=\"text447Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text447CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text447Font1\"  >Is the cost necessary and reasonable for the work of the award?\n</span ></li >\n<li  class=\"text447Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text447CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text447Font1\"  >Is the expense in compliance with laws, regulations, statutory authorization of the program, and terms of the award? This can include the type of charge and the amount of each charge.\n</span ></li >\n<li  class=\"text447Font1\" data-bltIndnt=\"0\" style=\"line-height:1.135;position:relative;margin-left:13px;margin-top:0px;margin-bottom:13px; list-style-image:url(\'images/text447CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text447Font1\"  >Is the cost consistent with the policies and procedures applied to all the non-Federal entity’s activities (Not just for this award)?\n</span ></li >\n</ul ></div>\n');
 text447.build()
 
-shape448 = new ObjImage('shape448','images/shape448.png','Rectangle 7',825,121,184.000000,388.000000,1,12,'div','',0 )
+shape448 = new ObjImage('shape448','images/shape448.png','Rectangle 7',825,121,184.000000,388.000000,1,10,'div','',0 )
 shape448.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape448.initHasShadow(0)
 shape448.initHasReflection(0)
@@ -512,7 +484,7 @@ shape448.initLineWeight(0)
 shape448.addOpacity(100)
 shape448.build()
 
-shape450 = new ObjImage('shape450','images/shape450.png','Rectangle 9',813,192,195.000000,68.000000,1,13,'div','',0 )
+shape450 = new ObjImage('shape450','images/shape450.png','Rectangle 9',813,192,195.000000,68.000000,1,11,'div','',0 )
 shape450.initRotateAngle(0,0,0,-0.000000,-0.000000,194,67)
 shape450.initHasShadow(0)
 shape450.initHasReflection(0)
@@ -525,7 +497,7 @@ shape450.initLineWeight(0)
 shape450.addOpacity(100)
 shape450.build()
 
-text10306 = new ObjText('text10306',null,849,144,71,56,1,14,null,'div',null,0 )
+text10306 = new ObjText('text10306',null,849,144,71,56,1,12,null,'div',null,0 )
 text10306.initSLine(0)
 text10306.initHasBullet(0)
 text10306.initRotateAngle(0,0,0)
@@ -543,7 +515,7 @@ text10306.arrCSSStyles.push('span.text10306Font2 { font-size:16px; font-family:"
 text10306.addInnerText('<div id=\"text10306\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10306Font1\" style=\"position:relative;top:-3px;\" >200.401\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10306Font1\" style=\"position:relative;top:-3px;\" >200.402</span ><span class=\"text10306Font2\" style=\"background-color:transparentposition:relative;top:-3px;\" >\n</span ></p ></div>\n');
 text10306.build()
 
-text10151 = new ObjText('text10151',null,849,267,92,209,1,15,null,'div',null,0 )
+text10151 = new ObjText('text10151',null,849,267,92,209,1,13,null,'div',null,0 )
 text10151.initSLine(0)
 text10151.initHasBullet(0)
 text10151.initRotateAngle(0,0,0)
@@ -561,7 +533,7 @@ text10151.arrCSSStyles.push('span.text10151Font2 { font-size:16px; font-family:"
 text10151.addInnerText('<div id=\"text10151\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.404\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.405\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.406\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.407\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.408\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.409\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.410\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text10151Font1\" style=\"position:relative;top:-3px;\" >200.411</span ><span class=\"text10151Font2\" style=\"background-color:transparentposition:relative;top:-3px;\" >\n</span ></p ></div>\n');
 text10151.build()
 
-text452 = new ObjText('text452',null,849,199,141,59,1,16,null,'div',null,0 )
+text452 = new ObjText('text452',null,849,199,141,59,1,14,null,'div',null,0 )
 text452.initSLine(0)
 text452.initHasBullet(0)
 text452.initRotateAngle(0,0,0)
@@ -584,9 +556,7 @@ arObjs.push(text67);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress62539);
 arObjs.push(text187608);
-arObjs.push(text116304);
 arObjs.push(text446);
 arObjs.push(text447);
 arObjs.push(shape448);
@@ -623,9 +593,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress62539, null, null);
     appendElement(text187608, null, null);
-    appendElement(text116304, null, null);
     appendElement(text446, null, null);
     appendElement(text447, null, null);
     appendElement(shape448, null, null);

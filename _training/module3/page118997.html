@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,shape119901,text118998,text118999,shape119001,image119003,text119004,text119005,shape119007,text119008))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,shape119901,text118999,shape119001,image119003,text119004,text119005,shape119007,text119008))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
     shape119901.init()
-    text118998.init()
     text118999.init()
     shape119001.init()
     image119003.init()
@@ -229,9 +225,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
     shape119901.activate()
-    text118998.activate()
     text118999.activate()
     shape119001.activate()
     image119003.activate()
@@ -365,7 +359,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,27,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,25,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -419,11 +413,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(39)
-progress120186.build()
-
-shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,8,'div','',0 )
+shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape119901.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape119901.initHasShadow(0)
 shape119901.initHasReflection(0)
@@ -436,25 +426,7 @@ shape119901.initLineWeight(0)
 shape119901.addOpacity(100)
 shape119901.build()
 
-text118998 = new ObjText('text118998',null,691,538,31,23,1,9,null,'div',null,0 )
-text118998.initSLine(1)
-text118998.initHasBullet(0)
-text118998.initRotateAngle(0,0,0)
-text118998.initHasOuterShadow(0)
-text118998.initHasTextShadow(0)
-text118998.initHasBorder(0)
-text118998.initHasOutline(0)
-text118998.initHasMargin(0)
-text118998.addIe8Attr(691, 538, 31, 23, 0, 0)
-text118998.addHeading(0)
-text118998.addOpacity(100)
-text118998.arrCSSStyles = new Array();
-text118998.arrCSSStyles.push('span.text118998Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118998.arrCSSStyles.push('span.text118998Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text118998.addInnerText('<div id=\"text118998\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118998Font1\"  >74%</span ><span class=\"text118998Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text118998.build()
-
-text118999 = new ObjText('text118999',null,60,135,701,53,1,10,null,'div',null,0 )
+text118999 = new ObjText('text118999',null,60,135,701,53,1,8,null,'div',null,0 )
 text118999.initSLine(0)
 text118999.initHasBullet(0)
 text118999.initRotateAngle(0,0,0)
@@ -472,7 +444,7 @@ text118999.arrCSSStyles.push('span.text118999Font2 { font-size:19px; font-family
 text118999.addInnerText('<div id=\"text118999\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118999Font1\"  >200.444: GENERAL COSTS OF GOVERNMENT</span ><span class=\"text118999Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text118999.build()
 
-shape119001 = new ObjImage('shape119001','images/shape119001.png','Rectangle 12',130,188,652.000000,125.000000,1,11,'div','',0 )
+shape119001 = new ObjImage('shape119001','images/shape119001.png','Rectangle 12',130,188,652.000000,125.000000,1,9,'div','',0 )
 shape119001.initRotateAngle(0,0,0,-0.000000,-0.000000,651,124)
 shape119001.initHasShadow(0)
 shape119001.initHasReflection(0)
@@ -485,7 +457,7 @@ shape119001.initLineWeight(0)
 shape119001.addOpacity(100)
 shape119001.build()
 
-image119003 = new ObjImage('image119003','images/image96.png','image96',81,201,99,99,1,12,'div',null, 0 )
+image119003 = new ObjImage('image119003','images/image96.png','image96',81,201,99,99,1,10,'div',null, 0 )
 image119003.initRotateAngle(0,0,0,0,0,0,0)
 image119003.initHasShadow(0)
 image119003.initHasReflection(0)
@@ -495,7 +467,7 @@ image119003.addBorder(0)
 image119003.addOpacity(100)
 image119003.build()
 
-text119004 = new ObjText('text119004',null,188,214,562,69,1,13,null,'div',null,0 )
+text119004 = new ObjText('text119004',null,188,214,562,69,1,11,null,'div',null,0 )
 text119004.initSLine(0)
 text119004.initHasBullet(0)
 text119004.initRotateAngle(0,0,0)
@@ -513,7 +485,7 @@ text119004.arrCSSStyles.push('span.text119004Font2 { font-size:13px; font-family
 text119004.addInnerText('<div id=\"text119004\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119004Font1\"  >The only allowable costs are salaries and expenses for Indian Tribes and Councils of Governments. Up to 50 percent of these costs can be included in the indirect cost calculation without documentation. These costs must be directly attributable to managing and operating Federal programs by the chief executive and his or her staff.</span ><span class=\"text119004Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119004.build()
 
-text119005 = new ObjText('text119005',null,68,342,694,154,1,14,null,'div',null,0 )
+text119005 = new ObjText('text119005',null,68,342,694,154,1,12,null,'div',null,0 )
 text119005.initSLine(0)
 text119005.initHasBullet(0)
 text119005.initRotateAngle(0,0,0)
@@ -531,7 +503,7 @@ text119005.arrCSSStyles.push('span.text119005Font2 { font-size:17px; font-family
 text119005.addInnerText('<div id=\"text119005\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119005Font1\"  >The general costs for States, Local Governments, and Indian Tribes are unallowable. This covers a variety of costs including the salaries and office expenses of state governors, chief executives of local governments, chief executives of Indian Tribes, or of state legislatures, tribal councils, or similar local government bodies. Local government bodies include county supervisors, city councils, school boards, etc. This includes costs incurred for purposes of legislation or executive direction.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119005Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119005Font1\"  >Costs related to the judicial branch, prosecutorial activities, or general services, such as fire and police, are unallowable unless provided as a direct cost to the program. These requirements are only applicable to state, local, and Indian governments. They do not apply to universities or non-profit organizations.</span ><span class=\"text119005Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119005.build()
 
-shape119007 = new ObjImage('shape119007','images/shape119007.png','Rectangle 8',815,221,195.000000,64.000000,1,15,'div','',0 )
+shape119007 = new ObjImage('shape119007','images/shape119007.png','Rectangle 8',815,221,195.000000,64.000000,1,13,'div','',0 )
 shape119007.initRotateAngle(0,0,0,-0.000000,-0.000000,194,63)
 shape119007.initHasShadow(0)
 shape119007.initHasReflection(0)
@@ -544,7 +516,7 @@ shape119007.initLineWeight(0)
 shape119007.addOpacity(100)
 shape119007.build()
 
-text119008 = new ObjText('text119008',null,848,149,110,355,1,16,null,'div',null,0 )
+text119008 = new ObjText('text119008',null,848,149,110,355,1,14,null,'div',null,0 )
 text119008.initSLine(0)
 text119008.initHasBullet(0)
 text119008.initRotateAngle(0,0,0)
@@ -569,9 +541,7 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
 arObjs.push(shape119901);
-arObjs.push(text118998);
 arObjs.push(text118999);
 arObjs.push(shape119001);
 arObjs.push(image119003);
@@ -608,9 +578,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
     appendElement(shape119901, null, null);
-    appendElement(text118998, null, null);
     appendElement(text118999, null, null);
     appendElement(shape119001, null, null);
     appendElement(image119003, null, null);

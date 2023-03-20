@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0004 = new Variable( 'VarProgressBar_0004', '1', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23237,image1612,image250438,image250446,progress178094,text118079,image29789,text29720,text3163,shape3164,text29816))
+    PreloadResources(new Array(text23237,image1612,image250438,image250446,image29789,text29720,text3163,shape3164,text29816))
     pageLayer.show(true);
     text23237.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress178094.init()
-    text118079.init()
     image29789.init()
     text29720.init()
     text3163.init()
@@ -226,8 +222,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress178094.activate()
-    text118079.activate()
     image29789.activate()
     text29720.activate()
     text3163.activate()
@@ -359,7 +353,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text23237 = new ObjText('text23237',null,253,553,505,30,1,24,null,'div',null,0 )
+text23237 = new ObjText('text23237',null,253,553,505,30,1,22,null,'div',null,0 )
 text23237.initSLine(0)
 text23237.initHasBullet(0)
 text23237.initRotateAngle(0,0,0)
@@ -413,29 +407,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress178094 = new ObjProgress('progress178094','',65,517,878,20,1,18,1,7,'#07648d','images/progress178094_bar.png','#ffffff','images/progress178094.png',1,32,0,0,0,0,0,'div',0 )
-progress178094.actionSetPos(5)
-progress178094.build()
-
-text118079 = new ObjText('text118079',null,184,502,31,23,1,8,null,'div',null,0 )
-text118079.initSLine(1)
-text118079.initHasBullet(0)
-text118079.initRotateAngle(0,0,0)
-text118079.initHasOuterShadow(0)
-text118079.initHasTextShadow(0)
-text118079.initHasBorder(0)
-text118079.initHasOutline(0)
-text118079.initHasMargin(0)
-text118079.addIe8Attr(184, 502, 31, 23, 0, 0)
-text118079.addHeading(0)
-text118079.addOpacity(100)
-text118079.arrCSSStyles = new Array();
-text118079.arrCSSStyles.push('span.text118079Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118079.arrCSSStyles.push('span.text118079Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text118079.addInnerText('<div id=\"text118079\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118079Font1\"  >16%</span ><span class=\"text118079Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text118079.build()
-
-image29789 = new ObjImage('image29789','images/image122.png','image122',596,118,413,413,1,9,'div',null, 0 )
+image29789 = new ObjImage('image29789','images/image122.png','image122',596,118,413,413,1,7,'div',null, 0 )
 image29789.initRotateAngle(0,0,0,0,0,0,0)
 image29789.initHasShadow(0)
 image29789.initHasReflection(0)
@@ -445,7 +417,7 @@ image29789.addBorder(0)
 image29789.addOpacity(100)
 image29789.build()
 
-text29720 = new ObjText('text29720',null,66,142,858,51,1,10,null,'div',null,0 )
+text29720 = new ObjText('text29720',null,66,142,858,51,1,8,null,'div',null,0 )
 text29720.initSLine(0)
 text29720.initHasBullet(0)
 text29720.initRotateAngle(0,0,0)
@@ -463,7 +435,7 @@ text29720.arrCSSStyles.push('span.text29720Font2 { font-size:25px; font-family:"
 text29720.addInnerText('<div id=\"text29720\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text29720Font1\"  >MATCH COST SHARE REQUIREMENT</span ><span class=\"text29720Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text29720.build()
 
-text3163 = new ObjText('text3163',null,67,180,436,230,1,11,null,'div',null,0 )
+text3163 = new ObjText('text3163',null,67,180,436,230,1,9,null,'div',null,0 )
 text3163.initSLine(0)
 text3163.initHasBullet(0)
 text3163.initRotateAngle(0,0,0)
@@ -481,7 +453,7 @@ text3163.arrCSSStyles.push('span.text3163Font3 { font-size:13px; font-family:"Ar
 text3163.addInnerText('<div id=\"text3163\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:7px;text-align:left;\" >\n<span class=\"text3163Font1\"  >Finally, let’s review some key principles of cost share or matching. If cost share is included in the budget, the cost principles apply to a matching or cost sharing in the same way (with supporting documentation maintained by the NFE).\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:7px;text-align:left;\" >\n<span class=\"text3163Font1\"  >For example, if cost sharing includes volunteer work, the rate for volunteer services must be consistent for similar work in that area. If a lawyer is volunteering her time to plant trees, her rate would not be calculated using her standard rate for her time as a lawyer. Her rate would be calculated for the actual work performed, which in this case would be for tree planting. Therefore, her rate must be calculated using the market rate for tree planting in that area.</span ><span class=\"text3163Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3163.build()
 
-shape3164 = new ObjImage('shape3164','images/shape3164.png','Rectangle 9',73,427,461.000000,72.000000,1,12,'div','',0 )
+shape3164 = new ObjImage('shape3164','images/shape3164.png','Rectangle 9',73,427,461.000000,72.000000,1,10,'div','',0 )
 shape3164.initRotateAngle(0,0,0,-0.000000,-0.000000,460,71)
 shape3164.initHasShadow(0)
 shape3164.initHasReflection(0)
@@ -494,7 +466,7 @@ shape3164.initLineWeight(0)
 shape3164.addOpacity(100)
 shape3164.build()
 
-text29816 = new ObjText('text29816',null,115,444,375,40,1,13,null,'div',null,0 )
+text29816 = new ObjText('text29816',null,115,444,375,40,1,11,null,'div',null,0 )
 text29816.initSLine(0)
 text29816.initHasBullet(0)
 text29816.initRotateAngle(0,0,0)
@@ -515,8 +487,6 @@ arObjs.push(text23237);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress178094);
-arObjs.push(text118079);
 arObjs.push(image29789);
 arObjs.push(text29720);
 arObjs.push(text3163);
@@ -551,8 +521,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress178094, null, null);
-    appendElement(text118079, null, null);
     appendElement(image29789, null, null);
     appendElement(text29720, null, null);
     appendElement(text3163, null, null);

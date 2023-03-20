@@ -35,13 +35,9 @@ PhoneResponsive={"785":{
 ,
 "image250438":{"x":45,"y":509,"w":72,"h":29,"bOffBottom":0,"i":"images/back-button.png"}
 ,
-"progress120186":{"x":51,"y":402,"w":683,"h":16,"bOffBottom":0,"vert":0,"barImage":"images/PhoneLandscape_progress120186_bar.png","bgImage":"images/PhoneLandscape_progress120186.png"}
-,
 "text118722":{"x":47,"y":110,"w":678,"h":40,"txtscale":100,"bOffBottom":0}
 ,
 "image252967":{"x":675,"y":418,"w":62,"h":26,"bOffBottom":0,"i":"images/next-button.png"}
-,
-"text118721":{"x":671,"y":416,"w":24,"h":18,"txtscale":100,"bOffBottom":0}
 ,
 "shape118724":{"x":92,"y":173,"w":66.000000,"h":47.000000,"stylemods":[{"sel":"div.shape118724Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:65.000000px; height:46.000000px;}"},{"sel":"span.shape118724Text","decl":" { width:61.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAvCAYAAABXPhxsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAjSURBVGhD7cExAQAAAMKg9U9tCU8gAAAAAAAAAAAAAACAhxowpwABDyP7fwAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 65.000000 0.000000 L 65.000000 46.000000 L 0.000000 46.000000 L 0.000000 0.000000 z"}
 ,
@@ -107,13 +103,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image250438":{"x":29,"y":919,"w":80,"h":32,"bOffBottom":0,"i":"images/back-button.png"}
 ,
-"progress120186":{"x":31,"y":517,"w":418,"h":10,"bOffBottom":0,"vert":0,"barImage":"images/PhonePortrait_progress120186_bar.png","bgImage":"images/PhonePortrait_progress120186.png"}
-,
 "text118722":{"x":29,"y":141,"w":415,"h":38,"txtscale":100,"bOffBottom":0}
 ,
 "image252967":{"x":413,"y":537,"w":38,"h":16,"bOffBottom":0,"i":"images/next-button.png"}
-,
-"text118721":{"x":410,"y":535,"w":15,"h":17,"txtscale":100,"bOffBottom":0}
 ,
 "shape118724":{"x":56,"y":222,"w":40.000000,"h":29.000000,"stylemods":[{"sel":"div.shape118724Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:39.000000px; height:28.000000px;}"},{"sel":"span.shape118724Text","decl":" { width:35.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAdCAYAAADYSS5zAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAcSURBVFhH7cGBAAAAAMOg+VNf4AhVAAAAAPDVABI9AAFJI30QAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 39.000000 0.000000 L 39.000000 28.000000 L 0.000000 28.000000 L 0.000000 0.000000 z"}
 ,

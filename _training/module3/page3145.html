@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0004 = new Variable( 'VarProgressBar_0004', '1', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23237,image1612,image250438,image250446,progress178094,text280299,text117982,text3147,text3148,image39476,text3151,image39531,text3154,image3156,text3158))
+    PreloadResources(new Array(text23237,image1612,image250438,image250446,text280299,text3147,text3148,image39476,text3151,image39531,text3154,image3156,text3158))
     pageLayer.show(true);
     text23237.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress178094.init()
     text280299.init()
-    text117982.init()
     text3147.init()
     text3148.init()
     image39476.init()
@@ -230,9 +226,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress178094.activate()
     text280299.activate()
-    text117982.activate()
     text3147.activate()
     text3148.activate()
     image39476.activate()
@@ -367,7 +361,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text23237 = new ObjText('text23237',null,253,553,505,30,1,28,null,'div',null,0 )
+text23237 = new ObjText('text23237',null,253,553,505,30,1,26,null,'div',null,0 )
 text23237.initSLine(0)
 text23237.initHasBullet(0)
 text23237.initRotateAngle(0,0,0)
@@ -421,11 +415,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress178094 = new ObjProgress('progress178094','',65,517,878,20,1,18,1,7,'#07648d','images/progress178094_bar.png','#ffffff','images/progress178094.png',1,32,0,0,0,0,0,'div',0 )
-progress178094.actionSetPos(4)
-progress178094.build()
-
-text280299 = new ObjText('text280299',null,67,229,473,36,1,8,null,'div',null,0 )
+text280299 = new ObjText('text280299',null,67,229,473,36,1,7,null,'div',null,0 )
 text280299.initSLine(1)
 text280299.initHasBullet(0)
 text280299.initRotateAngle(0,0,0)
@@ -444,25 +434,7 @@ text280299.arrCSSStyles.push('span.text280299Font3 { font-size:16px; font-family
 text280299.addInnerText('<div id=\"text280299\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text280299Font1\"  >SOME COMMON BASES FOR CALCULATING INDIRECT COSTS ARE:</span ><span class=\"text280299Font2\"  > </span ><span class=\"text280299Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text280299.build()
 
-text117982 = new ObjText('text117982',null,160,495,31,23,1,9,null,'div',null,0 )
-text117982.initSLine(1)
-text117982.initHasBullet(0)
-text117982.initRotateAngle(0,0,0)
-text117982.initHasOuterShadow(0)
-text117982.initHasTextShadow(0)
-text117982.initHasBorder(0)
-text117982.initHasOutline(0)
-text117982.initHasMargin(0)
-text117982.addIe8Attr(160, 495, 31, 23, 0, 0)
-text117982.addHeading(0)
-text117982.addOpacity(100)
-text117982.arrCSSStyles = new Array();
-text117982.arrCSSStyles.push('span.text117982Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text117982.arrCSSStyles.push('span.text117982Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text117982.addInnerText('<div id=\"text117982\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text117982Font1\"  >14%</span ><span class=\"text117982Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text117982.build()
-
-text3147 = new ObjText('text3147',null,60,143,868,50,1,10,null,'div',null,0 )
+text3147 = new ObjText('text3147',null,60,143,868,50,1,8,null,'div',null,0 )
 text3147.initSLine(0)
 text3147.initHasBullet(0)
 text3147.initRotateAngle(0,0,0)
@@ -480,7 +452,7 @@ text3147.arrCSSStyles.push('span.text3147Font2 { font-size:19px; font-family:"Os
 text3147.addInnerText('<div id=\"text3147\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3147Font1\"  >COMMON ALLOCATION BASES</span ><span class=\"text3147Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3147.build()
 
-text3148 = new ObjText('text3148',null,67,183,860,45,1,11,null,'div',null,0 )
+text3148 = new ObjText('text3148',null,67,183,860,45,1,9,null,'div',null,0 )
 text3148.initSLine(0)
 text3148.initHasBullet(0)
 text3148.initRotateAngle(0,0,0)
@@ -498,7 +470,7 @@ text3148.arrCSSStyles.push('span.text3148Font2 { font-size:13px; font-family:"Ar
 text3148.addInnerText('<div id=\"text3148\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:7px;text-align:left;\" >\n<span class=\"text3148Font1\"  >Remember, when verifying indirect cost calculations, you need to know the allocation base (reflected in the agreement) for determining the amount of indirect costs allowed on a Federal award.</span ><span class=\"text3148Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3148.build()
 
-image39476 = new ObjImage('image39476','images/image119.png','image119',67,275,58,58,1,12,'div',null, 0 )
+image39476 = new ObjImage('image39476','images/image119.png','image119',67,275,58,58,1,10,'div',null, 0 )
 image39476.initRotateAngle(0,0,0,0,0,0,0)
 image39476.initHasShadow(0)
 image39476.initHasReflection(0)
@@ -508,7 +480,7 @@ image39476.addBorder(0)
 image39476.addOpacity(100)
 image39476.build()
 
-text3151 = new ObjText('text3151',null,139,284,302,48,1,13,null,'div',null,0 )
+text3151 = new ObjText('text3151',null,139,284,302,48,1,11,null,'div',null,0 )
 text3151.initSLine(0)
 text3151.initHasBullet(0)
 text3151.initRotateAngle(0,0,0)
@@ -526,7 +498,7 @@ text3151.arrCSSStyles.push('span.text3151Font2 { font-size:17px; font-family:"Ar
 text3151.addInnerText('<div id=\"text3151\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:2px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3151Font1\"  >Direct salaries and wages including or excluding all fringe benefits</span ><span class=\"text3151Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3151.build()
 
-image39531 = new ObjImage('image39531','images/image120.png','image120',67,352,58,58,1,14,'div',null, 0 )
+image39531 = new ObjImage('image39531','images/image120.png','image120',67,352,58,58,1,12,'div',null, 0 )
 image39531.initRotateAngle(0,0,0,0,0,0,0)
 image39531.initHasShadow(0)
 image39531.initHasReflection(0)
@@ -536,7 +508,7 @@ image39531.addBorder(0)
 image39531.addOpacity(100)
 image39531.build()
 
-text3154 = new ObjText('text3154',null,142,350,285,141,1,15,null,'div',null,0 )
+text3154 = new ObjText('text3154',null,142,350,285,141,1,13,null,'div',null,0 )
 text3154.initSLine(0)
 text3154.initHasBullet(0)
 text3154.initRotateAngle(0,0,0)
@@ -555,7 +527,7 @@ text3154.arrCSSStyles.push('span.text3154Font3 { font-size:17px; font-family:"Ar
 text3154.addInnerText('<div id=\"text3154\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:2px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3154Font1\"  >Total direct costs excluding <br />(if applicable)\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:2px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3154Font2\"  >Capital expenditures (buildings, individual items of equipment, and alterations and renovations), the portion of each sub-award in excess of $25,000, flow-through funds</span ><span class=\"text3154Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3154.build()
 
-image3156 = new ObjImage('image3156','images/image0089.png','Picture 9',479,275,58,58,1,16,'div',null, 0 )
+image3156 = new ObjImage('image3156','images/image0089.png','Picture 9',479,275,58,58,1,14,'div',null, 0 )
 image3156.initRotateAngle(0,0,0,0,0,0,0)
 image3156.initHasShadow(0)
 image3156.initHasReflection(0)
@@ -565,7 +537,7 @@ image3156.addBorder(0)
 image3156.addOpacity(100)
 image3156.build()
 
-text3158 = new ObjText('text3158',null,552,283,389,192,1,17,null,'div',null,0 )
+text3158 = new ObjText('text3158',null,552,283,389,192,1,15,null,'div',null,0 )
 text3158.initSLine(0)
 text3158.initHasBullet(0)
 text3158.initRotateAngle(0,0,0)
@@ -588,9 +560,7 @@ arObjs.push(text23237);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress178094);
 arObjs.push(text280299);
-arObjs.push(text117982);
 arObjs.push(text3147);
 arObjs.push(text3148);
 arObjs.push(image39476);
@@ -628,9 +598,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress178094, null, null);
     appendElement(text280299, null, null);
-    appendElement(text117982, null, null);
     appendElement(text3147, null, null);
     appendElement(text3148, null, null);
     appendElement(image39476, null, null);

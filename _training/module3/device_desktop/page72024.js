@@ -47,8 +47,6 @@ DesktopResponsive={"1009":{
 ,
 "image250438":{"x":58,"y":537,"w":80,"h":32,"bOffBottom":0,"i":"images/back-button.png"}
 ,
-"progress178094":{"x":65,"y":517,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/progress178094_bar.png","bgImage":"images/progress178094.png"}
-,
 "text276975":{"x":60,"y":135,"w":868,"h":52,"txtscale":100,"bOffBottom":0}
 ,
 "text280720":{"x":67,"y":429,"w":588,"h":35,"txtscale":100,"bOffBottom":0}
@@ -56,8 +54,6 @@ DesktopResponsive={"1009":{
 "text279633":{"x":66,"y":177,"w":880,"h":109,"txtscale":100,"bOffBottom":0}
 ,
 "image257954":{"x":870,"y":554,"w":80,"h":33,"bOffBottom":0,"i":"images/next-button.png"}
-,
-"text172417":{"x":887,"y":483,"w":45,"h":23,"txtscale":100,"bOffBottom":0}
 ,
 "shape74373":{"x":74,"y":253,"w":152.000000,"h":38.000000,"stylemods":[{"sel":"div.shape74373Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:151.000000px; height:37.000000px;}"},{"sel":"span.shape74373Text","decl":" { width:147.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAAmCAYAAAA4AlIkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAuSURBVHhe7cEBDQAAAMKg909tDjcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO7UAFpmAAEE8E69AAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 151.000000 0.000000 L 151.000000 37.000000 L 0.000000 37.000000 L 0.000000 0.000000 z" ,"i":"images/shape74373.png"}
 ,

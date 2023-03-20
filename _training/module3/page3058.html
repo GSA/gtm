@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0004 = new Variable( 'VarProgressBar_0004', '1', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,17 +207,15 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23237,image1612,image250438,image250446,progress178094,og216215,og216205,og216195,text117930,text3060,text3061,image270630,image270599,image270690,image270681,image270795,image270786,og215314,shape3078,text28836,text3080,og215433,text3103,image29369,og215469,text3127,image3129))
+    PreloadResources(new Array(text23237,image1612,image250438,image250446,og216215,og216205,og216195,text3060,text3061,image270630,image270599,image270690,image270681,image270795,image270786,og215314,shape3078,text28836,text3080,og215433,text3103,image29369,og215469,text3127,image3129))
     pageLayer.show(true);
     text23237.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress178094.init()
     og216215.init()
     og216205.init()
     og216195.init()
-    text117930.init()
     text3060.init()
     text3061.init()
     image270630.init()
@@ -242,11 +238,9 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress178094.activate()
     og216215.activate()
     og216205.activate()
     og216195.activate()
-    text117930.activate()
     text3060.activate()
     text3061.activate()
     image270630.activate()
@@ -595,7 +589,7 @@ function image270786onUp() {
 }
 
 if( is.min ){
-text23237 = new ObjText('text23237',null,253,553,505,30,1,40,null,'div',null,0 )
+text23237 = new ObjText('text23237',null,253,553,505,30,1,38,null,'div',null,0 )
 text23237.initSLine(0)
 text23237.initHasBullet(0)
 text23237.initRotateAngle(0,0,0)
@@ -649,10 +643,6 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress178094 = new ObjProgress('progress178094','',65,517,878,20,1,18,1,7,'#07648d','images/progress178094_bar.png','#ffffff','images/progress178094.png',1,32,0,0,0,0,0,'div',0 )
-progress178094.actionSetPos(2)
-progress178094.build()
-
 og216215 = new ObjInline('og216215',null,0,0,0,0,1,0)
 og216215.isGrp = true
 og216215.build()
@@ -665,25 +655,7 @@ og216195 = new ObjInline('og216195',null,0,0,0,0,1,0)
 og216195.isGrp = true
 og216195.build()
 
-text117930 = new ObjText('text117930',null,85,487,31,23,1,8,null,'div',null,0 )
-text117930.initSLine(1)
-text117930.initHasBullet(0)
-text117930.initRotateAngle(0,0,0)
-text117930.initHasOuterShadow(0)
-text117930.initHasTextShadow(0)
-text117930.initHasBorder(0)
-text117930.initHasOutline(0)
-text117930.initHasMargin(0)
-text117930.addIe8Attr(85, 487, 31, 23, 0, 0)
-text117930.addHeading(0)
-text117930.addOpacity(100)
-text117930.arrCSSStyles = new Array();
-text117930.arrCSSStyles.push('span.text117930Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text117930.arrCSSStyles.push('span.text117930Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text117930.addInnerText('<div id=\"text117930\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text117930Font1\"  >4%</span ><span class=\"text117930Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text117930.build()
-
-text3060 = new ObjText('text3060',null,60,142,439,51,1,9,null,'div',null,0 )
+text3060 = new ObjText('text3060',null,60,142,439,51,1,7,null,'div',null,0 )
 text3060.initSLine(0)
 text3060.initHasBullet(0)
 text3060.initRotateAngle(0,0,0)
@@ -701,7 +673,7 @@ text3060.arrCSSStyles.push('span.text3060Font2 { font-size:19px; font-family:"Os
 text3060.addInnerText('<div id=\"text3060\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3060Font1\"  >BUDGET REVIEW</span ><span class=\"text3060Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3060.build()
 
-text3061 = new ObjText('text3061',null,67,184,536,105,1,10,null,'div',null,0 )
+text3061 = new ObjText('text3061',null,67,184,536,105,1,8,null,'div',null,0 )
 text3061.initSLine(0)
 text3061.initHasBullet(0)
 text3061.initRotateAngle(0,0,0)
@@ -719,7 +691,7 @@ text3061.arrCSSStyles.push('span.text3061Font3 { font-size:13px; font-family:"Ar
 text3061.addInnerText('<div id=\"text3061\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:7px;text-align:left;\" >\n<span class=\"text3061Font1\"  >Before we get started, let’s review the concepts we learned in Lessons 1 and 2 that you’ll need to keep in mind for the budget review. All costs submitted in a budget should be allowable, reasonable, and/or allocable. &nbsp;\n</span ></p >\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:7px;text-align:left;\" >\n<span class=\"text3061Font1\"  >Click on each of the terms to refresh your memory on these cost considerations.</span ><span class=\"text3061Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3061.build()
 
-image270630 = new ObjImage('image270630','images/budget_top_dark.png','budget_top_dark',68,290,263,38,1,11,'div',null, 0 )
+image270630 = new ObjImage('image270630','images/budget_top_dark.png','budget_top_dark',68,290,263,38,1,9,'div',null, 0 )
 image270630.initRotateAngle(0,0,0,0,0,0,0)
 image270630.initHasShadow(0)
 image270630.initHasReflection(0)
@@ -729,7 +701,7 @@ image270630.addBorder(0)
 image270630.addOpacity(100)
 image270630.build()
 
-image270599 = new ObjImage('image270599','images/budget_top_light.png','budget_top_light',68,290,263,38,0,12,'div',null, 0 )
+image270599 = new ObjImage('image270599','images/budget_top_light.png','budget_top_light',68,290,263,38,0,10,'div',null, 0 )
 image270599.initRotateAngle(0,0,0,0,0,0,0)
 image270599.initHasShadow(0)
 image270599.initHasReflection(0)
@@ -742,7 +714,7 @@ image270599.hasOnUp = true
 image270599.capture=4
 image270599.build()
 
-image270690 = new ObjImage('image270690','images/budget_second_dark.png','budget_second_dark',68,341,263,38,0,13,'div',null, 0 )
+image270690 = new ObjImage('image270690','images/budget_second_dark.png','budget_second_dark',68,341,263,38,0,11,'div',null, 0 )
 image270690.initRotateAngle(0,0,0,0,0,0,0)
 image270690.initHasShadow(0)
 image270690.initHasReflection(0)
@@ -752,7 +724,7 @@ image270690.addBorder(0)
 image270690.addOpacity(100)
 image270690.build()
 
-image270681 = new ObjImage('image270681','images/budget_second_light.png','budget_second_light',68,341,263,38,1,14,'div',null, 0 )
+image270681 = new ObjImage('image270681','images/budget_second_light.png','budget_second_light',68,341,263,38,1,12,'div',null, 0 )
 image270681.initRotateAngle(0,0,0,0,0,0,0)
 image270681.initHasShadow(0)
 image270681.initHasReflection(0)
@@ -765,7 +737,7 @@ image270681.hasOnUp = true
 image270681.capture=4
 image270681.build()
 
-image270795 = new ObjImage('image270795','images/budget_bottom_dark.png','budget_bottom_dark',68,392,263,38,0,15,'div',null, 0 )
+image270795 = new ObjImage('image270795','images/budget_bottom_dark.png','budget_bottom_dark',68,392,263,38,0,13,'div',null, 0 )
 image270795.initRotateAngle(0,0,0,0,0,0,0)
 image270795.initHasShadow(0)
 image270795.initHasReflection(0)
@@ -775,7 +747,7 @@ image270795.addBorder(0)
 image270795.addOpacity(100)
 image270795.build()
 
-image270786 = new ObjImage('image270786','images/budget_bottom_light.png','budget_bottom_light',68,392,263,38,1,16,'div',null, 0 )
+image270786 = new ObjImage('image270786','images/budget_bottom_light.png','budget_bottom_light',68,392,263,38,1,14,'div',null, 0 )
 image270786.initRotateAngle(0,0,0,0,0,0,0)
 image270786.initHasShadow(0)
 image270786.initHasReflection(0)
@@ -795,7 +767,7 @@ og215314.addChild('text28836')
 og215314.addChild('text3080')
 og215314.build()
 
-shape3078 = new ObjImage('shape3078','images/shape3078.png','Rectangle 20',359,322,595.000000,171.000000,1,17,'div','',0 )
+shape3078 = new ObjImage('shape3078','images/shape3078.png','Rectangle 20',359,322,595.000000,171.000000,1,15,'div','',0 )
 shape3078.initRotateAngle(0,0,0,-0.000000,-0.000000,594,170)
 shape3078.initHasShadow(0)
 shape3078.initHasReflection(0)
@@ -808,7 +780,7 @@ shape3078.initLineWeight(0)
 shape3078.addOpacity(100)
 shape3078.build()
 
-text28836 = new ObjText('text28836',null,372,343,576,131,1,18,null,'div',null,0 )
+text28836 = new ObjText('text28836',null,372,343,576,131,1,16,null,'div',null,0 )
 text28836.initSLine(0)
 text28836.initHasBullet(1)
 text28836.initRotateAngle(0,0,0)
@@ -826,7 +798,7 @@ text28836.arrCSSStyles.push('li.text28836Font1 { font-size:15px; font-family:"Ar
 text28836.addInnerText('<div id=\"text28836\" aria-live=\"polite\" ><ul  style=\"list-style-position:outside;text-align:left;\" lang=\"en\" >\n<li  class=\"text28836Font1\" data-bltIndnt=\"0\" style=\"line-height:1.703;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text28836CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text28836Font1\"  >Is the cost necessary for the project? \n</span ></li >\n<li  class=\"text28836Font1\" data-bltIndnt=\"0\" style=\"line-height:1.703;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text28836CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text28836Font1\"  >Is the cost consistent with the policies and procedures of the non-Federal entity? \n</span ></li >\n<li  class=\"text28836Font1\" data-bltIndnt=\"0\" style=\"line-height:1.703;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text28836CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text28836Font1\"  >Is the cost charged consistently? \n</span ></li >\n<li  class=\"text28836Font1\" data-bltIndnt=\"0\" style=\"line-height:1.703;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text28836CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text28836Font1\"  >Are costs determined in accordance with generally accepted accounting principles?\n</span ></li >\n<li  class=\"text28836Font1\" data-bltIndnt=\"0\" style=\"line-height:1.703;position:relative;margin-left:13px;margin-top:0px;margin-bottom:0px; list-style-image:url(\'images/text28836CircleBulletFont6.png\'); padding-left:10px;\"><!--{ \ndata-bltIndnt:0\n} --><span class=\"text28836Font1\"  >Is the cost adequately documented?\n</span ></li >\n</ul ></div>\n');
 text28836.build()
 
-text3080 = new ObjText('text3080',null,359,283,579,32,1,19,null,'div',null,0 )
+text3080 = new ObjText('text3080',null,359,283,579,32,1,17,null,'div',null,0 )
 text3080.initSLine(1)
 text3080.initHasBullet(0)
 text3080.initRotateAngle(0,0,0)
@@ -849,7 +821,7 @@ og215433.addChild('text3103')
 og215433.addChild('image29369')
 og215433.build()
 
-text3103 = new ObjText('text3103',null,359,290,247,141,0,20,null,'div',null,0 )
+text3103 = new ObjText('text3103',null,359,290,247,141,0,18,null,'div',null,0 )
 text3103.initSLine(0)
 text3103.initHasBullet(0)
 text3103.initRotateAngle(0,0,0)
@@ -867,7 +839,7 @@ text3103.arrCSSStyles.push('span.text3103Font2 { font-size:17px; font-family:"Ar
 text3103.addInnerText('<div id=\"text3103\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3103Font1\"  >A cost is reasonable if it does not exceed that which would be incurred by a prudent person under the circumstances prevailing at the time the decision was made to incur <br />the cost.</span ><span class=\"text3103Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3103.build()
 
-image29369 = new ObjImage('image29369','images/image116.png','image116',584,120,425,425,0,21,'div',null, 0 )
+image29369 = new ObjImage('image29369','images/image116.png','image116',584,120,425,425,0,19,'div',null, 0 )
 image29369.initRotateAngle(0,0,0,0,0,0,0)
 image29369.initHasShadow(0)
 image29369.initHasReflection(0)
@@ -883,7 +855,7 @@ og215469.addChild('text3127')
 og215469.addChild('image3129')
 og215469.build()
 
-text3127 = new ObjText('text3127',null,359,290,251,141,0,22,null,'div',null,0 )
+text3127 = new ObjText('text3127',null,359,290,251,141,0,20,null,'div',null,0 )
 text3127.initSLine(0)
 text3127.initHasBullet(0)
 text3127.initRotateAngle(0,0,0)
@@ -901,7 +873,7 @@ text3127.arrCSSStyles.push('span.text3127Font2 { font-size:17px; font-family:"Ar
 text3127.addInnerText('<div id=\"text3127\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3127Font1\"  >A cost is allocable to a particular Federal award or other cost objective if the goods or services involved are chargeable or assigned to that Federal award or cost objective in accordance with relative benefits received.</span ><span class=\"text3127Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3127.build()
 
-image3129 = new ObjImage('image3129','images/image0087.png','Picture 18',603,117,411,411,0,23,'div',null, 0 )
+image3129 = new ObjImage('image3129','images/image0087.png','Picture 18',603,117,411,411,0,21,'div',null, 0 )
 image3129.initRotateAngle(0,0,0,0,0,0,0)
 image3129.initHasShadow(0)
 image3129.initHasReflection(0)
@@ -915,11 +887,9 @@ arObjs.push(text23237);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress178094);
 arObjs.push(og216215);
 arObjs.push(og216205);
 arObjs.push(og216195);
-arObjs.push(text117930);
 arObjs.push(text3060);
 arObjs.push(text3061);
 arObjs.push(image270630);
@@ -973,8 +943,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress178094, null, null);
-    appendElement(text117930, null, null);
     appendElement(text3060, null, null);
     appendElement(text3061, null, null);
     appendElement(image270630, null, null);

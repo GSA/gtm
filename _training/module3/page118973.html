@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,shape119901,text118974,image118976,text118977,text118978,shape118980,text118981))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,shape119901,image118976,text118977,text118978,shape118980,text118981))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
     shape119901.init()
-    text118974.init()
     image118976.init()
     text118977.init()
     text118978.init()
@@ -227,9 +223,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
     shape119901.activate()
-    text118974.activate()
     image118976.activate()
     text118977.activate()
     text118978.activate()
@@ -361,7 +355,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,25,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,23,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -415,11 +409,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(37)
-progress120186.build()
-
-shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,8,'div','',0 )
+shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape119901.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape119901.initHasShadow(0)
 shape119901.initHasReflection(0)
@@ -432,25 +422,7 @@ shape119901.initLineWeight(0)
 shape119901.addOpacity(100)
 shape119901.build()
 
-text118974 = new ObjText('text118974',null,657,537,31,23,1,9,null,'div',null,0 )
-text118974.initSLine(1)
-text118974.initHasBullet(0)
-text118974.initRotateAngle(0,0,0)
-text118974.initHasOuterShadow(0)
-text118974.initHasTextShadow(0)
-text118974.initHasBorder(0)
-text118974.initHasOutline(0)
-text118974.initHasMargin(0)
-text118974.addIe8Attr(657, 537, 31, 23, 0, 0)
-text118974.addHeading(0)
-text118974.addOpacity(100)
-text118974.arrCSSStyles = new Array();
-text118974.arrCSSStyles.push('span.text118974Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118974.arrCSSStyles.push('span.text118974Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text118974.addInnerText('<div id=\"text118974\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118974Font1\"  >70%</span ><span class=\"text118974Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text118974.build()
-
-image118976 = new ObjImage('image118976','images/image94.png','image94',392,118,421,421,1,10,'div',null, 0 )
+image118976 = new ObjImage('image118976','images/image94.png','image94',392,118,421,421,1,8,'div',null, 0 )
 image118976.initRotateAngle(0,0,0,0,0,0,0)
 image118976.initHasShadow(0)
 image118976.initHasReflection(0)
@@ -460,7 +432,7 @@ image118976.addBorder(0)
 image118976.addOpacity(100)
 image118976.build()
 
-text118977 = new ObjText('text118977',null,59,138,736,51,1,11,null,'div',null,0 )
+text118977 = new ObjText('text118977',null,59,138,736,51,1,9,null,'div',null,0 )
 text118977.initSLine(0)
 text118977.initHasBullet(0)
 text118977.initRotateAngle(0,0,0)
@@ -478,7 +450,7 @@ text118977.arrCSSStyles.push('span.text118977Font2 { font-size:19px; font-family
 text118977.addInnerText('<div id=\"text118977\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118977Font1\"  >200.426: BAD DEBTS</span ><span class=\"text118977Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text118977.build()
 
-text118978 = new ObjText('text118978',null,66,179,324,270,1,12,null,'div',null,0 )
+text118978 = new ObjText('text118978',null,66,179,324,270,1,10,null,'div',null,0 )
 text118978.initSLine(0)
 text118978.initHasBullet(0)
 text118978.initRotateAngle(0,0,0)
@@ -496,7 +468,7 @@ text118978.arrCSSStyles.push('span.text118978Font2 { font-size:13px; font-family
 text118978.addInnerText('<div id=\"text118978\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118978Font1\"  >The costs associated with bad debt are unallowable but note the difference between delinquent debt and bad debt. A debt is considered delinquent if it is past due but still deemed collectible. Collection and legal fees related to delinquent debts are allowable.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118978Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118978Font1\"  >Bad debts are defined as debts that have been determined to be uncollectable. Bad debts are written off as losses. This includes losses arising from uncollectable accounts and other claims, including either actual or estimated losses. Related collection costs and legal costs arising from debts determined to be uncollectable are also unallowable.</span ><span class=\"text118978Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118978.build()
 
-shape118980 = new ObjImage('shape118980','images/shape118980.png','Rectangle 8',813,167,195.000000,54.000000,1,13,'div','',0 )
+shape118980 = new ObjImage('shape118980','images/shape118980.png','Rectangle 8',813,167,195.000000,54.000000,1,11,'div','',0 )
 shape118980.initRotateAngle(0,0,0,-0.000000,-0.000000,194,53)
 shape118980.initHasShadow(0)
 shape118980.initHasReflection(0)
@@ -509,7 +481,7 @@ shape118980.initLineWeight(0)
 shape118980.addOpacity(100)
 shape118980.build()
 
-text118981 = new ObjText('text118981',null,848,150,110,338,1,14,null,'div',null,0 )
+text118981 = new ObjText('text118981',null,848,150,110,338,1,12,null,'div',null,0 )
 text118981.initSLine(0)
 text118981.initHasBullet(0)
 text118981.initRotateAngle(0,0,0)
@@ -534,9 +506,7 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
 arObjs.push(shape119901);
-arObjs.push(text118974);
 arObjs.push(image118976);
 arObjs.push(text118977);
 arObjs.push(text118978);
@@ -571,9 +541,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
     appendElement(shape119901, null, null);
-    appendElement(text118974, null, null);
     appendElement(image118976, null, null);
     appendElement(text118977, null, null);
     appendElement(text118978, null, null);

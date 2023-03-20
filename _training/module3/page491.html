@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0001 = new Variable( 'VarProgressBar_0001', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text67,image1612,image250438,image250446,progress62539,text116466,image11272,text493,shape496,shape498,text500,shape501,shape503,text505))
+    PreloadResources(new Array(text67,image1612,image250438,image250446,image11272,text493,shape496,shape498,text500,shape501,shape503,text505))
     pageLayer.show(true);
     text67.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress62539.init()
-    text116466.init()
     image11272.init()
     text493.init()
     shape496.init()
@@ -229,8 +225,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress62539.activate()
-    text116466.activate()
     image11272.activate()
     text493.activate()
     shape496.activate()
@@ -365,7 +359,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text67 = new ObjText('text67',null,253,536,505,30,1,27,null,'div',null,0 )
+text67 = new ObjText('text67',null,253,536,505,30,1,25,null,'div',null,0 )
 text67.initSLine(0)
 text67.initHasBullet(0)
 text67.initRotateAngle(0,0,0)
@@ -419,29 +413,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress62539 = new ObjProgress('progress62539','',65,575,878,31,1,22,1,7,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,35,0,0,0,0,0,'div',0 )
-progress62539.actionSetPos(14)
-progress62539.build()
-
-text116466 = new ObjText('text116466',null,406,578,31,23,1,8,null,'div',null,0 )
-text116466.initSLine(1)
-text116466.initHasBullet(0)
-text116466.initRotateAngle(0,0,0)
-text116466.initHasOuterShadow(0)
-text116466.initHasTextShadow(0)
-text116466.initHasBorder(0)
-text116466.initHasOutline(0)
-text116466.initHasMargin(0)
-text116466.addIe8Attr(406, 578, 31, 23, 0, 0)
-text116466.addHeading(0)
-text116466.addOpacity(100)
-text116466.arrCSSStyles = new Array();
-text116466.arrCSSStyles.push('span.text116466Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text116466.arrCSSStyles.push('span.text116466Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text116466.addInnerText('<div id=\"text116466\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text116466Font1\"  >45%</span ><span class=\"text116466Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text116466.build()
-
-image11272 = new ObjImage('image11272','images/image34.5.jpg','image34.5',72,188,382,317,1,9,'div',null, 0 )
+image11272 = new ObjImage('image11272','images/image34.5.jpg','image34.5',72,188,382,317,1,7,'div',null, 0 )
 image11272.initRotateAngle(0,0,0,0,0,0,0)
 image11272.initHasShadow(0)
 image11272.initHasReflection(0)
@@ -451,7 +423,7 @@ image11272.addBorder(0)
 image11272.addOpacity(100)
 image11272.build()
 
-text493 = new ObjText('text493',null,65,145,735,54,1,10,null,'div',null,0 )
+text493 = new ObjText('text493',null,65,145,735,54,1,8,null,'div',null,0 )
 text493.initSLine(0)
 text493.initHasBullet(0)
 text493.initRotateAngle(0,0,0)
@@ -469,7 +441,7 @@ text493.arrCSSStyles.push('span.text493Font2 { font-size:19px; font-family:"Oswa
 text493.addInnerText('<div id=\"text493\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text493Font1\"  >BASIC CONSIDERATIONS</span ><span class=\"text493Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text493.build()
 
-shape496 = new ObjImage('shape496','images/shape496.png','Rectangle 11',477,188,324.000000,318.000000,1,11,'div','',0 )
+shape496 = new ObjImage('shape496','images/shape496.png','Rectangle 11',477,188,324.000000,318.000000,1,9,'div','',0 )
 shape496.initRotateAngle(0,0,0,-0.000000,-0.000000,323,317)
 shape496.initHasShadow(0)
 shape496.initHasReflection(0)
@@ -482,7 +454,7 @@ shape496.initLineWeight(0)
 shape496.addOpacity(100)
 shape496.build()
 
-shape498 = new ObjImage('shape498','images/shape498.png','Straight Connector 14',529,257,218.000000,4.000000,1,12,'div','',0 )
+shape498 = new ObjImage('shape498','images/shape498.png','Straight Connector 14',529,257,218.000000,4.000000,1,10,'div','',0 )
 shape498.initRotateAngle(0,0,0,-1.000000,-1.000000,214,0)
 shape498.initHasShadow(0)
 shape498.initHasReflection(0)
@@ -495,7 +467,7 @@ shape498.initLineWeight(1)
 shape498.addOpacity(100)
 shape498.build()
 
-text500 = new ObjText('text500',null,542,295,192,141,1,13,null,'div',null,0 )
+text500 = new ObjText('text500',null,542,295,192,141,1,11,null,'div',null,0 )
 text500.initSLine(0)
 text500.initHasBullet(0)
 text500.initRotateAngle(0,0,0)
@@ -513,7 +485,7 @@ text500.arrCSSStyles.push('span.text500Font3 { font-size:17px; font-family:"Aria
 text500.addInnerText('<div id=\"text500\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text500Font1\"  >Before we move on to explore the difference between direct and indirect costs, let’s briefly review a few more sections of 2 CFR 200 Subpart E.</span ><span class=\"text500Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text500.build()
 
-shape501 = new ObjImage('shape501','images/shape501.png','Straight Connector 13',529,436,218.000000,4.000000,1,14,'div','',0 )
+shape501 = new ObjImage('shape501','images/shape501.png','Straight Connector 13',529,436,218.000000,4.000000,1,12,'div','',0 )
 shape501.initRotateAngle(0,0,0,-1.000000,-1.000000,214,0)
 shape501.initHasShadow(0)
 shape501.initHasReflection(0)
@@ -526,7 +498,7 @@ shape501.initLineWeight(1)
 shape501.addOpacity(100)
 shape501.build()
 
-shape503 = new ObjImage('shape503','images/shape503.png','Rectangle 7',825,121,184.000000,388.000000,1,15,'div','',0 )
+shape503 = new ObjImage('shape503','images/shape503.png','Rectangle 7',825,121,184.000000,388.000000,1,13,'div','',0 )
 shape503.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape503.initHasShadow(0)
 shape503.initHasReflection(0)
@@ -539,7 +511,7 @@ shape503.initLineWeight(0)
 shape503.addOpacity(100)
 shape503.build()
 
-text505 = new ObjText('text505',null,849,143,110,317,1,16,null,'div',null,0 )
+text505 = new ObjText('text505',null,849,143,110,317,1,14,null,'div',null,0 )
 text505.initSLine(0)
 text505.initHasBullet(0)
 text505.initRotateAngle(0,0,0)
@@ -561,8 +533,6 @@ arObjs.push(text67);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress62539);
-arObjs.push(text116466);
 arObjs.push(image11272);
 arObjs.push(text493);
 arObjs.push(shape496);
@@ -600,8 +570,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress62539, null, null);
-    appendElement(text116466, null, null);
     appendElement(image11272, null, null);
     appendElement(text493, null, null);
     appendElement(shape496, null, null);

@@ -47,8 +47,6 @@ TabletResponsive={"1009":{
 ,
 "image250438":{"x":58,"y":537,"w":80,"h":32,"bOffBottom":0,"i":"images/back-button.png"}
 ,
-"progress178094":{"x":65,"y":517,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/TabletLandscape_progress178094_bar.png","bgImage":"images/TabletLandscape_progress178094.png"}
-,
 "text276975":{"x":60,"y":135,"w":868,"h":52,"txtscale":100,"bOffBottom":0}
 ,
 "text280536":{"x":67,"y":429,"w":588,"h":35,"txtscale":100,"bOffBottom":0}
@@ -154,8 +152,6 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 "image1612":{"x":0,"y":0,"w":785,"h":94,"bOffBottom":0,"i":"images/image0010.png"}
 ,
 "image250438":{"x":45,"y":589,"w":62,"h":25,"bOffBottom":0,"i":"images/back-button.png"}
-,
-"progress178094":{"x":51,"y":517,"w":683,"h":16,"bOffBottom":0,"vert":0,"barImage":"images/TabletPortrait_progress178094_bar.png","bgImage":"images/TabletPortrait_progress178094.png"}
 ,
 "text276975":{"x":47,"y":135,"w":675,"h":40,"txtscale":100,"bOffBottom":0}
 ,

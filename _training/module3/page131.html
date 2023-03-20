@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0001 = new Variable( 'VarProgressBar_0001', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text67,image1612,image250438,image250446,progress62539,text115938,text6801,text6749,text6667,text133,text134,image34442,image34524,image34567,text144,image34655,image34688,text6943,text6898,shape152,text154))
+    PreloadResources(new Array(text67,image1612,image250438,image250446,text6801,text6749,text6667,text133,text134,image34442,image34524,image34567,text144,image34655,image34688,text6943,text6898,shape152,text154))
     pageLayer.show(true);
     text67.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress62539.init()
-    text115938.init()
     text6801.init()
     text6749.init()
     text6667.init()
@@ -236,8 +232,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress62539.activate()
-    text115938.activate()
     text6801.activate()
     text6749.activate()
     text6667.activate()
@@ -379,7 +373,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text67 = new ObjText('text67',null,253,536,505,30,1,34,null,'div',null,0 )
+text67 = new ObjText('text67',null,253,536,505,30,1,32,null,'div',null,0 )
 text67.initSLine(0)
 text67.initHasBullet(0)
 text67.initRotateAngle(0,0,0)
@@ -433,29 +427,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress62539 = new ObjProgress('progress62539','',65,575,878,31,1,22,1,7,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,35,0,0,0,0,0,'div',0 )
-progress62539.actionSetPos(3)
-progress62539.build()
-
-text115938 = new ObjText('text115938',null,115,578,31,23,1,8,null,'div',null,0 )
-text115938.initSLine(1)
-text115938.initHasBullet(0)
-text115938.initRotateAngle(0,0,0)
-text115938.initHasOuterShadow(0)
-text115938.initHasTextShadow(0)
-text115938.initHasBorder(0)
-text115938.initHasOutline(0)
-text115938.initHasMargin(0)
-text115938.addIe8Attr(115, 578, 31, 23, 0, 0)
-text115938.addHeading(0)
-text115938.addOpacity(100)
-text115938.arrCSSStyles = new Array();
-text115938.arrCSSStyles.push('span.text115938Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text115938.arrCSSStyles.push('span.text115938Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text115938.addInnerText('<div id=\"text115938\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text115938Font1\"  >9%</span ><span class=\"text115938Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text115938.build()
-
-text6801 = new ObjText('text6801',null,134,445,372,58,1,9,null,'div',null,0 )
+text6801 = new ObjText('text6801',null,134,445,372,58,1,7,null,'div',null,0 )
 text6801.initSLine(0)
 text6801.initHasBullet(0)
 text6801.initRotateAngle(0,0,0)
@@ -474,7 +446,7 @@ text6801.arrCSSStyles.push('span.text6801Font3 { font-size:16px; font-family:"Ar
 text6801.addInnerText('<div id=\"text6801\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6801Font1\"  >Allocable</span ><span class=\"text6801Font2\"  > costs are chargeable to the Federal award in accordance with relative benefits received</span ><span class=\"text6801Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text6801.build()
 
-text6749 = new ObjText('text6749',null,134,373,387,60,1,10,null,'div',null,0 )
+text6749 = new ObjText('text6749',null,134,373,387,60,1,8,null,'div',null,0 )
 text6749.initSLine(0)
 text6749.initHasBullet(0)
 text6749.initRotateAngle(0,0,0)
@@ -493,7 +465,7 @@ text6749.arrCSSStyles.push('span.text6749Font3 { font-size:16px; font-family:"Ar
 text6749.addInnerText('<div id=\"text6749\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6749Font1\"  >Reasonable</span ><span class=\"text6749Font2\"  > costs do not exceed what would be incurred by a prudent person at the time the decision was made to incur the cost</span ><span class=\"text6749Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text6749.build()
 
-text6667 = new ObjText('text6667',null,134,303,369,57,1,11,null,'div',null,0 )
+text6667 = new ObjText('text6667',null,134,303,369,57,1,9,null,'div',null,0 )
 text6667.initSLine(0)
 text6667.initHasBullet(0)
 text6667.initRotateAngle(0,0,0)
@@ -512,7 +484,7 @@ text6667.arrCSSStyles.push('span.text6667Font3 { font-size:16px; font-family:"Ar
 text6667.addInnerText('<div id=\"text6667\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6667Font1\"  >Allowable</span ><span class=\"text6667Font2\"  > costs meet various criteria, such as being supported by proper documentation, consistently treated, reasonable, and allocable</span ><span class=\"text6667Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text6667.build()
 
-text133 = new ObjText('text133',null,58,134,880,49,1,12,null,'div',null,0 )
+text133 = new ObjText('text133',null,58,134,880,49,1,10,null,'div',null,0 )
 text133.initSLine(0)
 text133.initHasBullet(0)
 text133.initRotateAngle(0,0,0)
@@ -530,7 +502,7 @@ text133.arrCSSStyles.push('span.text133Font2 { font-size:17px; font-family:"Aria
 text133.addInnerText('<div id=\"text133\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text133Font1\"  >GENERAL PROVISIONS</span ><span class=\"text133Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text133.build()
 
-text134 = new ObjText('text134',null,65,172,473,118,1,13,null,'div',null,0 )
+text134 = new ObjText('text134',null,65,172,473,118,1,11,null,'div',null,0 )
 text134.initSLine(0)
 text134.initHasBullet(0)
 text134.initRotateAngle(0,0,0)
@@ -550,7 +522,7 @@ text134.arrCSSStyles.push('span.text134Font4 { font-size:13px; font-family:"Aria
 text134.addInnerText('<div id=\"text134\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:13px;text-align:left;\" >\n<span class=\"text134Font1\"  >GENERAL PROVISIONS</span ><span class=\"text134Font2\"  > </span ><span class=\"text134Font3\"  >include policy on the financial administration of Federal awards and proper accounting practices, among other topics.</span ><span class=\"text134Font4\" style=\"background-color:transparent\" >\n</span ></p >\n<p  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text134Font1\"  >BASIC CONSIDERATIONS </span ><span class=\"text134Font3\"  >cover important fundamental principles on the composition of costs and requirements that costs be allowable, reasonable, and allocable.</span ><span class=\"text134Font4\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text134.build()
 
-image34442 = new ObjImage('image34442','images/image10.png','image10',64,302,58,58,1,14,'div',null, 0 )
+image34442 = new ObjImage('image34442','images/image10.png','image10',64,302,58,58,1,12,'div',null, 0 )
 image34442.initRotateAngle(0,0,0,0,0,0,0)
 image34442.initHasShadow(0)
 image34442.initHasReflection(0)
@@ -560,7 +532,7 @@ image34442.addBorder(0)
 image34442.addOpacity(100)
 image34442.build()
 
-image34524 = new ObjImage('image34524','images/image11.png','image11',64,370,58,58,1,15,'div',null, 0 )
+image34524 = new ObjImage('image34524','images/image11.png','image11',64,370,58,58,1,13,'div',null, 0 )
 image34524.initRotateAngle(0,0,0,0,0,0,0)
 image34524.initHasShadow(0)
 image34524.initHasReflection(0)
@@ -570,7 +542,7 @@ image34524.addBorder(0)
 image34524.addOpacity(100)
 image34524.build()
 
-image34567 = new ObjImage('image34567','images/image12.png','image12',64,437,58,58,1,16,'div',null, 0 )
+image34567 = new ObjImage('image34567','images/image12.png','image12',64,437,58,58,1,14,'div',null, 0 )
 image34567.initRotateAngle(0,0,0,0,0,0,0)
 image34567.initHasShadow(0)
 image34567.initHasReflection(0)
@@ -580,7 +552,7 @@ image34567.addBorder(0)
 image34567.addOpacity(100)
 image34567.build()
 
-text144 = new ObjText('text144',null,562,172,353,29,1,17,null,'div',null,0 )
+text144 = new ObjText('text144',null,562,172,353,29,1,15,null,'div',null,0 )
 text144.initSLine(1)
 text144.initHasBullet(0)
 text144.initRotateAngle(0,0,0)
@@ -598,7 +570,7 @@ text144.arrCSSStyles.push('span.text144Font2 { font-size:17px; font-family:"Aria
 text144.addInnerText('<div id=\"text144\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text144Font1\"  >DIRECT AND INDIRECT COSTS</span ><span class=\"text144Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text144.build()
 
-image34655 = new ObjImage('image34655','images/image13.png','image13',562,209,58,58,1,18,'div',null, 0 )
+image34655 = new ObjImage('image34655','images/image13.png','image13',562,209,58,58,1,16,'div',null, 0 )
 image34655.initRotateAngle(0,0,0,0,0,0,0)
 image34655.initHasShadow(0)
 image34655.initHasReflection(0)
@@ -608,7 +580,7 @@ image34655.addBorder(0)
 image34655.addOpacity(100)
 image34655.build()
 
-image34688 = new ObjImage('image34688','images/image14.png','image14',562,280,58,58,1,19,'div',null, 0 )
+image34688 = new ObjImage('image34688','images/image14.png','image14',562,280,58,58,1,17,'div',null, 0 )
 image34688.initRotateAngle(0,0,0,0,0,0,0)
 image34688.initHasShadow(0)
 image34688.initHasReflection(0)
@@ -618,7 +590,7 @@ image34688.addBorder(0)
 image34688.addOpacity(100)
 image34688.build()
 
-text6943 = new ObjText('text6943',null,630,276,305,91,1,20,null,'div',null,0 )
+text6943 = new ObjText('text6943',null,630,276,305,91,1,18,null,'div',null,0 )
 text6943.initSLine(0)
 text6943.initHasBullet(0)
 text6943.initRotateAngle(0,0,0)
@@ -637,7 +609,7 @@ text6943.arrCSSStyles.push('span.text6943Font3 { font-size:16px; font-family:"Ar
 text6943.addInnerText('<div id=\"text6943\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6943Font1\"  >Indirect Costs </span ><span class=\"text6943Font2\"  >are charged to the Federal award based on an established rate or percentage and allow the non-Federal award to cover the costs of doing business not readily identifiable to one specific award (e.g., utilities)</span ><span class=\"text6943Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text6943.build()
 
-text6898 = new ObjText('text6898',null,630,211,310,50,1,21,null,'div',null,0 )
+text6898 = new ObjText('text6898',null,630,211,310,50,1,19,null,'div',null,0 )
 text6898.initSLine(0)
 text6898.initHasBullet(0)
 text6898.initRotateAngle(0,0,0)
@@ -656,7 +628,7 @@ text6898.arrCSSStyles.push('span.text6898Font3 { font-size:16px; font-family:"Ar
 text6898.addInnerText('<div id=\"text6898\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text6898Font1\"  >Direct Costs </span ><span class=\"text6898Font2\"  >are charged directly to the Federal award</span ><span class=\"text6898Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text6898.build()
 
-shape152 = new ObjImage('shape152','images/shape152.png','Rectangle 12',567,395,443.000000,100.000000,1,22,'div','',0 )
+shape152 = new ObjImage('shape152','images/shape152.png','Rectangle 12',567,395,443.000000,100.000000,1,20,'div','',0 )
 shape152.initRotateAngle(0,0,0,-0.000000,-0.000000,442,99)
 shape152.initHasShadow(0)
 shape152.initHasReflection(0)
@@ -669,7 +641,7 @@ shape152.initLineWeight(0)
 shape152.addOpacity(100)
 shape152.build()
 
-text154 = new ObjText('text154',null,609,426,333,40,1,23,null,'div',null,0 )
+text154 = new ObjText('text154',null,609,426,333,40,1,21,null,'div',null,0 )
 text154.initSLine(0)
 text154.initHasBullet(0)
 text154.initRotateAngle(0,0,0)
@@ -691,8 +663,6 @@ arObjs.push(text67);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress62539);
-arObjs.push(text115938);
 arObjs.push(text6801);
 arObjs.push(text6749);
 arObjs.push(text6667);
@@ -737,8 +707,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress62539, null, null);
-    appendElement(text115938, null, null);
     appendElement(text6801, null, null);
     appendElement(text6749, null, null);
     appendElement(text6667, null, null);

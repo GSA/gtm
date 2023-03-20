@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,shape119901,text119071,text119072,text119073,shape119075,shape119077,image119079,text119080))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,shape119901,text119072,text119073,shape119075,shape119077,image119079,text119080))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
     shape119901.init()
-    text119071.init()
     text119072.init()
     text119073.init()
     shape119075.init()
@@ -228,9 +224,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
     shape119901.activate()
-    text119071.activate()
     text119072.activate()
     text119073.activate()
     shape119075.activate()
@@ -363,7 +357,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,26,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,24,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -417,11 +411,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(45)
-progress120186.build()
-
-shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,8,'div','',0 )
+shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape119901.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape119901.initHasShadow(0)
 shape119901.initHasReflection(0)
@@ -434,25 +424,7 @@ shape119901.initLineWeight(0)
 shape119901.addOpacity(100)
 shape119901.build()
 
-text119071 = new ObjText('text119071',null,785,523,31,23,1,9,null,'div',null,0 )
-text119071.initSLine(1)
-text119071.initHasBullet(0)
-text119071.initRotateAngle(0,0,0)
-text119071.initHasOuterShadow(0)
-text119071.initHasTextShadow(0)
-text119071.initHasBorder(0)
-text119071.initHasOutline(0)
-text119071.initHasMargin(0)
-text119071.addIe8Attr(785, 523, 31, 23, 0, 0)
-text119071.addHeading(0)
-text119071.addOpacity(100)
-text119071.arrCSSStyles = new Array();
-text119071.arrCSSStyles.push('span.text119071Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119071.arrCSSStyles.push('span.text119071Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text119071.addInnerText('<div id=\"text119071\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119071Font1\"  >86%</span ><span class=\"text119071Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text119071.build()
-
-text119072 = new ObjText('text119072',null,60,146,319,59,1,10,null,'div',null,0 )
+text119072 = new ObjText('text119072',null,60,146,319,59,1,8,null,'div',null,0 )
 text119072.initSLine(0)
 text119072.initHasBullet(0)
 text119072.initRotateAngle(0,0,0)
@@ -470,7 +442,7 @@ text119072.arrCSSStyles.push('span.text119072Font2 { font-size:19px; font-family
 text119072.addInnerText('<div id=\"text119072\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119072Font1\"  >200.460: PROPOSAL COSTS</span ><span class=\"text119072Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119072.build()
 
-text119073 = new ObjText('text119073',null,67,191,304,133,1,11,null,'div',null,0 )
+text119073 = new ObjText('text119073',null,67,191,304,133,1,9,null,'div',null,0 )
 text119073.initSLine(0)
 text119073.initHasBullet(0)
 text119073.initRotateAngle(0,0,0)
@@ -488,7 +460,7 @@ text119073.arrCSSStyles.push('span.text119073Font2 { font-size:13px; font-family
 text119073.addInnerText('<div id=\"text119073\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119073Font1\"  >Proposal costs of the current accounting period of both successful and unsuccessful bids and proposals normally should be treated as indirect (F&amp;A) costs and allocated currently to all activities of the non-Federal entity. No proposal costs of past accounting periods would be allocable to the current period.</span ><span class=\"text119073Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119073.build()
 
-shape119075 = new ObjImage('shape119075','images/shape119075.png','Rectangle 12',405,145,421.000000,364.000000,1,12,'div','',0 )
+shape119075 = new ObjImage('shape119075','images/shape119075.png','Rectangle 12',405,145,421.000000,364.000000,1,10,'div','',0 )
 shape119075.initRotateAngle(0,0,0,-0.000000,-0.000000,420,363)
 shape119075.initHasShadow(0)
 shape119075.initHasReflection(0)
@@ -501,7 +473,7 @@ shape119075.initLineWeight(0)
 shape119075.addOpacity(100)
 shape119075.build()
 
-shape119077 = new ObjImage('shape119077','images/shape119077.png','Rectangle 8',815,345,195.000000,56.000000,1,13,'div','',0 )
+shape119077 = new ObjImage('shape119077','images/shape119077.png','Rectangle 8',815,345,195.000000,56.000000,1,11,'div','',0 )
 shape119077.initRotateAngle(0,0,0,-0.000000,-0.000000,194,55)
 shape119077.initHasShadow(0)
 shape119077.initHasReflection(0)
@@ -514,7 +486,7 @@ shape119077.initLineWeight(0)
 shape119077.addOpacity(100)
 shape119077.build()
 
-image119079 = new ObjImage('image119079','images/image105.png','image105',404,117,421,421,1,14,'div',null, 0 )
+image119079 = new ObjImage('image119079','images/image105.png','image105',404,117,421,421,1,12,'div',null, 0 )
 image119079.initRotateAngle(0,0,0,0,0,0,0)
 image119079.initHasShadow(0)
 image119079.initHasReflection(0)
@@ -524,7 +496,7 @@ image119079.addBorder(0)
 image119079.addOpacity(100)
 image119079.build()
 
-text119080 = new ObjText('text119080',null,849,151,110,338,1,15,null,'div',null,0 )
+text119080 = new ObjText('text119080',null,849,151,110,338,1,13,null,'div',null,0 )
 text119080.initSLine(0)
 text119080.initHasBullet(0)
 text119080.initRotateAngle(0,0,0)
@@ -549,9 +521,7 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
 arObjs.push(shape119901);
-arObjs.push(text119071);
 arObjs.push(text119072);
 arObjs.push(text119073);
 arObjs.push(shape119075);
@@ -587,9 +557,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
     appendElement(shape119901, null, null);
-    appendElement(text119071, null, null);
     appendElement(text119072, null, null);
     appendElement(text119073, null, null);
     appendElement(shape119075, null, null);

@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0001 = new Variable( 'VarProgressBar_0001', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text67,image1612,image250438,image250446,progress62539,text116638,text861,text862,shape863,image16753))
+    PreloadResources(new Array(text67,image1612,image250438,image250446,text861,text862,shape863,image16753))
     pageLayer.show(true);
     text67.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress62539.init()
-    text116638.init()
     text861.init()
     text862.init()
     shape863.init()
@@ -225,8 +221,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress62539.activate()
-    text116638.activate()
     text861.activate()
     text862.activate()
     shape863.activate()
@@ -357,7 +351,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text67 = new ObjText('text67',null,253,536,505,30,1,23,null,'div',null,0 )
+text67 = new ObjText('text67',null,253,536,505,30,1,21,null,'div',null,0 )
 text67.initSLine(0)
 text67.initHasBullet(0)
 text67.initRotateAngle(0,0,0)
@@ -411,29 +405,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress62539 = new ObjProgress('progress62539','',65,575,878,31,1,22,1,7,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,35,0,0,0,0,0,'div',0 )
-progress62539.actionSetPos(22)
-progress62539.build()
-
-text116638 = new ObjText('text116638',null,595,578,31,23,1,8,null,'div',null,0 )
-text116638.initSLine(1)
-text116638.initHasBullet(0)
-text116638.initRotateAngle(0,0,0)
-text116638.initHasOuterShadow(0)
-text116638.initHasTextShadow(0)
-text116638.initHasBorder(0)
-text116638.initHasOutline(0)
-text116638.initHasMargin(0)
-text116638.addIe8Attr(595, 578, 31, 23, 0, 0)
-text116638.addHeading(0)
-text116638.addOpacity(100)
-text116638.arrCSSStyles = new Array();
-text116638.arrCSSStyles.push('span.text116638Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text116638.arrCSSStyles.push('span.text116638Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text116638.addInnerText('<div id=\"text116638\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text116638Font1\"  >70%</span ><span class=\"text116638Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text116638.build()
-
-text861 = new ObjText('text861',null,59,145,423,45,1,9,null,'div',null,0 )
+text861 = new ObjText('text861',null,59,145,423,45,1,7,null,'div',null,0 )
 text861.initSLine(0)
 text861.initHasBullet(0)
 text861.initRotateAngle(0,0,0)
@@ -451,7 +423,7 @@ text861.arrCSSStyles.push('span.text861Font2 { font-size:19px; font-family:"Oswa
 text861.addInnerText('<div id=\"text861\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text861Font1\"  >200.414: INDIRECT (F&amp;A) COSTS</span ><span class=\"text861Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text861.build()
 
-text862 = new ObjText('text862',null,66,192,394,241,1,10,null,'div',null,0 )
+text862 = new ObjText('text862',null,66,192,394,241,1,8,null,'div',null,0 )
 text862.initSLine(0)
 text862.initHasBullet(0)
 text862.initRotateAngle(0,0,0)
@@ -469,7 +441,7 @@ text862.arrCSSStyles.push('span.text862Font3 { font-size:13px; font-family:"Aria
 text862.addInnerText('<div id=\"text862\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text862Font1\"  >Once a rate is formalized, this rate can be applied as a percentage against a “base” of costs in each award. The base is identified in the rate agreement.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text862Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text862Font1\"  >For example, let’s say the negotiated rate is 25 percent of the base of costs that include all Modified Total Direct Costs (MTDC). This is common base of costs that excludes such costs as equipment, participant support costs, and the amount of any sub-award over $25,000.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text862Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text862Font1\"  >An organization that receives a grant can apply the 25 percent rate against all Modified Total Direct Costs and charge the award the amount calculated.</span ><span class=\"text862Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text862.build()
 
-shape863 = new ObjImage('shape863','images/shape863.png','Rectangle 8',514,145,495.000000,350.000000,1,11,'div','',0 )
+shape863 = new ObjImage('shape863','images/shape863.png','Rectangle 8',514,145,495.000000,350.000000,1,9,'div','',0 )
 shape863.initRotateAngle(0,0,0,-0.000000,-0.000000,494,349)
 shape863.initHasShadow(0)
 shape863.initHasReflection(0)
@@ -482,7 +454,7 @@ shape863.initLineWeight(0)
 shape863.addOpacity(100)
 shape863.build()
 
-image16753 = new ObjImage('image16753','images/image54.png','image54',560,113,410,410,1,12,'div',null, 0 )
+image16753 = new ObjImage('image16753','images/image54.png','image54',560,113,410,410,1,10,'div',null, 0 )
 image16753.initRotateAngle(0,0,0,0,0,0,0)
 image16753.initHasShadow(0)
 image16753.initHasReflection(0)
@@ -496,8 +468,6 @@ arObjs.push(text67);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress62539);
-arObjs.push(text116638);
 arObjs.push(text861);
 arObjs.push(text862);
 arObjs.push(shape863);
@@ -531,8 +501,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress62539, null, null);
-    appendElement(text116638, null, null);
     appendElement(text861, null, null);
     appendElement(text862, null, null);
     appendElement(shape863, null, null);

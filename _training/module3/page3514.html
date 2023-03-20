@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0004 = new Variable( 'VarProgressBar_0004', '1', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23237,image1612,image250438,image250446,progress178094,text118348,text3516,shape3517,image3520,shape3522,text3524,shape3525,text3527))
+    PreloadResources(new Array(text23237,image1612,image250438,image250446,text3516,shape3517,image3520,shape3522,text3524,shape3525,text3527))
     pageLayer.show(true);
     text23237.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress178094.init()
-    text118348.init()
     text3516.init()
     shape3517.init()
     image3520.init()
@@ -228,8 +224,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress178094.activate()
-    text118348.activate()
     text3516.activate()
     shape3517.activate()
     image3520.activate()
@@ -363,7 +357,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text23237 = new ObjText('text23237',null,253,553,505,30,1,26,null,'div',null,0 )
+text23237 = new ObjText('text23237',null,253,553,505,30,1,24,null,'div',null,0 )
 text23237.initSLine(0)
 text23237.initHasBullet(0)
 text23237.initRotateAngle(0,0,0)
@@ -417,29 +411,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress178094 = new ObjProgress('progress178094','',65,517,878,20,1,18,1,7,'#07648d','images/progress178094_bar.png','#ffffff','images/progress178094.png',1,32,0,0,0,0,0,'div',0 )
-progress178094.actionSetPos(10)
-progress178094.build()
-
-text118348 = new ObjText('text118348',null,481,500,31,23,1,8,null,'div',null,0 )
-text118348.initSLine(1)
-text118348.initHasBullet(0)
-text118348.initRotateAngle(0,0,0)
-text118348.initHasOuterShadow(0)
-text118348.initHasTextShadow(0)
-text118348.initHasBorder(0)
-text118348.initHasOutline(0)
-text118348.initHasMargin(0)
-text118348.addIe8Attr(481, 500, 31, 23, 0, 0)
-text118348.addHeading(0)
-text118348.addOpacity(100)
-text118348.arrCSSStyles = new Array();
-text118348.arrCSSStyles.push('span.text118348Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118348.arrCSSStyles.push('span.text118348Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text118348.addInnerText('<div id=\"text118348\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118348Font1\"  >52%</span ><span class=\"text118348Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text118348.build()
-
-text3516 = new ObjText('text3516',null,60,149,880,51,1,9,null,'div',null,0 )
+text3516 = new ObjText('text3516',null,60,149,880,51,1,7,null,'div',null,0 )
 text3516.initSLine(0)
 text3516.initHasBullet(0)
 text3516.initRotateAngle(0,0,0)
@@ -457,7 +429,7 @@ text3516.arrCSSStyles.push('span.text3516Font2 { font-size:19px; font-family:"Os
 text3516.addInnerText('<div id=\"text3516\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3516Font1\"  >BUDGET REVIEW EXERCISE</span ><span class=\"text3516Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3516.build()
 
-shape3517 = new ObjImage('shape3517','images/shape3517.png','Rectangle 8',126,206,538.000000,278.000000,1,10,'div','',0 )
+shape3517 = new ObjImage('shape3517','images/shape3517.png','Rectangle 8',126,206,538.000000,278.000000,1,8,'div','',0 )
 shape3517.initRotateAngle(0,0,0,-0.000000,-0.000000,537,277)
 shape3517.initHasShadow(0)
 shape3517.initHasReflection(0)
@@ -470,7 +442,7 @@ shape3517.initLineWeight(0)
 shape3517.addOpacity(100)
 shape3517.build()
 
-image3520 = new ObjImage('image3520','images/image0100.png','Picture 9',69,247,198,197,1,11,'div',null, 0 )
+image3520 = new ObjImage('image3520','images/image0100.png','Picture 9',69,247,198,197,1,9,'div',null, 0 )
 image3520.initRotateAngle(0,0,0,0,0,0,0)
 image3520.initHasShadow(0)
 image3520.initHasReflection(0)
@@ -480,7 +452,7 @@ image3520.addBorder(0)
 image3520.addOpacity(100)
 image3520.build()
 
-shape3522 = new ObjImage('shape3522','images/shape3522.png','Straight Connector 23',307,263,298.000000,4.000000,1,12,'div','',0 )
+shape3522 = new ObjImage('shape3522','images/shape3522.png','Straight Connector 23',307,263,298.000000,4.000000,1,10,'div','',0 )
 shape3522.initRotateAngle(0,0,0,-1.000000,-1.000000,294,0)
 shape3522.initHasShadow(0)
 shape3522.initHasReflection(0)
@@ -493,7 +465,7 @@ shape3522.initLineWeight(1)
 shape3522.addOpacity(100)
 shape3522.build()
 
-text3524 = new ObjText('text3524',null,301,312,266,69,1,13,null,'div',null,0 )
+text3524 = new ObjText('text3524',null,301,312,266,69,1,11,null,'div',null,0 )
 text3524.initSLine(0)
 text3524.initHasBullet(0)
 text3524.initRotateAngle(0,0,0)
@@ -511,7 +483,7 @@ text3524.arrCSSStyles.push('span.text3524Font2 { font-size:13px; font-family:"Ar
 text3524.addInnerText('<div id=\"text3524\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:10px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3524Font1\"  >In the following exercise you need to review each cost category to determine whether the costs included are allowable, reasonable, and/or allocable.</span ><span class=\"text3524Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3524.build()
 
-shape3525 = new ObjImage('shape3525','images/shape3525.png','Straight Connector 18',307,425,298.000000,4.000000,1,14,'div','',0 )
+shape3525 = new ObjImage('shape3525','images/shape3525.png','Straight Connector 18',307,425,298.000000,4.000000,1,12,'div','',0 )
 shape3525.initRotateAngle(0,0,0,-1.000000,-1.000000,294,0)
 shape3525.initHasShadow(0)
 shape3525.initHasReflection(0)
@@ -524,7 +496,7 @@ shape3525.initLineWeight(1)
 shape3525.addOpacity(100)
 shape3525.build()
 
-text3527 = new ObjText('text3527',null,707,206,230,261,1,15,null,'div',null,0 )
+text3527 = new ObjText('text3527',null,707,206,230,261,1,13,null,'div',null,0 )
 text3527.initSLine(0)
 text3527.initHasBullet(0)
 text3527.initRotateAngle(0,0,0)
@@ -546,8 +518,6 @@ arObjs.push(text23237);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress178094);
-arObjs.push(text118348);
 arObjs.push(text3516);
 arObjs.push(shape3517);
 arObjs.push(image3520);
@@ -584,8 +554,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress178094, null, null);
-    appendElement(text118348, null, null);
     appendElement(text3516, null, null);
     appendElement(shape3517, null, null);
     appendElement(image3520, null, null);

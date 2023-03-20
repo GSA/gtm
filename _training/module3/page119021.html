@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,shape119901,text119022,image119024,text119025,text119026,shape119028,text119029))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,shape119901,image119024,text119025,text119026,shape119028,text119029))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
     shape119901.init()
-    text119022.init()
     image119024.init()
     text119025.init()
     text119026.init()
@@ -227,9 +223,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
     shape119901.activate()
-    text119022.activate()
     image119024.activate()
     text119025.activate()
     text119026.activate()
@@ -361,7 +355,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,25,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,23,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -415,11 +409,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(41)
-progress120186.build()
-
-shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,8,'div','',0 )
+shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape119901.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape119901.initHasShadow(0)
 shape119901.initHasReflection(0)
@@ -432,25 +422,7 @@ shape119901.initLineWeight(0)
 shape119901.addOpacity(100)
 shape119901.build()
 
-text119022 = new ObjText('text119022',null,722,536,31,23,1,9,null,'div',null,0 )
-text119022.initSLine(1)
-text119022.initHasBullet(0)
-text119022.initRotateAngle(0,0,0)
-text119022.initHasOuterShadow(0)
-text119022.initHasTextShadow(0)
-text119022.initHasBorder(0)
-text119022.initHasOutline(0)
-text119022.initHasMargin(0)
-text119022.addIe8Attr(722, 536, 31, 23, 0, 0)
-text119022.addHeading(0)
-text119022.addOpacity(100)
-text119022.arrCSSStyles = new Array();
-text119022.arrCSSStyles.push('span.text119022Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119022.arrCSSStyles.push('span.text119022Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text119022.addInnerText('<div id=\"text119022\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119022Font1\"  >78%</span ><span class=\"text119022Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text119022.build()
-
-image119024 = new ObjImage('image119024','images/image98.png','image98',393,120,420,420,1,10,'div',null, 0 )
+image119024 = new ObjImage('image119024','images/image98.png','image98',393,120,420,420,1,8,'div',null, 0 )
 image119024.initRotateAngle(0,0,0,0,0,0,0)
 image119024.initHasShadow(0)
 image119024.initHasReflection(0)
@@ -460,7 +432,7 @@ image119024.addBorder(0)
 image119024.addOpacity(100)
 image119024.build()
 
-text119025 = new ObjText('text119025',null,60,145,746,53,1,11,null,'div',null,0 )
+text119025 = new ObjText('text119025',null,60,145,746,53,1,9,null,'div',null,0 )
 text119025.initSLine(0)
 text119025.initHasBullet(0)
 text119025.initRotateAngle(0,0,0)
@@ -478,7 +450,7 @@ text119025.arrCSSStyles.push('span.text119025Font2 { font-size:19px; font-family
 text119025.addInnerText('<div id=\"text119025\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119025Font1\"  >200.467: SELLING AND MARKETING</span ><span class=\"text119025Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119025.build()
 
-text119026 = new ObjText('text119026',null,67,185,324,165,1,12,null,'div',null,0 )
+text119026 = new ObjText('text119026',null,67,185,324,165,1,10,null,'div',null,0 )
 text119026.initSLine(0)
 text119026.initHasBullet(0)
 text119026.initRotateAngle(0,0,0)
@@ -496,7 +468,7 @@ text119026.arrCSSStyles.push('span.text119026Font2 { font-size:13px; font-family
 text119026.addInnerText('<div id=\"text119026\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119026Font1\"  >The costs of selling and marketing any products or services of the non-Federal entity are unallowable except under the circumstances defined in Section 200.421 Advertising and Public Relations. The only exception is if the product or service is necessary for the performance of the award. These costs can then be charged as direct costs with prior approval by the Federal awarding agency.</span ><span class=\"text119026Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119026.build()
 
-shape119028 = new ObjImage('shape119028','images/shape119028.png','Rectangle 8',815,268,195.000000,68.000000,1,13,'div','',0 )
+shape119028 = new ObjImage('shape119028','images/shape119028.png','Rectangle 8',815,268,195.000000,68.000000,1,11,'div','',0 )
 shape119028.initRotateAngle(0,0,0,-0.000000,-0.000000,194,67)
 shape119028.initHasShadow(0)
 shape119028.initHasReflection(0)
@@ -509,7 +481,7 @@ shape119028.initLineWeight(0)
 shape119028.addOpacity(100)
 shape119028.build()
 
-text119029 = new ObjText('text119029',null,848,148,110,355,1,14,null,'div',null,0 )
+text119029 = new ObjText('text119029',null,848,148,110,355,1,12,null,'div',null,0 )
 text119029.initSLine(0)
 text119029.initHasBullet(0)
 text119029.initRotateAngle(0,0,0)
@@ -534,9 +506,7 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
 arObjs.push(shape119901);
-arObjs.push(text119022);
 arObjs.push(image119024);
 arObjs.push(text119025);
 arObjs.push(text119026);
@@ -571,9 +541,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
     appendElement(shape119901, null, null);
-    appendElement(text119022, null, null);
     appendElement(image119024, null, null);
     appendElement(text119025, null, null);
     appendElement(text119026, null, null);

@@ -13,11 +13,7 @@ TabletResponsive={"1009":{
 ,
 "image250446":{"x":870,"y":537,"w":80,"h":33,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"progress120186":{"x":65,"y":517,"w":878,"h":20,"bOffBottom":0,"vert":0,"barImage":"images/TabletLandscape_progress120186_bar.png","bgImage":"images/TabletLandscape_progress120186.png"}
-,
 "shape119901":{"x":825,"y":121,"w":184.000000,"h":388.000000,"stylemods":[{"sel":"div.shape119901Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:183.000000px; height:387.000000px;}"},{"sel":"span.shape119901Text","decl":" { width:179.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAGECAYAAACF/OqlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEsSURBVHhe7cExAQAAAMKg9U9tCj8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgJsaXUAAAYLTHfwAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 183.000000 0.000000 L 183.000000 387.000000 L 0.000000 387.000000 L 0.000000 0.000000 z"}
-,
-"text119429":{"x":441,"y":493,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
 ,
 "text119430":{"x":849,"y":344,"w":78,"h":131,"txtscale":100,"bOffBottom":0}
 ,
@@ -55,11 +51,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image250446":{"x":677,"y":589,"w":62,"h":26,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"progress120186":{"x":51,"y":517,"w":683,"h":16,"bOffBottom":0,"vert":0,"barImage":"images/TabletPortrait_progress120186_bar.png","bgImage":"images/TabletPortrait_progress120186.png"}
-,
 "shape119901":{"x":642,"y":121,"w":143.000000,"h":302.000000,"stylemods":[{"sel":"div.shape119901Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:142.000000px; height:301.000000px;}"},{"sel":"span.shape119901Text","decl":" { width:138.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAEuCAYAAAC3VEFsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC/SURBVHhe7cEBDQAAAMKg909tDjcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4VQOkFAABnpdsdAAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 142.000000 0.000000 L 142.000000 301.000000 L 0.000000 301.000000 L 0.000000 0.000000 z"}
-,
-"text119429":{"x":343,"y":493,"w":24,"h":18,"txtscale":100,"bOffBottom":0}
 ,
 "text119430":{"x":661,"y":344,"w":61,"h":130,"txtscale":100,"bOffBottom":0}
 ,
@@ -69,7 +61,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text119434":{"x":47,"y":141,"w":535,"h":47,"txtscale":100,"bOffBottom":0}
 ,
-"text119435":{"x":52,"y":186,"w":253,"h":238,"txtscale":100,"bOffBottom":0}
+"text119435":{"x":52,"y":186,"w":253,"h":221,"txtscale":100,"bOffBottom":0}
 ,
 "shape119437":{"x":634,"y":269,"w":152.000000,"h":55.000000,"stylemods":[{"sel":"div.shape119437Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:151.000000px; height:54.000000px;}"},{"sel":"span.shape119437Text","decl":" { width:147.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAA3CAYAAADwiIMaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA3SURBVHhe7cEBDQAAAMKg909tDwcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCfGoLXAAGSZbJBAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 151.000000 0.000000 L 151.000000 54.000000 L 0.000000 54.000000 L 0.000000 0.000000 z"}
 ,

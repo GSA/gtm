@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,shape119901,text119316,text119317,text119318,shape119320,image119322,text119323,text119324))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,shape119901,text119317,text119318,shape119320,image119322,text119323,text119324))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
     shape119901.init()
-    text119316.init()
     text119317.init()
     text119318.init()
     shape119320.init()
@@ -228,9 +224,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
     shape119901.activate()
-    text119316.activate()
     text119317.activate()
     text119318.activate()
     shape119320.activate()
@@ -363,7 +357,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,26,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,24,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -417,11 +411,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(16)
-progress120186.build()
-
-shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,8,'div','',0 )
+shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape119901.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape119901.initHasShadow(0)
 shape119901.initHasReflection(0)
@@ -434,25 +424,7 @@ shape119901.initLineWeight(0)
 shape119901.addOpacity(100)
 shape119901.build()
 
-text119316 = new ObjText('text119316',null,313,535,31,23,1,9,null,'div',null,0 )
-text119316.initSLine(1)
-text119316.initHasBullet(0)
-text119316.initRotateAngle(0,0,0)
-text119316.initHasOuterShadow(0)
-text119316.initHasTextShadow(0)
-text119316.initHasBorder(0)
-text119316.initHasOutline(0)
-text119316.initHasMargin(0)
-text119316.addIe8Attr(313, 535, 31, 23, 0, 0)
-text119316.addHeading(0)
-text119316.addOpacity(100)
-text119316.arrCSSStyles = new Array();
-text119316.arrCSSStyles.push('span.text119316Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119316.arrCSSStyles.push('span.text119316Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text119316.addInnerText('<div id=\"text119316\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119316Font1\"  >30%</span ><span class=\"text119316Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text119316.build()
-
-text119317 = new ObjText('text119317',null,59,140,752,54,1,10,null,'div',null,0 )
+text119317 = new ObjText('text119317',null,59,140,752,54,1,8,null,'div',null,0 )
 text119317.initSLine(0)
 text119317.initHasBullet(0)
 text119317.initRotateAngle(0,0,0)
@@ -470,7 +442,7 @@ text119317.arrCSSStyles.push('span.text119317Font2 { font-size:19px; font-family
 text119317.addInnerText('<div id=\"text119317\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119317Font1\"  >COSTS THAT REQUIRE PRIOR WRITTEN APPROVAL</span ><span class=\"text119317Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119317.build()
 
-text119318 = new ObjText('text119318',null,67,185,698,171,1,11,null,'div',null,0 )
+text119318 = new ObjText('text119318',null,67,185,698,171,1,9,null,'div',null,0 )
 text119318.initSLine(0)
 text119318.initHasBullet(0)
 text119318.initRotateAngle(0,0,0)
@@ -488,7 +460,7 @@ text119318.arrCSSStyles.push('span.text119318Font2 { font-size:13px; font-family
 text119318.addInnerText('<div id=\"text119318\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119318Font1\"  >As discussed in Lesson 1, determining whether certain costs meet the standards for being reasonable and allocable can be difficult. In order to avoid subsequent disallowance or dispute based on reasonableness or allocability tests, the NFE may seek prior written approval of a cost.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119318Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119318Font1\"  >If the cost is a deviation from the negotiated indirect cost, the NFE should contact the cognizant agency. If the cost is special or unusual, the NFE should contact the Federal awarding agency in advance.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119318Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119318Font1\"  >Prior written approval should include the time frame or scope of the agreement. Absence of prior written approval for any element of a cost will not in itself affect the reasonableness or allocability of that element unless prior approval is specifically required for allowability.</span ><span class=\"text119318Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119318.build()
 
-shape119320 = new ObjImage('shape119320','images/shape119320.png','Rectangle 10',126,371,641.000000,138.000000,1,12,'div','',0 )
+shape119320 = new ObjImage('shape119320','images/shape119320.png','Rectangle 10',126,371,641.000000,138.000000,1,10,'div','',0 )
 shape119320.initRotateAngle(0,0,0,-0.000000,-0.000000,640,137)
 shape119320.initHasShadow(0)
 shape119320.initHasReflection(0)
@@ -501,7 +473,7 @@ shape119320.initLineWeight(0)
 shape119320.addOpacity(100)
 shape119320.build()
 
-image119322 = new ObjImage('image119322','images/image74.png','image74',70,382,115,115,1,13,'div',null, 0 )
+image119322 = new ObjImage('image119322','images/image74.png','image74',70,382,115,115,1,11,'div',null, 0 )
 image119322.initRotateAngle(0,0,0,0,0,0,0)
 image119322.initHasShadow(0)
 image119322.initHasReflection(0)
@@ -511,7 +483,7 @@ image119322.addBorder(0)
 image119322.addOpacity(100)
 image119322.build()
 
-text119323 = new ObjText('text119323',null,213,424,506,41,1,14,null,'div',null,0 )
+text119323 = new ObjText('text119323',null,213,424,506,41,1,12,null,'div',null,0 )
 text119323.initSLine(0)
 text119323.initHasBullet(0)
 text119323.initRotateAngle(0,0,0)
@@ -529,7 +501,7 @@ text119323.arrCSSStyles.push('span.text119323Font3 { font-size:17px; font-family
 text119323.addInnerText('<div id=\"text119323\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119323Font1\"  >Federal awarding agencies can’t impose prior approval requirements on additional costs that are not specifically listed in 2 CFR 200.</span ><span class=\"text119323Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119323.build()
 
-text119324 = new ObjText('text119324',null,849,145,110,317,1,15,null,'div',null,0 )
+text119324 = new ObjText('text119324',null,849,145,110,317,1,13,null,'div',null,0 )
 text119324.initSLine(0)
 text119324.initHasBullet(0)
 text119324.initRotateAngle(0,0,0)
@@ -551,9 +523,7 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
 arObjs.push(shape119901);
-arObjs.push(text119316);
 arObjs.push(text119317);
 arObjs.push(text119318);
 arObjs.push(shape119320);
@@ -589,9 +559,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
     appendElement(shape119901, null, null);
-    appendElement(text119316, null, null);
     appendElement(text119317, null, null);
     appendElement(text119318, null, null);
     appendElement(shape119320, null, null);

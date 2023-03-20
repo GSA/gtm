@@ -55,7 +55,6 @@
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-button.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -197,7 +196,6 @@ function ReFlow() {
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
 VarQuestion_0011 = new Variable( 'VarQuestion_0011', '', 0, 0, null, null, 'module3', false )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 VarKnowledgeCheckQuestionEleven = new Variable( 'VarKnowledgeCheckQuestionEleven', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
@@ -220,7 +218,7 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119528,shape119590,shape119592,shape119594,image119596,text119598,text119599,shape119602,shape119604,shape119606,image119608,text119610,text119611,image1612,image250438,progress120186,text119531,og311128,image252641,text119579,shape119582,shape119584,text119585,shape119587,og119588,og119600,qu119613,text119614,text119615,radio119616,text119617,radio119618,button119625))
+    PreloadResources(new Array(text119528,shape119590,shape119592,shape119594,image119596,text119598,text119599,shape119602,shape119604,shape119606,image119608,text119610,text119611,image1612,image250438,text119531,og311128,image252641,shape119582,shape119584,text119585,shape119587,og119588,og119600,qu119613,text119614,text119615,radio119616,text119617,radio119618,button119625))
     pageLayer.show(true);
     text119528.init()
     shape119590.init()
@@ -237,11 +235,9 @@ function init11() {
     text119611.init()
     image1612.init()
     image250438.init()
-    progress120186.init()
     text119531.init()
     og311128.init()
     image252641.init()
-    text119579.init()
     shape119582.init()
     shape119584.init()
     text119585.init()
@@ -270,11 +266,9 @@ function init11() {
     text119611.activate()
     image1612.activate()
     image250438.activate()
-    progress120186.activate()
     text119531.activate()
     og311128.activate()
     image252641.activate()
-    text119579.activate()
     shape119582.activate()
     shape119584.activate()
     text119585.activate()
@@ -410,12 +404,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu119613.hasBeenProcessed) {
     if( ans_VarQuestion_0011 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action119613_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action119613_5(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0011 != '\u0054\u0072\u0075\u0065' && ans_VarQuestion_0011 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action119613_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action119613_6(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -500,13 +494,13 @@ function Update_qu119613(value) {
    qu119613Object.hasBeenProcessed=false;
 }
 
-function action119613_1(fn){
+function action119613_5(fn){
     og119588.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action119613_2(fn){
+function action119613_6(fn){
     og119600.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -523,7 +517,7 @@ function button119625onUp() {
 }
 
 if( is.min ){
-text119528 = new ObjText('text119528',null,253,553,505,30,1,46,null,'div',null,0 )
+text119528 = new ObjText('text119528',null,253,553,505,30,1,44,null,'div',null,0 )
 text119528.initSLine(0)
 text119528.initHasBullet(0)
 text119528.initRotateAngle(0,0,0)
@@ -541,7 +535,7 @@ text119528.arrCSSStyles.push('span.text119528Font2 { font-size:12px; font-family
 text119528.addInnerText('<div id=\"text119528\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119528Font1\"  >LESSON 2: KNOWLEDGE CHECK</span ><span class=\"text119528Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119528.build()
 
-shape119590 = new ObjImage('shape119590','images/shape119590.png','Rectangle 17',0,0,1009.000000,601.000000,0,47,'div','',0 )
+shape119590 = new ObjImage('shape119590','images/shape119590.png','Rectangle 17',0,0,1009.000000,601.000000,0,45,'div','',0 )
 shape119590.initRotateAngle(0,0,0,-0.000000,-0.000000,1008,600)
 shape119590.initHasShadow(0)
 shape119590.initHasReflection(0)
@@ -554,7 +548,7 @@ shape119590.initLineWeight(0)
 shape119590.addOpacity(25)
 shape119590.build()
 
-shape119592 = new ObjImage('shape119592','images/shape119592.png','Rectangle 19',343,240,324.000000,183.000000,0,48,'div','',0 )
+shape119592 = new ObjImage('shape119592','images/shape119592.png','Rectangle 19',343,240,324.000000,183.000000,0,46,'div','',0 )
 shape119592.initRotateAngle(0,0,0,-0.000000,-0.000000,323,182)
 shape119592.initHasShadow(1)
 shape119592.initHasReflection(0)
@@ -568,7 +562,7 @@ shape119592.initLineWeight(2)
 shape119592.addOpacity(100)
 shape119592.build()
 
-shape119594 = new ObjImage('shape119594','images/shape119594.png','Rectangle 20',343,240,115.000000,44.000000,0,49,'div','',0 )
+shape119594 = new ObjImage('shape119594','images/shape119594.png','Rectangle 20',343,240,115.000000,44.000000,0,47,'div','',0 )
 shape119594.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape119594.initHasShadow(0)
 shape119594.initHasReflection(0)
@@ -581,7 +575,7 @@ shape119594.initLineWeight(0)
 shape119594.addOpacity(100)
 shape119594.build()
 
-image119596 = new ObjImage('image119596','images/image0049.png','Picture 23',626,247,29,29,0,50,'div',null, 0 )
+image119596 = new ObjImage('image119596','images/image0049.png','Picture 23',626,247,29,29,0,48,'div',null, 0 )
 image119596.initRotateAngle(0,0,0,0,0,0,0)
 image119596.initHasShadow(0)
 image119596.initHasReflection(0)
@@ -594,7 +588,7 @@ image119596.hasOnUp = true
 image119596.capture=4
 image119596.build()
 
-text119598 = new ObjText('text119598',null,369,249,84,28,0,51,null,'div',null,0 )
+text119598 = new ObjText('text119598',null,369,249,84,28,0,49,null,'div',null,0 )
 text119598.initSLine(1)
 text119598.initHasBullet(0)
 text119598.initRotateAngle(0,0,0)
@@ -611,7 +605,7 @@ text119598.arrCSSStyles.push('span.text119598Font1 { font-size:16px; font-family
 text119598.addInnerText('<div id=\"text119598\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119598Font1\"  >FEEDBACK\n</span ></p ></div>\n');
 text119598.build()
 
-text119599 = new ObjText('text119599',null,362,300,282,99,0,52,null,'div',null,0 )
+text119599 = new ObjText('text119599',null,362,300,282,99,0,50,null,'div',null,0 )
 text119599.initSLine(0)
 text119599.initHasBullet(0)
 text119599.initRotateAngle(0,0,0)
@@ -630,7 +624,7 @@ text119599.arrCSSStyles.push('span.text119599Font3 { font-size:13px; font-family
 text119599.addInnerText('<div id=\"text119599\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119599Font1\"  >Correct.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119599Font2\"  >Total compensation for services rendered must be reasonable and conform to the established written policy of the NFE.</span ><span class=\"text119599Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119599.build()
 
-shape119602 = new ObjImage('shape119602','images/shape119602.png','Rectangle 17',0,0,1010.000000,601.000000,0,53,'div','',0 )
+shape119602 = new ObjImage('shape119602','images/shape119602.png','Rectangle 17',0,0,1010.000000,601.000000,0,51,'div','',0 )
 shape119602.initRotateAngle(0,0,0,-0.000000,-0.000000,1009,600)
 shape119602.initHasShadow(0)
 shape119602.initHasReflection(0)
@@ -643,7 +637,7 @@ shape119602.initLineWeight(0)
 shape119602.addOpacity(25)
 shape119602.build()
 
-shape119604 = new ObjImage('shape119604','images/shape119604.png','Rectangle 19',343,240,324.000000,183.000000,0,54,'div','',0 )
+shape119604 = new ObjImage('shape119604','images/shape119604.png','Rectangle 19',343,240,324.000000,183.000000,0,52,'div','',0 )
 shape119604.initRotateAngle(0,0,0,-0.000000,-0.000000,323,182)
 shape119604.initHasShadow(1)
 shape119604.initHasReflection(0)
@@ -657,7 +651,7 @@ shape119604.initLineWeight(2)
 shape119604.addOpacity(100)
 shape119604.build()
 
-shape119606 = new ObjImage('shape119606','images/shape119606.png','Rectangle 20',343,240,115.000000,44.000000,0,55,'div','',0 )
+shape119606 = new ObjImage('shape119606','images/shape119606.png','Rectangle 20',343,240,115.000000,44.000000,0,53,'div','',0 )
 shape119606.initRotateAngle(0,0,0,-0.000000,-0.000000,114,43)
 shape119606.initHasShadow(0)
 shape119606.initHasReflection(0)
@@ -670,7 +664,7 @@ shape119606.initLineWeight(0)
 shape119606.addOpacity(100)
 shape119606.build()
 
-image119608 = new ObjImage('image119608','images/image0049.png','Picture 23',626,247,29,29,0,56,'div',null, 0 )
+image119608 = new ObjImage('image119608','images/image0049.png','Picture 23',626,247,29,29,0,54,'div',null, 0 )
 image119608.initRotateAngle(0,0,0,0,0,0,0)
 image119608.initHasShadow(0)
 image119608.initHasReflection(0)
@@ -683,7 +677,7 @@ image119608.hasOnUp = true
 image119608.capture=4
 image119608.build()
 
-text119610 = new ObjText('text119610',null,369,249,84,28,0,57,null,'div',null,0 )
+text119610 = new ObjText('text119610',null,369,249,84,28,0,55,null,'div',null,0 )
 text119610.initSLine(1)
 text119610.initHasBullet(0)
 text119610.initRotateAngle(0,0,0)
@@ -700,7 +694,7 @@ text119610.arrCSSStyles.push('span.text119610Font1 { font-size:16px; font-family
 text119610.addInnerText('<div id=\"text119610\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119610Font1\"  >FEEDBACK\n</span ></p ></div>\n');
 text119610.build()
 
-text119611 = new ObjText('text119611',null,362,300,282,99,0,58,null,'div',null,0 )
+text119611 = new ObjText('text119611',null,362,300,282,99,0,56,null,'div',null,0 )
 text119611.initSLine(0)
 text119611.initHasBullet(0)
 text119611.initRotateAngle(0,0,0)
@@ -743,11 +737,7 @@ image250438.hasOnUp = true
 image250438.capture=4
 image250438.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,18,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(13)
-progress120186.build()
-
-text119531 = new ObjText('text119531',null,60,139,425,57,1,19,null,'div',null,0 )
+text119531 = new ObjText('text119531',null,60,139,425,57,1,18,null,'div',null,0 )
 text119531.initSLine(0)
 text119531.initHasBullet(0)
 text119531.initRotateAngle(0,0,0)
@@ -769,7 +759,7 @@ og311128 = new ObjInline('og311128',null,0,0,0,0,1,0)
 og311128.isGrp = true
 og311128.build()
 
-image252641 = new ObjImage('image252641','images/next-button.png','Next Page',870,537,80,33,1,20,'div',null, 0 )
+image252641 = new ObjImage('image252641','images/next-button.png','Next Page',870,537,80,33,1,19,'div',null, 0 )
 image252641.initRotateAngle(0,0,0,0,0,0,0)
 image252641.initHasShadow(0)
 image252641.initHasReflection(0)
@@ -782,25 +772,7 @@ image252641.hasOnUp = true
 image252641.capture=4
 image252641.build()
 
-text119579 = new ObjText('text119579',null,251,489,31,23,1,21,null,'div',null,0 )
-text119579.initSLine(1)
-text119579.initHasBullet(0)
-text119579.initRotateAngle(0,0,0)
-text119579.initHasOuterShadow(0)
-text119579.initHasTextShadow(0)
-text119579.initHasBorder(0)
-text119579.initHasOutline(0)
-text119579.initHasMargin(0)
-text119579.addIe8Attr(251, 489, 31, 23, 0, 0)
-text119579.addHeading(0)
-text119579.addOpacity(100)
-text119579.arrCSSStyles = new Array();
-text119579.arrCSSStyles.push('span.text119579Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119579.arrCSSStyles.push('span.text119579Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text119579.addInnerText('<div id=\"text119579\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119579Font1\"  >24%</span ><span class=\"text119579Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text119579.build()
-
-shape119582 = new ObjImage('shape119582','images/shape119582.png','Rectangle 8',118,222,84.000000,60.000000,1,22,'div','',0 )
+shape119582 = new ObjImage('shape119582','images/shape119582.png','Rectangle 8',118,222,84.000000,60.000000,1,20,'div','',0 )
 shape119582.initRotateAngle(0,0,0,-0.000000,-0.000000,83,59)
 shape119582.initHasShadow(0)
 shape119582.initHasReflection(0)
@@ -813,7 +785,7 @@ shape119582.initLineWeight(0)
 shape119582.addOpacity(100)
 shape119582.build()
 
-shape119584 = new ObjImage('shape119584','images/shape119584.png','Rectangle 10',118,290,84.000000,60.000000,1,23,'div','',0 )
+shape119584 = new ObjImage('shape119584','images/shape119584.png','Rectangle 10',118,290,84.000000,60.000000,1,21,'div','',0 )
 shape119584.initRotateAngle(0,0,0,-0.000000,-0.000000,83,59)
 shape119584.initHasShadow(0)
 shape119584.initHasReflection(0)
@@ -826,7 +798,7 @@ shape119584.initLineWeight(0)
 shape119584.addOpacity(100)
 shape119584.build()
 
-text119585 = new ObjText('text119585',null,69,373,880,24,1,24,null,'div',null,0 )
+text119585 = new ObjText('text119585',null,69,373,880,24,1,22,null,'div',null,0 )
 text119585.initSLine(1)
 text119585.initHasBullet(0)
 text119585.initRotateAngle(0,0,0)
@@ -845,7 +817,7 @@ text119585.arrCSSStyles.push('span.text119585Font3 { font-size:17px; font-family
 text119585.addInnerText('<div id=\"text119585\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119585Font1\"  >Select the correct answer and select </span ><span class=\"text119585Font2\"  >Submit</span ><span class=\"text119585Font1\"  >. Then, select </span ><span class=\"text119585Font2\"  >Next</span ><span class=\"text119585Font1\"  > to continue.</span ><span class=\"text119585Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119585.build()
 
-shape119587 = new ObjImage('shape119587','images/shape119587.png','Rectangle 12',458,468,91.000000,44.000000,1,25,'div','',0 )
+shape119587 = new ObjImage('shape119587','images/shape119587.png','Rectangle 12',458,468,91.000000,44.000000,1,23,'div','',0 )
 shape119587.initRotateAngle(0,0,0,-0.000000,-0.000000,90,43)
 shape119587.initHasShadow(0)
 shape119587.initHasReflection(0)
@@ -888,7 +860,7 @@ qu119613.addChild('radio119618')
 qu119613.ansVar=VarQuestion_0011;
 qu119613.build()
 
-text119614 = new ObjText('text119614',null,67,178,874,42,1,26,null,'div',null,0 )
+text119614 = new ObjText('text119614',null,67,178,874,42,1,24,null,'div',null,0 )
 text119614.initSLine(0)
 text119614.initHasBullet(0)
 text119614.initRotateAngle(0,0,0)
@@ -905,7 +877,7 @@ text119614.arrCSSStyles.push('span.text119614Font1 { font-size:16px; font-family
 text119614.addInnerText('<legend><div id=\"text119614\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119614Font1\"  >Total compensation for services rendered must be reasonable as measured against the national average for similar services.\n</span ></p ></div>\n</legend>\n');
 text119614.build()
 
-text119615 = new ObjText('text119615',null,140,245,51,23,1,27,null,'div',null,0 )
+text119615 = new ObjText('text119615',null,140,245,51,23,1,25,null,'div',null,0 )
 text119615.initSLine(1)
 text119615.initHasBullet(0)
 text119615.initRotateAngle(0,0,0)
@@ -923,12 +895,12 @@ text119615.arrCSSStyles.push('span.text119615Font2 { font-size:16px; font-family
 text119615.addInnerText('<div id=\"text119615\" aria-live=\"polite\" ><label id=\"label119616id\" for=\"radio119616id\" onClick=\"Update_qu119613(radio119616id.value);\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119615Font1\"  >True</span ><span class=\"text119615Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text119615.build()
 
-radio119616 = new ObjInline('radio119616',null,(is.ie?82:81),(is.ie?242:241),null,null,1,28, 0, null, null, 0)
+radio119616 = new ObjInline('radio119616',null,(is.ie?82:81),(is.ie?242:241),null,null,1,26, 0, null, null, 0)
 radio119616.arrCSSStyles = new Array();
 radio119616.arrCSSStyles.push('');
 radio119616.build()
 
-text119617 = new ObjText('text119617',null,140,312,65,35,1,29,null,'div',null,0 )
+text119617 = new ObjText('text119617',null,140,312,65,35,1,27,null,'div',null,0 )
 text119617.initSLine(1)
 text119617.initHasBullet(0)
 text119617.initRotateAngle(0,0,0)
@@ -946,12 +918,12 @@ text119617.arrCSSStyles.push('span.text119617Font2 { font-size:16px; font-family
 text119617.addInnerText('<div id=\"text119617\" aria-live=\"polite\" ><label id=\"label119618id\" for=\"radio119618id\" onClick=\"Update_qu119613(radio119618id.value);\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119617Font1\"  >False</span ><span class=\"text119617Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text119617.build()
 
-radio119618 = new ObjInline('radio119618',null,(is.ie?82:81),(is.ie?308:307),null,null,1,30, 0, null, null, 0)
+radio119618 = new ObjInline('radio119618',null,(is.ie?82:81),(is.ie?308:307),null,null,1,28, 0, null, null, 0)
 radio119618.arrCSSStyles = new Array();
 radio119618.arrCSSStyles.push('');
 radio119618.build()
 
-button119625 = new ObjButton('button119625', 'SUBMIT',447,469,111.000000,41.000000,1,31,'div','',1,0)
+button119625 = new ObjButton('button119625', 'SUBMIT',447,469,111.000000,41.000000,1,29,'div','',1,0)
 button119625.setUseSvgFile(1)
 button119625.setFillStyle(17)
 button119625.setUniqueFillID('page119578_button119625')
@@ -992,11 +964,9 @@ arObjs.push(text119610);
 arObjs.push(text119611);
 arObjs.push(image1612);
 arObjs.push(image250438);
-arObjs.push(progress120186);
 arObjs.push(text119531);
 arObjs.push(og311128);
 arObjs.push(image252641);
-arObjs.push(text119579);
 arObjs.push(shape119582);
 arObjs.push(shape119584);
 arObjs.push(text119585);
@@ -1053,10 +1023,8 @@ if( is.min ){
     appendElement(text119611, null, null);
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
-    appendElement(progress120186, null, null);
     appendElement(text119531, null, null);
     appendElement(image252641, null, null);
-    appendElement(text119579, null, null);
     appendElement(shape119582, null, null);
     appendElement(shape119584, null, null);
     appendElement(text119585, null, null);

@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0001 = new Variable( 'VarProgressBar_0001', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text67,image1612,image250438,image250446,progress62539,text116651,image16864,text871,text872))
+    PreloadResources(new Array(text67,image1612,image250438,image250446,image16864,text871,text872))
     pageLayer.show(true);
     text67.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress62539.init()
-    text116651.init()
     image16864.init()
     text871.init()
     text872.init()
@@ -224,8 +220,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress62539.activate()
-    text116651.activate()
     image16864.activate()
     text871.activate()
     text872.activate()
@@ -355,7 +349,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text67 = new ObjText('text67',null,253,536,505,30,1,22,null,'div',null,0 )
+text67 = new ObjText('text67',null,253,536,505,30,1,20,null,'div',null,0 )
 text67.initSLine(0)
 text67.initHasBullet(0)
 text67.initRotateAngle(0,0,0)
@@ -409,29 +403,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress62539 = new ObjProgress('progress62539','',65,575,878,31,1,22,1,7,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,35,0,0,0,0,0,'div',0 )
-progress62539.actionSetPos(23)
-progress62539.build()
-
-text116651 = new ObjText('text116651',null,618,578,31,23,1,8,null,'div',null,0 )
-text116651.initSLine(1)
-text116651.initHasBullet(0)
-text116651.initRotateAngle(0,0,0)
-text116651.initHasOuterShadow(0)
-text116651.initHasTextShadow(0)
-text116651.initHasBorder(0)
-text116651.initHasOutline(0)
-text116651.initHasMargin(0)
-text116651.addIe8Attr(618, 578, 31, 23, 0, 0)
-text116651.addHeading(0)
-text116651.addOpacity(100)
-text116651.arrCSSStyles = new Array();
-text116651.arrCSSStyles.push('span.text116651Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text116651.arrCSSStyles.push('span.text116651Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text116651.addInnerText('<div id=\"text116651\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text116651Font1\"  >73%</span ><span class=\"text116651Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text116651.build()
-
-image16864 = new ObjImage('image16864','images/image55.png','image55',595,117,414,414,1,9,'div',null, 0 )
+image16864 = new ObjImage('image16864','images/image55.png','image55',595,117,414,414,1,7,'div',null, 0 )
 image16864.initRotateAngle(0,0,0,0,0,0,0)
 image16864.initHasShadow(0)
 image16864.initHasReflection(0)
@@ -441,7 +413,7 @@ image16864.addBorder(0)
 image16864.addOpacity(100)
 image16864.build()
 
-text871 = new ObjText('text871',null,60,145,880,44,1,10,null,'div',null,0 )
+text871 = new ObjText('text871',null,60,145,880,44,1,8,null,'div',null,0 )
 text871.initSLine(0)
 text871.initHasBullet(0)
 text871.initRotateAngle(0,0,0)
@@ -459,7 +431,7 @@ text871.arrCSSStyles.push('span.text871Font2 { font-size:19px; font-family:"Oswa
 text871.addInnerText('<div id=\"text871\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text871Font1\"  >200.414: INDIRECT (F&amp;A) COSTS</span ><span class=\"text871Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text871.build()
 
-text872 = new ObjText('text872',null,68,191,476,302,1,11,null,'div',null,0 )
+text872 = new ObjText('text872',null,68,191,476,302,1,9,null,'div',null,0 )
 text872.initSLine(0)
 text872.initHasBullet(0)
 text872.initRotateAngle(0,0,0)
@@ -481,8 +453,6 @@ arObjs.push(text67);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress62539);
-arObjs.push(text116651);
 arObjs.push(image16864);
 arObjs.push(text871);
 arObjs.push(text872);
@@ -515,8 +485,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress62539, null, null);
-    appendElement(text116651, null, null);
     appendElement(image16864, null, null);
     appendElement(text871, null, null);
     appendElement(text872, null, null);

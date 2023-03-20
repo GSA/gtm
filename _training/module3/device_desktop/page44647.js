@@ -57,11 +57,7 @@ DesktopResponsive={"1009":{
 ,
 "image250438":{"x":58,"y":537,"w":80,"h":32,"bOffBottom":0,"i":"images/back-button.png"}
 ,
-"progress62539":{"x":65,"y":575,"w":878,"h":31,"bOffBottom":0,"vert":0,"barImage":"images/progress62539_bar.png","bgImage":"images/progress62539.png"}
-,
 "text220648":{"x":60,"y":140,"w":880,"h":52,"txtscale":100,"bOffBottom":0}
-,
-"text116821":{"x":692,"y":578,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
 ,
 "shape45978":{"x":109,"y":221,"w":52.000000,"h":42.000000,"stylemods":[{"sel":"div.shape45978Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:51.000000px; height:41.000000px;}"},{"sel":"span.shape45978Text","decl":" { width:47.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAqCAYAAAD8pHgAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAeSURBVGhD7cEBAQAAAIIg/6+uIUAAAAAAAAAAAHA1IkoAAX1MiXwAAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 51.000000 0.000000 L 51.000000 41.000000 L 0.000000 41.000000 L 0.000000 0.000000 z" ,"i":"images/shape45978.png"}
 ,

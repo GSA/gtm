@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,shape119901,text119091,text119092,text119093,shape119095,image119097,text119098,shape119100,text119101))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,shape119901,text119092,text119093,shape119095,image119097,text119098,shape119100,text119101))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
     shape119901.init()
-    text119091.init()
     text119092.init()
     text119093.init()
     shape119095.init()
@@ -229,9 +225,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
     shape119901.activate()
-    text119091.activate()
     text119092.activate()
     text119093.activate()
     shape119095.activate()
@@ -365,7 +359,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,27,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,25,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -419,11 +413,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(47)
-progress120186.build()
-
-shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,8,'div','',0 )
+shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape119901.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape119901.initHasShadow(0)
 shape119901.initHasReflection(0)
@@ -436,25 +426,7 @@ shape119901.initLineWeight(0)
 shape119901.addOpacity(100)
 shape119901.build()
 
-text119091 = new ObjText('text119091',null,813,545,31,23,1,9,null,'div',null,0 )
-text119091.initSLine(1)
-text119091.initHasBullet(0)
-text119091.initRotateAngle(0,0,0)
-text119091.initHasOuterShadow(0)
-text119091.initHasTextShadow(0)
-text119091.initHasBorder(0)
-text119091.initHasOutline(0)
-text119091.initHasMargin(0)
-text119091.addIe8Attr(813, 545, 31, 23, 0, 0)
-text119091.addHeading(0)
-text119091.addOpacity(100)
-text119091.arrCSSStyles = new Array();
-text119091.arrCSSStyles.push('span.text119091Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119091.arrCSSStyles.push('span.text119091Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text119091.addInnerText('<div id=\"text119091\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119091Font1\"  >90%</span ><span class=\"text119091Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text119091.build()
-
-text119092 = new ObjText('text119092',null,59,141,743,54,1,10,null,'div',null,0 )
+text119092 = new ObjText('text119092',null,59,141,743,54,1,8,null,'div',null,0 )
 text119092.initSLine(0)
 text119092.initHasBullet(0)
 text119092.initRotateAngle(0,0,0)
@@ -472,7 +444,7 @@ text119092.arrCSSStyles.push('span.text119092Font2 { font-size:19px; font-family
 text119092.addInnerText('<div id=\"text119092\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119092Font1\"  >200.464: RELOCATION COSTS OF EMPLOYEES</span ><span class=\"text119092Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119092.build()
 
-text119093 = new ObjText('text119093',null,66,184,357,302,1,11,null,'div',null,0 )
+text119093 = new ObjText('text119093',null,66,184,357,302,1,9,null,'div',null,0 )
 text119093.initSLine(0)
 text119093.initHasBullet(0)
 text119093.initRotateAngle(0,0,0)
@@ -490,7 +462,7 @@ text119093.arrCSSStyles.push('span.text119093Font3 { font-size:13px; font-family
 text119093.addInnerText('<div id=\"text119093\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119093Font1\"  >Relocation costs are also generally allowable but are subject to several requirements and limitations. Relocation costs include costs that are incident to the permanent change of duty assignment for either an existing employee or a newly hired employee. This move must be to the benefit of the employer, and the costs must be reimbursed in accordance with the NFE’s standard recruitment program or applicable policy.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119093Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119093Font1\"  >The total reimbursement must not exceed the employee’s actual or reasonably estimated costs. Relocation costs for a new employee who resigns within 12 months of hire for reasons within the employee’s control are not allowable. Any costs associated with this employee and charged to the award must be refunded to the Federal Government. </span ><span class=\"text119093Font3\"  >&nbsp;\n</span ></p ></div>\n');
 text119093.build()
 
-shape119095 = new ObjImage('shape119095','images/shape119095.png','Rectangle 12',450,243,336.000000,260.000000,1,12,'div','',0 )
+shape119095 = new ObjImage('shape119095','images/shape119095.png','Rectangle 12',450,243,336.000000,260.000000,1,10,'div','',0 )
 shape119095.initRotateAngle(0,0,0,-0.000000,-0.000000,335,259)
 shape119095.initHasShadow(0)
 shape119095.initHasReflection(0)
@@ -503,7 +475,7 @@ shape119095.initLineWeight(0)
 shape119095.addOpacity(100)
 shape119095.build()
 
-image119097 = new ObjImage('image119097','images/image107.png','image107',558,177,125,125,1,13,'div',null, 0 )
+image119097 = new ObjImage('image119097','images/image107.png','image107',558,177,125,125,1,11,'div',null, 0 )
 image119097.initRotateAngle(0,0,0,0,0,0,0)
 image119097.initHasShadow(0)
 image119097.initHasReflection(0)
@@ -513,7 +485,7 @@ image119097.addBorder(0)
 image119097.addOpacity(100)
 image119097.build()
 
-text119098 = new ObjText('text119098',null,479,315,275,165,1,14,null,'div',null,0 )
+text119098 = new ObjText('text119098',null,479,315,275,165,1,12,null,'div',null,0 )
 text119098.initSLine(0)
 text119098.initHasBullet(0)
 text119098.initRotateAngle(0,0,0)
@@ -531,7 +503,7 @@ text119098.arrCSSStyles.push('span.text119098Font2 { font-size:17px; font-family
 text119098.addInnerText('<div id=\"text119098\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119098Font1\"  >Allowable costs include transportation of the employee, their immediate family, and their household and personal effects to the new location. If dependents are not permitted at the location for any reason and the costs do not include the costs of transporting household goods, the costs of travel to an overseas location must be considered travel costs.</span ><span class=\"text119098Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119098.build()
 
-shape119100 = new ObjImage('shape119100','images/shape119100.png','Rectangle 8',815,398,195.000000,66.000000,1,15,'div','',0 )
+shape119100 = new ObjImage('shape119100','images/shape119100.png','Rectangle 8',815,398,195.000000,66.000000,1,13,'div','',0 )
 shape119100.initRotateAngle(0,0,0,-0.000000,-0.000000,194,65)
 shape119100.initHasShadow(0)
 shape119100.initHasReflection(0)
@@ -544,7 +516,7 @@ shape119100.initLineWeight(0)
 shape119100.addOpacity(100)
 shape119100.build()
 
-text119101 = new ObjText('text119101',null,848,151,138,360,1,16,null,'div',null,0 )
+text119101 = new ObjText('text119101',null,848,151,138,360,1,14,null,'div',null,0 )
 text119101.initSLine(0)
 text119101.initHasBullet(0)
 text119101.initRotateAngle(0,0,0)
@@ -569,9 +541,7 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
 arObjs.push(shape119901);
-arObjs.push(text119091);
 arObjs.push(text119092);
 arObjs.push(text119093);
 arObjs.push(shape119095);
@@ -608,9 +578,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
     appendElement(shape119901, null, null);
-    appendElement(text119091, null, null);
     appendElement(text119092, null, null);
     appendElement(text119093, null, null);
     appendElement(shape119095, null, null);

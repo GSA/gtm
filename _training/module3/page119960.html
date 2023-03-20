@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,15 +207,13 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,shape119901,text119961,text119962,text119963,text119964,text119965,shape119967,image119969,text119970,shape119972,text119973))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,shape119901,text119962,text119963,text119964,text119965,shape119967,image119969,text119970,shape119972,text119973))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
     shape119901.init()
-    text119961.init()
     text119962.init()
     text119963.init()
     text119964.init()
@@ -231,9 +227,7 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
     shape119901.activate()
-    text119961.activate()
     text119962.activate()
     text119963.activate()
     text119964.activate()
@@ -369,7 +363,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,29,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,27,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -423,11 +417,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(5)
-progress120186.build()
-
-shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,8,'div','',0 )
+shape119901 = new ObjImage('shape119901','images/shape119901.png','Sidebar Rectangle',825,121,184.000000,388.000000,1,7,'div','',0 )
 shape119901.initRotateAngle(0,0,0,-0.000000,-0.000000,183,387)
 shape119901.initHasShadow(0)
 shape119901.initHasReflection(0)
@@ -440,25 +430,7 @@ shape119901.initLineWeight(0)
 shape119901.addOpacity(100)
 shape119901.build()
 
-text119961 = new ObjText('text119961',null,125,498,31,23,1,9,null,'div',null,0 )
-text119961.initSLine(1)
-text119961.initHasBullet(0)
-text119961.initRotateAngle(0,0,0)
-text119961.initHasOuterShadow(0)
-text119961.initHasTextShadow(0)
-text119961.initHasBorder(0)
-text119961.initHasOutline(0)
-text119961.initHasMargin(0)
-text119961.addIe8Attr(125, 498, 31, 23, 0, 0)
-text119961.addHeading(0)
-text119961.addOpacity(100)
-text119961.arrCSSStyles = new Array();
-text119961.arrCSSStyles.push('span.text119961Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119961.arrCSSStyles.push('span.text119961Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text119961.addInnerText('<div id=\"text119961\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119961Font1\"  >10%</span ><span class=\"text119961Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text119961.build()
-
-text119962 = new ObjText('text119962',null,67,194,227,182,1,10,null,'div',null,0 )
+text119962 = new ObjText('text119962',null,67,194,227,182,1,8,null,'div',null,0 )
 text119962.initSLine(0)
 text119962.initHasBullet(0)
 text119962.initRotateAngle(0,0,0)
@@ -476,7 +448,7 @@ text119962.arrCSSStyles.push('span.text119962Font2 { font-size:16px; font-family
 text119962.addInnerText('<div id=\"text119962\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119962Font1\"  >Fringe benefits are allowances and services provided to employees as compensation in addition to regular salaries and wages. Fringe benefits include, but are not limited to, leave such as: vacation, sickness, or military service, as well as employee insurance, pensions, and unemployment benefit plans.</span ><span class=\"text119962Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119962.build()
 
-text119963 = new ObjText('text119963',null,850,245,74,131,1,11,null,'div',null,0 )
+text119963 = new ObjText('text119963',null,850,245,74,131,1,9,null,'div',null,0 )
 text119963.initSLine(0)
 text119963.initHasBullet(0)
 text119963.initRotateAngle(0,0,0)
@@ -494,7 +466,7 @@ text119963.arrCSSStyles.push('span.text119963Font2 { font-size:16px; font-family
 text119963.addInnerText('<div id=\"text119963\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119963Font1\" style=\"position:relative;top:-3px;\" >200.432\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119963Font1\" style=\"position:relative;top:-3px;\" >200.453\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119963Font1\" style=\"position:relative;top:-3px;\" >200.459\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119963Font1\" style=\"position:relative;top:-3px;\" >200.461\n</span ></p >\n<p  legLH=\"1.703\" style=\"margin-left:0px;text-indent:0px;line-height:1.575;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119963Font1\" style=\"position:relative;top:-3px;\" >200.474</span ><span class=\"text119963Font2\" style=\"background-color:transparentposition:relative;top:-3px;\" >\n</span ></p ></div>\n');
 text119963.build()
 
-text119964 = new ObjText('text119964',null,850,143,73,23,1,12,null,'div',null,0 )
+text119964 = new ObjText('text119964',null,850,143,73,23,1,10,null,'div',null,0 )
 text119964.initSLine(1)
 text119964.initHasBullet(0)
 text119964.initRotateAngle(0,0,0)
@@ -512,7 +484,7 @@ text119964.arrCSSStyles.push('span.text119964Font2 { font-size:16px; font-family
 text119964.addInnerText('<div id=\"text119964\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119964Font1\"  >200.430</span ><span class=\"text119964Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119964.build()
 
-text119965 = new ObjText('text119965',null,60,145,701,54,1,13,null,'div',null,0 )
+text119965 = new ObjText('text119965',null,60,145,701,54,1,11,null,'div',null,0 )
 text119965.initSLine(0)
 text119965.initHasBullet(0)
 text119965.initRotateAngle(0,0,0)
@@ -530,7 +502,7 @@ text119965.arrCSSStyles.push('span.text119965Font3 { font-size:19px; font-family
 text119965.addInnerText('<div id=\"text119965\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119965Font1\"  >200.431: COMPENSATION – FRINGE BENEFITS</span ><span class=\"text119965Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119965.build()
 
-shape119967 = new ObjImage('shape119967','images/shape119967.png','Rectangle 14',348,271,430.000000,235.000000,1,14,'div','',0 )
+shape119967 = new ObjImage('shape119967','images/shape119967.png','Rectangle 14',348,271,430.000000,235.000000,1,12,'div','',0 )
 shape119967.initRotateAngle(0,0,0,-0.000000,-0.000000,429,234)
 shape119967.initHasShadow(0)
 shape119967.initHasReflection(0)
@@ -543,7 +515,7 @@ shape119967.initLineWeight(0)
 shape119967.addOpacity(100)
 shape119967.build()
 
-image119969 = new ObjImage('image119969','images/image0056.png','Picture 19',474,182,176,176,1,15,'div',null, 0 )
+image119969 = new ObjImage('image119969','images/image0056.png','Picture 19',474,182,176,176,1,13,'div',null, 0 )
 image119969.initRotateAngle(0,0,0,0,0,0,0)
 image119969.initHasShadow(0)
 image119969.initHasReflection(0)
@@ -553,7 +525,7 @@ image119969.addBorder(0)
 image119969.addOpacity(100)
 image119969.build()
 
-text119970 = new ObjText('text119970',null,385,387,358,95,1,16,null,'div',null,0 )
+text119970 = new ObjText('text119970',null,385,387,358,95,1,14,null,'div',null,0 )
 text119970.initSLine(0)
 text119970.initHasBullet(0)
 text119970.initRotateAngle(0,0,0)
@@ -571,7 +543,7 @@ text119970.arrCSSStyles.push('span.text119970Font2 { font-size:17px; font-family
 text119970.addInnerText('<div id=\"text119970\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119970Font1\"  >Fringe benefits may be charged as a fringe benefit rate, a percentage of salary, or a component of a Federally-negotiated indirect cost rate. <br />The costs of fringe benefits are allowable except as provided elsewhere in the cost principles.</span ><span class=\"text119970Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119970.build()
 
-shape119972 = new ObjImage('shape119972','images/shape119972.png','Rectangle 11',813,165,195.000000,71.000000,1,17,'div','',0 )
+shape119972 = new ObjImage('shape119972','images/shape119972.png','Rectangle 11',813,165,195.000000,71.000000,1,15,'div','',0 )
 shape119972.initRotateAngle(0,0,0,-0.000000,-0.000000,194,70)
 shape119972.initHasShadow(0)
 shape119972.initHasReflection(0)
@@ -584,7 +556,7 @@ shape119972.initLineWeight(0)
 shape119972.addOpacity(100)
 shape119972.build()
 
-text119973 = new ObjText('text119973',null,850,173,138,58,1,18,null,'div',null,0 )
+text119973 = new ObjText('text119973',null,850,173,138,58,1,16,null,'div',null,0 )
 text119973.initSLine(0)
 text119973.initHasBullet(0)
 text119973.initRotateAngle(0,0,0)
@@ -608,9 +580,7 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
 arObjs.push(shape119901);
-arObjs.push(text119961);
 arObjs.push(text119962);
 arObjs.push(text119963);
 arObjs.push(text119964);
@@ -649,9 +619,7 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
     appendElement(shape119901, null, null);
-    appendElement(text119961, null, null);
     appendElement(text119962, null, null);
     appendElement(text119963, null, null);
     appendElement(text119964, null, null);

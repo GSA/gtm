@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0001 = new Variable( 'VarProgressBar_0001', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text67,image1612,image250438,image250446,progress62539,text116599,text814,text815,shape816,image15753))
+    PreloadResources(new Array(text67,image1612,image250438,image250446,text814,text815,shape816,image15753))
     pageLayer.show(true);
     text67.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress62539.init()
-    text116599.init()
     text814.init()
     text815.init()
     shape816.init()
@@ -225,8 +221,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress62539.activate()
-    text116599.activate()
     text814.activate()
     text815.activate()
     shape816.activate()
@@ -357,7 +351,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text67 = new ObjText('text67',null,253,536,505,30,1,23,null,'div',null,0 )
+text67 = new ObjText('text67',null,253,536,505,30,1,21,null,'div',null,0 )
 text67.initSLine(0)
 text67.initHasBullet(0)
 text67.initRotateAngle(0,0,0)
@@ -411,29 +405,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress62539 = new ObjProgress('progress62539','',65,575,878,31,1,22,1,7,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,35,0,0,0,0,0,'div',0 )
-progress62539.actionSetPos(19)
-progress62539.build()
-
-text116599 = new ObjText('text116599',null,523,578,31,23,1,8,null,'div',null,0 )
-text116599.initSLine(1)
-text116599.initHasBullet(0)
-text116599.initRotateAngle(0,0,0)
-text116599.initHasOuterShadow(0)
-text116599.initHasTextShadow(0)
-text116599.initHasBorder(0)
-text116599.initHasOutline(0)
-text116599.initHasMargin(0)
-text116599.addIe8Attr(523, 578, 31, 23, 0, 0)
-text116599.addHeading(0)
-text116599.addOpacity(100)
-text116599.arrCSSStyles = new Array();
-text116599.arrCSSStyles.push('span.text116599Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text116599.arrCSSStyles.push('span.text116599Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text116599.addInnerText('<div id=\"text116599\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text116599Font1\"  >60%</span ><span class=\"text116599Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text116599.build()
-
-text814 = new ObjText('text814',null,60,145,437,48,1,9,null,'div',null,0 )
+text814 = new ObjText('text814',null,60,145,437,48,1,7,null,'div',null,0 )
 text814.initSLine(0)
 text814.initHasBullet(0)
 text814.initRotateAngle(0,0,0)
@@ -451,7 +423,7 @@ text814.arrCSSStyles.push('span.text814Font2 { font-size:19px; font-family:"Oswa
 text814.addInnerText('<div id=\"text814\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text814Font1\"  >200.413: DIRECT COSTS</span ><span class=\"text814Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text814.build()
 
-text815 = new ObjText('text815',null,67,192,389,302,1,10,null,'div',null,0 )
+text815 = new ObjText('text815',null,67,192,389,302,1,8,null,'div',null,0 )
 text815.initSLine(0)
 text815.initHasBullet(0)
 text815.initRotateAngle(0,0,0)
@@ -469,7 +441,7 @@ text815.arrCSSStyles.push('span.text815Font2 { font-size:13px; font-family:"Aria
 text815.addInnerText('<div id=\"text815\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text815Font1\"  >As we introduced earlier, direct costs are any costs that can be associated with a Federal award. Costs that can be directly assigned to the award relatively easily with a high degree of accuracy can also be charged as direct costs.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text815Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text815Font1\"  >Typical costs charged directly to a Federal award include the compensation of employees who work on that award, the related fringe benefit costs, materials, and travel that directly support the performance of the Federal award. Some costs might typically be treated as indirect costs, but in some cases be directly related to a specific award and charged instead as direct. An example of this would be costs associated with program evaluation of the award in question.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text815Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text815Font1\"  >An important point to keep in mind is that costs should be treated consistently.</span ><span class=\"text815Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text815.build()
 
-shape816 = new ObjImage('shape816','images/shape816.png','Rectangle 8',514,145,495.000000,350.000000,1,11,'div','',0 )
+shape816 = new ObjImage('shape816','images/shape816.png','Rectangle 8',514,145,495.000000,350.000000,1,9,'div','',0 )
 shape816.initRotateAngle(0,0,0,-0.000000,-0.000000,494,349)
 shape816.initHasShadow(0)
 shape816.initHasReflection(0)
@@ -482,7 +454,7 @@ shape816.initLineWeight(0)
 shape816.addOpacity(100)
 shape816.build()
 
-image15753 = new ObjImage('image15753','images/image49.png','image49',558,113,412,412,1,12,'div',null, 0 )
+image15753 = new ObjImage('image15753','images/image49.png','image49',558,113,412,412,1,10,'div',null, 0 )
 image15753.initRotateAngle(0,0,0,0,0,0,0)
 image15753.initHasShadow(0)
 image15753.initHasReflection(0)
@@ -496,8 +468,6 @@ arObjs.push(text67);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress62539);
-arObjs.push(text116599);
 arObjs.push(text814);
 arObjs.push(text815);
 arObjs.push(shape816);
@@ -531,8 +501,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress62539, null, null);
-    appendElement(text116599, null, null);
     appendElement(text814, null, null);
     appendElement(text815, null, null);
     appendElement(shape816, null, null);

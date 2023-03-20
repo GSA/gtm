@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0004 = new Variable( 'VarProgressBar_0004', '1', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23237,image1612,image250438,image250446,progress178094,text118089,text3173,text3174,image3176))
+    PreloadResources(new Array(text23237,image1612,image250438,image250446,text3173,text3174,image3176))
     pageLayer.show(true);
     text23237.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress178094.init()
-    text118089.init()
     text3173.init()
     text3174.init()
     image3176.init()
@@ -224,8 +220,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress178094.activate()
-    text118089.activate()
     text3173.activate()
     text3174.activate()
     image3176.activate()
@@ -355,7 +349,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text23237 = new ObjText('text23237',null,253,553,505,30,1,22,null,'div',null,0 )
+text23237 = new ObjText('text23237',null,253,553,505,30,1,20,null,'div',null,0 )
 text23237.initSLine(0)
 text23237.initHasBullet(0)
 text23237.initRotateAngle(0,0,0)
@@ -409,29 +403,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress178094 = new ObjProgress('progress178094','',65,517,878,20,1,18,1,7,'#07648d','images/progress178094_bar.png','#ffffff','images/progress178094.png',1,32,0,0,0,0,0,'div',0 )
-progress178094.actionSetPos(6)
-progress178094.build()
-
-text118089 = new ObjText('text118089',null,204,492,31,23,1,8,null,'div',null,0 )
-text118089.initSLine(1)
-text118089.initHasBullet(0)
-text118089.initRotateAngle(0,0,0)
-text118089.initHasOuterShadow(0)
-text118089.initHasTextShadow(0)
-text118089.initHasBorder(0)
-text118089.initHasOutline(0)
-text118089.initHasMargin(0)
-text118089.addIe8Attr(204, 492, 31, 23, 0, 0)
-text118089.addHeading(0)
-text118089.addOpacity(100)
-text118089.arrCSSStyles = new Array();
-text118089.arrCSSStyles.push('span.text118089Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118089.arrCSSStyles.push('span.text118089Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text118089.addInnerText('<div id=\"text118089\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118089Font1\"  >20%</span ><span class=\"text118089Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text118089.build()
-
-text3173 = new ObjText('text3173',null,60,145,880,53,1,9,null,'div',null,0 )
+text3173 = new ObjText('text3173',null,60,145,880,53,1,7,null,'div',null,0 )
 text3173.initSLine(0)
 text3173.initHasBullet(0)
 text3173.initRotateAngle(0,0,0)
@@ -449,7 +421,7 @@ text3173.arrCSSStyles.push('span.text3173Font2 { font-size:19px; font-family:"Os
 text3173.addInnerText('<div id=\"text3173\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3173Font1\"  >BUDGET REVIEW</span ><span class=\"text3173Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3173.build()
 
-text3174 = new ObjText('text3174',null,67,188,413,262,1,10,null,'div',null,0 )
+text3174 = new ObjText('text3174',null,67,188,413,262,1,8,null,'div',null,0 )
 text3174.initSLine(0)
 text3174.initHasBullet(0)
 text3174.initRotateAngle(0,0,0)
@@ -467,7 +439,7 @@ text3174.arrCSSStyles.push('span.text3174Font3 { font-size:13px; font-family:"Ar
 text3174.addInnerText('<div id=\"text3174\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3174Font1\"  >When a Federal awarding agency receives a project proposal, the agency will carefully review the non-Federal entity’s (NFE’s) budget submission to determine whether costs are reasonable, allowable, and/or allocable.\n</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3174Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3174Font1\"  >Non-Federal entities submit a budget summary and budget categories through the SF-424 A (non-construction) or SF-424 C (construction). Additional information should be included to provide more detail for the Federal awarding agency to review costs and ensure they match the activities included in the proposal. This information can be included in a separate spreadsheet or a budget narrative that explains the costs, or both.</span ><span class=\"text3174Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text3174.build()
 
-image3176 = new ObjImage('image3176','images/image0091.png','Picture 7',534,117,411,411,1,11,'div',null, 0 )
+image3176 = new ObjImage('image3176','images/image0091.png','Picture 7',534,117,411,411,1,9,'div',null, 0 )
 image3176.initRotateAngle(0,0,0,0,0,0,0)
 image3176.initHasShadow(0)
 image3176.initHasReflection(0)
@@ -481,8 +453,6 @@ arObjs.push(text23237);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress178094);
-arObjs.push(text118089);
 arObjs.push(text3173);
 arObjs.push(text3174);
 arObjs.push(image3176);
@@ -515,8 +485,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress178094, null, null);
-    appendElement(text118089, null, null);
     appendElement(text3173, null, null);
     appendElement(text3174, null, null);
     appendElement(image3176, null, null);

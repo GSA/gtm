@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0004 = new Variable( 'VarProgressBar_0004', '1', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,22 +207,18 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text23237,image1612,image250438,image250446,progress178094,text118361,text3532,image3534))
+    PreloadResources(new Array(text23237,image1612,image250438,image250446,text3532,image3534))
     pageLayer.show(true);
     text23237.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress178094.init()
-    text118361.init()
     text3532.init()
     image3534.init()
     text23237.activate()
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress178094.activate()
-    text118361.activate()
     text3532.activate()
     image3534.activate()
     var objToScroll = trivGetScrollObj(window.location.href) ;
@@ -353,7 +347,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text23237 = new ObjText('text23237',null,253,553,505,30,1,21,null,'div',null,0 )
+text23237 = new ObjText('text23237',null,253,553,505,30,1,19,null,'div',null,0 )
 text23237.initSLine(0)
 text23237.initHasBullet(0)
 text23237.initRotateAngle(0,0,0)
@@ -407,29 +401,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress178094 = new ObjProgress('progress178094','',65,517,878,20,1,18,1,7,'#07648d','images/progress178094_bar.png','#ffffff','images/progress178094.png',1,32,0,0,0,0,0,'div',0 )
-progress178094.actionSetPos(11)
-progress178094.build()
-
-text118361 = new ObjText('text118361',null,500,497,31,23,1,8,null,'div',null,0 )
-text118361.initSLine(1)
-text118361.initHasBullet(0)
-text118361.initRotateAngle(0,0,0)
-text118361.initHasOuterShadow(0)
-text118361.initHasTextShadow(0)
-text118361.initHasBorder(0)
-text118361.initHasOutline(0)
-text118361.initHasMargin(0)
-text118361.addIe8Attr(500, 497, 31, 23, 0, 0)
-text118361.addHeading(0)
-text118361.addOpacity(100)
-text118361.arrCSSStyles = new Array();
-text118361.arrCSSStyles.push('span.text118361Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118361.arrCSSStyles.push('span.text118361Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text118361.addInnerText('<div id=\"text118361\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118361Font1\"  >54%</span ><span class=\"text118361Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text118361.build()
-
-text3532 = new ObjText('text3532',null,63,145,872,54,1,9,null,'div',null,0 )
+text3532 = new ObjText('text3532',null,63,145,872,54,1,7,null,'div',null,0 )
 text3532.initSLine(0)
 text3532.initHasBullet(0)
 text3532.initRotateAngle(0,0,0)
@@ -447,7 +419,7 @@ text3532.arrCSSStyles.push('span.text3532Font2 { font-size:19px; font-family:"Os
 text3532.addInnerText('<div id=\"text3532\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text3532Font1\"  >CONDUCT A BUDGET REVIEW</span ><span class=\"text3532Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text3532.build()
 
-image3534 = new ObjImage('image3534','images/image0101.png','Table 8',69,190,871,300,1,10,'div',null, 0 )
+image3534 = new ObjImage('image3534','images/image0101.png','Table 8',69,190,871,300,1,8,'div',null, 0 )
 image3534.initRotateAngle(0,0,0,0,0,0,0)
 image3534.initHasShadow(0)
 image3534.initHasReflection(0)
@@ -461,8 +433,6 @@ arObjs.push(text23237);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress178094);
-arObjs.push(text118361);
 arObjs.push(text3532);
 arObjs.push(image3534);
 
@@ -494,8 +464,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress178094, null, null);
-    appendElement(text118361, null, null);
     appendElement(text3532, null, null);
     appendElement(image3534, null, null);
 }

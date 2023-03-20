@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0001 = new Variable( 'VarProgressBar_0001', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text67,image1612,image250438,image250446,progress62539,text116625,text844,text845,shape846,image849,shape851,text853,shape854,text856))
+    PreloadResources(new Array(text67,image1612,image250438,image250446,text844,text845,shape846,image849,shape851,text853,shape854,text856))
     pageLayer.show(true);
     text67.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress62539.init()
-    text116625.init()
     text844.init()
     text845.init()
     shape846.init()
@@ -229,8 +225,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress62539.activate()
-    text116625.activate()
     text844.activate()
     text845.activate()
     shape846.activate()
@@ -365,7 +359,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text67 = new ObjText('text67',null,253,536,505,30,1,27,null,'div',null,0 )
+text67 = new ObjText('text67',null,253,536,505,30,1,25,null,'div',null,0 )
 text67.initSLine(0)
 text67.initHasBullet(0)
 text67.initRotateAngle(0,0,0)
@@ -419,29 +413,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress62539 = new ObjProgress('progress62539','',65,575,878,31,1,22,1,7,'#07648d','images/progress62539_bar.png','#ffffff','images/progress62539.png',1,35,0,0,0,0,0,'div',0 )
-progress62539.actionSetPos(21)
-progress62539.build()
-
-text116625 = new ObjText('text116625',null,573,578,31,23,1,8,null,'div',null,0 )
-text116625.initSLine(1)
-text116625.initHasBullet(0)
-text116625.initRotateAngle(0,0,0)
-text116625.initHasOuterShadow(0)
-text116625.initHasTextShadow(0)
-text116625.initHasBorder(0)
-text116625.initHasOutline(0)
-text116625.initHasMargin(0)
-text116625.addIe8Attr(573, 578, 31, 23, 0, 0)
-text116625.addHeading(0)
-text116625.addOpacity(100)
-text116625.arrCSSStyles = new Array();
-text116625.arrCSSStyles.push('span.text116625Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text116625.arrCSSStyles.push('span.text116625Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text116625.addInnerText('<div id=\"text116625\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text116625Font1\"  >67%</span ><span class=\"text116625Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text116625.build()
-
-text844 = new ObjText('text844',null,59,145,875,55,1,9,null,'div',null,0 )
+text844 = new ObjText('text844',null,59,145,875,55,1,7,null,'div',null,0 )
 text844.initSLine(0)
 text844.initHasBullet(0)
 text844.initRotateAngle(0,0,0)
@@ -459,7 +431,7 @@ text844.arrCSSStyles.push('span.text844Font2 { font-size:19px; font-family:"Oswa
 text844.addInnerText('<div id=\"text844\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text844Font1\"  >200.414: INDIRECT (F&amp;A) COSTS</span ><span class=\"text844Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text844.build()
 
-text845 = new ObjText('text845',null,66,189,867,71,1,10,null,'div',null,0 )
+text845 = new ObjText('text845',null,66,189,867,71,1,8,null,'div',null,0 )
 text845.initSLine(0)
 text845.initHasBullet(0)
 text845.initRotateAngle(0,0,0)
@@ -477,7 +449,7 @@ text845.arrCSSStyles.push('span.text845Font2 { font-size:13px; font-family:"Aria
 text845.addInnerText('<div id=\"text845\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text845Font1\"  >Negotiated Indirect Cost Rate Agreements (NICRA) are developed by a cognizant agency that is normally the agency with the largest dollar amount of Federal awards. The agency responsible for developing this rate, which is a percentage that is applied to federal awards, negotiates the development of the rate by reviewing an indirect cost proposal that includes information such as financial statements and the accounting ledger. &nbsp;&nbsp;</span ><span class=\"text845Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text845.build()
 
-shape846 = new ObjImage('shape846','images/shape846.png','Rectangle 9',162,283,417.000000,206.000000,1,11,'div','',0 )
+shape846 = new ObjImage('shape846','images/shape846.png','Rectangle 9',162,283,417.000000,206.000000,1,9,'div','',0 )
 shape846.initRotateAngle(0,0,0,-0.000000,-0.000000,416,205)
 shape846.initHasShadow(0)
 shape846.initHasReflection(0)
@@ -490,7 +462,7 @@ shape846.initLineWeight(0)
 shape846.addOpacity(100)
 shape846.build()
 
-image849 = new ObjImage('image849','images/image0041.png','Picture 11',69,293,185,185,1,12,'div',null, 0 )
+image849 = new ObjImage('image849','images/image0041.png','Picture 11',69,293,185,185,1,10,'div',null, 0 )
 image849.initRotateAngle(0,0,0,0,0,0,0)
 image849.initHasShadow(0)
 image849.initHasReflection(0)
@@ -500,7 +472,7 @@ image849.addBorder(0)
 image849.addOpacity(100)
 image849.build()
 
-shape851 = new ObjImage('shape851','images/shape851.png','Straight Connector 12',287,323,237.000000,4.000000,1,13,'div','',0 )
+shape851 = new ObjImage('shape851','images/shape851.png','Straight Connector 12',287,323,237.000000,4.000000,1,11,'div','',0 )
 shape851.initRotateAngle(0,0,0,-1.000000,-1.000000,233,0)
 shape851.initHasShadow(0)
 shape851.initHasReflection(0)
@@ -513,7 +485,7 @@ shape851.initLineWeight(1)
 shape851.addOpacity(100)
 shape851.build()
 
-text853 = new ObjText('text853',null,281,351,241,101,1,14,null,'div',null,0 )
+text853 = new ObjText('text853',null,281,351,241,101,1,12,null,'div',null,0 )
 text853.initSLine(0)
 text853.initHasBullet(0)
 text853.initRotateAngle(0,0,0)
@@ -531,7 +503,7 @@ text853.arrCSSStyles.push('span.text853Font2 { font-size:17px; font-family:"Aria
 text853.addInnerText('<div id=\"text853\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text853Font1\"  >Once a rate is formally established for the year in question, <br />this rate must be accepted by all Federal awarding agencies.</span ><span class=\"text853Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text853.build()
 
-shape854 = new ObjImage('shape854','images/shape854.png','Straight Connector 13',287,445,237.000000,4.000000,1,15,'div','',0 )
+shape854 = new ObjImage('shape854','images/shape854.png','Straight Connector 13',287,445,237.000000,4.000000,1,13,'div','',0 )
 shape854.initRotateAngle(0,0,0,-1.000000,-1.000000,233,0)
 shape854.initHasShadow(0)
 shape854.initHasReflection(0)
@@ -544,7 +516,7 @@ shape854.initLineWeight(1)
 shape854.addOpacity(100)
 shape854.build()
 
-text856 = new ObjText('text856',null,614,284,319,178,1,16,null,'div',null,0 )
+text856 = new ObjText('text856',null,614,284,319,178,1,14,null,'div',null,0 )
 text856.initSLine(0)
 text856.initHasBullet(0)
 text856.initRotateAngle(0,0,0)
@@ -566,8 +538,6 @@ arObjs.push(text67);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress62539);
-arObjs.push(text116625);
 arObjs.push(text844);
 arObjs.push(text845);
 arObjs.push(shape846);
@@ -605,8 +575,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress62539, null, null);
-    appendElement(text116625, null, null);
     appendElement(text844, null, null);
     appendElement(text845, null, null);
     appendElement(shape846, null, null);

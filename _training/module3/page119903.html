@@ -49,7 +49,6 @@
 <script src="jquery-3.6.0.min.js"></script>
 <script src="trivantis-cookie.js"></script>
 <script src="trivantis-image.js"></script>
-<script src="trivantis-progress.js"></script>
 <script src="trivantis-inline.js"></script>
 <script src="trivantis-text.js"></script>
 <script src="trivantis-pagetracking.js"></script>
@@ -187,7 +186,6 @@ function ReFlow() {
 
 
 VarTrivSelCap = new Variable( 'VarTrivSelCap', 'none', 0, 0, null, null, 'module3', true )
-VarProgressBar_0002 = new Variable( 'VarProgressBar_0002', '0', 0, 0, null, null, 'module3', false )
 
 onload = responsiveInit
 detect();
@@ -209,14 +207,12 @@ function init11() {
   findWH()
   if( is.min ){
     trivPageTracking.InitPageTracking();
-    PreloadResources(new Array(text119902,image1612,image250438,image250446,progress120186,text119904,text119905,text119906,text119907,text119908,shape119910,image119912,text119913,shape119915,image119917,text119918,shape119920,image119922,text119923))
+    PreloadResources(new Array(text119902,image1612,image250438,image250446,text119905,text119906,text119907,text119908,shape119910,image119912,text119913,shape119915,image119917,text119918,shape119920,image119922,text119923))
     pageLayer.show(true);
     text119902.init()
     image1612.init()
     image250438.init()
     image250446.init()
-    progress120186.init()
-    text119904.init()
     text119905.init()
     text119906.init()
     text119907.init()
@@ -234,8 +230,6 @@ function init11() {
     image1612.activate()
     image250438.activate()
     image250446.activate()
-    progress120186.activate()
-    text119904.activate()
     text119905.activate()
     text119906.activate()
     text119907.activate()
@@ -375,7 +369,7 @@ function image250446onUp() {
 }
 
 if( is.min ){
-text119902 = new ObjText('text119902',null,253,552,505,30,1,32,null,'div',null,0 )
+text119902 = new ObjText('text119902',null,253,552,505,30,1,30,null,'div',null,0 )
 text119902.initSLine(0)
 text119902.initHasBullet(0)
 text119902.initRotateAngle(0,0,0)
@@ -429,29 +423,7 @@ image250446.hasOnUp = true
 image250446.capture=4
 image250446.build()
 
-progress120186 = new ObjProgress('progress120186','',65,517,878,20,1,18,1,7,'#07648d','images/progress120186_bar.png','#ffffff','images/progress120186.png',1,53,0,0,0,0,0,'div',0 )
-progress120186.actionSetPos(1)
-progress120186.build()
-
-text119904 = new ObjText('text119904',null,72,488,31,23,1,8,null,'div',null,0 )
-text119904.initSLine(1)
-text119904.initHasBullet(0)
-text119904.initRotateAngle(0,0,0)
-text119904.initHasOuterShadow(0)
-text119904.initHasTextShadow(0)
-text119904.initHasBorder(0)
-text119904.initHasOutline(0)
-text119904.initHasMargin(0)
-text119904.addIe8Attr(72, 488, 31, 23, 0, 0)
-text119904.addHeading(0)
-text119904.addOpacity(100)
-text119904.arrCSSStyles = new Array();
-text119904.arrCSSStyles.push('span.text119904Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119904.arrCSSStyles.push('span.text119904Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text119904.addInnerText('<div id=\"text119904\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119904Font1\"  >2%</span ><span class=\"text119904Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
-text119904.build()
-
-text119905 = new ObjText('text119905',null,66,312,200,29,1,9,null,'div',null,0 )
+text119905 = new ObjText('text119905',null,66,312,200,29,1,7,null,'div',null,0 )
 text119905.initSLine(1)
 text119905.initHasBullet(0)
 text119905.initRotateAngle(0,0,0)
@@ -469,7 +441,7 @@ text119905.arrCSSStyles.push('span.text119905Font2 { font-size:16px; font-family
 text119905.addInnerText('<div id=\"text119905\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119905Font1\"  >IN THIS LESSON:</span ><span class=\"text119905Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119905.build()
 
-text119906 = new ObjText('text119906',null,67,138,145,44,1,10,'#ffbe2e','div',null,0 )
+text119906 = new ObjText('text119906',null,67,138,145,44,1,8,'#ffbe2e','div',null,0 )
 text119906.initSLine(0)
 text119906.initHasBullet(0)
 text119906.initRotateAngle(0,0,0)
@@ -487,7 +459,7 @@ text119906.arrCSSStyles.push('span.text119906Font2 { font-size:16px; font-family
 text119906.addInnerText('<div id=\"text119906\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119906Font1\"  >LESSON 2</span ><span class=\"text119906Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119906.build()
 
-text119907 = new ObjText('text119907',null,221,138,439,50,1,11,null,'div',null,0 )
+text119907 = new ObjText('text119907',null,221,138,439,50,1,9,null,'div',null,0 )
 text119907.initSLine(0)
 text119907.initHasBullet(0)
 text119907.initRotateAngle(0,0,0)
@@ -505,7 +477,7 @@ text119907.arrCSSStyles.push('span.text119907Font2 { font-size:19px; font-family
 text119907.addInnerText('<div id=\"text119907\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119907Font1\"  >SELECT ITEMS OF COST</span ><span class=\"text119907Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119907.build()
 
-text119908 = new ObjText('text119908',null,60,190,879,127,1,12,null,'div',null,0 )
+text119908 = new ObjText('text119908',null,60,190,879,127,1,10,null,'div',null,0 )
 text119908.initSLine(0)
 text119908.initHasBullet(0)
 text119908.initRotateAngle(0,0,0)
@@ -523,7 +495,7 @@ text119908.arrCSSStyles.push('span.text119908Font3 { font-size:16px; font-family
 text119908.addInnerText('<div id=\"text119908\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:13px;text-align:left;\" >\n<span class=\"text119908Font1\"  >We’ve reviewed the basic principles of costs, including the difference between allowable, reasonable, and allocable costs and direct and indirect costs. Now, let’s review the section of Subpart E called General Provisions for Select Items of Cost. This section provides principles to be applied in establishing the allowability of certain items involved in determining cost. It includes 61 separate types of costs and addresses whether they are strictly allowable or unallowable, or whether they are allowable or unallowable in specific circumstances. Some of these costs also require prior approval, the list of which is provided in 2 CFR 200.474.</span ><span class=\"text119908Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119908.build()
 
-shape119910 = new ObjImage('shape119910','images/shape119910.png','Rectangle 16',65,383,278.000000,119.000000,1,13,'div','',0 )
+shape119910 = new ObjImage('shape119910','images/shape119910.png','Rectangle 16',65,383,278.000000,119.000000,1,11,'div','',0 )
 shape119910.initRotateAngle(0,0,0,-0.000000,-0.000000,277,118)
 shape119910.initHasShadow(0)
 shape119910.initHasReflection(0)
@@ -536,7 +508,7 @@ shape119910.initLineWeight(0)
 shape119910.addOpacity(100)
 shape119910.build()
 
-image119912 = new ObjImage('image119912','images/image0052.png','Picture 19',173,354,58,58,1,14,'div',null, 0 )
+image119912 = new ObjImage('image119912','images/image0052.png','Picture 19',173,354,58,58,1,12,'div',null, 0 )
 image119912.initRotateAngle(0,0,0,0,0,0,0)
 image119912.initHasShadow(0)
 image119912.initHasReflection(0)
@@ -546,7 +518,7 @@ image119912.addBorder(0)
 image119912.addOpacity(100)
 image119912.build()
 
-text119913 = new ObjText('text119913',null,66,411,274,90,1,15,null,'div',null,0 )
+text119913 = new ObjText('text119913',null,66,411,274,90,1,13,null,'div',null,0 )
 text119913.initSLine(0)
 text119913.initHasBullet(0)
 text119913.initRotateAngle(0,0,0)
@@ -564,7 +536,7 @@ text119913.arrCSSStyles.push('span.text119913Font3 { font-size:13px; font-family
 text119913.addInnerText('<div id=\"text119913\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:19px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119913Font1\"  >We’ll look at a <br />few examples of these <br />cost categories</span ><span class=\"text119913Font3\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119913.build()
 
-shape119915 = new ObjImage('shape119915','images/shape119915.png','Rectangle 17',365,383,278.000000,119.000000,1,16,'div','',0 )
+shape119915 = new ObjImage('shape119915','images/shape119915.png','Rectangle 17',365,383,278.000000,119.000000,1,14,'div','',0 )
 shape119915.initRotateAngle(0,0,0,-0.000000,-0.000000,277,118)
 shape119915.initHasShadow(0)
 shape119915.initHasReflection(0)
@@ -577,7 +549,7 @@ shape119915.initLineWeight(0)
 shape119915.addOpacity(100)
 shape119915.build()
 
-image119917 = new ObjImage('image119917','images/image63.png','image63',471,355,58,58,1,17,'div',null, 0 )
+image119917 = new ObjImage('image119917','images/image63.png','image63',471,355,58,58,1,15,'div',null, 0 )
 image119917.initRotateAngle(0,0,0,0,0,0,0)
 image119917.initHasShadow(0)
 image119917.initHasReflection(0)
@@ -587,7 +559,7 @@ image119917.addBorder(0)
 image119917.addOpacity(100)
 image119917.build()
 
-text119918 = new ObjText('text119918',null,387,415,234,90,1,18,null,'div',null,0 )
+text119918 = new ObjText('text119918',null,387,415,234,90,1,16,null,'div',null,0 )
 text119918.initSLine(0)
 text119918.initHasBullet(0)
 text119918.initRotateAngle(0,0,0)
@@ -605,7 +577,7 @@ text119918.arrCSSStyles.push('span.text119918Font2 { font-size:13px; font-family
 text119918.addInnerText('<div id=\"text119918\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:19px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:center;\" >\n<span class=\"text119918Font1\"  >Review whether (and when) they are allowable <br />or unallowable</span ><span class=\"text119918Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119918.build()
 
-shape119920 = new ObjImage('shape119920','images/shape119920.png','Rectangle 18',666,383,278.000000,119.000000,1,19,'div','',0 )
+shape119920 = new ObjImage('shape119920','images/shape119920.png','Rectangle 18',666,383,278.000000,119.000000,1,17,'div','',0 )
 shape119920.initRotateAngle(0,0,0,-0.000000,-0.000000,277,118)
 shape119920.initHasShadow(0)
 shape119920.initHasReflection(0)
@@ -618,7 +590,7 @@ shape119920.initLineWeight(0)
 shape119920.addOpacity(100)
 shape119920.build()
 
-image119922 = new ObjImage('image119922','images/image0053.png','Picture 21',775,354,58,58,1,20,'div',null, 0 )
+image119922 = new ObjImage('image119922','images/image0053.png','Picture 21',775,354,58,58,1,18,'div',null, 0 )
 image119922.initRotateAngle(0,0,0,0,0,0,0)
 image119922.initHasShadow(0)
 image119922.initHasReflection(0)
@@ -628,7 +600,7 @@ image119922.addBorder(0)
 image119922.addOpacity(100)
 image119922.build()
 
-text119923 = new ObjText('text119923',null,666,418,277,73,1,21,null,'div',null,0 )
+text119923 = new ObjText('text119923',null,666,418,277,73,1,19,null,'div',null,0 )
 text119923.initSLine(0)
 text119923.initHasBullet(0)
 text119923.initRotateAngle(0,0,0)
@@ -650,8 +622,6 @@ arObjs.push(text119902);
 arObjs.push(image1612);
 arObjs.push(image250438);
 arObjs.push(image250446);
-arObjs.push(progress120186);
-arObjs.push(text119904);
 arObjs.push(text119905);
 arObjs.push(text119906);
 arObjs.push(text119907);
@@ -694,8 +664,6 @@ if( is.min ){
     appendElement(image1612, null, null);
     appendElement(image250438, null, null);
     appendElement(image250446, null, null);
-    appendElement(progress120186, null, null);
-    appendElement(text119904, null, null);
     appendElement(text119905, null, null);
     appendElement(text119906, null, null);
     appendElement(text119907, null, null);

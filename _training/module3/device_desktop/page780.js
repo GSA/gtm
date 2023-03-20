@@ -13,10 +13,6 @@ DesktopResponsive={"1009":{
 ,
 "image250446":{"x":870,"y":537,"w":80,"h":33,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"progress62539":{"x":65,"y":575,"w":878,"h":31,"bOffBottom":0,"vert":0,"barImage":"images/progress62539_bar.png","bgImage":"images/progress62539.png"}
-,
-"text116573":{"x":478,"y":578,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
-,
 "text15461":{"x":67,"y":188,"w":440,"h":325,"txtscale":100,"bOffBottom":0}
 ,
 "text782":{"x":60,"y":142,"w":615,"h":49,"txtscale":100,"bOffBottom":0}
