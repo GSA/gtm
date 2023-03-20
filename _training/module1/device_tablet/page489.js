@@ -31,9 +31,9 @@ TabletResponsive={"1009":{
 ,
 "image260727":{"x":66,"y":340,"w":260,"h":50,"bOffBottom":0,"i":"images/lsidenav4_light.jpg"}
 ,
-"image358214":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
+"image358214":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_dark.png"}
 ,
-"image358289":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
+"image358289":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_light.png"}
 ,
 "text530":{"x":351,"y":188,"w":298,"h":289,"txtscale":100,"bOffBottom":0}
 ,
@@ -95,9 +95,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image260727":{"x":51,"y":340,"w":202,"h":39,"bOffBottom":0,"i":"images/lsidenav4_light.jpg"}
 ,
-"image358214":{"x":51,"y":400,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
+"image358214":{"x":51,"y":400,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_dark.png"}
 ,
-"image358289":{"x":51,"y":400,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
+"image358289":{"x":51,"y":400,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_light.png"}
 ,
 "text530":{"x":273,"y":188,"w":232,"h":225,"txtscale":100,"bOffBottom":0}
 ,

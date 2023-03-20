@@ -31,9 +31,9 @@ DesktopResponsive={"1009":{
 ,
 "image260727":{"x":66,"y":340,"w":260,"h":50,"bOffBottom":0,"i":"images/lsidenav4_light.jpg"}
 ,
-"image358214":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
+"image358214":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_dark.png"}
 ,
-"image358289":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
+"image358289":{"x":66,"y":400,"w":260,"h":44,"bOffBottom":0,"i":"images/lsidenav5_light.png"}
 ,
 "text530":{"x":351,"y":188,"w":298,"h":289,"txtscale":100,"bOffBottom":0}
 ,
@@ -60,5 +60,5 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0040.png','images/image0042.png','images/image0044.png','images/image0045.png','images/image31.png','images/lsidenav1_dark.jpg','images/lsidenav2_light.jpg','images/lsidenav3_light.jpg','images/lsidenav4_light.jpg','images/lsidenav5_light.jpg','images/lsidenav1_light.jpg','images/lsidenav2_dark.jpg','images/lsidenav3_dark.jpg','images/lsidenav4_dark.jpg','images/lsidenav5_dark.jpg','images/text260416CircleBulletFont6.png','images/text260416CircleBulletFont6.png']
+,"preload":['images/image0040.png','images/image0042.png','images/image0044.png','images/image0045.png','images/image31.png','images/lsidenav5_light.png','images/lsidenav1_dark.jpg','images/lsidenav2_light.jpg','images/lsidenav3_light.jpg','images/lsidenav4_light.jpg','images/lsidenav1_light.jpg','images/lsidenav2_dark.jpg','images/lsidenav3_dark.jpg','images/lsidenav4_dark.jpg','images/lsidenav5_dark.png','images/text260416CircleBulletFont6.png','images/text260416CircleBulletFont6.png']
 }}

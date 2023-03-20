@@ -31,9 +31,9 @@ PhoneResponsive={"785":{
 ,
 "image260727":{"x":51,"y":265,"w":202,"h":39,"bOffBottom":0,"i":"images/lsidenav4_light.jpg"}
 ,
-"image358214":{"x":51,"y":311,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
+"image358214":{"x":51,"y":311,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_dark.png"}
 ,
-"image358289":{"x":51,"y":311,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
+"image358289":{"x":51,"y":311,"w":202,"h":34,"bOffBottom":0,"i":"images/lsidenav5_light.png"}
 ,
 "text530":{"x":273,"y":146,"w":232,"h":225,"txtscale":100,"bOffBottom":0}
 ,
@@ -95,9 +95,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image260727":{"x":31,"y":340,"w":124,"h":24,"bOffBottom":0,"i":"images/lsidenav4_light.jpg"}
 ,
-"image358214":{"x":31,"y":400,"w":124,"h":21,"bOffBottom":0,"i":"images/lsidenav5_dark.jpg"}
+"image358214":{"x":31,"y":400,"w":124,"h":21,"bOffBottom":0,"i":"images/lsidenav5_dark.png"}
 ,
-"image358289":{"x":31,"y":400,"w":124,"h":21,"bOffBottom":0,"i":"images/lsidenav5_light.jpg"}
+"image358289":{"x":31,"y":400,"w":124,"h":21,"bOffBottom":0,"i":"images/lsidenav5_light.png"}
 ,
 "text530":{"x":167,"y":188,"w":142,"h":153,"txtscale":100,"bOffBottom":0}
 ,
