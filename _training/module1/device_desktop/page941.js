@@ -7,7 +7,7 @@ DesktopResponsive={"1009":{
 ,
 "":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
 ,
-"":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
+"":{"x":374,"y":190,"w":300,"h":200,"bOffBottom":0}
 ,
 "image10864":{"x":0,"y":0,"w":1009,"h":120,"bOffBottom":0,"i":"images/image0014.png"}
 ,
@@ -17,7 +17,7 @@ DesktopResponsive={"1009":{
 ,
 "text943":{"x":66,"y":190,"w":462,"h":356,"txtscale":100,"bOffBottom":0}
 ,
-"image944":{"x":540,"y":144,"w":417,"h":365,"bOffBottom":0,"i":"images/slide_unique.png"}
+"image944":{"x":574,"y":128,"w":381,"h":407,"bOffBottom":0,"i":"images/slide_unique.png"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

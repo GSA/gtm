@@ -7,7 +7,7 @@ DesktopResponsive={"1009":{
 ,
 "":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
 ,
-"":{"x":354,"y":183,"w":300,"h":200,"bOffBottom":0}
+"":{"x":374,"y":190,"w":300,"h":200,"bOffBottom":0}
 ,
 "image10864":{"x":0,"y":0,"w":1009,"h":120,"bOffBottom":0,"i":"images/image0014.png"}
 ,
@@ -23,7 +23,7 @@ DesktopResponsive={"1009":{
 ,
 "text424":{"x":342,"y":173,"w":147,"h":199,"txtscale":100,"bOffBottom":0}
 ,
-"text425":{"x":401,"y":276,"w":509,"h":190,"txtscale":100,"bOffBottom":0}
+"text425":{"x":401,"y":276,"w":509,"h":210,"txtscale":100,"bOffBottom":0}
 ,
 "text426":{"x":878,"y":313,"w":94,"h":199,"txtscale":100,"bOffBottom":0}
 ,
