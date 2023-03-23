@@ -31,7 +31,7 @@ DesktopResponsive={"1009":{
 ,
 "text34057":{"x":605,"y":250,"w":386,"h":101,"txtscale":100,"bOffBottom":0}
 ,
-"text34067":{"x":605,"y":326,"w":340,"h":279,"txtscale":100,"bOffBottom":0}
+"text34067":{"x":605,"y":337,"w":340,"h":150,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

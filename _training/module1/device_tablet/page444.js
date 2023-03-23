@@ -23,7 +23,7 @@ TabletResponsive={"1009":{
 ,
 "text452":{"x":209,"y":301,"w":284,"h":70,"txtscale":100,"bOffBottom":0}
 ,
-"image370446":{"x":334,"y":390,"w":161,"h":40,"bOffBottom":0,"i":"images/congress.png"}
+"image370446":{"x":334,"y":390,"w":161,"h":30,"bOffBottom":0,"i":"images/congress.png"}
 ,
 "shape455":{"x":0,"y":459,"w":518.000000,"h":39.000000,"stylemods":[{"sel":"div.shape455Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:517.000000px; height:38.000000px;}"},{"sel":"span.shape455Text","decl":" { width:513.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgYAAAAnCAYAAAB0UIAaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABlSURBVHhe7cExAQAAAMKg9U9tCj8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfmo73gABlfvmGAAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 517.000000 0.000000 L 517.000000 38.000000 L 0.000000 38.000000 L 0.000000 0.000000 z"}
 ,
@@ -63,7 +63,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text452":{"x":163,"y":301,"w":221,"h":85,"txtscale":100,"bOffBottom":0}
 ,
-"image370446":{"x":260,"y":390,"w":125,"h":31,"bOffBottom":0,"i":"images/congress.png"}
+"image370446":{"x":260,"y":390,"w":125,"h":23,"bOffBottom":0,"i":"images/congress.png"}
 ,
 "shape455":{"x":0,"y":459,"w":403.000000,"h":31.000000,"stylemods":[{"sel":"div.shape455Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:402.000000px; height:30.000000px;}"},{"sel":"span.shape455Text","decl":" { width:398.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZMAAAAfCAYAAAAiGSB2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABHSURBVHhe7cEBDQAAAMKg909tDwcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAlxrDUwABt5+XYAAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 402.000000 0.000000 L 402.000000 30.000000 L 0.000000 30.000000 L 0.000000 0.000000 z"}
 ,
