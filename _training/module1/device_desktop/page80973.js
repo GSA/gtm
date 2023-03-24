@@ -75,11 +75,9 @@ DesktopResponsive={"1009":{
 ,
 "image10864":{"x":0,"y":0,"w":1009,"h":120,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"text349963":{"x":349,"y":513,"w":290,"h":50,"txtscale":100,"bOffBottom":0}
+"text349963":{"x":349,"y":520,"w":290,"h":50,"txtscale":100,"bOffBottom":0}
 ,
 "text81000":{"x":68,"y":145,"w":439,"h":39,"txtscale":100,"bOffBottom":0}
-,
-"image333771":{"x":70,"y":513,"w":70,"h":25,"bOffBottom":0,"i":"images/back.png"}
 ,
 "text80999":{"x":75,"y":218,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
@@ -143,7 +141,9 @@ DesktopResponsive={"1009":{
 ,
 "text81054":{"x":604,"y":448,"w":221,"h":59,"txtscale":100,"bOffBottom":0}
 ,
-"image348432":{"x":870,"y":513,"w":70,"h":25,"bOffBottom":0,"i":"images/next.png"}
+"image379124":{"x":70,"y":513,"w":70,"h":40,"bOffBottom":0,"i":"images/back.jpg"}
+,
+"image348432":{"x":870,"y":513,"w":70,"h":40,"bOffBottom":0,"i":"images/next.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -152,5 +152,5 @@ Init_qu81043(false, true);
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0089.png','images/image0090.png','images/image0093.png','images/next.png','images/shape88583.png','images/shape88585.png','images/shape88587.png','images/shape88591.png','images/shape89060.png','images/shape89062.png','images/shape89064.png','images/shape89076.png','images/shape120744.png','images/shape120746.png','images/shape120748.png','images/shape120751.png','images/shape81002.png','images/shape81004.png','images/shape81006.png','images/shape81008.png','images/shape81016.png','images/shape81012.png','images/shape81020.png','images/shape81024.png','images/shape81028.png','images/shape81032.png','images/shape81036.png','images/shape81040.png']
+,"preload":['images/image0089.png','images/image0090.png','images/image0093.png','images/back.jpg','images/next.jpg','images/shape88583.png','images/shape88585.png','images/shape88587.png','images/shape88591.png','images/shape89060.png','images/shape89062.png','images/shape89064.png','images/shape89076.png','images/shape120744.png','images/shape120746.png','images/shape120748.png','images/shape120751.png','images/shape81002.png','images/shape81004.png','images/shape81006.png','images/shape81008.png','images/shape81016.png','images/shape81012.png','images/shape81020.png','images/shape81024.png','images/shape81028.png','images/shape81032.png','images/shape81036.png','images/shape81040.png']
 }}

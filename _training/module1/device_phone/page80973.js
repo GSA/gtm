@@ -75,11 +75,9 @@ PhoneResponsive={"785":{
 ,
 "image10864":{"x":0,"y":0,"w":785,"h":93,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"text349963":{"x":272,"y":399,"w":226,"h":39,"txtscale":100,"bOffBottom":0}
+"text349963":{"x":272,"y":405,"w":226,"h":39,"txtscale":100,"bOffBottom":0}
 ,
 "text81000":{"x":53,"y":113,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
-,
-"image333771":{"x":54,"y":399,"w":54,"h":19,"bOffBottom":0,"i":"images/back.png"}
 ,
 "text80999":{"x":58,"y":170,"w":156,"h":62,"txtscale":100,"bOffBottom":0}
 ,
@@ -143,7 +141,9 @@ PhoneResponsive={"785":{
 ,
 "text81054":{"x":500,"y":307,"w":68,"h":78,"txtscale":100,"bOffBottom":0}
 ,
-"image348432":{"x":677,"y":399,"w":54,"h":19,"bOffBottom":0,"i":"images/next.png"}
+"image379124":{"x":54,"y":399,"w":54,"h":31,"bOffBottom":0,"i":"images/back.jpg"}
+,
+"image348432":{"x":677,"y":399,"w":54,"h":31,"bOffBottom":0,"i":"images/next.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -231,11 +231,9 @@ Init_qu81043(false, true);
 ,
 "image10864":{"x":0,"y":0,"w":480,"h":57,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"text349963":{"x":166,"y":513,"w":138,"h":24,"txtscale":100,"bOffBottom":0}
+"text349963":{"x":166,"y":520,"w":138,"h":24,"txtscale":100,"bOffBottom":0}
 ,
 "text81000":{"x":32,"y":75,"w":209,"h":44,"txtscale":100,"bOffBottom":0}
-,
-"image333771":{"x":33,"y":513,"w":33,"h":12,"bOffBottom":0,"i":"images/back.png"}
 ,
 "text80999":{"x":35,"y":158,"w":95,"h":38,"txtscale":100,"bOffBottom":0}
 ,
@@ -299,7 +297,9 @@ Init_qu81043(false, true);
 ,
 "text81054":{"x":287,"y":412,"w":153,"h":78,"txtscale":100,"bOffBottom":0}
 ,
-"image348432":{"x":414,"y":513,"w":33,"h":12,"bOffBottom":0,"i":"images/next.png"}
+"image379124":{"x":33,"y":513,"w":33,"h":19,"bOffBottom":0,"i":"images/back.jpg"}
+,
+"image348432":{"x":414,"y":513,"w":33,"h":19,"bOffBottom":0,"i":"images/next.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

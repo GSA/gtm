@@ -55,11 +55,9 @@ TabletResponsive={"1009":{
 ,
 "image10864":{"x":0,"y":0,"w":1009,"h":120,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"text349963":{"x":349,"y":513,"w":290,"h":50,"txtscale":100,"bOffBottom":0}
+"text349963":{"x":349,"y":520,"w":290,"h":50,"txtscale":100,"bOffBottom":0}
 ,
 "text81000":{"x":68,"y":145,"w":439,"h":44,"txtscale":100,"bOffBottom":0}
-,
-"image333771":{"x":70,"y":513,"w":70,"h":25,"bOffBottom":0,"i":"images/back.png"}
 ,
 "text20596":{"x":68,"y":145,"w":439,"h":44,"txtscale":100,"bOffBottom":0}
 ,
@@ -99,7 +97,9 @@ TabletResponsive={"1009":{
 ,
 "image342493":{"x":458,"y":461,"w":90,"h":40,"bOffBottom":0,"i":"images/submit.png"}
 ,
-"image340818":{"x":870,"y":513,"w":70,"h":25,"bOffBottom":0,"i":"images/next.png"}
+"image379164":{"x":70,"y":513,"w":70,"h":40,"bOffBottom":0,"i":"images/back.jpg"}
+,
+"image340818":{"x":870,"y":513,"w":70,"h":40,"bOffBottom":0,"i":"images/next.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -165,11 +165,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image10864":{"x":0,"y":0,"w":785,"h":93,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"text349963":{"x":272,"y":513,"w":226,"h":39,"txtscale":100,"bOffBottom":0}
+"text349963":{"x":272,"y":520,"w":226,"h":39,"txtscale":100,"bOffBottom":0}
 ,
 "text81000":{"x":53,"y":95,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
-,
-"image333771":{"x":54,"y":513,"w":54,"h":19,"bOffBottom":0,"i":"images/back.png"}
 ,
 "text20596":{"x":53,"y":145,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
 ,
@@ -209,7 +207,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image342493":{"x":356,"y":461,"w":70,"h":31,"bOffBottom":0,"i":"images/submit.png"}
 ,
-"image340818":{"x":677,"y":513,"w":54,"h":19,"bOffBottom":0,"i":"images/next.png"}
+"image379164":{"x":54,"y":513,"w":54,"h":31,"bOffBottom":0,"i":"images/back.jpg"}
+,
+"image340818":{"x":677,"y":513,"w":54,"h":31,"bOffBottom":0,"i":"images/next.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

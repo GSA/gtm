@@ -75,11 +75,9 @@ TabletResponsive={"1009":{
 ,
 "image10864":{"x":0,"y":0,"w":1009,"h":120,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"text349963":{"x":349,"y":513,"w":290,"h":50,"txtscale":100,"bOffBottom":0}
+"text349963":{"x":349,"y":520,"w":290,"h":50,"txtscale":100,"bOffBottom":0}
 ,
 "text81000":{"x":68,"y":145,"w":439,"h":44,"txtscale":100,"bOffBottom":0}
-,
-"image333771":{"x":70,"y":513,"w":70,"h":25,"bOffBottom":0,"i":"images/back.png"}
 ,
 "text80999":{"x":75,"y":218,"w":200,"h":80,"txtscale":100,"bOffBottom":0}
 ,
@@ -143,7 +141,9 @@ TabletResponsive={"1009":{
 ,
 "text81054":{"x":604,"y":448,"w":221,"h":78,"txtscale":100,"bOffBottom":0}
 ,
-"image348432":{"x":870,"y":513,"w":70,"h":25,"bOffBottom":0,"i":"images/next.png"}
+"image379124":{"x":70,"y":513,"w":70,"h":40,"bOffBottom":0,"i":"images/back.jpg"}
+,
+"image348432":{"x":870,"y":513,"w":70,"h":40,"bOffBottom":0,"i":"images/next.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -231,11 +231,9 @@ Init_qu81043(false, true);
 ,
 "image10864":{"x":0,"y":0,"w":785,"h":93,"bOffBottom":0,"i":"images/image0014.png"}
 ,
-"text349963":{"x":272,"y":513,"w":226,"h":39,"txtscale":100,"bOffBottom":0}
+"text349963":{"x":272,"y":520,"w":226,"h":39,"txtscale":100,"bOffBottom":0}
 ,
 "text81000":{"x":53,"y":95,"w":342,"h":44,"txtscale":100,"bOffBottom":0}
-,
-"image333771":{"x":54,"y":513,"w":54,"h":19,"bOffBottom":0,"i":"images/back.png"}
 ,
 "text80999":{"x":58,"y":158,"w":156,"h":62,"txtscale":100,"bOffBottom":0}
 ,
@@ -299,7 +297,9 @@ Init_qu81043(false, true);
 ,
 "text81054":{"x":471,"y":250,"w":169,"h":78,"txtscale":100,"bOffBottom":0}
 ,
-"image348432":{"x":677,"y":513,"w":54,"h":19,"bOffBottom":0,"i":"images/next.png"}
+"image379124":{"x":54,"y":513,"w":54,"h":31,"bOffBottom":0,"i":"images/back.jpg"}
+,
+"image348432":{"x":677,"y":513,"w":54,"h":31,"bOffBottom":0,"i":"images/next.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
