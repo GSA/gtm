@@ -53,7 +53,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image9099":{"x":52,"y":190,"w":297,"h":247,"bOffBottom":0,"i":"images/image25.5.jpg"}
 ,
-"text376":{"x":47,"y":149,"w":571,"h":40,"txtscale":100,"bOffBottom":0}
+"text376":{"x":47,"y":149,"w":571,"h":44,"txtscale":100,"bOffBottom":0}
 ,
 "shape380":{"x":371,"y":188,"w":252.000000,"h":248.000000,"stylemods":[{"sel":"div.shape380Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:251.000000px; height:247.000000px;}"},{"sel":"span.shape380Text","decl":" { width:247.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPwAAAD4CAYAAADIOotxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEJSURBVHhe7cEBAQAAAIIg/69uSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAByoAdGlAAEih8NtAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 251.000000 0.000000 L 251.000000 247.000000 L 0.000000 247.000000 L 0.000000 0.000000 z"}
 ,

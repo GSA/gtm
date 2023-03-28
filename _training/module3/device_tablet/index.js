@@ -49,9 +49,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text58":{"x":129,"y":91,"w":526,"h":41,"txtscale":100,"bOffBottom":0}
 ,
-"text59":{"x":244,"y":212,"w":289,"h":48,"txtscale":100,"bOffBottom":0}
+"text59":{"x":244,"y":212,"w":289,"h":58,"txtscale":100,"bOffBottom":0}
 ,
-"text60":{"x":88,"y":268,"w":609,"h":56,"txtscale":100,"bOffBottom":0}
+"text60":{"x":88,"y":268,"w":609,"h":88,"txtscale":100,"bOffBottom":0}
 ,
 "image250455":{"x":345,"y":382,"w":96,"h":34,"bOffBottom":0,"i":"images/start-button.png"}
 ,

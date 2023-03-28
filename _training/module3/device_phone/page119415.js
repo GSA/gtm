@@ -1,5 +1,5 @@
 PhoneResponsive={"785":{
-"pageLayer":{"w":785,"h":539,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"repeat-y"}
+"pageLayer":{"w":785,"h":541,"bgColor":"#ffffff","bgImage":"images/image0004.png","bgSize":"785px 441px","bgRepeat":"repeat-y"}
 ,
 "text119902":{"x":197,"y":429,"w":393,"h":29,"txtscale":100,"bOffBottom":0}
 ,
@@ -19,9 +19,9 @@ PhoneResponsive={"785":{
 ,
 "text119418":{"x":661,"y":112,"w":62,"h":130,"txtscale":100,"bOffBottom":0}
 ,
-"text119419":{"x":47,"y":114,"w":267,"h":64,"txtscale":100,"bOffBottom":0}
+"text119419":{"x":47,"y":114,"w":267,"h":60,"txtscale":100,"bOffBottom":0}
 ,
-"text119420":{"x":52,"y":167,"w":231,"h":357,"txtscale":100,"bOffBottom":0}
+"text119420":{"x":52,"y":167,"w":231,"h":374,"txtscale":100,"bOffBottom":0}
 ,
 "shape119422":{"x":315,"y":113,"w":328.000000,"h":283.000000,"stylemods":[{"sel":"div.shape119422Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:327.000000px; height:282.000000px;}"},{"sel":"span.shape119422Text","decl":" { width:323.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUgAAAEbCAYAAAC4Dh1qAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF/SURBVHhe7cExAQAAAMKg9U9tB28gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAVw2rxgAB2lXukQAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 327.000000 0.000000 L 327.000000 282.000000 L 0.000000 282.000000 L 0.000000 0.000000 z"}
 ,
@@ -59,7 +59,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text119418":{"x":404,"y":144,"w":38,"h":130,"txtscale":100,"bOffBottom":0}
 ,
-"text119419":{"x":29,"y":146,"w":163,"h":90,"txtscale":100,"bOffBottom":0}
+"text119419":{"x":29,"y":146,"w":163,"h":104,"txtscale":100,"bOffBottom":0}
 ,
 "text119420":{"x":32,"y":215,"w":141,"h":578,"txtscale":100,"bOffBottom":0}
 ,

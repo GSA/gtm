@@ -53,9 +53,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text119952":{"x":404,"y":208,"w":38,"h":156,"txtscale":100,"bOffBottom":0}
 ,
-"text119953":{"x":29,"y":145,"w":353,"h":64,"txtscale":100,"bOffBottom":0}
+"text119953":{"x":29,"y":145,"w":353,"h":58,"txtscale":100,"bOffBottom":0}
 ,
-"text119954":{"x":32,"y":191,"w":152,"h":391,"txtscale":100,"bOffBottom":0}
+"text119954":{"x":32,"y":191,"w":152,"h":442,"txtscale":100,"bOffBottom":0}
 ,
 "image119956":{"x":186,"y":119,"w":201,"h":201,"bOffBottom":0,"i":"images/image67.png"}
 ,

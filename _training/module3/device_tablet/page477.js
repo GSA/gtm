@@ -53,7 +53,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image250446":{"x":677,"y":589,"w":62,"h":26,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"text479":{"x":47,"y":137,"w":562,"h":41,"txtscale":100,"bOffBottom":0}
+"text479":{"x":47,"y":137,"w":562,"h":44,"txtscale":100,"bOffBottom":0}
 ,
 "text480":{"x":53,"y":185,"w":269,"h":493,"txtscale":100,"bOffBottom":0}
 ,

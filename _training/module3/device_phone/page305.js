@@ -61,7 +61,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"text307":{"x":29,"y":145,"w":209,"h":38,"txtscale":100,"bOffBottom":0}
+"text307":{"x":29,"y":145,"w":209,"h":58,"txtscale":100,"bOffBottom":0}
 ,
 "image268887":{"x":31,"y":188,"w":143,"h":31,"bOffBottom":0,"i":"images/policyguide2_top_dark.png"}
 ,

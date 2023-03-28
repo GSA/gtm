@@ -39,7 +39,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"text3532":{"x":30,"y":145,"w":415,"h":38,"txtscale":100,"bOffBottom":0}
+"text3532":{"x":30,"y":145,"w":415,"h":35,"txtscale":100,"bOffBottom":0}
 ,
 "image3534":{"x":33,"y":190,"w":414,"h":143,"bOffBottom":0,"i":"images/image0101.png"}
 ,

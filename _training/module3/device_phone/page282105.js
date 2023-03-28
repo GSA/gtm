@@ -49,11 +49,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next-button.png"}
 ,
-"text3135":{"x":29,"y":140,"w":322,"h":38,"txtscale":100,"bOffBottom":0}
+"text3135":{"x":29,"y":140,"w":322,"h":35,"txtscale":100,"bOffBottom":0}
 ,
 "text282131":{"x":67,"y":495,"w":15,"h":17,"txtscale":100,"bOffBottom":0}
 ,
-"text282130":{"x":29,"y":140,"w":322,"h":38,"txtscale":100,"bOffBottom":0}
+"text282130":{"x":29,"y":140,"w":322,"h":35,"txtscale":100,"bOffBottom":0}
 ,
 "text282129":{"x":32,"y":185,"w":139,"h":510,"txtscale":100,"bOffBottom":0}
 ,
