@@ -425,12 +425,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu53414.hasBeenProcessed) {
     if( ans_VarQuestion_0007 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action53414_23(onAfterFBAction);  return 0;
+        trivActFBCnt++; action53414_29(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0007 != '\u0054\u0072\u0075\u0065' && ans_VarQuestion_0007 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action53414_24(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action53414_30(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -599,13 +599,13 @@ function Update_qu53414(value) {
    qu53414Object.hasBeenProcessed=false;
 }
 
-function action53414_23(fn){
+function action53414_29(fn){
     og79481.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action53414_24(fn){
+function action53414_30(fn){
     og79489.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -983,7 +983,7 @@ text220648.addOpacity(100)
 text220648.arrCSSStyles = new Array();
 text220648.arrCSSStyles.push('span.text220648Font1 { font-size:19px; font-family:"Oswald"; color:#07648d; font-weight:bold;}');
 text220648.arrCSSStyles.push('span.text220648Font2 { font-size:19px; font-family:"Oswald"; color:#07648d;}');
-text220648.addInnerText('<div id=\"text220648\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text220648Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text220648Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text220648.addInnerText('<div id=\"text220648\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:7px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text220648Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text220648Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text220648.build()
 
 og355740 = new ObjInline('og355740',null,0,0,1170,600,1,0)
@@ -1107,7 +1107,7 @@ og79489.addChild('image79498')
 og79489.addChild('text79500')
 og79489.build()
 
-qu53414 = new ObjInline('qu53414',null,67,179,1006,177,1,0)
+qu53414 = new ObjInline('qu53414',null,67,185,1006,170,1,0)
 qu53414.isGrp = true
 qu53414.addChild('text53416')
 qu53414.addChild('text53417')
@@ -1117,7 +1117,7 @@ qu53414.addChild('radio53420')
 qu53414.ansVar=VarQuestion_0007;
 qu53414.build()
 
-text53416 = new ObjText('text53416',null,67,179,915,42,1,30,null,'div',null,0 )
+text53416 = new ObjText('text53416',null,67,185,915,42,1,30,null,'div',null,0 )
 text53416.initSLine(0)
 text53416.initHasBullet(0)
 text53416.initRotateAngle(0,0,0)
@@ -1126,7 +1126,7 @@ text53416.initHasTextShadow(0)
 text53416.initHasBorder(0)
 text53416.initHasOutline(0)
 text53416.initHasMargin(0)
-text53416.addIe8Attr(67, 179, 915, 42, 0, 0)
+text53416.addIe8Attr(67, 185, 915, 42, 0, 0)
 text53416.addHeading(0)
 text53416.addOpacity(100)
 text53416.arrCSSStyles = new Array();

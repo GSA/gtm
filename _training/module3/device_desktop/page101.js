@@ -3,7 +3,7 @@ DesktopResponsive={"1009":{
 ,
 "text67":{"x":253,"y":546,"w":505,"h":30,"txtscale":100,"bOffBottom":0}
 ,
-"":{"x":188,"y":318,"w":300,"h":200,"bOffBottom":0}
+"":{"x":187,"y":312,"w":300,"h":200,"bOffBottom":0}
 ,
 "":{"x":424,"y":124,"w":300,"h":200,"bOffBottom":0}
 ,

@@ -466,12 +466,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu49516.hasBeenProcessed) {
     if( ans_VarQuestion_0002 == '\u0054\u0068\u0065\u0020\u0063\u006F\u0073\u0074\u0020\u0069\u0073\u0020\u0061\u006C\u006C\u006F\u0063\u0061\u0074\u0065\u0064\u0020\u0069\u006E\u0020\u0061\u0063\u0063\u006F\u0072\u0064\u0061\u006E\u0063\u0065\u0020\u0077\u0069\u0074\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u006C\u0061\u0074\u0069\u0076\u0065\u0020\u0062\u0065\u006E\u0065\u0066\u0069\u0074\u0020\u0072\u0065\u0063\u0065\u0069\u0076\u0065\u0064\u0020\u0062\u0079\u0020\u0074\u0068\u0065\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u006F\u0072\u0020\u0061\u0063\u0074\u0069\u0076\u0069\u0074\u0079\u002E' ) 
     { //1 
-        trivActFBCnt++; action49516_29(onAfterFBAction);  return 0;
+        trivActFBCnt++; action49516_35(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0002 != '\u0054\u0068\u0065\u0020\u0063\u006F\u0073\u0074\u0020\u0069\u0073\u0020\u0061\u006C\u006C\u006F\u0063\u0061\u0074\u0065\u0064\u0020\u0069\u006E\u0020\u0061\u0063\u0063\u006F\u0072\u0064\u0061\u006E\u0063\u0065\u0020\u0077\u0069\u0074\u0068\u0020\u0074\u0068\u0065\u0020\u0072\u0065\u006C\u0061\u0074\u0069\u0076\u0065\u0020\u0062\u0065\u006E\u0065\u0066\u0069\u0074\u0020\u0072\u0065\u0063\u0065\u0069\u0076\u0065\u0064\u0020\u0062\u0079\u0020\u0074\u0068\u0065\u0020\u0061\u0077\u0061\u0072\u0064\u0020\u006F\u0072\u0020\u0061\u0063\u0074\u0069\u0076\u0069\u0074\u0079\u002E' && ans_VarQuestion_0002 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action49516_30(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action49516_36(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -703,13 +703,13 @@ function Update_qu49516( upd ) {
     qu49516Object.hasBeenProcessed=false;
 }
 
-function action49516_29(fn){
+function action49516_35(fn){
     og76572.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action49516_30(fn){
+function action49516_36(fn){
     og76640.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1157,7 +1157,7 @@ text220648.addOpacity(100)
 text220648.arrCSSStyles = new Array();
 text220648.arrCSSStyles.push('span.text220648Font1 { font-size:19px; font-family:"Oswald"; color:#07648d; font-weight:bold;}');
 text220648.arrCSSStyles.push('span.text220648Font2 { font-size:19px; font-family:"Oswald"; color:#07648d;}');
-text220648.addInnerText('<div id=\"text220648\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text220648Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text220648Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text220648.addInnerText('<div id=\"text220648\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:7px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text220648Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text220648Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text220648.build()
 
 og355668 = new ObjInline('og355668',null,0,0,1170,600,1,0)
@@ -1431,7 +1431,7 @@ og76640.addChild('image76127')
 og76640.addChild('text76129')
 og76640.build()
 
-qu49516 = new ObjInline('qu49516',null,66,178,819,254,1,0)
+qu49516 = new ObjInline('qu49516',null,66,185,819,246,1,0)
 qu49516.isGrp = true
 qu49516.addChild('text255892')
 qu49516.addChild('text255893')
@@ -1445,7 +1445,7 @@ qu49516.addChild('check255900')
 qu49516.ansVar=VarQuestion_0002;
 qu49516.build()
 
-text255892 = new ObjText('text255892',null,66,178,729,35,1,40,null,'div',null,0 )
+text255892 = new ObjText('text255892',null,66,185,729,35,1,40,null,'div',null,0 )
 text255892.initSLine(0)
 text255892.initHasBullet(0)
 text255892.initRotateAngle(0,0,0)
@@ -1454,7 +1454,7 @@ text255892.initHasTextShadow(0)
 text255892.initHasBorder(0)
 text255892.initHasOutline(0)
 text255892.initHasMargin(0)
-text255892.addIe8Attr(66, 178, 729, 35, 0, 0)
+text255892.addIe8Attr(66, 185, 729, 35, 0, 0)
 text255892.addHeading(0)
 text255892.addOpacity(100)
 text255892.arrCSSStyles = new Array();

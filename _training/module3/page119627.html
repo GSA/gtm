@@ -532,12 +532,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu119715.hasBeenProcessed) {
     if( ans_VarQuestion_0012 == '\u0046\u0061\u0063\u0069\u006C\u0069\u0074\u0079\u0020\u0072\u0065\u006E\u0074\u0061\u006C\u002C\u0049\u006E\u0063\u0069\u0064\u0065\u006E\u0074\u0061\u006C\u0020\u0069\u0074\u0065\u006D\u0073\u002C\u004C\u006F\u0063\u0061\u006C\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u006F\u0072\u0074\u0061\u0074\u0069\u006F\u006E\u002C\u0052\u0065\u0066\u0072\u0065\u0073\u0068\u006D\u0065\u006E\u0074\u0073\u002C\u0053\u0070\u0065\u0061\u006B\u0065\u0072\u0020\u0066\u0065\u0065\u0073' ) 
     { //1 
-        trivActFBCnt++; action119715_23(onAfterFBAction);  return 0;
+        trivActFBCnt++; action119715_29(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0012 != '\u0046\u0061\u0063\u0069\u006C\u0069\u0074\u0079\u0020\u0072\u0065\u006E\u0074\u0061\u006C\u002C\u0049\u006E\u0063\u0069\u0064\u0065\u006E\u0074\u0061\u006C\u0020\u0069\u0074\u0065\u006D\u0073\u002C\u004C\u006F\u0063\u0061\u006C\u0020\u0074\u0072\u0061\u006E\u0073\u0070\u006F\u0072\u0074\u0061\u0074\u0069\u006F\u006E\u002C\u0052\u0065\u0066\u0072\u0065\u0073\u0068\u006D\u0065\u006E\u0074\u0073\u002C\u0053\u0070\u0065\u0061\u006B\u0065\u0072\u0020\u0066\u0065\u0065\u0073' && ans_VarQuestion_0012 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action119715_24(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action119715_30(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -892,13 +892,13 @@ function Update_qu119715( upd ) {
     qu119715Object.hasBeenProcessed=false;
 }
 
-function action119715_23(fn){
+function action119715_29(fn){
     og119668.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action119715_24(fn){
+function action119715_30(fn){
     og119691.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1500,9 +1500,9 @@ text119531.addIe8Attr(60, 139, 425, 57, 0, 0)
 text119531.addHeading(0)
 text119531.addOpacity(100)
 text119531.arrCSSStyles = new Array();
-text119531.arrCSSStyles.push('span.text119531Font1 { font-size:19px; font-family:"Oswald Medium"; color:#07648d; font-weight:bold;}');
+text119531.arrCSSStyles.push('span.text119531Font1 { font-size:19px; font-family:"Oswald"; color:#07648d; font-weight:bold;}');
 text119531.arrCSSStyles.push('span.text119531Font2 { font-size:19px; font-family:"Oswald Medium"; color:#07648d;}');
-text119531.addInnerText('<div id=\"text119531\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119531Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text119531Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text119531.addInnerText('<div id=\"text119531\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:7px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119531Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text119531Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119531.build()
 
 og355788 = new ObjInline('og355788',null,0,0,1170,600,1,0)
@@ -1952,7 +1952,7 @@ og119691.addChild('image119712')
 og119691.addChild('text119713')
 og119691.build()
 
-qu119715 = new ObjInline('qu119715',null,67,177,944,248,1,0)
+qu119715 = new ObjInline('qu119715',null,67,185,944,239,1,0)
 qu119715.isGrp = true
 qu119715.addChild('text119716')
 qu119715.addChild('text119717')
@@ -1972,7 +1972,7 @@ qu119715.addChild('check119730')
 qu119715.ansVar=VarQuestion_0012;
 qu119715.build()
 
-text119716 = new ObjText('text119716',null,67,177,859,33,1,61,null,'div',null,0 )
+text119716 = new ObjText('text119716',null,67,185,859,33,1,61,null,'div',null,0 )
 text119716.initSLine(0)
 text119716.initHasBullet(0)
 text119716.initRotateAngle(0,0,0)
@@ -1981,7 +1981,7 @@ text119716.initHasTextShadow(0)
 text119716.initHasBorder(0)
 text119716.initHasOutline(0)
 text119716.initHasMargin(0)
-text119716.addIe8Attr(67, 177, 859, 33, 0, 0)
+text119716.addIe8Attr(67, 185, 859, 33, 0, 0)
 text119716.addHeading(0)
 text119716.addOpacity(100)
 text119716.arrCSSStyles = new Array();

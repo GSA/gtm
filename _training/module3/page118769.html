@@ -425,11 +425,11 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu118804.hasBeenProcessed) {
     if( ans_VarQuestion_0017 != '\u0046\u0061\u006C\u0073\u0065' && ans_VarQuestion_0017 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action118804_23(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action118804_29(onAfterFBAction);return 0;  } //2 
 
     else if( ans_VarQuestion_0017 == '\u0046\u0061\u006C\u0073\u0065' ) 
     { //1 
-        trivActFBCnt++; action118804_24(onAfterFBAction);  return 0;
+        trivActFBCnt++; action118804_30(onAfterFBAction);  return 0;
   } //1
 
   }
@@ -599,13 +599,13 @@ function Update_qu118804(value) {
    qu118804Object.hasBeenProcessed=false;
 }
 
-function action118804_23(fn){
+function action118804_29(fn){
     og118791.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action118804_24(fn){
+function action118804_30(fn){
     og118779.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -981,9 +981,9 @@ text118722.addIe8Attr(60, 141, 872, 51, 0, 0)
 text118722.addHeading(0)
 text118722.addOpacity(100)
 text118722.arrCSSStyles = new Array();
-text118722.arrCSSStyles.push('span.text118722Font1 { font-size:19px; font-family:"Oswald Medium"; color:#07648d; font-weight:bold;}');
+text118722.arrCSSStyles.push('span.text118722Font1 { font-size:19px; font-family:"Oswald"; color:#07648d; font-weight:bold;}');
 text118722.arrCSSStyles.push('span.text118722Font2 { font-size:19px; font-family:"Oswald Medium"; color:#07648d;}');
-text118722.addInnerText('<div id=\"text118722\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118722Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text118722Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text118722.addInnerText('<div id=\"text118722\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:7px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118722Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text118722Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text118722.build()
 
 og355848 = new ObjInline('og355848',null,0,0,1170,600,1,0)
@@ -1107,7 +1107,7 @@ og118791.addChild('image118800')
 og118791.addChild('text118802')
 og118791.build()
 
-qu118804 = new ObjInline('qu118804',null,66,178,946,176,1,0)
+qu118804 = new ObjInline('qu118804',null,66,185,946,168,1,0)
 qu118804.isGrp = true
 qu118804.addChild('text118805')
 qu118804.addChild('text118806')
@@ -1117,7 +1117,7 @@ qu118804.addChild('radio118809')
 qu118804.ansVar=VarQuestion_0017;
 qu118804.build()
 
-text118805 = new ObjText('text118805',null,66,178,860,32,1,30,null,'div',null,0 )
+text118805 = new ObjText('text118805',null,66,185,860,32,1,30,null,'div',null,0 )
 text118805.initSLine(1)
 text118805.initHasBullet(0)
 text118805.initRotateAngle(0,0,0)
@@ -1126,7 +1126,7 @@ text118805.initHasTextShadow(0)
 text118805.initHasBorder(0)
 text118805.initHasOutline(0)
 text118805.initHasMargin(0)
-text118805.addIe8Attr(66, 178, 860, 32, 0, 0)
+text118805.addIe8Attr(66, 185, 860, 32, 0, 0)
 text118805.addHeading(0)
 text118805.addOpacity(100)
 text118805.arrCSSStyles = new Array();

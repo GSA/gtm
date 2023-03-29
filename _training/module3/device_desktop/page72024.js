@@ -51,7 +51,7 @@ DesktopResponsive={"1009":{
 ,
 "image355276":{"x":650,"y":250,"w":29,"h":29,"bOffBottom":0,"i":"images/image0047.png"}
 ,
-"":{"x":188,"y":318,"w":300,"h":200,"bOffBottom":0}
+"":{"x":187,"y":312,"w":300,"h":200,"bOffBottom":0}
 ,
 "":{"x":424,"y":124,"w":300,"h":200,"bOffBottom":0}
 ,

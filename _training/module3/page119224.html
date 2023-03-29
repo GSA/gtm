@@ -485,12 +485,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu119293.hasBeenProcessed) {
     if( ans_VarQuestion_0015 == '\u004D\u0065\u0064\u0069\u0063\u0061\u006C\u0020\u006C\u0069\u0061\u0062\u0069\u006C\u0069\u0074\u0079\u0020\u0069\u006E\u0073\u0075\u0072\u0061\u006E\u0063\u0065\u0020\u0066\u006F\u0072\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0072\u0065\u0073\u0065\u0061\u0072\u0063\u0068\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D\u0073\u0026\u0023\u0034\u0034\u0020\u006F\u006E\u006C\u0079\u0020\u0069\u0066\u0020\u0074\u0068\u0065\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D\u0073\u0020\u0069\u006E\u0076\u006F\u006C\u0076\u0065\u0020\u0068\u0075\u006D\u0061\u006E\u0020\u0073\u0075\u0062\u006A\u0065\u0063\u0074\u0073\u0020\u006F\u0072\u0020\u0074\u0072\u0061\u0069\u006E\u0069\u006E\u0067\u0020\u006F\u0066\u0020\u0070\u0061\u0072\u0074\u0069\u0063\u0069\u0070\u0061\u006E\u0074\u0073\u0020\u0069\u006E\u0020\u0072\u0065\u0073\u0065\u0061\u0072\u0063\u0068\u0020\u0074\u0065\u0063\u0068\u006E\u0069\u0071\u0075\u0065\u0073\u002E\u0020' ) 
     { //1 
-        trivActFBCnt++; action119293_23(onAfterFBAction);  return 0;
+        trivActFBCnt++; action119293_29(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0015 != '\u004D\u0065\u0064\u0069\u0063\u0061\u006C\u0020\u006C\u0069\u0061\u0062\u0069\u006C\u0069\u0074\u0079\u0020\u0069\u006E\u0073\u0075\u0072\u0061\u006E\u0063\u0065\u0020\u0066\u006F\u0072\u0020\u0046\u0065\u0064\u0065\u0072\u0061\u006C\u0020\u0072\u0065\u0073\u0065\u0061\u0072\u0063\u0068\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D\u0073\u0026\u0023\u0034\u0034\u0020\u006F\u006E\u006C\u0079\u0020\u0069\u0066\u0020\u0074\u0068\u0065\u0020\u0070\u0072\u006F\u0067\u0072\u0061\u006D\u0073\u0020\u0069\u006E\u0076\u006F\u006C\u0076\u0065\u0020\u0068\u0075\u006D\u0061\u006E\u0020\u0073\u0075\u0062\u006A\u0065\u0063\u0074\u0073\u0020\u006F\u0072\u0020\u0074\u0072\u0061\u0069\u006E\u0069\u006E\u0067\u0020\u006F\u0066\u0020\u0070\u0061\u0072\u0074\u0069\u0063\u0069\u0070\u0061\u006E\u0074\u0073\u0020\u0069\u006E\u0020\u0072\u0065\u0073\u0065\u0061\u0072\u0063\u0068\u0020\u0074\u0065\u0063\u0068\u006E\u0069\u0071\u0075\u0065\u0073\u002E\u0020' && ans_VarQuestion_0015 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action119293_24(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action119293_30(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -740,13 +740,13 @@ function Update_qu119293( upd ) {
     qu119293Object.hasBeenProcessed=false;
 }
 
-function action119293_23(fn){
+function action119293_29(fn){
     og119268.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action119293_24(fn){
+function action119293_30(fn){
     og119280.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1377,9 +1377,9 @@ text119244.addIe8Attr(61, 144, 872, 52, 0, 0)
 text119244.addHeading(0)
 text119244.addOpacity(100)
 text119244.arrCSSStyles = new Array();
-text119244.arrCSSStyles.push('span.text119244Font1 { font-size:19px; font-family:"Oswald Medium"; color:#07648d; font-weight:bold;}');
+text119244.arrCSSStyles.push('span.text119244Font1 { font-size:19px; font-family:"Oswald"; color:#07648d; font-weight:bold;}');
 text119244.arrCSSStyles.push('span.text119244Font2 { font-size:19px; font-family:"Oswald Medium"; color:#07648d;}');
-text119244.addInnerText('<div id=\"text119244\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119244Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text119244Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
+text119244.addInnerText('<div id=\"text119244\" aria-live=\"polite\" ><table style=\"border-collapse:collapse;top:0px;position:absolute; border-spacing:0; width:100%; height:100%\">\n<tr>\n<td style=\"position: absolute;top:0px;left:0px;box-sizing:border-box;width:100%;vertical-align:top;height:100%;padding:6px\">\n<div style=\'height:100%;width:100%;overflow-y:hidden;overflow-x:hidden;\'>\n\n<p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:7px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119244Font1\"  >KNOWLEDGE CHECK</span ><span class=\"text119244Font2\" style=\"background-color:transparent\" >\n</span ></p >\n\n</div></td>\n</tr>\n</table>\n</div>\n');
 text119244.build()
 
 shape119246 = new ObjImage('shape119246','images/shape119246.png','Rectangle 14',118,221,52.000000,61.000000,1,37,'div','',0 )
@@ -1607,7 +1607,7 @@ og119280.addChild('image119289')
 og119280.addChild('text119291')
 og119280.build()
 
-qu119293 = new ObjInline('qu119293',null,68,182,942,268,1,0)
+qu119293 = new ObjInline('qu119293',null,68,190,942,259,1,0)
 qu119293.isGrp = true
 qu119293.addChild('text258657')
 qu119293.addChild('text258658')
@@ -1621,7 +1621,7 @@ qu119293.addChild('check258665')
 qu119293.ansVar=VarQuestion_0015;
 qu119293.build()
 
-text258657 = new ObjText('text258657',null,68,182,729,31,1,51,null,'div',null,0 )
+text258657 = new ObjText('text258657',null,68,190,729,31,1,51,null,'div',null,0 )
 text258657.initSLine(0)
 text258657.initHasBullet(0)
 text258657.initRotateAngle(0,0,0)
@@ -1630,7 +1630,7 @@ text258657.initHasTextShadow(0)
 text258657.initHasBorder(0)
 text258657.initHasOutline(0)
 text258657.initHasMargin(0)
-text258657.addIe8Attr(68, 182, 729, 31, 0, 0)
+text258657.addIe8Attr(68, 190, 729, 31, 0, 0)
 text258657.addHeading(0)
 text258657.addOpacity(100)
 text258657.arrCSSStyles = new Array();
