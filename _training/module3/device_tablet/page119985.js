@@ -9,7 +9,7 @@ TabletResponsive={"1009":{
 ,
 "image1612":{"x":0,"y":0,"w":1009,"h":121,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"image250438":{"x":58,"y":537,"w":80,"h":40,"bOffBottom":0,"i":"images/back.jpg"}
+"image371915":{"x":58,"y":537,"w":80,"h":40,"bOffBottom":0,"i":"images/back.jpg"}
 ,
 "image250446":{"x":870,"y":537,"w":80,"h":40,"bOffBottom":0,"i":"images/next.jpg"}
 ,
@@ -49,7 +49,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image1612":{"x":0,"y":0,"w":785,"h":94,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"image250438":{"x":45,"y":589,"w":62,"h":31,"bOffBottom":0,"i":"images/back.jpg"}
+"image371915":{"x":45,"y":589,"w":62,"h":31,"bOffBottom":0,"i":"images/back.jpg"}
 ,
 "image250446":{"x":677,"y":589,"w":62,"h":31,"bOffBottom":0,"i":"images/next.jpg"}
 ,
@@ -61,7 +61,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text119989":{"x":661,"y":144,"w":47,"h":78,"txtscale":100,"bOffBottom":0}
 ,
-"text119990":{"x":47,"y":145,"w":278,"h":58,"txtscale":100,"bOffBottom":0}
+"text119990":{"x":47,"y":145,"w":278,"h":83,"txtscale":100,"bOffBottom":0}
 ,
 "shape119992":{"x":333,"y":145,"w":310.000000,"h":283.000000,"stylemods":[{"sel":"div.shape119992Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:309.000000px; height:282.000000px;}"},{"sel":"span.shape119992Text","decl":" { width:305.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAAEbCAYAAABQjqhBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFrSURBVHhe7cExAQAAAMKg9U9tCF8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD41XC4AAUacJ94AAAAASUVORK5CYII="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 309.000000 0.000000 L 309.000000 282.000000 L 0.000000 282.000000 L 0.000000 0.000000 z"}
 ,

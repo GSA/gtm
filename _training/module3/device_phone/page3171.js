@@ -9,11 +9,11 @@ PhoneResponsive={"785":{
 ,
 "image1612":{"x":0,"y":0,"w":785,"h":94,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"image250438":{"x":45,"y":509,"w":72,"h":29,"bOffBottom":0,"i":"images/back.jpg"}
+"image371915":{"x":45,"y":509,"w":72,"h":29,"bOffBottom":0,"i":"images/back.jpg"}
 ,
 "image250446":{"x":669,"y":509,"w":72,"h":30,"bOffBottom":0,"i":"images/next.jpg"}
 ,
-"text3173":{"x":47,"y":113,"w":685,"h":41,"txtscale":100,"bOffBottom":0}
+"text3173":{"x":47,"y":113,"w":685,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "text3174":{"x":52,"y":146,"w":321,"h":272,"txtscale":100,"bOffBottom":0}
 ,
@@ -37,11 +37,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image1612":{"x":0,"y":0,"w":480,"h":58,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"image250438":{"x":29,"y":919,"w":80,"h":32,"bOffBottom":0,"i":"images/back.jpg"}
+"image371915":{"x":29,"y":919,"w":80,"h":32,"bOffBottom":0,"i":"images/back.jpg"}
 ,
 "image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next.jpg"}
 ,
-"text3173":{"x":29,"y":145,"w":419,"h":35,"txtscale":100,"bOffBottom":0}
+"text3173":{"x":29,"y":145,"w":419,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "text3174":{"x":32,"y":188,"w":196,"h":442,"txtscale":100,"bOffBottom":0}
 ,

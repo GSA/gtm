@@ -57,15 +57,11 @@ DesktopResponsive={"1009":{
 ,
 "image1612":{"x":0,"y":0,"w":1009,"h":121,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"image250438":{"x":58,"y":537,"w":80,"h":40,"bOffBottom":0,"i":"images/back.jpg"}
-,
 "text276975":{"x":60,"y":135,"w":868,"h":52,"txtscale":100,"bOffBottom":0}
 ,
 "text280572":{"x":67,"y":429,"w":588,"h":35,"txtscale":100,"bOffBottom":0}
 ,
 "text277798":{"x":66,"y":186,"w":880,"h":67,"txtscale":100,"bOffBottom":0}
-,
-"image253692":{"x":870,"y":537,"w":80,"h":40,"bOffBottom":0,"i":"images/next.jpg"}
 ,
 "text118481":{"x":671,"y":479,"w":31,"h":23,"txtscale":100,"bOffBottom":0}
 ,
@@ -109,10 +105,14 @@ DesktopResponsive={"1009":{
 ,
 "button71298":{"B64":{"disabledState":"","downState":"","normalState":"","overState":"","selectedState":"","visitedState":""},"bOffBottom":0,"h":41,"i":"images/button71298_selected.png","idis":"images/button71298_disabled.png","ion":"images/button71298_down.png","irol":"images/button71298_over.png","p":"M 0.000000 0.000000 L 110.000000 0.000000 L 110.000000 40.000000 L 0.000000 40.000000 L 0.000000 0.000000 z","stylemods":[{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","sel":"div.button71298Text"},{"decl":" { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}","sel":"span.button71298Text"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","sel":"div.button71298overStateText"},{"decl":" { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}","sel":"span.button71298overStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","sel":"div.button71298downStateText"},{"decl":" { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}","sel":"span.button71298downStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","sel":"div.button71298disabledStateText"},{"decl":" { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}","sel":"span.button71298disabledStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","sel":"div.button71298visitedStateText"},{"decl":" { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}","sel":"span.button71298visitedStateText"},{"decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:110.000000px; height:40.000000px;}","sel":"div.button71298selectedStateText"},{"decl":" { width:106.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Arial\"; font-weight:bold; color:#000000;}","sel":"span.button71298selectedStateText"}],"w":111,"x":447,"y":462}
 ,
+"image372673":{"x":58,"y":537,"w":80,"h":40,"bOffBottom":0,"i":"images/back.jpg"}
+,
+"image253692":{"x":870,"y":537,"w":80,"h":40,"bOffBottom":0,"i":"images/next.jpg"}
+,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
 }
 ,
 "RCDResultResize":function(){}
-,"preload":['images/image0047.png','images/image0062.png','images/next.jpg','images/shape355934.png','images/shape355936.png','images/shape355938.png','images/shape91868.png','images/shape91870.png','images/shape91872.png','images/shape91927.png','images/shape91929.png','images/shape91931.png','images/shape71346.png','images/shape71344.png','images/shape71342.png','images/shape71340.png','images/button71298.png','images/button71298_over.png','images/button71298_down.png','images/button71298_disabled.png','images/button71298_visited.png','images/button71298_selected.png']
+,"preload":['images/image0047.png','images/image0062.png','images/back.jpg','images/next.jpg','images/shape355934.png','images/shape355936.png','images/shape355938.png','images/shape91868.png','images/shape91870.png','images/shape91872.png','images/shape91927.png','images/shape91929.png','images/shape91931.png','images/shape71346.png','images/shape71344.png','images/shape71342.png','images/shape71340.png','images/button71298.png','images/button71298_over.png','images/button71298_down.png','images/button71298_disabled.png','images/button71298_visited.png','images/button71298_selected.png']
 }}

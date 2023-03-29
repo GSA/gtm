@@ -9,11 +9,11 @@ PhoneResponsive={"785":{
 ,
 "image1612":{"x":0,"y":0,"w":785,"h":94,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"image250438":{"x":45,"y":509,"w":72,"h":29,"bOffBottom":0,"i":"images/back.jpg"}
+"image371915":{"x":45,"y":509,"w":72,"h":29,"bOffBottom":0,"i":"images/back.jpg"}
 ,
 "image250446":{"x":669,"y":509,"w":72,"h":30,"bOffBottom":0,"i":"images/next.jpg"}
 ,
-"text3060":{"x":47,"y":110,"w":342,"h":40,"txtscale":100,"bOffBottom":0}
+"text3060":{"x":47,"y":110,"w":342,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "text3061":{"x":52,"y":143,"w":417,"h":116,"txtscale":100,"bOffBottom":0}
 ,
@@ -33,7 +33,7 @@ PhoneResponsive={"785":{
 ,
 "text28836":{"x":289,"y":267,"w":448,"h":182,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
-"text3080":{"x":279,"y":220,"w":450,"h":64,"txtscale":100,"bOffBottom":0}
+"text3080":{"x":279,"y":220,"w":450,"h":27,"txtscale":100,"bOffBottom":0}
 ,
 "text3103":{"x":279,"y":226,"w":192,"h":136,"txtscale":100,"bOffBottom":0}
 ,
@@ -61,11 +61,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "image1612":{"x":0,"y":0,"w":480,"h":58,"bOffBottom":0,"i":"images/image0010.png"}
 ,
-"image250438":{"x":29,"y":919,"w":80,"h":32,"bOffBottom":0,"i":"images/back.jpg"}
+"image371915":{"x":29,"y":919,"w":80,"h":32,"bOffBottom":0,"i":"images/back.jpg"}
 ,
 "image250446":{"x":371,"y":917,"w":80,"h":34,"bOffBottom":0,"i":"images/next.jpg"}
 ,
-"text3060":{"x":29,"y":142,"w":209,"h":35,"txtscale":100,"bOffBottom":0}
+"text3060":{"x":29,"y":142,"w":209,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "text3061":{"x":32,"y":184,"w":255,"h":167,"txtscale":100,"bOffBottom":0}
 ,
@@ -85,7 +85,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text28836":{"x":177,"y":343,"w":274,"h":234,"txtscale":100,"bOffBottom":0,"bltArr":null}
 ,
-"text3080":{"x":171,"y":283,"w":275,"h":64,"txtscale":100,"bOffBottom":0}
+"text3080":{"x":171,"y":283,"w":275,"h":54,"txtscale":100,"bOffBottom":0}
 ,
 "text3103":{"x":171,"y":290,"w":118,"h":221,"txtscale":100,"bOffBottom":0}
 ,
