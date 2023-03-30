@@ -418,11 +418,11 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu118804.hasBeenProcessed) {
     if( ans_VarQuestion_0017 != '\u0046\u0061\u006C\u0073\u0065' && ans_VarQuestion_0017 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action118804_3(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action118804_11(onAfterFBAction);return 0;  } //2 
 
     else if( ans_VarQuestion_0017 == '\u0046\u0061\u006C\u0073\u0065' ) 
     { //1 
-        trivActFBCnt++; action118804_4(onAfterFBAction);  return 0;
+        trivActFBCnt++; action118804_12(onAfterFBAction);  return 0;
   } //1
 
   }
@@ -520,13 +520,13 @@ function Update_qu118804(value) {
    qu118804Object.hasBeenProcessed=false;
 }
 
-function action118804_3(fn){
+function action118804_11(fn){
     og118791.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action118804_4(fn){
+function action118804_12(fn){
     og118779.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1005,9 +1005,9 @@ text118776.addIe8Attr(75, 373, 880, 24, 0, 0)
 text118776.addHeading(0)
 text118776.addOpacity(100)
 text118776.arrCSSStyles = new Array();
-text118776.arrCSSStyles.push('span.text118776Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text118776.arrCSSStyles.push('span.text118776Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
-text118776.arrCSSStyles.push('span.text118776Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
+text118776.arrCSSStyles.push('span.text118776Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text118776.arrCSSStyles.push('span.text118776Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
+text118776.arrCSSStyles.push('span.text118776Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text118776.addInnerText('<div id=\"text118776\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118776Font1\"  >Select the correct answer and select </span ><span class=\"text118776Font2\"  >Submit</span ><span class=\"text118776Font1\"  >. Then, select </span ><span class=\"text118776Font2\"  >Next</span ><span class=\"text118776Font1\"  > to continue.</span ><span class=\"text118776Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118776.build()
 
@@ -1034,7 +1034,7 @@ text118805.addIe8Attr(66, 185, 860, 32, 0, 0)
 text118805.addHeading(0)
 text118805.addOpacity(100)
 text118805.arrCSSStyles = new Array();
-text118805.arrCSSStyles.push('span.text118805Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text118805.arrCSSStyles.push('span.text118805Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text118805.addInnerText('<legend><div id=\"text118805\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118805Font1\"  >Lobbying costs are allowable if they are charged as indirect costs.\n</span ></p ></div>\n</legend>\n');
 text118805.build()
 
@@ -1051,8 +1051,8 @@ text118806.addIe8Attr(136, 244, 59, 29, 0, 0)
 text118806.addHeading(0)
 text118806.addOpacity(100)
 text118806.arrCSSStyles = new Array();
-text118806.arrCSSStyles.push('span.text118806Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118806.arrCSSStyles.push('span.text118806Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text118806.arrCSSStyles.push('span.text118806Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text118806.arrCSSStyles.push('span.text118806Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text118806.addInnerText('<div id=\"text118806\" aria-live=\"polite\" ><label id=\"label118807id\" for=\"radio118807id\" onClick=\"Update_qu118804(radio118807id.value);radio118807Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118806Font1\"  >True</span ><span class=\"text118806Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text118806.build()
 
@@ -1075,8 +1075,8 @@ text118808.addIe8Attr(136, 311, 68, 27, 0, 0)
 text118808.addHeading(0)
 text118808.addOpacity(100)
 text118808.arrCSSStyles = new Array();
-text118808.arrCSSStyles.push('span.text118808Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118808.arrCSSStyles.push('span.text118808Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text118808.arrCSSStyles.push('span.text118808Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text118808.arrCSSStyles.push('span.text118808Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text118808.addInnerText('<div id=\"text118808\" aria-live=\"polite\" ><label id=\"label118809id\" for=\"radio118809id\" onClick=\"Update_qu118804(radio118809id.value);radio118809Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118808Font1\"  >False</span ><span class=\"text118808Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text118808.build()
 

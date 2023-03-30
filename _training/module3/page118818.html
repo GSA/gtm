@@ -564,12 +564,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu118925.hasBeenProcessed) {
     if( ans_VarQuestion_0018 == '\u0052\u0065\u006C\u006F\u0063\u0061\u0074\u0069\u006F\u006E\u0020\u0063\u006F\u0073\u0074\u0073\u0020\u0066\u006F\u0072\u0020\u0061\u0020\u006E\u0065\u0077\u0020\u0065\u006D\u0070\u006C\u006F\u0079\u0065\u0065\u0020\u0077\u0068\u006F\u0020\u0072\u0065\u0073\u0069\u0067\u006E\u0073\u0020\u0077\u0069\u0074\u0068\u0069\u006E\u0020\u0031\u0032\u0020\u006D\u006F\u006E\u0074\u0068\u0073\u0020\u0074\u006F\u0020\u0074\u0061\u006B\u0065\u0020\u0061\u0020\u006E\u0065\u0077\u0020\u0070\u006F\u0073\u0069\u0074\u0069\u006F\u006E\u002E' ) 
     { //1 
-        trivActFBCnt++; action118925_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action118925_11(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0018 != '\u0052\u0065\u006C\u006F\u0063\u0061\u0074\u0069\u006F\u006E\u0020\u0063\u006F\u0073\u0074\u0073\u0020\u0066\u006F\u0072\u0020\u0061\u0020\u006E\u0065\u0077\u0020\u0065\u006D\u0070\u006C\u006F\u0079\u0065\u0065\u0020\u0077\u0068\u006F\u0020\u0072\u0065\u0073\u0069\u0067\u006E\u0073\u0020\u0077\u0069\u0074\u0068\u0069\u006E\u0020\u0031\u0032\u0020\u006D\u006F\u006E\u0074\u0068\u0073\u0020\u0074\u006F\u0020\u0074\u0061\u006B\u0065\u0020\u0061\u0020\u006E\u0065\u0077\u0020\u0070\u006F\u0073\u0069\u0074\u0069\u006F\u006E\u002E' && ans_VarQuestion_0018 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action118925_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action118925_12(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -907,13 +907,13 @@ function Update_qu118925( upd ) {
     qu118925Object.hasBeenProcessed=false;
 }
 
-function action118925_3(fn){
+function action118925_11(fn){
     og118897.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action118925_4(fn){
+function action118925_12(fn){
     og118909.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -2164,10 +2164,10 @@ text118894.addIe8Attr(65, 463, 307, 51, 0, 0)
 text118894.addHeading(0)
 text118894.addOpacity(100)
 text118894.arrCSSStyles = new Array();
-text118894.arrCSSStyles.push('span.text118894Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text118894.arrCSSStyles.push('span.text118894Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
-text118894.arrCSSStyles.push('span.text118894Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
-text118894.addInnerText('<div id=\"text118894\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.107\" style=\"margin-left:0px;text-indent:0px;line-height:1.107;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118894Font1\"  >Select the correct answer and select </span ><span class=\"text118894Font2\"  >Submit</span ><span class=\"text118894Font1\"  >. Then, select </span ><span class=\"text118894Font2\"  >Next</span ><span class=\"text118894Font1\"  > to continue.</span ><span class=\"text118894Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text118894.arrCSSStyles.push('span.text118894Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text118894.arrCSSStyles.push('span.text118894Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
+text118894.arrCSSStyles.push('span.text118894Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
+text118894.addInnerText('<div id=\"text118894\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118894Font1\"  >Select the correct answer and select </span ><span class=\"text118894Font2\"  >Submit</span ><span class=\"text118894Font1\"  >. Then, select </span ><span class=\"text118894Font2\"  >Next</span ><span class=\"text118894Font1\"  > to continue.</span ><span class=\"text118894Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118894.build()
 
 shape118922 = new ObjImage('shape118922','images/shape118922.png','Rectangle 14',118,221,52.000000,42.000000,1,69,'div','',0 )
@@ -2222,7 +2222,7 @@ qu118925.addChild('check256230')
 qu118925.ansVar=VarQuestion_0018;
 qu118925.build()
 
-text256214 = new ObjText('text256214',null,67,185,431,31,1,71,null,'div',null,0 )
+text256214 = new ObjText('text256214',null,67,185,430,38,1,71,null,'div',null,0 )
 text256214.initSLine(0)
 text256214.initHasBullet(0)
 text256214.initRotateAngle(0,0,0)
@@ -2231,11 +2231,11 @@ text256214.initHasTextShadow(0)
 text256214.initHasBorder(0)
 text256214.initHasOutline(0)
 text256214.initHasMargin(0)
-text256214.addIe8Attr(67, 185, 431, 31, 0, 0)
+text256214.addIe8Attr(67, 185, 430, 38, 0, 0)
 text256214.addHeading(0)
 text256214.addOpacity(100)
 text256214.arrCSSStyles = new Array();
-text256214.arrCSSStyles.push('span.text256214Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text256214.arrCSSStyles.push('span.text256214Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text256214.addInnerText('<legend><div id=\"text256214\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text256214Font1\"  >Which of the following recruitment costs are unallowable?\n</span ></p ></div>\n</legend>\n');
 text256214.build()
 

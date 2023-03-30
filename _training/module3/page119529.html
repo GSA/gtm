@@ -418,12 +418,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu119564.hasBeenProcessed) {
     if( ans_VarQuestion_0010 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action119564_9(onAfterFBAction);  return 0;
+        trivActFBCnt++; action119564_17(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0010 != '\u0054\u0072\u0075\u0065' && ans_VarQuestion_0010 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action119564_10(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action119564_18(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -520,13 +520,13 @@ function Update_qu119564(value) {
    qu119564Object.hasBeenProcessed=false;
 }
 
-function action119564_9(fn){
+function action119564_17(fn){
     og119539.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action119564_10(fn){
+function action119564_18(fn){
     og119551.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1005,9 +1005,9 @@ text119536.addIe8Attr(75, 393, 620, 34, 0, 0)
 text119536.addHeading(0)
 text119536.addOpacity(100)
 text119536.arrCSSStyles = new Array();
-text119536.arrCSSStyles.push('span.text119536Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text119536.arrCSSStyles.push('span.text119536Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
-text119536.arrCSSStyles.push('span.text119536Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
+text119536.arrCSSStyles.push('span.text119536Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text119536.arrCSSStyles.push('span.text119536Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
+text119536.arrCSSStyles.push('span.text119536Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text119536.addInnerText('<div id=\"text119536\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119536Font1\"  >Select the correct answer and select </span ><span class=\"text119536Font2\"  >Submit</span ><span class=\"text119536Font1\"  >. Then, select </span ><span class=\"text119536Font2\"  >Next</span ><span class=\"text119536Font1\"  > to continue.</span ><span class=\"text119536Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text119536.build()
 
@@ -1021,7 +1021,7 @@ qu119564.addChild('radio119569')
 qu119564.ansVar=VarQuestion_0010;
 qu119564.build()
 
-text119565 = new ObjText('text119565',null,66,185,858,55,1,27,null,'div',null,0 )
+text119565 = new ObjText('text119565',null,66,185,858,57,1,27,null,'div',null,0 )
 text119565.initSLine(0)
 text119565.initHasBullet(0)
 text119565.initRotateAngle(0,0,0)
@@ -1030,12 +1030,12 @@ text119565.initHasTextShadow(0)
 text119565.initHasBorder(0)
 text119565.initHasOutline(0)
 text119565.initHasMargin(0)
-text119565.addIe8Attr(66, 185, 858, 55, 0, 0)
+text119565.addIe8Attr(66, 185, 858, 57, 0, 0)
 text119565.addHeading(0)
 text119565.addOpacity(100)
 text119565.arrCSSStyles = new Array();
-text119565.arrCSSStyles.push('span.text119565Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text119565.addInnerText('<legend><div id=\"text119565\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.127\" style=\"margin-left:0px;text-indent:0px;line-height:1.080;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119565Font1\"  >Fringe benefits may be charged as a fringe benefit rate, a percentage of salary, or a component of a Federally-negotiated indirect cost rate.\n</span ></p ></div>\n</legend>\n');
+text119565.arrCSSStyles.push('span.text119565Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
+text119565.addInnerText('<legend><div id=\"text119565\" aria-live=\"polite\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119565Font1\"  >Fringe benefits may be charged as a fringe benefit rate, a percentage of salary, or a component of a Federally-negotiated indirect cost rate.\n</span ></p ></div>\n</legend>\n');
 text119565.build()
 
 text119566 = new ObjText('text119566',null,140,272,41,25,1,28,null,'div',null,0 )
@@ -1051,8 +1051,8 @@ text119566.addIe8Attr(140, 272, 41, 25, 0, 0)
 text119566.addHeading(0)
 text119566.addOpacity(100)
 text119566.arrCSSStyles = new Array();
-text119566.arrCSSStyles.push('span.text119566Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119566.arrCSSStyles.push('span.text119566Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text119566.arrCSSStyles.push('span.text119566Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text119566.arrCSSStyles.push('span.text119566Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text119566.addInnerText('<div id=\"text119566\" aria-live=\"polite\" ><label id=\"label119567id\" for=\"radio119567id\" onClick=\"Update_qu119564(radio119567id.value);radio119567Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119566Font1\"  >True</span ><span class=\"text119566Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text119566.build()
 
@@ -1075,8 +1075,8 @@ text119568.addIe8Attr(140, 338, 47, 29, 0, 0)
 text119568.addHeading(0)
 text119568.addOpacity(100)
 text119568.arrCSSStyles = new Array();
-text119568.arrCSSStyles.push('span.text119568Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text119568.arrCSSStyles.push('span.text119568Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text119568.arrCSSStyles.push('span.text119568Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text119568.arrCSSStyles.push('span.text119568Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text119568.addInnerText('<div id=\"text119568\" aria-live=\"polite\" ><label id=\"label119569id\" for=\"radio119569id\" onClick=\"Update_qu119564(radio119569id.value);radio119569Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text119568Font1\"  >False</span ><span class=\"text119568Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text119568.build()
 

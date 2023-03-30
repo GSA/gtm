@@ -55,7 +55,7 @@ PhoneResponsive={"785":{
 ,
 "text54944":{"x":55,"y":290,"w":685,"h":20,"txtscale":100,"bOffBottom":0}
 ,
-"text54924":{"x":52,"y":144,"w":381,"h":51,"txtscale":100,"bOffBottom":0}
+"text54924":{"x":52,"y":144,"w":380,"h":51,"txtscale":100,"bOffBottom":0}
 ,
 "text54925":{"x":109,"y":187,"w":54,"h":26,"txtscale":100,"bOffBottom":0}
 ,

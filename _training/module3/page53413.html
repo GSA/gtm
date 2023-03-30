@@ -418,12 +418,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu53414.hasBeenProcessed) {
     if( ans_VarQuestion_0007 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action53414_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action53414_11(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0007 != '\u0054\u0072\u0075\u0065' && ans_VarQuestion_0007 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action53414_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action53414_12(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -520,13 +520,13 @@ function Update_qu53414(value) {
    qu53414Object.hasBeenProcessed=false;
 }
 
-function action53414_3(fn){
+function action53414_11(fn){
     og79481.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action53414_4(fn){
+function action53414_12(fn){
     og79489.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1005,9 +1005,9 @@ text53439.addIe8Attr(73, 373, 880, 24, 0, 0)
 text53439.addHeading(0)
 text53439.addOpacity(100)
 text53439.arrCSSStyles = new Array();
-text53439.arrCSSStyles.push('span.text53439Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text53439.arrCSSStyles.push('span.text53439Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
-text53439.arrCSSStyles.push('span.text53439Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
+text53439.arrCSSStyles.push('span.text53439Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text53439.arrCSSStyles.push('span.text53439Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
+text53439.arrCSSStyles.push('span.text53439Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text53439.addInnerText('<div id=\"text53439\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text53439Font1\"  >Select the correct answer and select </span ><span class=\"text53439Font2\"  >Submit</span ><span class=\"text53439Font1\"  >. Then, select </span ><span class=\"text53439Font2\"  >Next</span ><span class=\"text53439Font1\"  > to continue.</span ><span class=\"text53439Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text53439.build()
 
@@ -1051,12 +1051,12 @@ text53417.addIe8Attr(139, 238, 65, 34, 0, 0)
 text53417.addHeading(0)
 text53417.addOpacity(100)
 text53417.arrCSSStyles = new Array();
-text53417.arrCSSStyles.push('span.text53417Font1 { font-size:15px; font-family:"Oswald"; color:#ffffff;}');
-text53417.arrCSSStyles.push('span.text53417Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text53417.arrCSSStyles.push('span.text53417Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text53417.arrCSSStyles.push('span.text53417Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text53417.addInnerText('<div id=\"text53417\" aria-live=\"polite\" ><label id=\"label53418id\" for=\"radio53418id\" onClick=\"Update_qu53414(radio53418id.value);radio53418Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text53417Font1\"  >True</span ><span class=\"text53417Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text53417.build()
 
-radio53418 = new ObjInline('radio53418',null,(is.ie?83:82),(is.ie?241:240),null,null,1,29, 0, null, null, 0)
+radio53418 = new ObjInline('radio53418',null,(is.ie?83:82),(is.ie?238:237),null,null,1,29, 0, null, null, 0)
 radio53418.onSelChg = radio53418onSelChg
 radio53418.arrCSSStyles = new Array();
 radio53418.arrCSSStyles.push('');
@@ -1075,12 +1075,12 @@ text53419.addIe8Attr(139, 306, 62, 34, 0, 0)
 text53419.addHeading(0)
 text53419.addOpacity(100)
 text53419.arrCSSStyles = new Array();
-text53419.arrCSSStyles.push('span.text53419Font1 { font-size:15px; font-family:"Oswald"; color:#ffffff;}');
-text53419.arrCSSStyles.push('span.text53419Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text53419.arrCSSStyles.push('span.text53419Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text53419.arrCSSStyles.push('span.text53419Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text53419.addInnerText('<div id=\"text53419\" aria-live=\"polite\" ><label id=\"label53420id\" for=\"radio53420id\" onClick=\"Update_qu53414(radio53420id.value);radio53420Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text53419Font1\"  >False</span ><span class=\"text53419Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text53419.build()
 
-radio53420 = new ObjInline('radio53420',null,(is.ie?83:82),(is.ie?309:308),null,null,1,31, 0, null, null, 0)
+radio53420 = new ObjInline('radio53420',null,(is.ie?83:82),(is.ie?307:306),null,null,1,31, 0, null, null, 0)
 radio53420.onSelChg = radio53420onSelChg
 radio53420.arrCSSStyles = new Array();
 radio53420.arrCSSStyles.push('');

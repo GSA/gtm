@@ -59,7 +59,7 @@ TabletResponsive={"1009":{
 ,
 "text52859":{"x":139,"y":267,"w":63,"h":34,"txtscale":100,"bOffBottom":0}
 ,
-"radio52860":{"x":81,"y":270,"fsize":15,"bOffBottom":0}
+"radio52860":{"x":81,"y":267,"fsize":15,"bOffBottom":0}
 ,
 "text52861":{"x":140,"y":335,"w":73,"h":36,"txtscale":100,"bOffBottom":0}
 ,
@@ -139,7 +139,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text52859":{"x":108,"y":267,"w":49,"h":26,"txtscale":100,"bOffBottom":0}
 ,
-"radio52860":{"x":62,"y":270,"fsize":15,"bOffBottom":0}
+"radio52860":{"x":62,"y":267,"fsize":15,"bOffBottom":0}
 ,
 "text52861":{"x":109,"y":335,"w":57,"h":28,"txtscale":100,"bOffBottom":0}
 ,

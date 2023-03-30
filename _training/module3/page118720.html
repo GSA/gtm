@@ -418,12 +418,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu118755.hasBeenProcessed) {
     if( ans_VarQuestion_0016 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action118755_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action118755_11(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0016 != '\u0054\u0072\u0075\u0065' && ans_VarQuestion_0016 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action118755_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action118755_12(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -520,13 +520,13 @@ function Update_qu118755(value) {
    qu118755Object.hasBeenProcessed=false;
 }
 
-function action118755_3(fn){
+function action118755_11(fn){
     og118730.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action118755_4(fn){
+function action118755_12(fn){
     og118742.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1005,13 +1005,13 @@ text118727.addIe8Attr(65, 373, 880, 24, 0, 0)
 text118727.addHeading(0)
 text118727.addOpacity(100)
 text118727.arrCSSStyles = new Array();
-text118727.arrCSSStyles.push('span.text118727Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text118727.arrCSSStyles.push('span.text118727Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
-text118727.arrCSSStyles.push('span.text118727Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
+text118727.arrCSSStyles.push('span.text118727Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text118727.arrCSSStyles.push('span.text118727Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
+text118727.arrCSSStyles.push('span.text118727Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text118727.addInnerText('<div id=\"text118727\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118727Font1\"  >Select the correct answer and select </span ><span class=\"text118727Font2\"  >Submit</span ><span class=\"text118727Font1\"  >. Then, select </span ><span class=\"text118727Font2\"  >Next</span ><span class=\"text118727Font1\"  > to continue.</span ><span class=\"text118727Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text118727.build()
 
-qu118755 = new ObjInline('qu118755',null,65,185,953,165,1,0)
+qu118755 = new ObjInline('qu118755',null,65,185,954,165,1,0)
 qu118755.isGrp = true
 qu118755.addChild('text118756')
 qu118755.addChild('text118757')
@@ -1021,7 +1021,7 @@ qu118755.addChild('radio118760')
 qu118755.ansVar=VarQuestion_0016;
 qu118755.build()
 
-text118756 = new ObjText('text118756',null,65,185,867,35,1,27,null,'div',null,0 )
+text118756 = new ObjText('text118756',null,65,185,868,38,1,27,null,'div',null,0 )
 text118756.initSLine(0)
 text118756.initHasBullet(0)
 text118756.initRotateAngle(0,0,0)
@@ -1030,11 +1030,11 @@ text118756.initHasTextShadow(0)
 text118756.initHasBorder(0)
 text118756.initHasOutline(0)
 text118756.initHasMargin(0)
-text118756.addIe8Attr(65, 185, 867, 35, 0, 0)
+text118756.addIe8Attr(65, 185, 868, 38, 0, 0)
 text118756.addHeading(0)
 text118756.addOpacity(100)
 text118756.arrCSSStyles = new Array();
-text118756.arrCSSStyles.push('span.text118756Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text118756.arrCSSStyles.push('span.text118756Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text118756.addInnerText('<legend><div id=\"text118756\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118756Font1\"  >Collection fees and legal fees associated with delinquent debt are allowable.\n</span ></p ></div>\n</legend>\n');
 text118756.build()
 
@@ -1051,8 +1051,8 @@ text118757.addIe8Attr(136, 244, 59, 26, 0, 0)
 text118757.addHeading(0)
 text118757.addOpacity(100)
 text118757.arrCSSStyles = new Array();
-text118757.arrCSSStyles.push('span.text118757Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118757.arrCSSStyles.push('span.text118757Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text118757.arrCSSStyles.push('span.text118757Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text118757.arrCSSStyles.push('span.text118757Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text118757.addInnerText('<div id=\"text118757\" aria-live=\"polite\" ><label id=\"label118758id\" for=\"radio118758id\" onClick=\"Update_qu118755(radio118758id.value);radio118758Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118757Font1\"  >True</span ><span class=\"text118757Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text118757.build()
 
@@ -1075,8 +1075,8 @@ text118759.addIe8Attr(136, 310, 69, 25, 0, 0)
 text118759.addHeading(0)
 text118759.addOpacity(100)
 text118759.arrCSSStyles = new Array();
-text118759.arrCSSStyles.push('span.text118759Font1 { font-size:16px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text118759.arrCSSStyles.push('span.text118759Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
+text118759.arrCSSStyles.push('span.text118759Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text118759.arrCSSStyles.push('span.text118759Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text118759.addInnerText('<div id=\"text118759\" aria-live=\"polite\" ><label id=\"label118760id\" for=\"radio118760id\" onClick=\"Update_qu118755(radio118760id.value);radio118760Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text118759Font1\"  >False</span ><span class=\"text118759Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text118759.build()
 

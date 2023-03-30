@@ -59,7 +59,7 @@ PhoneResponsive={"785":{
 ,
 "text276975":{"x":47,"y":105,"w":675,"h":51,"txtscale":100,"bOffBottom":0}
 ,
-"text280548":{"x":52,"y":334,"w":457,"h":40,"txtscale":100,"bOffBottom":0}
+"text280548":{"x":52,"y":334,"w":457,"h":34,"txtscale":100,"bOffBottom":0}
 ,
 "text277493":{"x":51,"y":147,"w":685,"h":51,"txtscale":100,"bOffBottom":0}
 ,
@@ -175,7 +175,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text276975":{"x":29,"y":135,"w":413,"h":51,"txtscale":100,"bOffBottom":0}
 ,
-"text280548":{"x":32,"y":429,"w":280,"h":60,"txtscale":100,"bOffBottom":0}
+"text280548":{"x":32,"y":429,"w":280,"h":34,"txtscale":100,"bOffBottom":0}
 ,
 "text277493":{"x":31,"y":189,"w":419,"h":68,"txtscale":100,"bOffBottom":0}
 ,

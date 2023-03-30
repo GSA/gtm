@@ -19,7 +19,7 @@ PhoneResponsive={"785":{
 ,
 "shape783":{"x":468,"y":174,"w":260.000000,"h":199.000000,"stylemods":[{"sel":"div.shape783Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:259.000000px; height:198.000000px;}"},{"sel":"span.shape783Text","decl":" { width:255.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAADHCAYAAAD/Ay2kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADfSURBVHhe7cEBAQAAAIIg/69uSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCmBilkAAEIIluwAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 259.000000 0.000000 L 259.000000 198.000000 L 0.000000 198.000000 L 0.000000 0.000000 z"}
 ,
-"text36507":{"x":492,"y":268,"w":210,"h":126,"txtscale":100,"bOffBottom":0}
+"text36507":{"x":492,"y":268,"w":210,"h":119,"txtscale":100,"bOffBottom":0}
 ,
 "image786":{"x":526,"y":113,"w":144,"h":144,"bOffBottom":0,"i":"images/image0037.png"}
 ,
@@ -51,7 +51,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "shape783":{"x":286,"y":224,"w":159.000000,"h":122.000000,"stylemods":[{"sel":"div.shape783Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:158.000000px; height:121.000000px;}"},{"sel":"span.shape783Text","decl":" { width:154.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:7px; font-size:7px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAAB6CAYAAAChkoHRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVHhe7cExAQAAAMKg9U9tB28gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALjUvoQABiMJ7bwAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 158.000000 0.000000 L 158.000000 121.000000 L 0.000000 121.000000 L 0.000000 0.000000 z"}
 ,
-"text36507":{"x":301,"y":345,"w":128,"h":216,"txtscale":100,"bOffBottom":0}
+"text36507":{"x":301,"y":345,"w":128,"h":170,"txtscale":100,"bOffBottom":0}
 ,
 "image786":{"x":322,"y":145,"w":88,"h":88,"bOffBottom":0,"i":"images/image0037.png"}
 ,

@@ -420,11 +420,11 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu54922.hasBeenProcessed) {
     if( ans_VarQuestion_0009 != '\u0046\u0061\u006C\u0073\u0065' && ans_VarQuestion_0009 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action54922_3(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action54922_11(onAfterFBAction);return 0;  } //2 
 
     else if( ans_VarQuestion_0009 == '\u0046\u0061\u006C\u0073\u0065' ) 
     { //1 
-        trivActFBCnt++; action54922_4(onAfterFBAction);  return 0;
+        trivActFBCnt++; action54922_12(onAfterFBAction);  return 0;
   } //1
 
   }
@@ -522,13 +522,13 @@ function Update_qu54922(value) {
    qu54922Object.hasBeenProcessed=false;
 }
 
-function action54922_3(fn){
+function action54922_11(fn){
     og80877.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action54922_4(fn){
+function action54922_12(fn){
     og80433.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1020,13 +1020,13 @@ text54944.addIe8Attr(71, 373, 880, 24, 0, 0)
 text54944.addHeading(0)
 text54944.addOpacity(100)
 text54944.arrCSSStyles = new Array();
-text54944.arrCSSStyles.push('span.text54944Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text54944.arrCSSStyles.push('span.text54944Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
-text54944.arrCSSStyles.push('span.text54944Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
+text54944.arrCSSStyles.push('span.text54944Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text54944.arrCSSStyles.push('span.text54944Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
+text54944.arrCSSStyles.push('span.text54944Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text54944.addInnerText('<div id=\"text54944\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text54944Font1\"  >Select the correct answer and select </span ><span class=\"text54944Font2\"  >Submit</span ><span class=\"text54944Font1\"  >. Then, select </span ><span class=\"text54944Font2\"  >Next</span ><span class=\"text54944Font1\"  > to continue.</span ><span class=\"text54944Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text54944.build()
 
-qu54922 = new ObjInline('qu54922',null,67,185,539,172,1,0)
+qu54922 = new ObjInline('qu54922',null,67,185,537,172,1,0)
 qu54922.isGrp = true
 qu54922.addChild('text54924')
 qu54922.addChild('text54925')
@@ -1036,7 +1036,7 @@ qu54922.addChild('radio54928')
 qu54922.ansVar=VarQuestion_0009;
 qu54922.build()
 
-text54924 = new ObjText('text54924',null,67,185,490,35,1,28,null,'div',null,0 )
+text54924 = new ObjText('text54924',null,67,185,489,38,1,28,null,'div',null,0 )
 text54924.initSLine(0)
 text54924.initHasBullet(0)
 text54924.initRotateAngle(0,0,0)
@@ -1045,7 +1045,7 @@ text54924.initHasTextShadow(0)
 text54924.initHasBorder(0)
 text54924.initHasOutline(0)
 text54924.initHasMargin(0)
-text54924.addIe8Attr(67, 185, 490, 35, 0, 0)
+text54924.addIe8Attr(67, 185, 489, 38, 0, 0)
 text54924.addHeading(0)
 text54924.addOpacity(100)
 text54924.arrCSSStyles = new Array();
@@ -1066,8 +1066,8 @@ text54925.addIe8Attr(140, 240, 69, 34, 0, 0)
 text54925.addHeading(0)
 text54925.addOpacity(100)
 text54925.arrCSSStyles = new Array();
-text54925.arrCSSStyles.push('span.text54925Font1 { font-size:15px; font-family:"Oswald"; color:#ffffff;}');
-text54925.arrCSSStyles.push('span.text54925Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text54925.arrCSSStyles.push('span.text54925Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text54925.arrCSSStyles.push('span.text54925Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text54925.addInnerText('<div id=\"text54925\" aria-live=\"polite\" ><label id=\"label54926id\" for=\"radio54926id\" onClick=\"Update_qu54922(radio54926id.value);radio54926Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text54925Font1\"  >True</span ><span class=\"text54925Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text54925.build()
 
@@ -1078,7 +1078,7 @@ radio54926.arrCSSStyles.push('');
 radio54926.build()
 
 text54927 = new ObjText('text54927',null,140,307,68,35,1,31,null,'div',null,0 )
-text54927.initSLine(1)
+text54927.initSLine(0)
 text54927.initHasBullet(0)
 text54927.initRotateAngle(0,0,0)
 text54927.initHasOuterShadow(0)
@@ -1090,8 +1090,8 @@ text54927.addIe8Attr(140, 307, 68, 35, 0, 0)
 text54927.addHeading(0)
 text54927.addOpacity(100)
 text54927.arrCSSStyles = new Array();
-text54927.arrCSSStyles.push('span.text54927Font1 { font-size:15px; font-family:"Oswald"; color:#ffffff;}');
-text54927.arrCSSStyles.push('span.text54927Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text54927.arrCSSStyles.push('span.text54927Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text54927.arrCSSStyles.push('span.text54927Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text54927.addInnerText('<div id=\"text54927\" aria-live=\"polite\" ><label id=\"label54928id\" for=\"radio54928id\" onClick=\"Update_qu54922(radio54928id.value);radio54928Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text54927Font1\"  >False</span ><span class=\"text54927Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text54927.build()
 

@@ -420,11 +420,11 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu50968.hasBeenProcessed) {
     if( ans_VarQuestion_0003 != '\u0049\u006E\u0064\u0069\u0072\u0065\u0063\u0074' && ans_VarQuestion_0003 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action50968_3(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action50968_11(onAfterFBAction);return 0;  } //2 
 
     else if( ans_VarQuestion_0003 == '\u0049\u006E\u0064\u0069\u0072\u0065\u0063\u0074' ) 
     { //1 
-        trivActFBCnt++; action50968_4(onAfterFBAction);  return 0;
+        trivActFBCnt++; action50968_12(onAfterFBAction);  return 0;
   } //1
 
   }
@@ -522,13 +522,13 @@ function Update_qu50968(value) {
    qu50968Object.hasBeenProcessed=false;
 }
 
-function action50968_3(fn){
+function action50968_11(fn){
     og77333.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action50968_4(fn){
+function action50968_12(fn){
     og77160.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1009,8 +1009,7 @@ text319544.addHeading(0)
 text319544.addOpacity(100)
 text319544.arrCSSStyles = new Array();
 text319544.arrCSSStyles.push('span.text319544Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
-text319544.arrCSSStyles.push('span.text319544Font2 { font-size:16px; font-family:"Arial", sans-serif; color:#010101;}');
-text319544.addInnerText('<div id=\"text319544\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text319544Font1\"  >The Executive Director of the non-Federal entity travels to a regional office to give employees a quarterly update.</span ><span class=\"text319544Font2\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
+text319544.addInnerText('<div id=\"text319544\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text319544Font1\"  >The Executive Director of the non-Federal entity travels to a regional office to give employees a quarterly update.\n</span ></p ></div>\n');
 text319544.build()
 
 text50984 = new ObjText('text50984',null,72,403,880,24,1,27,null,'div',null,0 )
@@ -1026,9 +1025,9 @@ text50984.addIe8Attr(72, 403, 880, 24, 0, 0)
 text50984.addHeading(0)
 text50984.addOpacity(100)
 text50984.arrCSSStyles = new Array();
-text50984.arrCSSStyles.push('span.text50984Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text50984.arrCSSStyles.push('span.text50984Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
-text50984.arrCSSStyles.push('span.text50984Font3 { font-size:17px; font-family:"Arial", sans-serif; color:#000000;}');
+text50984.arrCSSStyles.push('span.text50984Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text50984.arrCSSStyles.push('span.text50984Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
+text50984.arrCSSStyles.push('span.text50984Font3 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text50984.addInnerText('<div id=\"text50984\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text50984Font1\"  >Select the correct answer and select </span ><span class=\"text50984Font2\"  >Submit</span ><span class=\"text50984Font1\"  >. Then, select </span ><span class=\"text50984Font2\"  >Next</span ><span class=\"text50984Font1\"  > to continue.</span ><span class=\"text50984Font3\" style=\"background-color:transparent\" >\n</span ></p ></div>\n');
 text50984.build()
 
@@ -1073,19 +1072,19 @@ text50971.addIe8Attr(138, 268, 60, 32, 0, 0)
 text50971.addHeading(0)
 text50971.addOpacity(100)
 text50971.arrCSSStyles = new Array();
-text50971.arrCSSStyles.push('span.text50971Font1 { font-size:15px; font-family:"Oswald"; color:#ffffff;}');
-text50971.arrCSSStyles.push('span.text50971Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text50971.arrCSSStyles.push('span.text50971Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text50971.arrCSSStyles.push('span.text50971Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text50971.addInnerText('<div id=\"text50971\" aria-live=\"polite\" ><label id=\"label50972id\" for=\"radio50972id\" onClick=\"Update_qu50968(radio50972id.value);radio50972Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text50971Font1\"  >Direct</span ><span class=\"text50971Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text50971.build()
 
-radio50972 = new ObjInline('radio50972',null,(is.ie?84:83),(is.ie?271:270),null,null,1,30, 0, null, null, 0)
+radio50972 = new ObjInline('radio50972',null,(is.ie?84:83),(is.ie?268:267),null,null,1,30, 0, null, null, 0)
 radio50972.onSelChg = radio50972onSelChg
 radio50972.arrCSSStyles = new Array();
 radio50972.arrCSSStyles.push('');
 radio50972.build()
 
 text50973 = new ObjText('text50973',null,139,336,70,35,1,31,null,'div',null,0 )
-text50973.initSLine(1)
+text50973.initSLine(0)
 text50973.initHasBullet(0)
 text50973.initRotateAngle(0,0,0)
 text50973.initHasOuterShadow(0)
@@ -1097,8 +1096,8 @@ text50973.addIe8Attr(139, 336, 70, 35, 0, 0)
 text50973.addHeading(0)
 text50973.addOpacity(100)
 text50973.arrCSSStyles = new Array();
-text50973.arrCSSStyles.push('span.text50973Font1 { font-size:15px; font-family:"Oswald"; color:#ffffff;}');
-text50973.arrCSSStyles.push('span.text50973Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
+text50973.arrCSSStyles.push('span.text50973Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#ffffff;}');
+text50973.arrCSSStyles.push('span.text50973Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#010101;}');
 text50973.addInnerText('<div id=\"text50973\" aria-live=\"polite\" ><label id=\"label50974id\" for=\"radio50974id\" onClick=\"Update_qu50968(radio50974id.value);radio50974Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text50973Font1\"  >Indirect</span ><span class=\"text50973Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text50973.build()
 

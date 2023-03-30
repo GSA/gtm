@@ -570,12 +570,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu44991.hasBeenProcessed) {
     if( ans_VarQuestion_0001 == '\u0041\u006C\u006C\u006F\u0063\u0061\u0062\u006C\u0065\u002C\u0041\u006C\u006C\u006F\u0077\u0061\u0062\u006C\u0065\u002C\u0052\u0065\u0061\u0073\u006F\u006E\u0061\u0062\u006C\u0065' ) 
     { //1 
-        trivActFBCnt++; action44991_3(onAfterFBAction);  return 0;
+        trivActFBCnt++; action44991_11(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_VarQuestion_0001 != '\u0041\u006C\u006C\u006F\u0063\u0061\u0062\u006C\u0065\u002C\u0041\u006C\u006C\u006F\u0077\u0061\u0062\u006C\u0065\u002C\u0052\u0065\u0061\u0073\u006F\u006E\u0061\u0062\u006C\u0065' && ans_VarQuestion_0001 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action44991_4(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action44991_12(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -983,13 +983,13 @@ function Update_qu44991( upd ) {
     qu44991Object.hasBeenProcessed=false;
 }
 
-function action44991_3(fn){
+function action44991_11(fn){
     og377439.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action44991_4(fn){
+function action44991_12(fn){
     og377419.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -2218,8 +2218,8 @@ text45928.addIe8Attr(70, 435, 872, 25, 0, 0)
 text45928.addHeading(0)
 text45928.addOpacity(100)
 text45928.arrCSSStyles = new Array();
-text45928.arrCSSStyles.push('span.text45928Font1 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
-text45928.arrCSSStyles.push('span.text45928Font2 { font-size:17px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
+text45928.arrCSSStyles.push('span.text45928Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-style:italic;}');
+text45928.arrCSSStyles.push('span.text45928Font2 { font-size:15px; font-family:"Arial", sans-serif; color:#000000; font-weight:bold; font-style:italic;}');
 text45928.addInnerText('<div id=\"text45928\" aria-live=\"polite\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text45928Font1\"  >Select all that apply and select </span ><span class=\"text45928Font2\"  >Submit</span ><span class=\"text45928Font1\"  >. Then, select </span ><span class=\"text45928Font2\"  >Next</span ><span class=\"text45928Font1\"  > to continue.\n</span ></p ></div>\n');
 text45928.build()
 
