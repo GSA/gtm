@@ -5,8 +5,6 @@ PhoneResponsive={"785":{
 ,
 "":{"x":330,"y":96,"w":233,"h":156,"bOffBottom":0}
 ,
-"image371915":{"x":45,"y":509,"w":72,"h":29,"bOffBottom":0,"i":"images/back.jpg"}
-,
 "htmlextension":{"x":-238,"y":152,"w":233,"h":156,"bOffBottom":0}
 ,
 "shape5420":{"x":78,"y":260,"w":629.000000,"h":4.000000,"stylemods":[{"sel":"div.shape5420Text","decl":" { position:absolute; top:1.000000px; left:1.000000px; display:flex; justify-content:center; align-items:center; width:625.000000px; height:0.000000px;}"},{"sel":"span.shape5420Text","decl":" { width:621.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnMAAAACCAYAAAAzUVpDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAcSURBVFhH7cExAQAAAMKg9U9tCy8gAAAAAOCuBhOaAAGmCK51AAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 2.000000 2.000000 L 627.000000 2.000000 "}
@@ -38,8 +36,6 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 "":{"x":89,"y":312,"w":143,"h":95,"bOffBottom":0}
 ,
 "":{"x":202,"y":124,"w":143,"h":95,"bOffBottom":0}
-,
-"image371915":{"x":29,"y":919,"w":80,"h":32,"bOffBottom":0,"i":"images/back.jpg"}
 ,
 "htmlextension":{"x":-148,"y":195,"w":143,"h":95,"bOffBottom":0}
 ,
