@@ -41,7 +41,7 @@ TabletResponsive={"1009":{
 ,
 "shape313884":{"x":300,"y":240,"w":115.000000,"h":44.000000,"stylemods":[{"sel":"div.shape313884Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:114.000000px; height:43.000000px;}"},{"sel":"span.shape313884Text","decl":" { width:110.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:16px; font-size:16px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAAsCAYAAABWm4fEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAArSURBVHhe7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAAAAAAAAAAAAALhWA088AAFdM0HJAAAAAElFTkSuQmCC"  ,"fd": "" ,"p": "M 0.000000 0.000000 L 114.000000 0.000000 L 114.000000 43.000000 L 0.000000 43.000000 L 0.000000 0.000000 z"}
 ,
-"text313882":{"x":352,"y":285,"w":800,"h":50,"txtscale":100,"bOffBottom":0}
+"text313882":{"x":340,"y":285,"w":800,"h":50,"txtscale":100,"bOffBottom":0}
 ,
 "text313881":{"x":305,"y":250,"w":101,"h":26,"txtscale":100,"bOffBottom":0}
 ,
@@ -151,7 +151,7 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "shape313884":{"x":233,"y":240,"w":90.000000,"h":34.000000,"stylemods":[{"sel":"div.shape313884Text","decl":" { position:absolute; top:0.000000px; left:0.000000px; display:flex; justify-content:center; align-items:center; width:89.000000px; height:33.000000px;}"},{"sel":"span.shape313884Text","decl":" { width:85.000000px; margin-right:5px; margin-left:5px; text-align:center; line-height:11px; font-size:11px; font-family:\"Lucida Sans Unicode\"; color:#ffffff;}"}],"bOffBottom":0 ,"td": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAiCAYAAADf2c6uAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAjSURBVGhD7cExAQAAAMKg9U9tDQ8gAAAAAAAAAAAAAADgTg0v8gABJb68SwAAAABJRU5ErkJggg=="  ,"fd": "" ,"p": "M 0.000000 0.000000 L 89.000000 0.000000 L 89.000000 33.000000 L 0.000000 33.000000 L 0.000000 0.000000 z"}
 ,
-"text313882":{"x":274,"y":285,"w":622,"h":39,"txtscale":100,"bOffBottom":0}
+"text313882":{"x":265,"y":285,"w":622,"h":39,"txtscale":100,"bOffBottom":0}
 ,
 "text313881":{"x":237,"y":250,"w":79,"h":20,"txtscale":100,"bOffBottom":0}
 ,
