@@ -133,11 +133,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text319544":{"x":52,"y":207,"w":570,"h":34,"txtscale":100,"bOffBottom":0}
 ,
-"text50984":{"x":56,"y":403,"w":685,"h":20,"txtscale":100,"bOffBottom":0}
+"text50984":{"x":56,"y":403,"w":685,"h":19,"txtscale":100,"bOffBottom":0}
 ,
 "text50970":{"x":52,"y":185,"w":614,"h":39,"txtscale":100,"bOffBottom":0}
 ,
-"text50971":{"x":107,"y":268,"w":47,"h":26,"txtscale":100,"bOffBottom":0}
+"text50971":{"x":107,"y":268,"w":47,"h":25,"txtscale":100,"bOffBottom":0}
 ,
 "radio50972":{"x":64,"y":267,"fsize":15,"bOffBottom":0}
 ,
