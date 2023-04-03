@@ -21,7 +21,7 @@ TabletResponsive={"1009":{
 ,
 "text58":{"x":348,"y":91,"w":315,"h":77,"txtscale":100,"bOffBottom":0}
 ,
-"text59":{"x":432,"y":221,"w":145,"h":40,"txtscale":100,"bOffBottom":0}
+"text59":{"x":432,"y":221,"w":145,"h":53,"txtscale":100,"bOffBottom":0}
 ,
 "text60":{"x":111,"y":282,"w":783,"h":93,"txtscale":100,"bOffBottom":0}
 ,
@@ -55,11 +55,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "htmlextension":{"x":-238,"y":195,"w":233,"h":156,"bOffBottom":0}
 ,
-"text58":{"x":271,"y":91,"w":245,"h":60,"txtscale":100,"bOffBottom":0}
+"text58":{"x":271,"y":91,"w":245,"h":66,"txtscale":100,"bOffBottom":0}
 ,
-"text59":{"x":336,"y":230,"w":113,"h":68,"txtscale":100,"bOffBottom":0}
+"text59":{"x":336,"y":225,"w":113,"h":53,"txtscale":100,"bOffBottom":0}
 ,
-"text60":{"x":86,"y":281,"w":609,"h":80,"txtscale":100,"bOffBottom":0}
+"text60":{"x":86,"y":281,"w":609,"h":72,"txtscale":100,"bOffBottom":0}
 ,
 "image317179":{"x":343,"y":380,"w":100,"h":39,"bOffBottom":0,"i":"images/start-button.jpg"}
 ,
