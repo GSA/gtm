@@ -21,11 +21,11 @@ DesktopResponsive={"1009":{
 ,
 "text58":{"x":348,"y":91,"w":315,"h":77,"txtscale":100,"bOffBottom":0}
 ,
-"text59":{"x":432,"y":225,"w":145,"h":50,"txtscale":100,"bOffBottom":0}
+"text59":{"x":428,"y":220,"w":145,"h":60,"txtscale":100,"bOffBottom":0}
 ,
-"text60":{"x":111,"y":281,"w":783,"h":93,"txtscale":100,"bOffBottom":0}
+"text60":{"x":111,"y":270,"w":783,"h":93,"txtscale":100,"bOffBottom":0}
 ,
-"image317179":{"x":441,"y":380,"w":129,"h":50,"bOffBottom":0,"i":"images/start-button.jpg"}
+"image317179":{"x":438,"y":380,"w":129,"h":50,"bOffBottom":0,"i":"images/start-button.jpg"}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
