@@ -13,9 +13,9 @@ TabletResponsive={"1009":{
 ,
 "text3501":{"x":430,"y":164,"w":145,"h":66,"txtscale":100,"bOffBottom":0}
 ,
-"text3502":{"x":70,"y":220,"w":866,"h":148,"txtscale":100,"bOffBottom":0}
+"text3502":{"x":70,"y":220,"w":866,"h":125,"txtscale":100,"bOffBottom":0}
 ,
-"text3503":{"x":24,"y":310,"w":960,"h":71,"txtscale":100,"bOffBottom":0}
+"text3503":{"x":24,"y":310,"w":960,"h":70,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
@@ -39,9 +39,9 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "text3501":{"x":335,"y":164,"w":113,"h":120,"txtscale":100,"bOffBottom":0}
 ,
-"text3502":{"x":54,"y":220,"w":674,"h":148,"txtscale":100,"bOffBottom":0}
+"text3502":{"x":54,"y":220,"w":674,"h":121,"txtscale":100,"bOffBottom":0}
 ,
-"text3503":{"x":19,"y":310,"w":747,"h":71,"txtscale":100,"bOffBottom":0}
+"text3503":{"x":19,"y":310,"w":747,"h":66,"txtscale":100,"bOffBottom":0}
 ,
 "RCDResetQuestion":function(){
 try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}

@@ -55,11 +55,11 @@ try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)
 ,
 "htmlextension":{"x":-238,"y":195,"w":233,"h":156,"bOffBottom":0}
 ,
-"text58":{"x":271,"y":91,"w":245,"h":70,"txtscale":100,"bOffBottom":0}
+"text58":{"x":271,"y":91,"w":245,"h":66,"txtscale":100,"bOffBottom":0}
 ,
 "text59":{"x":333,"y":220,"w":113,"h":120,"txtscale":100,"bOffBottom":0}
 ,
-"text60":{"x":86,"y":270,"w":609,"h":72,"txtscale":100,"bOffBottom":0}
+"text60":{"x":86,"y":270,"w":609,"h":130,"txtscale":100,"bOffBottom":0}
 ,
 "image317179":{"x":341,"y":380,"w":100,"h":39,"bOffBottom":0,"i":"images/start-button.jpg"}
 ,
