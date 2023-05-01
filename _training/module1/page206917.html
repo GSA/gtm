@@ -122,12 +122,6 @@
     background-size: 1009px 567px !important;
     background-repeat: repeat-y !important;
 }
-@media screen and (max-width: 1290px){
-#pageDIV
-{
-    left: 127px !important;
-}
-}
 @media screen and (min-width: 1290px){
 #pageDIV
 {
@@ -620,9 +614,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action206990_1(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action206990_3(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action206990_2(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action206990_4(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -878,13 +872,13 @@ function Update_qu206990() {
   doImmFeedback('qu206990');
 }
 
-function action206990_1(fn){
+function action206990_3(fn){
     og207008.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action206990_2(fn){
+function action206990_4(fn){
     og207031.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

@@ -122,12 +122,6 @@
     background-size: 1009px 567px !important;
     background-repeat: repeat-y !important;
 }
-@media screen and (max-width: 1290px){
-#pageDIV
-{
-    left: 127px !important;
-}
-}
 @media screen and (min-width: 1290px){
 #pageDIV
 {
@@ -570,12 +564,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu59306.hasBeenProcessed) {
     if( ans_Varl1q4 == '\u0055\u006E\u0069\u0074\u0065\u0064\u0020\u0053\u0074\u0061\u0074\u0065\u0073\u0020\u0050\u0072\u0065\u0073\u0069\u0064\u0065\u006E\u0074' ) 
     { //1 
-        trivActFBCnt++; action59306_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action59306_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q4 != '\u0055\u006E\u0069\u0074\u0065\u0064\u0020\u0053\u0074\u0061\u0074\u0065\u0073\u0020\u0050\u0072\u0065\u0073\u0069\u0064\u0065\u006E\u0074' && ans_Varl1q4 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action59306_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action59306_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -795,13 +789,13 @@ function Update_qu59306( upd ) {
     qu59306Object.hasBeenProcessed=false;
 }
 
-function action59306_1(fn){
+function action59306_3(fn){
     og60455.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action59306_2(fn){
+function action59306_4(fn){
     og59253.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

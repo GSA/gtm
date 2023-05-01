@@ -122,12 +122,6 @@
     background-size: 1009px 567px !important;
     background-repeat: repeat-y !important;
 }
-@media screen and (max-width: 1290px){
-#pageDIV
-{
-    left: 127px !important;
-}
-}
 @media screen and (min-width: 1290px){
 #pageDIV
 {
@@ -686,12 +680,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu206438.hasBeenProcessed) {
     if( ans_Varl2q6 == '\u0031\u002D\u0031\u002C\u0032\u002D\u0032\u002C\u0033\u002D\u0033\u002C\u0034\u002D\u0031' ) 
     { //1 
-        trivActFBCnt++; action206438_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action206438_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl2q6 != '\u0031\u002D\u0031\u002C\u0032\u002D\u0032\u002C\u0033\u002D\u0033\u002C\u0034\u002D\u0031' && ans_Varl2q6 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action206438_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action206438_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -1263,13 +1257,13 @@ function Update_qu206438( upd ) {
     qu206438Object.hasBeenProcessed=false;
 }
 
-function action206438_1(fn){
+function action206438_3(fn){
     og206470.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action206438_2(fn){
+function action206438_4(fn){
     og206497.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

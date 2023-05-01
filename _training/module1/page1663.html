@@ -122,12 +122,6 @@
     background-size: 1009px 567px !important;
     background-repeat: repeat-y !important;
 }
-@media screen and (max-width: 1290px){
-#pageDIV
-{
-    left: 127px !important;
-}
-}
 @media screen and (min-width: 1290px){
 #pageDIV
 {
@@ -529,12 +523,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu65989.hasBeenProcessed) {
     if( ans_Varl1q7 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action65989_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action65989_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q7 != '\u0054\u0072\u0075\u0065' && ans_Varl1q7 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action65989_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action65989_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -677,13 +671,13 @@ function Update_qu65989(value) {
    qu65989Object.hasBeenProcessed=false;
 }
 
-function action65989_1(fn){
+function action65989_3(fn){
     og65899.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action65989_2(fn){
+function action65989_4(fn){
     og65914.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();

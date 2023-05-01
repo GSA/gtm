@@ -122,12 +122,6 @@
     background-size: 1009px 567px !important;
     background-repeat: repeat-y !important;
 }
-@media screen and (max-width: 1290px){
-#pageDIV
-{
-    left: 127px !important;
-}
-}
 @media screen and (min-width: 1290px){
 #pageDIV
 {
@@ -641,9 +635,9 @@ function doImmFeedback( objId ) {
         if( offset < 0 ) wrong = true
         else offset = offset + arrAns[idx].length
       }
-    if( !wrong ) {        trivActFBCnt++; action81043_1(onAfterFBAction); return 0;  } //1
+    if( !wrong ) {        trivActFBCnt++; action81043_3(onAfterFBAction); return 0;  } //1
 
-    if( wrong ) {trivActFBCnt++; action81043_2(onAfterFBAction); return 0;  } //2 
+    if( wrong ) {trivActFBCnt++; action81043_4(onAfterFBAction); return 0;  } //2 
 
     }
   }
@@ -919,13 +913,13 @@ function Update_qu81043() {
   doImmFeedback('qu81043');
 }
 
-function action81043_1(fn){
+function action81043_3(fn){
     runGroup_og231486()
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action81043_2(fn){
+function action81043_4(fn){
     runGroup_og231495()
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
