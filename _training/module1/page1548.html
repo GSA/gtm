@@ -134,6 +134,10 @@
 }
 </style>
 <style type="text/css">
+  .custRadio { margin: 0px 0px 0px 4px; padding-left: 28px; min-height: 24px; background: url(images/asset_5.png) left center no-repeat; cursor: pointer; display: inline-block; vertical-align:middle;}
+  input[type = "radio"]:checked ~ .custRadio, input[type = "radio"]:checked ~ .custRadioL {background-image: url(images/asset_4.png)}
+  .custQR  { padding: 0px 22px 0px 0px; margin: 0px 1px 1px 4px }
+  .custQCB { padding: 0px 29px 0px 0px; margin: 0px 1px 1px 4px }
   .trivInputLL { margin : 0px 0px 0px 9px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputLR { margin : 0px 9px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputNL { margin : 0px 0px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
@@ -527,12 +531,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu63255.hasBeenProcessed) {
     if( ans_Varl1q5 == '\u005C\u0072\u0020\u0020\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action63255_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action63255_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q5 != '\u005C\u0072\u0020\u0020\u0054\u0072\u0075\u0065' && ans_Varl1q5 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action63255_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action63255_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -655,13 +659,13 @@ function Update_qu63255(value) {
    qu63255Object.hasBeenProcessed=false;
 }
 
-function action63255_1(fn){
+function action63255_3(fn){
     og63247.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action63255_2(fn){
+function action63255_4(fn){
     og63557.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1289,7 +1293,7 @@ text63258.addOpacity(100)
 text63258.arrCSSStyles = new Array();
 text63258.arrCSSStyles.push('span.text63258Font1 { font-size:20px; font-family:"Arial", sans-serif; color:#ffffff;}');
 text63258.arrCSSStyles.push('span.text63258Font2 { font-size:19px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
-text63258.addInnerText('<div id=\"text63258\" aria-live=\"polite\" ><label id=\"label63259id\" for=\"radio63259id\" ><p lang=\"en\"  legLH=\"1.192\" style=\"margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text63258Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text63258Font1\"  >&nbsp;&nbsp;True</span ><span class=\"text63258Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text63258.addInnerText('<div id=\"text63258\" aria-live=\"polite\" ><label id=\"label63259id\" for=\"radio63259id\" onClick=\"Update_qu63255(radio63259id.value);radio63259Object.onSelChg();\"><p lang=\"en\"  legLH=\"1.192\" style=\"margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text63258Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text63258Font1\"  >&nbsp;&nbsp;True</span ><span class=\"text63258Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text63258.build()
 
 radio63259 = new ObjInline('radio63259',null,(is.ie?78:77),(is.ie?266:265),null,null,1,35, 0, null, null, 0)
@@ -1313,7 +1317,7 @@ text63260.addOpacity(100)
 text63260.arrCSSStyles = new Array();
 text63260.arrCSSStyles.push('span.text63260Font1 { font-size:20px; font-family:"Arial", sans-serif; color:#ffffff;}');
 text63260.arrCSSStyles.push('span.text63260Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text63260.addInnerText('<div id=\"text63260\" aria-live=\"polite\" ><label id=\"label63261id\" for=\"radio63261id\" ><p lang=\"en\"  legLH=\"1.192\" style=\"margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text63260Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text63260Font1\"  >&nbsp;&nbsp;False</span ><span class=\"text63260Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text63260.addInnerText('<div id=\"text63260\" aria-live=\"polite\" ><label id=\"label63261id\" for=\"radio63261id\" onClick=\"Update_qu63255(radio63261id.value);radio63261Object.onSelChg();\"><p lang=\"en\"  legLH=\"1.192\" style=\"margin-left:0px;text-indent:0px;line-height:1.192;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text63260Font1\" style=\"background-color:transparent\" >\n&nbsp;</span ></p >\n<p  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text63260Font1\"  >&nbsp;&nbsp;False</span ><span class=\"text63260Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text63260.build()
 
 radio63261 = new ObjInline('radio63261',null,(is.ie?78:77),(is.ie?336:335),null,null,1,37, 0, null, null, 0)
@@ -1518,11 +1522,13 @@ if( is.min ){
     appendElement(text63257, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text63258, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', '<div id="radio63259"><a id="radio63259anc"></a></div>');
-    appendElement(null, radio63259.div, '<input type="radio" name="qu63255" class="trivInputNL"id="radio63259id" value="\\r  True" onClick="Update_qu63255(this.value);radio63259Object.onSelChg();" >');
+    appendElement(null, radio63259.div, '<input type="radio" name="qu63255" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio63259id" value="\\r  True"  >');
+    appendElement(null, radio63259.div, '<label id="label63259id2" for="radio63259id" class="custQR custRadio" style="" onClick="Update_qu63255(radio63259id.value);radio63259Object.onSelChg();"></label>');
 
     appendElement(text63260, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu63255_fieldset" style="border:0;"></fieldset>', '<div id="radio63261"><a id="radio63261anc"></a></div>');
-    appendElement(null, radio63261.div, '<input type="radio" name="qu63255" class="trivInputNL"id="radio63261id" value="\\r  False" onClick="Update_qu63255(this.value);radio63261Object.onSelChg();" >');
+    appendElement(null, radio63261.div, '<input type="radio" name="qu63255" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio63261id" value="\\r  False"  >');
+    appendElement(null, radio63261.div, '<label id="label63261id2" for="radio63261id" class="custQR custRadio" style="" onClick="Update_qu63255(radio63261id.value);radio63261Object.onSelChg();"></label>');
 
     appendElement(image343763, null, null);
     appendElement(image379270, null, null);

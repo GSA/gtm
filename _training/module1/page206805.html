@@ -134,6 +134,10 @@
 }
 </style>
 <style type="text/css">
+  .custCB { margin: 0px 0px 0px 4px; padding-left: 40px; min-height: 29px; background: url(images/square-open.jpg) left center no-repeat; cursor: pointer; display: inline-block; vertical-align:middle;}
+  input[type = "checkbox"]:checked ~ .custCB, input[type = "checkbox"]:checked ~ .custCBL {background-image: url(images/square-closed.jpg)}
+  .custQR  { padding: 0px 22px 0px 0px; margin: 0px 1px 1px 4px }
+  .custQCB { padding: 0px 29px 0px 0px; margin: 0px 1px 1px 4px }
   .trivInputLL { margin : 0px 0px 0px 9px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputLR { margin : 0px 9px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputNL { margin : 0px 0px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
@@ -555,12 +559,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu206856.hasBeenProcessed) {
     if( ans_Varl2q9 == '\u0054\u0068\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0066\u0065\u0072\u0020\u006F\u0066\u0020\u0061\u0020\u0066\u0065\u0064\u0065\u0072\u0061\u006C\u006C\u0079\u0020\u006F\u0077\u006E\u0065\u0064\u0020\u0062\u0075\u0069\u006C\u0064\u0069\u006E\u0067\u0020\u0074\u006F\u0020\u0061\u0020\u006C\u006F\u0063\u0061\u006C\u0020\u0073\u0063\u0068\u006F\u006F\u006C\u0020\u0064\u0069\u0073\u0074\u0072\u0069\u0063\u0074\u0020\u0074\u006F\u0020\u0062\u0065\u0020\u0075\u0073\u0065\u0064\u0020\u0061\u0073\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u0020\u0062\u0075\u0069\u006C\u0064\u0069\u006E\u0067\u002E\u002C\u0054\u0068\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0066\u0065\u0072\u0020\u006F\u0066\u0020\u0066\u006F\u006F\u0064\u0020\u0074\u006F\u0020\u0073\u0074\u0061\u0074\u0065\u0020\u0061\u0067\u0065\u006E\u0063\u0069\u0065\u0073\u0020\u0066\u006F\u0072\u0020\u0064\u0069\u0073\u0074\u0072\u0069\u0062\u0075\u0074\u0069\u006F\u006E\u0020\u0074\u006F\u0020\u006C\u006F\u0077\u0020\u0069\u006E\u0063\u006F\u006D\u0065\u0020\u0066\u0061\u006D\u0069\u006C\u0069\u0065\u0073\u002E' ) 
     { //1 
-        trivActFBCnt++; action206856_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action206856_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl2q9 != '\u0054\u0068\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0066\u0065\u0072\u0020\u006F\u0066\u0020\u0061\u0020\u0066\u0065\u0064\u0065\u0072\u0061\u006C\u006C\u0079\u0020\u006F\u0077\u006E\u0065\u0064\u0020\u0062\u0075\u0069\u006C\u0064\u0069\u006E\u0067\u0020\u0074\u006F\u0020\u0061\u0020\u006C\u006F\u0063\u0061\u006C\u0020\u0073\u0063\u0068\u006F\u006F\u006C\u0020\u0064\u0069\u0073\u0074\u0072\u0069\u0063\u0074\u0020\u0074\u006F\u0020\u0062\u0065\u0020\u0075\u0073\u0065\u0064\u0020\u0061\u0073\u0020\u0061\u0020\u0070\u0075\u0062\u006C\u0069\u0063\u0020\u0062\u0075\u0069\u006C\u0064\u0069\u006E\u0067\u002E\u002C\u0054\u0068\u0065\u0020\u0074\u0072\u0061\u006E\u0073\u0066\u0065\u0072\u0020\u006F\u0066\u0020\u0066\u006F\u006F\u0064\u0020\u0074\u006F\u0020\u0073\u0074\u0061\u0074\u0065\u0020\u0061\u0067\u0065\u006E\u0063\u0069\u0065\u0073\u0020\u0066\u006F\u0072\u0020\u0064\u0069\u0073\u0074\u0072\u0069\u0062\u0075\u0074\u0069\u006F\u006E\u0020\u0074\u006F\u0020\u006C\u006F\u0077\u0020\u0069\u006E\u0063\u006F\u006D\u0065\u0020\u0066\u0061\u006D\u0069\u006C\u0069\u0065\u0073\u002E' && ans_Varl2q9 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action206856_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action206856_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -588,6 +592,9 @@ function OnDeviceRotate() {
 
 }
 
+trivPageScope.qsCustBtn_check206859;
+trivPageScope.qsCustBtn_check206861;
+trivPageScope.qsCustBtn_check206863;
 function action206875(fn){
     og206864.actionHide(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -766,13 +773,13 @@ function Update_qu206856( upd ) {
     qu206856Object.hasBeenProcessed=false;
 }
 
-function action206856_1(fn){
+function action206856_3(fn){
     og206864.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action206856_2(fn){
+function action206856_4(fn){
     og206883.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1547,7 +1554,7 @@ text206858.addOpacity(100)
 text206858.arrCSSStyles = new Array();
 text206858.arrCSSStyles.push('span.text206858Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
 text206858.arrCSSStyles.push('span.text206858Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
-text206858.addInnerText('<div id=\"text206858\" aria-live=\"polite\" ><label id=\"label206859id\" for=\"check206859id\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206858Font1\"  >The transfer of a federally owned building to a local school district to be used as a public building.</span ><span class=\"text206858Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text206858.addInnerText('<div id=\"text206858\" aria-live=\"polite\" ><label id=\"label206859id\" for=\"check206859id\" onchange=\"check206859Object.onSelChg(); ;Update_qu206856( 1 );\"><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206858Font1\"  >The transfer of a federally owned building to a local school district to be used as a public building.</span ><span class=\"text206858Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text206858.build()
 
 check206859 = new ObjInline('check206859',null,(is.ie?75:74),(is.ie?240:239),null,null,1,43, 0, null, null, 0)
@@ -1571,7 +1578,7 @@ text206860.addOpacity(100)
 text206860.arrCSSStyles = new Array();
 text206860.arrCSSStyles.push('span.text206860Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
 text206860.arrCSSStyles.push('span.text206860Font2 { font-size:15px; font-family:"Oswald"; color:#00324b; font-weight:bold;}');
-text206860.addInnerText('<div id=\"text206860\" aria-live=\"polite\" ><label id=\"label206861id\" for=\"check206861id\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206860Font1\"  >The transfer of food to state agencies for distribution to low income families.</span ><span class=\"text206860Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text206860.addInnerText('<div id=\"text206860\" aria-live=\"polite\" ><label id=\"label206861id\" for=\"check206861id\" onchange=\"check206861Object.onSelChg(); ;Update_qu206856( 1 );\"><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206860Font1\"  >The transfer of food to state agencies for distribution to low income families.</span ><span class=\"text206860Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text206860.build()
 
 check206861 = new ObjInline('check206861',null,(is.ie?73:72),(is.ie?304:303),null,null,1,45, 0, null, null, 0)
@@ -1595,7 +1602,7 @@ text206862.addOpacity(100)
 text206862.arrCSSStyles = new Array();
 text206862.arrCSSStyles.push('span.text206862Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
 text206862.arrCSSStyles.push('span.text206862Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
-text206862.addInnerText('<div id=\"text206862\" aria-live=\"polite\" ><label id=\"label206863id\" for=\"check206863id\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206862Font1\"  >Providing logistical support for a conference of new grant award recipients.</span ><span class=\"text206862Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text206862.addInnerText('<div id=\"text206862\" aria-live=\"polite\" ><label id=\"label206863id\" for=\"check206863id\" onchange=\"check206863Object.onSelChg(); ;Update_qu206856( 1 );\"><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206862Font1\"  >Providing logistical support for a conference of new grant award recipients.</span ><span class=\"text206862Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text206862.build()
 
 check206863 = new ObjInline('check206863',null,(is.ie?74:73),(is.ie?369:368),null,null,1,47, 0, null, null, 0)
@@ -1826,15 +1833,18 @@ if( is.min ){
     appendElement(text206857, '<fieldset id="qu206856_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text206858, '<fieldset id="qu206856_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu206856_fieldset" style="border:0;"></fieldset>', '<div id="check206859"><a id="check206859anc"></a></div>');
-    appendElement(null, check206859.div, '<input type="checkbox" name="qu206856" class="trivInputNL"id="check206859id" value="The transfer of a federally owned building to a local school district to be used as a public building." onClick="check206859Object.onSelChg();;Update_qu206856( 1 );">');
+    appendElement(null, check206859.div, '<input type="checkbox" name="qu206856" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check206859id" value="The transfer of a federally owned building to a local school district to be used as a public building." onchange="check206859Object.onSelChg(); ;Update_qu206856( 1 );">');
+    appendElement(null, check206859.div, '<label id="label206859id2" for="check206859id" class="custQCB custCB" style="" onchange="check206859Object.onSelChg(); ;Update_qu206856( 1 );"></label> ');
 
     appendElement(text206860, '<fieldset id="qu206856_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu206856_fieldset" style="border:0;"></fieldset>', '<div id="check206861"><a id="check206861anc"></a></div>');
-    appendElement(null, check206861.div, '<input type="checkbox" name="qu206856" class="trivInputNL"id="check206861id" value="The transfer of food to state agencies for distribution to low income families." onClick="check206861Object.onSelChg();;Update_qu206856( 1 );">');
+    appendElement(null, check206861.div, '<input type="checkbox" name="qu206856" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check206861id" value="The transfer of food to state agencies for distribution to low income families." onchange="check206861Object.onSelChg(); ;Update_qu206856( 1 );">');
+    appendElement(null, check206861.div, '<label id="label206861id2" for="check206861id" class="custQCB custCB" style="" onchange="check206861Object.onSelChg(); ;Update_qu206856( 1 );"></label> ');
 
     appendElement(text206862, '<fieldset id="qu206856_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu206856_fieldset" style="border:0;"></fieldset>', '<div id="check206863"><a id="check206863anc"></a></div>');
-    appendElement(null, check206863.div, '<input type="checkbox" name="qu206856" class="trivInputNL"id="check206863id" value="Providing logistical support for a conference of new grant award recipients." onClick="check206863Object.onSelChg();;Update_qu206856( 1 );">');
+    appendElement(null, check206863.div, '<input type="checkbox" name="qu206856" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check206863id" value="Providing logistical support for a conference of new grant award recipients." onchange="check206863Object.onSelChg(); ;Update_qu206856( 1 );">');
+    appendElement(null, check206863.div, '<label id="label206863id2" for="check206863id" class="custQCB custCB" style="" onchange="check206863Object.onSelChg(); ;Update_qu206856( 1 );"></label> ');
 
     appendElement(image354076, null, null);
     appendElement(image380060, null, null);

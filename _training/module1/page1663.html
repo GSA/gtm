@@ -134,6 +134,10 @@
 }
 </style>
 <style type="text/css">
+  .custRadio { margin: 0px 0px 0px 4px; padding-left: 28px; min-height: 24px; background: url(images/asset_5.png) left center no-repeat; cursor: pointer; display: inline-block; vertical-align:middle;}
+  input[type = "radio"]:checked ~ .custRadio, input[type = "radio"]:checked ~ .custRadioL {background-image: url(images/asset_4.png)}
+  .custQR  { padding: 0px 22px 0px 0px; margin: 0px 1px 1px 4px }
+  .custQCB { padding: 0px 29px 0px 0px; margin: 0px 1px 1px 4px }
   .trivInputLL { margin : 0px 0px 0px 9px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputLR { margin : 0px 9px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputNL { margin : 0px 0px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
@@ -523,12 +527,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu65989.hasBeenProcessed) {
     if( ans_Varl1q7 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action65989_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action65989_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q7 != '\u0054\u0072\u0075\u0065' && ans_Varl1q7 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action65989_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action65989_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -671,13 +675,13 @@ function Update_qu65989(value) {
    qu65989Object.hasBeenProcessed=false;
 }
 
-function action65989_1(fn){
+function action65989_3(fn){
     og65899.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action65989_2(fn){
+function action65989_4(fn){
     og65914.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1269,9 +1273,9 @@ text65992.addIe8Attr(131, 248, 699, 64, 0, 0)
 text65992.addHeading(0)
 text65992.addOpacity(100)
 text65992.arrCSSStyles = new Array();
-text65992.arrCSSStyles.push('span.text65992Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text65992.arrCSSStyles.push('span.text65992Font1 { font-size:20px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text65992.addInnerText('<div id=\"text65992\" aria-live=\"polite\" ><label id=\"label65993id\" for=\"radio65993id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text65992Font1\"  >True</span ><span class=\"text65992Font0\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text65992.arrCSSStyles.push('span.text65992Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
+text65992.addInnerText('<div id=\"text65992\" aria-live=\"polite\" ><label id=\"label65993id\" for=\"radio65993id\" onClick=\"Update_qu65989(radio65993id.value);radio65993Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text65992Font1\"  >True</span ><span class=\"text65992Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text65992.build()
 
 radio65993 = new ObjInline('radio65993',null,(is.ie?79:78),(is.ie?251:250),null,null,1,33, 0, null, null, 0)
@@ -1293,9 +1297,9 @@ text65994.addIe8Attr(131, 316, 699, 64, 0, 0)
 text65994.addHeading(0)
 text65994.addOpacity(100)
 text65994.arrCSSStyles = new Array();
-text65994.arrCSSStyles.push('span.text65994Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text65994.arrCSSStyles.push('span.text65994Font1 { font-size:20px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text65994.addInnerText('<div id=\"text65994\" aria-live=\"polite\" ><label id=\"label65995id\" for=\"radio65995id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text65994Font1\"  >False</span ><span class=\"text65994Font0\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text65994.arrCSSStyles.push('span.text65994Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
+text65994.addInnerText('<div id=\"text65994\" aria-live=\"polite\" ><label id=\"label65995id\" for=\"radio65995id\" onClick=\"Update_qu65989(radio65995id.value);radio65995Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text65994Font1\"  >False</span ><span class=\"text65994Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text65994.build()
 
 radio65995 = new ObjInline('radio65995',null,(is.ie?79:78),(is.ie?321:320),null,null,1,35, 0, null, null, 0)
@@ -1494,11 +1498,13 @@ if( is.min ){
     appendElement(text65991, '<fieldset id="qu65989_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text65992, '<fieldset id="qu65989_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu65989_fieldset" style="border:0;"></fieldset>', '<div id="radio65993"><a id="radio65993anc"></a></div>');
-    appendElement(null, radio65993.div, '<input type="radio" name="qu65989" class="trivInputNL"id="radio65993id" value="True" onClick="Update_qu65989(this.value);radio65993Object.onSelChg();" >');
+    appendElement(null, radio65993.div, '<input type="radio" name="qu65989" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio65993id" value="True"  >');
+    appendElement(null, radio65993.div, '<label id="label65993id2" for="radio65993id" class="custQR custRadio" style="" onClick="Update_qu65989(radio65993id.value);radio65993Object.onSelChg();"></label>');
 
     appendElement(text65994, '<fieldset id="qu65989_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu65989_fieldset" style="border:0;"></fieldset>', '<div id="radio65995"><a id="radio65995anc"></a></div>');
-    appendElement(null, radio65995.div, '<input type="radio" name="qu65989" class="trivInputNL"id="radio65995id" value="False" onClick="Update_qu65989(this.value);radio65995Object.onSelChg();" >');
+    appendElement(null, radio65995.div, '<input type="radio" name="qu65989" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio65995id" value="False"  >');
+    appendElement(null, radio65995.div, '<label id="label65995id2" for="radio65995id" class="custQR custRadio" style="" onClick="Update_qu65989(radio65995id.value);radio65995Object.onSelChg();"></label>');
 
     appendElement(image344094, null, null);
     appendElement(image379324, null, null);

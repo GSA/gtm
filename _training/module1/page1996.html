@@ -134,6 +134,10 @@
 }
 </style>
 <style type="text/css">
+  .custCB { margin: 0px 0px 0px 4px; padding-left: 40px; min-height: 29px; background: url(images/square-open.jpg) left center no-repeat; cursor: pointer; display: inline-block; vertical-align:middle;}
+  input[type = "checkbox"]:checked ~ .custCB, input[type = "checkbox"]:checked ~ .custCBL {background-image: url(images/square-closed.jpg)}
+  .custQR  { padding: 0px 22px 0px 0px; margin: 0px 1px 1px 4px }
+  .custQCB { padding: 0px 29px 0px 0px; margin: 0px 1px 1px 4px }
   .trivInputLL { margin : 0px 0px 0px 9px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputLR { margin : 0px 9px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputNL { margin : 0px 0px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
@@ -580,12 +584,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu70415.hasBeenProcessed) {
     if( ans_Varl1q12 == '\u004E\u0061\u006D\u0065\u0020\u006F\u0066\u0020\u0052\u0065\u0063\u0069\u0070\u0069\u0065\u006E\u0074\u0020\u004F\u0072\u0067\u0061\u006E\u0069\u007A\u0061\u0074\u0069\u006F\u006E' ) 
     { //1 
-        trivActFBCnt++; action70415_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action70415_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl1q12 != '\u004E\u0061\u006D\u0065\u0020\u006F\u0066\u0020\u0052\u0065\u0063\u0069\u0070\u0069\u0065\u006E\u0074\u0020\u004F\u0072\u0067\u0061\u006E\u0069\u007A\u0061\u0074\u0069\u006F\u006E' && ans_Varl1q12 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action70415_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action70415_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -613,6 +617,11 @@ function OnDeviceRotate() {
 
 }
 
+trivPageScope.qsCustBtn_check70419;
+trivPageScope.qsCustBtn_check70421;
+trivPageScope.qsCustBtn_check70423;
+trivPageScope.qsCustBtn_check70425;
+trivPageScope.qsCustBtn_check70427;
 function action70078(fn){
     og70067.actionHide(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
@@ -859,13 +868,13 @@ function Update_qu70415( upd ) {
     qu70415Object.hasBeenProcessed=false;
 }
 
-function action70415_1(fn){
+function action70415_3(fn){
     og70067.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action70415_2(fn){
+function action70415_4(fn){
     og69974.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1742,7 +1751,7 @@ text70418.addOpacity(100)
 text70418.arrCSSStyles = new Array();
 text70418.arrCSSStyles.push('span.text70418Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
 text70418.arrCSSStyles.push('span.text70418Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
-text70418.addInnerText('<div id=\"text70418\" aria-live=\"polite\" ><label id=\"label70419id\" for=\"check70419id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70418Font1\"  >Program Description</span ><span class=\"text70418Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text70418.addInnerText('<div id=\"text70418\" aria-live=\"polite\" ><label id=\"label70419id\" for=\"check70419id\" onchange=\"check70419Object.onSelChg(); ;Update_qu70415( 1 );\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70418Font1\"  >Program Description</span ><span class=\"text70418Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text70418.build()
 
 check70419 = new ObjInline('check70419',null,(is.ie?74:73),(is.ie?240:239),null,null,1,46, 0, null, null, 0)
@@ -1766,7 +1775,7 @@ text70420.addOpacity(100)
 text70420.arrCSSStyles = new Array();
 text70420.arrCSSStyles.push('span.text70420Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
 text70420.arrCSSStyles.push('span.text70420Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
-text70420.addInnerText('<div id=\"text70420\" aria-live=\"polite\" ><label id=\"label70421id\" for=\"check70421id\" ><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70420Font1\"  >Application and Submission Information</span ><span class=\"text70420Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text70420.addInnerText('<div id=\"text70420\" aria-live=\"polite\" ><label id=\"label70421id\" for=\"check70421id\" onchange=\"check70421Object.onSelChg(); ;Update_qu70415( 1 );\"><p lang=\"en\"  style=\"margin-left:12px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70420Font1\"  >Application and Submission Information</span ><span class=\"text70420Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text70420.build()
 
 check70421 = new ObjInline('check70421',null,(is.ie?74:73),(is.ie?303:302),null,null,1,48, 0, null, null, 0)
@@ -1790,7 +1799,7 @@ text70422.addOpacity(100)
 text70422.arrCSSStyles = new Array();
 text70422.arrCSSStyles.push('span.text70422Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
 text70422.arrCSSStyles.push('span.text70422Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
-text70422.addInnerText('<div id=\"text70422\" aria-live=\"polite\" ><label id=\"label70423id\" for=\"check70423id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70422Font1\"  >Name of Recipient Organization</span ><span class=\"text70422Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text70422.addInnerText('<div id=\"text70422\" aria-live=\"polite\" ><label id=\"label70423id\" for=\"check70423id\" onchange=\"check70423Object.onSelChg(); ;Update_qu70415( 1 );\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70422Font1\"  >Name of Recipient Organization</span ><span class=\"text70422Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text70422.build()
 
 check70423 = new ObjInline('check70423',null,(is.ie?76:75),(is.ie?370:369),null,null,1,50, 0, null, null, 0)
@@ -1814,7 +1823,7 @@ text70424.addOpacity(100)
 text70424.arrCSSStyles = new Array();
 text70424.arrCSSStyles.push('span.text70424Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
 text70424.arrCSSStyles.push('span.text70424Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
-text70424.addInnerText('<div id=\"text70424\" aria-live=\"polite\" ><label id=\"label70425id\" for=\"check70425id\" ><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70424Font1\"  >Federal Award Administration <br />Information</span ><span class=\"text70424Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text70424.addInnerText('<div id=\"text70424\" aria-live=\"polite\" ><label id=\"label70425id\" for=\"check70425id\" onchange=\"check70425Object.onSelChg(); ;Update_qu70415( 1 );\"><p lang=\"en\"  legLH=\"1.135\" style=\"margin-left:0px;text-indent:0px;line-height:1.050;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70424Font1\"  >Federal Award Administration <br />Information</span ><span class=\"text70424Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text70424.build()
 
 check70425 = new ObjInline('check70425',null,(is.ie?532:531),(is.ie?239:238),null,null,1,52, 0, null, null, 0)
@@ -1838,7 +1847,7 @@ text70426.addOpacity(100)
 text70426.arrCSSStyles = new Array();
 text70426.arrCSSStyles.push('span.text70426Font1 { font-size:15px; font-family:"Arial", sans-serif; color:#00324b;}');
 text70426.arrCSSStyles.push('span.text70426Font2 { font-size:15px; font-family:"Oswald"; color:#000000;}');
-text70426.addInnerText('<div id=\"text70426\" aria-live=\"polite\" ><label id=\"label70427id\" for=\"check70427id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70426Font1\"  >Eligibility Information</span ><span class=\"text70426Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text70426.addInnerText('<div id=\"text70426\" aria-live=\"polite\" ><label id=\"label70427id\" for=\"check70427id\" onchange=\"check70427Object.onSelChg(); ;Update_qu70415( 1 );\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text70426Font1\"  >Eligibility Information</span ><span class=\"text70426Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text70426.build()
 
 check70427 = new ObjInline('check70427',null,(is.ie?532:531),(is.ie?307:306),null,null,1,54, 0, null, null, 0)
@@ -2085,23 +2094,28 @@ if( is.min ){
     appendElement(text70417, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text70418, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', '<div id="check70419"><a id="check70419anc"></a></div>');
-    appendElement(null, check70419.div, '<input type="checkbox" name="qu70415" class="trivInputNL"id="check70419id" value="Program Description" onClick="check70419Object.onSelChg();;Update_qu70415( 1 );">');
+    appendElement(null, check70419.div, '<input type="checkbox" name="qu70415" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check70419id" value="Program Description" onchange="check70419Object.onSelChg(); ;Update_qu70415( 1 );">');
+    appendElement(null, check70419.div, '<label id="label70419id2" for="check70419id" class="custQCB custCB" style="" onchange="check70419Object.onSelChg(); ;Update_qu70415( 1 );"></label> ');
 
     appendElement(text70420, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', '<div id="check70421"><a id="check70421anc"></a></div>');
-    appendElement(null, check70421.div, '<input type="checkbox" name="qu70415" class="trivInputNL"id="check70421id" value="Application and Submission Information" onClick="check70421Object.onSelChg();;Update_qu70415( 1 );">');
+    appendElement(null, check70421.div, '<input type="checkbox" name="qu70415" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check70421id" value="Application and Submission Information" onchange="check70421Object.onSelChg(); ;Update_qu70415( 1 );">');
+    appendElement(null, check70421.div, '<label id="label70421id2" for="check70421id" class="custQCB custCB" style="" onchange="check70421Object.onSelChg(); ;Update_qu70415( 1 );"></label> ');
 
     appendElement(text70422, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', '<div id="check70423"><a id="check70423anc"></a></div>');
-    appendElement(null, check70423.div, '<input type="checkbox" name="qu70415" class="trivInputNL"id="check70423id" value="Name of Recipient Organization" onClick="check70423Object.onSelChg();;Update_qu70415( 1 );">');
+    appendElement(null, check70423.div, '<input type="checkbox" name="qu70415" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check70423id" value="Name of Recipient Organization" onchange="check70423Object.onSelChg(); ;Update_qu70415( 1 );">');
+    appendElement(null, check70423.div, '<label id="label70423id2" for="check70423id" class="custQCB custCB" style="" onchange="check70423Object.onSelChg(); ;Update_qu70415( 1 );"></label> ');
 
     appendElement(text70424, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', '<div id="check70425"><a id="check70425anc"></a></div>');
-    appendElement(null, check70425.div, '<input type="checkbox" name="qu70415" class="trivInputNL"id="check70425id" value="Federal Award Administration  Information" onClick="check70425Object.onSelChg();;Update_qu70415( 1 );">');
+    appendElement(null, check70425.div, '<input type="checkbox" name="qu70415" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check70425id" value="Federal Award Administration  Information" onchange="check70425Object.onSelChg(); ;Update_qu70415( 1 );">');
+    appendElement(null, check70425.div, '<label id="label70425id2" for="check70425id" class="custQCB custCB" style="" onchange="check70425Object.onSelChg(); ;Update_qu70415( 1 );"></label> ');
 
     appendElement(text70426, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu70415_fieldset" style="border:0;"></fieldset>', '<div id="check70427"><a id="check70427anc"></a></div>');
-    appendElement(null, check70427.div, '<input type="checkbox" name="qu70415" class="trivInputNL"id="check70427id" value="Eligibility Information" onClick="check70427Object.onSelChg();;Update_qu70415( 1 );">');
+    appendElement(null, check70427.div, '<input type="checkbox" name="qu70415" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="check70427id" value="Eligibility Information" onchange="check70427Object.onSelChg(); ;Update_qu70415( 1 );">');
+    appendElement(null, check70427.div, '<label id="label70427id2" for="check70427id" class="custQCB custCB" style="" onchange="check70427Object.onSelChg(); ;Update_qu70415( 1 );"></label> ');
 
     appendElement(image345088, null, null);
     appendElement(image379459, null, null);

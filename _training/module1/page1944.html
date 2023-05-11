@@ -134,6 +134,10 @@
 }
 </style>
 <style type="text/css">
+  .custRadio { margin: 0px 0px 0px 4px; padding-left: 28px; min-height: 24px; background: url(images/asset_5.png) left center no-repeat; cursor: pointer; display: inline-block; vertical-align:middle;}
+  input[type = "radio"]:checked ~ .custRadio, input[type = "radio"]:checked ~ .custRadioL {background-image: url(images/asset_4.png)}
+  .custQR  { padding: 0px 22px 0px 0px; margin: 0px 1px 1px 4px }
+  .custQCB { padding: 0px 29px 0px 0px; margin: 0px 1px 1px 4px }
   .trivInputLL { margin : 0px 0px 0px 9px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputLR { margin : 0px 9px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputNL { margin : 0px 0px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
@@ -522,11 +526,11 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu69466.hasBeenProcessed) {
     if( ans_Varl1q11 != '\u0046\u0061\u006C\u0073\u0065' && ans_Varl1q11 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action69466_1(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action69466_3(onAfterFBAction);return 0;  } //2 
 
     else if( ans_Varl1q11 == '\u0046\u0061\u006C\u0073\u0065' ) 
     { //1 
-        trivActFBCnt++; action69466_2(onAfterFBAction);  return 0;
+        trivActFBCnt++; action69466_4(onAfterFBAction);  return 0;
   } //1
 
   }
@@ -670,13 +674,13 @@ function Update_qu69466(value) {
    qu69466Object.hasBeenProcessed=false;
 }
 
-function action69466_1(fn){
+function action69466_3(fn){
     og95639.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action69466_2(fn){
+function action69466_4(fn){
     og69312.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1252,7 +1256,7 @@ text69469.addOpacity(100)
 text69469.arrCSSStyles = new Array();
 text69469.arrCSSStyles.push('span.text69469Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text69469.arrCSSStyles.push('span.text69469Font1 { font-size:20px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text69469.addInnerText('<div id=\"text69469\" aria-live=\"polite\" ><label id=\"label69470id\" for=\"radio69470id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text69469Font1\"  >True</span ><span class=\"text69469Font0\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text69469.addInnerText('<div id=\"text69469\" aria-live=\"polite\" ><label id=\"label69470id\" for=\"radio69470id\" onClick=\"Update_qu69466(radio69470id.value);radio69470Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text69469Font1\"  >True</span ><span class=\"text69469Font0\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text69469.build()
 
 radio69470 = new ObjInline('radio69470',null,(is.ie?79:78),(is.ie?241:240),null,null,1,32, 0, null, null, 0)
@@ -1276,7 +1280,7 @@ text69471.addOpacity(100)
 text69471.arrCSSStyles = new Array();
 text69471.arrCSSStyles.push('span.text69471Font0 { font-size:19px; font-family:"Oswald"; color:#00324b;}');
 text69471.arrCSSStyles.push('span.text69471Font1 { font-size:20px; font-family:"Arial", sans-serif; color:#ffffff;}');
-text69471.addInnerText('<div id=\"text69471\" aria-live=\"polite\" ><label id=\"label69472id\" for=\"radio69472id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text69471Font1\"  >False</span ><span class=\"text69471Font0\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text69471.addInnerText('<div id=\"text69471\" aria-live=\"polite\" ><label id=\"label69472id\" for=\"radio69472id\" onClick=\"Update_qu69466(radio69472id.value);radio69472Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text69471Font1\"  >False</span ><span class=\"text69471Font0\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text69471.build()
 
 radio69472 = new ObjInline('radio69472',null,(is.ie?79:78),(is.ie?311:310),null,null,1,34, 0, null, null, 0)
@@ -1493,11 +1497,13 @@ if( is.min ){
     appendElement(text69468, '<fieldset id="qu69466_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text69469, '<fieldset id="qu69466_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu69466_fieldset" style="border:0;"></fieldset>', '<div id="radio69470"><a id="radio69470anc"></a></div>');
-    appendElement(null, radio69470.div, '<input type="radio" name="qu69466" class="trivInputNL"id="radio69470id" value="True" onClick="Update_qu69466(this.value);radio69470Object.onSelChg();" >');
+    appendElement(null, radio69470.div, '<input type="radio" name="qu69466" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio69470id" value="True"  >');
+    appendElement(null, radio69470.div, '<label id="label69470id2" for="radio69470id" class="custQR custRadio" style="" onClick="Update_qu69466(radio69470id.value);radio69470Object.onSelChg();"></label>');
 
     appendElement(text69471, '<fieldset id="qu69466_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu69466_fieldset" style="border:0;"></fieldset>', '<div id="radio69472"><a id="radio69472anc"></a></div>');
-    appendElement(null, radio69472.div, '<input type="radio" name="qu69466" class="trivInputNL"id="radio69472id" value="False" onClick="Update_qu69466(this.value);radio69472Object.onSelChg();" >');
+    appendElement(null, radio69472.div, '<input type="radio" name="qu69466" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio69472id" value="False"  >');
+    appendElement(null, radio69472.div, '<label id="label69472id2" for="radio69472id" class="custQR custRadio" style="" onClick="Update_qu69466(radio69472id.value);radio69472Object.onSelChg();"></label>');
 
     appendElement(text1963, null, null);
     appendElement(image344888, null, null);

@@ -134,6 +134,10 @@
 }
 </style>
 <style type="text/css">
+  .custRadio { margin: 0px 0px 0px 4px; padding-left: 28px; min-height: 24px; background: url(images/asset_5.png) left center no-repeat; cursor: pointer; display: inline-block; vertical-align:middle;}
+  input[type = "radio"]:checked ~ .custRadio, input[type = "radio"]:checked ~ .custRadioL {background-image: url(images/asset_4.png)}
+  .custQR  { padding: 0px 22px 0px 0px; margin: 0px 1px 1px 4px }
+  .custQCB { padding: 0px 29px 0px 0px; margin: 0px 1px 1px 4px }
   .trivInputLL { margin : 0px 0px 0px 9px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputLR { margin : 0px 9px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
   .trivInputNL { margin : 0px 0px 0px 3px; padding : 0px; display : inline-block; vertical-align : middle; }
@@ -522,12 +526,12 @@ function checkQuestions( bFeedback, bForce, bNotLeavingPage ) {
   if( bFeedback && currFeedbackIdx == 0 && !qu206330.hasBeenProcessed) {
     if( ans_Varl2q5 == '\u0054\u0072\u0075\u0065' ) 
     { //1 
-        trivActFBCnt++; action206330_1(onAfterFBAction);  return 0;
+        trivActFBCnt++; action206330_3(onAfterFBAction);  return 0;
   } //1
 
     else if( ans_Varl2q5 != '\u0054\u0072\u0075\u0065' && ans_Varl2q5 != '~~~null~~~' ) 
     { //2 
-trivActFBCnt++; action206330_2(onAfterFBAction);return 0;  } //2 
+trivActFBCnt++; action206330_4(onAfterFBAction);return 0;  } //2 
 
   }
   if( !bFeedback ) currFeedbackIdx = 1;
@@ -670,13 +674,13 @@ function Update_qu206330(value) {
    qu206330Object.hasBeenProcessed=false;
 }
 
-function action206330_1(fn){
+function action206330_3(fn){
     og206336.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
 }
 
-function action206330_2(fn){
+function action206330_4(fn){
     og206351.actionShow(); 
     if(fn && typeof(fn) == 'string' ) eval(fn);
     else if(fn && typeof(fn) == 'function' ) fn();
@@ -1270,7 +1274,7 @@ text206332.addOpacity(100)
 text206332.arrCSSStyles = new Array();
 text206332.arrCSSStyles.push('span.text206332Font1 { font-size:20px; font-family:"Arial", sans-serif; color:#ffffff;}');
 text206332.arrCSSStyles.push('span.text206332Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text206332.addInnerText('<div id=\"text206332\" aria-live=\"polite\" ><label id=\"label206333id\" for=\"radio206333id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206332Font1\"  >True</span ><span class=\"text206332Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text206332.addInnerText('<div id=\"text206332\" aria-live=\"polite\" ><label id=\"label206333id\" for=\"radio206333id\" onClick=\"Update_qu206330(radio206333id.value);radio206333Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206332Font1\"  >True</span ><span class=\"text206332Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text206332.build()
 
 radio206333 = new ObjInline('radio206333',null,(is.ie?79:78),(is.ie?252:251),null,null,1,33, 0, null, null, 0)
@@ -1294,7 +1298,7 @@ text206334.addOpacity(100)
 text206334.arrCSSStyles = new Array();
 text206334.arrCSSStyles.push('span.text206334Font1 { font-size:20px; font-family:"Arial", sans-serif; color:#ffffff;}');
 text206334.arrCSSStyles.push('span.text206334Font2 { font-size:19px; font-family:"Oswald"; color:#010101;}');
-text206334.addInnerText('<div id=\"text206334\" aria-live=\"polite\" ><label id=\"label206335id\" for=\"radio206335id\" ><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206334Font1\"  >False</span ><span class=\"text206334Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
+text206334.addInnerText('<div id=\"text206334\" aria-live=\"polite\" ><label id=\"label206335id\" for=\"radio206335id\" onClick=\"Update_qu206330(radio206335id.value);radio206335Object.onSelChg();\"><p lang=\"en\"  style=\"margin-left:0px;text-indent:0px;margin-top:0px;margin-bottom:0px;text-align:left;\" >\n<span class=\"text206334Font1\"  >False</span ><span class=\"text206334Font2\" style=\"background-color:transparent\" >\n</span ></p ></label></div>\n');
 text206334.build()
 
 radio206335 = new ObjInline('radio206335',null,(is.ie?77:76),(is.ie?320:319),null,null,1,35, 0, null, null, 0)
@@ -1493,11 +1497,13 @@ if( is.min ){
     appendElement(text206331, '<fieldset id="qu206330_fieldset" style="border:0;"></fieldset>', null);
     appendElement(text206332, '<fieldset id="qu206330_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu206330_fieldset" style="border:0;"></fieldset>', '<div id="radio206333"><a id="radio206333anc"></a></div>');
-    appendElement(null, radio206333.div, '<input type="radio" name="qu206330" class="trivInputNL"id="radio206333id" value="True" onClick="Update_qu206330(this.value);radio206333Object.onSelChg();" >');
+    appendElement(null, radio206333.div, '<input type="radio" name="qu206330" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio206333id" value="True"  >');
+    appendElement(null, radio206333.div, '<label id="label206333id2" for="radio206333id" class="custQR custRadio" style="" onClick="Update_qu206330(radio206333id.value);radio206333Object.onSelChg();"></label>');
 
     appendElement(text206334, '<fieldset id="qu206330_fieldset" style="border:0;"></fieldset>', null);
     appendElement(null, '<fieldset id="qu206330_fieldset" style="border:0;"></fieldset>', '<div id="radio206335"><a id="radio206335anc"></a></div>');
-    appendElement(null, radio206335.div, '<input type="radio" name="qu206330" class="trivInputNL"id="radio206335id" value="False" onClick="Update_qu206330(this.value);radio206335Object.onSelChg();" >');
+    appendElement(null, radio206335.div, '<input type="radio" name="qu206330" style="opacity:0;width:0px;margin:0px;padding:0px;position:absolute;" id="radio206335id" value="False"  >');
+    appendElement(null, radio206335.div, '<label id="label206335id2" for="radio206335id" class="custQR custRadio" style="" onClick="Update_qu206330(radio206335id.value);radio206335Object.onSelChg();"></label>');
 
     appendElement(image353464, null, null);
     appendElement(image379952, null, null);
